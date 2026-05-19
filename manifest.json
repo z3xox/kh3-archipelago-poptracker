@@ -2,7 +2,7 @@
   "name": "Kingdom Hearts III Archipelago",
   "game_name": "Kingdom Hearts III",
   "package_uid": "kh3_archipelago_tracker",
-  "package_version": "0.1.1",
+  "package_version": "0.1.2",
   "platform": "pc",
   "author": "z3xox",
   "min_poptracker_version": "0.25.0",
