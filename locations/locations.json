@@ -321,8 +321,8 @@
             "map_locations": [
               {
                 "map": "map_olympus_mount_olympus_p2",
-                "x": 512,
-                "y": 158
+                "x": 154,
+                "y": 287
               }
             ]
           },
@@ -337,8 +337,8 @@
             "map_locations": [
               {
                 "map": "map_olympus_mount_olympus_p2",
-                "x": 154,
-                "y": 287
+                "x": 512,
+                "y": 158
               }
             ]
           },
@@ -3280,10 +3280,10 @@
             ]
           },
           {
-            "name": "San Fransokyo - Small Chest 10",
+            "name": "San Fransokyo - Small Chest 12",
             "sections": [
               {
-                "name": "San Fransokyo - Small Chest 10",
+                "name": "San Fransokyo - Small Chest 12",
                 "item_count": 1
               }
             ],
@@ -3291,7 +3291,7 @@
               {
                 "map": "map_sanfransokyo",
                 "x": 106,
-                "y": 150
+                "y": 149
               }
             ]
           },
@@ -3584,14 +3584,14 @@
             ]
           },
           {
-            "name": "SF - Chests 11+12+18",
+            "name": "SF - Chests 11+12+17",
             "sections": [
               {
                 "name": "San Fransokyo - Small Chest 11",
                 "item_count": 1
               },
               {
-                "name": "San Fransokyo - Small Chest 12",
+                "name": "San Fransokyo - Small Chest 10",
                 "item_count": 1
               },
               {
