@@ -1,0 +1,562 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "dock": "right",
+      "content": [
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Olympus",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Thebes",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_olympus_thebes"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mt. Olympus P1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_olympus_mount_olympus_p1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mt. Olympus P2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_olympus_mount_olympus_p2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Realm Of The Gods",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_olympus_realm_of_the_gods"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "TT",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_twilight_town"
+                ]
+              }
+            },
+            {
+              "title": "Toy Box",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Andy's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_toybox_andys_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Galaxy 1F+Top",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_toybox_galaxy_1st_top"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Galaxy 2F+Vents",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_toybox_galaxy_2nd_vents"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Galaxy 3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_toybox_galaxy_3rd"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Corona",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Hills A+Tower",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_corona_hills_a"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Hills B+C",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_corona_hills_bc"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Marsh",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_corona_marsh"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Campsite",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_corona_campsite"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "The Kingdom",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_corona_kingdom"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Monstropolis",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Monsters Inc.",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_monstropolis_monsters_inc"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "The Factory",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_monstropolis_factory"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Power Plant",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_monstropolis_power_plant"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Door Vault",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_monstropolis_door_vault"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Arendelle",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Treescape",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_treescape"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gorge",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_gorge"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Snowfield",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_snowfield"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lab Middle",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_lab_middle"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lab Mid+Low",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_lab_mid_lower"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lab Middle 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_lab_middle2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lab Upper",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_lab_upper"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Valley of Ice",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_valley_of_ice"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Frozen Wall",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_frozen_wall"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Foothills",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_arendelle_foothills"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Caribbean",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Port Royal",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_port_royal"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Huddled Isles",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_huddled_isles"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Isla Mastiles",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_isla_mastiles"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Ship's End",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_ships_end"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Verdemonta\u00f1a",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_isla_verdemontana"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Sandbar Isle",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_sandbar_isle"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Exile Island",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_exile_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Confinement",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_confinement_isle"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Horseshoe",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_horseshoe_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gateway",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_caribbean_gateway"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "SanFran",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_sanfransokyo"
+                ]
+              }
+            },
+            {
+              "title": "KG",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_keyblade_graveyard"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "dock": "left",
+          "content": [
+            {
+              "type": "layout",
+              "key": "item_grid"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "item_grid": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Proofs",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "3,3",
+          "item_size": "48,48",
+          "rows": [
+            [
+              "proof_of_fantasy",
+              "proof_of_promises",
+              "proof_of_times_past"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Magic",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "3,3",
+          "item_size": "48,48",
+          "rows": [
+            [
+              "fire",
+              "blizzard",
+              "thunder"
+            ],
+            [
+              "water",
+              "aero",
+              "cure"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Key Items",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "3,3",
+          "item_size": "48,48",
+          "rows": [
+            [
+              "gummiphone",
+              "heart_piece",
+              "secret_report"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Heartbinders",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "3,3",
+          "item_size": "48,48",
+          "rows": [
+            [
+              "dream_heartbinder",
+              "pixel_heartbinder",
+              "ohana_heartbinder",
+              "pride_heartbinder",
+              "ocean_heartbinder"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Movement",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "3,3",
+          "item_size": "48,48",
+          "rows": [
+            [
+              "ability_air_slide",
+              "ability_dodge_roll",
+              "ability_block",
+              "ability_pole_spin"
+            ],
+            [
+              "ability_doubleflight",
+              "ability_glide",
+              "ability_superslide",
+              "ability_high_jump"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Survival & Bonuses",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "3,3",
+          "item_size": "48,48",
+          "rows": [
+            [
+              "ability_second_chance",
+              "ability_withstand_combo",
+              "ability_leaf_bracer"
+            ],
+            [
+              "hp_boost",
+              "mp_boost",
+              "bonus_armor_slot_plus1",
+              "bonus_accessory_slot_plus1",
+              "bonus_item_slot_plus1"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tracker_broadcast": {
+    "type": "container",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "rows": [
+          [
+            "proof_of_fantasy",
+            "proof_of_promises",
+            "proof_of_times_past"
+          ],
+          [
+            "fire",
+            "blizzard",
+            "thunder"
+          ],
+          [
+            "water",
+            "aero",
+            "cure"
+          ]
+        ]
+      }
+    ]
+  }
+}

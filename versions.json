@@ -1,0 +1,8 @@
+[
+  {
+    "package_version": "0.1.0",
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.1.0/kh3-archipelago-poptracker-v0.1.0.zip",
+    "sha256": "",
+    "changelog": ["Initial release with chest tracking for all worlds"]
+  }
+]

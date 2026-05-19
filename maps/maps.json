@@ -1,0 +1,242 @@
+[
+  {
+    "name": "map_olympus_thebes",
+    "location_size": 10,
+    "location_border_thickness": 1,
+    "img": "images/map_olympus_thebes.png"
+  },
+  {
+    "name": "map_olympus_mount_olympus_p1",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_olympus_mount_olympus_p1.png"
+  },
+  {
+    "name": "map_olympus_mount_olympus_p2",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_olympus_mount_olympus_p2.png"
+  },
+  {
+    "name": "map_olympus_realm_of_the_gods",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_olympus_realm_of_the_gods.png"
+  },
+  {
+    "name": "map_twilight_town",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_twilight_town.png"
+  },
+  {
+    "name": "map_toybox_andys_house",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_toybox_andys_house.png"
+  },
+  {
+    "name": "map_toybox_galaxy_1st_top",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_toybox_galaxy_1st_top.png"
+  },
+  {
+    "name": "map_toybox_galaxy_2nd_vents",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_toybox_galaxy_2nd_vents.png"
+  },
+  {
+    "name": "map_toybox_galaxy_3rd",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_toybox_galaxy_3rd.png"
+  },
+  {
+    "name": "map_corona_hills_a",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_corona_hills_a.png"
+  },
+  {
+    "name": "map_corona_hills_bc",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_corona_hills_bc.png"
+  },
+  {
+    "name": "map_corona_marsh",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_corona_marsh.png"
+  },
+  {
+    "name": "map_corona_campsite",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_corona_campsite.png"
+  },
+  {
+    "name": "map_corona_kingdom",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_corona_kingdom.png"
+  },
+  {
+    "name": "map_arendelle_treescape",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_treescape.png"
+  },
+  {
+    "name": "map_arendelle_lab_middle",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_lab_middle.png"
+  },
+  {
+    "name": "map_arendelle_lab_mid_lower",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_lab_mid_lower.png"
+  },
+  {
+    "name": "map_arendelle_lab_middle2",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_lab_middle2.png"
+  },
+  {
+    "name": "map_arendelle_lab_upper",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_lab_upper.png"
+  },
+  {
+    "name": "map_arendelle_gorge",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_gorge.png"
+  },
+  {
+    "name": "map_arendelle_frozen_wall",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_frozen_wall.png"
+  },
+  {
+    "name": "map_arendelle_valley_of_ice",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_valley_of_ice.png"
+  },
+  {
+    "name": "map_arendelle_snowfield",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_snowfield.png"
+  },
+  {
+    "name": "map_arendelle_foothills",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_arendelle_foothills.png"
+  },
+  {
+    "name": "map_caribbean_huddled_isles",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_huddled_isles.png"
+  },
+  {
+    "name": "map_caribbean_isla_mastiles",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_isla_mastiles.png"
+  },
+  {
+    "name": "map_caribbean_ships_end",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_ships_end.png"
+  },
+  {
+    "name": "map_caribbean_isla_verdemontana",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_isla_verdemontana.png"
+  },
+  {
+    "name": "map_caribbean_sandbar_isle",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_sandbar_isle.png"
+  },
+  {
+    "name": "map_caribbean_exile_island",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_exile_island.png"
+  },
+  {
+    "name": "map_caribbean_confinement_isle",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_confinement_isle.png"
+  },
+  {
+    "name": "map_caribbean_horseshoe_island",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_horseshoe_island.png"
+  },
+  {
+    "name": "map_caribbean_gateway",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_gateway.png"
+  },
+  {
+    "name": "map_caribbean_port_royal",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_caribbean_port_royal.png"
+  },
+  {
+    "name": "map_sanfransokyo",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/map_sanfransokyo.png"
+  },
+  {
+    "name": "map_keyblade_graveyard",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_keyblade_graveyard.png"
+  },
+  {
+    "name": "map_monstropolis_monsters_inc",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_monstropolis_monsters_inc.png"
+  },
+  {
+    "name": "map_monstropolis_factory",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_monstropolis_factory.png"
+  },
+  {
+    "name": "map_monstropolis_power_plant",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_monstropolis_power_plant.png"
+  },
+  {
+    "name": "map_monstropolis_door_vault",
+    "location_size": 14,
+    "location_border_thickness": 2,
+    "img": "images/map_monstropolis_door_vault.png"
+  }
+]

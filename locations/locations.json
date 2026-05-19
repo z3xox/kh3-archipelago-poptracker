@@ -1,0 +1,3757 @@
+[
+  {
+    "name": "Olympus",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "Olympus - Large Chest 1",
+            "sections": [
+              {
+                "name": "Olympus - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 438,
+                "y": 377
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Large Chest 2",
+            "sections": [
+              {
+                "name": "Olympus - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 513,
+                "y": 643
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Large Chest 3",
+            "sections": [
+              {
+                "name": "Olympus - Large Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 647,
+                "y": 53
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Large Chest 4",
+            "sections": [
+              {
+                "name": "Olympus - Large Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 639,
+                "y": 596
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 1",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 627,
+                "y": 338
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 2",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 606,
+                "y": 439
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 3",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 430,
+                "y": 470
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 4",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 454,
+                "y": 314
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 6",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 49,
+                "y": 549
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 8",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_realm_of_the_gods",
+                "x": 691,
+                "y": 143
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 9",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 682,
+                "y": 631
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 10",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 664,
+                "y": 667
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 11",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 316,
+                "y": 139
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 12",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 328,
+                "y": 196
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 13",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 295,
+                "y": 148
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 14",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 14",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 514,
+                "y": 374
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 15",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 426,
+                "y": 472
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 16",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p1",
+                "x": 202,
+                "y": 539
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 17",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p2",
+                "x": 585,
+                "y": 113
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 20",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 20",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p2",
+                "x": 512,
+                "y": 158
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 21",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 21",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_mount_olympus_p2",
+                "x": 154,
+                "y": 287
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 22",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 22",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 117,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 23",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 23",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 142,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 24",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 24",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 123,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 25",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 25",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 281,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 26",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 26",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 260,
+                "y": 322
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 27",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 27",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 274,
+                "y": 499
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 28",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 28",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 518,
+                "y": 544
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 29",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 29",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 385,
+                "y": 542
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 30",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 30",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 295,
+                "y": 591
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 31",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 31",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 424,
+                "y": 486
+              }
+            ]
+          },
+          {
+            "name": "Olympus - Small Chest 33",
+            "sections": [
+              {
+                "name": "Olympus - Small Chest 33",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 599,
+                "y": 497
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Twilight Town",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "Twilight Town - Large Chest 1",
+            "sections": [
+              {
+                "name": "Twilight Town - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 161,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 1",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 259,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 2",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 184,
+                "y": 533
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 3",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 209,
+                "y": 352
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 4",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 247,
+                "y": 429
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 5",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 107,
+                "y": 31
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 6",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 517,
+                "y": 376
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 7",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 530,
+                "y": 531
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 8",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 639,
+                "y": 426
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Small Chest 9",
+            "sections": [
+              {
+                "name": "Twilight Town - Small Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 681,
+                "y": 24
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toy Box",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "Toy Box - Large Chest 1",
+            "sections": [
+              {
+                "name": "Toy Box - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_andys_house",
+                "x": 373,
+                "y": 601
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Large Chest 2",
+            "sections": [
+              {
+                "name": "Toy Box - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_andys_house",
+                "x": 274,
+                "y": 610
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Large Chest 3",
+            "sections": [
+              {
+                "name": "Toy Box - Large Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_1st_top",
+                "x": 185,
+                "y": 168
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Large Chest 4",
+            "sections": [
+              {
+                "name": "Toy Box - Large Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 507,
+                "y": 172
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Large Chest 5",
+            "sections": [
+              {
+                "name": "Toy Box - Large Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 83,
+                "y": 271
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Large Chest 6",
+            "sections": [
+              {
+                "name": "Toy Box - Large Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_1st_top",
+                "x": 640,
+                "y": 245
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 1",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_andys_house",
+                "x": 682,
+                "y": 626
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 2",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_andys_house",
+                "x": 481,
+                "y": 875
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 3",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 195,
+                "y": 398
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 4",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_1st_top",
+                "x": 560,
+                "y": 85
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 5",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 316,
+                "y": 80
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 6",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 266,
+                "y": 108
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 7",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 317,
+                "y": 143
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 8",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 643,
+                "y": 85
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 9",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 506,
+                "y": 174
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 11",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 608,
+                "y": 183
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 12",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 715,
+                "y": 257
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 13",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 664,
+                "y": 263
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 14",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 14",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 679,
+                "y": 354
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 15",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 162,
+                "y": 435
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 16",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 198,
+                "y": 528
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 17",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 501,
+                "y": 124
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 18",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 18",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 127,
+                "y": 98
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 19",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 19",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 157,
+                "y": 96
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 20",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 20",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 187,
+                "y": 281
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 22",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 22",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 130,
+                "y": 263
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 23",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 23",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_2nd_vents",
+                "x": 75,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 24",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 24",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_1st_top",
+                "x": 331,
+                "y": 279
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Small Chest 25",
+            "sections": [
+              {
+                "name": "Toy Box - Small Chest 25",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 308,
+                "y": 531
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kingdom of Corona",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "Kingdom of Corona - Large Chest 1",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_a",
+                "x": 230,
+                "y": 135
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Large Chest 2",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_marsh",
+                "x": 491,
+                "y": 124
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Large Chest 3",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Large Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_a",
+                "x": 387,
+                "y": 313
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Large Chest 4",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Large Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 357,
+                "y": 19
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Large Chest 5",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Large Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_kingdom",
+                "x": 573,
+                "y": 296
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Large Chest 6",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Large Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 146,
+                "y": 261
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 1",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_a",
+                "x": 479,
+                "y": 156
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 2",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_bc",
+                "x": 158,
+                "y": 199
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 3",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_bc",
+                "x": 206,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 4",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_bc",
+                "x": 396,
+                "y": 226
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 5",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_bc",
+                "x": 561,
+                "y": 324
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 6",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_bc",
+                "x": 544,
+                "y": 481
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 7",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_a",
+                "x": 61,
+                "y": 271
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 8",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_marsh",
+                "x": 296,
+                "y": 213
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 9",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_marsh",
+                "x": 470,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 10",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 147,
+                "y": 151
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 11",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 136,
+                "y": 306
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 12",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 30,
+                "y": 382
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 13",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 27,
+                "y": 455
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 14",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 14",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 564,
+                "y": 455
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 15",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_marsh",
+                "x": 56,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 16",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 681,
+                "y": 284
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 17",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_campsite",
+                "x": 352,
+                "y": 105
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 18",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 18",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_kingdom",
+                "x": 613,
+                "y": 59
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 19",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 19",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_kingdom",
+                "x": 511,
+                "y": 369
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 20",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 20",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_kingdom",
+                "x": 387,
+                "y": 490
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 21",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 21",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_kingdom",
+                "x": 316,
+                "y": 212
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Small Chest 22",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Small Chest 22",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_kingdom",
+                "x": 19,
+                "y": 364
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monstropolis",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "Monstropolis - Large Chest 1",
+            "sections": [
+              {
+                "name": "Monstropolis - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_monsters_inc",
+                "x": 570,
+                "y": 522
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Large Chest 2",
+            "sections": [
+              {
+                "name": "Monstropolis - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_factory",
+                "x": 717,
+                "y": 109
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Large Chest 3",
+            "sections": [
+              {
+                "name": "Monstropolis - Large Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_door_vault",
+                "x": 456,
+                "y": 65
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Large Chest 4",
+            "sections": [
+              {
+                "name": "Monstropolis - Large Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_factory",
+                "x": 559,
+                "y": 271
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 1",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_monsters_inc",
+                "x": 360,
+                "y": 344
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 2",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_monsters_inc",
+                "x": 586,
+                "y": 319
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 3",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_monsters_inc",
+                "x": 539,
+                "y": 25
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 5",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_factory",
+                "x": 620,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 6",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_factory",
+                "x": 526,
+                "y": 141
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 7",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_factory",
+                "x": 192,
+                "y": 315
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 8",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_factory",
+                "x": 32,
+                "y": 106
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 9",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_power_plant",
+                "x": 332,
+                "y": 83
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 10",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_power_plant",
+                "x": 133,
+                "y": 356
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 11",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_power_plant",
+                "x": 545,
+                "y": 550
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 12",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_door_vault",
+                "x": 411,
+                "y": 96
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 13",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_door_vault",
+                "x": 487,
+                "y": 453
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 14",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 14",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_door_vault",
+                "x": 445,
+                "y": 469
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 15",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_power_plant",
+                "x": 29,
+                "y": 521
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 16",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_monsters_inc",
+                "x": 272,
+                "y": 361
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 17",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_monsters_inc",
+                "x": 109,
+                "y": 215
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 18",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 18",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_monsters_inc",
+                "x": 451,
+                "y": 263
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Small Chest 19",
+            "sections": [
+              {
+                "name": "Monstropolis - Small Chest 19",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_door_vault",
+                "x": 124,
+                "y": 295
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arendelle",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "Arendelle - Large Chest 1",
+            "sections": [
+              {
+                "name": "Arendelle - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_treescape",
+                "x": 74,
+                "y": 423
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Large Chest 2",
+            "sections": [
+              {
+                "name": "Arendelle - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_lab_middle",
+                "x": 110,
+                "y": 152
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Large Chest 3",
+            "sections": [
+              {
+                "name": "Arendelle - Large Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_treescape",
+                "x": 294,
+                "y": 104
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Large Chest 4",
+            "sections": [
+              {
+                "name": "Arendelle - Large Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_snowfield",
+                "x": 309,
+                "y": 294
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Large Chest 5",
+            "sections": [
+              {
+                "name": "Arendelle - Large Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_lab_mid_lower",
+                "x": 366,
+                "y": 136
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Large Chest 6",
+            "sections": [
+              {
+                "name": "Arendelle - Large Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_snowfield",
+                "x": 474,
+                "y": 244
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 1",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_treescape",
+                "x": 129,
+                "y": 289
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 2",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_treescape",
+                "x": 270,
+                "y": 218
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 4",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_gorge",
+                "x": 391,
+                "y": 415
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 5",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_gorge",
+                "x": 445,
+                "y": 384
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 7",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_snowfield",
+                "x": 582,
+                "y": 181
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 11",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_lab_upper",
+                "x": 297,
+                "y": 491
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 12",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_lab_middle",
+                "x": 189,
+                "y": 169
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 13",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_lab_upper",
+                "x": 340,
+                "y": 490
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 15",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_lab_middle2",
+                "x": 170,
+                "y": 72
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 16",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_valley_of_ice",
+                "x": 515,
+                "y": 282
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 17",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_valley_of_ice",
+                "x": 495,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 19",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 19",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_valley_of_ice",
+                "x": 223,
+                "y": 162
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 20",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 20",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_valley_of_ice",
+                "x": 245,
+                "y": 229
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 22",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 22",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_valley_of_ice",
+                "x": 110,
+                "y": 455
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 23",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 23",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_frozen_wall",
+                "x": 659,
+                "y": 307
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 24",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 24",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_frozen_wall",
+                "x": 536,
+                "y": 191
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 25",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 25",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_frozen_wall",
+                "x": 201,
+                "y": 178
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 27",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 27",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_foothills",
+                "x": 60,
+                "y": 269
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Small Chest 29",
+            "sections": [
+              {
+                "name": "Arendelle - Small Chest 29",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_foothills",
+                "x": 127,
+                "y": 432
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Caribbean",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "The Caribbean - Large Chest 1",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 126,
+                "y": 229
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 2",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_isla_mastiles",
+                "x": 447,
+                "y": 415
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 3",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_ships_end",
+                "x": 283,
+                "y": 451
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 4",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_sandbar_isle",
+                "x": 492,
+                "y": 343
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 5",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_huddled_isles",
+                "x": 118,
+                "y": 262
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 6",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 629,
+                "y": 427
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 7",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_huddled_isles",
+                "x": 619,
+                "y": 224
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 8",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_isla_verdemontana",
+                "x": 246,
+                "y": 173
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 9",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_confinement_isle",
+                "x": 342,
+                "y": 231
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 10",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_huddled_isles",
+                "x": 585,
+                "y": 672
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Large Chest 11",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_isla_mastiles",
+                "x": 365,
+                "y": 228
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 1",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 694,
+                "y": 341
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 2",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 534,
+                "y": 536
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 3",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 271,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 4",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 236,
+                "y": 519
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 5",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 190,
+                "y": 662
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 6",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 110,
+                "y": 407
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 7",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 385,
+                "y": 247
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 8",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 110,
+                "y": 646
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 9",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 500,
+                "y": 544
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 11",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_huddled_isles",
+                "x": 323,
+                "y": 181
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 12",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_huddled_isles",
+                "x": 457,
+                "y": 187
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 16",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_isla_verdemontana",
+                "x": 560,
+                "y": 71
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 17",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_sandbar_isle",
+                "x": 413,
+                "y": 618
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 18",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 18",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_exile_island",
+                "x": 251,
+                "y": 173
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 19",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 19",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_port_royal",
+                "x": 295,
+                "y": 351
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 25",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 25",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_gateway",
+                "x": 150,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 26",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 26",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_isla_verdemontana",
+                "x": 415,
+                "y": 331
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 27",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 27",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_sandbar_isle",
+                "x": 516,
+                "y": 277
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Small Chest 28",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 28",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_sandbar_isle",
+                "x": 331,
+                "y": 338
+              }
+            ]
+          },
+          {
+            "name": "Sandbar Isle - Chests 28+29+30",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 29",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 30",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 31",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_sandbar_isle",
+                "x": 412,
+                "y": 399
+              }
+            ]
+          },
+          {
+            "name": "Sandbar Isle - x8 Cluster",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 34",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 35",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 36",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 37",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 38",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 39",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 40",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 41",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_sandbar_isle",
+                "x": 515,
+                "y": 636
+              }
+            ]
+          },
+          {
+            "name": "Sandbar Isle - Chests 31+32",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 32",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 33",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_sandbar_isle",
+                "x": 485,
+                "y": 571
+              }
+            ]
+          },
+          {
+            "name": "Horseshoe Island - Chest Cluster",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 20",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 42",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 43",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 44",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 45",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_horseshoe_island",
+                "x": 112,
+                "y": 148
+              }
+            ]
+          },
+          {
+            "name": "Huddled Isles - Chests 1+21+22",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 10",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 21",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 22",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_huddled_isles",
+                "x": 276,
+                "y": 478
+              }
+            ]
+          },
+          {
+            "name": "Ship's End - Chests 7+8",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 14",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_ships_end",
+                "x": 208,
+                "y": 217
+              }
+            ]
+          },
+          {
+            "name": "Isla Mastiles - Chests 5+23+24",
+            "sections": [
+              {
+                "name": "The Caribbean - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 23",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 24",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_isla_mastiles",
+                "x": 580,
+                "y": 490
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "San Fransokyo",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "San Fransokyo - Large Chest 1",
+            "sections": [
+              {
+                "name": "San Fransokyo - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 200,
+                "y": 606
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Large Chest 5",
+            "sections": [
+              {
+                "name": "San Fransokyo - Large Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 152,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Large Chest 6",
+            "sections": [
+              {
+                "name": "San Fransokyo - Large Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 153,
+                "y": 689
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Large Chest 7",
+            "sections": [
+              {
+                "name": "San Fransokyo - Large Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 400,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 2",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 373,
+                "y": 614
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 3",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 108,
+                "y": 507
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 4",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 275,
+                "y": 179
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 5",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 549,
+                "y": 152
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 6",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 204,
+                "y": 666
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 7",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 129,
+                "y": 346
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 8",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 353,
+                "y": 328
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 9",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 457,
+                "y": 177
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 10",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 106,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 13",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 171,
+                "y": 118
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 14",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 14",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 296,
+                "y": 112
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 15",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 165,
+                "y": 429
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 16",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 236,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 18",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 18",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 549,
+                "y": 204
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 19",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 19",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 232,
+                "y": 910
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 20",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 20",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 175,
+                "y": 719
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 21",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 21",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 611,
+                "y": 252
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 22",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 22",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 377,
+                "y": 421
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 23",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 23",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 345,
+                "y": 316
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 24",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 24",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 243,
+                "y": 467
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 25",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 25",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 209,
+                "y": 377
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 26",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 26",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 232,
+                "y": 830
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 27",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 27",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 314,
+                "y": 133
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 28",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 28",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 236,
+                "y": 212
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 30",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 30",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 217,
+                "y": 767
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 31",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 31",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 259,
+                "y": 207
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Small Chest 32",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 32",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 330,
+                "y": 153
+              }
+            ]
+          },
+          {
+            "name": "SF - Chests 11+12+18",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 149,
+                "y": 515
+              }
+            ]
+          },
+          {
+            "name": "SF - Chests 1+30",
+            "sections": [
+              {
+                "name": "San Fransokyo - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 29",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 542,
+                "y": 399
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Keyblade Graveyard",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Chests",
+        "children": [
+          {
+            "name": "Keyblade Graveyard - Large Chest 1",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_keyblade_graveyard",
+                "x": 78,
+                "y": 423
+              }
+            ]
+          },
+          {
+            "name": "Keyblade Graveyard - Large Chest 2",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_keyblade_graveyard",
+                "x": 312,
+                "y": 530
+              }
+            ]
+          },
+          {
+            "name": "Keyblade Graveyard - Small Chest 1",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_keyblade_graveyard",
+                "x": 117,
+                "y": 323
+              }
+            ]
+          },
+          {
+            "name": "Keyblade Graveyard - Small Chest 2",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_keyblade_graveyard",
+                "x": 338,
+                "y": 453
+              }
+            ]
+          },
+          {
+            "name": "Keyblade Graveyard - Small Chest 3",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_keyblade_graveyard",
+                "x": 448,
+                "y": 211
+              }
+            ]
+          },
+          {
+            "name": "Keyblade Graveyard - Small Chest 4",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_keyblade_graveyard",
+                "x": 451,
+                "y": 304
+              }
+            ]
+          },
+          {
+            "name": "The Final World - Large Chest 1",
+            "sections": [
+              {
+                "name": "The Final World - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_keyblade_graveyard",
+                "x": 75,
+                "y": 511
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

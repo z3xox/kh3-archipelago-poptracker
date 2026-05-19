@@ -1,0 +1,264 @@
+[
+  {
+    "name": "Proof of Fantasy",
+    "type": "toggle",
+    "codes": "proof_of_fantasy",
+    "img": "images/items/proof_of_fantasy.png"
+  },
+  {
+    "name": "Proof of Promises",
+    "type": "toggle",
+    "codes": "proof_of_promises",
+    "img": "images/items/proof_of_promises.png"
+  },
+  {
+    "name": "Proof of Times Past",
+    "type": "toggle",
+    "codes": "proof_of_times_past",
+    "img": "images/items/proof_of_times_past.png"
+  },
+  {
+    "name": "Fire",
+    "type": "progressive",
+    "loop": false,
+    "codes": "fire",
+    "img": "images/items/Fire.png",
+    "stages": [
+      {
+        "img": "images/items/Fire.png",
+        "codes": "fire:1"
+      },
+      {
+        "img": "images/items/Fire.png",
+        "codes": "fire:2"
+      },
+      {
+        "img": "images/items/Fire.png",
+        "codes": "fire:3"
+      }
+    ]
+  },
+  {
+    "name": "Blizzard",
+    "type": "progressive",
+    "loop": false,
+    "codes": "blizzard",
+    "img": "images/items/Blizzard.png",
+    "stages": [
+      {
+        "img": "images/items/Blizzard.png",
+        "codes": "blizzard:1"
+      },
+      {
+        "img": "images/items/Blizzard.png",
+        "codes": "blizzard:2"
+      },
+      {
+        "img": "images/items/Blizzard.png",
+        "codes": "blizzard:3"
+      }
+    ]
+  },
+  {
+    "name": "Thunder",
+    "type": "progressive",
+    "loop": false,
+    "codes": "thunder",
+    "img": "images/items/Thunder.png",
+    "stages": [
+      {
+        "img": "images/items/Thunder.png",
+        "codes": "thunder:1"
+      },
+      {
+        "img": "images/items/Thunder.png",
+        "codes": "thunder:2"
+      },
+      {
+        "img": "images/items/Thunder.png",
+        "codes": "thunder:3"
+      }
+    ]
+  },
+  {
+    "name": "Water",
+    "type": "progressive",
+    "loop": false,
+    "codes": "water",
+    "img": "images/items/Water.png",
+    "stages": [
+      {
+        "img": "images/items/Water.png",
+        "codes": "water:1"
+      },
+      {
+        "img": "images/items/Water.png",
+        "codes": "water:2"
+      },
+      {
+        "img": "images/items/Water.png",
+        "codes": "water:3"
+      }
+    ]
+  },
+  {
+    "name": "Aero",
+    "type": "progressive",
+    "loop": false,
+    "codes": "aero",
+    "img": "images/items/Aero.png",
+    "stages": [
+      {
+        "img": "images/items/Aero.png",
+        "codes": "aero:1"
+      },
+      {
+        "img": "images/items/Aero.png",
+        "codes": "aero:2"
+      },
+      {
+        "img": "images/items/Aero.png",
+        "codes": "aero:3"
+      }
+    ]
+  },
+  {
+    "name": "Cure",
+    "type": "progressive",
+    "loop": false,
+    "codes": "cure",
+    "img": "images/items/Cure.png",
+    "stages": [
+      {
+        "img": "images/items/Cure.png",
+        "codes": "cure:1"
+      },
+      {
+        "img": "images/items/Cure.png",
+        "codes": "cure:2"
+      },
+      {
+        "img": "images/items/Cure.png",
+        "codes": "cure:3"
+      }
+    ]
+  },
+  {
+    "name": "Gummiphone",
+    "type": "toggle",
+    "codes": "gummiphone",
+    "img": "images/items/Gummiphone.png"
+  },
+  {
+    "name": "Heart Piece",
+    "type": "consumable",
+    "codes": "heart_piece",
+    "max_quantity": 30,
+    "img": "images/items/heart_piece.png",
+    "overlay_font_size": 24
+  },
+  {
+    "name": "Secret Report",
+    "type": "consumable",
+    "codes": "secret_report",
+    "max_quantity": 13,
+    "img": "images/items/Secret_Report.png",
+    "overlay_font_size": 24
+  },
+  {
+    "name": "Dream Heartbinder",
+    "type": "toggle",
+    "codes": "dream_heartbinder",
+    "img": "images/items/Dream_Heartbinder.png"
+  },
+  {
+    "name": "Pixel Heartbinder",
+    "type": "toggle",
+    "codes": "pixel_heartbinder",
+    "img": "images/items/Pixel_Heartbinder.png"
+  },
+  {
+    "name": "'Ohana Heartbinder",
+    "type": "toggle",
+    "codes": "ohana_heartbinder",
+    "img": "images/items/Ohana_Heartbinder.png"
+  },
+  {
+    "name": "Pride Heartbinder",
+    "type": "toggle",
+    "codes": "pride_heartbinder",
+    "img": "images/items/Pride_Heartbinder.png"
+  },
+  {
+    "name": "Ocean Heartbinder",
+    "type": "toggle",
+    "codes": "ocean_heartbinder",
+    "img": "images/items/Ocean_Heartbinder.png"
+  },
+  {
+    "name": "Air Slide",
+    "type": "toggle",
+    "codes": "ability_air_slide",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Dodge Roll",
+    "type": "toggle",
+    "codes": "ability_dodge_roll",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Block",
+    "type": "toggle",
+    "codes": "ability_block",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Pole Spin",
+    "type": "toggle",
+    "codes": "ability_pole_spin",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Doubleflight",
+    "type": "toggle",
+    "codes": "ability_doubleflight",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Glide",
+    "type": "toggle",
+    "codes": "ability_glide",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Superslide",
+    "type": "toggle",
+    "codes": "ability_superslide",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "High Jump",
+    "type": "toggle",
+    "codes": "ability_high_jump",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Second Chance",
+    "type": "toggle",
+    "codes": "ability_second_chance",
+    "img": "images/items/Second Chance.png"
+  },
+  {
+    "name": "Withstand Combo",
+    "type": "toggle",
+    "codes": "ability_withstand_combo",
+    "img": "images/items/ability.png"
+  },
+  {
+    "name": "Leaf Bracer",
+    "type": "toggle",
+    "codes": "ability_leaf_bracer",
+    "img": "images/items/ability.png"
+  }
+]
