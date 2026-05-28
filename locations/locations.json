@@ -1,5 +1,1996 @@
 [
   {
+    "name": "Overworld",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "World Progress",
+        "children": [
+          {
+            "name": "Olympus - All Checks",
+            "sections": [
+              {
+                "name": "Olympus - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Large Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Large Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 10",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 14",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 15",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 16",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 17",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 20",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 21",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 22",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 23",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 24",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 25",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 26",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 27",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 28",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 29",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 30",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 31",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Small Chest 33",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_001 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_002 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_003 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_004 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_005 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_006 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_007 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - EVENT_KEYBLADE_001 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 001",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 002",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 004",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 005",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 006",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 007",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 008",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 010",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 011",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 013",
+                "item_count": 1
+              },
+              {
+                "name": "Olympus - Victory Bonus 082",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 114,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - All Checks",
+            "sections": [
+              {
+                "name": "Twilight Town - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Small Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - EVENT_KEYBLADE_002 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - EVENT_KEYBLADE_010 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - EVENT_CKGAME_001 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Victory Bonus 014",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Victory Bonus 015",
+                "item_count": 1
+              },
+              {
+                "name": "Twilight Town - Victory Bonus 016",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 430,
+                "y": 460
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - All Checks",
+            "sections": [
+              {
+                "name": "Toy Box - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Large Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Large Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Large Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Large Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 14",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 15",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 16",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 17",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 18",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 19",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 20",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 22",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 23",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 24",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Small Chest 25",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - EVENT_KEYBLADE_003 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - EVENT_HEARTBINDER_002 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Victory Bonus 017",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Victory Bonus 018",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Victory Bonus 019",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Victory Bonus 020",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Victory Bonus 021",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Victory Bonus 022",
+                "item_count": 1
+              },
+              {
+                "name": "Toy Box - Victory Bonus 023",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 187,
+                "y": 467
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - All Checks",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Large Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Large Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Large Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Large Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 10",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 14",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 15",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 16",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 17",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 18",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 19",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 20",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 21",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Small Chest 22",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - EVENT_KEYBLADE_004 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Victory Bonus 024",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Victory Bonus 025",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Victory Bonus 026",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Victory Bonus 027",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Victory Bonus 028",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Victory Bonus 029",
+                "item_count": 1
+              },
+              {
+                "name": "Kingdom of Corona - Victory Bonus 030",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 528,
+                "y": 261
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - All Checks",
+            "sections": [
+              {
+                "name": "Monstropolis - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Large Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Large Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 10",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 14",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 15",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 16",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 17",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 18",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Small Chest 19",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - EVENT_008 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - EVENT_KEYBLADE_005 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - EVENT_HEARTBINDER_003 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 032",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 033",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 034",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 035",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 036",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 037",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 038",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 039",
+                "item_count": 1
+              },
+              {
+                "name": "Monstropolis - Victory Bonus 040",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 502,
+                "y": 408
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - All Checks",
+            "sections": [
+              {
+                "name": "Arendelle - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Large Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Large Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Large Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Large Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 15",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 16",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 17",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 19",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 20",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 22",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 23",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 24",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 25",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 27",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Small Chest 29",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - EVENT_KEYBLADE_007 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 041",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 042",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 043",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 044",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 045",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 047",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 048",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 049",
+                "item_count": 1
+              },
+              {
+                "name": "Arendelle - Victory Bonus 050",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 79,
+                "y": 265
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - All Checks",
+            "sections": [
+              {
+                "name": "The Caribbean - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 10",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Large Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 16",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 17",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 18",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 25",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 19",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 26",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 27",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 28",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 29",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 30",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 31",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 34",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 35",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 36",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 37",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 38",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 39",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 40",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 41",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 32",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 33",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 20",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 42",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 43",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 44",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 45",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 10",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 21",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 22",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 14",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 15",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 23",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Small Chest 24",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - EVENT_KEYBLADE_008 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 058",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 059",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 060",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 061",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 062",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 063",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 064",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 065",
+                "item_count": 1
+              },
+              {
+                "name": "The Caribbean - Victory Bonus 066",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 493,
+                "y": 186
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - All Checks",
+            "sections": [
+              {
+                "name": "San Fransokyo - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Large Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Large Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Large Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 7",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 8",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 9",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 12",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 13",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 14",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 15",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 16",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 18",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 19",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 20",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 21",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 22",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 23",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 24",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 25",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 26",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 27",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 28",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 30",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 31",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 32",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 10",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 11",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 17",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Small Chest 29",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - EVENT_009 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - EVENT_HEARTBINDER_004 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - EVENT_KEYITEM_002 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Victory Bonus 051",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Victory Bonus 052",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Victory Bonus 053",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Victory Bonus 054",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Victory Bonus 055",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Victory Bonus 056",
+                "item_count": 1
+              },
+              {
+                "name": "San Fransokyo - Victory Bonus 057",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 126,
+                "y": 421
+              }
+            ]
+          },
+          {
+            "name": "Keyblade Graveyard - All Checks",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "The Final World - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - EVENT_KEYBLADE_011 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 068",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 069",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 070",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 071",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 072",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 073",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 074",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 075",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 076",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 083",
+                "item_count": 1
+              },
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 084",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 430,
+                "y": 127
+              }
+            ]
+          },
+          {
+            "name": "Dark World - All Checks",
+            "sections": [
+              {
+                "name": "Dark World - Victory Bonus 067",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 86,
+                "y": 347
+              }
+            ]
+          },
+          {
+            "name": "Re Mind - All Checks",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 1",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 2",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 3",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 4",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 5",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 6",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 7",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 8",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 10",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Victory Bonus DLC 15",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Large Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Large Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Small Chest 1",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Small Chest 2",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Small Chest 3",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Small Chest 4",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Small Chest 5",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Small Chest 6",
+                "item_count": 1
+              },
+              {
+                "name": "Re Mind - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 174,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Radiant Garden - All Checks",
+            "sections": [
+              {
+                "name": "Radiant Garden Progress",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 525,
+                "y": 339
+              }
+            ]
+          },
+          {
+            "name": "Victory Check",
+            "sections": [
+              {
+                "name": "Victory",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 306,
+                "y": 47
+              }
+            ]
+          },
+          {
+            "name": "100 Acre Wood - All Checks",
+            "sections": [
+              {
+                "name": "100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 309,
+                "y": 539
+              }
+            ]
+          },
+          {
+            "name": "Level Ups - All Checks",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 2",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 3",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 4",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 5",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 6",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 7",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 8",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 9",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 10",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 11",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 12",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 13",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 14",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 15",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 16",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 17",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 18",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 19",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 20",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 21",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 22",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 23",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 24",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 25",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 26",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 27",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 28",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 29",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 30",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 31",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 32",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 33",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 34",
+                "item_count": 1
+              },
+              {
+                "name": "Level Ups - Sora Level 35",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 24,
+                "y": 545
+              }
+            ]
+          },
+          {
+            "name": "Battlegates - All Checks",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_001a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_002a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_003a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_004a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_005a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_006a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_007a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_008a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_009a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_010a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_011a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_012a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_013a - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_001b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_002b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_003b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_004b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_005b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_006b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_007b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_008b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_009b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_010b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_011b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_012b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_013b - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_014 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 66,
+                "y": 545
+              }
+            ]
+          },
+          {
+            "name": "Lucky Emblems - All Checks",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 1",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 3",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 5",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 10",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 15",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 20",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 25",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 30",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 35",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 40",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 45",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 50",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 55",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 60",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 65",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 70",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 80",
+                "item_count": 1
+              },
+              {
+                "name": "Lucky Emblems - Milestone 90",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 107,
+                "y": 545
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Olympus",
     "access_rules": [],
     "children": [
@@ -519,6 +2510,201 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Olympus - EVENT_001 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_001 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - EVENT_002 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_002 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - EVENT_003 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_003 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - EVENT_004 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_004 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - EVENT_005 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_005 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - EVENT_006 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_006 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - EVENT_007 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_007 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - EVENT_KEYBLADE_001 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Olympus - EVENT_KEYBLADE_001 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 001",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 001",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 002",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 002",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 004",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 004",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 005",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 005",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 006",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 006",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 007",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 007",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 008",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 008",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 010",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 010",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 011",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 011",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 013",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 013",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Olympus - Victory Bonus 082",
+            "sections": [
+              {
+                "name": "Olympus - Victory Bonus 082",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
       }
     ]
   },
@@ -688,6 +2874,71 @@
                 "y": 24
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Twilight Town - EVENT_KEYBLADE_002 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Twilight Town - EVENT_KEYBLADE_002 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Twilight Town - EVENT_KEYBLADE_010 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Twilight Town - EVENT_KEYBLADE_010 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Twilight Town - EVENT_CKGAME_001 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Twilight Town - EVENT_CKGAME_001 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Twilight Town - Victory Bonus 014",
+            "sections": [
+              {
+                "name": "Twilight Town - Victory Bonus 014",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Twilight Town - Victory Bonus 015",
+            "sections": [
+              {
+                "name": "Twilight Town - Victory Bonus 015",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Twilight Town - Victory Bonus 016",
+            "sections": [
+              {
+                "name": "Twilight Town - Victory Bonus 016",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
           }
         ]
       }
@@ -1165,6 +3416,101 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Toy Box - EVENT_KEYBLADE_003 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Toy Box - EVENT_KEYBLADE_003 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - EVENT_HEARTBINDER_002 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Toy Box - EVENT_HEARTBINDER_002 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - Victory Bonus 017",
+            "sections": [
+              {
+                "name": "Toy Box - Victory Bonus 017",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - Victory Bonus 018",
+            "sections": [
+              {
+                "name": "Toy Box - Victory Bonus 018",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - Victory Bonus 019",
+            "sections": [
+              {
+                "name": "Toy Box - Victory Bonus 019",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - Victory Bonus 020",
+            "sections": [
+              {
+                "name": "Toy Box - Victory Bonus 020",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - Victory Bonus 021",
+            "sections": [
+              {
+                "name": "Toy Box - Victory Bonus 021",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - Victory Bonus 022",
+            "sections": [
+              {
+                "name": "Toy Box - Victory Bonus 022",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Toy Box - Victory Bonus 023",
+            "sections": [
+              {
+                "name": "Toy Box - Victory Bonus 023",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
       }
     ]
   },
@@ -1624,6 +3970,91 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Kingdom of Corona - EVENT_KEYBLADE_004 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - EVENT_KEYBLADE_004 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Kingdom of Corona - Victory Bonus 024",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Victory Bonus 024",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Kingdom of Corona - Victory Bonus 025",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Victory Bonus 025",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Kingdom of Corona - Victory Bonus 026",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Victory Bonus 026",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Kingdom of Corona - Victory Bonus 027",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Victory Bonus 027",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Kingdom of Corona - Victory Bonus 028",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Victory Bonus 028",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Kingdom of Corona - Victory Bonus 029",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Victory Bonus 029",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Kingdom of Corona - Victory Bonus 030",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Victory Bonus 030",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
       }
     ]
   },
@@ -1985,6 +4416,131 @@
                 "y": 295
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Monstropolis - EVENT_008 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Monstropolis - EVENT_008 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - EVENT_KEYBLADE_005 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Monstropolis - EVENT_KEYBLADE_005 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - EVENT_HEARTBINDER_003 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Monstropolis - EVENT_HEARTBINDER_003 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 032",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 032",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 033",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 033",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 034",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 034",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 035",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 035",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 036",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 036",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 037",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 037",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 038",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 038",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 039",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 039",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Monstropolis - Victory Bonus 040",
+            "sections": [
+              {
+                "name": "Monstropolis - Victory Bonus 040",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
           }
         ]
       }
@@ -2396,6 +4952,111 @@
                 "y": 432
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Arendelle - EVENT_KEYBLADE_007 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Arendelle - EVENT_KEYBLADE_007 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 041",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 041",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 042",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 042",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 043",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 043",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 044",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 044",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 045",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 045",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 047",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 047",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 048",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 048",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 049",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 049",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Arendelle - Victory Bonus 050",
+            "sections": [
+              {
+                "name": "Arendelle - Victory Bonus 050",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
           }
         ]
       }
@@ -3077,6 +5738,111 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "The Caribbean - EVENT_KEYBLADE_008 - RandomizedItem",
+            "sections": [
+              {
+                "name": "The Caribbean - EVENT_KEYBLADE_008 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 058",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 058",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 059",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 059",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 060",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 060",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 061",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 061",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 062",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 062",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 063",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 063",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 064",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 064",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 065",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 065",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "The Caribbean - Victory Bonus 066",
+            "sections": [
+              {
+                "name": "The Caribbean - Victory Bonus 066",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
       }
     ]
   },
@@ -3628,6 +6394,121 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "San Fransokyo - EVENT_009 - RandomizedItem",
+            "sections": [
+              {
+                "name": "San Fransokyo - EVENT_009 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem",
+            "sections": [
+              {
+                "name": "San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - EVENT_HEARTBINDER_004 - RandomizedItem",
+            "sections": [
+              {
+                "name": "San Fransokyo - EVENT_HEARTBINDER_004 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - EVENT_KEYITEM_002 - RandomizedItem",
+            "sections": [
+              {
+                "name": "San Fransokyo - EVENT_KEYITEM_002 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - Victory Bonus 051",
+            "sections": [
+              {
+                "name": "San Fransokyo - Victory Bonus 051",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - Victory Bonus 052",
+            "sections": [
+              {
+                "name": "San Fransokyo - Victory Bonus 052",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - Victory Bonus 053",
+            "sections": [
+              {
+                "name": "San Fransokyo - Victory Bonus 053",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - Victory Bonus 054",
+            "sections": [
+              {
+                "name": "San Fransokyo - Victory Bonus 054",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - Victory Bonus 055",
+            "sections": [
+              {
+                "name": "San Fransokyo - Victory Bonus 055",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - Victory Bonus 056",
+            "sections": [
+              {
+                "name": "San Fransokyo - Victory Bonus 056",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "San Fransokyo - Victory Bonus 057",
+            "sections": [
+              {
+                "name": "San Fransokyo - Victory Bonus 057",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
       }
     ]
   },
@@ -3749,6 +6630,1197 @@
                 "y": 511
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Keyblade Graveyard - EVENT_KEYBLADE_011 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - EVENT_KEYBLADE_011 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 068",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 068",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 069",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 069",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 070",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 070",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 071",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 071",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 072",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 072",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 073",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 073",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 074",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 074",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 075",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 075",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 076",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 076",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 083",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 083",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Keyblade Graveyard - Victory Bonus 084",
+            "sections": [
+              {
+                "name": "Keyblade Graveyard - Victory Bonus 084",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "100 Acre Wood",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem",
+            "sections": [
+              {
+                "name": "100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark World",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Dark World - Victory Bonus 067",
+            "sections": [
+              {
+                "name": "Dark World - Victory Bonus 067",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Re Mind",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Checks",
+        "children": [
+          {
+            "name": "Re Mind - Victory Bonus DLC 1",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 2",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 3",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 4",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 5",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 6",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 7",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 8",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 10",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Victory Bonus DLC 15",
+            "sections": [
+              {
+                "name": "Re Mind - Victory Bonus DLC 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Large Chest 1",
+            "sections": [
+              {
+                "name": "Re Mind - Large Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Large Chest 2",
+            "sections": [
+              {
+                "name": "Re Mind - Large Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Small Chest 1",
+            "sections": [
+              {
+                "name": "Re Mind - Small Chest 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Small Chest 2",
+            "sections": [
+              {
+                "name": "Re Mind - Small Chest 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Small Chest 3",
+            "sections": [
+              {
+                "name": "Re Mind - Small Chest 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Small Chest 4",
+            "sections": [
+              {
+                "name": "Re Mind - Small Chest 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Small Chest 5",
+            "sections": [
+              {
+                "name": "Re Mind - Small Chest 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Small Chest 6",
+            "sections": [
+              {
+                "name": "Re Mind - Small Chest 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Re Mind - Small Chest 7",
+            "sections": [
+              {
+                "name": "Re Mind - Small Chest 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Level Ups",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Levels",
+        "children": [
+          {
+            "name": "Level Ups - Sora Level 2",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 3",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 4",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 4",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 5",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 6",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 6",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 7",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 7",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 8",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 8",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 9",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 9",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 10",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 11",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 12",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 13",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 14",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 14",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 15",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 16",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 16",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 17",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 17",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 18",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 18",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 19",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 19",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 20",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 20",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 21",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 21",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 22",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 22",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 23",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 23",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 24",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 24",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 25",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 25",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 26",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 26",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 27",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 27",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 28",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 28",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 29",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 29",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 30",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 30",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 31",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 31",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 32",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 32",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 33",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 33",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 34",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 34",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Level Ups - Sora Level 35",
+            "sections": [
+              {
+                "name": "Level Ups - Sora Level 35",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Battlegates",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Battlegates",
+        "children": [
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_001a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_001a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_002a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_002a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_003a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_003a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_004a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_004a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_005a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_005a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_006a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_006a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_007a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_007a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_008a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_008a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_009a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_009a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_010a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_010a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_011a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_011a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_012a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_012a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Reports - EVENT_REPORT_013a - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Reports - EVENT_REPORT_013a - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_001b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_001b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_002b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_002b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_003b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_003b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_004b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_004b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_005b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_005b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_006b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_006b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_007b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_007b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_008b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_008b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_009b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_009b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_010b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_010b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_011b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_011b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_012b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_012b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_013b - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_013b - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Battlegate Rewards - EVENT_REPORT_014 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Battlegate Rewards - EVENT_REPORT_014 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lucky Emblems",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Milestones",
+        "children": [
+          {
+            "name": "Lucky Emblems - Milestone 1",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 3",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 5",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 10",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 15",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 15",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 20",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 20",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 25",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 25",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 30",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 30",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 35",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 35",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 40",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 40",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 45",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 45",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 50",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 50",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 55",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 55",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 60",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 60",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 65",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 65",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 70",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 70",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 80",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 80",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
+          },
+          {
+            "name": "Lucky Emblems - Milestone 90",
+            "sections": [
+              {
+                "name": "Lucky Emblems - Milestone 90",
+                "item_count": 1
+              }
+            ],
+            "map_locations": []
           }
         ]
       }

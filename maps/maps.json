@@ -238,5 +238,11 @@
     "location_size": 14,
     "location_border_thickness": 2,
     "img": "images/map_monstropolis_door_vault.png"
+  },
+  {
+    "name": "map_overworld",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/map_overworld.png"
   }
 ]

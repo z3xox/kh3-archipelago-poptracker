@@ -9,6 +9,15 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "Overworld",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_overworld"
+                ]
+              }
+            },
+            {
               "title": "Olympus",
               "content": {
                 "type": "tabbed",
@@ -518,13 +527,12 @@
           "item_margin": "3,3",
           "item_size": "48,48",
           "rows": [
-          [
+            [
               "ability_air_slide",
               "ability_doubleflight",
               "ability_high_jump",
               "ability_glide"
-
-          ]
+            ]
           ]
         }
       },
