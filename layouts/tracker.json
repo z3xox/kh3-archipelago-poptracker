@@ -518,18 +518,13 @@
           "item_margin": "3,3",
           "item_size": "48,48",
           "rows": [
-            [
+          [
               "ability_air_slide",
-              "ability_dodge_roll",
-              "ability_block",
-              "ability_pole_spin"
-            ],
-            [
               "ability_doubleflight",
-              "ability_glide",
-              "ability_superslide",
-              "ability_high_jump"
-            ]
+              "ability_high_jump",
+              "ability_glide"
+
+          ]
           ]
         }
       },
@@ -546,13 +541,6 @@
               "ability_second_chance",
               "ability_withstand_combo",
               "ability_leaf_bracer"
-            ],
-            [
-              "hp_boost",
-              "mp_boost",
-              "bonus_armor_slot_plus1",
-              "bonus_accessory_slot_plus1",
-              "bonus_item_slot_plus1"
             ]
           ]
         }

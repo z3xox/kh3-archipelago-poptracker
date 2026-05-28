@@ -199,49 +199,25 @@
     "name": "Air Slide",
     "type": "toggle",
     "codes": "ability_air_slide",
-    "img": "images/items/ability.png"
-  },
-  {
-    "name": "Dodge Roll",
-    "type": "toggle",
-    "codes": "ability_dodge_roll",
-    "img": "images/items/ability.png"
-  },
-  {
-    "name": "Block",
-    "type": "toggle",
-    "codes": "ability_block",
-    "img": "images/items/ability.png"
-  },
-  {
-    "name": "Pole Spin",
-    "type": "toggle",
-    "codes": "ability_pole_spin",
-    "img": "images/items/ability.png"
+    "img": "images/items/Air Slide.png"
   },
   {
     "name": "Doubleflight",
     "type": "toggle",
     "codes": "ability_doubleflight",
-    "img": "images/items/ability.png"
+    "img": "images/items/Doubleflight.png"
   },
   {
     "name": "Glide",
     "type": "toggle",
     "codes": "ability_glide",
-    "img": "images/items/ability.png"
-  },
-  {
-    "name": "Superslide",
-    "type": "toggle",
-    "codes": "ability_superslide",
-    "img": "images/items/ability.png"
+    "img": "images/items/Glide.png"
   },
   {
     "name": "High Jump",
     "type": "toggle",
     "codes": "ability_high_jump",
-    "img": "images/items/ability.png"
+    "img": "images/items/High Jump.png"
   },
   {
     "name": "Second Chance",
@@ -253,12 +229,12 @@
     "name": "Withstand Combo",
     "type": "toggle",
     "codes": "ability_withstand_combo",
-    "img": "images/items/ability.png"
+    "img": "images/items/Withstand Combo.png"
   },
   {
     "name": "Leaf Bracer",
     "type": "toggle",
     "codes": "ability_leaf_bracer",
-    "img": "images/items/ability.png"
+    "img": "images/items/Leaf Bracer.png"
   }
 ]
