@@ -321,8 +321,8 @@
             "map_locations": [
               {
                 "map": "map_olympus_mount_olympus_p2",
-                "x": 154,
-                "y": 287
+                "x": 512,
+                "y": 158
               }
             ]
           },
@@ -337,8 +337,8 @@
             "map_locations": [
               {
                 "map": "map_olympus_mount_olympus_p2",
-                "x": 512,
-                "y": 158
+                "x": 154,
+                "y": 287
               }
             ]
           },
@@ -759,8 +759,8 @@
             "map_locations": [
               {
                 "map": "map_toybox_galaxy_2nd_vents",
-                "x": 591,
-                "y": 167
+                "x": 507,
+                "y": 172
               }
             ]
           },
@@ -2809,10 +2809,10 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 19",
+            "name": "The Caribbean - Small Chest 25",
             "sections": [
               {
-                "name": "The Caribbean - Small Chest 19",
+                "name": "The Caribbean - Small Chest 25",
                 "item_count": 1
               }
             ],
@@ -2825,10 +2825,10 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 25",
+            "name": "The Caribbean - Small Chest 19",
             "sections": [
               {
-                "name": "The Caribbean - Small Chest 25",
+                "name": "The Caribbean - Small Chest 19",
                 "item_count": 1
               }
             ],
@@ -3291,7 +3291,7 @@
               {
                 "map": "map_sanfransokyo",
                 "x": 106,
-                "y": 149
+                "y": 150
               }
             ]
           },
@@ -3584,14 +3584,14 @@
             ]
           },
           {
-            "name": "SF - Chests 11+12+17",
+            "name": "SF - Chests 10+11+17",
             "sections": [
               {
-                "name": "San Fransokyo - Small Chest 11",
+                "name": "San Fransokyo - Small Chest 10",
                 "item_count": 1
               },
               {
-                "name": "San Fransokyo - Small Chest 10",
+                "name": "San Fransokyo - Small Chest 11",
                 "item_count": 1
               },
               {
