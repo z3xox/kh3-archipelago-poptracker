@@ -365,7 +365,20 @@ OVERWORLD_SECTION_MAP = {
     ["Re Mind - Small Chest 5"] = "@Re Mind - All Checks/Re Mind - Small Chest 5",
     ["Re Mind - Small Chest 6"] = "@Re Mind - All Checks/Re Mind - Small Chest 6",
     ["Re Mind - Small Chest 7"] = "@Re Mind - All Checks/Re Mind - Small Chest 7",
-    ["Radiant Garden Progress"] = "@Radiant Garden - All Checks/Radiant Garden Progress",
+    -- Data Battles (under Radiant Garden overworld node)
+    ["Data Battles - EVENT_DATAB_001 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_001 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_002 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_002 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_003 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_003 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_004 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_004 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_005 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_005 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_006 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_006 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_007 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_007 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_008 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_008 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_009 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_009 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_010 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_010 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_011 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_011 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_012 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_012 - RandomizedItem",
+    ["Data Battles - EVENT_DATAB_013 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_013 - RandomizedItem",
     ["Victory"] = "@Victory Check/Victory",
     ["100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem"] = "@100 Acre Wood - All Checks/100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem",
     ["Level Ups - Sora Level 2"] = "@Level Ups - All Checks/Level Ups - Sora Level 2",
@@ -590,6 +603,55 @@ function onLocation(location_id, location_name)
     end
 end
 
+-- Lucky Emblem milestones above base 50, in order
+local LE_MILESTONES = {55, 60, 65, 70, 80, 90}
+-- All level up levels tracked
+local LU_LEVELS = {}
+for i = 2, 35 do LU_LEVELS[#LU_LEVELS+1] = i end
+
+function autoFill(slot_data)
+    if not slot_data then return end
+
+    -- Helper: set a toggle item active state
+    local function setToggle(code, active)
+        local obj = Tracker:FindObjectForCode(code)
+        if obj then obj.Active = active end
+    end
+
+    -- include_* world flags (1 = enabled, 0 = disabled)
+    setToggle("active_battlegates",        (slot_data["include_battlegates"]        or 0) == 1)
+    setToggle("active_remind",             (slot_data["include_remind"]             or 0) == 1)
+    setToggle("active_lucky_emblems",      (slot_data["include_lucky_emblems"]      or 0) == 1)
+    setToggle("active_keyblade_graveyard", (slot_data["include_keyblade_graveyard"] or 1) == 1)
+    setToggle("active_radiant_garden",     (slot_data["include_data_battles"]       or 0) == 1)
+
+    -- Lucky Emblem milestone limit
+    local le_limit = 90  -- default show all
+    if slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["limiters"] then
+        le_limit = slot_data["kh3_randomizer"]["limiters"]["lucky_emblem_limit"] or 90
+    end
+    for _, ms in ipairs(LE_MILESTONES) do
+        setToggle("le_milestone_" .. ms, ms <= le_limit)
+    end
+
+    -- Level up limit
+    local lu_limit = 35  -- default
+    if slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["limiters"] then
+        lu_limit = slot_data["kh3_randomizer"]["limiters"]["level_up_limit"] or 35
+    end
+    for _, lv in ipairs(LU_LEVELS) do
+        setToggle("lu_level_" .. lv, lv <= lu_limit)
+    end
+
+    print(string.format("autoFill: battlegates=%s remind=%s lucky_emblems=%s kg=%s rg=%s le_limit=%d lu_limit=%d",
+        tostring((slot_data["include_battlegates"] or 0) == 1),
+        tostring((slot_data["include_remind"] or 0) == 1),
+        tostring((slot_data["include_lucky_emblems"] or 0) == 1),
+        tostring((slot_data["include_keyblade_graveyard"] or 1) == 1),
+        tostring((slot_data["include_data_battles"] or 0) == 1),
+        le_limit, lu_limit))
+end
+
 function onClear(slot_data)
     CUR_INDEX = -1
 
@@ -605,6 +667,8 @@ function onClear(slot_data)
             end
         end
     end
+
+    autoFill(slot_data)
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0

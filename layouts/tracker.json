@@ -424,6 +424,15 @@
                   "map_keyblade_graveyard"
                 ]
               }
+            },
+            {
+              "title": "Radiant Garden",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_data_battles"
+                ]
+              }
             }
           ]
         },

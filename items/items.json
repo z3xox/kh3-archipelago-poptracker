@@ -236,5 +236,320 @@
     "type": "toggle",
     "codes": "ability_leaf_bracer",
     "img": "images/items/Leaf Bracer.png"
+  },
+  {
+    "name": "Battlegates Active",
+    "type": "toggle",
+    "codes": "active_battlegates",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Re Mind Active",
+    "type": "toggle",
+    "codes": "active_remind",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Lucky Emblems Active",
+    "type": "toggle",
+    "codes": "active_lucky_emblems",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Keyblade Graveyard Active",
+    "type": "toggle",
+    "codes": "active_keyblade_graveyard",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Lucky Emblem Milestone 55 Active",
+    "type": "toggle",
+    "codes": "le_milestone_55",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Lucky Emblem Milestone 60 Active",
+    "type": "toggle",
+    "codes": "le_milestone_60",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Lucky Emblem Milestone 65 Active",
+    "type": "toggle",
+    "codes": "le_milestone_65",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Lucky Emblem Milestone 70 Active",
+    "type": "toggle",
+    "codes": "le_milestone_70",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Lucky Emblem Milestone 80 Active",
+    "type": "toggle",
+    "codes": "le_milestone_80",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Lucky Emblem Milestone 90 Active",
+    "type": "toggle",
+    "codes": "le_milestone_90",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 2 Active",
+    "type": "toggle",
+    "codes": "lu_level_2",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 3 Active",
+    "type": "toggle",
+    "codes": "lu_level_3",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 4 Active",
+    "type": "toggle",
+    "codes": "lu_level_4",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 5 Active",
+    "type": "toggle",
+    "codes": "lu_level_5",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 6 Active",
+    "type": "toggle",
+    "codes": "lu_level_6",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 7 Active",
+    "type": "toggle",
+    "codes": "lu_level_7",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 8 Active",
+    "type": "toggle",
+    "codes": "lu_level_8",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 9 Active",
+    "type": "toggle",
+    "codes": "lu_level_9",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 10 Active",
+    "type": "toggle",
+    "codes": "lu_level_10",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 11 Active",
+    "type": "toggle",
+    "codes": "lu_level_11",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 12 Active",
+    "type": "toggle",
+    "codes": "lu_level_12",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 13 Active",
+    "type": "toggle",
+    "codes": "lu_level_13",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 14 Active",
+    "type": "toggle",
+    "codes": "lu_level_14",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 15 Active",
+    "type": "toggle",
+    "codes": "lu_level_15",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 16 Active",
+    "type": "toggle",
+    "codes": "lu_level_16",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 17 Active",
+    "type": "toggle",
+    "codes": "lu_level_17",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 18 Active",
+    "type": "toggle",
+    "codes": "lu_level_18",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 19 Active",
+    "type": "toggle",
+    "codes": "lu_level_19",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 20 Active",
+    "type": "toggle",
+    "codes": "lu_level_20",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 21 Active",
+    "type": "toggle",
+    "codes": "lu_level_21",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 22 Active",
+    "type": "toggle",
+    "codes": "lu_level_22",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 23 Active",
+    "type": "toggle",
+    "codes": "lu_level_23",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 24 Active",
+    "type": "toggle",
+    "codes": "lu_level_24",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 25 Active",
+    "type": "toggle",
+    "codes": "lu_level_25",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 26 Active",
+    "type": "toggle",
+    "codes": "lu_level_26",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 27 Active",
+    "type": "toggle",
+    "codes": "lu_level_27",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 28 Active",
+    "type": "toggle",
+    "codes": "lu_level_28",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 29 Active",
+    "type": "toggle",
+    "codes": "lu_level_29",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 30 Active",
+    "type": "toggle",
+    "codes": "lu_level_30",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 31 Active",
+    "type": "toggle",
+    "codes": "lu_level_31",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 32 Active",
+    "type": "toggle",
+    "codes": "lu_level_32",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 33 Active",
+    "type": "toggle",
+    "codes": "lu_level_33",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 34 Active",
+    "type": "toggle",
+    "codes": "lu_level_34",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Level Up 35 Active",
+    "type": "toggle",
+    "codes": "lu_level_35",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
+  },
+  {
+    "name": "Radiant Garden Active",
+    "type": "toggle",
+    "codes": "active_radiant_garden",
+    "img": "images/items/slot.png",
+    "img_mods": "none"
   }
 ]

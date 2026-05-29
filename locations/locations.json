@@ -1480,6 +1480,9 @@
                 "x": 430,
                 "y": 127
               }
+            ],
+            "access_rules": [
+              "active_keyblade_graveyard"
             ]
           },
           {
@@ -1584,13 +1587,64 @@
                 "x": 174,
                 "y": 119
               }
+            ],
+            "access_rules": [
+              "active_remind"
             ]
           },
           {
             "name": "Radiant Garden - All Checks",
             "sections": [
               {
-                "name": "Radiant Garden Progress",
+                "name": "Data Battles - EVENT_DATAB_001 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_002 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_003 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_004 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_005 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_006 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_007 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_008 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_009 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_010 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_011 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_012 - RandomizedItem",
+                "item_count": 1
+              },
+              {
+                "name": "Data Battles - EVENT_DATAB_013 - RandomizedItem",
                 "item_count": 1
               }
             ],
@@ -1600,6 +1654,9 @@
                 "x": 525,
                 "y": 339
               }
+            ],
+            "access_rules": [
+              "active_radiant_garden"
             ]
           },
           {
@@ -1900,6 +1957,9 @@
                 "x": 66,
                 "y": 545
               }
+            ],
+            "access_rules": [
+              "active_battlegates"
             ]
           },
           {
@@ -1984,6 +2044,9 @@
                 "x": 107,
                 "y": 545
               }
+            ],
+            "access_rules": [
+              "active_lucky_emblems"
             ]
           }
         ]
@@ -6514,7 +6577,9 @@
   },
   {
     "name": "Keyblade Graveyard",
-    "access_rules": [],
+    "access_rules": [
+      "active_keyblade_graveyard"
+    ],
     "children": [
       {
         "name": "Chests",
@@ -6804,7 +6869,9 @@
   },
   {
     "name": "Re Mind",
-    "access_rules": [],
+    "access_rules": [
+      "active_remind"
+    ],
     "children": [
       {
         "name": "Checks",
@@ -7015,7 +7082,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 2",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_2"
+                ]
               }
             ],
             "map_locations": []
@@ -7025,7 +7095,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 3",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_3"
+                ]
               }
             ],
             "map_locations": []
@@ -7035,7 +7108,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 4",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_4"
+                ]
               }
             ],
             "map_locations": []
@@ -7045,7 +7121,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 5",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_5"
+                ]
               }
             ],
             "map_locations": []
@@ -7055,7 +7134,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 6",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_6"
+                ]
               }
             ],
             "map_locations": []
@@ -7065,7 +7147,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 7",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_7"
+                ]
               }
             ],
             "map_locations": []
@@ -7075,7 +7160,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 8",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_8"
+                ]
               }
             ],
             "map_locations": []
@@ -7085,7 +7173,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 9",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_9"
+                ]
               }
             ],
             "map_locations": []
@@ -7095,7 +7186,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_10"
+                ]
               }
             ],
             "map_locations": []
@@ -7105,7 +7199,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 11",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_11"
+                ]
               }
             ],
             "map_locations": []
@@ -7115,7 +7212,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 12",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_12"
+                ]
               }
             ],
             "map_locations": []
@@ -7125,7 +7225,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 13",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_13"
+                ]
               }
             ],
             "map_locations": []
@@ -7135,7 +7238,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 14",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_14"
+                ]
               }
             ],
             "map_locations": []
@@ -7145,7 +7251,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 15",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_15"
+                ]
               }
             ],
             "map_locations": []
@@ -7155,7 +7264,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 16",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_16"
+                ]
               }
             ],
             "map_locations": []
@@ -7165,7 +7277,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 17",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_17"
+                ]
               }
             ],
             "map_locations": []
@@ -7175,7 +7290,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 18",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_18"
+                ]
               }
             ],
             "map_locations": []
@@ -7185,7 +7303,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 19",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_19"
+                ]
               }
             ],
             "map_locations": []
@@ -7195,7 +7316,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 20",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_20"
+                ]
               }
             ],
             "map_locations": []
@@ -7205,7 +7329,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 21",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_21"
+                ]
               }
             ],
             "map_locations": []
@@ -7215,7 +7342,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 22",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_22"
+                ]
               }
             ],
             "map_locations": []
@@ -7225,7 +7355,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 23",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_23"
+                ]
               }
             ],
             "map_locations": []
@@ -7235,7 +7368,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 24",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_24"
+                ]
               }
             ],
             "map_locations": []
@@ -7245,7 +7381,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 25",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_25"
+                ]
               }
             ],
             "map_locations": []
@@ -7255,7 +7394,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 26",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_26"
+                ]
               }
             ],
             "map_locations": []
@@ -7265,7 +7407,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 27",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_27"
+                ]
               }
             ],
             "map_locations": []
@@ -7275,7 +7420,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 28",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_28"
+                ]
               }
             ],
             "map_locations": []
@@ -7285,7 +7433,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 29",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_29"
+                ]
               }
             ],
             "map_locations": []
@@ -7295,7 +7446,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 30",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_30"
+                ]
               }
             ],
             "map_locations": []
@@ -7305,7 +7459,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 31",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_31"
+                ]
               }
             ],
             "map_locations": []
@@ -7315,7 +7472,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 32",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_32"
+                ]
               }
             ],
             "map_locations": []
@@ -7325,7 +7485,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 33",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_33"
+                ]
               }
             ],
             "map_locations": []
@@ -7335,7 +7498,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 34",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_34"
+                ]
               }
             ],
             "map_locations": []
@@ -7345,7 +7511,10 @@
             "sections": [
               {
                 "name": "Level Ups - Sora Level 35",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "lu_level_35"
+                ]
               }
             ],
             "map_locations": []
@@ -7356,7 +7525,9 @@
   },
   {
     "name": "Battlegates",
-    "access_rules": [],
+    "access_rules": [
+      "active_battlegates"
+    ],
     "children": [
       {
         "name": "Battlegates",
@@ -7637,7 +7808,9 @@
   },
   {
     "name": "Lucky Emblems",
-    "access_rules": [],
+    "access_rules": [
+      "active_lucky_emblems"
+    ],
     "children": [
       {
         "name": "Milestones",
@@ -7767,7 +7940,10 @@
             "sections": [
               {
                 "name": "Lucky Emblems - Milestone 55",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "le_milestone_55"
+                ]
               }
             ],
             "map_locations": []
@@ -7777,7 +7953,10 @@
             "sections": [
               {
                 "name": "Lucky Emblems - Milestone 60",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "le_milestone_60"
+                ]
               }
             ],
             "map_locations": []
@@ -7787,7 +7966,10 @@
             "sections": [
               {
                 "name": "Lucky Emblems - Milestone 65",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "le_milestone_65"
+                ]
               }
             ],
             "map_locations": []
@@ -7797,7 +7979,10 @@
             "sections": [
               {
                 "name": "Lucky Emblems - Milestone 70",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "le_milestone_70"
+                ]
               }
             ],
             "map_locations": []
@@ -7807,7 +7992,10 @@
             "sections": [
               {
                 "name": "Lucky Emblems - Milestone 80",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "le_milestone_80"
+                ]
               }
             ],
             "map_locations": []
@@ -7817,10 +8005,234 @@
             "sections": [
               {
                 "name": "Lucky Emblems - Milestone 90",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "le_milestone_90"
+                ]
               }
             ],
             "map_locations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Radiant Garden",
+    "access_rules": [
+      "active_radiant_garden"
+    ],
+    "children": [
+      {
+        "name": "Data Battles",
+        "children": [
+          {
+            "name": "Data Battles - EVENT_DATAB_001 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_001 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 306,
+                "y": 13
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_002 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_002 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 221,
+                "y": 81
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_003 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_003 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 382,
+                "y": 81
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_004 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_004 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 113,
+                "y": 173
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_005 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_005 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 474,
+                "y": 173
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_006 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_006 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 89,
+                "y": 256
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_007 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_007 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 525,
+                "y": 256
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_008 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_008 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 87,
+                "y": 332
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_009 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_009 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 536,
+                "y": 332
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_010 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_010 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 108,
+                "y": 405
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_011 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_011 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 514,
+                "y": 405
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_012 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_012 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 152,
+                "y": 463
+              }
+            ]
+          },
+          {
+            "name": "Data Battles - EVENT_DATAB_013 - RandomizedItem",
+            "sections": [
+              {
+                "name": "Data Battles - EVENT_DATAB_013 - RandomizedItem",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 433,
+                "y": 463
+              }
+            ]
           }
         ]
       }

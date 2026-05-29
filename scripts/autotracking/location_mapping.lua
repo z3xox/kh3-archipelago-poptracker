@@ -424,4 +424,19 @@ LOCATION_MAPPING = {
     [1263023274] = { code = "@Lucky Emblems - Milestone 70/Lucky Emblems - Milestone 70" },
     [1263023275] = { code = "@Lucky Emblems - Milestone 80/Lucky Emblems - Milestone 80" },
     [1263023276] = { code = "@Lucky Emblems - Milestone 90/Lucky Emblems - Milestone 90" },
+
+    -- Data Battles
+    [1263023156] = { code = "@Data Battles - EVENT_DATAB_001 - RandomizedItem/Data Battles - EVENT_DATAB_001 - RandomizedItem" },
+    [1263023157] = { code = "@Data Battles - EVENT_DATAB_002 - RandomizedItem/Data Battles - EVENT_DATAB_002 - RandomizedItem" },
+    [1263023158] = { code = "@Data Battles - EVENT_DATAB_003 - RandomizedItem/Data Battles - EVENT_DATAB_003 - RandomizedItem" },
+    [1263023159] = { code = "@Data Battles - EVENT_DATAB_004 - RandomizedItem/Data Battles - EVENT_DATAB_004 - RandomizedItem" },
+    [1263023160] = { code = "@Data Battles - EVENT_DATAB_005 - RandomizedItem/Data Battles - EVENT_DATAB_005 - RandomizedItem" },
+    [1263023161] = { code = "@Data Battles - EVENT_DATAB_006 - RandomizedItem/Data Battles - EVENT_DATAB_006 - RandomizedItem" },
+    [1263023162] = { code = "@Data Battles - EVENT_DATAB_007 - RandomizedItem/Data Battles - EVENT_DATAB_007 - RandomizedItem" },
+    [1263023163] = { code = "@Data Battles - EVENT_DATAB_008 - RandomizedItem/Data Battles - EVENT_DATAB_008 - RandomizedItem" },
+    [1263023164] = { code = "@Data Battles - EVENT_DATAB_009 - RandomizedItem/Data Battles - EVENT_DATAB_009 - RandomizedItem" },
+    [1263023165] = { code = "@Data Battles - EVENT_DATAB_010 - RandomizedItem/Data Battles - EVENT_DATAB_010 - RandomizedItem" },
+    [1263023166] = { code = "@Data Battles - EVENT_DATAB_011 - RandomizedItem/Data Battles - EVENT_DATAB_011 - RandomizedItem" },
+    [1263023167] = { code = "@Data Battles - EVENT_DATAB_012 - RandomizedItem/Data Battles - EVENT_DATAB_012 - RandomizedItem" },
+    [1263023168] = { code = "@Data Battles - EVENT_DATAB_013 - RandomizedItem/Data Battles - EVENT_DATAB_013 - RandomizedItem" },
 }

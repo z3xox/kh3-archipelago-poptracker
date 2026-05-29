@@ -1,5 +1,11 @@
 [
 {
+    "package_version": "0.1.8",
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.1.8/kh3-archipelago-poptracker-v0.1.8.zip",
+    "sha256": "",
+    "changelog": ["Added auto slot detection and data fights"]
+  },
+  {
     "package_version": "0.1.7",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.1.7/kh3-archipelago-poptracker-v0.1.7.zip",
     "sha256": "",
