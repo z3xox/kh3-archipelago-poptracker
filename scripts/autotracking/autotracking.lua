@@ -233,19 +233,30 @@ OVERWORLD_SECTION_MAP = {
     ["The Caribbean - Small Chest 7"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 7",
     ["The Caribbean - Small Chest 8"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 8",
     ["The Caribbean - Small Chest 9"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 9",
+    ["The Caribbean - Small Chest 10"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 10",
     ["The Caribbean - Small Chest 11"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 11",
     ["The Caribbean - Small Chest 12"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 12",
+    ["The Caribbean - Small Chest 13"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 13",
+    ["The Caribbean - Small Chest 14"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 14",
+    ["The Caribbean - Small Chest 15"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 15",
     ["The Caribbean - Small Chest 16"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 16",
     ["The Caribbean - Small Chest 17"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 17",
     ["The Caribbean - Small Chest 18"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 18",
-    ["The Caribbean - Small Chest 25"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 25",
     ["The Caribbean - Small Chest 19"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 19",
+    ["The Caribbean - Small Chest 20"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 20",
+    ["The Caribbean - Small Chest 21"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 21",
+    ["The Caribbean - Small Chest 22"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 22",
+    ["The Caribbean - Small Chest 23"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 23",
+    ["The Caribbean - Small Chest 24"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 24",
+    ["The Caribbean - Small Chest 25"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 25",
     ["The Caribbean - Small Chest 26"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 26",
     ["The Caribbean - Small Chest 27"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 27",
     ["The Caribbean - Small Chest 28"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 28",
     ["The Caribbean - Small Chest 29"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 29",
     ["The Caribbean - Small Chest 30"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 30",
     ["The Caribbean - Small Chest 31"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 31",
+    ["The Caribbean - Small Chest 32"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 32",
+    ["The Caribbean - Small Chest 33"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 33",
     ["The Caribbean - Small Chest 34"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 34",
     ["The Caribbean - Small Chest 35"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 35",
     ["The Caribbean - Small Chest 36"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 36",
@@ -254,21 +265,10 @@ OVERWORLD_SECTION_MAP = {
     ["The Caribbean - Small Chest 39"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 39",
     ["The Caribbean - Small Chest 40"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 40",
     ["The Caribbean - Small Chest 41"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 41",
-    ["The Caribbean - Small Chest 32"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 32",
-    ["The Caribbean - Small Chest 33"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 33",
-    ["The Caribbean - Small Chest 20"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 20",
     ["The Caribbean - Small Chest 42"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 42",
     ["The Caribbean - Small Chest 43"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 43",
     ["The Caribbean - Small Chest 44"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 44",
     ["The Caribbean - Small Chest 45"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 45",
-    ["The Caribbean - Small Chest 10"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 10",
-    ["The Caribbean - Small Chest 21"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 21",
-    ["The Caribbean - Small Chest 22"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 22",
-    ["The Caribbean - Small Chest 14"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 14",
-    ["The Caribbean - Small Chest 15"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 15",
-    ["The Caribbean - Small Chest 13"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 13",
-    ["The Caribbean - Small Chest 23"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 23",
-    ["The Caribbean - Small Chest 24"] = "@The Caribbean - All Checks/The Caribbean - Small Chest 24",
     ["The Caribbean - EVENT_KEYBLADE_008 - RandomizedItem"] = "@The Caribbean - All Checks/The Caribbean - EVENT_KEYBLADE_008 - RandomizedItem",
     ["The Caribbean - Victory Bonus 058"] = "@The Caribbean - All Checks/The Caribbean - Victory Bonus 058",
     ["The Caribbean - Victory Bonus 059"] = "@The Caribbean - All Checks/The Caribbean - Victory Bonus 059",
@@ -283,6 +283,7 @@ OVERWORLD_SECTION_MAP = {
     ["San Fransokyo - Large Chest 5"] = "@San Fransokyo - All Checks/San Fransokyo - Large Chest 5",
     ["San Fransokyo - Large Chest 6"] = "@San Fransokyo - All Checks/San Fransokyo - Large Chest 6",
     ["San Fransokyo - Large Chest 7"] = "@San Fransokyo - All Checks/San Fransokyo - Large Chest 7",
+    ["San Fransokyo - Small Chest 1"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 1",
     ["San Fransokyo - Small Chest 2"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 2",
     ["San Fransokyo - Small Chest 3"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 3",
     ["San Fransokyo - Small Chest 4"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 4",
@@ -291,11 +292,14 @@ OVERWORLD_SECTION_MAP = {
     ["San Fransokyo - Small Chest 7"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 7",
     ["San Fransokyo - Small Chest 8"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 8",
     ["San Fransokyo - Small Chest 9"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 9",
+    ["San Fransokyo - Small Chest 10"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 10",
+    ["San Fransokyo - Small Chest 11"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 11",
     ["San Fransokyo - Small Chest 12"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 12",
     ["San Fransokyo - Small Chest 13"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 13",
     ["San Fransokyo - Small Chest 14"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 14",
     ["San Fransokyo - Small Chest 15"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 15",
     ["San Fransokyo - Small Chest 16"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 16",
+    ["San Fransokyo - Small Chest 17"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 17",
     ["San Fransokyo - Small Chest 18"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 18",
     ["San Fransokyo - Small Chest 19"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 19",
     ["San Fransokyo - Small Chest 20"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 20",
@@ -307,14 +311,10 @@ OVERWORLD_SECTION_MAP = {
     ["San Fransokyo - Small Chest 26"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 26",
     ["San Fransokyo - Small Chest 27"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 27",
     ["San Fransokyo - Small Chest 28"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 28",
+    ["San Fransokyo - Small Chest 29"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 29",
     ["San Fransokyo - Small Chest 30"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 30",
     ["San Fransokyo - Small Chest 31"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 31",
     ["San Fransokyo - Small Chest 32"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 32",
-    ["San Fransokyo - Small Chest 10"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 10",
-    ["San Fransokyo - Small Chest 11"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 11",
-    ["San Fransokyo - Small Chest 17"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 17",
-    ["San Fransokyo - Small Chest 1"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 1",
-    ["San Fransokyo - Small Chest 29"] = "@San Fransokyo - All Checks/San Fransokyo - Small Chest 29",
     ["San Fransokyo - EVENT_009 - RandomizedItem"] = "@San Fransokyo - All Checks/San Fransokyo - EVENT_009 - RandomizedItem",
     ["San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem"] = "@San Fransokyo - All Checks/San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem",
     ["San Fransokyo - EVENT_HEARTBINDER_004 - RandomizedItem"] = "@San Fransokyo - All Checks/San Fransokyo - EVENT_HEARTBINDER_004 - RandomizedItem",
@@ -449,30 +449,117 @@ OVERWORLD_SECTION_MAP = {
     ["Lucky Emblems - Milestone 90"] = "@Lucky Emblems - All Checks/Lucky Emblems - Milestone 90",
 }
 
+-- Highlight level mapping (matches AP hint item_flags and status codes)
+-- status=0 means use item_flags: 100+flags
+-- item_flags: 0=Filler, 1=Progression, 2=Useful, 4=Trap (bitflag)
+-- status: 10=NoPriority, 20=Avoid, 30=Priority, 40=None
+HIGHLIGHT_LEVEL = nil
+if Highlight then
+    HIGHLIGHT_LEVEL = {
+        [10]  = Highlight.NoPriority,
+        [20]  = Highlight.Avoid,
+        [30]  = Highlight.Priority,
+        [40]  = Highlight.None,
+        [100] = Highlight.Unspecified,  -- Filler
+        [101] = Highlight.Priority,     -- Progression
+        [102] = Highlight.NoPriority,   -- Useful
+        [103] = Highlight.Priority,     -- Progression + Useful
+        [104] = Highlight.Avoid,        -- Trap
+        [105] = Highlight.Priority,     -- Progression + Trap
+        [106] = Highlight.NoPriority,   -- Useful + Trap
+        [107] = Highlight.Priority,     -- Progression + Useful + Trap
+    }
+end
 
+PLAYER_ID = -1
+TEAM_NUMBER = 0
+HINTS_ID = nil
 CUR_INDEX = -1
+
+-- Apply highlight to every location section that maps to this AP location ID
+function UpdateHints(locationID, hint)
+    if not Highlight then return end
+
+    local highlight
+    if hint.status ~= 0 then
+        -- player has manually set a priority in the AP client
+        highlight = HIGHLIGHT_LEVEL[hint.status] or Highlight.Unspecified
+    elseif (hint.item_flags & 1) == 1 then
+        highlight = Highlight.Priority      -- Progression -> blue
+    elseif hint.item_flags == 4 then
+        highlight = Highlight.Avoid         -- Trap -> red
+    else
+        highlight = Highlight.NoPriority    -- Useful/Filler -> yellow
+    end
+
+    local mapping = LOCATION_MAPPING[locationID]
+    if mapping then
+        local obj = Tracker:FindObjectForCode(mapping.code)
+        if obj then
+            obj.Highlight = highlight
+        else
+            print(string.format("UpdateHints: no object for code %s", mapping.code))
+        end
+        local section_name = mapping.code:match("^@[^/]+/(.+)$")
+        if section_name then
+            local ow_code = OVERWORLD_SECTION_MAP[section_name]
+            if ow_code then
+                local ow_obj = Tracker:FindObjectForCode(ow_code)
+                if ow_obj then
+                    ow_obj.Highlight = highlight
+                end
+            end
+        end
+    else
+        print(string.format("UpdateHints: location %s not in LOCATION_MAPPING", locationID))
+    end
+end
+
+function OnNotify(key, value, old_value)
+    if value ~= old_value and key == HINTS_ID then
+        Tracker.BulkUpdate = true
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then
+                UpdateHints(hint.location, hint)
+            end
+        end
+        Tracker.BulkUpdate = false
+    end
+end
+
+function OnNotifyLaunch(key, value)
+    if key == HINTS_ID then
+        Tracker.BulkUpdate = true
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then
+                UpdateHints(hint.location, hint)
+            end
+        end
+        Tracker.BulkUpdate = false
+    end
+end
 
 function onItem(index, item_id, item_name, player_id)
     if index <= CUR_INDEX then
         return
     end
     CUR_INDEX = index
-    
+
     if not item_name then
         print(string.format("onItem: nil item_name for id %s", item_id))
         return
     end
-    
+
     local mapping = ITEM_MAPPING_BY_NAME[item_name]
     if not mapping then
         return
     end
-    
+
     local obj = Tracker:FindObjectForCode(mapping.code)
     if not obj then
         return
     end
-    
+
     if mapping.type == "toggle" then
         obj.Active = true
     elseif mapping.type == "progressive" then
@@ -488,15 +575,12 @@ end
 function onLocation(location_id, location_name)
     local mapping = LOCATION_MAPPING[location_id]
     if not mapping then return end
-    
-    -- Check off on per-world map
+
     local section = Tracker:FindObjectForCode(mapping.code)
     if section then
         section.AvailableChestCount = 0
     end
-    
-    -- Also check off on overworld map
-    -- Extract section name from the code: @LocationName/SectionName -> SectionName
+
     local section_name = mapping.code:match("^@[^/]+/(.+)$")
     if section_name and OVERWORLD_SECTION_MAP[section_name] then
         local ow_section = Tracker:FindObjectForCode(OVERWORLD_SECTION_MAP[section_name])
@@ -508,6 +592,7 @@ end
 
 function onClear(slot_data)
     CUR_INDEX = -1
+
     for name, mapping in pairs(ITEM_MAPPING_BY_NAME) do
         local obj = Tracker:FindObjectForCode(mapping.code)
         if obj then
@@ -520,8 +605,19 @@ function onClear(slot_data)
             end
         end
     end
+
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
+
+    if PLAYER_ID > -1 then
+        HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+        Archipelago:SetNotify({HINTS_ID})
+        Archipelago:Get({HINTS_ID})
+    end
 end
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", OnNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
