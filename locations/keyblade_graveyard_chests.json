@@ -44,10 +44,10 @@
         ]
       },
       {
-        "name": "Keyblade Graveyard - Small Chest 1",
+        "name": "Keyblade Graveyard - Small Chest 4",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Small Chest 1",
+            "name": "Keyblade Graveyard - Small Chest 4",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "map_keyblade_graveyard",
-            "x": 117,
-            "y": 323
+            "x": 451,
+            "y": 304
           }
         ]
       },
@@ -101,10 +101,10 @@
         ]
       },
       {
-        "name": "Keyblade Graveyard - Small Chest 4",
+        "name": "Keyblade Graveyard - Small Chest 1",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Small Chest 4",
+            "name": "Keyblade Graveyard - Small Chest 1",
             "item_count": 1,
             "access_rules": [
               "unlock_attraction_flow,kingdom_key"
@@ -114,8 +114,8 @@
         "map_locations": [
           {
             "map": "map_keyblade_graveyard",
-            "x": 451,
-            "y": 304
+            "x": 117,
+            "y": 323
           }
         ]
       },
