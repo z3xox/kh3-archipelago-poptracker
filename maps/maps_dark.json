@@ -222,7 +222,7 @@
     "img": "images/dark/map_caribbean_port_royal.png"
   },
   {
-    "name": "map_sanfransokyo_dark",
+    "name": "map_sanfransokyo",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/dark/map_sanfransokyo.png"

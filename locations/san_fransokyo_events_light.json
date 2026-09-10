@@ -1,0 +1,53 @@
+[
+  {
+    "name": "San Fransokyo Events",
+    "parent": "San Fransokyo - Events",
+    "sections": [
+      {
+        "name": "San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem",
+        "item_count": 1,
+        "access_rules": [
+          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+        ]
+      },
+      {
+        "name": "San Fransokyo - EVENT_HEARTBINDER_004 - RandomizedItem",
+        "item_count": 1
+      },
+      {
+        "name": "San Fransokyo - EVENT_KEYITEM_002 - RandomizedItem",
+        "item_count": 1
+      },
+      {
+        "name": "Defeat Metal Troll in San Fransokyo: The Bridge",
+        "item_count": 1
+      },
+      {
+        "name": "Meet Big Hero 6 in San Fransokyo - Hiro's Garage",
+        "item_count": 1
+      },
+      {
+        "name": "Rescue Big Hero 6 from Darkubes in San Fransokyo - The City (Night)",
+        "item_count": 1,
+        "access_rules": [
+          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+        ]
+      },
+      {
+        "name": "Defeat Dark Baymax in San Fransokyo - The City (Day)",
+        "item_count": 1,
+        "access_rules": [
+          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_sanfransokyo",
+        "x": 448,
+        "y": 975,
+        "shape": "diamond"
+      }
+    ]
+  }
+]
