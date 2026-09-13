@@ -2,7 +2,8 @@
   "versions": [
   {
     "package_version": "0.3.4",
-    "download_url": null,
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.3.4/kh3-archipelago-poptracker-v0.3.4.zip",
+    "sha256": "dceb5a4767903169e381132a9407e7e08c98c9f92f15ac5053614d9715b57082",
     "changelog": [
       "Added Ultima Weapon tracking: shards count up toward the seed's Ultima Weapon Shard Count, and seeds that hand out the keyblade directly (shop, Yozora or randomized pool) fill the counter instead.",
       "Fixed Lucky Emblem milestones appearing when only one of their two visibility conditions was met; a milestone now requires both the seed's emblem limit and the milestone progression.",
