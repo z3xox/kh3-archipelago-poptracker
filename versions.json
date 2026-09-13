@@ -1,6 +1,18 @@
 {
   "versions": [
   {
+    "package_version": "0.3.4",
+    "download_url": null,
+    "changelog": [
+      "Added Ultima Weapon tracking: shards count up toward the seed's Ultima Weapon Shard Count, and seeds that hand out the keyblade directly (shop, Yozora or randomized pool) fill the counter instead.",
+      "Fixed Lucky Emblem milestones appearing when only one of their two visibility conditions was met; a milestone now requires both the seed's emblem limit and the milestone progression.",
+      "Fixed the Moogle Shop pin on the dark overworld map.",
+      "Fixed the San Fransokyo event pins being misplaced on the dark map variants; they are now loaded from a variant-specific location file.",
+      "Fixed Keyblade Graveyard Small Chest 1 and Small Chest 4 being swapped on the map.",
+      "Fixed versions.json failing PopTracker's schema validation, which broke the in-app auto-updater."
+    ]
+  },
+  {
     "package_version": "0.3.3",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.3.3/kh3-archipelago-poptracker-v0.3.3.zip",
     "sha256": "3319fc2465b3df34d61c1ea06a579b76b1eff2ed738c7209cc9195d8238336c2",
