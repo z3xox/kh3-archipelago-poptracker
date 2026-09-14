@@ -3,7 +3,7 @@
   {
     "package_version": "0.4.0",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.0/kh3-archipelago-poptracker-v0.4.0.zip",
-    "sha256": "a601f72e6ca8461ca8e462579c6697a9cac7a43b394e081f61a6962f93105af7",
+    "sha256": "d2e01c642ce251f56cbb01b984ed4f1add8f62e82e7fa133e9a6d32dd130813e",
     "changelog": [
       "Added Classic Kingdom (24 checks), Olympus Coliseum (25 checks), Melody of Memory (128 checks) and Ingredients/Ingredients+ (51 + 298 checks) tracking, matching the apworld's expanded location catalog.",
       "Added the 3 non-portal keyblades, 25 Party Member unlocks, 17 per-keyblade Style Change unlocks, and the 23 Classic Kingdom game unlocks as trackable items.",
@@ -13,7 +13,8 @@
       "Fixed a typo in maps.json/maps_dark.json that silently dropped a map's border thickness override.",
       "Renamed treasure chests from their per-size label ('Olympus - Large Chest 1') to their in-game appearance order ('Olympus - Chest 29 (Large Chest, Realm of the Gods: Corridors)').",
       "Per-world pool settings (Olympus, Toy Box, Arendelle, ...) now hide that world's checks entirely when its pool is set to vanilla, instead of only greying them out.",
-      "Regrouped the settings popup by category (Goal / World Pools / Reward Pools / Third Party Mods / Limits) instead of one long column."
+      "Regrouped the settings popup by category (Goal / World Pools / Reward Pools / Third Party Mods / Limits) instead of one long column.",
+      "Added the main controller unlocks (Style Change, Magic, Attraction Flow, Wall Run, Airstep) to the broadcast view."
     ]
   },
   {
