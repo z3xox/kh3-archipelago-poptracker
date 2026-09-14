@@ -43,6 +43,13 @@
             "kb_classic_tone",
             "kb_oblivion",
             "kb_oathkeeper"
+          ],
+          [
+            "unlock_style_change",
+            "unlock_magic",
+            "unlock_attraction_flow",
+            "unlock_wall_run",
+            "unlock_airstep"
           ]
         ]
       }
