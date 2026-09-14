@@ -2,7 +2,8 @@
   "versions": [
   {
     "package_version": "0.4.0",
-    "download_url": null,
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.0/kh3-archipelago-poptracker-v0.4.0.zip",
+    "sha256": "a601f72e6ca8461ca8e462579c6697a9cac7a43b394e081f61a6962f93105af7",
     "changelog": [
       "Added Classic Kingdom (24 checks), Olympus Coliseum (25 checks), Melody of Memory (128 checks) and Ingredients/Ingredients+ (51 + 298 checks) tracking, matching the apworld's expanded location catalog.",
       "Added the 3 non-portal keyblades, 25 Party Member unlocks, 17 per-keyblade Style Change unlocks, and the 23 Classic Kingdom game unlocks as trackable items.",
