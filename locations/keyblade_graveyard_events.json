@@ -141,10 +141,10 @@
         ]
       },
       {
-        "name": "Defeat Sa\u00efx in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation",
+        "name": "Defeat Saïx in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation",
         "sections": [
           {
-            "name": "Defeat Sa\u00efx in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation",
+            "name": "Defeat Saïx in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -180,6 +180,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_keyblade_graveyard"
     ]
   }
 ]

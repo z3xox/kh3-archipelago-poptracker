@@ -2,7 +2,7 @@
   {
     "name": "Arendelle - Events",
     "access_rules": [
-      "kb_crystal_snow"
+      "active_arendelle,kb_crystal_snow"
     ],
     "children": [
       {
@@ -192,6 +192,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_arendelle"
     ]
   }
 ]

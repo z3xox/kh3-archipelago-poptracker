@@ -1,0 +1,16 @@
+{
+  "gimmick_content": {
+    "type": "itemgrid",
+    "item_margin": "2,2",
+    "item_size": "36,36",
+    "rows": [
+      [
+        "unlock_style_change",
+        "unlock_magic",
+        "unlock_attraction_flow",
+        "unlock_wall_run",
+        "unlock_airstep"
+      ]
+    ]
+  }
+}

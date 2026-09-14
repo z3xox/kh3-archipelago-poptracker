@@ -2,7 +2,7 @@
   {
     "name": "San Fransokyo - Events",
     "access_rules": [
-      "kb_nano_gear"
+      "active_san_fransokyo,kb_nano_gear"
     ],
     "children": [
       {
@@ -59,6 +59,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_san_fransokyo"
     ]
   }
 ]

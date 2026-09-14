@@ -2,14 +2,14 @@
   {
     "name": "Monstropolis - Chests",
     "access_rules": [
-      "kb_happy_gear"
+      "active_monstropolis,kb_happy_gear"
     ],
     "children": [
       {
-        "name": "Monstropolis - Large Chest 1",
+        "name": "Monstropolis - Chest 1 (Large Chest, Monsters)",
         "sections": [
           {
-            "name": "Monstropolis - Large Chest 1",
+            "name": "Monstropolis - Chest 1 (Large Chest, Monsters)",
             "item_count": 1
           }
         ],
@@ -22,10 +22,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Large Chest 2",
+        "name": "Monstropolis - Chest 9 (Large Chest, The Factory: Basement)",
         "sections": [
           {
-            "name": "Monstropolis - Large Chest 2",
+            "name": "Monstropolis - Chest 9 (Large Chest, The Factory: Basement)",
             "item_count": 1
           }
         ],
@@ -38,10 +38,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Large Chest 3",
+        "name": "Monstropolis - Chest 19 (Large Chest, The Power Plant: Tank Yard)",
         "sections": [
           {
-            "name": "Monstropolis - Large Chest 3",
+            "name": "Monstropolis - Chest 19 (Large Chest, The Power Plant: Tank Yard)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -58,10 +58,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Large Chest 4",
+        "name": "Monstropolis - Chest 10 (Large Chest, The Factory: Ground Floor)",
         "sections": [
           {
-            "name": "Monstropolis - Large Chest 4",
+            "name": "Monstropolis - Chest 10 (Large Chest, The Factory: Ground Floor)",
             "item_count": 1
           }
         ],
@@ -74,10 +74,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 1",
+        "name": "Monstropolis - Chest 2 (Small Chest, Monsters)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 1",
+            "name": "Monstropolis - Chest 2 (Small Chest, Monsters)",
             "item_count": 1
           }
         ],
@@ -90,10 +90,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 2",
+        "name": "Monstropolis - Chest 3 (Small Chest, Monsters)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 2",
+            "name": "Monstropolis - Chest 3 (Small Chest, Monsters)",
             "item_count": 1
           }
         ],
@@ -106,10 +106,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 3",
+        "name": "Monstropolis - Chest 4 (Small Chest, Monsters)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 3",
+            "name": "Monstropolis - Chest 4 (Small Chest, Monsters)",
             "item_count": 1
           }
         ],
@@ -122,10 +122,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 5",
+        "name": "Monstropolis - Chest 11 (Small Chest, The Factory: Ground Floor)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 5",
+            "name": "Monstropolis - Chest 11 (Small Chest, The Factory: Ground Floor)",
             "item_count": 1
           }
         ],
@@ -138,10 +138,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 6",
+        "name": "Monstropolis - Chest 12 (Small Chest, The Factory: Ground Floor)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 6",
+            "name": "Monstropolis - Chest 12 (Small Chest, The Factory: Ground Floor)",
             "item_count": 1
           }
         ],
@@ -154,10 +154,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 7",
+        "name": "Monstropolis - Chest 13 (Small Chest, The Factory: Second Floor)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 7",
+            "name": "Monstropolis - Chest 13 (Small Chest, The Factory: Second Floor)",
             "item_count": 1
           }
         ],
@@ -170,10 +170,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 8",
+        "name": "Monstropolis - Chest 14 (Small Chest, The Factory: Second Floor)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 8",
+            "name": "Monstropolis - Chest 14 (Small Chest, The Factory: Second Floor)",
             "item_count": 1
           }
         ],
@@ -186,10 +186,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 9",
+        "name": "Monstropolis - Chest 15 (Small Chest, The Power Plant: Accessway)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 9",
+            "name": "Monstropolis - Chest 15 (Small Chest, The Power Plant: Accessway)",
             "item_count": 1
           }
         ],
@@ -202,10 +202,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 10",
+        "name": "Monstropolis - Chest 16 (Small Chest, The Power Plant: Accessway)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 10",
+            "name": "Monstropolis - Chest 16 (Small Chest, The Power Plant: Accessway)",
             "item_count": 1
           }
         ],
@@ -218,10 +218,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 11",
+        "name": "Monstropolis - Chest 17 (Small Chest, The Power Plant: Accessway)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 11",
+            "name": "Monstropolis - Chest 17 (Small Chest, The Power Plant: Accessway)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -238,10 +238,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 12",
+        "name": "Monstropolis - Chest 18 (Small Chest, The Power Plant: Tank Yard)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 12",
+            "name": "Monstropolis - Chest 18 (Small Chest, The Power Plant: Tank Yard)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -258,10 +258,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 13",
+        "name": "Monstropolis - Chest 20 (Small Chest, The Power Plant: Vault Passage)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 13",
+            "name": "Monstropolis - Chest 20 (Small Chest, The Power Plant: Vault Passage)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -278,10 +278,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 14",
+        "name": "Monstropolis - Chest 21 (Small Chest, The Power Plant: Vault Passage)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 14",
+            "name": "Monstropolis - Chest 21 (Small Chest, The Power Plant: Vault Passage)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
@@ -298,10 +298,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 15",
+        "name": "Monstropolis - Chest 22 (Small Chest, The Power Plant: Accessway)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 15",
+            "name": "Monstropolis - Chest 22 (Small Chest, The Power Plant: Accessway)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -318,10 +318,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 16",
+        "name": "Monstropolis - Chest 5 (Small Chest, Monsters)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 16",
+            "name": "Monstropolis - Chest 5 (Small Chest, Monsters)",
             "item_count": 1
           }
         ],
@@ -334,10 +334,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 17",
+        "name": "Monstropolis - Chest 6 (Small Chest, Monsters)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 17",
+            "name": "Monstropolis - Chest 6 (Small Chest, Monsters)",
             "item_count": 1
           }
         ],
@@ -350,10 +350,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 18",
+        "name": "Monstropolis - Chest 7 (Small Chest, The Door Vault: Service Area)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 18",
+            "name": "Monstropolis - Chest 7 (Small Chest, The Door Vault: Service Area)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -370,10 +370,10 @@
         ]
       },
       {
-        "name": "Monstropolis - Small Chest 19",
+        "name": "Monstropolis - Chest 8 (Small Chest, The Door Vault: Service Area)",
         "sections": [
           {
-            "name": "Monstropolis - Small Chest 19",
+            "name": "Monstropolis - Chest 8 (Small Chest, The Door Vault: Service Area)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll",
@@ -389,6 +389,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_monstropolis"
     ]
   }
 ]

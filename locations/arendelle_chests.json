@@ -2,14 +2,14 @@
   {
     "name": "Arendelle - Chests",
     "access_rules": [
-      "kb_crystal_snow"
+      "active_arendelle,kb_crystal_snow"
     ],
     "children": [
       {
-        "name": "Arendelle - Large Chest 1",
+        "name": "Arendelle - Chest 1 (Large Chest, The North Mountain: Treescape)",
         "sections": [
           {
-            "name": "Arendelle - Large Chest 1",
+            "name": "Arendelle - Chest 1 (Large Chest, The North Mountain: Treescape)",
             "item_count": 1
           }
         ],
@@ -22,10 +22,10 @@
         ]
       },
       {
-        "name": "Arendelle - Large Chest 2",
+        "name": "Arendelle - Chest 10 (Large Chest, The Labyrinth of Ice: Middle Tier)",
         "sections": [
           {
-            "name": "Arendelle - Large Chest 2",
+            "name": "Arendelle - Chest 10 (Large Chest, The Labyrinth of Ice: Middle Tier)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -41,10 +41,10 @@
         ]
       },
       {
-        "name": "Arendelle - Large Chest 3",
+        "name": "Arendelle - Chest 8 (Large Chest, The North Mountain: Treescape)",
         "sections": [
           {
-            "name": "Arendelle - Large Chest 3",
+            "name": "Arendelle - Chest 8 (Large Chest, The North Mountain: Treescape)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -60,10 +60,10 @@
         ]
       },
       {
-        "name": "Arendelle - Large Chest 4",
+        "name": "Arendelle - Chest 7 (Large Chest, The North Mountain: Snowfield)",
         "sections": [
           {
-            "name": "Arendelle - Large Chest 4",
+            "name": "Arendelle - Chest 7 (Large Chest, The North Mountain: Snowfield)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -79,10 +79,10 @@
         ]
       },
       {
-        "name": "Arendelle - Large Chest 5",
+        "name": "Arendelle - Chest 14 (Large Chest, The Labyrinth of Ice: Lower Tier)",
         "sections": [
           {
-            "name": "Arendelle - Large Chest 5",
+            "name": "Arendelle - Chest 14 (Large Chest, The Labyrinth of Ice: Lower Tier)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -98,10 +98,10 @@
         ]
       },
       {
-        "name": "Arendelle - Large Chest 6",
+        "name": "Arendelle - Chest 9 (Large Chest, The North Mountain: Snowfield)",
         "sections": [
           {
-            "name": "Arendelle - Large Chest 6",
+            "name": "Arendelle - Chest 9 (Large Chest, The North Mountain: Snowfield)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -117,10 +117,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 1",
+        "name": "Arendelle - Chest 2 (Small Chest, The North Mountain: Treescape)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 1",
+            "name": "Arendelle - Chest 2 (Small Chest, The North Mountain: Treescape)",
             "item_count": 1
           }
         ],
@@ -133,10 +133,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 2",
+        "name": "Arendelle - Chest 3 (Small Chest, The North Mountain: Treescape)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 2",
+            "name": "Arendelle - Chest 3 (Small Chest, The North Mountain: Treescape)",
             "item_count": 1
           }
         ],
@@ -149,10 +149,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 4",
+        "name": "Arendelle - Chest 4 (Small Chest, The North Mountain: Gorge)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 4",
+            "name": "Arendelle - Chest 4 (Small Chest, The North Mountain: Gorge)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -168,10 +168,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 5",
+        "name": "Arendelle - Chest 5 (Small Chest, The North Mountain: Gorge)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 5",
+            "name": "Arendelle - Chest 5 (Small Chest, The North Mountain: Gorge)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -187,10 +187,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 7",
+        "name": "Arendelle - Chest 6 (Small Chest, The North Mountain: Snowfield)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 7",
+            "name": "Arendelle - Chest 6 (Small Chest, The North Mountain: Snowfield)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_glide,unlock_wall_run,ability_pole_spin",
@@ -209,10 +209,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 11",
+        "name": "Arendelle - Chest 11 (Small Chest, The Labyrinth of Ice: Upper Tier)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 11",
+            "name": "Arendelle - Chest 11 (Small Chest, The Labyrinth of Ice: Upper Tier)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -228,10 +228,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 12",
+        "name": "Arendelle - Chest 12 (Small Chest, The Labyrinth of Ice: Middle Tier)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 12",
+            "name": "Arendelle - Chest 12 (Small Chest, The Labyrinth of Ice: Middle Tier)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -247,10 +247,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 13",
+        "name": "Arendelle - Chest 13 (Small Chest, The Labyrinth of Ice: Upper Tier)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 13",
+            "name": "Arendelle - Chest 13 (Small Chest, The Labyrinth of Ice: Upper Tier)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -266,10 +266,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 15",
+        "name": "Arendelle - Chest 15 (Small Chest, The Labyrinth of Ice: Middle Tier)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 15",
+            "name": "Arendelle - Chest 15 (Small Chest, The Labyrinth of Ice: Middle Tier)",
             "item_count": 1,
             "access_rules": [
               "ability_superjump,ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -285,10 +285,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 16",
+        "name": "Arendelle - Chest 16 (Small Chest, The North Mountain: Valley of Ice)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 16",
+            "name": "Arendelle - Chest 16 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -304,10 +304,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 17",
+        "name": "Arendelle - Chest 17 (Small Chest, The North Mountain: Valley of Ice)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 17",
+            "name": "Arendelle - Chest 17 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin",
@@ -328,10 +328,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 19",
+        "name": "Arendelle - Chest 18 (Small Chest, The North Mountain: Valley of Ice)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 19",
+            "name": "Arendelle - Chest 18 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -347,10 +347,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 20",
+        "name": "Arendelle - Chest 19 (Small Chest, The North Mountain: Valley of Ice)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 20",
+            "name": "Arendelle - Chest 19 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_glide,unlock_wall_run,ability_pole_spin",
@@ -368,10 +368,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 22",
+        "name": "Arendelle - Chest 20 (Small Chest, The North Mountain: Valley of Ice)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 22",
+            "name": "Arendelle - Chest 20 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_doubleflight,ability_pole_spin"
@@ -387,10 +387,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 23",
+        "name": "Arendelle - Chest 21 (Small Chest, The North Mountain: Frozen Wall)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 23",
+            "name": "Arendelle - Chest 21 (Small Chest, The North Mountain: Frozen Wall)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -406,10 +406,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 24",
+        "name": "Arendelle - Chest 22 (Small Chest, The North Mountain: Frozen Wall)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 24",
+            "name": "Arendelle - Chest 22 (Small Chest, The North Mountain: Frozen Wall)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -425,10 +425,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 25",
+        "name": "Arendelle - Chest 23 (Small Chest, The North Mountain: Frozen Wall)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 25",
+            "name": "Arendelle - Chest 23 (Small Chest, The North Mountain: Frozen Wall)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -444,10 +444,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 27",
+        "name": "Arendelle - Chest 24 (Small Chest, The North Mountain: Foothills)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 27",
+            "name": "Arendelle - Chest 24 (Small Chest, The North Mountain: Foothills)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_air_slide,unlock_wall_run,ability_pole_spin",
@@ -466,10 +466,10 @@
         ]
       },
       {
-        "name": "Arendelle - Small Chest 29",
+        "name": "Arendelle - Chest 25 (Small Chest, The North Mountain: Foothills)",
         "sections": [
           {
-            "name": "Arendelle - Small Chest 29",
+            "name": "Arendelle - Chest 25 (Small Chest, The North Mountain: Foothills)",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,unlock_wall_run,ability_pole_spin"
@@ -484,6 +484,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_arendelle"
     ]
   }
 ]

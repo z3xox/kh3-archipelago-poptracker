@@ -1,0 +1,710 @@
+{
+ "note": "Item codes the autotracker used to map to items the pack does not define. They produced 'Did not find object for code' on every seed, so the entries were removed from item_mapping.lua. Kept here because several codes are hand-chosen rather than derived from the name (Bonus: MP +3 -> mp_boost). Re-add an entry here to item_mapping.lua when its item is added to items/items.json.",
+ "entries": [
+  {
+   "ap_item": "Ability: Aerial Dive",
+   "code": "ability_aerial_dive",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Aerial Sweep",
+   "code": "ability_aerial_sweep",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Aeroza",
+   "code": "ability_aeroza",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Aero Syphon",
+   "code": "ability_aero_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Aero Boost",
+   "code": "ability_aero_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Air Combo Plus",
+   "code": "ability_air_combo_plus",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Air Combo Boost",
+   "code": "ability_air_combo_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Aerial Dodge",
+   "code": "ability_aerial_dodge",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Falling Slash",
+   "code": "ability_falling_slash",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Aerial Recovery",
+   "code": "ability_aerial_recovery",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Groundbreaker",
+   "code": "ability_groundbreaker",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Attraction Extender",
+   "code": "ability_attraction_extender",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Attraction Enhancer",
+   "code": "ability_attraction_enhancer",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Auto-Finish",
+   "code": "ability_auto_finish",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Magic Lock-On",
+   "code": "ability_magic_lock_on",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Frontline Photographer",
+   "code": "ability_frontline_photographer",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Top Condition",
+   "code": "ability_top_condition",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Blizzaza",
+   "code": "ability_blizzaza",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Blizzard Syphon",
+   "code": "ability_blizzard_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Blizzard Boost",
+   "code": "ability_blizzard_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Payback Strike",
+   "code": "ability_payback_strike",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Burn Protection",
+   "code": "ability_burn_protection",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Berserk Charge",
+   "code": "ability_berserk_charge",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Triple Rush",
+   "code": "ability_triple_rush",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Chef Extraordinaire",
+   "code": "ability_chef_extraordinaire",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Cloud Protection",
+   "code": "ability_cloud_protection",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Combo Plus",
+   "code": "ability_combo_plus",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Combo Boost",
+   "code": "ability_combo_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Reprisal Boost",
+   "code": "ability_reprisal_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Critical Recharge",
+   "code": "ability_critical_recharge",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Critical Converter",
+   "code": "ability_critical_converter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Critical Counter",
+   "code": "ability_critical_counter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Damage Control",
+   "code": "ability_damage_control",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Curaza",
+   "code": "ability_curaza",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Damage Syphon",
+   "code": "ability_damage_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Dark Syphon",
+   "code": "ability_dark_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Defender",
+   "code": "ability_defender",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Electric Protection",
+   "code": "ability_electric_protection",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Endless Magic",
+   "code": "ability_endless_magic",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Zero EXP",
+   "code": "ability_zero_exp",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: EXP Incentive",
+   "code": "ability_exp_incentive",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Last Charge",
+   "code": "ability_last_charge",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Firaza",
+   "code": "ability_firaza",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Fire Syphon",
+   "code": "ability_fire_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Fire Boost",
+   "code": "ability_fire_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Flash Step",
+   "code": "ability_flash_step",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Focus Syphon",
+   "code": "ability_focus_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Formchange Extender",
+   "code": "ability_formchange_extender",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Situation Boost",
+   "code": "ability_situation_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Focus Converter",
+   "code": "ability_focus_converter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Freeze Protection",
+   "code": "ability_freeze_protection",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Assist Friends",
+   "code": "ability_assist_friends",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Full MP Blast",
+   "code": "ability_full_mp_blast",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Fusion Rocket",
+   "code": "ability_fusion_rocket",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Fusion Spin",
+   "code": "ability_fusion_spin",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: More Grand Magic",
+   "code": "ability_more_grand_magic",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Block Replenisher",
+   "code": "ability_block_replenisher",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Harvester",
+   "code": "ability_harvester",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: HP Converter",
+   "code": "ability_hp_converter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Item Boost",
+   "code": "ability_item_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Scan",
+   "code": "ability_scan",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Link Extender",
+   "code": "ability_link_extender",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Lucky Strike",
+   "code": "ability_lucky_strike",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Cuisine Extender",
+   "code": "ability_cuisine_extender",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Magic Flash",
+   "code": "ability_magic_flash",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Magic Combo Thrift",
+   "code": "ability_magic_combo_thrift",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Magic Galvanizer",
+   "code": "ability_magic_galvanizer",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Magic Treasure Magnet",
+   "code": "ability_magic_treasure_magnet",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Magic Roulette",
+   "code": "ability_magic_roulette",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Grand Magic Extender",
+   "code": "ability_grand_magic_extender",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Master Treasure Magnet",
+   "code": "ability_master_treasure_magnet",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Rags to Riches",
+   "code": "ability_rags_to_riches",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: MP Converter",
+   "code": "ability_mp_converter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: MP Haste",
+   "code": "ability_mp_haste",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: MP Hastega",
+   "code": "ability_mp_hastega",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: MP Hastera",
+   "code": "ability_mp_hastera",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Extra Cast",
+   "code": "ability_extra_cast",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: MP Safety",
+   "code": "ability_mp_safety",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: MP Thrift",
+   "code": "ability_mp_thrift",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Munny Converter",
+   "code": "ability_munny_converter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Overtime",
+   "code": "ability_overtime",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Pole Swing",
+   "code": "ability_pole_swing",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Cure Converter",
+   "code": "ability_cure_converter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Hearty Meal",
+   "code": "ability_hearty_meal",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Treasure Magnet",
+   "code": "ability_treasure_magnet",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Prize Proliferator",
+   "code": "ability_prize_proliferator",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Quick Slash",
+   "code": "ability_quick_slash",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Radial Blaster",
+   "code": "ability_radial_blaster",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Counter Impact",
+   "code": "ability_counter_impact",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Final Blow",
+   "code": "ability_final_blow",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Risk Dodge",
+   "code": "ability_risk_dodge",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Rising Spiral",
+   "code": "ability_rising_spiral",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Sneeze Protection",
+   "code": "ability_sneeze_protection",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Sonic Cleave",
+   "code": "ability_sonic_cleave",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Sonic Slash",
+   "code": "ability_sonic_slash",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Stun Protection",
+   "code": "ability_stun_protection",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Somersault",
+   "code": "ability_somersault",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Superslide",
+   "code": "ability_superslide",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Thundaza",
+   "code": "ability_thundaza",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Thunder Syphon",
+   "code": "ability_thunder_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Thunder Boost",
+   "code": "ability_thunder_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Speed Slash",
+   "code": "ability_speed_slash",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Buzz Saw",
+   "code": "ability_buzz_saw",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Unison Blizzard",
+   "code": "ability_unison_blizzard",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Unison Fire",
+   "code": "ability_unison_fire",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Unison Thunder",
+   "code": "ability_unison_thunder",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: HP Walker",
+   "code": "ability_hp_walker",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: MP Walker",
+   "code": "ability_mp_walker",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Waterza",
+   "code": "ability_waterza",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Water Syphon",
+   "code": "ability_water_syphon",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Water Boost",
+   "code": "ability_water_boost",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Ability: Wizard's Ruse",
+   "code": "ability_wizard's_ruse",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Bonus: Accessory Slot +1",
+   "code": "bonus_accessory_slot_plus1",
+   "type": "consumable"
+  },
+  {
+   "ap_item": "Bonus: Armor Slot +1",
+   "code": "bonus_armor_slot_plus1",
+   "type": "consumable"
+  },
+  {
+   "ap_item": "Bonus: HP +10",
+   "code": "hp_boost",
+   "type": "consumable"
+  },
+  {
+   "ap_item": "Bonus: HP +5",
+   "code": "hp_boost",
+   "type": "consumable"
+  },
+  {
+   "ap_item": "Bonus: Item Slot +1",
+   "code": "bonus_item_slot_plus1",
+   "type": "consumable"
+  },
+  {
+   "ap_item": "Bonus: MP +3",
+   "code": "mp_boost",
+   "type": "consumable"
+  },
+  {
+   "ap_item": "Bonus: MP +5",
+   "code": "mp_boost",
+   "type": "consumable"
+  },
+  {
+   "ap_item": "Map: The Stairway to the Sky",
+   "code": "map_the_stairway_to_the_sky",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Breezy Quarter",
+   "code": "map_breezy_quarter",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The City",
+   "code": "map_the_city",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Port Royal Waters",
+   "code": "map_port_royal_waters",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Isla de los Mastiles",
+   "code": "map_isla_de_los_mastiles",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Ship's End",
+   "code": "map_ships_end",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Huddled Isles",
+   "code": "map_huddled_isles",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Sandbar Isle",
+   "code": "map_sandbar_isle",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The North Mountain",
+   "code": "map_the_north_mountain",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The Labyrinth of Ice",
+   "code": "map_the_labyrinth_of_ice",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Realm of the Gods",
+   "code": "map_realm_of_the_gods",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Mount Olympus",
+   "code": "map_mount_olympus",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Thebes",
+   "code": "map_thebes",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The Badlands",
+   "code": "map_the_badlands",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The Skein of Severance",
+   "code": "map_the_skein_of_severance",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Monsters, Inc.",
+   "code": "map_monsters_inc.",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The Factory",
+   "code": "map_the_factory",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The Forest",
+   "code": "map_the_forest",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The Marsh",
+   "code": "map_the_marsh",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Andy's House",
+   "code": "map_andys_house",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: Galaxy Toys",
+   "code": "map_galaxy_toys",
+   "type": "toggle"
+  },
+  {
+   "ap_item": "Map: The Neighborhood",
+   "code": "map_the_neighborhood",
+   "type": "toggle"
+  }
+ ]
+}

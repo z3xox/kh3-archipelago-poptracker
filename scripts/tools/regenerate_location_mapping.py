@@ -19,8 +19,9 @@ This was verified against the currently committed location_mapping.lua:
     or filtered out of the index sequence (not even ones flagged
     "ap_enabled": false in the source data, e.g. Olympus - Victory Bonus 004).
 
-Display names: treasure locations keep their raw "name" (already a short,
-curated label like "Olympus - Large Chest 1"). Every other type (event,
+Display names: treasure locations are renamed to "<World> - Chest <n> (<Size>, <Area>)", using
+the in-game appearance number that leads their "location_description", not the
+per-size numbering of their raw "name". Every other type (event,
 vbonus, lucky_emblem, level_up, ...) uses "location_description" verbatim
 when the source data has one, since their raw names are often opaque AP
 identifiers (e.g. "Olympus - Victory Bonus 082"); otherwise it falls back
@@ -40,6 +41,7 @@ Usage:
 """
 import argparse
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -50,8 +52,37 @@ ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_NAME = "Olympus - Rock Titan Sequence Brea
 ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_ID = BASE_LOCATION_ID + 0xFFFF
 
 
+# "Chest 29 (Large Chest, Realm of the Gods: Corridors, Near Save Point)"
+# -> number, size, area. Some rows have no trailing hint, and one closes its
+# parenthesis early, so stop at the first comma or ")". Written without
+# backslash escapes on purpose.
+CHEST_DESCRIPTION_RE = re.compile("^Chest ([0-9]+) [(]([^,]+), ([^,)]+)")
+
+
 def display_name_for(location: dict) -> str:
+    """Tracker-side name for a location.
+
+    Treasures are named by their in-game order of appearance, with the chest size
+    and area kept as description -- "Olympus - Chest 29 (Large Chest, Realm of
+    the Gods: Corridors)" -- which is how the community and the game itself refer to them. The
+    apworld carries both schemes: the raw "name" numbers chests per size
+    ("Olympus - Large Chest 1"), while "location_description" leads with the
+    appearance number. The number is unique within a world, so prefixing with
+    the world keeps tracker section names globally unique, which
+    OVERWORLD_SECTION_MAP requires (it is keyed by section name alone).
+
+    Falls back to the raw name if a description ever stops matching; one row
+    already has a stray parenthesis ("Chest 6 (Small Chest, The City: North
+    District), Northeast ..."), hence matching only the leading number.
+
+    Every other type uses "location_description" verbatim, since their raw
+    names are opaque AP identifiers (e.g. "Olympus - Victory Bonus 082").
+    """
     if location.get("type") == "treasure":
+        match = CHEST_DESCRIPTION_RE.match(location.get("location_description") or "")
+        if match:
+            number, size, area = match.groups()
+            return f"{location['world']} - Chest {int(number)} ({size}, {area})"
         return location["name"]
     return location.get("location_description") or location["name"]
 

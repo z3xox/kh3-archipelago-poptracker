@@ -2,7 +2,7 @@
   {
     "name": "Olympus - Events",
     "access_rules": [
-      "kb_heros_origin"
+      "active_olympus,kb_heros_origin"
     ],
     "children": [
       {
@@ -292,6 +292,26 @@
         ]
       },
       {
+        "name": "Olympus - Rock Titan Sequence Break Bonus",
+        "sections": [
+          {
+            "name": "Olympus - Rock Titan Sequence Break Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_mount_olympus_p1",
+            "x": 216,
+            "y": 186,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Olympus - Realm of the Gods: Courtyard Satyrs",
         "sections": [
           {
@@ -355,6 +375,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_olympus"
     ]
   }
 ]

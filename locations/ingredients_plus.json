@@ -1,0 +1,2911 @@
+[
+  {
+    "name": "Ingredients+ - Arendelle",
+    "access_rules": [
+      "active_ingredients_plus,kb_crystal_snow"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - Arendelle - Chest 1 (Large Chest, The North Mountain: Treescape)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 007",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_treescape",
+            "x": 88,
+            "y": 437,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 16 (Small Chest, The North Mountain: Valley of Ice)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 016",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_valley_of_ice",
+            "x": 529,
+            "y": 296,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 2 (Small Chest, The North Mountain: Treescape)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 001",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 008",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 010",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_treescape",
+            "x": 143,
+            "y": 303,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 20 (Small Chest, The North Mountain: Valley of Ice)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 012",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_valley_of_ice",
+            "x": 124,
+            "y": 469,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_doubleflight,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 21 (Small Chest, The North Mountain: Frozen Wall)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 013",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_frozen_wall",
+            "x": 673,
+            "y": 321,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 22 (Small Chest, The North Mountain: Frozen Wall)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 014",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 015",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_frozen_wall",
+            "x": 550,
+            "y": 205,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 24 (Small Chest, The North Mountain: Foothills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 017",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_foothills",
+            "x": 74,
+            "y": 283,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "$has_any|ability_doubleflight|ability_high_jump,ability_air_slide,unlock_wall_run,ability_pole_spin",
+          "ability_air_slide,unlock_wall_run,ability_doubleflight,ability_pole_spin",
+          "ability_superjump,ability_wall_kick,ability_air_slide,unlock_wall_run,ability_pole_spin",
+          "ability_superjump,aero:1,ability_air_slide,unlock_wall_run,ability_pole_spin,unlock_magic"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 25 (Small Chest, The North Mountain: Foothills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 018",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_foothills",
+            "x": 141,
+            "y": 446,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 4 (Small Chest, The North Mountain: Gorge)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 004",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_gorge",
+            "x": 405,
+            "y": 429,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 5 (Small Chest, The North Mountain: Gorge)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 003",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_gorge",
+            "x": 459,
+            "y": 398,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 6 (Small Chest, The North Mountain: Snowfield)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 005",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 006",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_snowfield",
+            "x": 596,
+            "y": 195,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,ability_glide,unlock_wall_run,ability_pole_spin",
+          "ability_air_slide,unlock_wall_run,ability_pole_spin",
+          "ability_superjump,aero:1,ability_air_slide,unlock_wall_run,ability_pole_spin,unlock_magic",
+          "ability_superjump,ability_wall_kick,ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 7 (Large Chest, The North Mountain: Snowfield)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 009",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 011",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_snowfield",
+            "x": 323,
+            "y": 308,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "ability_air_slide,unlock_wall_run,ability_pole_spin"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Arendelle - Chest 8 (Large Chest, The North Mountain: Treescape)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Arendelle - Pickup 002",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_treescape",
+            "x": 308,
+            "y": 118,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ingredients+ - Kingdom of Corona",
+    "access_rules": [
+      "active_ingredients_plus,kb_ever_after"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 1 (Small Chest, The Forest: Tower)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 034",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 035",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_a",
+            "x": 495,
+            "y": 172,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 10 (Large Chest, The Forest: Marsh)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 021",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 023",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_marsh",
+            "x": 507,
+            "y": 140,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 11 (Small Chest, The Forest: Marsh)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 019",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 020",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_marsh",
+            "x": 312,
+            "y": 229,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 12 (Small Chest, The Forest: Marsh)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 018",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 022",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 040",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_marsh",
+            "x": 486,
+            "y": 276,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 15 (Small Chest, The Forest: Wetlands)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 024",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 025",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 026",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_campsite",
+            "x": 152,
+            "y": 322,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 18 (Small Chest, The Forest: Wetlands)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 027",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_campsite",
+            "x": 198,
+            "y": 491,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 2 (Small Chest, The Forest: Hills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 015",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 016",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 017",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_bc",
+            "x": 174,
+            "y": 215,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "$has_any|ability_doubleflight|ability_high_jump",
+          "ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 20 (Small Chest, The Forest: Shore)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 028",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 029",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 030",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 031",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 032",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 033",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 041",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 042",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 043",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_campsite",
+            "x": 697,
+            "y": 300,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 23 (Small Chest, The Kingdom: Thoroughfare)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 062",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 063",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_kingdom",
+            "x": 629,
+            "y": 75,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 24 (Large Chest, The Kingdom: Thoroughfare)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 054",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 055",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 056",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 057",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 058",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 059",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 060",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 061",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_kingdom",
+            "x": 589,
+            "y": 312,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 26 (Small Chest, The Kingdom: Wharf)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 045",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 051",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 052",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 053",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_kingdom",
+            "x": 403,
+            "y": 506,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 27 (Small Chest, The Kingdom: Wharf)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 049",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 050",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_kingdom",
+            "x": 332,
+            "y": 228,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 28 (Small Chest, The Kingdom: Wharf)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 044",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 046",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 047",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 048",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_kingdom",
+            "x": 35,
+            "y": 380,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 3 (Small Chest, The Forest: Hills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 013",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 014",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_bc",
+            "x": 222,
+            "y": 366,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 4 (Small Chest, The Forest: Hills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 010",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 011",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_bc",
+            "x": 412,
+            "y": 242,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 5 (Small Chest, The Forest: Hills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 005",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 006",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 007",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 008",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 009",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 037",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 038",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 039",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_bc",
+            "x": 577,
+            "y": 340,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 6 (Small Chest, The Forest: Hills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 012",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_bc",
+            "x": 560,
+            "y": 497,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 7 (Large Chest, The Forest: Hills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 003",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 004",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_a",
+            "x": 246,
+            "y": 151,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Kingdom of Corona - Chest 8 (Small Chest, The Forest: Hills)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 001",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 002",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Kingdom of Corona - Pickup 036",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_a",
+            "x": 77,
+            "y": 287,
+            "shape": "trapezoid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ingredients+ - Monstropolis",
+    "access_rules": [
+      "active_ingredients_plus,kb_happy_gear"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 10 (Large Chest, The Factory: Ground Floor)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 005",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_factory",
+            "x": 573,
+            "y": 285,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 13 (Small Chest, The Factory: Second Floor)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 006",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_factory",
+            "x": 195,
+            "y": 329,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 15 (Small Chest, The Power Plant: Accessway)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 007",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_power_plant",
+            "x": 346,
+            "y": 97,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 19 (Large Chest, The Power Plant: Tank Yard)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 009",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 010",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_door_vault",
+            "x": 470,
+            "y": 79,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 22 (Small Chest, The Power Plant: Accessway)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 008",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_power_plant",
+            "x": 43,
+            "y": 535,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 3 (Small Chest, Monsters)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 001",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 002",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 003",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_monsters_inc",
+            "x": 600,
+            "y": 333,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 4 (Small Chest, Monsters)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 004",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_monsters_inc",
+            "x": 553,
+            "y": 39,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Monstropolis - Chest 6 (Small Chest, Monsters)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 011",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 012",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 013",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 014",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Monstropolis - Pickup 015",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_monsters_inc",
+            "x": 123,
+            "y": 229,
+            "shape": "trapezoid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ingredients+ - Olympus",
+    "access_rules": [
+      "active_ingredients_plus,kb_heros_origin"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - Olympus - Chest 10 (Small Chest, Mount Olympus: Mountainside)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 006",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 007",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_mount_olympus_p2",
+            "x": 601,
+            "y": 129,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 11 (Small Chest, Mount Olympus: Summit)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 009",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_mount_olympus_p2",
+            "x": 170,
+            "y": 303,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 13 (Small Chest, Thebes: Alleyway)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 020",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 021",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 022",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 023",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 127,
+            "y": 135,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+          "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 14 (Small Chest, Thebes: Alleyway)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 024",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 032",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 033",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 152,
+            "y": 181,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+          "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 16 (Small Chest, Thebes: The Big Olive)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 017",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 018",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 019",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 025",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 027",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 030",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 031",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 291,
+            "y": 310,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+          "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 18 (Small Chest, Thebes: Gardens)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 011",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 012",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 013",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 014",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 015",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 016",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 284,
+            "y": 509,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+          "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 20 (Small Chest, Thebes: Overlook)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 028",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 029",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 395,
+            "y": 552,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+          "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 21 (Small Chest, Thebes: Gardens)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 010",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 305,
+            "y": 601,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+          "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 24 (Large Chest, Thebes: Overlook)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 026",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 649,
+            "y": 606,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+          "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 3 (Small Chest, Mount Olympus: Cliff Ascent)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 003",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 005",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Olympus - Pickup 008",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_mount_olympus_p1",
+            "x": 332,
+            "y": 155,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 6 (Small Chest, Mount Olympus: Cliff Ascent)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 002",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_mount_olympus_p1",
+            "x": 530,
+            "y": 390,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 8 (Small Chest, Mount Olympus: Cliff Ascent)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 004",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_mount_olympus_p1",
+            "x": 218,
+            "y": 555,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Olympus - Chest 9 (Large Chest, Mount Olympus: Cliff Ascent)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Olympus - Pickup 001",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_mount_olympus_p1",
+            "x": 529,
+            "y": 659,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ingredients+ - San Fransokyo",
+    "access_rules": [
+      "active_ingredients_plus,kb_nano_gear"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 14 (Small Chest, The City: North District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 016",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 183,
+            "y": 130,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 21 (Small Chest, The City: South District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 002",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 187,
+            "y": 731,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 22 (Small Chest, The City: North District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 009",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 623,
+            "y": 264,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 27 (Small Chest, The City: South District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 001",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 244,
+            "y": 842,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 29 (Small Chest, The City: North District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 012",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 014",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 248,
+            "y": 224,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 3 (Large Chest, The City: South District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 003",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 212,
+            "y": 618,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 32 (Small Chest, The City: North District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 013",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 271,
+            "y": 219,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 34 (Large Chest, The City: Central District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 011",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 164,
+            "y": 312,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 36 (Large Chest, The City: Central District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 004",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 005",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 006",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 007",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 008",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 412,
+            "y": 512,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 5 (Small Chest, The City: North District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 015",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 287,
+            "y": 191,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - San Fransokyo - Chest 6 (Small Chest, The City: North District)",
+        "sections": [
+          {
+            "name": "Ingredients+ - San Fransokyo - Pickup 010",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_sanfransokyo",
+            "x": 561,
+            "y": 164,
+            "shape": "trapezoid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ingredients+ - The Caribbean",
+    "access_rules": [
+      "active_ingredients_plus,kb_wheel_of_fate"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 1 (Small Chest, Huddled Isles) + The Caribbean - Chest 22 (Small Chest, Huddled Isles)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 042",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 043",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 037",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 038",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 044",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 045",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 046",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_huddled_isles",
+            "x": 290,
+            "y": 492,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 098",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 100",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 101",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 103",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 104",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_isla_verdemontana",
+            "x": 260,
+            "y": 187,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 021",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 022",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 024",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 025",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 028",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_sandbar_isle",
+            "x": 427,
+            "y": 632,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
+          "$has_any|ability_doubleflight|ability_high_jump,ability_air_slide,unlock_wall_run",
+          "$has_any|ability_doubleflight|ability_high_jump,ability_combo_master,unlock_wall_run",
+          "ability_superjump,aero:1,unlock_magic"
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 12 (Small Chest, Exile Island)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 091",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 092",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 093",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_exile_island",
+            "x": 265,
+            "y": 187,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 13 (Large Chest, Confinement Island)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 055",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 056",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 057",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 058",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 059",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 060",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_confinement_isle",
+            "x": 356,
+            "y": 245,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 079",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 081",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 086",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 090",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_isla_mastiles",
+            "x": 491,
+            "y": 429,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 18 (Large Chest, Ship's End)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 073",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 074",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 075",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 076",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 077",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_ships_end",
+            "x": 297,
+            "y": 465,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 039",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 047",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_huddled_isles",
+            "x": 337,
+            "y": 195,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 20 (Large Chest, Huddled Isles)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 034",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 035",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 036",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 040",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 041",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_huddled_isles",
+            "x": 132,
+            "y": 276,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 094",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 095",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 096",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 099",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 102",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 105",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 106",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_isla_verdemontana",
+            "x": 429,
+            "y": 345,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run"
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 27 (Small Chest, Sandbar Isle)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 023",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_sandbar_isle",
+            "x": 345,
+            "y": 352,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 027",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 032",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 033",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_sandbar_isle",
+            "x": 426,
+            "y": 413,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove) + The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 026",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 029",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_sandbar_isle",
+            "x": 499,
+            "y": 585,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
+          "$has_any|ability_doubleflight|ability_high_jump,ability_air_slide,unlock_wall_run",
+          "$has_any|ability_doubleflight|ability_high_jump,ability_combo_master,unlock_wall_run",
+          "ability_superjump,aero:1,unlock_magic"
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove) + The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 031",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 030",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_sandbar_isle",
+            "x": 529,
+            "y": 650,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
+          "$has_any|ability_doubleflight|ability_high_jump,ability_air_slide,unlock_wall_run",
+          "$has_any|ability_doubleflight|ability_high_jump,ability_combo_master,unlock_wall_run",
+          "ability_superjump,aero:1,unlock_magic"
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 41 (Small Chest, Horseshoe Island) + The Caribbean - Chest 44 (Small Chest, Horseshoe Island)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 048",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 049",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 050",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 051",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 052",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 053",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 054",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 065",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 066",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 068",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 069",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 070",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 063",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 064",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 067",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_horseshoe_island",
+            "x": 126,
+            "y": 182,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 013",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 643,
+            "y": 441,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 001",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 002",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 285,
+            "y": 394,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 003",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 250,
+            "y": 533,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 51 (Large Chest, Port Royal: Docks)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 015",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 016",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 017",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 018",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 019",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 020",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 140,
+            "y": 243,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 004",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 005",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 006",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 007",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 008",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 009",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 010",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 011",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 204,
+            "y": 676,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 014",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 124,
+            "y": 421,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 012",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 514,
+            "y": 558,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 078",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 080",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 082",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 083",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 084",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 085",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 087",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 088",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 089",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_isla_mastiles",
+            "x": 389,
+            "y": 242,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_glide",
+          "ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 8 (Small Chest, Ship's End)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 071",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 072",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_ships_end",
+            "x": 222,
+            "y": 231,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
+        "sections": [
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 061",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 062",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - The Caribbean - Pickup 097",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_isla_verdemontana",
+            "x": 574,
+            "y": 85,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ingredients+ - Toy Box",
+    "access_rules": [
+      "active_ingredients_plus,kb_favorite_deputy"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - Toy Box - Chest 1 (Large Chest, Andy's House)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 004",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 005",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 007",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 008",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 011",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 012",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 013",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 014",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_andys_house",
+            "x": 389,
+            "y": 617,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 10 (Small Chest, Galaxy Toys: Action Figures)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 021",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_2nd_vents",
+            "x": 333,
+            "y": 159,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 14 (Small Chest, Babies and Toddlers: Dolls)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 024",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_3rd",
+            "x": 624,
+            "y": 199,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_high_jump,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 15 (Small Chest, Babies and Toddlers: Dolls)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 022",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 027",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_3rd",
+            "x": 731,
+            "y": 273,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_high_jump,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 18 (Small Chest, Babies and Toddlers: Outdoors)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 023",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_3rd",
+            "x": 178,
+            "y": 451,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_air_slide",
+          "ability_superjump,ability_wall_kick,ability_air_slide",
+          "ability_superjump,aero:1,unlock_magic"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 2 (Large Chest, Andy's House)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 015",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 016",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 017",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 018",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_andys_house",
+            "x": 290,
+            "y": 626,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 26 (Small Chest, Galaxy Toys: Rest Area)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 025",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 026",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_2nd_vents",
+            "x": 91,
+            "y": 256,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_doubleflight",
+          "ability_superjump,ability_wall_kick,ability_doubleflight"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 27 (Small Chest, Galaxy Toys: Main Floor 1F)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 019",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_1st_top",
+            "x": 347,
+            "y": 295,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 3 (Small Chest, Andy's House)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 001",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 002",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 003",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 006",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 009",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 010",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_andys_house",
+            "x": 698,
+            "y": 642,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "ability_doubleflight",
+          "ability_superjump,aero:1,unlock_magic",
+          "ability_superjump,ability_wall_kick,ability_air_slide"
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 5 (Large Chest, Galaxy Toys: Main Floor 1F)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 028",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_1st_top",
+            "x": 201,
+            "y": 184,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 6 (Small Chest, Galaxy Toys: Main Floor: 2F)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 029",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_2nd_vents",
+            "x": 211,
+            "y": 414,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Toy Box - Chest 9 (Small Chest, Galaxy Toys: Action Figures)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Toy Box - Pickup 020",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_2nd_vents",
+            "x": 282,
+            "y": 124,
+            "shape": "trapezoid"
+          }
+        ],
+        "access_rules": [
+          "unlock_wall_run",
+          "$has_any|ability_doubleflight|ability_high_jump",
+          "ability_doubleflight"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ingredients+ - Twilight Town",
+    "access_rules": [
+      "active_ingredients_plus,kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+    ],
+    "visibility_rules": [
+      "active_ingredients_plus"
+    ],
+    "children": [
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 1 (Large Chest, The Neighborhood: Tram Common)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 002",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 003",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 011",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 177,
+            "y": 386,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 10 (Small Chest, The Old Mansion)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 018",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 697,
+            "y": 40,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 2 (Small Chest, The Neighborhood: Tram Common)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 004",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 006",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 007",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 275,
+            "y": 198,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 3 (Small Chest, The Neighborhood: Tram Common)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 001",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 200,
+            "y": 549,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 4 (Small Chest, The Neighborhood: Tram Common)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 008",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 009",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 010",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 013",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 225,
+            "y": 368,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 5 (Small Chest, The Neighborhood: Tram Common)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 005",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 012",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 263,
+            "y": 445,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 7 (Small Chest, The Woods)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 015",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 533,
+            "y": 392,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 8 (Small Chest, The Woods)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 014",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 546,
+            "y": 547,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ingredients+ - Twilight Town - Chest 9 (Small Chest, The Woods)",
+        "sections": [
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 016",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients+ - Twilight Town - Pickup 017",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 655,
+            "y": 442,
+            "shape": "trapezoid"
+          }
+        ]
+      }
+    ]
+  }
+]

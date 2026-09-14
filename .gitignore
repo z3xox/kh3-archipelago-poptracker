@@ -1,1 +1,6 @@
 *.zip
+*.apworld
+scripts/tools/_*.json
+.vscode/
+__pycache__/
+scripts/tools/extracted_locations.json

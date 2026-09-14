@@ -22,7 +22,9 @@ halves of a PopTracker code "@<location_name>/<section_name>":
      == the override (a hand-curated friendly rename, e.g. for an opaque
      "Victory Bonus NNN" AP name).
   3. Else location_name == section_name == location_description from the
-     source data (for non-treasure types only) or the raw AP name otherwise.
+     source data, except treasures, which become "<World> - Chest <n> (<Size>, <Area>)" from the
+     appearance number leading that description (see display_name_for in
+     regenerate_location_mapping.py).
 
 IDs always come from BASE_LOCATION_ID + index in the source "locations" array
 (see regenerate_location_mapping.py for how this was verified), independent of

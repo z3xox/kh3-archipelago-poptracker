@@ -14,6 +14,21 @@ function update_goal_layout()
     end
 end
 
+-- Per-keyblade Style Change unlocks only exist when the seed uses
+-- style_change: keybladestylesanity (stage 1). In the other two modes a single
+-- shared unlock covers every keyblade, so showing 17 items that can never drop
+-- would be misleading -- swap the Gimmick Unlocks grid instead of listing them.
+STYLE_CHANGE_KEYBLADE_SANITY = 1
+
+function update_gimmick_layout()
+    local obj = Tracker:FindObjectForCode("style_change_setting")
+    if obj and obj.CurrentStage == STYLE_CHANGE_KEYBLADE_SANITY then
+        Tracker:AddLayouts("layouts/gimmick_stylesanity.json")
+    else
+        Tracker:AddLayouts("layouts/gimmick_shared.json")
+    end
+end
+
 -- ============================================================
 -- Portal keyblades / world tiers
 -- ============================================================
@@ -367,4 +382,81 @@ function can_reach_emblem_milestone_gate(target)
         return can_reach_emblem_milestone(target)
     end
     return can_reach_emblem_milestone(prev)
+end
+
+-- ============================================================
+-- Olympus Coliseum (third-party 1.4.2 pak)
+-- ============================================================
+
+-- COLISEUM_WORLD_COMPLETION_SOURCES from the AP world: completing a world means
+-- clearing its final encounter, so each entry pairs the world's portal keyblade
+-- with that encounter's own requirements (VICTORY_BONUS_LOGIC_REQUIREMENTS /
+-- EVENT_LOGIC_REQUIREMENTS for the listed source). Worlds whose final encounter
+-- has no item requirement carry an empty route list.
+COLISEUM_WORLD_COMPLETION = {
+    ["Olympus"]           = {keyblade="kb_heros_origin",    routes={}},
+    ["Twilight Town"]     = {keyblade="kb_shooting_star",   routes={}},
+    ["Toy Box"]           = {keyblade="kb_favorite_deputy", routes={{{codes={"unlock_wall_run"},count=1}}}},
+    ["Kingdom of Corona"] = {keyblade="kb_ever_after",      routes={{{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2}}}},
+    ["Monstropolis"]      = {keyblade="kb_happy_gear",      routes={{{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2},{codes={"unlock_magic"},count=1},{codes={"pride_heartbinder","ocean_heartbinder","dream_heartbinder","pixel_heartbinder","ohana_heartbinder"},count=1}}}},
+    ["Arendelle"]         = {keyblade="kb_crystal_snow",    routes={}},
+    ["The Caribbean"]     = {keyblade="kb_wheel_of_fate",   routes={}},
+    ["San Fransokyo"]     = {keyblade="kb_nano_gear",       routes={{{codes={"ability_pole_spin"},count=1},{codes={"thunder","fire"},count=1},{codes={"water","blizzard"},count=1},{codes={"thunder","aero"},count=1},{codes={"unlock_magic"},count=1}}}},
+}
+
+local function coliseumWorldComplete(world)
+    local entry = COLISEUM_WORLD_COMPLETION[world]
+    if entry == nil then return false end
+    return worldReachable(world, entry.keyblade) and anyRouteSatisfied(entry.routes)
+end
+
+-- Access rule helper: $can_complete_coliseum_worlds|World A|World B
+-- COLISEUM_CUP_REQUIRED_WORLDS is an AND, not a set of alternatives.
+function can_complete_coliseum_worlds(...)
+    local worlds = {...}
+    for _, world in ipairs(worlds) do
+        if not coliseumWorldComplete(world) then return 0 end
+    end
+    return 1
+end
+
+-- Access rule helper: $can_reach_final_boss
+-- COLISEUM_POSTGAME_CUP_IDS additionally require the base game to be cleared,
+-- which AP expresses as the final door being reachable: the seed's goal items.
+function can_reach_final_boss()
+    local goal_obj = Tracker:FindObjectForCode("goal")
+    if goal_obj and goal_obj.CurrentStage == 1 then
+        if Tracker:ProviderCountForCode("heart_piece") >= 7 then return 1 end
+        return 0
+    end
+    if countCodes({"proof_of_fantasy", "proof_of_promises", "proof_of_times_past"}) >= 3 then
+        return 1
+    end
+    return 0
+end
+
+-- ============================================================
+-- Classic Kingdom
+-- ============================================================
+
+-- CLASSIC_KINGDOM_UNLOCK_ITEM_NAMES_BY_GAME_ID from the AP world, in LSIGAME
+-- order. Each High Score check needs its own game; "Complete All Games" needs
+-- every one of them.
+CLASSIC_KINGDOM_GAME_CODES = {
+    "ck_giantland", "ck_mickey_the_mail_pilot", "ck_the_musical_farmer",
+    "ck_building_a_building", "ck_the_mad_doctor", "ck_mickeys_kitten_catch",
+    "ck_the_klondike_kid", "ck_fishin_frenzy", "ck_the_karnival_kid",
+    "ck_mickey_cuts_up", "ck_mickeys_prison_escape", "ck_how_to_play_baseball",
+    "ck_how_to_play_golf", "ck_mickeys_circus", "ck_camping_out",
+    "ck_taxi_troubles", "ck_beach_party", "ck_the_wayward_canary",
+    "ck_mickeys_mechanical_man", "ck_the_barnyard_battle", "ck_cast_out_to_sea",
+    "ck_backyard_sports", "ck_mickey_steps_out",
+}
+
+-- Access rule helper: $has_all_classic_kingdom_games
+function has_all_classic_kingdom_games()
+    if countCodes(CLASSIC_KINGDOM_GAME_CODES) >= #CLASSIC_KINGDOM_GAME_CODES then
+        return 1
+    end
+    return 0
 end

@@ -1,21 +1,93 @@
 {
-  "setting_grid": {
+  "goal_setting_grid": {
     "type": "itemgrid",
-    "background": "#000000",
-    "h_alignment": "left",
-    "item_margin": "4,4",
+    "h_alignment": "center",
+    "item_margin": "4,3",
     "item_size": "40,40",
     "rows": [
-      ["goal"],
-      ["battlegates_setting"],
-      ["remind_setting"],
-      ["lucky_emblems_setting"],
-      ["keyblade_graveyard_setting"],
-      ["radiant_garden_setting"],
-      ["lu_limit"],
-      ["le_limit"],
-      ["lep_check"],
-      ["ms_limit"]
+      [
+        "goal"
+      ]
+    ]
+  },
+  "world_pool_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "4,3",
+    "item_size": "40,40",
+    "rows": [
+      [
+        "olympus_setting",
+        "twilight_town_setting",
+        "toy_box_setting",
+        "kingdom_of_corona_setting"
+      ],
+      [
+        "monstropolis_setting",
+        "hundred_acre_wood_setting",
+        "arendelle_setting",
+        "san_fransokyo_setting"
+      ],
+      [
+        "the_caribbean_setting",
+        "keyblade_graveyard_setting",
+        "remind_setting",
+        "dark_world_setting"
+      ],
+      [
+        "unreality_setting"
+      ]
+    ]
+  },
+  "reward_pool_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "4,3",
+    "item_size": "40,40",
+    "rows": [
+      [
+        "level_ups_setting",
+        "radiant_garden_setting",
+        "lucky_emblems_setting"
+      ],
+      [
+        "classic_kingdom_setting",
+        "ingredients_setting",
+        "battlegates_setting"
+      ],
+      [
+        "style_change_setting"
+      ]
+    ]
+  },
+  "third_party_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "4,3",
+    "item_size": "40,40",
+    "rows": [
+      [
+        "olympus_coliseum_setting"
+      ],
+      [
+        "mc_limit"
+      ]
+    ]
+  },
+  "limit_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "4,3",
+    "item_size": "40,40",
+    "rows": [
+      [
+        "lu_limit",
+        "le_limit"
+      ],
+      [
+        "lep_check",
+        "ms_limit"
+      ]
     ]
   }
 }

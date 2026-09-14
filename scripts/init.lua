@@ -3,6 +3,7 @@ print("-- KH3 Archipelago Tracker --")
 
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/melody_of_memory.json")
 Tracker:AddItems("items/settings.json")
 
 -- Logic functions (must load before locations reference them)
@@ -33,6 +34,10 @@ Tracker:AddLayouts("layouts/settings.json")
 -- Goal display swaps between Proofs / Heart Pieces based on the Goal setting
 update_goal_layout()
 ScriptHost:AddWatchForCode("goal_layout_watch", "goal", update_goal_layout)
+
+-- Keyblade Style unlocks appear inside Gimmick Unlocks only in KeybladeStyleSanity
+update_gimmick_layout()
+ScriptHost:AddWatchForCode("gimmick_layout_watch", "style_change_setting", update_gimmick_layout)
 
 -- AutoTracking
 if PopVersion and PopVersion >= "0.18.0" then

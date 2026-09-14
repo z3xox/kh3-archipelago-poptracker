@@ -84,6 +84,11 @@
               "kb_classic_tone",
               "kb_oblivion",
               "kb_oathkeeper"
+            ],
+            [
+              "kb_grand_chef",
+              "kb_hunny_spout",
+              "kb_starlight"
             ]
           ]
         }
@@ -93,18 +98,8 @@
         "dock": "left",
         "header": "Gimmick Unlocks",
         "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "unlock_style_change",
-              "unlock_magic",
-              "unlock_attraction_flow",
-              "unlock_wall_run",
-              "unlock_airstep"
-            ]
-          ]
+          "type": "layout",
+          "key": "gimmick_content"
         }
       },
       {
@@ -203,6 +198,100 @@
             ]
           ]
         }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Classic Kingdom",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "ck_giantland",
+              "ck_mickey_the_mail_pilot",
+              "ck_the_musical_farmer",
+              "ck_building_a_building"
+            ],
+            [
+              "ck_the_mad_doctor",
+              "ck_mickeys_kitten_catch",
+              "ck_the_klondike_kid",
+              "ck_fishin_frenzy"
+            ],
+            [
+              "ck_the_karnival_kid",
+              "ck_mickey_cuts_up",
+              "ck_mickeys_prison_escape",
+              "ck_how_to_play_baseball"
+            ],
+            [
+              "ck_how_to_play_golf",
+              "ck_mickeys_circus",
+              "ck_camping_out",
+              "ck_taxi_troubles"
+            ],
+            [
+              "ck_beach_party",
+              "ck_the_wayward_canary",
+              "ck_mickeys_mechanical_man",
+              "ck_the_barnyard_battle"
+            ],
+            [
+              "ck_cast_out_to_sea",
+              "ck_backyard_sports",
+              "ck_mickey_steps_out"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Party Members",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "party_donald",
+              "party_goofy",
+              "party_donald_toy_box",
+              "party_goofy_toy_box",
+              "party_donald_monstropolis"
+            ],
+            [
+              "party_goofy_monstropolis",
+              "party_donald_caribbean",
+              "party_goofy_caribbean",
+              "party_hercules",
+              "party_woody"
+            ],
+            [
+              "party_buzz_lightyear",
+              "party_rapunzel",
+              "party_flynn_rider",
+              "party_sulley",
+              "party_mike"
+            ],
+            [
+              "party_captain_jack_sparrow",
+              "party_baymax",
+              "party_mickey",
+              "party_riku",
+              "party_aqua"
+            ],
+            [
+              "party_ventus",
+              "party_lea",
+              "party_kairi",
+              "party_roxas",
+              "party_xion"
+            ]
+          ]
+        },
+        "dock": "left"
       }
     ]
   }

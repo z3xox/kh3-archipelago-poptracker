@@ -257,6 +257,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_radiant_garden"
     ]
   }
 ]

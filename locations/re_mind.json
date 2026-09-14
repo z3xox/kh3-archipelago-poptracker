@@ -92,10 +92,36 @@
             ]
           },
           {
-            "name": "Re Mind - Large Chest 1",
+            "name": "Unreality - Yozora",
             "sections": [
               {
-                "name": "Re Mind - Large Chest 1",
+                "name": "Unreality - EVENT_KEYITEM_005 - RandomizedItem",
+                "item_count": 1,
+                "access_rules": [
+                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Unreality - EVENT_YOZORA_001 - RandomizedItem",
+                "item_count": 1,
+                "access_rules": [
+                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              }
+            ],
+            "map_locations": [],
+            "visibility_rules": [
+              "active_unreality"
+            ],
+            "access_rules": [
+              "active_unreality"
+            ]
+          },
+          {
+            "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky)",
+            "sections": [
+              {
+                "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -111,10 +137,10 @@
             ]
           },
           {
-            "name": "Re Mind - Large Chest 2",
+            "name": "Re Mind - Chest 2 (Large Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Large Chest 2",
+                "name": "Re Mind - Chest 2 (Large Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -130,10 +156,10 @@
             ]
           },
           {
-            "name": "Re Mind - Small Chest 1",
+            "name": "Re Mind - Chest 3 (Small Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Small Chest 1",
+                "name": "Re Mind - Chest 3 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -149,10 +175,10 @@
             ]
           },
           {
-            "name": "Re Mind - Small Chest 2",
+            "name": "Re Mind - Chest 4 (Small Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Small Chest 2",
+                "name": "Re Mind - Chest 4 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -168,10 +194,10 @@
             ]
           },
           {
-            "name": "Re Mind - Small Chest 3",
+            "name": "Re Mind - Chest 5 (Small Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Small Chest 3",
+                "name": "Re Mind - Chest 5 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -187,10 +213,10 @@
             ]
           },
           {
-            "name": "Re Mind - Small Chest 4",
+            "name": "Re Mind - Chest 6 (Small Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Small Chest 4",
+                "name": "Re Mind - Chest 6 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -206,10 +232,10 @@
             ]
           },
           {
-            "name": "Re Mind - Small Chest 5",
+            "name": "Re Mind - Chest 7 (Small Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Small Chest 5",
+                "name": "Re Mind - Chest 7 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -225,10 +251,10 @@
             ]
           },
           {
-            "name": "Re Mind - Small Chest 6",
+            "name": "Re Mind - Chest 8 (Small Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Small Chest 6",
+                "name": "Re Mind - Chest 8 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -244,10 +270,10 @@
             ]
           },
           {
-            "name": "Re Mind - Small Chest 7",
+            "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter)",
             "sections": [
               {
-                "name": "Re Mind - Small Chest 7",
+                "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
                   "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -264,6 +290,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_remind"
     ]
   }
 ]

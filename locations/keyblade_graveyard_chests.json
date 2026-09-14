@@ -6,10 +6,10 @@
     ],
     "children": [
       {
-        "name": "Keyblade Graveyard - Large Chest 1",
+        "name": "Keyblade Graveyard - Chest 1 (Large Chest, The Badlands)",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Large Chest 1",
+            "name": "Keyblade Graveyard - Chest 1 (Large Chest, The Badlands)",
             "item_count": 1,
             "access_rules": [
               "unlock_attraction_flow,kingdom_key"
@@ -25,10 +25,10 @@
         ]
       },
       {
-        "name": "Keyblade Graveyard - Large Chest 2",
+        "name": "Keyblade Graveyard - Chest 3 (Large Chest, The Skein of Severance: Trail of Valediction)",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Large Chest 2",
+            "name": "Keyblade Graveyard - Chest 3 (Large Chest, The Skein of Severance: Trail of Valediction)",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -44,10 +44,10 @@
         ]
       },
       {
-        "name": "Keyblade Graveyard - Small Chest 4",
+        "name": "Keyblade Graveyard - Chest 2 (Small Chest, The Badlands)",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Small Chest 4",
+            "name": "Keyblade Graveyard - Chest 2 (Small Chest, The Badlands)",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -63,10 +63,10 @@
         ]
       },
       {
-        "name": "Keyblade Graveyard - Small Chest 2",
+        "name": "Keyblade Graveyard - Chest 5 (Small Chest, The Skein of Severance: Trail of Valediction)",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Small Chest 2",
+            "name": "Keyblade Graveyard - Chest 5 (Small Chest, The Skein of Severance: Trail of Valediction)",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -82,10 +82,10 @@
         ]
       },
       {
-        "name": "Keyblade Graveyard - Small Chest 3",
+        "name": "Keyblade Graveyard - Chest 6 (Small Chest, The Skein of Severance: Twist of Isolation)",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Small Chest 3",
+            "name": "Keyblade Graveyard - Chest 6 (Small Chest, The Skein of Severance: Twist of Isolation)",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -101,10 +101,10 @@
         ]
       },
       {
-        "name": "Keyblade Graveyard - Small Chest 1",
+        "name": "Keyblade Graveyard - Chest 4 (Small Chest, The Skein of Severance: Trail of Valediction)",
         "sections": [
           {
-            "name": "Keyblade Graveyard - Small Chest 1",
+            "name": "Keyblade Graveyard - Chest 4 (Small Chest, The Skein of Severance: Trail of Valediction)",
             "item_count": 1,
             "access_rules": [
               "unlock_attraction_flow,kingdom_key"
@@ -120,10 +120,10 @@
         ]
       },
       {
-        "name": "The Final World - Large Chest 1",
+        "name": "The Final World - Chest 1 (Large Chest, The Final World)",
         "sections": [
           {
-            "name": "The Final World - Large Chest 1",
+            "name": "The Final World - Chest 1 (Large Chest, The Final World)",
             "item_count": 1,
             "access_rules": [
               "unlock_attraction_flow,kingdom_key"
@@ -138,6 +138,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_keyblade_graveyard"
     ]
   }
 ]

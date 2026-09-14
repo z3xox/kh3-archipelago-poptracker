@@ -2,7 +2,7 @@
   {
     "name": "Level Ups",
     "access_rules": [
-      "$has_any|kb_wheel_of_fate|kb_crystal_snow|kb_ever_after|kb_nano_gear|kb_happy_gear|kb_favorite_deputy|kb_shooting_star"
+      "active_level_ups,$has_any|kb_wheel_of_fate|kb_crystal_snow|kb_ever_after|kb_nano_gear|kb_happy_gear|kb_favorite_deputy|kb_shooting_star"
     ],
     "children": [
       {
@@ -794,6 +794,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_level_ups"
     ]
   }
 ]

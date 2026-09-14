@@ -4,6 +4,10 @@
     "parent": "San Fransokyo - Events",
     "sections": [
       {
+        "name": "San Fransokyo - EVENT_009 - RandomizedItem",
+        "item_count": 1
+      },
+      {
         "name": "San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem",
         "item_count": 1,
         "access_rules": [

@@ -2,14 +2,14 @@
   {
     "name": "Toy Box - Chests",
     "access_rules": [
-      "kb_favorite_deputy"
+      "active_toy_box,kb_favorite_deputy"
     ],
     "children": [
       {
-        "name": "Toy Box - Large Chest 1",
+        "name": "Toy Box - Chest 1 (Large Chest, Andy's House)",
         "sections": [
           {
-            "name": "Toy Box - Large Chest 1",
+            "name": "Toy Box - Chest 1 (Large Chest, Andy's House)",
             "item_count": 1
           }
         ],
@@ -22,10 +22,10 @@
         ]
       },
       {
-        "name": "Toy Box - Large Chest 2",
+        "name": "Toy Box - Chest 2 (Large Chest, Andy's House)",
         "sections": [
           {
-            "name": "Toy Box - Large Chest 2",
+            "name": "Toy Box - Chest 2 (Large Chest, Andy's House)",
             "item_count": 1
           }
         ],
@@ -38,10 +38,10 @@
         ]
       },
       {
-        "name": "Toy Box - Large Chest 3",
+        "name": "Toy Box - Chest 5 (Large Chest, Galaxy Toys: Main Floor 1F)",
         "sections": [
           {
-            "name": "Toy Box - Large Chest 3",
+            "name": "Toy Box - Chest 5 (Large Chest, Galaxy Toys: Main Floor 1F)",
             "item_count": 1
           }
         ],
@@ -54,10 +54,10 @@
         ]
       },
       {
-        "name": "Toy Box - Large Chest 4",
+        "name": "Toy Box - Chest 13 (Large Chest, Galaxy Toys: Lower Vents)",
         "sections": [
           {
-            "name": "Toy Box - Large Chest 4",
+            "name": "Toy Box - Chest 13 (Large Chest, Galaxy Toys: Lower Vents)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -74,10 +74,10 @@
         ]
       },
       {
-        "name": "Toy Box - Large Chest 5",
+        "name": "Toy Box - Chest 24 (Large Chest, Galaxy Toys: Kid Korral)",
         "sections": [
           {
-            "name": "Toy Box - Large Chest 5",
+            "name": "Toy Box - Chest 24 (Large Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -94,10 +94,10 @@
         ]
       },
       {
-        "name": "Toy Box - Large Chest 6",
+        "name": "Toy Box - Chest 29 (Large Chest, Galaxy Toys: Main Floor: 3F)",
         "sections": [
           {
-            "name": "Toy Box - Large Chest 6",
+            "name": "Toy Box - Chest 29 (Large Chest, Galaxy Toys: Main Floor: 3F)",
             "item_count": 1
           }
         ],
@@ -110,10 +110,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 1",
+        "name": "Toy Box - Chest 3 (Small Chest, Andy's House)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 1",
+            "name": "Toy Box - Chest 3 (Small Chest, Andy's House)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -132,10 +132,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 2",
+        "name": "Toy Box - Chest 4 (Small Chest, Andy's House)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 2",
+            "name": "Toy Box - Chest 4 (Small Chest, Andy's House)",
             "item_count": 1
           }
         ],
@@ -148,10 +148,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 3",
+        "name": "Toy Box - Chest 6 (Small Chest, Galaxy Toys: Main Floor: 2F)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 3",
+            "name": "Toy Box - Chest 6 (Small Chest, Galaxy Toys: Main Floor: 2F)",
             "item_count": 1
           }
         ],
@@ -164,10 +164,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 4",
+        "name": "Toy Box - Chest 7 (Small Chest, Galaxy Toys: Main Floor: 3F)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 4",
+            "name": "Toy Box - Chest 7 (Small Chest, Galaxy Toys: Main Floor: 3F)",
             "item_count": 1
           }
         ],
@@ -180,10 +180,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 5",
+        "name": "Toy Box - Chest 8 (Small Chest, Galaxy Toys: Action Figures)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 5",
+            "name": "Toy Box - Chest 8 (Small Chest, Galaxy Toys: Action Figures)",
             "item_count": 1
           }
         ],
@@ -196,10 +196,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 6",
+        "name": "Toy Box - Chest 9 (Small Chest, Galaxy Toys: Action Figures)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 6",
+            "name": "Toy Box - Chest 9 (Small Chest, Galaxy Toys: Action Figures)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -217,10 +217,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 7",
+        "name": "Toy Box - Chest 10 (Small Chest, Galaxy Toys: Action Figures)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 7",
+            "name": "Toy Box - Chest 10 (Small Chest, Galaxy Toys: Action Figures)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -237,10 +237,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 8",
+        "name": "Toy Box - Chest 11 (Small Chest, Galaxy Toys: Lower Vents)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 8",
+            "name": "Toy Box - Chest 11 (Small Chest, Galaxy Toys: Lower Vents)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -257,10 +257,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 9",
+        "name": "Toy Box - Chest 12 (Small Chest, Galaxy Toys: Lower Vents)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 9",
+            "name": "Toy Box - Chest 12 (Small Chest, Galaxy Toys: Lower Vents)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -277,10 +277,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 11",
+        "name": "Toy Box - Chest 14 (Small Chest, Babies and Toddlers: Dolls)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 11",
+            "name": "Toy Box - Chest 14 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -297,10 +297,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 12",
+        "name": "Toy Box - Chest 15 (Small Chest, Babies and Toddlers: Dolls)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 12",
+            "name": "Toy Box - Chest 15 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -317,10 +317,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 13",
+        "name": "Toy Box - Chest 16 (Small Chest, Babies and Toddlers: Dolls)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 13",
+            "name": "Toy Box - Chest 16 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -337,10 +337,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 14",
+        "name": "Toy Box - Chest 17 (Small Chest, Babies and Toddlers: Dolls)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 14",
+            "name": "Toy Box - Chest 17 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -357,10 +357,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 15",
+        "name": "Toy Box - Chest 18 (Small Chest, Babies and Toddlers: Outdoors)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 15",
+            "name": "Toy Box - Chest 18 (Small Chest, Babies and Toddlers: Outdoors)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -379,10 +379,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 16",
+        "name": "Toy Box - Chest 19 (Small Chest, Babies and Toddlers: Outdoors)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 16",
+            "name": "Toy Box - Chest 19 (Small Chest, Babies and Toddlers: Outdoors)",
             "item_count": 1
           }
         ],
@@ -395,10 +395,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 17",
+        "name": "Toy Box - Chest 20 (Small Chest, Galaxy Toys: Video Games)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 17",
+            "name": "Toy Box - Chest 20 (Small Chest, Galaxy Toys: Video Games)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -415,10 +415,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 18",
+        "name": "Toy Box - Chest 21 (Small Chest, Galaxy Toys: Kid Korral)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 18",
+            "name": "Toy Box - Chest 21 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -435,10 +435,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 19",
+        "name": "Toy Box - Chest 22 (Small Chest, Galaxy Toys: Kid Korral)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 19",
+            "name": "Toy Box - Chest 22 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -455,10 +455,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 20",
+        "name": "Toy Box - Chest 23 (Small Chest, Galaxy Toys: Kid Korral)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 20",
+            "name": "Toy Box - Chest 23 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -475,10 +475,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 22",
+        "name": "Toy Box - Chest 25 (Small Chest, Galaxy Toys: Kid Korral)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 22",
+            "name": "Toy Box - Chest 25 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -495,10 +495,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 23",
+        "name": "Toy Box - Chest 26 (Small Chest, Galaxy Toys: Rest Area)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 23",
+            "name": "Toy Box - Chest 26 (Small Chest, Galaxy Toys: Rest Area)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -516,10 +516,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 24",
+        "name": "Toy Box - Chest 27 (Small Chest, Galaxy Toys: Main Floor 1F)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 24",
+            "name": "Toy Box - Chest 27 (Small Chest, Galaxy Toys: Main Floor 1F)",
             "item_count": 1
           }
         ],
@@ -532,10 +532,10 @@
         ]
       },
       {
-        "name": "Toy Box - Small Chest 25",
+        "name": "Toy Box - Chest 28 (Small Chest, Babies and Toddlers: Outdoors)",
         "sections": [
           {
-            "name": "Toy Box - Small Chest 25",
+            "name": "Toy Box - Chest 28 (Small Chest, Babies and Toddlers: Outdoors)",
             "item_count": 1
           }
         ],
@@ -547,6 +547,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_toy_box"
     ]
   }
 ]

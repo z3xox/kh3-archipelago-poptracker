@@ -2,14 +2,14 @@
   {
     "name": "Kingdom of Corona - Chests",
     "access_rules": [
-      "kb_ever_after"
+      "active_kingdom_of_corona,kb_ever_after"
     ],
     "children": [
       {
-        "name": "Kingdom of Corona - Large Chest 1",
+        "name": "Kingdom of Corona - Chest 7 (Large Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Large Chest 1",
+            "name": "Kingdom of Corona - Chest 7 (Large Chest, The Forest: Hills)",
             "item_count": 1
           }
         ],
@@ -22,10 +22,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Large Chest 2",
+        "name": "Kingdom of Corona - Chest 10 (Large Chest, The Forest: Marsh)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Large Chest 2",
+            "name": "Kingdom of Corona - Chest 10 (Large Chest, The Forest: Marsh)",
             "item_count": 1
           }
         ],
@@ -38,10 +38,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Large Chest 3",
+        "name": "Kingdom of Corona - Chest 9 (Large Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Large Chest 3",
+            "name": "Kingdom of Corona - Chest 9 (Large Chest, The Forest: Hills)",
             "item_count": 1
           }
         ],
@@ -54,10 +54,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Large Chest 4",
+        "name": "Kingdom of Corona - Chest 22 (Large Chest, The Forest: Wildflower Clearing)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Large Chest 4",
+            "name": "Kingdom of Corona - Chest 22 (Large Chest, The Forest: Wildflower Clearing)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -73,10 +73,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Large Chest 5",
+        "name": "Kingdom of Corona - Chest 24 (Large Chest, The Kingdom: Thoroughfare)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Large Chest 5",
+            "name": "Kingdom of Corona - Chest 24 (Large Chest, The Kingdom: Thoroughfare)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -92,10 +92,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Large Chest 6",
+        "name": "Kingdom of Corona - Chest 14 (Large Chest, The Forest: Wetlands)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Large Chest 6",
+            "name": "Kingdom of Corona - Chest 14 (Large Chest, The Forest: Wetlands)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -111,10 +111,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 1",
+        "name": "Kingdom of Corona - Chest 1 (Small Chest, The Forest: Tower)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 1",
+            "name": "Kingdom of Corona - Chest 1 (Small Chest, The Forest: Tower)",
             "item_count": 1
           }
         ],
@@ -127,10 +127,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 2",
+        "name": "Kingdom of Corona - Chest 2 (Small Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 2",
+            "name": "Kingdom of Corona - Chest 2 (Small Chest, The Forest: Hills)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump",
@@ -147,10 +147,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 3",
+        "name": "Kingdom of Corona - Chest 3 (Small Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 3",
+            "name": "Kingdom of Corona - Chest 3 (Small Chest, The Forest: Hills)",
             "item_count": 1
           }
         ],
@@ -163,10 +163,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 4",
+        "name": "Kingdom of Corona - Chest 4 (Small Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 4",
+            "name": "Kingdom of Corona - Chest 4 (Small Chest, The Forest: Hills)",
             "item_count": 1
           }
         ],
@@ -179,10 +179,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 5",
+        "name": "Kingdom of Corona - Chest 5 (Small Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 5",
+            "name": "Kingdom of Corona - Chest 5 (Small Chest, The Forest: Hills)",
             "item_count": 1
           }
         ],
@@ -195,10 +195,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 6",
+        "name": "Kingdom of Corona - Chest 6 (Small Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 6",
+            "name": "Kingdom of Corona - Chest 6 (Small Chest, The Forest: Hills)",
             "item_count": 1
           }
         ],
@@ -211,10 +211,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 7",
+        "name": "Kingdom of Corona - Chest 8 (Small Chest, The Forest: Hills)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 7",
+            "name": "Kingdom of Corona - Chest 8 (Small Chest, The Forest: Hills)",
             "item_count": 1
           }
         ],
@@ -227,10 +227,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 8",
+        "name": "Kingdom of Corona - Chest 11 (Small Chest, The Forest: Marsh)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 8",
+            "name": "Kingdom of Corona - Chest 11 (Small Chest, The Forest: Marsh)",
             "item_count": 1
           }
         ],
@@ -243,10 +243,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 9",
+        "name": "Kingdom of Corona - Chest 12 (Small Chest, The Forest: Marsh)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 9",
+            "name": "Kingdom of Corona - Chest 12 (Small Chest, The Forest: Marsh)",
             "item_count": 1
           }
         ],
@@ -259,10 +259,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 10",
+        "name": "Kingdom of Corona - Chest 13 (Small Chest, The Forest: Wetlands)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 10",
+            "name": "Kingdom of Corona - Chest 13 (Small Chest, The Forest: Wetlands)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,ability_doubleflight",
@@ -280,10 +280,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 11",
+        "name": "Kingdom of Corona - Chest 15 (Small Chest, The Forest: Wetlands)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 11",
+            "name": "Kingdom of Corona - Chest 15 (Small Chest, The Forest: Wetlands)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -299,10 +299,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 12",
+        "name": "Kingdom of Corona - Chest 16 (Small Chest, The Forest: Wetlands)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 12",
+            "name": "Kingdom of Corona - Chest 16 (Small Chest, The Forest: Wetlands)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -318,10 +318,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 13",
+        "name": "Kingdom of Corona - Chest 17 (Small Chest, The Forest: Wetlands)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 13",
+            "name": "Kingdom of Corona - Chest 17 (Small Chest, The Forest: Wetlands)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -337,10 +337,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 14",
+        "name": "Kingdom of Corona - Chest 18 (Small Chest, The Forest: Wetlands)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 14",
+            "name": "Kingdom of Corona - Chest 18 (Small Chest, The Forest: Wetlands)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -356,10 +356,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 15",
+        "name": "Kingdom of Corona - Chest 19 (Small Chest, The Forest: Campsite)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 15",
+            "name": "Kingdom of Corona - Chest 19 (Small Chest, The Forest: Campsite)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -375,10 +375,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 16",
+        "name": "Kingdom of Corona - Chest 20 (Small Chest, The Forest: Shore)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 16",
+            "name": "Kingdom of Corona - Chest 20 (Small Chest, The Forest: Shore)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -394,10 +394,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 17",
+        "name": "Kingdom of Corona - Chest 21 (Small Chest, The Forest: Wildflower Clearing)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 17",
+            "name": "Kingdom of Corona - Chest 21 (Small Chest, The Forest: Wildflower Clearing)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -413,10 +413,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 18",
+        "name": "Kingdom of Corona - Chest 23 (Small Chest, The Kingdom: Thoroughfare)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 18",
+            "name": "Kingdom of Corona - Chest 23 (Small Chest, The Kingdom: Thoroughfare)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -432,10 +432,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 19",
+        "name": "Kingdom of Corona - Chest 25 (Small Chest, The Kingdom: Thoroughfare)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 19",
+            "name": "Kingdom of Corona - Chest 25 (Small Chest, The Kingdom: Thoroughfare)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -451,10 +451,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 20",
+        "name": "Kingdom of Corona - Chest 26 (Small Chest, The Kingdom: Wharf)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 20",
+            "name": "Kingdom of Corona - Chest 26 (Small Chest, The Kingdom: Wharf)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -470,10 +470,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 21",
+        "name": "Kingdom of Corona - Chest 27 (Small Chest, The Kingdom: Wharf)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 21",
+            "name": "Kingdom of Corona - Chest 27 (Small Chest, The Kingdom: Wharf)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -489,10 +489,10 @@
         ]
       },
       {
-        "name": "Kingdom of Corona - Small Chest 22",
+        "name": "Kingdom of Corona - Chest 28 (Small Chest, The Kingdom: Wharf)",
         "sections": [
           {
-            "name": "Kingdom of Corona - Small Chest 22",
+            "name": "Kingdom of Corona - Chest 28 (Small Chest, The Kingdom: Wharf)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -507,6 +507,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_kingdom_of_corona"
     ]
   }
 ]

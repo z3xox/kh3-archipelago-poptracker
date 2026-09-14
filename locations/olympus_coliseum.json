@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Olympus Coliseum",
+    "access_rules": [
+      "active_olympus_coliseum,$can_complete_coliseum_worlds|Olympus"
+    ],
+    "children": [
+      {
+        "name": "Olympus Coliseum - Cups",
+        "sections": [
+          {
+            "name": "Olympus Coliseum - KH1 - Phil Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH1 - Pegasus Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Toy Box|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH1 - Hercules Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Monstropolis|Arendelle"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH1 - Hades Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH1 - Gold Match Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH1 - Platinum Match Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH2 - Pain and Panic Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH2 - Cerberus Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Toy Box|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH2 - Titan Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Monstropolis|Arendelle"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH2 - Goddess of Fate Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|The Caribbean|San Fransokyo"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH2 - Paradox Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH3 - Hermes Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH3 - Apollo Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Toy Box|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH3 - Athena Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Monstropolis|Arendelle"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - KH3 - Zeus Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - Secret - Sephiroth Match Clear",
+            "item_count": 1
+          },
+          {
+            "name": "Olympus Coliseum - Apro - Chef Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - Apro - Flan Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - Apro - The Story So Far Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - Apro - Infernal Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - Apro - Limit Cut Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - Apro - Vessels of Darkness Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_final_boss"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - BBS - Terra Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - BBS - Ventus Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Toy Box|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Olympus Coliseum - BBS - Aqua Cup Clear",
+            "item_count": 1,
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Monstropolis|Arendelle"
+            ]
+          }
+        ],
+        "map_locations": []
+      }
+    ],
+    "visibility_rules": [
+      "active_olympus_coliseum"
+    ]
+  }
+]

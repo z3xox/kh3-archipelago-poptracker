@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Ingredients",
+    "access_rules": [
+      "active_ingredients"
+    ],
+    "visibility_rules": [
+      "active_ingredients"
+    ],
+    "children": [
+      {
+        "name": "Ingredients - First Pickups",
+        "sections": [
+          {
+            "name": "Ingredients - Crab",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Scallop",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Lobster",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Sole",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Eel",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Sea Bass",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Mussel",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Cod",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Pumpkin",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Zucchini",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Onion",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Tomato",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Eggplant",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Carrot",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Garlic",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Celery",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Morel",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Porcini",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Chanterelle",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Portobello",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Black Truffle",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - King Oyster Mushroom",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Black Trumpet",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Miller Mushroom",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Cloves",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Rosemary",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Thyme",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Bay Leaf",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Basil",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Dill",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Parsley",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Saffron",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Apricot",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Gooseberry",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Lemon",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Orange",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Raspberry",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Pear",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Blackberry",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Apple",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Cheese",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Chocolate",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Caviar",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Butter",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Olive Oil",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Cornichon",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Rice",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Veal",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Beef",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Quail",
+            "item_count": 1
+          },
+          {
+            "name": "Ingredients - Filet Mignon",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@
   {
     "name": "Monstropolis - Events",
     "access_rules": [
-      "kb_happy_gear"
+      "active_monstropolis,kb_happy_gear"
     ],
     "children": [
       {
@@ -190,6 +190,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_monstropolis"
     ]
   }
 ]

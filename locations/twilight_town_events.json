@@ -2,7 +2,7 @@
   {
     "name": "Twilight Town - Events",
     "access_rules": [
-      "kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+      "active_twilight_town,kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
     ],
     "children": [
       {
@@ -87,6 +87,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_twilight_town"
     ]
   }
 ]

@@ -2,7 +2,7 @@
   {
     "name": "The Caribbean - Events",
     "access_rules": [
-      "kb_wheel_of_fate"
+      "active_the_caribbean,kb_wheel_of_fate"
     ],
     "children": [
       {
@@ -84,6 +84,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_the_caribbean"
     ]
   }
 ]
