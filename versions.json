@@ -2,7 +2,8 @@
   "versions": [
   {
     "package_version": "0.4.1",
-    "download_url": null,
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.1/kh3-archipelago-poptracker-v0.4.1.zip",
+    "sha256": "f3be05acfbd63825512edc59f17f3c634a9e2978cd2e319d6c77f4b8264b88fe",
     "changelog": [
       "Added Level Ups - Sora Level 51 through 99 (49 checks) tracking, matching the apworld's Level Up Limit range extending from 50 to 99.",
       "Added Melody Chest tracking (8 checks, one per story world) for the apworld's new Music Chest Count option, including map pins and a manual toggle per world in a new 'Melody Chests' group in the Settings popup.",
