@@ -2,14 +2,14 @@
   {
     "name": "The Caribbean - Chests",
     "access_rules": [
-      "kb_wheel_of_fate"
+      "active_the_caribbean,kb_wheel_of_fate"
     ],
     "children": [
       {
-        "name": "The Caribbean - Large Chest 1",
+        "name": "The Caribbean - Chest 51 (Large Chest, Port Royal: Docks)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 1",
+            "name": "The Caribbean - Chest 51 (Large Chest, Port Royal: Docks)",
             "item_count": 1
           }
         ],
@@ -22,10 +22,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 2",
+        "name": "The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 2",
+            "name": "The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles)",
             "item_count": 1
           }
         ],
@@ -38,10 +38,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 3",
+        "name": "The Caribbean - Chest 18 (Large Chest, Ship's End)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 3",
+            "name": "The Caribbean - Chest 18 (Large Chest, Ship's End)",
             "item_count": 1
           }
         ],
@@ -54,10 +54,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 4",
+        "name": "The Caribbean - Chest 19 (Large Chest, Sandbar Isle)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 4",
+            "name": "The Caribbean - Chest 19 (Large Chest, Sandbar Isle)",
             "item_count": 1
           }
         ],
@@ -70,10 +70,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 5",
+        "name": "The Caribbean - Chest 20 (Large Chest, Huddled Isles)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 5",
+            "name": "The Caribbean - Chest 20 (Large Chest, Huddled Isles)",
             "item_count": 1
           }
         ],
@@ -86,10 +86,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 6",
+        "name": "The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 6",
+            "name": "The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)",
             "item_count": 1
           }
         ],
@@ -102,10 +102,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 7",
+        "name": "The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 7",
+            "name": "The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)",
             "item_count": 1
           }
         ],
@@ -118,10 +118,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 8",
+        "name": "The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 8",
+            "name": "The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -137,10 +137,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 9",
+        "name": "The Caribbean - Chest 13 (Large Chest, Confinement Island)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 9",
+            "name": "The Caribbean - Chest 13 (Large Chest, Confinement Island)",
             "item_count": 1
           }
         ],
@@ -153,10 +153,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 10",
+        "name": "The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 10",
+            "name": "The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern)",
             "item_count": 1
           }
         ],
@@ -169,10 +169,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Large Chest 11",
+        "name": "The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
         "sections": [
           {
-            "name": "The Caribbean - Large Chest 11",
+            "name": "The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -190,10 +190,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 1",
+        "name": "The Caribbean - Chest 46 (Small Chest, Port Royal: Fort)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 1",
+            "name": "The Caribbean - Chest 46 (Small Chest, Port Royal: Fort)",
             "item_count": 1
           }
         ],
@@ -206,10 +206,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 2",
+        "name": "The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 2",
+            "name": "The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)",
             "item_count": 1
           }
         ],
@@ -222,10 +222,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 3",
+        "name": "The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 3",
+            "name": "The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)",
             "item_count": 1
           }
         ],
@@ -238,10 +238,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 4",
+        "name": "The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 4",
+            "name": "The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)",
             "item_count": 1
           }
         ],
@@ -254,10 +254,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 5",
+        "name": "The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 5",
+            "name": "The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)",
             "item_count": 1
           }
         ],
@@ -270,10 +270,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 6",
+        "name": "The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 6",
+            "name": "The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)",
             "item_count": 1
           }
         ],
@@ -286,10 +286,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 7",
+        "name": "The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 7",
+            "name": "The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater)",
             "item_count": 1
           }
         ],
@@ -302,10 +302,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 8",
+        "name": "The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 8",
+            "name": "The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)",
             "item_count": 1
           }
         ],
@@ -318,10 +318,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 9",
+        "name": "The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 9",
+            "name": "The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)",
             "item_count": 1
           }
         ],
@@ -334,10 +334,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 11",
+        "name": "The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 11",
+            "name": "The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)",
             "item_count": 1
           }
         ],
@@ -350,10 +350,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 12",
+        "name": "The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 12",
+            "name": "The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern)",
             "item_count": 1
           }
         ],
@@ -366,10 +366,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 16",
+        "name": "The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 16",
+            "name": "The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -386,10 +386,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 17",
+        "name": "The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 17",
+            "name": "The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -408,10 +408,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 18",
+        "name": "The Caribbean - Chest 12 (Small Chest, Exile Island)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 18",
+            "name": "The Caribbean - Chest 12 (Small Chest, Exile Island)",
             "item_count": 1
           }
         ],
@@ -424,10 +424,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 25",
+        "name": "The Caribbean - Chest 45 (Small Chest, The Leviathan)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 25",
+            "name": "The Caribbean - Chest 45 (Small Chest, The Leviathan)",
             "item_count": 1
           }
         ],
@@ -440,10 +440,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 19",
+        "name": "The Caribbean - Chest 14 (Small Chest, The Gateway of Regret)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 19",
+            "name": "The Caribbean - Chest 14 (Small Chest, The Gateway of Regret)",
             "item_count": 1
           }
         ],
@@ -456,10 +456,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 26",
+        "name": "The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 26",
+            "name": "The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -475,10 +475,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 27",
+        "name": "The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 27",
+            "name": "The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)",
             "item_count": 1
           }
         ],
@@ -491,10 +491,10 @@
         ]
       },
       {
-        "name": "The Caribbean - Small Chest 28",
+        "name": "The Caribbean - Chest 27 (Small Chest, Sandbar Isle)",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 28",
+            "name": "The Caribbean - Chest 27 (Small Chest, Sandbar Isle)",
             "item_count": 1
           }
         ],
@@ -510,15 +510,15 @@
         "name": "Sandbar Isle - Chests 28+29+30",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 29",
+            "name": "The Caribbean - Chest 28 (Small Chest, Sandbar Isle: Underwater)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 30",
+            "name": "The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 31",
+            "name": "The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater)",
             "item_count": 1
           }
         ],
@@ -534,7 +534,7 @@
         "name": "Sandbar Isle - x8 Cluster",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 34",
+            "name": "The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -544,7 +544,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 35",
+            "name": "The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -554,7 +554,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 36",
+            "name": "The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -564,7 +564,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 37",
+            "name": "The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -574,7 +574,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 38",
+            "name": "The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -584,7 +584,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 39",
+            "name": "The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -594,7 +594,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 40",
+            "name": "The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -604,7 +604,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 41",
+            "name": "The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -626,7 +626,7 @@
         "name": "Sandbar Isle - Chests 31+32",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 32",
+            "name": "The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -636,7 +636,7 @@
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 33",
+            "name": "The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "$has_any|ability_doubleflight|ability_high_jump,ability_glide,unlock_wall_run",
@@ -658,23 +658,23 @@
         "name": "Horseshoe Island - Chest Cluster",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 20",
+            "name": "The Caribbean - Chest 16 (Small Chest, Horseshoe Island)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 42",
+            "name": "The Caribbean - Chest 41 (Small Chest, Horseshoe Island)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 43",
+            "name": "The Caribbean - Chest 42 (Small Chest, Horseshoe Island)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 44",
+            "name": "The Caribbean - Chest 43 (Small Chest, Horseshoe Island)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 45",
+            "name": "The Caribbean - Chest 44 (Small Chest, Horseshoe Island)",
             "item_count": 1
           }
         ],
@@ -690,15 +690,15 @@
         "name": "Huddled Isles - Chests 1+21+22",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 10",
+            "name": "The Caribbean - Chest 1 (Small Chest, Huddled Isles)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 21",
+            "name": "The Caribbean - Chest 21 (Small Chest, Huddled Isles)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 22",
+            "name": "The Caribbean - Chest 22 (Small Chest, Huddled Isles)",
             "item_count": 1
           }
         ],
@@ -714,11 +714,11 @@
         "name": "Ship's End - Chests 7+8",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 14",
+            "name": "The Caribbean - Chest 7 (Small Chest, Ship's End)",
             "item_count": 1
           },
           {
-            "name": "The Caribbean - Small Chest 15",
+            "name": "The Caribbean - Chest 8 (Small Chest, Ship's End)",
             "item_count": 1
           }
         ],
@@ -734,21 +734,21 @@
         "name": "Isla Mastiles - Chests 5+23+24",
         "sections": [
           {
-            "name": "The Caribbean - Small Chest 13",
+            "name": "The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 23",
+            "name": "The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
             ]
           },
           {
-            "name": "The Caribbean - Small Chest 24",
+            "name": "The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -766,18 +766,54 @@
       {
         "name": "The Caribbean - Port Royal Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Large Chest 1", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 1/The Caribbean - Large Chest 1" },
-          { "name": "The Caribbean - Large Chest 6", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 6/The Caribbean - Large Chest 6" },
-          { "name": "The Caribbean - Small Chest 1", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 1/The Caribbean - Small Chest 1" },
-          { "name": "The Caribbean - Small Chest 2", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 2/The Caribbean - Small Chest 2" },
-          { "name": "The Caribbean - Small Chest 3", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 3/The Caribbean - Small Chest 3" },
-          { "name": "The Caribbean - Small Chest 4", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 4/The Caribbean - Small Chest 4" },
-          { "name": "The Caribbean - Small Chest 5", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 5/The Caribbean - Small Chest 5" },
-          { "name": "The Caribbean - Small Chest 6", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 6/The Caribbean - Small Chest 6" },
-          { "name": "The Caribbean - Small Chest 7", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 7/The Caribbean - Small Chest 7" },
-          { "name": "The Caribbean - Small Chest 8", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 8/The Caribbean - Small Chest 8" },
-          { "name": "The Caribbean - Small Chest 9", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 9/The Caribbean - Small Chest 9" },
-          { "name": "The Caribbean - Small Chest 25", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 25/The Caribbean - Small Chest 25" }
+          {
+            "name": "The Caribbean - Chest 51 (Large Chest, Port Royal: Docks)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 51 (Large Chest, Port Royal: Docks)/The Caribbean - Chest 51 (Large Chest, Port Royal: Docks)"
+          },
+          {
+            "name": "The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)/The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)"
+          },
+          {
+            "name": "The Caribbean - Chest 46 (Small Chest, Port Royal: Fort)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 46 (Small Chest, Port Royal: Fort)/The Caribbean - Chest 46 (Small Chest, Port Royal: Fort)"
+          },
+          {
+            "name": "The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)"
+          },
+          {
+            "name": "The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)"
+          },
+          {
+            "name": "The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)"
+          },
+          {
+            "name": "The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)/The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)"
+          },
+          {
+            "name": "The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)/The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)"
+          },
+          {
+            "name": "The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater)/The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater)"
+          },
+          {
+            "name": "The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)/The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)"
+          },
+          {
+            "name": "The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)"
+          },
+          {
+            "name": "The Caribbean - Chest 45 (Small Chest, The Leviathan)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 45 (Small Chest, The Leviathan)/The Caribbean - Chest 45 (Small Chest, The Leviathan)"
+          }
         ],
         "map_locations": [
           {
@@ -790,14 +826,38 @@
       {
         "name": "The Caribbean - Huddled Isles Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Large Chest 5", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 5/The Caribbean - Large Chest 5" },
-          { "name": "The Caribbean - Large Chest 7", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 7/The Caribbean - Large Chest 7" },
-          { "name": "The Caribbean - Large Chest 10", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 10/The Caribbean - Large Chest 10" },
-          { "name": "The Caribbean - Small Chest 11", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 11/The Caribbean - Small Chest 11" },
-          { "name": "The Caribbean - Small Chest 12", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 12/The Caribbean - Small Chest 12" },
-          { "name": "The Caribbean - Small Chest 10", "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Small Chest 10" },
-          { "name": "The Caribbean - Small Chest 21", "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Small Chest 21" },
-          { "name": "The Caribbean - Small Chest 22", "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Small Chest 22" }
+          {
+            "name": "The Caribbean - Chest 20 (Large Chest, Huddled Isles)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 20 (Large Chest, Huddled Isles)/The Caribbean - Chest 20 (Large Chest, Huddled Isles)"
+          },
+          {
+            "name": "The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)"
+          },
+          {
+            "name": "The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern)"
+          },
+          {
+            "name": "The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)"
+          },
+          {
+            "name": "The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern)"
+          },
+          {
+            "name": "The Caribbean - Chest 1 (Small Chest, Huddled Isles)",
+            "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 1 (Small Chest, Huddled Isles)"
+          },
+          {
+            "name": "The Caribbean - Chest 21 (Small Chest, Huddled Isles)",
+            "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 21 (Small Chest, Huddled Isles)"
+          },
+          {
+            "name": "The Caribbean - Chest 22 (Small Chest, Huddled Isles)",
+            "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 22 (Small Chest, Huddled Isles)"
+          }
         ],
         "map_locations": [
           {
@@ -810,11 +870,26 @@
       {
         "name": "The Caribbean - Isla Mastiles Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Large Chest 2", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 2/The Caribbean - Large Chest 2" },
-          { "name": "The Caribbean - Large Chest 11", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 11/The Caribbean - Large Chest 11" },
-          { "name": "The Caribbean - Small Chest 13", "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Small Chest 13" },
-          { "name": "The Caribbean - Small Chest 23", "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Small Chest 23" },
-          { "name": "The Caribbean - Small Chest 24", "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Small Chest 24" }
+          {
+            "name": "The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles)/The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles)"
+          },
+          {
+            "name": "The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)"
+          },
+          {
+            "name": "The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)"
+          }
         ],
         "map_locations": [
           {
@@ -827,9 +902,18 @@
       {
         "name": "The Caribbean - Ship's End Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Large Chest 3", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 3/The Caribbean - Large Chest 3" },
-          { "name": "The Caribbean - Small Chest 14", "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Small Chest 14" },
-          { "name": "The Caribbean - Small Chest 15", "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Small Chest 15" }
+          {
+            "name": "The Caribbean - Chest 18 (Large Chest, Ship's End)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 18 (Large Chest, Ship's End)/The Caribbean - Chest 18 (Large Chest, Ship's End)"
+          },
+          {
+            "name": "The Caribbean - Chest 7 (Small Chest, Ship's End)",
+            "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Chest 7 (Small Chest, Ship's End)"
+          },
+          {
+            "name": "The Caribbean - Chest 8 (Small Chest, Ship's End)",
+            "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Chest 8 (Small Chest, Ship's End)"
+          }
         ],
         "map_locations": [
           {
@@ -842,9 +926,18 @@
       {
         "name": "The Caribbean - Verdemontana Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Large Chest 8", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 8/The Caribbean - Large Chest 8" },
-          { "name": "The Caribbean - Small Chest 16", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 16/The Caribbean - Small Chest 16" },
-          { "name": "The Caribbean - Small Chest 26", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 26/The Caribbean - Small Chest 26" }
+          {
+            "name": "The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)"
+          },
+          {
+            "name": "The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)"
+          },
+          {
+            "name": "The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)"
+          }
         ],
         "map_locations": [
           {
@@ -857,23 +950,74 @@
       {
         "name": "The Caribbean - Sandbar Isle Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Large Chest 4", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 4/The Caribbean - Large Chest 4" },
-          { "name": "The Caribbean - Small Chest 17", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 17/The Caribbean - Small Chest 17" },
-          { "name": "The Caribbean - Small Chest 27", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 27/The Caribbean - Small Chest 27" },
-          { "name": "The Caribbean - Small Chest 28", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 28/The Caribbean - Small Chest 28" },
-          { "name": "The Caribbean - Small Chest 29", "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Small Chest 29" },
-          { "name": "The Caribbean - Small Chest 30", "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Small Chest 30" },
-          { "name": "The Caribbean - Small Chest 31", "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Small Chest 31" },
-          { "name": "The Caribbean - Small Chest 34", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 34" },
-          { "name": "The Caribbean - Small Chest 35", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 35" },
-          { "name": "The Caribbean - Small Chest 36", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 36" },
-          { "name": "The Caribbean - Small Chest 37", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 37" },
-          { "name": "The Caribbean - Small Chest 38", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 38" },
-          { "name": "The Caribbean - Small Chest 39", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 39" },
-          { "name": "The Caribbean - Small Chest 40", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 40" },
-          { "name": "The Caribbean - Small Chest 41", "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Small Chest 41" },
-          { "name": "The Caribbean - Small Chest 32", "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Small Chest 32" },
-          { "name": "The Caribbean - Small Chest 33", "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Small Chest 33" }
+          {
+            "name": "The Caribbean - Chest 19 (Large Chest, Sandbar Isle)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 19 (Large Chest, Sandbar Isle)/The Caribbean - Chest 19 (Large Chest, Sandbar Isle)"
+          },
+          {
+            "name": "The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)/The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)"
+          },
+          {
+            "name": "The Caribbean - Chest 27 (Small Chest, Sandbar Isle)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 27 (Small Chest, Sandbar Isle)/The Caribbean - Chest 27 (Small Chest, Sandbar Isle)"
+          },
+          {
+            "name": "The Caribbean - Chest 28 (Small Chest, Sandbar Isle: Underwater)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 28 (Small Chest, Sandbar Isle: Underwater)"
+          },
+          {
+            "name": "The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater)"
+          },
+          {
+            "name": "The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater)"
+          },
+          {
+            "name": "The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          },
+          {
+            "name": "The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)"
+          }
         ],
         "map_locations": [
           {
@@ -886,7 +1030,10 @@
       {
         "name": "The Caribbean - Exile Island Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Small Chest 18", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 18/The Caribbean - Small Chest 18" }
+          {
+            "name": "The Caribbean - Chest 12 (Small Chest, Exile Island)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 12 (Small Chest, Exile Island)/The Caribbean - Chest 12 (Small Chest, Exile Island)"
+          }
         ],
         "map_locations": [
           {
@@ -899,7 +1046,10 @@
       {
         "name": "The Caribbean - Confinement Isle Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Large Chest 9", "ref": "The Caribbean - Chests/The Caribbean - Large Chest 9/The Caribbean - Large Chest 9" }
+          {
+            "name": "The Caribbean - Chest 13 (Large Chest, Confinement Island)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 13 (Large Chest, Confinement Island)/The Caribbean - Chest 13 (Large Chest, Confinement Island)"
+          }
         ],
         "map_locations": [
           {
@@ -912,11 +1062,26 @@
       {
         "name": "The Caribbean - Horseshoe Island Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Small Chest 20", "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Small Chest 20" },
-          { "name": "The Caribbean - Small Chest 42", "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Small Chest 42" },
-          { "name": "The Caribbean - Small Chest 43", "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Small Chest 43" },
-          { "name": "The Caribbean - Small Chest 44", "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Small Chest 44" },
-          { "name": "The Caribbean - Small Chest 45", "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Small Chest 45" }
+          {
+            "name": "The Caribbean - Chest 16 (Small Chest, Horseshoe Island)",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 16 (Small Chest, Horseshoe Island)"
+          },
+          {
+            "name": "The Caribbean - Chest 41 (Small Chest, Horseshoe Island)",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 41 (Small Chest, Horseshoe Island)"
+          },
+          {
+            "name": "The Caribbean - Chest 42 (Small Chest, Horseshoe Island)",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 42 (Small Chest, Horseshoe Island)"
+          },
+          {
+            "name": "The Caribbean - Chest 43 (Small Chest, Horseshoe Island)",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 43 (Small Chest, Horseshoe Island)"
+          },
+          {
+            "name": "The Caribbean - Chest 44 (Small Chest, Horseshoe Island)",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 44 (Small Chest, Horseshoe Island)"
+          }
         ],
         "map_locations": [
           {
@@ -929,7 +1094,10 @@
       {
         "name": "The Caribbean - Gateway Chests (Sea Map)",
         "sections": [
-          { "name": "The Caribbean - Small Chest 19", "ref": "The Caribbean - Chests/The Caribbean - Small Chest 19/The Caribbean - Small Chest 19" }
+          {
+            "name": "The Caribbean - Chest 14 (Small Chest, The Gateway of Regret)",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 14 (Small Chest, The Gateway of Regret)/The Caribbean - Chest 14 (Small Chest, The Gateway of Regret)"
+          }
         ],
         "map_locations": [
           {
@@ -939,6 +1107,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_the_caribbean"
     ]
   }
 ]

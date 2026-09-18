@@ -13,3 +13,6 @@ The KH3 AP world currently has minimal logic — only the final door requires al
 
 ## Credits
 Built for use with the KH3 Archipelago alpha APWorld developed by Aesais.
+
+Icon art from [Kingdom Hearts Re:Collection](https://televo.github.io/kingdom-hearts-recollection)
+by Televo, used under its free-use terms.

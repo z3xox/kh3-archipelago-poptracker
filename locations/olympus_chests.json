@@ -2,14 +2,14 @@
   {
     "name": "Olympus - Chests",
     "access_rules": [
-      "kb_heros_origin"
+      "active_olympus,kb_heros_origin"
     ],
     "children": [
       {
-        "name": "Olympus - Large Chest 1",
+        "name": "Olympus - Chest 29 (Large Chest, Realm of the Gods: Corridors)",
         "sections": [
           {
-            "name": "Olympus - Large Chest 1",
+            "name": "Olympus - Chest 29 (Large Chest, Realm of the Gods: Corridors)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -25,10 +25,10 @@
         ]
       },
       {
-        "name": "Olympus - Large Chest 2",
+        "name": "Olympus - Chest 9 (Large Chest, Mount Olympus: Cliff Ascent)",
         "sections": [
           {
-            "name": "Olympus - Large Chest 2",
+            "name": "Olympus - Chest 9 (Large Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -45,10 +45,10 @@
         ]
       },
       {
-        "name": "Olympus - Large Chest 3",
+        "name": "Olympus - Chest 31 (Large Chest, Realm of the Gods: Apex)",
         "sections": [
           {
-            "name": "Olympus - Large Chest 3",
+            "name": "Olympus - Chest 31 (Large Chest, Realm of the Gods: Apex)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -64,10 +64,10 @@
         ]
       },
       {
-        "name": "Olympus - Large Chest 4",
+        "name": "Olympus - Chest 24 (Large Chest, Thebes: Overlook)",
         "sections": [
           {
-            "name": "Olympus - Large Chest 4",
+            "name": "Olympus - Chest 24 (Large Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -85,10 +85,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 1",
+        "name": "Olympus - Chest 25 (Small Chest, Realm of the Gods: Courtyard)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 1",
+            "name": "Olympus - Chest 25 (Small Chest, Realm of the Gods: Courtyard)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -104,10 +104,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 2",
+        "name": "Olympus - Chest 26 (Small Chest, Realm of the Gods: Courtyard)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 2",
+            "name": "Olympus - Chest 26 (Small Chest, Realm of the Gods: Courtyard)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -123,10 +123,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 3",
+        "name": "Olympus - Chest 27 (Small Chest, Realm of the Gods: Courtyard)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 3",
+            "name": "Olympus - Chest 27 (Small Chest, Realm of the Gods: Courtyard)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -142,10 +142,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 4",
+        "name": "Olympus - Chest 28 (Small Chest, Realm of the Gods: Corridors)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 4",
+            "name": "Olympus - Chest 28 (Small Chest, Realm of the Gods: Corridors)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -161,10 +161,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 6",
+        "name": "Olympus - Chest 30 (Small Chest, Realm of the Gods: Cloud Ridge)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 6",
+            "name": "Olympus - Chest 30 (Small Chest, Realm of the Gods: Cloud Ridge)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -180,10 +180,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 8",
+        "name": "Olympus - Chest 32 (Small Chest, Realm of the Gods: Apex)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 8",
+            "name": "Olympus - Chest 32 (Small Chest, Realm of the Gods: Apex)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -199,10 +199,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 9",
+        "name": "Olympus - Chest 1 (Small Chest, Mount Olympus: Ravine)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 9",
+            "name": "Olympus - Chest 1 (Small Chest, Mount Olympus: Ravine)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -220,10 +220,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 10",
+        "name": "Olympus - Chest 2 (Small Chest, Mount Olympus: Ravine)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 10",
+            "name": "Olympus - Chest 2 (Small Chest, Mount Olympus: Ravine)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -241,10 +241,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 11",
+        "name": "Olympus - Chest 3 (Small Chest, Mount Olympus: Cliff Ascent)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 11",
+            "name": "Olympus - Chest 3 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -261,10 +261,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 12",
+        "name": "Olympus - Chest 4 (Small Chest, Mount Olympus: Cliff Ascent)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 12",
+            "name": "Olympus - Chest 4 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -281,10 +281,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 13",
+        "name": "Olympus - Chest 5 (Small Chest, Mount Olympus: Cliff Ascent)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 13",
+            "name": "Olympus - Chest 5 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -301,10 +301,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 14",
+        "name": "Olympus - Chest 6 (Small Chest, Mount Olympus: Cliff Ascent)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 14",
+            "name": "Olympus - Chest 6 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -321,10 +321,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 15",
+        "name": "Olympus - Chest 7 (Small Chest, Mount Olympus: Cliff Ascent)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 15",
+            "name": "Olympus - Chest 7 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -341,10 +341,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 16",
+        "name": "Olympus - Chest 8 (Small Chest, Mount Olympus: Cliff Ascent)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 16",
+            "name": "Olympus - Chest 8 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -361,10 +361,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 17",
+        "name": "Olympus - Chest 10 (Small Chest, Mount Olympus: Mountainside)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 17",
+            "name": "Olympus - Chest 10 (Small Chest, Mount Olympus: Mountainside)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -380,10 +380,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 20",
+        "name": "Olympus - Chest 11 (Small Chest, Mount Olympus: Summit)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 20",
+            "name": "Olympus - Chest 11 (Small Chest, Mount Olympus: Summit)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -399,10 +399,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 21",
+        "name": "Olympus - Chest 12 (Small Chest, Mount Olympus: Mountainside)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 21",
+            "name": "Olympus - Chest 12 (Small Chest, Mount Olympus: Mountainside)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -418,10 +418,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 22",
+        "name": "Olympus - Chest 13 (Small Chest, Thebes: Alleyway)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 22",
+            "name": "Olympus - Chest 13 (Small Chest, Thebes: Alleyway)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -439,10 +439,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 23",
+        "name": "Olympus - Chest 14 (Small Chest, Thebes: Alleyway)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 23",
+            "name": "Olympus - Chest 14 (Small Chest, Thebes: Alleyway)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -460,10 +460,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 24",
+        "name": "Olympus - Chest 15 (Small Chest, Thebes: Agora)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 24",
+            "name": "Olympus - Chest 15 (Small Chest, Thebes: Agora)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -481,10 +481,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 25",
+        "name": "Olympus - Chest 16 (Small Chest, Thebes: The Big Olive)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 25",
+            "name": "Olympus - Chest 16 (Small Chest, Thebes: The Big Olive)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -502,10 +502,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 26",
+        "name": "Olympus - Chest 17 (Small Chest, Thebes: The Big Olive)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 26",
+            "name": "Olympus - Chest 17 (Small Chest, Thebes: The Big Olive)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -523,10 +523,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 27",
+        "name": "Olympus - Chest 18 (Small Chest, Thebes: Gardens)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 27",
+            "name": "Olympus - Chest 18 (Small Chest, Thebes: Gardens)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -544,10 +544,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 28",
+        "name": "Olympus - Chest 19 (Small Chest, Thebes: Overlook)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 28",
+            "name": "Olympus - Chest 19 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -565,10 +565,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 29",
+        "name": "Olympus - Chest 20 (Small Chest, Thebes: Overlook)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 29",
+            "name": "Olympus - Chest 20 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -586,10 +586,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 30",
+        "name": "Olympus - Chest 21 (Small Chest, Thebes: Gardens)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 30",
+            "name": "Olympus - Chest 21 (Small Chest, Thebes: Gardens)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -607,10 +607,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 31",
+        "name": "Olympus - Chest 22 (Small Chest, Thebes: Overlook)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 31",
+            "name": "Olympus - Chest 22 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -628,10 +628,10 @@
         ]
       },
       {
-        "name": "Olympus - Small Chest 33",
+        "name": "Olympus - Chest 23 (Small Chest, Thebes: Overlook)",
         "sections": [
           {
-            "name": "Olympus - Small Chest 33",
+            "name": "Olympus - Chest 23 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -648,6 +648,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_olympus"
     ]
   }
 ]

@@ -2,14 +2,14 @@
   {
     "name": "Twilight Town - Chests",
     "access_rules": [
-      "kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+      "active_twilight_town,kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
     ],
     "children": [
       {
-        "name": "Twilight Town - Large Chest 1",
+        "name": "Twilight Town - Chest 1 (Large Chest, The Neighborhood: Tram Common)",
         "sections": [
           {
-            "name": "Twilight Town - Large Chest 1",
+            "name": "Twilight Town - Chest 1 (Large Chest, The Neighborhood: Tram Common)",
             "item_count": 1
           }
         ],
@@ -22,10 +22,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 1",
+        "name": "Twilight Town - Chest 2 (Small Chest, The Neighborhood: Tram Common)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 1",
+            "name": "Twilight Town - Chest 2 (Small Chest, The Neighborhood: Tram Common)",
             "item_count": 1
           }
         ],
@@ -38,10 +38,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 2",
+        "name": "Twilight Town - Chest 3 (Small Chest, The Neighborhood: Tram Common)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 2",
+            "name": "Twilight Town - Chest 3 (Small Chest, The Neighborhood: Tram Common)",
             "item_count": 1
           }
         ],
@@ -54,10 +54,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 3",
+        "name": "Twilight Town - Chest 4 (Small Chest, The Neighborhood: Tram Common)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 3",
+            "name": "Twilight Town - Chest 4 (Small Chest, The Neighborhood: Tram Common)",
             "item_count": 1
           }
         ],
@@ -70,10 +70,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 4",
+        "name": "Twilight Town - Chest 5 (Small Chest, The Neighborhood: Tram Common)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 4",
+            "name": "Twilight Town - Chest 5 (Small Chest, The Neighborhood: Tram Common)",
             "item_count": 1
           }
         ],
@@ -86,10 +86,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 5",
+        "name": "Twilight Town - Chest 6 (Small Chest, Underground Conduit)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 5",
+            "name": "Twilight Town - Chest 6 (Small Chest, Underground Conduit)",
             "item_count": 1
           }
         ],
@@ -102,10 +102,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 6",
+        "name": "Twilight Town - Chest 7 (Small Chest, The Woods)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 6",
+            "name": "Twilight Town - Chest 7 (Small Chest, The Woods)",
             "item_count": 1
           }
         ],
@@ -118,10 +118,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 7",
+        "name": "Twilight Town - Chest 8 (Small Chest, The Woods)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 7",
+            "name": "Twilight Town - Chest 8 (Small Chest, The Woods)",
             "item_count": 1
           }
         ],
@@ -134,10 +134,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 8",
+        "name": "Twilight Town - Chest 9 (Small Chest, The Woods)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 8",
+            "name": "Twilight Town - Chest 9 (Small Chest, The Woods)",
             "item_count": 1
           }
         ],
@@ -150,10 +150,10 @@
         ]
       },
       {
-        "name": "Twilight Town - Small Chest 9",
+        "name": "Twilight Town - Chest 10 (Small Chest, The Old Mansion)",
         "sections": [
           {
-            "name": "Twilight Town - Small Chest 9",
+            "name": "Twilight Town - Chest 10 (Small Chest, The Old Mansion)",
             "item_count": 1
           }
         ],
@@ -165,6 +165,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_twilight_town"
     ]
   }
 ]

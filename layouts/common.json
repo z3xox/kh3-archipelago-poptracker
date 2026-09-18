@@ -1,9 +1,66 @@
 {
   "settings_popup": {
     "type": "container",
+    "background": "#000000",
     "content": {
-      "type": "layout",
-      "key": "setting_grid"
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "group",
+          "header": "Goal",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "goal_setting_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "World Pools",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "world_pool_setting_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Reward Pools",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "reward_pool_setting_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Third Party Mods",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "third_party_setting_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Melody Chests",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "melody_chest_setting_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Limits",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "limit_setting_grid"
+          }
+        }
+      ]
     }
   },
   "map_tabs": {
@@ -370,7 +427,7 @@
               }
             },
             {
-              "title": "Verdemonta\u00f1a",
+              "title": "Verdemontaña",
               "content": {
                 "type": "map",
                 "maps": [

@@ -2,7 +2,7 @@
   {
     "name": "Kingdom of Corona - Events",
     "access_rules": [
-      "kb_ever_after"
+      "active_kingdom_of_corona,kb_ever_after"
     ],
     "children": [
       {
@@ -130,6 +130,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_kingdom_of_corona"
     ]
   }
 ]

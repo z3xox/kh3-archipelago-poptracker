@@ -2,7 +2,7 @@
   {
     "name": "Dark World",
     "access_rules": [
-      "kb_oblivion,$has_tier_one_keyblades"
+      "active_dark_world,kb_oblivion,$has_tier_one_keyblades"
     ],
     "children": [
       {
@@ -23,6 +23,9 @@
           }
         ]
       }
+    ],
+    "visibility_rules": [
+      "active_dark_world"
     ]
   }
 ]

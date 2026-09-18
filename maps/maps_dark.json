@@ -2,7 +2,7 @@
   {
     "name": "map_100AcreWoods_rabbitHouse",
     "location_size": 20,
-    "location_boder_thickness": 1,
+    "location_border_thickness": 1,
     "img": "images/100AcreMap.png"
   },
   {

@@ -131,7 +131,7 @@
     "codes": "lu_limit",
     "type": "consumable",
     "min_quantity": 2,
-    "max_quantity": 50,
+    "max_quantity": 99,
     "initial_quantity": 35
   },
   {
@@ -166,5 +166,377 @@
     "max_quantity": 20,
     "increment": 1,
     "initial_quantity": 0
+  },
+  {
+    "name": "Classic Kingdom",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Classic Kingdom.png",
+        "img_mods": "saturation|0",
+        "codes": "classic_kingdom_setting",
+        "inherit_codes": false,
+        "name": "Classic Kingdom Checks Off"
+      },
+      {
+        "img": "images/items/Classic Kingdom.png",
+        "codes": "classic_kingdom_setting, active_classic_kingdom",
+        "inherit_codes": false,
+        "name": "Classic Kingdom High Score"
+      }
+    ]
+  },
+  {
+    "name": "Olympus Coliseum",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Hercules Cup.png",
+        "img_mods": "saturation|0",
+        "codes": "olympus_coliseum_setting",
+        "inherit_codes": false,
+        "name": "Olympus Coliseum Off"
+      },
+      {
+        "img": "images/items/Hercules Cup.png",
+        "codes": "olympus_coliseum_setting, active_olympus_coliseum",
+        "inherit_codes": false,
+        "name": "Olympus Coliseum On"
+      }
+    ]
+  },
+  {
+    "name": "Ingredients",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Ingredients.png",
+        "img_mods": "saturation|0",
+        "codes": "ingredients_setting",
+        "inherit_codes": false,
+        "name": "Ingredients Off"
+      },
+      {
+        "img": "images/items/Ingredients.png",
+        "codes": "ingredients_setting, active_ingredients",
+        "inherit_codes": false,
+        "name": "Ingredient Sanity"
+      },
+      {
+        "img": "images/items/Ingredients.png",
+        "codes": "ingredients_setting, active_ingredients_plus",
+        "inherit_codes": false,
+        "name": "Ingredient Sanity +"
+      }
+    ]
+  },
+  {
+    "name": "Music Chest Count",
+    "img": "images/items/Symphony of Sorcery.png",
+    "overlay_font_size": 21,
+    "codes": "mc_limit",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 8,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Olympus",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Olympus.png",
+        "img_mods": "saturation|0",
+        "codes": "olympus_setting",
+        "inherit_codes": false,
+        "name": "Olympus Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Olympus.png",
+        "codes": "olympus_setting, active_olympus",
+        "inherit_codes": false,
+        "name": "Olympus Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Twilight Town",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Twilight Town.png",
+        "img_mods": "saturation|0",
+        "codes": "twilight_town_setting",
+        "inherit_codes": false,
+        "name": "Twilight Town Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Twilight Town.png",
+        "codes": "twilight_town_setting, active_twilight_town",
+        "inherit_codes": false,
+        "name": "Twilight Town Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Toy Box",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Toy Box.png",
+        "img_mods": "saturation|0",
+        "codes": "toy_box_setting",
+        "inherit_codes": false,
+        "name": "Toy Box Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Toy Box.png",
+        "codes": "toy_box_setting, active_toy_box",
+        "inherit_codes": false,
+        "name": "Toy Box Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Kingdom of Corona",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Kingdom of Corona.png",
+        "img_mods": "saturation|0",
+        "codes": "kingdom_of_corona_setting",
+        "inherit_codes": false,
+        "name": "Kingdom of Corona Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Kingdom of Corona.png",
+        "codes": "kingdom_of_corona_setting, active_kingdom_of_corona",
+        "inherit_codes": false,
+        "name": "Kingdom of Corona Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Monstropolis",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Monstropolis.png",
+        "img_mods": "saturation|0",
+        "codes": "monstropolis_setting",
+        "inherit_codes": false,
+        "name": "Monstropolis Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Monstropolis.png",
+        "codes": "monstropolis_setting, active_monstropolis",
+        "inherit_codes": false,
+        "name": "Monstropolis Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Arendelle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Arendelle.png",
+        "img_mods": "saturation|0",
+        "codes": "arendelle_setting",
+        "inherit_codes": false,
+        "name": "Arendelle Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Arendelle.png",
+        "codes": "arendelle_setting, active_arendelle",
+        "inherit_codes": false,
+        "name": "Arendelle Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "The Caribbean",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/The Caribbean.png",
+        "img_mods": "saturation|0",
+        "codes": "the_caribbean_setting",
+        "inherit_codes": false,
+        "name": "The Caribbean Checks Off"
+      },
+      {
+        "img": "images/items/worlds/The Caribbean.png",
+        "codes": "the_caribbean_setting, active_the_caribbean",
+        "inherit_codes": false,
+        "name": "The Caribbean Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "San Fransokyo",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/San Fransokyo.png",
+        "img_mods": "saturation|0",
+        "codes": "san_fransokyo_setting",
+        "inherit_codes": false,
+        "name": "San Fransokyo Checks Off"
+      },
+      {
+        "img": "images/items/worlds/San Fransokyo.png",
+        "codes": "san_fransokyo_setting, active_san_fransokyo",
+        "inherit_codes": false,
+        "name": "San Fransokyo Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "100 Acre Wood",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/100 Acre Wood.png",
+        "img_mods": "saturation|0",
+        "codes": "hundred_acre_wood_setting",
+        "inherit_codes": false,
+        "name": "100 Acre Wood Checks Off"
+      },
+      {
+        "img": "images/items/worlds/100 Acre Wood.png",
+        "codes": "hundred_acre_wood_setting, active_hundred_acre_wood",
+        "inherit_codes": false,
+        "name": "100 Acre Wood Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Dark World",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Dark World.png",
+        "img_mods": "saturation|0",
+        "codes": "dark_world_setting",
+        "inherit_codes": false,
+        "name": "Dark World Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Dark World.png",
+        "codes": "dark_world_setting, active_dark_world",
+        "inherit_codes": false,
+        "name": "Dark World Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Unreality",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Final World.png",
+        "img_mods": "saturation|0",
+        "codes": "unreality_setting",
+        "inherit_codes": false,
+        "name": "Unreality Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Final World.png",
+        "codes": "unreality_setting, active_unreality",
+        "inherit_codes": false,
+        "name": "Unreality Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Level Ups",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Sora's Level.png",
+        "img_mods": "saturation|0",
+        "codes": "level_ups_setting",
+        "inherit_codes": false,
+        "name": "Level Ups Checks Off"
+      },
+      {
+        "img": "images/items/Sora's Level.png",
+        "codes": "level_ups_setting, active_level_ups",
+        "inherit_codes": false,
+        "name": "Level Ups Checks On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Style Change",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/keyblades/Generic.png",
+        "img_mods": "saturation|0",
+        "codes": "style_change_setting",
+        "inherit_codes": false,
+        "name": "Style Change - Shared"
+      },
+      {
+        "img": "images/items/keyblades/Generic.png",
+        "codes": "style_change_setting, active_style_sanity",
+        "inherit_codes": false,
+        "name": "Style Change - KeybladeStyleSanity"
+      },
+      {
+        "img": "images/items/keyblades/Generic.png",
+        "codes": "style_change_setting, style_change_always_on",
+        "inherit_codes": false,
+        "name": "Style Change - Always On"
+      }
+    ]
   }
 ]

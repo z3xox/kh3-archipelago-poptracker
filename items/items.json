@@ -322,5 +322,413 @@
     "type": "toggle",
     "codes": "kb_shooting_star",
     "img": "images/items/keyblades/Shooting Star.png"
+  },
+  {
+    "name": "CK: Giantland",
+    "type": "toggle",
+    "codes": "ck_giantland",
+    "img": "images/items/Classic-Kingdom/LSI01_Giantland.png"
+  },
+  {
+    "name": "CK: Mickey, The Mail Pilot",
+    "type": "toggle",
+    "codes": "ck_mickey_the_mail_pilot",
+    "img": "images/items/Classic-Kingdom/LSI02_Mickey_the_Mailpilot.png"
+  },
+  {
+    "name": "CK: The Musical Farmer",
+    "type": "toggle",
+    "codes": "ck_the_musical_farmer",
+    "img": "images/items/Classic-Kingdom/LSI03_The_Musical_Farmer.png"
+  },
+  {
+    "name": "CK: Building a Building",
+    "type": "toggle",
+    "codes": "ck_building_a_building",
+    "img": "images/items/Classic-Kingdom/LSI04_Building_a_Building.png"
+  },
+  {
+    "name": "CK: The Mad Doctor",
+    "type": "toggle",
+    "codes": "ck_the_mad_doctor",
+    "img": "images/items/Classic-Kingdom/LSI05_The_Mad_Doctor.png"
+  },
+  {
+    "name": "CK: Mickey's Kitten Catch",
+    "type": "toggle",
+    "codes": "ck_mickeys_kitten_catch",
+    "img": "images/items/Classic-Kingdom/LSI06_Mickey_s_Kitten_Catch.png"
+  },
+  {
+    "name": "CK: The Klondike Kid",
+    "type": "toggle",
+    "codes": "ck_the_klondike_kid",
+    "img": "images/items/Classic-Kingdom/LSI07_The_Klondike_Kid.png"
+  },
+  {
+    "name": "CK: Fishin' Frenzy",
+    "type": "toggle",
+    "codes": "ck_fishin_frenzy",
+    "img": "images/items/Classic-Kingdom/LSI08_Fishin_Frenzy.png"
+  },
+  {
+    "name": "CK: The Karnival Kid",
+    "type": "toggle",
+    "codes": "ck_the_karnival_kid",
+    "img": "images/items/Classic-Kingdom/LSI09_The_Karnival_Kid.png"
+  },
+  {
+    "name": "CK: Mickey Cuts Up",
+    "type": "toggle",
+    "codes": "ck_mickey_cuts_up",
+    "img": "images/items/Classic-Kingdom/LSI10_Mickey_Cuts_Up.png"
+  },
+  {
+    "name": "CK: Mickey's Prison Escape",
+    "type": "toggle",
+    "codes": "ck_mickeys_prison_escape",
+    "img": "images/items/Classic-Kingdom/LSI11_Mickey_s_Prison_Escape.png"
+  },
+  {
+    "name": "CK: How to Play Baseball",
+    "type": "toggle",
+    "codes": "ck_how_to_play_baseball",
+    "img": "images/items/Classic-Kingdom/LSI12_How_to_Play_Baseball.png"
+  },
+  {
+    "name": "CK: How to Play Golf",
+    "type": "toggle",
+    "codes": "ck_how_to_play_golf",
+    "img": "images/items/Classic-Kingdom/LSI13_How_to_Play_Golf.png"
+  },
+  {
+    "name": "CK: Mickey's Circus",
+    "type": "toggle",
+    "codes": "ck_mickeys_circus",
+    "img": "images/items/Classic-Kingdom/LSI14_Mickey_s_Circus.png"
+  },
+  {
+    "name": "CK: Camping Out",
+    "type": "toggle",
+    "codes": "ck_camping_out",
+    "img": "images/items/Classic-Kingdom/LSI15_Camping_Out.png"
+  },
+  {
+    "name": "CK: Taxi Troubles",
+    "type": "toggle",
+    "codes": "ck_taxi_troubles",
+    "img": "images/items/Classic-Kingdom/LSI16_Taxi_Troubles.png"
+  },
+  {
+    "name": "CK: Beach Party",
+    "type": "toggle",
+    "codes": "ck_beach_party",
+    "img": "images/items/Classic-Kingdom/LSI17_Beach_Party.png"
+  },
+  {
+    "name": "CK: The Wayward Canary",
+    "type": "toggle",
+    "codes": "ck_the_wayward_canary",
+    "img": "images/items/Classic-Kingdom/LSI18_The_Wayward_Canary.png"
+  },
+  {
+    "name": "CK: Mickey's Mechanical Man",
+    "type": "toggle",
+    "codes": "ck_mickeys_mechanical_man",
+    "img": "images/items/Classic-Kingdom/LSI19_Mickey_s_Mechanical_Man.png"
+  },
+  {
+    "name": "CK: The Barnyard Battle",
+    "type": "toggle",
+    "codes": "ck_the_barnyard_battle",
+    "img": "images/items/Classic-Kingdom/LSI20_The_Barnyard_Battle.png"
+  },
+  {
+    "name": "CK: Cast Out to Sea",
+    "type": "toggle",
+    "codes": "ck_cast_out_to_sea",
+    "img": "images/items/Classic-Kingdom/LSI21_Cast_Out_to_Sea.png"
+  },
+  {
+    "name": "CK: Backyard Sports",
+    "type": "toggle",
+    "codes": "ck_backyard_sports",
+    "img": "images/items/Classic-Kingdom/LSI22_Barnyard_Sports.png"
+  },
+  {
+    "name": "CK: Mickey Steps Out",
+    "type": "toggle",
+    "codes": "ck_mickey_steps_out",
+    "img": "images/items/Classic-Kingdom/LSI23_Mickey_Steps_Out.png"
+  },
+  {
+    "name": "Party Member: Donald",
+    "type": "toggle",
+    "codes": "party_donald",
+    "img": "images/items/party/NpcExDonald.png"
+  },
+  {
+    "name": "Party Member: Goofy",
+    "type": "toggle",
+    "codes": "party_goofy",
+    "img": "images/items/party/NpcExGoofy.png"
+  },
+  {
+    "name": "Party Member: Donald (Toy Box)",
+    "type": "toggle",
+    "codes": "party_donald_toy_box",
+    "img": "images/items/party/NpcTsDonald.png"
+  },
+  {
+    "name": "Party Member: Goofy (Toy Box)",
+    "type": "toggle",
+    "codes": "party_goofy_toy_box",
+    "img": "images/items/party/NpcTsGoofy.png"
+  },
+  {
+    "name": "Party Member: Donald (Monstropolis)",
+    "type": "toggle",
+    "codes": "party_donald_monstropolis",
+    "img": "images/items/party/NpcMiDonald.png"
+  },
+  {
+    "name": "Party Member: Goofy (Monstropolis)",
+    "type": "toggle",
+    "codes": "party_goofy_monstropolis",
+    "img": "images/items/party/NpcMiGoofy.png"
+  },
+  {
+    "name": "Party Member: Donald (Caribbean)",
+    "type": "toggle",
+    "codes": "party_donald_caribbean",
+    "img": "images/items/party/NpcCaDonald.png"
+  },
+  {
+    "name": "Party Member: Goofy (Caribbean)",
+    "type": "toggle",
+    "codes": "party_goofy_caribbean",
+    "img": "images/items/party/NpcCaGoofy.png"
+  },
+  {
+    "name": "Party Member: Hercules",
+    "type": "toggle",
+    "codes": "party_hercules",
+    "img": "images/items/party/NpcHeHercules.png"
+  },
+  {
+    "name": "Party Member: Woody",
+    "type": "toggle",
+    "codes": "party_woody",
+    "img": "images/items/party/NpcTsWoody.png"
+  },
+  {
+    "name": "Party Member: Buzz Lightyear",
+    "type": "toggle",
+    "codes": "party_buzz_lightyear",
+    "img": "images/items/party/NpcTsBuzz.png"
+  },
+  {
+    "name": "Party Member: Rapunzel",
+    "type": "toggle",
+    "codes": "party_rapunzel",
+    "img": "images/items/party/NpcRaRapunzel_L.png"
+  },
+  {
+    "name": "Party Member: Flynn Rider",
+    "type": "toggle",
+    "codes": "party_flynn_rider",
+    "img": "images/items/party/NpcRaFlynn.png"
+  },
+  {
+    "name": "Party Member: Sulley",
+    "type": "toggle",
+    "codes": "party_sulley",
+    "img": "images/items/party/NpcMiSulley.png"
+  },
+  {
+    "name": "Party Member: Mike",
+    "type": "toggle",
+    "codes": "party_mike",
+    "img": "images/items/party/NpcMiMike.png"
+  },
+  {
+    "name": "Party Member: Captain Jack Sparrow",
+    "type": "toggle",
+    "codes": "party_captain_jack_sparrow",
+    "img": "images/items/party/NpcCaJack.png"
+  },
+  {
+    "name": "Party Member: Baymax",
+    "type": "toggle",
+    "codes": "party_baymax",
+    "img": "images/items/party/NpcBxBaymax.png"
+  },
+  {
+    "name": "Party Member: Mickey",
+    "type": "toggle",
+    "codes": "party_mickey",
+    "img": "images/items/party/NpcExMickey.png"
+  },
+  {
+    "name": "Party Member: Riku",
+    "type": "toggle",
+    "codes": "party_riku",
+    "img": "images/items/party/NpcEx3Riku.png"
+  },
+  {
+    "name": "Party Member: Aqua",
+    "type": "toggle",
+    "codes": "party_aqua",
+    "img": "images/items/party/NpcExAqua.png"
+  },
+  {
+    "name": "Party Member: Ventus",
+    "type": "toggle",
+    "codes": "party_ventus",
+    "img": "images/items/party/NpcExVentus.png"
+  },
+  {
+    "name": "Party Member: Lea",
+    "type": "toggle",
+    "codes": "party_lea",
+    "img": "images/items/party/NpcExLia.png"
+  },
+  {
+    "name": "Party Member: Kairi",
+    "type": "toggle",
+    "codes": "party_kairi",
+    "img": "images/items/party/NpcExKairi.png"
+  },
+  {
+    "name": "Party Member: Roxas",
+    "type": "toggle",
+    "codes": "party_roxas",
+    "img": "images/items/party/NpcExRoxas.png"
+  },
+  {
+    "name": "Party Member: Xion",
+    "type": "toggle",
+    "codes": "party_xion",
+    "img": "images/items/party/NpcExXion.png"
+  },
+  {
+    "name": "Unlock Style: Kingdom Key",
+    "type": "toggle",
+    "codes": "style_kingdom_key",
+    "img": "images/items/keyblades/Kingdom Key.png"
+  },
+  {
+    "name": "Unlock Style: Shooting Star",
+    "type": "toggle",
+    "codes": "style_shooting_star",
+    "img": "images/items/keyblades/Shooting Star.png"
+  },
+  {
+    "name": "Unlock Style: Hero's Origin",
+    "type": "toggle",
+    "codes": "style_heros_origin",
+    "img": "images/items/keyblades/Hero's Origin.png"
+  },
+  {
+    "name": "Unlock Style: Favorite Deputy",
+    "type": "toggle",
+    "codes": "style_favorite_deputy",
+    "img": "images/items/keyblades/Favorite Deputy.png"
+  },
+  {
+    "name": "Unlock Style: Ever After",
+    "type": "toggle",
+    "codes": "style_ever_after",
+    "img": "images/items/keyblades/Ever After.png"
+  },
+  {
+    "name": "Unlock Style: Wheel of Fate",
+    "type": "toggle",
+    "codes": "style_wheel_of_fate",
+    "img": "images/items/keyblades/Wheel of Fate.png"
+  },
+  {
+    "name": "Unlock Style: Crystal Snow",
+    "type": "toggle",
+    "codes": "style_crystal_snow",
+    "img": "images/items/keyblades/Crystal Snow.png"
+  },
+  {
+    "name": "Unlock Style: Nano Gear",
+    "type": "toggle",
+    "codes": "style_nano_gear",
+    "img": "images/items/keyblades/Nano Gear.png"
+  },
+  {
+    "name": "Unlock Style: Happy Gear",
+    "type": "toggle",
+    "codes": "style_happy_gear",
+    "img": "images/items/keyblades/Happy Gear.png"
+  },
+  {
+    "name": "Unlock Style: Classic Tone",
+    "type": "toggle",
+    "codes": "style_classic_tone",
+    "img": "images/items/keyblades/Classic Tone.png"
+  },
+  {
+    "name": "Unlock Style: Oathkeeper",
+    "type": "toggle",
+    "codes": "style_oathkeeper",
+    "img": "images/items/keyblades/Oathkeeper.png"
+  },
+  {
+    "name": "Unlock Style: Oblivion",
+    "type": "toggle",
+    "codes": "style_oblivion",
+    "img": "images/items/keyblades/Oblivion.png"
+  },
+  {
+    "name": "Unlock Style: Ultima Weapon",
+    "type": "toggle",
+    "codes": "style_ultima_weapon",
+    "img": "images/items/keyblades/Ultima.png"
+  },
+  {
+    "name": "Unlock Style: Grand Chef",
+    "type": "toggle",
+    "codes": "style_grand_chef",
+    "img": "images/items/keyblades/Grand Chef.png"
+  },
+  {
+    "name": "Unlock Style: Hunny Spout",
+    "type": "toggle",
+    "codes": "style_hunny_spout",
+    "img": "images/items/keyblades/Hunny Spout.png"
+  },
+  {
+    "name": "Unlock Style: Starlight",
+    "type": "toggle",
+    "codes": "style_starlight",
+    "img": "images/items/keyblades/Starlight.png"
+  },
+  {
+    "name": "Unlock Style: Pandora's Power",
+    "type": "toggle",
+    "codes": "style_pandoras_power",
+    "img": "images/items/keyblades/Pandora.png"
+  },
+  {
+    "name": "Grand Chef",
+    "type": "toggle",
+    "codes": "kb_grand_chef",
+    "img": "images/items/keyblades/Grand Chef.png"
+  },
+  {
+    "name": "Hunny Spout",
+    "type": "toggle",
+    "codes": "kb_hunny_spout",
+    "img": "images/items/keyblades/Hunny Spout.png"
+  },
+  {
+    "name": "Starlight",
+    "type": "toggle",
+    "codes": "kb_starlight",
+    "img": "images/items/keyblades/Starlight.png"
   }
 ]
