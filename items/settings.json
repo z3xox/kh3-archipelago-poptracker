@@ -131,7 +131,7 @@
     "codes": "lu_limit",
     "type": "consumable",
     "min_quantity": 2,
-    "max_quantity": 50,
+    "max_quantity": 99,
     "initial_quantity": 35
   },
   {
@@ -243,7 +243,7 @@
     "codes": "mc_limit",
     "type": "consumable",
     "min_quantity": 0,
-    "max_quantity": 128,
+    "max_quantity": 8,
     "increment": 1,
     "initial_quantity": 0
   },

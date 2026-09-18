@@ -1334,15 +1334,43 @@ function autoFill(slot_data)
     -- catalog (MelodyOfMemory.select_music_chests), so the count option alone
     -- can't say which ones are in play -- the bridge rows can.
     setAmount("mc_limit", slot_data["music_chest_count"] or 0)
+
+    -- Up to 8 of those songs are reassigned from their menu clear to one of
+    -- the 8 authored world chests (MelodyOfMemory.placed_music_chest). Their
+    -- bridge row keeps type "melody_of_memory" (song_location's type is never
+    -- overwritten) but carries music_chest_kind "additional" and a
+    -- music_chest_placement_id -- such a row must NOT also light up the
+    -- song's menu-clear section below, since that check no longer exists;
+    -- only the chest at its placement does.
+    local MUSIC_CHEST_PLACEMENT_CODES = {
+        MOM_CHEST_001 = "mc_chest_olympus",
+        MOM_CHEST_002 = "mc_chest_twilight_town",
+        MOM_CHEST_003 = "mc_chest_monstropolis",
+        MOM_CHEST_004 = "mc_chest_kingdom_of_corona",
+        MOM_CHEST_005 = "mc_chest_the_caribbean",
+        MOM_CHEST_006 = "mc_chest_toy_box",
+        MOM_CHEST_007 = "mc_chest_san_fransokyo",
+        MOM_CHEST_008 = "mc_chest_arendelle",
+    }
     local mom_active = {}
+    local chest_active = {}
     local bridge = slot_data["bridge"]
     for _, row in ipairs((bridge and bridge["locations"]) or {}) do
-        if row["type"] == "melody_of_memory" and row["mom_song_id"] then
-            mom_active[tostring(math.floor(row["mom_song_id"]))] = true
+        if row["type"] == "melody_of_memory" then
+            if row["music_chest_kind"] == "additional" then
+                if row["music_chest_placement_id"] then
+                    chest_active[row["music_chest_placement_id"]] = true
+                end
+            elseif row["mom_song_id"] then
+                mom_active[tostring(math.floor(row["mom_song_id"]))] = true
+            end
         end
     end
     for _, song_id in ipairs(momSongIds()) do
         setToggle("mom_song_" .. song_id, mom_active[tostring(song_id)] == true)
+    end
+    for placement_id, code in pairs(MUSIC_CHEST_PLACEMENT_CODES) do
+        setToggle(code, chest_active[placement_id] == true)
     end
 
     -- Goal (0 = collect the 3 Proofs, 1 = collect 7 Heart Pieces) -> Settings menu stage

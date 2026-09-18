@@ -44,6 +44,15 @@
         },
         {
           "type": "group",
+          "header": "Melody Chests",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "melody_chest_setting_grid"
+          }
+        },
+        {
+          "type": "group",
           "header": "Limits",
           "dock": "left",
           "content": {

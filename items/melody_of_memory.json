@@ -766,5 +766,53 @@
     "type": "toggle",
     "codes": "mom_song_206",
     "img": "images/items/Item.png"
+  },
+  {
+    "name": "Melody Chest: Olympus",
+    "type": "toggle",
+    "codes": "mc_chest_olympus",
+    "img": "images/items/worlds/Olympus.png"
+  },
+  {
+    "name": "Melody Chest: Twilight Town",
+    "type": "toggle",
+    "codes": "mc_chest_twilight_town",
+    "img": "images/items/worlds/Twilight Town.png"
+  },
+  {
+    "name": "Melody Chest: Monstropolis",
+    "type": "toggle",
+    "codes": "mc_chest_monstropolis",
+    "img": "images/items/worlds/Monstropolis.png"
+  },
+  {
+    "name": "Melody Chest: Kingdom of Corona",
+    "type": "toggle",
+    "codes": "mc_chest_kingdom_of_corona",
+    "img": "images/items/worlds/Kingdom of Corona.png"
+  },
+  {
+    "name": "Melody Chest: The Caribbean",
+    "type": "toggle",
+    "codes": "mc_chest_the_caribbean",
+    "img": "images/items/worlds/The Caribbean.png"
+  },
+  {
+    "name": "Melody Chest: Toy Box",
+    "type": "toggle",
+    "codes": "mc_chest_toy_box",
+    "img": "images/items/worlds/Toy Box.png"
+  },
+  {
+    "name": "Melody Chest: San Fransokyo",
+    "type": "toggle",
+    "codes": "mc_chest_san_fransokyo",
+    "img": "images/items/worlds/San Fransokyo.png"
+  },
+  {
+    "name": "Melody Chest: Arendelle",
+    "type": "toggle",
+    "codes": "mc_chest_arendelle",
+    "img": "images/items/worlds/Arendelle.png"
   }
 ]

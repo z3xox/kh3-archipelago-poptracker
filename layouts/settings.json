@@ -74,6 +74,26 @@
       ]
     ]
   },
+  "melody_chest_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "4,3",
+    "item_size": "40,40",
+    "rows": [
+      [
+        "mc_chest_olympus",
+        "mc_chest_twilight_town",
+        "mc_chest_monstropolis",
+        "mc_chest_kingdom_of_corona"
+      ],
+      [
+        "mc_chest_the_caribbean",
+        "mc_chest_toy_box",
+        "mc_chest_san_fransokyo",
+        "mc_chest_arendelle"
+      ]
+    ]
+  },
   "limit_setting_grid": {
     "type": "itemgrid",
     "h_alignment": "center",

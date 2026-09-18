@@ -903,6 +903,211 @@
           }
         ],
         "map_locations": []
+      },
+      {
+        "name": "Melody of Memory - Melody Chests",
+        "children": [
+          {
+            "name": "Olympus - Melody Chest",
+            "sections": [
+              {
+                "name": "Olympus - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_olympus"
+                ],
+                "access_rules": [
+                  "kb_heros_origin"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_olympus_thebes",
+                "x": 48,
+                "y": 174,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Twilight Town - Melody Chest",
+            "sections": [
+              {
+                "name": "Twilight Town - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_twilight_town"
+                ],
+                "access_rules": [
+                  "kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_twilight_town",
+                "x": 375,
+                "y": 279,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Monstropolis - Melody Chest",
+            "sections": [
+              {
+                "name": "Monstropolis - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_monstropolis"
+                ],
+                "access_rules": [
+                  "kb_happy_gear"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_monstropolis_factory",
+                "x": 643,
+                "y": 161,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Melody Chest",
+            "sections": [
+              {
+                "name": "Kingdom of Corona - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_kingdom_of_corona"
+                ],
+                "access_rules": [
+                  "kb_ever_after"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_corona_hills_bc",
+                "x": 710,
+                "y": 291,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "The Caribbean - Melody Chest",
+            "sections": [
+              {
+                "name": "The Caribbean - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_the_caribbean"
+                ],
+                "access_rules": [
+                  "kb_wheel_of_fate"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_caribbean_isle_of_luck",
+                "x": 146,
+                "y": 92,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Toy Box - Melody Chest",
+            "sections": [
+              {
+                "name": "Toy Box - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_toy_box"
+                ],
+                "access_rules": [
+                  "kb_favorite_deputy"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_toybox_galaxy_3rd",
+                "x": 445,
+                "y": 452,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "San Fransokyo - Melody Chest",
+            "sections": [
+              {
+                "name": "San Fransokyo - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_san_fransokyo"
+                ],
+                "access_rules": [
+                  "kb_nano_gear"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_sanfransokyo",
+                "x": 240,
+                "y": 593,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Arendelle - Melody Chest",
+            "sections": [
+              {
+                "name": "Arendelle - Melody Chest",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/Symphony of Sorcery.png",
+                "chest_opened_img": "images/items/Symphony of Sorcery.png",
+                "visibility_rules": [
+                  "mc_chest_arendelle"
+                ],
+                "access_rules": [
+                  "kb_crystal_snow"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_arendelle_treescape",
+                "x": 265,
+                "y": 98,
+                "shape": "diamond"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
