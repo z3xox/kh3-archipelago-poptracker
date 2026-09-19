@@ -25,11 +25,21 @@ VERTICAL = ROOT / "layouts" / "tracker.json"
 HORIZONTAL = ROOT / "layouts" / "tracker_horizontal.json"
 
 
+def _iter_groups(entries):
+    """Yield leaf "group" dicts, recursing into "dock" wrappers (the two-column/
+    row splits) that hold further groups instead of a header themselves."""
+    for entry in entries:
+        if entry.get("type") == "dock":
+            yield from _iter_groups(entry["content"])
+        else:
+            yield entry
+
+
 def item_codes_by_header(path: Path, key: str) -> dict[str, set[str]]:
     with path.open(encoding="utf-8") as f:
         data = json.load(f)
     result = {}
-    for group in data[key]["content"]:
+    for group in _iter_groups(data[key]["content"]):
         header = group["header"]
         content = group["content"]
         if content.get("type") == "itemgrid":

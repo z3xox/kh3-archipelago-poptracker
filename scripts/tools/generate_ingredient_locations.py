@@ -254,9 +254,10 @@ def _world_root_rules(entries, world_rules) -> list[str]:
 
     The world's own pool gate is stripped out: ingredient locations carry the
     world "Ingredients", which is in neither WORLD_LOCATION_POOL_OPTIONS nor
-    REWARD_LOCATION_POOL_OPTIONS, so uses_vanilla_location_pool never drops
-    them. A seed with olympus_pool=vanilla still has its ingredient spots.
-    What we want from the chest root is only how you physically get there.
+    REWARD_LOCATION_POOL_OPTIONS, so uses_replace_location_pool never drops
+    them, and filter_locations_for_options doesn't gate them on a world's pool
+    value either. What we want from the chest root is only how you physically
+    get there.
     """
     for entry in entries:
         rules = world_rules.get(entry["name"].removeprefix("Ingredients+ - "))

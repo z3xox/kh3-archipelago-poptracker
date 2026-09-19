@@ -1,0 +1,192 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "dock": "bottom",
+      "content": [
+        {
+          "type": "layout",
+          "key": "map_tabs"
+        },
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "layout",
+              "key": "item_grid_horizontal_compact"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "item_grid_horizontal_compact": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Goal",
+        "content": {
+          "type": "layout",
+          "key": "goal_content"
+        }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Magic",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "fire",
+              "blizzard",
+              "thunder"
+            ],
+            [
+              "water",
+              "aero",
+              "cure"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Keyblades",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "kingdom_key",
+              "kb_heros_origin",
+              "kb_favorite_deputy"
+            ],
+            [
+              "kb_happy_gear",
+              "kb_ever_after",
+              "kb_wheel_of_fate"
+            ],
+            [
+              "kb_crystal_snow",
+              "kb_nano_gear",
+              "kb_shooting_star"
+            ],
+            [
+              "kb_classic_tone",
+              "kb_oblivion",
+              "kb_oathkeeper"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Gimmick Unlocks",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "unlock_magic",
+              "unlock_attraction_flow",
+              "unlock_wall_run",
+              "unlock_airstep"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Abilities",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "ability_superjump",
+              "ability_wall_kick",
+              "ability_pole_spin"
+            ],
+            [
+              "ability_block",
+              "ability_dodge_roll",
+              "ability_counter_slash"
+            ],
+            [
+              "ability_counter_kick",
+              "ability_combo_master"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Heartbinders",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "dream_heartbinder",
+              "pixel_heartbinder",
+              "ohana_heartbinder",
+              "pride_heartbinder",
+              "ocean_heartbinder"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Movement",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "ability_air_slide",
+              "ability_doubleflight",
+              "ability_high_jump",
+              "ability_glide"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "dock": "left",
+        "header": "Survival & Bonuses",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2,2",
+          "item_size": "36,36",
+          "rows": [
+            [
+              "ability_second_chance",
+              "ability_withstand_combo",
+              "ability_leaf_bracer",
+              "ultima_weapon_shard"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}
