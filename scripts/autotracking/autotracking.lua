@@ -1277,9 +1277,18 @@ function autoFill(slot_data)
 
     -- World on/off flags -> Settings menu stage. The apworld dropped the old
     -- boolean "include_*" slot_data keys; each world's checks now live behind
-    -- a 3-way pool mode (KH3LocationPoolMode: 1=vanilla/no checks, 2=randomize,
-    -- 3=junk, both of the latter keep checks active) under
-    -- slot_data.kh3_randomizer.pools, keyed by the pool's display name.
+    -- a pool mode (KH3LocationPoolMode) under slot_data.kh3_randomizer.pools,
+    -- keyed by the pool's display name.
+    --
+    -- As of apworld 0.15.4, KH3LocationPoolMode only offers randomize (2) and
+    -- junk (3) -- option_vanilla (1) was removed from every pool that uses this
+    -- enum (Data.filter_locations_for_options no longer excludes their
+    -- locations at all), so poolHasChecks below is now always true for them.
+    -- It's kept as a defensive default rather than hardcoded, in case a future
+    -- apworld version reintroduces a hide-this-world's-checks pool value.
+    -- The Olympus Coliseum mod pool is the one remaining exception: it kept
+    -- its own separate option_off = VANILLA_LOCATION_POOL_VALUE (still 1),
+    -- handled below.
     local VANILLA_POOL_MODE = 1
     local pools = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["pools"]) or {}
     local function poolHasChecks(pool_name)
@@ -1294,10 +1303,8 @@ function autoFill(slot_data)
     setStage("keyblade_graveyard_setting", poolHasChecks("Keyblade Graveyard") and 1 or 0)
     setStage("radiant_garden_setting",     poolHasChecks("Data Battle Rewards") and 1 or 0)
 
-    -- The per-world pools. A pool set to "vanilla" drops that world's checks
-    -- from the seed entirely (Data.filter_locations_for_options ->
-    -- uses_vanilla_location_pool), so these drive visibility, not just logic.
-    -- Keys are RANDOMIZER_POOL_NAMES display names from the apworld's Options.py.
+    -- The per-world pools. Keys are RANDOMIZER_POOL_NAMES display names from
+    -- the apworld's Options.py.
     local WORLD_POOL_SETTINGS = {
         {"olympus_setting",           "Olympus"},
         {"twilight_town_setting",     "Twilight Town"},

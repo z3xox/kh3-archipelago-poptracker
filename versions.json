@@ -1,6 +1,16 @@
 {
   "versions": [
   {
+    "package_version": "0.4.2",
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.2/kh3-archipelago-poptracker-v0.4.2.zip",
+    "sha256": "1ddace3af5fcf54079fd6744a796e19f31cd0cee83c9a68ec27bb0f7b21fffed",
+    "changelog": [
+      "Fixed the Vertical and Horizontal layouts' item panel overflowing the window (all 11 item groups stacked in one column/row); each now splits into two columns/rows.",
+      "Added Compact variants (map-focused, dropping Key Items/Classic Kingdom/Party Members) and an Optimized Horizontal variant (light and dark) that avoids the width overflow the plain horizontal layout hits at narrower window widths.",
+      "Noted apworld 0.15.4 compatibility: per-world/reward pools (Olympus, Battlegates, Re+Mind, Lucky Emblems, Keyblade Graveyard, etc.) dropped their 'vanilla' choice and can no longer exclude a world's checks from the seed, so the pack's pool-based Settings auto-sync now always leaves those checks visible, matching the apworld's own behavior; only the third-party Olympus Coliseum mod pool still has an off state."
+    ]
+  },
+  {
     "package_version": "0.4.1",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.1/kh3-archipelago-poptracker-v0.4.1.zip",
     "sha256": "f3be05acfbd63825512edc59f17f3c634a9e2978cd2e319d6c77f4b8264b88fe",

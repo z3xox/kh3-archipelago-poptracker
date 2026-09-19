@@ -2,12 +2,20 @@
   "name": "Kingdom Hearts III Archipelago",
   "game_name": "Kingdom Hearts III",
   "package_uid": "kh3_archipelago_tracker",
-  "package_version": "0.4.1",
+  "package_version": "0.4.2",
   "platform": "pc",
   "author": "z3xox & grizfreak",
   "min_poptracker_version": "0.26.2",
   "versions_url": "https://raw.githubusercontent.com/z3xox/kh3-archipelago-poptracker/main/versions.json",
   "variants": {
+    "0_dark_horizontal_optimized": {
+      "display_name": "Horizontal (Dark Maps, Optimized)",
+      "flags": ["ap"]
+    },
+    "1_horizontal_optimized": {
+      "display_name": "Horizontal (Optimized)",
+      "flags": ["ap"]
+    },
     "vertical": {
       "display_name": "Vertical",
       "flags": ["ap"]
@@ -22,6 +30,22 @@
     },
     "dark_horizontal": {
       "display_name": "Horizontal (Dark Maps)",
+      "flags": ["ap"]
+    },
+    "vertical_compact": {
+      "display_name": "Vertical (Compact)",
+      "flags": ["ap"]
+    },
+    "horizontal_compact": {
+      "display_name": "Horizontal (Compact)",
+      "flags": ["ap"]
+    },
+    "dark_vertical_compact": {
+      "display_name": "Vertical (Dark Maps, Compact)",
+      "flags": ["ap"]
+    },
+    "dark_horizontal_compact": {
+      "display_name": "Horizontal (Dark Maps, Compact)",
       "flags": ["ap"]
     }
   }

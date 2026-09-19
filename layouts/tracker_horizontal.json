@@ -26,272 +26,284 @@
     "type": "dock",
     "content": [
       {
-        "type": "group",
-        "dock": "left",
-        "header": "Goal",
-        "content": {
-          "type": "layout",
-          "key": "goal_content"
-        }
+        "type": "dock",
+        "dock": "top",
+        "content": [
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Goal",
+            "content": {
+              "type": "layout",
+              "key": "goal_content"
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Magic",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "fire",
+                  "blizzard",
+                  "thunder"
+                ],
+                [
+                  "water",
+                  "aero",
+                  "cure"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Keyblades",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "kingdom_key",
+                  "kb_heros_origin",
+                  "kb_favorite_deputy"
+                ],
+                [
+                  "kb_happy_gear",
+                  "kb_ever_after",
+                  "kb_wheel_of_fate"
+                ],
+                [
+                  "kb_crystal_snow",
+                  "kb_nano_gear",
+                  "kb_shooting_star"
+                ],
+                [
+                  "kb_classic_tone",
+                  "kb_oblivion",
+                  "kb_oathkeeper"
+                ],
+                [
+                  "kb_grand_chef",
+                  "kb_hunny_spout",
+                  "kb_starlight"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Gimmick Unlocks",
+            "content": {
+              "type": "layout",
+              "key": "gimmick_content"
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Abilities",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "ability_superjump",
+                  "ability_wall_kick",
+                  "ability_pole_spin"
+                ],
+                [
+                  "ability_block",
+                  "ability_dodge_roll",
+                  "ability_counter_slash"
+                ],
+                [
+                  "ability_counter_kick",
+                  "ability_combo_master"
+                ]
+              ]
+            }
+          }
+        ]
       },
       {
-        "type": "group",
-        "dock": "left",
-        "header": "Magic",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "fire",
-              "blizzard",
-              "thunder"
-            ],
-            [
-              "water",
-              "aero",
-              "cure"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Keyblades",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "kingdom_key",
-              "kb_heros_origin",
-              "kb_favorite_deputy"
-            ],
-            [
-              "kb_happy_gear",
-              "kb_ever_after",
-              "kb_wheel_of_fate"
-            ],
-            [
-              "kb_crystal_snow",
-              "kb_nano_gear",
-              "kb_shooting_star"
-            ],
-            [
-              "kb_classic_tone",
-              "kb_oblivion",
-              "kb_oathkeeper"
-            ],
-            [
-              "kb_grand_chef",
-              "kb_hunny_spout",
-              "kb_starlight"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Gimmick Unlocks",
-        "content": {
-          "type": "layout",
-          "key": "gimmick_content"
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Abilities",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "ability_superjump",
-              "ability_wall_kick",
-              "ability_pole_spin"
-            ],
-            [
-              "ability_block",
-              "ability_dodge_roll",
-              "ability_counter_slash"
-            ],
-            [
-              "ability_counter_kick",
-              "ability_combo_master"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Key Items",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "gummiphone",
-              "secret_report"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Heartbinders",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "dream_heartbinder",
-              "pixel_heartbinder",
-              "ohana_heartbinder",
-              "pride_heartbinder",
-              "ocean_heartbinder"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Movement",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "ability_air_slide",
-              "ability_doubleflight",
-              "ability_high_jump",
-              "ability_glide"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Survival & Bonuses",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "ability_second_chance",
-              "ability_withstand_combo",
-              "ability_leaf_bracer",
-              "ultima_weapon_shard"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "dock": "left",
-        "header": "Classic Kingdom",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "ck_giantland",
-              "ck_mickey_the_mail_pilot",
-              "ck_the_musical_farmer",
-              "ck_building_a_building"
-            ],
-            [
-              "ck_the_mad_doctor",
-              "ck_mickeys_kitten_catch",
-              "ck_the_klondike_kid",
-              "ck_fishin_frenzy"
-            ],
-            [
-              "ck_the_karnival_kid",
-              "ck_mickey_cuts_up",
-              "ck_mickeys_prison_escape",
-              "ck_how_to_play_baseball"
-            ],
-            [
-              "ck_how_to_play_golf",
-              "ck_mickeys_circus",
-              "ck_camping_out",
-              "ck_taxi_troubles"
-            ],
-            [
-              "ck_beach_party",
-              "ck_the_wayward_canary",
-              "ck_mickeys_mechanical_man",
-              "ck_the_barnyard_battle"
-            ],
-            [
-              "ck_cast_out_to_sea",
-              "ck_backyard_sports",
-              "ck_mickey_steps_out"
-            ]
-          ]
-        }
-      },
-      {
-        "type": "group",
-        "header": "Party Members",
-        "content": {
-          "type": "itemgrid",
-          "item_margin": "2,2",
-          "item_size": "36,36",
-          "rows": [
-            [
-              "party_donald",
-              "party_goofy",
-              "party_donald_toy_box",
-              "party_goofy_toy_box",
-              "party_donald_monstropolis"
-            ],
-            [
-              "party_goofy_monstropolis",
-              "party_donald_caribbean",
-              "party_goofy_caribbean",
-              "party_hercules",
-              "party_woody"
-            ],
-            [
-              "party_buzz_lightyear",
-              "party_rapunzel",
-              "party_flynn_rider",
-              "party_sulley",
-              "party_mike"
-            ],
-            [
-              "party_captain_jack_sparrow",
-              "party_baymax",
-              "party_mickey",
-              "party_riku",
-              "party_aqua"
-            ],
-            [
-              "party_ventus",
-              "party_lea",
-              "party_kairi",
-              "party_roxas",
-              "party_xion"
-            ]
-          ]
-        },
-        "dock": "left"
+        "type": "dock",
+        "dock": "top",
+        "content": [
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Key Items",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "gummiphone",
+                  "secret_report"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Heartbinders",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "dream_heartbinder",
+                  "pixel_heartbinder",
+                  "ohana_heartbinder",
+                  "pride_heartbinder",
+                  "ocean_heartbinder"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Movement",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "ability_air_slide",
+                  "ability_doubleflight",
+                  "ability_high_jump",
+                  "ability_glide"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Survival & Bonuses",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "ability_second_chance",
+                  "ability_withstand_combo",
+                  "ability_leaf_bracer",
+                  "ultima_weapon_shard"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Classic Kingdom",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "ck_giantland",
+                  "ck_mickey_the_mail_pilot",
+                  "ck_the_musical_farmer",
+                  "ck_building_a_building"
+                ],
+                [
+                  "ck_the_mad_doctor",
+                  "ck_mickeys_kitten_catch",
+                  "ck_the_klondike_kid",
+                  "ck_fishin_frenzy"
+                ],
+                [
+                  "ck_the_karnival_kid",
+                  "ck_mickey_cuts_up",
+                  "ck_mickeys_prison_escape",
+                  "ck_how_to_play_baseball"
+                ],
+                [
+                  "ck_how_to_play_golf",
+                  "ck_mickeys_circus",
+                  "ck_camping_out",
+                  "ck_taxi_troubles"
+                ],
+                [
+                  "ck_beach_party",
+                  "ck_the_wayward_canary",
+                  "ck_mickeys_mechanical_man",
+                  "ck_the_barnyard_battle"
+                ],
+                [
+                  "ck_cast_out_to_sea",
+                  "ck_backyard_sports",
+                  "ck_mickey_steps_out"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Party Members",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "party_donald",
+                  "party_goofy",
+                  "party_donald_toy_box",
+                  "party_goofy_toy_box",
+                  "party_donald_monstropolis"
+                ],
+                [
+                  "party_goofy_monstropolis",
+                  "party_donald_caribbean",
+                  "party_goofy_caribbean",
+                  "party_hercules",
+                  "party_woody"
+                ],
+                [
+                  "party_buzz_lightyear",
+                  "party_rapunzel",
+                  "party_flynn_rider",
+                  "party_sulley",
+                  "party_mike"
+                ],
+                [
+                  "party_captain_jack_sparrow",
+                  "party_baymax",
+                  "party_mickey",
+                  "party_riku",
+                  "party_aqua"
+                ],
+                [
+                  "party_ventus",
+                  "party_lea",
+                  "party_kairi",
+                  "party_roxas",
+                  "party_xion"
+                ]
+              ]
+            }
+          }
+        ]
       }
     ]
   }
