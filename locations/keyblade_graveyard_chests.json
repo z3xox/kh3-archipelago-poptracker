@@ -2,7 +2,7 @@
   {
     "name": "Keyblade Graveyard - Chests",
     "access_rules": [
-      "active_keyblade_graveyard,kingdom_key,$has_tier_one_keyblades"
+      "active_keyblade_graveyard,kb_starlight,$has_tier_one_keyblades"
     ],
     "children": [
       {
@@ -12,7 +12,7 @@
             "name": "Keyblade Graveyard - Chest 1 (Large Chest, The Badlands)",
             "item_count": 1,
             "access_rules": [
-              "unlock_attraction_flow,kingdom_key"
+              "unlock_attraction_flow,kb_starlight"
             ]
           }
         ],
@@ -107,7 +107,7 @@
             "name": "Keyblade Graveyard - Chest 4 (Small Chest, The Skein of Severance: Trail of Valediction)",
             "item_count": 1,
             "access_rules": [
-              "unlock_attraction_flow,kingdom_key"
+              "unlock_attraction_flow,kb_starlight"
             ]
           }
         ],

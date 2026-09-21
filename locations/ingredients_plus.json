@@ -1601,7 +1601,7 @@
   {
     "name": "Ingredients+ - The Caribbean",
     "access_rules": [
-      "active_ingredients_plus,kb_wheel_of_fate"
+      "active_ingredients_plus,kb_wheel_of_fate,$has_caribbean_safety_tool"
     ],
     "visibility_rules": [
       "active_ingredients_plus"

@@ -1204,7 +1204,7 @@
               }
             ],
             "access_rules": [
-              "kb_wheel_of_fate"
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
             ]
           },
           {
@@ -1498,7 +1498,7 @@
               }
             ],
             "access_rules": [
-              "active_keyblade_graveyard,kingdom_key,$has_tier_one_keyblades"
+              "active_keyblade_graveyard,kb_starlight,$has_tier_one_keyblades"
             ]
           },
           {
@@ -1608,7 +1608,7 @@
               }
             ],
             "access_rules": [
-              "active_remind,kb_classic_tone,$has_tier_one_keyblades"
+              "active_remind,kingdom_key,$has_tier_one_keyblades"
             ]
           },
           {
