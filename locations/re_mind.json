@@ -2,7 +2,7 @@
   {
     "name": "Re Mind",
     "access_rules": [
-      "active_remind,kb_classic_tone,$has_tier_one_keyblades"
+      "active_remind,kingdom_key,$has_tier_one_keyblades"
     ],
     "children": [
       {

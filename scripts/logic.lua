@@ -82,6 +82,16 @@ function has_any_two_defensive()
     return has_twilight_town_combat()
 end
 
+-- The Caribbean portal also needs "Air Slide OR Dodge Roll OR Glide OR
+-- Blizzard" (THE_CARIBBEAN_PORTAL_LOGIC_REQUIREMENTS from the AP world) --
+-- one safety tool to survive the open water before the world is reachable.
+CARIBBEAN_SAFETY_TOOL_CODES = {"ability_air_slide", "ability_dodge_roll", "ability_glide", "blizzard"}
+
+function has_caribbean_safety_tool()
+    if countCodes(CARIBBEAN_SAFETY_TOOL_CODES) >= 1 then return 1 end
+    return 0
+end
+
 -- Generic helper: $has_any|code1|code2|...  -> 1 if any listed code is active
 function has_any(...)
     local codes = {...}
@@ -148,6 +158,9 @@ local function worldReachable(world, keyblade)
         return false
     end
     if world == "Twilight Town" and countCodes(DEFENSIVE_CODES) < 2 then
+        return false
+    end
+    if world == "The Caribbean" and countCodes(CARIBBEAN_SAFETY_TOOL_CODES) < 1 then
         return false
     end
     return true

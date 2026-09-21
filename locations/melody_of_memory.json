@@ -1019,7 +1019,7 @@
                   "mc_chest_the_caribbean"
                 ],
                 "access_rules": [
-                  "kb_wheel_of_fate"
+                  "kb_wheel_of_fate,$has_caribbean_safety_tool"
                 ]
               }
             ],

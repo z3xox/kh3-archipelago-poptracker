@@ -2,7 +2,7 @@
   {
     "name": "The Caribbean - Chests",
     "access_rules": [
-      "active_the_caribbean,kb_wheel_of_fate"
+      "active_the_caribbean,kb_wheel_of_fate,$has_caribbean_safety_tool"
     ],
     "children": [
       {

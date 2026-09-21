@@ -1,6 +1,16 @@
 {
   "versions": [
   {
+    "package_version": "0.4.2b",
+    "download_url": null,
+    "changelog": [
+      "Fixed The Caribbean missing its portal safety-tool requirement (Air Slide, Dodge Roll, Glide, or Blizzard) -- chests, events, Ingredients+, the Melody Chest, and the overworld pin all showed the world reachable with just the Wheel of Fate keyblade, matching the apworld's own portal rule now.",
+      "Fixed Keyblade Graveyard and Re:Mind's portal keyblades being swapped: Keyblade Graveyard now correctly requires Starlight (it was requiring Kingdom Key) and Re:Mind now correctly requires Kingdom Key (it was requiring a stale Classic Tone left over from an older apworld revision).",
+      "Default Base Abilities (Block, Dodge Roll, Pole Spin) are now auto-marked as owned when the apworld's 'Default Base Abilities' option is enabled, since those items are never sent as pickups for that slot.",
+      "Added finer-grained map auto-follow for The Caribbean's 12 islands via a new kh3_minimap_id field, ready for once the apworld client starts sending it (not yet shipped as of apworld 0.15.4 -- expected in a later client update)."
+    ]
+  },
+  {
     "package_version": "0.4.2",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.2/kh3-archipelago-poptracker-v0.4.2.zip",
     "sha256": "1ddace3af5fcf54079fd6744a796e19f31cd0cee83c9a68ec27bb0f7b21fffed",

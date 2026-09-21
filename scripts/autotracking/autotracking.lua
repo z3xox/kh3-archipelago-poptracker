@@ -1268,6 +1268,23 @@ function autoFill(slot_data)
     -- Activate unlock_airstep; ability_air_slide tracks the actual item
     setToggle("unlock_airstep",         startsWith("start_with_airstep"))
 
+    -- Default Base Abilities (RANDOMIZER_EXCEPTION_NAMES key "Default Base
+    -- Abilities" under kh3_randomizer.exceptions): when on, the randomizer
+    -- keeps Block/Dodge Roll/Pole Spin (among others) as innate starting
+    -- abilities instead of adding them to the AP item pool, so no
+    -- "Ability: Block"/"Ability: Dodge Roll"/"Ability: Pole Spin" item is
+    -- ever sent for this slot. Without this, logic that requires them (e.g.
+    -- keyblade unlock routes) would stay permanently gated. Only these three
+    -- are handled here because they're the only ones from the option's
+    -- default-base-ability set this pack tracks as items.
+    local exceptions = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["exceptions"]) or {}
+    local default_base_abilities = exceptions["Default Base Abilities"] == true
+    if default_base_abilities then
+        setToggle("ability_block", true)
+        setToggle("ability_dodge_roll", true)
+        setToggle("ability_pole_spin", true)
+    end
+
     -- Style Change replaced the old start_with_style_change toggle with a 3-way
     -- option: shared (one item for every keyblade), keybladestylesanity (one
     -- item per keyblade), always_on (granted from the start).
@@ -1407,13 +1424,14 @@ function autoFill(slot_data)
     local ms_limit = slot_data["moogle_shop_checks"] or 0
     setAmount("ms_limit", ms_limit)
 
-    print(string.format("autoFill: battlegates=%s remind=%s lucky_emblems=%s kg=%s rg=%s le_limit=%d lep_check=%d lu_limit=%d ms_limit=%d",
+    print(string.format("autoFill: battlegates=%s remind=%s lucky_emblems=%s kg=%s rg=%s le_limit=%d lep_check=%d lu_limit=%d ms_limit=%d default_base_abilities=%s",
         tostring(poolHasChecks("Battlegates")),
         tostring(poolHasChecks("Re+Mind")),
         tostring(poolHasChecks("Lucky Emblems")),
         tostring(poolHasChecks("Keyblade Graveyard")),
         tostring(poolHasChecks("Data Battle Rewards")),
-        le_limit, lep_check, lu_limit, ms_limit))
+        le_limit, lep_check, lu_limit, ms_limit,
+        tostring(default_base_abilities)))
 end
 
 function onClear(slot_data)
@@ -1512,6 +1530,43 @@ KH3_ROOM_ID_TO_SUBTAB = {
     ["ca_01"] = "Port Royal",
 }
 
+-- Finest-grained auto-follow: "kh3_minimap_id" (confirmed by the apworld dev,
+-- 2026-09-21) is the id of the minimap texture the game is currently showing
+-- (source "TresUIP_NaviMapGra.SelectMap", read from NaviMapData), sent
+-- alongside kh3_room_id in the same Bounce payload. It resolves exactly the
+-- granularity kh3_room_id/kh3_level_id couldn't: individual islands within
+-- Caribbean's single open "The High Seas" level -- the gap
+-- KH3_ROOM_ID_TO_SUBTAB's comment called out as "the big one".
+--
+-- Only ids whose minimap_reference.json map_name/area_name resolves to
+-- exactly ONE of this pack's nested tabs are listed here. Ids whose game
+-- map_name has no area breakdown at all in that data (Corona's Hills A+Tower
+-- vs Hills B+C vs Marsh vs Campsite split, Toy Box's 3 Galaxy Toys floors,
+-- Arendelle's 9 areas, Olympus's Mt. Olympus P1 vs P2) are intentionally
+-- left out, same "unmapped id leaves the tab alone" rule as
+-- KH3_ROOM_ID_TO_SUBTAB -- guessing wrong is worse than not following.
+-- Source: minimap_reference.json (NaviMapData/AreaSelectData dump), 2026-09-21.
+KH3_MINIMAP_ID_TO_SUBTAB = {
+    ["ra01_01"]         = "Hills A+Tower",  -- Kingdom of Corona: The Forest / Tower
+    ["ca02_Center"]     = "Horseshoe",      -- Horseshoe Island
+    ["ca02_Forest"]     = "Exile Island",
+    ["ca02_Lagoon"]     = "Sandbar Isle",
+    ["ca02_Monkey"]     = "Verdemontaña",   -- Isla Verdemontaña
+    ["ca02_Pirates_01"] = "Huddled Isles",
+    ["ca02_Pirates_02"] = "Huddled Isles",  -- Undersea Cavern: same map pins as Huddled Isles
+    ["ca02_Pirates_03"] = "Huddled Isles",
+    ["ca02_Pirates_04"] = "Huddled Isles",
+    ["ca02_Rock"]       = "Confinement",    -- Confinement Island
+    ["ca02_SunkenShip_01"] = "Ship's End",
+    ["ca02_SunkenShip_02"] = "Ship's End",
+    ["ca02_Twoway_01"]  = "Isla Mastiles",  -- Isla de los Mástiles
+    ["ca02_Twoway_02"]  = "Isla Mastiles",
+    ["ca02_west"]       = "Isle of Luck",
+    -- ca02 / ca02_2 / ca02_seabattle intentionally omitted: their map_name is
+    -- the undifferentiated "The High Seas" with no area, so they can mean any
+    -- island (per the reference doc's own note on ca02_2/Gateway of Regret).
+}
+
 function onKH3MapChanged(message)
     local data = message and message.data
     if type(data) ~= "table" then return end
@@ -1528,10 +1583,15 @@ function onKH3MapChanged(message)
     print(string.format("onKH3MapChanged: world_code=%s -> ActivateTab '%s'", world_code, tab))
     Tracker:UiHint("ActivateTab", tab)
 
+    local minimap_id = data["kh3_minimap_id"]
+    local subtab = minimap_id and KH3_MINIMAP_ID_TO_SUBTAB[minimap_id]
     local room_id = data["kh3_room_id"] or data["kh3_level_id"]
-    local subtab = room_id and KH3_ROOM_ID_TO_SUBTAB[room_id]
+    if not subtab then
+        subtab = room_id and KH3_ROOM_ID_TO_SUBTAB[room_id]
+    end
     if subtab then
-        print(string.format("onKH3MapChanged: room_id=%s -> ActivateTab '%s'", room_id, subtab))
+        print(string.format("onKH3MapChanged: minimap_id=%s room_id=%s -> ActivateTab '%s'",
+            tostring(minimap_id), tostring(room_id), subtab))
         Tracker:UiHint("ActivateTab", subtab)
     end
 end
