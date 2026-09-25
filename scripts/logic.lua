@@ -29,6 +29,28 @@ function update_gimmick_layout()
     end
 end
 
+-- The five minigame max-rank settings share one icon, so each carries a short
+-- "<minigame> <rank>" overlay to tell them apart. Stage index = option value
+-- (0 = junk, 1..4 = D..A).
+MINIGAME_RANK_SETTINGS = {
+    {"verum_rex_rank",      "VR"},
+    {"festival_dance_rank", "FD"},
+    {"frozen_slider_rank",  "FS"},
+    {"flash_tracer_a_rank", "FTA"},
+    {"flash_tracer_b_rank", "FTB"},
+}
+local MINIGAME_RANK_LETTERS = {"J", "D", "C", "B", "A"}
+
+function update_minigame_rank_overlays()
+    for _, entry in ipairs(MINIGAME_RANK_SETTINGS) do
+        local obj = Tracker:FindObjectForCode(entry[1])
+        if obj then
+            obj:SetOverlay(entry[2] .. " " .. (MINIGAME_RANK_LETTERS[obj.CurrentStage + 1] or "?"))
+            obj:SetOverlayFontSize(11)
+        end
+    end
+end
+
 -- ============================================================
 -- Portal keyblades / world tiers
 -- ============================================================

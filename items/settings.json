@@ -41,6 +41,12 @@
     ]
   },
   {
+    "name": "Battlegates - Unsupported Reports",
+    "type": "toggle",
+    "codes": "active_unsupported_battlegates",
+    "img": "images/items/Battlegates.png"
+  },
+  {
     "name": "Re:Mind",
     "type": "progressive",
     "allow_disabled": false,
@@ -536,6 +542,269 @@
         "codes": "style_change_setting, style_change_always_on",
         "inherit_codes": false,
         "name": "Style Change - Always On"
+      }
+    ]
+  },
+  {
+    "name": "Synthesis",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Synthesis.png",
+        "img_mods": "saturation|0",
+        "codes": "synthesis_setting",
+        "inherit_codes": false,
+        "name": "Synthesis Checks Off"
+      },
+      {
+        "img": "images/items/Synthesis.png",
+        "codes": "synthesis_setting, active_synthesis",
+        "inherit_codes": false,
+        "name": "Synthesis Checks On"
+      }
+    ]
+  },
+  {
+    "name": "Photo Missions",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Picture.png",
+        "img_mods": "saturation|0",
+        "codes": "photo_missions_setting",
+        "inherit_codes": false,
+        "name": "Photo Missions Checks Off"
+      },
+      {
+        "img": "images/items/Picture.png",
+        "codes": "photo_missions_setting, active_photo_missions",
+        "inherit_codes": false,
+        "name": "Photo Missions Checks On"
+      }
+    ]
+  },
+  {
+    "name": "Keyblade Upgrades",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/keyblades/Kingdom Key.png",
+        "img_mods": "saturation|0",
+        "codes": "keyblade_upgrades_setting",
+        "inherit_codes": false,
+        "name": "Keyblade Upgrades Checks Off"
+      },
+      {
+        "img": "images/items/keyblades/Kingdom Key.png",
+        "codes": "keyblade_upgrades_setting, active_keyblade_upgrades",
+        "inherit_codes": false,
+        "name": "Keyblade Upgrades Checks On"
+      }
+    ]
+  },
+  {
+    "name": "Verum Rex Max AP Rank",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "img": "images/items/Minigames.png",
+        "img_mods": "saturation|0",
+        "codes": "verum_rex_rank",
+        "inherit_codes": false,
+        "name": "Verum Rex Max AP Rank: Junk"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "verum_rex_rank",
+        "inherit_codes": false,
+        "name": "Verum Rex Max AP Rank: D"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "verum_rex_rank",
+        "inherit_codes": false,
+        "name": "Verum Rex Max AP Rank: C"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "verum_rex_rank",
+        "inherit_codes": false,
+        "name": "Verum Rex Max AP Rank: B"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "verum_rex_rank",
+        "inherit_codes": false,
+        "name": "Verum Rex Max AP Rank: A"
+      }
+    ]
+  },
+  {
+    "name": "Festival Dance Max AP Rank",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "img": "images/items/Minigames.png",
+        "img_mods": "saturation|0",
+        "codes": "festival_dance_rank",
+        "inherit_codes": false,
+        "name": "Festival Dance Max AP Rank: Junk"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "festival_dance_rank",
+        "inherit_codes": false,
+        "name": "Festival Dance Max AP Rank: D"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "festival_dance_rank",
+        "inherit_codes": false,
+        "name": "Festival Dance Max AP Rank: C"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "festival_dance_rank",
+        "inherit_codes": false,
+        "name": "Festival Dance Max AP Rank: B"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "festival_dance_rank",
+        "inherit_codes": false,
+        "name": "Festival Dance Max AP Rank: A"
+      }
+    ]
+  },
+  {
+    "name": "Frozen Slider Max AP Rank",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "img": "images/items/Minigames.png",
+        "img_mods": "saturation|0",
+        "codes": "frozen_slider_rank",
+        "inherit_codes": false,
+        "name": "Frozen Slider Max AP Rank: Junk"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "frozen_slider_rank",
+        "inherit_codes": false,
+        "name": "Frozen Slider Max AP Rank: D"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "frozen_slider_rank",
+        "inherit_codes": false,
+        "name": "Frozen Slider Max AP Rank: C"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "frozen_slider_rank",
+        "inherit_codes": false,
+        "name": "Frozen Slider Max AP Rank: B"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "frozen_slider_rank",
+        "inherit_codes": false,
+        "name": "Frozen Slider Max AP Rank: A"
+      }
+    ]
+  },
+  {
+    "name": "Flash Tracer Course A Max AP Rank",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "img": "images/items/Minigames.png",
+        "img_mods": "saturation|0",
+        "codes": "flash_tracer_a_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course A Max AP Rank: Junk"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_a_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course A Max AP Rank: D"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_a_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course A Max AP Rank: C"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_a_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course A Max AP Rank: B"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_a_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course A Max AP Rank: A"
+      }
+    ]
+  },
+  {
+    "name": "Flash Tracer Course B Max AP Rank",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "img": "images/items/Minigames.png",
+        "img_mods": "saturation|0",
+        "codes": "flash_tracer_b_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course B Max AP Rank: Junk"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_b_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course B Max AP Rank: D"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_b_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course B Max AP Rank: C"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_b_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course B Max AP Rank: B"
+      },
+      {
+        "img": "images/items/Minigames.png",
+        "codes": "flash_tracer_b_rank",
+        "inherit_codes": false,
+        "name": "Flash Tracer Course B Max AP Rank: A"
       }
     ]
   }

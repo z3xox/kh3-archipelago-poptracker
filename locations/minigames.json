@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Minigames - Toy Box (Verum Rex)",
+    "access_rules": [
+      "kb_favorite_deputy"
+    ],
+    "children": [
+      {
+        "name": "Minigames - Toy Box (Verum Rex) - Checks",
+        "sections": [
+          {
+            "name": "Toy Box - Verum Rex - A Rank",
+            "item_count": 1
+          },
+          {
+            "name": "Toy Box - Verum Rex - A Rank First Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Toy Box - Verum Rex - A Rank Repeat Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Toy Box - Verum Rex - B Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Toy Box - Verum Rex - C Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Toy Box - Verum Rex - D Rank Item Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  },
+  {
+    "name": "Minigames - Kingdom of Corona (Festival Dance)",
+    "access_rules": [
+      "kb_ever_after"
+    ],
+    "children": [
+      {
+        "name": "Minigames - Kingdom of Corona (Festival Dance) - Checks",
+        "sections": [
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank First Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - B Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - C Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - D Rank Item Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  },
+  {
+    "name": "Minigames - Arendelle (Frozen Slider)",
+    "access_rules": [
+      "kb_crystal_snow"
+    ],
+    "children": [
+      {
+        "name": "Minigames - Arendelle (Frozen Slider) - Checks",
+        "sections": [
+          {
+            "name": "Arendelle - Frozen Slider - A Rank",
+            "item_count": 1
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures",
+            "item_count": 1
+          },
+          {
+            "name": "Arendelle - Frozen Slider - A Rank First Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Arendelle - Frozen Slider - A Rank Repeat Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Arendelle - Frozen Slider - B Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Arendelle - Frozen Slider - C Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Arendelle - Frozen Slider - D Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures Item Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  },
+  {
+    "name": "Minigames - San Fransokyo (Flash Tracer Course A)",
+    "access_rules": [
+      "kb_nano_gear"
+    ],
+    "children": [
+      {
+        "name": "Minigames - San Fransokyo (Flash Tracer Course A) - Checks",
+        "sections": [
+          {
+            "name": "San Fransokyo - Flash Tracer Course A - A Rank",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course A - A Rank First Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course A - A Rank Repeat Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course A - B Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course A - C Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course A - D Rank Item Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  },
+  {
+    "name": "Minigames - San Fransokyo (Flash Tracer Course B)",
+    "access_rules": [
+      "kb_nano_gear"
+    ],
+    "children": [
+      {
+        "name": "Minigames - San Fransokyo (Flash Tracer Course B) - Checks",
+        "sections": [
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - A Rank",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - A Rank First Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - A Rank Repeat Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - B Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - C Rank Item Reward",
+            "item_count": 1
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - D Rank Item Reward",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  }
+]

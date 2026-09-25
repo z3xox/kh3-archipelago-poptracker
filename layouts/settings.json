@@ -53,10 +53,33 @@
       [
         "classic_kingdom_setting",
         "ingredients_setting",
-        "battlegates_setting"
+        "battlegates_setting",
+        "active_unsupported_battlegates"
       ],
       [
         "style_change_setting"
+      ],
+      [
+        "synthesis_setting",
+        "photo_missions_setting",
+        "keyblade_upgrades_setting"
+      ]
+    ]
+  },
+  "minigame_rank_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "4,3",
+    "item_size": "40,40",
+    "rows": [
+      [
+        "verum_rex_rank",
+        "festival_dance_rank",
+        "frozen_slider_rank"
+      ],
+      [
+        "flash_tracer_a_rank",
+        "flash_tracer_b_rank"
       ]
     ]
   },

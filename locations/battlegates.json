@@ -15,7 +15,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_001a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -38,7 +38,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_002a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -142,7 +142,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_006a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -165,7 +165,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_007a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -188,7 +188,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_008a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -211,7 +211,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_009a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -234,7 +234,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_010a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -257,7 +257,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_011a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -280,7 +280,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_012a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -303,7 +303,7 @@
             "name": "Battlegate Reports - EVENT_REPORT_013a - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -326,7 +326,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_001b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -349,7 +349,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_002b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -372,7 +372,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_006b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -395,7 +395,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_007b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -418,7 +418,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_008b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -441,7 +441,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_009b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -464,7 +464,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_010b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -487,7 +487,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_011b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -510,7 +510,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_012b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -533,7 +533,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_013b - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -556,7 +556,7 @@
             "name": "Battlegate Rewards - EVENT_REPORT_014 - RandomizedItem",
             "item_count": 1,
             "visibility_rules": [
-              "battlegate_currently_unavailable"
+              "active_unsupported_battlegates"
             ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"

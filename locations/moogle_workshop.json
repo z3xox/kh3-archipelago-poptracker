@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Moogle Workshop - Synthesis",
+    "access_rules": [
+      "active_synthesis"
+    ],
+    "visibility_rules": [
+      "active_synthesis"
+    ],
+    "children": [
+      {
+        "name": "Moogle Workshop - Synthesis - Recipes",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Synthesize Ether",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Fire Bangle",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Fira Bangle",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Shadow Anklet",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Ability Ring+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Elven Bandanna",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Thunder Trinket",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Thundara Trinket",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Refocuser",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Mythril Shard",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Wind Fan",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize AP Boost",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Warhammer+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Clockwork Shield+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Technician's Ring+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Hi-Ether",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Mega-Potion",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Dark Anklet",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Mythril Stone",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Aegis Shield+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Blizzard Choker",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Blizzara Choker",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Skill Ring+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Mega-Ether",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Strength Boost",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Magic Boost",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Defense Boost",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Firaga Bangle",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Blizzaga Choker",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Thundaga Trinket",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Divine Bandanna",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Storm Fan",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Midnight Anklet",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Astrolabe+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Hi-Refocuser",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Mythril Gem",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Phantom Ring",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Sorcerer's Ring",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Firaza Bangle",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Blizzaza Choker",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Thundaza Trinket",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Chaos Anklet",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Acrisius",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Elixir",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Mythril Crystal",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Buster Band",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Orichalcum Ring",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Wisdom Ring",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Heartless Maul",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Nobody Guard",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Buster Band+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Acrisius+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Megalixir",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Heartless Maul+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Nobody Guard+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Save the Queen",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Save the King",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Cosmic Chain",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Save the Queen+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Save the King+",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Lucid Crystal",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Soothing Crystal",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Writhing Crystal",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Pulsing Crystal",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Blazing Crystal",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Frost Crystal",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Synthesize Lightning Crystal",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  },
+  {
+    "name": "Moogle Workshop - Keyblade Upgrades",
+    "access_rules": [
+      "active_keyblade_upgrades"
+    ],
+    "visibility_rules": [
+      "active_keyblade_upgrades"
+    ],
+    "children": [
+      {
+        "name": "Moogle Workshop - Keyblade Upgrades - Rewards",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Kingdom Key Level 4",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Hero's Origin Level 4",
+            "item_count": 1,
+            "access_rules": [
+              "kb_heros_origin"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Shooting Star Level 4",
+            "item_count": 1,
+            "access_rules": [
+              "kb_shooting_star"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Favorite Deputy Level 4",
+            "item_count": 1,
+            "access_rules": [
+              "kb_favorite_deputy"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Ever After Level 4",
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Ever After Level 10",
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Happy Gear Level 6",
+            "item_count": 1,
+            "access_rules": [
+              "kb_happy_gear"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Crystal Snow Level 9",
+            "item_count": 1,
+            "access_rules": [
+              "kb_crystal_snow"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Hunny Spout Level 6",
+            "item_count": 1,
+            "access_rules": [
+              "kb_hunny_spout"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Nano Gear Level 6",
+            "item_count": 1,
+            "access_rules": [
+              "kb_nano_gear"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Wheel of Fate Level 6",
+            "item_count": 1,
+            "access_rules": [
+              "kb_wheel_of_fate"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Classic Tone Level 6",
+            "item_count": 1,
+            "access_rules": [
+              "kb_classic_tone"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Classic Tone Level 9",
+            "item_count": 1,
+            "access_rules": [
+              "kb_classic_tone"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Grand Chef Level 3",
+            "item_count": 1,
+            "access_rules": [
+              "kb_grand_chef"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Starlight Level 4",
+            "item_count": 1,
+            "access_rules": [
+              "kb_starlight"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Oathkeeper Level 4",
+            "item_count": 1,
+            "access_rules": [
+              "kb_oathkeeper"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Oathkeeper Level 9",
+            "item_count": 1,
+            "access_rules": [
+              "kb_oathkeeper"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Oblivion Level 4",
+            "item_count": 1,
+            "access_rules": [
+              "kb_oblivion"
+            ]
+          },
+          {
+            "name": "Moogle Workshop - Oblivion Level 9",
+            "item_count": 1,
+            "access_rules": [
+              "kb_oblivion"
+            ]
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  }
+]

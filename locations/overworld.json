@@ -5968,6 +5968,637 @@
                 "shape": "trapezoid"
               }
             ]
+          },
+          {
+            "name": "Flantastic Flans - All Checks",
+            "sections": [
+              {
+                "name": "Flantastic - Olympus - Cherry Flan - High Score",
+                "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Olympus - Cherry Flan - High Score"
+              },
+              {
+                "name": "Flantastic - Toy Box - Strawberry Flan - High Score",
+                "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Toy Box - Strawberry Flan - High Score"
+              },
+              {
+                "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score",
+                "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Kingdom of Corona - Orange Flan - High Score"
+              },
+              {
+                "name": "Flantastic - Monstropolis - Banana Flan - High Score",
+                "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Monstropolis - Banana Flan - High Score"
+              },
+              {
+                "name": "Flantastic - Arendelle - Grape Flan - High Score",
+                "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Arendelle - Grape Flan - High Score"
+              },
+              {
+                "name": "Flantastic - The Caribbean - Watermelon Flan - High Score",
+                "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - The Caribbean - Watermelon Flan - High Score"
+              },
+              {
+                "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score",
+                "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - San Fransokyo - Honeydew Flan - High Score"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 437,
+                "y": 545,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Minigames - All Checks",
+            "sections": [
+              {
+                "name": "Toy Box - Verum Rex - A Rank",
+                "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank"
+              },
+              {
+                "name": "Toy Box - Verum Rex - A Rank First Item Reward",
+                "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank First Item Reward"
+              },
+              {
+                "name": "Toy Box - Verum Rex - A Rank Repeat Item Reward",
+                "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank Repeat Item Reward"
+              },
+              {
+                "name": "Toy Box - Verum Rex - B Rank Item Reward",
+                "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - B Rank Item Reward"
+              },
+              {
+                "name": "Toy Box - Verum Rex - C Rank Item Reward",
+                "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - C Rank Item Reward"
+              },
+              {
+                "name": "Toy Box - Verum Rex - D Rank Item Reward",
+                "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - D Rank Item Reward"
+              },
+              {
+                "name": "Kingdom of Corona - Festival Dance - A Rank",
+                "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank"
+              },
+              {
+                "name": "Kingdom of Corona - Festival Dance - A Rank First Item Reward",
+                "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank First Item Reward"
+              },
+              {
+                "name": "Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward",
+                "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward"
+              },
+              {
+                "name": "Kingdom of Corona - Festival Dance - B Rank Item Reward",
+                "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - B Rank Item Reward"
+              },
+              {
+                "name": "Kingdom of Corona - Festival Dance - C Rank Item Reward",
+                "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - C Rank Item Reward"
+              },
+              {
+                "name": "Kingdom of Corona - Festival Dance - D Rank Item Reward",
+                "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - D Rank Item Reward"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - A Rank",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - All Treasures",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - A Rank First Item Reward",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank First Item Reward"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - A Rank Repeat Item Reward",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank Repeat Item Reward"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - B Rank Item Reward",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - B Rank Item Reward"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - C Rank Item Reward",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - C Rank Item Reward"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - D Rank Item Reward",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - D Rank Item Reward"
+              },
+              {
+                "name": "Arendelle - Frozen Slider - All Treasures Item Reward",
+                "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course A - A Rank",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - A Rank"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course A - A Rank First Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - A Rank First Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course A - A Rank Repeat Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - A Rank Repeat Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course A - B Rank Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - B Rank Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course A - C Rank Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - C Rank Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course A - D Rank Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - D Rank Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course B - A Rank",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - A Rank"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course B - A Rank First Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - A Rank First Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course B - A Rank Repeat Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - A Rank Repeat Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course B - B Rank Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - B Rank Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course B - C Rank Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - C Rank Item Reward"
+              },
+              {
+                "name": "San Fransokyo - Flash Tracer Course B - D Rank Item Reward",
+                "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - D Rank Item Reward"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 407,
+                "y": 545,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Photo Missions - All Checks",
+            "sections": [
+              {
+                "name": "Moogle Workshop - Photo Mission 2 (Firefighter Rosette)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 2 (Firefighter Rosette)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 3 (Umbrella Rosette)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 3 (Umbrella Rosette)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 4 (Mask Rosette)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 4 (Mask Rosette)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 5 (Cosmic Ring)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 6 (Soldier's Earring)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 7 (Mage's Earring)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 7 (Mage's Earring)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 8 (Moon Amulet)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 8 (Moon Amulet)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 9 (Fire Chain)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 9 (Fire Chain)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 10 (Thunder Chain)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 10 (Thunder Chain)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 11 (Draw Ring)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 11 (Draw Ring)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 12 (Insulator Rosette)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 13 (Blizzard Chain)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 14 (Snowman Rosette)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 15 (Fencer's Earring)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 16 (Slayer's Earring)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 17 (Star Charm)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 17 (Star Charm)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 18 (Aero Armlet)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 18 (Aero Armlet)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 19 (Aqua Chaplet)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 20 (Dark Chain)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 20 (Dark Chain)"
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 21 (Petite Ribbon)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 21 (Petite Ribbon)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 177,
+                "y": 545,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Moogle Workshop - All Checks",
+            "sections": [
+              {
+                "name": "Moogle Workshop - Synthesize Ether",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Ether"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Fire Bangle",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Fire Bangle"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Fira Bangle",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Fira Bangle"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Shadow Anklet",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Shadow Anklet"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Ability Ring+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Ability Ring+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Elven Bandanna",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Elven Bandanna"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Thunder Trinket",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Thunder Trinket"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Thundara Trinket",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Thundara Trinket"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Refocuser",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Refocuser"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Mythril Shard",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Mythril Shard"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Wind Fan",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Wind Fan"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize AP Boost",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize AP Boost"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Warhammer+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Warhammer+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Clockwork Shield+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Clockwork Shield+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Technician's Ring+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Technician's Ring+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Hi-Ether",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Hi-Ether"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Mega-Potion",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Mega-Potion"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Dark Anklet",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Dark Anklet"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Mythril Stone",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Mythril Stone"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Aegis Shield+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Aegis Shield+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Blizzard Choker",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Blizzard Choker"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Blizzara Choker",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Blizzara Choker"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Skill Ring+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Skill Ring+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Mega-Ether",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Mega-Ether"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Strength Boost",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Strength Boost"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Magic Boost",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Magic Boost"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Defense Boost",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Defense Boost"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Firaga Bangle",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Firaga Bangle"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Blizzaga Choker",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Blizzaga Choker"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Thundaga Trinket",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Thundaga Trinket"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Divine Bandanna",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Divine Bandanna"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Storm Fan",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Storm Fan"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Midnight Anklet",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Midnight Anklet"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Astrolabe+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Astrolabe+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Hi-Refocuser",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Hi-Refocuser"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Mythril Gem",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Mythril Gem"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Phantom Ring",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Phantom Ring"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Sorcerer's Ring",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Sorcerer's Ring"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Firaza Bangle",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Firaza Bangle"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Blizzaza Choker",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Blizzaza Choker"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Thundaza Trinket",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Thundaza Trinket"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Chaos Anklet",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Chaos Anklet"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Acrisius",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Acrisius"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Elixir",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Elixir"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Mythril Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Mythril Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Buster Band",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Buster Band"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Orichalcum Ring",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Orichalcum Ring"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Wisdom Ring",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Wisdom Ring"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Heartless Maul",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Heartless Maul"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Nobody Guard",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Nobody Guard"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Buster Band+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Buster Band+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Acrisius+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Acrisius+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Megalixir",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Megalixir"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Heartless Maul+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Heartless Maul+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Nobody Guard+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Nobody Guard+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Save the Queen",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Save the Queen"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Save the King",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Save the King"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Cosmic Chain",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Cosmic Chain"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Save the Queen+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Save the Queen+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Save the King+",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Save the King+"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Lucid Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Lucid Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Soothing Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Soothing Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Writhing Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Writhing Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Pulsing Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Pulsing Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Blazing Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Blazing Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Frost Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Frost Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Synthesize Lightning Crystal",
+                "ref": "Moogle Workshop - Synthesis/Moogle Workshop - Synthesis - Recipes/Moogle Workshop - Synthesize Lightning Crystal"
+              },
+              {
+                "name": "Moogle Workshop - Kingdom Key Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Kingdom Key Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Hero's Origin Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Hero's Origin Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Shooting Star Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Shooting Star Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Favorite Deputy Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Favorite Deputy Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Ever After Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Ever After Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Ever After Level 10",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Ever After Level 10"
+              },
+              {
+                "name": "Moogle Workshop - Happy Gear Level 6",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Happy Gear Level 6"
+              },
+              {
+                "name": "Moogle Workshop - Crystal Snow Level 9",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Crystal Snow Level 9"
+              },
+              {
+                "name": "Moogle Workshop - Hunny Spout Level 6",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Hunny Spout Level 6"
+              },
+              {
+                "name": "Moogle Workshop - Nano Gear Level 6",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Nano Gear Level 6"
+              },
+              {
+                "name": "Moogle Workshop - Wheel of Fate Level 6",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Wheel of Fate Level 6"
+              },
+              {
+                "name": "Moogle Workshop - Classic Tone Level 6",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Classic Tone Level 6"
+              },
+              {
+                "name": "Moogle Workshop - Classic Tone Level 9",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Classic Tone Level 9"
+              },
+              {
+                "name": "Moogle Workshop - Grand Chef Level 3",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Grand Chef Level 3"
+              },
+              {
+                "name": "Moogle Workshop - Starlight Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Starlight Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Oathkeeper Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Oathkeeper Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Oathkeeper Level 9",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Oathkeeper Level 9"
+              },
+              {
+                "name": "Moogle Workshop - Oblivion Level 4",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Oblivion Level 4"
+              },
+              {
+                "name": "Moogle Workshop - Oblivion Level 9",
+                "ref": "Moogle Workshop - Keyblade Upgrades/Moogle Workshop - Keyblade Upgrades - Rewards/Moogle Workshop - Oblivion Level 9"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 208,
+                "y": 545
+              }
+            ]
           }
         ]
       }

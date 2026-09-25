@@ -58,6 +58,12 @@ ScriptHost:AddWatchForCode("goal_layout_watch", "goal", update_goal_layout)
 update_gimmick_layout()
 ScriptHost:AddWatchForCode("gimmick_layout_watch", "style_change_setting", update_gimmick_layout)
 
+-- Minigame max-rank settings show "<minigame> <rank>" over their shared icon
+update_minigame_rank_overlays()
+for _, entry in ipairs(MINIGAME_RANK_SETTINGS) do
+    ScriptHost:AddWatchForCode(entry[1] .. "_overlay_watch", entry[1], update_minigame_rank_overlays)
+end
+
 -- AutoTracking
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking/autotracking.lua")

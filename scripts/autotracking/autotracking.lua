@@ -1354,6 +1354,29 @@ function autoFill(slot_data)
     -- The stage indices line up with the option's own values.
     setStage("ingredients_setting", slot_data["ingredients"] or 0)
 
+    -- Moogle Workshop pools (top-level keys). Unlike the pools above these still
+    -- have a vanilla mode, and vanilla (the default) adds no checks at all.
+    setStage("synthesis_setting",
+             (slot_data["synthesis_pool"] or VANILLA_POOL_MODE) ~= VANILLA_POOL_MODE and 1 or 0)
+    setStage("photo_missions_setting",
+             (slot_data["photo_missions_pool"] or VANILLA_POOL_MODE) ~= VANILLA_POOL_MODE and 1 or 0)
+    setStage("keyblade_upgrades_setting",
+             (slot_data["keyblade_upgrade_rewards_pool"] or VANILLA_POOL_MODE) ~= VANILLA_POOL_MODE and 1 or 0)
+
+    -- Minigame max AP rank (top-level keys, 0 = junk, 1..4 = D..A, matching the
+    -- stage indices). It never removes checks, only restricts rewards above the
+    -- cap to filler/traps. Seeds without the key keep the apworld's A default.
+    local MINIGAME_RANK_KEYS = {
+        {"verum_rex_rank",      "verum_rex_max_rank"},
+        {"festival_dance_rank", "festival_dance_max_rank"},
+        {"frozen_slider_rank",  "frozen_slider_max_rank"},
+        {"flash_tracer_a_rank", "flash_tracer_course_a_max_rank"},
+        {"flash_tracer_b_rank", "flash_tracer_course_b_max_rank"},
+    }
+    for _, entry in ipairs(MINIGAME_RANK_KEYS) do
+        setStage(entry[1], slot_data[entry[2]] or 4)
+    end
+
     -- Melody of Memory. A seed's songs are drawn at random from the 128-song
     -- catalog (MelodyOfMemory.select_music_chests), so the count option alone
     -- can't say which ones are in play -- the bridge rows can.

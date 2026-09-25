@@ -189,6 +189,40 @@
             "shape": "diamond"
           }
         ]
+      },
+      {
+        "name": "Monstropolis - Flantastic Seven (Banana Flan)",
+        "sections": [
+          {
+            "name": "Flantastic - Monstropolis - Banana Flan - High Score",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Monstropolis - Banana Flan - High Score"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_monsters_inc",
+            "x": 89,
+            "y": 365,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Monstropolis - Photo Mission 12 (Insulator Rosette)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 12 (Insulator Rosette)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_monstropolis_door_vault",
+            "x": 474,
+            "y": 486,
+            "shape": "diamond"
+          }
+        ]
       }
     ],
     "visibility_rules": [

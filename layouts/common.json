@@ -35,6 +35,15 @@
         },
         {
           "type": "group",
+          "header": "Minigame Max AP Rank",
+          "dock": "left",
+          "content": {
+            "type": "layout",
+            "key": "minigame_rank_setting_grid"
+          }
+        },
+        {
+          "type": "group",
           "header": "Third Party Mods",
           "dock": "left",
           "content": {

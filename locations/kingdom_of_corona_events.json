@@ -129,6 +129,94 @@
             "shape": "diamond"
           }
         ]
+      },
+      {
+        "name": "Kingdom of Corona - Festival Dance (Minigame)",
+        "sections": [
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank"
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank First Item Reward",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank First Item Reward"
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward"
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - B Rank Item Reward",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - B Rank Item Reward"
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - C Rank Item Reward",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - C Rank Item Reward"
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - D Rank Item Reward",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - D Rank Item Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_kingdom",
+            "x": 566,
+            "y": 126,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Kingdom of Corona - Flantastic Seven (Orange Flan)",
+        "sections": [
+          {
+            "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Kingdom of Corona - Orange Flan - High Score"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_a",
+            "x": 205,
+            "y": 219,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Kingdom of Corona - Photo Mission 7 (Mage's Earring)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 7 (Mage's Earring)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 7 (Mage's Earring)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_hills_a",
+            "x": 572,
+            "y": 105,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Kingdom of Corona - Photo Mission 8 (Moon Amulet)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 8 (Moon Amulet)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 8 (Moon Amulet)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_corona_kingdom",
+            "x": 545,
+            "y": 318,
+            "shape": "diamond"
+          }
+        ]
       }
     ],
     "visibility_rules": [

@@ -128,6 +128,43 @@
         ]
       },
       {
+        "name": "Toy Box - Verum Rex (Minigame)",
+        "sections": [
+          {
+            "name": "Toy Box - Verum Rex - A Rank",
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank"
+          },
+          {
+            "name": "Toy Box - Verum Rex - A Rank First Item Reward",
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank First Item Reward"
+          },
+          {
+            "name": "Toy Box - Verum Rex - A Rank Repeat Item Reward",
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank Repeat Item Reward"
+          },
+          {
+            "name": "Toy Box - Verum Rex - B Rank Item Reward",
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - B Rank Item Reward"
+          },
+          {
+            "name": "Toy Box - Verum Rex - C Rank Item Reward",
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - C Rank Item Reward"
+          },
+          {
+            "name": "Toy Box - Verum Rex - D Rank Item Reward",
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - D Rank Item Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_3rd",
+            "x": 472,
+            "y": 18,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Defeat King of Toys in Toy Box: Galaxy Toys",
         "sections": [
           {
@@ -150,6 +187,57 @@
             "map": "map_toybox_galaxy_3rd",
             "x": 209,
             "y": 344,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Toy Box - Flantastic Seven (Strawberry Flan)",
+        "sections": [
+          {
+            "name": "Flantastic - Toy Box - Strawberry Flan - High Score",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Toy Box - Strawberry Flan - High Score"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_2nd_vents",
+            "x": 25,
+            "y": 258,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Toy Box - Photo Mission 6 (Soldier's Earring)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 6 (Soldier's Earring)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_2nd_vents",
+            "x": 359,
+            "y": 87,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Toy Box - Photo Mission 15 (Fencer's Earring)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 15 (Fencer's Earring)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_toybox_galaxy_3rd",
+            "x": 23,
+            "y": 342,
             "shape": "diamond"
           }
         ]
