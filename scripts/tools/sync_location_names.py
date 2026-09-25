@@ -22,13 +22,14 @@ halves of a PopTracker code "@<location_name>/<section_name>":
      == the override (a hand-curated friendly rename, e.g. for an opaque
      "Victory Bonus NNN" AP name).
   3. Else location_name == section_name == location_description from the
-     source data, except treasures, which become "<World> - Chest <n> (<Size>, <Area>)" from the
-     appearance number leading that description (see display_name_for in
-     regenerate_location_mapping.py).
+     source data, except treasures, which become "<World> - Chest <n> (<Size>, <Area>)"
+     from the appearance number leading that description (see
+     treasure_display_name below).
 
-IDs always come from BASE_LOCATION_ID + index in the source "locations" array
-(see regenerate_location_mapping.py for how this was verified), independent of
-which name is chosen.
+IDs come from BASE_LOCATION_ID + index in the source "locations" array, except
+for the two id spaces that are not positional: Melody of Memory songs
+(MOM_LOCATION_ID_BASE + song_id) and the 8 authored Melody Chests, which both
+arrive from the dump carrying an explicit "ap_id". See build_raw_records.
 
 locations/*.json and autotracking.lua are updated with the same string-replace
 approach as rename_location.py: only name strings are swapped (once per
@@ -45,7 +46,15 @@ Usage:
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
+
+# Location names carry characters (e.g. the chi in "Dark Inferno χ") that the
+# default Windows console codepage cannot encode, which otherwise aborts a run
+# mid-report with UnicodeEncodeError.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parents[2]
 LOCATION_MAPPING_LUA = ROOT / "scripts" / "autotracking" / "location_mapping.lua"
@@ -57,9 +66,51 @@ BASE_LOCATION_ID = 0x4B483300
 ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_NAME = "Olympus - Rock Titan Sequence Break Bonus"
 ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_ID = BASE_LOCATION_ID + 0xFFFF
 
+# "Chest 29 (Large Chest, Realm of the Gods: Corridors, Near Save Point)"
+# -> number, size, area. Some rows have no trailing hint, and one closes its
+# parenthesis early, so stop at the first comma or ")". Written without
+# backslash escapes on purpose.
+CHEST_DESCRIPTION_RE = re.compile("^Chest ([0-9]+) [(]([^,]+), ([^,)]+)")
 
-def build_raw_records(data: dict) -> dict[int, str]:
-    """Returns {ap_id: raw_ap_name}."""
+
+def treasure_display_name(location: dict) -> str | None:
+    """"<World> - Chest <n> (<Size>, <Area>)" for a treasure, else None.
+
+    Treasures are named by their in-game order of appearance, which is how the
+    community and the game itself refer to them. The apworld carries both
+    schemes: the raw "name" numbers chests per size ("Olympus - Large Chest 1"),
+    while "location_description" leads with the appearance number. The number is
+    unique within a world, so prefixing with the world keeps section names
+    globally unique, which OVERWORLD_SECTION_MAP requires (it is keyed by
+    section name alone).
+
+    Returns None if the description ever stops matching, so the caller falls
+    back to the raw name; one row already has a stray parenthesis ("Chest 6
+    (Small Chest, The City: North District), Northeast ..."), hence matching
+    only the leading number.
+    """
+    if location.get("type") != "treasure":
+        return None
+    match = CHEST_DESCRIPTION_RE.match(location.get("location_description") or "")
+    if not match:
+        return None
+    number, size, area = match.groups()
+    return f"{location['world']} - Chest {int(number)} ({size}, {area})"
+
+
+def build_raw_records(data: dict, excluded: set[int]) -> dict[int, str]:
+    """Returns {ap_id: raw_ap_name} across all three of the apworld's id spaces.
+
+    The catalog array is only one of them. Melody of Memory songs are keyed off
+    MOM_LOCATION_ID_BASE + song_id and the 8 authored Melody Chests carry their
+    own ap_location_id, so both arrive from the dump with an explicit "ap_id"
+    instead of a position in the array. Leaving them out would silently delete
+    their 136 entries from location_mapping.lua on the next run.
+
+    Excluded ids are dropped: the apworld never turns them into checks, so an
+    entry for one is a code that can only ever sit unfilled (see the "excluded"
+    block of location_names.json, enforced by check_location_mapping_integrity).
+    """
     locations = data["locations"]
     names = [loc["name"] for loc in locations]
     if len(names) != len(set(names)):
@@ -69,13 +120,25 @@ def build_raw_records(data: dict) -> dict[int, str]:
 
     records = {BASE_LOCATION_ID + i: n for i, n in enumerate(names)}
     records[ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_ID] = ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_NAME
-    return records
+
+    for key in ("mom_locations", "music_chest_locations"):
+        for entry in data.get(key, []):
+            ap_id = entry["ap_id"]
+            if ap_id in records:
+                raise SystemExit(
+                    f"error: id {ap_id} ({entry['name']!r}) from {key} collides with "
+                    f"{records[ap_id]!r} from the catalog array"
+                )
+            records[ap_id] = entry["name"]
+
+    return {ap_id: name for ap_id, name in records.items() if ap_id not in excluded}
 
 
-def load_registry() -> tuple[dict[int, str], dict[int, tuple[str, str]]]:
-    """Returns (overrides {id: name}, group_members {id: (group_name, section_name)})."""
+def load_registry() -> tuple[dict[int, str], dict[int, tuple[str, str]], set[int]]:
+    """Returns (overrides {id: name}, group_members {id: (group, section)}, excluded ids)."""
     raw = json.loads(NAMES_REGISTRY.read_text(encoding="utf-8")) if NAMES_REGISTRY.exists() else {}
     overrides = {int(k): v for k, v in raw.get("overrides", {}).items()}
+    excluded = {int(k) for k in raw.get("excluded", {})}
     group_members = {}
     for group_name, members in raw.get("groups", {}).items():
         for id_str, section_name in members.items():
@@ -87,21 +150,26 @@ def load_registry() -> tuple[dict[int, str], dict[int, tuple[str, str]]]:
     overlap = sorted(set(overrides) & set(group_members))
     if overlap:
         raise SystemExit(f"error: ids listed in both 'overrides' and 'groups' in location_names.json: {overlap}")
-    return overrides, group_members
+    return overrides, group_members, excluded
 
 
 def build_display_records(data: dict, overrides: dict[int, str],
-                           group_members: dict[int, tuple[str, str]]) -> dict[int, tuple[str, str]]:
-    raw = build_raw_records(data)
+                           group_members: dict[int, tuple[str, str]],
+                           excluded: set[int]) -> dict[int, tuple[str, str]]:
+    raw = build_raw_records(data, excluded)
     by_raw_name = {loc["name"]: loc for loc in data["locations"]}
 
     def resolved_name(ap_id: int, raw_name: str) -> str:
         if ap_id in overrides:
             return overrides[ap_id]
         loc = by_raw_name.get(raw_name)
-        if loc is not None and loc.get("type") != "treasure":
-            return loc.get("location_description") or raw_name
-        return raw_name
+        if loc is None:
+            # Melody of Memory songs and Melody Chests: no catalog row, and
+            # their names are already the display names.
+            return raw_name
+        if loc.get("type") == "treasure":
+            return treasure_display_name(loc) or raw_name
+        return loc.get("location_description") or raw_name
 
     records: dict[int, tuple[str, str]] = {}
     for ap_id, raw_name in raw.items():
@@ -176,9 +244,9 @@ def main():
     args = ap.parse_args()
 
     data = json.loads(args.data.read_text(encoding="utf-8"))
-    overrides, group_members = load_registry()
+    overrides, group_members, excluded = load_registry()
 
-    new_records = build_display_records(data, overrides, group_members)
+    new_records = build_display_records(data, overrides, group_members, excluded)
     new_mapping_text = render_lua(new_records)
 
     old_mapping_text = LOCATION_MAPPING_LUA.read_text(encoding="utf-8") if LOCATION_MAPPING_LUA.exists() else ""
