@@ -1,6 +1,19 @@
 {
   "versions": [
   {
+    "package_version": "0.4.4",
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.4/kh3-archipelago-poptracker-v0.4.4.zip",
+    "sha256": "5004bb2c13732f9e6e90e26e8af57ac36b88124057162ff67bade436a98ad8a8",
+    "changelog": [
+      "Added the 145 checks the apworld's location catalog grew by: Moogle Workshop synthesis (67 recipes), photo missions (20) and Keyblade upgrade rewards (19), the Flantastic Seven's high scores (7), and the Verum Rex / Festival Dance / Frozen Slider / Flash Tracer Course A & B minigames (32 rank abilities and item rewards). All 145 autotrack.",
+      "Added Settings toggles for the three Moogle Workshop pools (Synthesis, Photo Missions, Keyblade Upgrades), auto-synced from the seed -- these are the only new pools that can actually remove their checks, since their 'vanilla' mode drops them from the seed entirely.",
+      "Added a Maximum AP Rank setting per minigame (Junk/D/C/B/A), auto-synced from the seed. Flans and minigame checks themselves are always present: their pools only restrict what item can land there, they never remove the check.",
+      "Added map pins for the 7 Flantastic Seven flans, the 5 minigames and 15 of the 20 photo missions, each gated on its world's portal keyblade. The 5 photo missions that require photographing a specific Heartless have no pin on purpose and stay trackable from the Photo Missions overworld pin.",
+      "Keyblade upgrade checks now require the matching Keyblade, so they only light up once you actually have it.",
+      "Fixed 21 Battlegate report checks being hidden by a visibility rule pointing at a code that was never defined anywhere, which made it permanently false. They stay hidden by default -- the apworld still only implements reports 3 to 5 -- but a new 'Battlegates - Unsupported Reports' toggle reveals them if a later apworld widens that range."
+    ]
+  },
+  {
     "package_version": "0.4.3",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.3/kh3-archipelago-poptracker-v0.4.3.zip",
     "sha256": "8efcd3530ba3ca31ccb7537d7768aba098d8181e8eb967d276399a93de82f97b",
