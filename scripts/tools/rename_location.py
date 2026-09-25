@@ -23,6 +23,13 @@ import re
 import sys
 from pathlib import Path
 
+# Location names carry characters (e.g. the chi in "Dark Inferno χ") that the
+# default Windows console codepage cannot encode, which otherwise aborts a run
+# mid-report with UnicodeEncodeError.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parents[2]
 LOCATIONS_DIR = ROOT / "locations"
 LOCATION_MAPPING_LUA = ROOT / "scripts" / "autotracking" / "location_mapping.lua"

@@ -16,7 +16,7 @@ That matters because AP location IDs are positional:
 
     ap_id = BASE_LOCATION_ID + index_in_the_finalized_locations_array
 
-so `regenerate_location_mapping.py` must be fed the *finalized* array, never the
+so `sync_location_names.py` must be fed the *finalized* array, never the
 497-entry file straight out of the apworld. Feeding it the raw file would
 silently renumber nothing but simply drop 478 locations.
 
@@ -47,6 +47,13 @@ import types
 import zipfile
 from importlib import import_module
 from pathlib import Path
+
+# Location names carry characters (e.g. the chi in "Dark Inferno χ") that the
+# default Windows console codepage cannot encode, which otherwise aborts a run
+# mid-report with UnicodeEncodeError.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_APWORLD = ROOT / "kh3.apworld"
@@ -126,6 +133,21 @@ def _stage_package(apworld: Path, workdir: Path) -> str:
     return package.name
 
 
+def _music_chest_placements(workdir: Path, package_name: str) -> list[dict]:
+    """The authored Melody Chest placements, read straight from the staged apworld.
+
+    Read as plain JSON rather than through MelodyOfMemory, because that module
+    reads it via importlib.resources against the *installed* package, which is
+    not what is staged here.
+    """
+    path = workdir / package_name / "data" / "music_chest_placements.json"
+    if not path.exists():
+        print(f"warning: {path.name} missing from the apworld; "
+              "no Melody Chest locations will be emitted")
+        return []
+    return json.loads(path.read_text(encoding="utf-8")).get("placements", [])
+
+
 def dump(apworld: Path) -> dict:
     workdir = Path(tempfile.mkdtemp(prefix="kh3-apworld-"))
     try:
@@ -156,18 +178,37 @@ def dump(apworld: Path) -> dict:
             for song in mom_module.MOM_SONGS
         ]
 
+        # The 8 authored Melody Chests are a third id space again: they are not
+        # in the catalog array and not keyed off a song id, they carry their own
+        # "ap_location_id" in the apworld's data/music_chest_placements.json.
+        # Without them here, a tool that rebuilds location_mapping.lua from this
+        # dump would drop their 8 entries.
+        music_chest_locations = [
+            {
+                "ap_id": placement["ap_location_id"],
+                "name": placement["name"],
+                "type": "music_chest",
+                "world": placement["world"],
+                "source_table": "MusicChestPlacement",
+                "source_id": placement["placement_id"],
+            }
+            for placement in _music_chest_placements(workdir, package_name)
+        ]
+
         return {
             "meta": {
                 **data.get("meta", {}),
                 "dumped_from": apworld.name,
                 "location_count": len(locations),
                 "mom_location_count": len(mom_locations),
+                "music_chest_location_count": len(music_chest_locations),
                 "base_location_id": BASE_LOCATION_ID,
                 "mom_location_id_base": mom_module.MOM_LOCATION_ID_BASE,
             },
             "items": data.get("items", []),
             "locations": locations,
             "mom_locations": mom_locations,
+            "music_chest_locations": music_chest_locations,
         }
     finally:
         shutil.rmtree(workdir, ignore_errors=True)
@@ -201,6 +242,11 @@ def main() -> None:
           f"(ids {BASE_LOCATION_ID}-{BASE_LOCATION_ID + len(locations) - 1})")
     print(f"{len(catalog['mom_locations'])} Melody of Memory locations "
           f"(separate id base {catalog['meta']['mom_location_id_base']})")
+    music_chests = catalog["music_chest_locations"]
+    if music_chests:
+        chest_ids = [chest["ap_id"] for chest in music_chests]
+        print(f"{len(music_chests)} Melody Chest locations "
+              f"(ids {min(chest_ids)}-{max(chest_ids)})")
     print(f"-> {args.output}")
 
     if args.summary:

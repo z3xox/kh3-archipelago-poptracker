@@ -31,15 +31,25 @@ not clobber hand edits to unrelated files, but it does rewrite both generated
 location files wholesale.
 
 Usage:
+    python scripts/tools/dump_apworld_catalog.py      # required first: writes
+                                                      # the gitignored catalog
     python scripts/tools/generate_ingredient_locations.py
     python scripts/tools/generate_ingredient_locations.py --dry-run
 """
 import argparse
 import json
 import re
+import sys
 import zipfile
 from collections import OrderedDict, defaultdict
 from pathlib import Path
+
+# Location names carry characters (e.g. the chi in "Dark Inferno χ") that the
+# default Windows console codepage cannot encode, which otherwise aborts a run
+# mid-report with UnicodeEncodeError.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parents[2]
 APWORLD = ROOT / "kh3.apworld"
@@ -121,6 +131,12 @@ def index_sections() -> tuple[dict, dict]:
 
 
 def build() -> tuple[list, list, dict]:
+    if not CATALOG.exists():
+        raise SystemExit(
+            f"error: {CATALOG.relative_to(ROOT)} not found.\n"
+            "It is gitignored and produced from the apworld, so run this first:\n"
+            "    python scripts/tools/dump_apworld_catalog.py"
+        )
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     base = catalog["meta"]["base_location_id"]
     locations = catalog["locations"]
