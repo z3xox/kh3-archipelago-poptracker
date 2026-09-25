@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Flantastic Flans",
+    "children": [
+      {
+        "name": "Flantastic Flans - High Scores",
+        "sections": [
+          {
+            "name": "Flantastic - Olympus - Cherry Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "kb_heros_origin"
+            ]
+          },
+          {
+            "name": "Flantastic - Toy Box - Strawberry Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "kb_favorite_deputy"
+            ]
+          },
+          {
+            "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after"
+            ]
+          },
+          {
+            "name": "Flantastic - Monstropolis - Banana Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "kb_happy_gear"
+            ]
+          },
+          {
+            "name": "Flantastic - Arendelle - Grape Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "kb_crystal_snow"
+            ]
+          },
+          {
+            "name": "Flantastic - The Caribbean - Watermelon Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
+          },
+          {
+            "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "kb_nano_gear"
+            ]
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  }
+]

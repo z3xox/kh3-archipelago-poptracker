@@ -191,6 +191,89 @@
             "shape": "diamond"
           }
         ]
+      },
+      {
+        "name": "Arendelle - Frozen Slider (Minigame)",
+        "sections": [
+          {
+            "name": "Arendelle - Frozen Slider - A Rank",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - A Rank First Item Reward",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank First Item Reward"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - A Rank Repeat Item Reward",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank Repeat Item Reward"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - B Rank Item Reward",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - B Rank Item Reward"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - C Rank Item Reward",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - C Rank Item Reward"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - D Rank Item Reward",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - D Rank Item Reward"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures Item Reward",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures Item Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_gorge",
+            "x": 228,
+            "y": 69,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Arendelle - Flantastic Seven (Grape Flan)",
+        "sections": [
+          {
+            "name": "Flantastic - Arendelle - Grape Flan - High Score",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Arendelle - Grape Flan - High Score"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_gorge",
+            "x": 107,
+            "y": 106,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Arendelle - Photo Mission 13+14 (Blizzard Chain, Snowman Rosette)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 13 (Blizzard Chain)"
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 14 (Snowman Rosette)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_arendelle_gorge",
+            "x": 208,
+            "y": 62,
+            "shape": "diamond"
+          }
+        ]
       }
     ],
     "visibility_rules": [

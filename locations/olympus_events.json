@@ -374,6 +374,74 @@
             "shape": "diamond"
           }
         ]
+      },
+      {
+        "name": "Olympus - Flantastic Seven (Cherry Flan)",
+        "sections": [
+          {
+            "name": "Flantastic - Olympus - Cherry Flan - High Score",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Olympus - Cherry Flan - High Score"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 655,
+            "y": 641,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Olympus - Photo Mission 5 (Cosmic Ring)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 5 (Cosmic Ring)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_thebes",
+            "x": 105,
+            "y": 199,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Olympus - Photo Mission 9 (Fire Chain)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 9 (Fire Chain)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 9 (Fire Chain)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_realm_of_the_gods",
+            "x": 183,
+            "y": 302,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Olympus - Photo Mission 10 (Thunder Chain)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 10 (Thunder Chain)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 10 (Thunder Chain)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_olympus_realm_of_the_gods",
+            "x": 458,
+            "y": 74,
+            "shape": "diamond"
+          }
+        ]
       }
     ],
     "visibility_rules": [

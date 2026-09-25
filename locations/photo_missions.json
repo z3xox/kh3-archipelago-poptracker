@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Photo Missions",
+    "access_rules": [
+      "active_photo_missions"
+    ],
+    "visibility_rules": [
+      "active_photo_missions"
+    ],
+    "children": [
+      {
+        "name": "Photo Missions - Rewards",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 2 (Firefighter Rosette)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 3 (Umbrella Rosette)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 4 (Mask Rosette)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 7 (Mage's Earring)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 8 (Moon Amulet)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 9 (Fire Chain)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 10 (Thunder Chain)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 11 (Draw Ring)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 17 (Star Charm)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 18 (Aero Armlet)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 20 (Dark Chain)",
+            "item_count": 1
+          },
+          {
+            "name": "Moogle Workshop - Photo Mission 21 (Petite Ribbon)",
+            "item_count": 1
+          }
+        ],
+        "map_locations": []
+      }
+    ]
+  }
+]

@@ -83,6 +83,40 @@
             "shape": "diamond"
           }
         ]
+      },
+      {
+        "name": "The Caribbean - Flantastic Seven (Watermelon Flan)",
+        "sections": [
+          {
+            "name": "Flantastic - The Caribbean - Watermelon Flan - High Score",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - The Caribbean - Watermelon Flan - High Score"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 659,
+            "y": 380,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "The Caribbean - Photo Mission 19 (Aqua Chaplet)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 19 (Aqua Chaplet)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_caribbean_port_royal",
+            "x": 519,
+            "y": 575,
+            "shape": "diamond"
+          }
+        ]
       }
     ],
     "visibility_rules": [

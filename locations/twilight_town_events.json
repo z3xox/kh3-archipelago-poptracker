@@ -86,6 +86,23 @@
             "shape": "diamond"
           }
         ]
+      },
+      {
+        "name": "Twilight Town - Photo Mission 11 (Draw Ring)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 11 (Draw Ring)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 11 (Draw Ring)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_twilight_town",
+            "x": 49,
+            "y": 277,
+            "shape": "diamond"
+          }
+        ]
       }
     ],
     "visibility_rules": [

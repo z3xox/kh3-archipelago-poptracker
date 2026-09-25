@@ -26,6 +26,23 @@
             ]
           }
         ]
+      },
+      {
+        "name": "100 Acre Wood - Photo Mission 16 (Slayer's Earring)",
+        "sections": [
+          {
+            "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 16 (Slayer's Earring)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_100AcreMap",
+            "x": 812,
+            "y": 272,
+            "shape": "diamond"
+          }
+        ]
       }
     ],
     "visibility_rules": [
