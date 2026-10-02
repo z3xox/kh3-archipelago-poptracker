@@ -1617,7 +1617,7 @@ end
 -- with extract_data.py's WORLD_TREASURE_TABLES (same two-letter world codes).
 -- Only codes with a confident, unambiguous world match are listed; codes for
 -- worlds with no dedicated tab (Dark World "dw", The Final World "ew",
--- Unreality, 100 Acre Wood) or whose meaning wasn't confirmed ("ex", "gm",
+-- Unreality, 100 Acre Wood) or whose meaning wasn't confirmed ("ex",
 -- "po", "sf", "sp", "ss", "wm", "yt", "di", "dp") are intentionally omitted --
 -- an unmapped code just leaves the current tab alone instead of guessing wrong.
 -- The "_DLC" suffixed codes are Re:Mind's revisits of earlier worlds' assets
@@ -1640,6 +1640,8 @@ KH3_WORLD_CODE_TO_TAB = {
     ["rg"]     = "Radiant Garden",
     ["rg_DLC"] = "Radiant Garden",
     ["GardenOfAssemblage"] = "Overworld",
+    -- Gummi ship levels gm_01..gm_03 (apworld: "Gummiship"); gm_50 is a cutscene, left out.
+    ["gm"]     = "Gummi Space",
 }
 
 -- Second-level auto-follow: within a world's top-level tab, some worlds split
@@ -1670,6 +1672,11 @@ KH3_ROOM_ID_TO_SUBTAB = {
     ["mi_03"] = "Power Plant",
     ["mi_04"] = "Door Vault",
     ["ca_01"] = "Port Royal",
+    -- Space levels follow the apworld's gm_0<area> ids: area 1/2/3 = Starlight Way / Misty Stream / The Eclipse
+    -- (same numbering as its gm_0X_Battle_NN battle ids). Not yet confirmed in game.
+    ["gm_01"] = "Starlight Way",
+    ["gm_02"] = "Misty Stream",
+    ["gm_03"] = "The Eclipse",
 }
 
 -- Finest-grained auto-follow: "kh3_minimap_id" (confirmed by the apworld dev,
