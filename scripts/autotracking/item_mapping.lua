@@ -76,6 +76,7 @@ ITEM_MAPPING_BY_NAME = {
     ["Unlock: Magic"] = { code = "unlock_magic", type = "toggle" },
     ["Unlock: Attraction Flow"] = { code = "unlock_attraction_flow", type = "toggle" },
     ["Unlock: Airstep"] = { code = "unlock_airstep", type = "toggle" },
+    ["Unlock: Links"] = { code = "unlock_links", type = "toggle" },
     ["Unlock: Style Change"] = { code = "unlock_style_change", type = "toggle" },
     -- Classic Kingdom minigame unlocks. Each "<game> - High Score" check is
     -- gated on its own game, and "Complete All Games" on all 23 (Rules.py).

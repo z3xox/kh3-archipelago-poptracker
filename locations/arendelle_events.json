@@ -197,35 +197,59 @@
         "sections": [
           {
             "name": "Arendelle - Frozen Slider - A Rank",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - All Treasures",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - A Rank First Item Reward",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank First Item Reward"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank First Item Reward",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - A Rank Repeat Item Reward",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank Repeat Item Reward"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank Repeat Item Reward",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - B Rank Item Reward",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - B Rank Item Reward"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - B Rank Item Reward",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - C Rank Item Reward",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - C Rank Item Reward"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - C Rank Item Reward",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - D Rank Item Reward",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - D Rank Item Reward"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - D Rank Item Reward",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - All Treasures Item Reward",
-            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures Item Reward"
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures Item Reward",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -242,7 +266,10 @@
         "sections": [
           {
             "name": "Flantastic - Arendelle - Grape Flan - High Score",
-            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Arendelle - Grape Flan - High Score"
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Arendelle - Grape Flan - High Score",
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [

@@ -1685,8 +1685,8 @@
                 "name": "Victory",
                 "item_count": 1,
                 "access_rules": [
-                  "proof_of_fantasy,proof_of_promises,proof_of_times_past,unlock_style_change,goal_is_proofs",
-                  "heart_piece:7,unlock_style_change,goal_is_heart_pieces"
+                  "proof_of_fantasy,proof_of_promises,proof_of_times_past,goal_is_proofs",
+                  "heart_piece:7,goal_is_heart_pieces"
                 ]
               }
             ],

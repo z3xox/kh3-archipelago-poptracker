@@ -521,11 +521,17 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 062",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 063",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           }
         ],
         "map_locations": [
@@ -569,11 +575,17 @@
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 060",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 061",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           }
         ],
         "map_locations": [
@@ -928,10 +940,6 @@
             "y": 535,
             "shape": "trapezoid"
           }
-        ],
-        "access_rules": [
-          "unlock_wall_run",
-          "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
         ]
       },
       {
@@ -1107,11 +1115,17 @@
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 032",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 033",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -1141,23 +1155,38 @@
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 019",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 025",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 027",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 030",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 031",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -1394,7 +1423,10 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 016",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -1483,7 +1515,10 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 003",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -1802,7 +1837,10 @@
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 090",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -2046,31 +2084,52 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 048",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 049",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 050",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 051",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 052",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 053",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 054",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 065",
@@ -2119,7 +2178,10 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 013",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -2462,8 +2524,7 @@
           }
         ],
         "access_rules": [
-          "unlock_wall_run",
-          "ability_doubleflight"
+          "$has_any|ability_doubleflight|ability_high_jump|unlock_wall_run"
         ]
       },
       {
@@ -2481,10 +2542,6 @@
             "y": 199,
             "shape": "trapezoid"
           }
-        ],
-        "access_rules": [
-          "unlock_wall_run",
-          "ability_high_jump,ability_doubleflight"
         ]
       },
       {
@@ -2583,11 +2640,6 @@
             "y": 256,
             "shape": "trapezoid"
           }
-        ],
-        "access_rules": [
-          "unlock_wall_run",
-          "ability_doubleflight",
-          "ability_superjump,ability_wall_kick,ability_doubleflight"
         ]
       },
       {
@@ -2699,11 +2751,6 @@
             "y": 124,
             "shape": "trapezoid"
           }
-        ],
-        "access_rules": [
-          "unlock_wall_run",
-          "$has_any|ability_doubleflight|ability_high_jump",
-          "ability_doubleflight"
         ]
       }
     ]

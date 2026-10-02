@@ -252,6 +252,12 @@
     "img": "images/items/keyblades/Kingdom Key.png"
   },
   {
+    "name": "Unlock: Links",
+    "type": "toggle",
+    "codes": "unlock_links",
+    "img": "images/items/Summon.png"
+  },
+  {
     "name": "Unlock: Style Change",
     "type": "toggle",
     "codes": "unlock_style_change",

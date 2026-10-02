@@ -132,27 +132,45 @@
         "sections": [
           {
             "name": "Toy Box - Verum Rex - A Rank",
-            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank"
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - A Rank First Item Reward",
-            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank First Item Reward"
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank First Item Reward",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - A Rank Repeat Item Reward",
-            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank Repeat Item Reward"
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - A Rank Repeat Item Reward",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - B Rank Item Reward",
-            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - B Rank Item Reward"
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - B Rank Item Reward",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - C Rank Item Reward",
-            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - C Rank Item Reward"
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - C Rank Item Reward",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - D Rank Item Reward",
-            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - D Rank Item Reward"
+            "ref": "Minigames - Toy Box (Verum Rex)/Minigames - Toy Box (Verum Rex) - Checks/Toy Box - Verum Rex - D Rank Item Reward",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -196,7 +214,10 @@
         "sections": [
           {
             "name": "Flantastic - Toy Box - Strawberry Flan - High Score",
-            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Toy Box - Strawberry Flan - High Score"
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Toy Box - Strawberry Flan - High Score",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [

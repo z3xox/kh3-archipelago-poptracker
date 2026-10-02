@@ -41,7 +41,10 @@
           },
           {
             "name": "Ingredients - Cod",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients - Pumpkin",
@@ -93,7 +96,10 @@
           },
           {
             "name": "Ingredients - Black Truffle",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|ability_doubleflight|ability_high_jump|unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients - King Oyster Mushroom",
@@ -157,7 +163,10 @@
           },
           {
             "name": "Ingredients - Raspberry",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients - Pear",
@@ -165,7 +174,10 @@
           },
           {
             "name": "Ingredients - Blackberry",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients - Apple",

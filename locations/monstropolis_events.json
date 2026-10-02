@@ -147,8 +147,8 @@
             "name": "Monstropolis - The Power Plant: Tank Yard Unversed",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick",
+              "unlock_wall_run"
             ]
           }
         ],
@@ -168,16 +168,16 @@
             "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
-              "ability_superjump,ability_wall_kick,ability_air_slide,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_links,unlock_magic,$has_any|ability_block|ability_dodge_roll,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
+              "unlock_links,unlock_magic,unlock_wall_run,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Monstropolis - EVENT_KEYBLADE_005 - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
-              "ability_superjump,ability_wall_kick,ability_air_slide,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_links,unlock_magic,$has_any|ability_block|ability_dodge_roll,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
+              "unlock_links,unlock_magic,unlock_wall_run,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -195,7 +195,11 @@
         "sections": [
           {
             "name": "Flantastic - Monstropolis - Banana Flan - High Score",
-            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Monstropolis - Banana Flan - High Score"
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Monstropolis - Banana Flan - High Score",
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_links,unlock_magic,$has_any|ability_block|ability_dodge_roll,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
+              "unlock_links,unlock_magic,unlock_wall_run,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           }
         ],
         "map_locations": [

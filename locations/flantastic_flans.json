@@ -9,35 +9,36 @@
             "name": "Flantastic - Olympus - Cherry Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "kb_heros_origin"
+              "kb_heros_origin,unlock_wall_run"
             ]
           },
           {
             "name": "Flantastic - Toy Box - Strawberry Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "kb_favorite_deputy"
+              "kb_favorite_deputy,unlock_wall_run"
             ]
           },
           {
             "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "kb_ever_after"
+              "kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Flantastic - Monstropolis - Banana Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "kb_happy_gear"
+              "kb_happy_gear,ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_links,unlock_magic,$has_any|ability_block|ability_dodge_roll,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
+              "kb_happy_gear,unlock_links,unlock_magic,unlock_wall_run,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Flantastic - Arendelle - Grape Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "kb_crystal_snow"
+              "kb_crystal_snow,ability_air_slide,ability_pole_spin,unlock_wall_run"
             ]
           },
           {
@@ -51,7 +52,8 @@
             "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "kb_nano_gear"
+              "kb_nano_gear,ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "kb_nano_gear,ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           }
         ],

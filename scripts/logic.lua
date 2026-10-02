@@ -433,7 +433,7 @@ COLISEUM_WORLD_COMPLETION = {
     ["Twilight Town"]     = {keyblade="kb_shooting_star",   routes={}},
     ["Toy Box"]           = {keyblade="kb_favorite_deputy", routes={{{codes={"unlock_wall_run"},count=1}}}},
     ["Kingdom of Corona"] = {keyblade="kb_ever_after",      routes={{{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2}}}},
-    ["Monstropolis"]      = {keyblade="kb_happy_gear",      routes={{{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2},{codes={"unlock_magic"},count=1},{codes={"pride_heartbinder","ocean_heartbinder","dream_heartbinder","pixel_heartbinder","ohana_heartbinder"},count=1}}}},
+    ["Monstropolis"]      = {keyblade="kb_happy_gear",      routes={{{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2},{codes={"unlock_magic"},count=1},{codes={"pride_heartbinder","ocean_heartbinder","dream_heartbinder","pixel_heartbinder","ohana_heartbinder"},count=1},{codes={"unlock_links"},count=1}}}},
     ["Arendelle"]         = {keyblade="kb_crystal_snow",    routes={}},
     ["The Caribbean"]     = {keyblade="kb_wheel_of_fate",   routes={}},
     ["San Fransokyo"]     = {keyblade="kb_nano_gear",       routes={{{codes={"ability_pole_spin"},count=1},{codes={"thunder","fire"},count=1},{codes={"water","blizzard"},count=1},{codes={"thunder","aero"},count=1},{codes={"unlock_magic"},count=1}}}},

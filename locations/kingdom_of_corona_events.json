@@ -135,27 +135,45 @@
         "sections": [
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank",
-            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank"
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank",
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank First Item Reward",
-            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank First Item Reward"
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank First Item Reward",
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward",
-            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward"
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward",
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - B Rank Item Reward",
-            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - B Rank Item Reward"
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - B Rank Item Reward",
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - C Rank Item Reward",
-            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - C Rank Item Reward"
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - C Rank Item Reward",
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - D Rank Item Reward",
-            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - D Rank Item Reward"
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - D Rank Item Reward",
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           }
         ],
         "map_locations": [
@@ -172,7 +190,10 @@
         "sections": [
           {
             "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score",
-            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Kingdom of Corona - Orange Flan - High Score"
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Kingdom of Corona - Orange Flan - High Score",
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           }
         ],
         "map_locations": [

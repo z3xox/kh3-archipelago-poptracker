@@ -8,7 +8,8 @@
         "unlock_magic",
         "unlock_attraction_flow",
         "unlock_wall_run",
-        "unlock_airstep"
+        "unlock_airstep",
+        "unlock_links"
       ],
       [
         "style_kingdom_key",

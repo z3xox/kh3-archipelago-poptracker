@@ -10,27 +10,45 @@
         "sections": [
           {
             "name": "Toy Box - Verum Rex - A Rank",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - A Rank First Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - A Rank Repeat Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - B Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - C Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "Toy Box - Verum Rex - D Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": []
@@ -48,27 +66,45 @@
         "sections": [
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank First Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank Repeat Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - B Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - C Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           },
           {
             "name": "Kingdom of Corona - Festival Dance - D Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
           }
         ],
         "map_locations": []
@@ -86,35 +122,59 @@
         "sections": [
           {
             "name": "Arendelle - Frozen Slider - A Rank",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - All Treasures",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - A Rank First Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - A Rank Repeat Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - B Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - C Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - D Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           },
           {
             "name": "Arendelle - Frozen Slider - All Treasures Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": []
@@ -132,27 +192,51 @@
         "sections": [
           {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank First Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank Repeat Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - B Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - C Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - D Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           }
         ],
         "map_locations": []
@@ -170,27 +254,51 @@
         "sections": [
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank First Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank Repeat Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - B Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - C Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - D Rank Item Reward",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
           }
         ],
         "map_locations": []

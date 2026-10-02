@@ -1267,6 +1267,9 @@ function autoFill(slot_data)
     -- Airstep=true means Air Slide works via controller (always available)
     -- Activate unlock_airstep; ability_air_slide tracks the actual item
     setToggle("unlock_airstep",         startsWith("start_with_airstep"))
+    -- Links only gates the Heartbinder routes; the Heartbinders themselves
+    -- are still separate items.
+    setToggle("unlock_links",           startsWith("start_with_links"))
 
     -- Default Base Abilities (RANDOMIZER_EXCEPTION_NAMES key "Default Base
     -- Abilities" under kh3_randomizer.exceptions): when on, the randomizer
@@ -1274,15 +1277,18 @@ function autoFill(slot_data)
     -- abilities instead of adding them to the AP item pool, so no
     -- "Ability: Block"/"Ability: Dodge Roll"/"Ability: Pole Spin" item is
     -- ever sent for this slot. Without this, logic that requires them (e.g.
-    -- keyblade unlock routes) would stay permanently gated. Only these three
-    -- are handled here because they're the only ones from the option's
-    -- default-base-ability set this pack tracks as items.
+    -- keyblade unlock routes) would stay permanently gated. Only the entries of
+    -- the apworld's DEFAULT_BASE_ABILITY_CHRINIT_FIELDS that this pack tracks as
+    -- items are handled here (the rest -- Scan, Aerial Dodge, Superslide, ... --
+    -- have no item and no logic).
     local exceptions = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["exceptions"]) or {}
     local default_base_abilities = exceptions["Default Base Abilities"] == true
     if default_base_abilities then
         setToggle("ability_block", true)
         setToggle("ability_dodge_roll", true)
         setToggle("ability_pole_spin", true)
+        setToggle("ability_air_slide", true)
+        setToggle("ability_wall_kick", true)
     end
 
     -- Style Change replaced the old start_with_style_change toggle with a 3-way

@@ -876,19 +876,31 @@
           },
           {
             "name": "The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
-            "ref": "The Caribbean - Chests/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)"
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
+            "access_rules": [
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run"
+            ]
           },
           {
             "name": "The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -928,15 +940,25 @@
         "sections": [
           {
             "name": "The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)",
-            "ref": "The Caribbean - Chests/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)"
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
-            "ref": "The Caribbean - Chests/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)"
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick",
+              "unlock_wall_run"
+            ]
           },
           {
             "name": "The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
-            "ref": "The Caribbean - Chests/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)"
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -956,7 +978,11 @@
           },
           {
             "name": "The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)",
@@ -980,43 +1006,83 @@
           },
           {
             "name": "The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           },
           {
             "name": "The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
-            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)"
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
           }
         ],
         "map_locations": [

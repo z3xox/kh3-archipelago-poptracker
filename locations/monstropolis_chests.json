@@ -284,8 +284,8 @@
             "name": "Monstropolis - Chest 21 (Small Chest, The Power Plant: Vault Passage)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder"
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder,unlock_links",
+              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,unlock_magic,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder,unlock_links"
             ]
           }
         ],
@@ -302,11 +302,7 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 22 (Small Chest, The Power Plant: Accessway)",
-            "item_count": 1,
-            "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [

@@ -10,21 +10,11 @@
         "sections": [
           {
             "name": "Twilight Town - EVENT_KEYBLADE_002 - RandomizedItem",
-            "item_count": 1,
-            "access_rules": [
-              "unlock_wall_run",
-              "ability_doubleflight",
-              "$has_any|ability_doubleflight|ability_high_jump"
-            ]
+            "item_count": 1
           },
           {
             "name": "Twilight Town - EVENT_CKGAME_001 - RandomizedItem",
-            "item_count": 1,
-            "access_rules": [
-              "unlock_wall_run",
-              "ability_doubleflight",
-              "$has_any|ability_doubleflight|ability_high_jump"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
