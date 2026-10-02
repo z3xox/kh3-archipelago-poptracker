@@ -1357,6 +1357,10 @@ function autoFill(slot_data)
         setStage(entry[1], poolHasChecks(entry[2]) and 1 or 0)
     end
 
+    -- Gummi space is a base-game toggle, not a pool: top-level include_space
+    -- (0 = off, 1 = on; the apworld default is off).
+    setStage("space_setting", (slot_data["include_space"] or 0) == 1 and 1 or 0)
+
     -- Olympus Coliseum is a third-party pool: it is NOT in
     -- RANDOMIZER_POOL_NAMES, so it never appears under kh3_randomizer.pools.
     -- It ships as a top-level slot_data key instead.
