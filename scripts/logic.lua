@@ -14,10 +14,10 @@ function update_goal_layout()
     end
 end
 
--- Per-keyblade Style Change unlocks only exist when the seed uses
--- style_change: keybladestylesanity (stage 1). In the other two modes a single
--- shared unlock covers every keyblade, so showing 17 items that can never drop
--- would be misleading -- swap the Gimmick Unlocks grid instead of listing them.
+-- Per-keyblade Style Change unlocks only exist when the seed has stylesanity
+-- on (stage 1). With it off, Sora starts with the shared Style Change unlock,
+-- so showing 17 items that can never drop would be misleading -- swap the
+-- Gimmick Unlocks grid instead of listing them.
 STYLE_CHANGE_KEYBLADE_SANITY = 1
 
 -- Keyblade Levels (apworld option): 0 = start at max (no level items at all),

@@ -529,19 +529,13 @@
         "img_mods": "saturation|0",
         "codes": "style_change_setting",
         "inherit_codes": false,
-        "name": "Style Change - Shared"
+        "name": "Stylesanity Off (Style Change from the start)"
       },
       {
         "img": "images/items/keyblades/Generic.png",
         "codes": "style_change_setting, active_style_sanity",
         "inherit_codes": false,
-        "name": "Style Change - KeybladeStyleSanity"
-      },
-      {
-        "img": "images/items/keyblades/Generic.png",
-        "codes": "style_change_setting, style_change_always_on",
-        "inherit_codes": false,
-        "name": "Style Change - Always On"
+        "name": "Stylesanity On (one unlock per keyblade)"
       }
     ]
   },

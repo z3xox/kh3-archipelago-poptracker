@@ -54,7 +54,7 @@ Tracker:AddLayouts("layouts/settings.json")
 update_goal_layout()
 ScriptHost:AddWatchForCode("goal_layout_watch", "goal", update_goal_layout)
 
--- Keyblade Style unlocks appear inside Gimmick Unlocks only in KeybladeStyleSanity,
+-- Keyblade Style unlocks appear inside Gimmick Unlocks only with stylesanity on,
 -- and the shared Keyblade Level counter only in the Shuffled keyblade levels mode
 update_gimmick_layout()
 ScriptHost:AddWatchForCode("gimmick_layout_watch", "style_change_setting", update_gimmick_layout)

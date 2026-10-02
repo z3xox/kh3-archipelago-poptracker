@@ -1291,12 +1291,14 @@ function autoFill(slot_data)
         setToggle("ability_wall_kick", true)
     end
 
-    -- Style Change replaced the old start_with_style_change toggle with a 3-way
-    -- option: shared (one item for every keyblade), keybladestylesanity (one
-    -- item per keyblade), always_on (granted from the start).
-    local STYLE_CHANGE_ALWAYS_ON = 2
-    setToggle("unlock_style_change", (slot_data["style_change"] or 0) == STYLE_CHANGE_ALWAYS_ON)
-    setStage("style_change_setting", slot_data["style_change"] or 0)
+    -- Stylesanity (0 = off, 1 = on; apworld default on). On: every keyblade
+    -- needs its own "Unlock Style: ..." item. Off: Sora starts with
+    -- Unlock: Style Change owned, so it is ticked from the start.
+    local stylesanity = slot_data["stylesanity"]
+    if stylesanity == nil then stylesanity = 1 end
+    stylesanity = (stylesanity ~= false and stylesanity ~= 0) and 1 or 0
+    setToggle("unlock_style_change", stylesanity == 0)
+    setStage("style_change_setting", stylesanity)
 
     -- Keyblade Levels (0 = start at max, 1 = shuffled, 2 = keyblade upgrade sanity;
     -- the apworld default is shuffled). Drives the level counters and the

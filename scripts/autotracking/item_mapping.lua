@@ -149,7 +149,7 @@ ITEM_MAPPING_BY_NAME = {
     ["Party Member: Roxas"] = { code = "party_roxas", type = "toggle" },
     ["Party Member: Xion"] = { code = "party_xion", type = "toggle" },
     -- Per-keyblade Style Change unlocks, added when the seed uses
-    -- style_change: keybladestylesanity. Classified progression by AP,
+    -- stylesanity: on. Classified progression by AP,
     -- though no access rule references them.
     ["Unlock Style: Kingdom Key"] = { code = "style_kingdom_key", type = "toggle" },
     ["Unlock Style: Shooting Star"] = { code = "style_shooting_star", type = "toggle" },
