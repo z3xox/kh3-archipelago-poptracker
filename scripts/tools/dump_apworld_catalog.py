@@ -157,6 +157,10 @@ def dump(apworld: Path) -> dict:
         try:
             data_module = import_module(f"{package_name}.Data")
             mom_module = import_module(f"{package_name}.MelodyOfMemory")
+            try:
+                space_module = import_module(f"{package_name}.Space")
+            except ModuleNotFoundError:
+                space_module = None  # apworld predates Gummi space
         finally:
             sys.path.remove(str(workdir))
 
@@ -195,6 +199,35 @@ def dump(apworld: Path) -> dict:
             for placement in _music_chest_placements(workdir, package_name)
         ]
 
+        # Gummi space checks are a fourth id space: SPACE_LOCATION_ID_BASE + a
+        # stable per-activity offset, independent of the catalog order.
+        space_locations = [
+            {
+                "ap_id": space_module.SPACE_LOCATION_IDS[row["name"]],
+                "name": row["name"],
+                "type": "space",
+                "world": "Space",
+                "source_table": row["source_table"],
+                "source_id": row["source_id"],
+                "space_zone": row.get("space_zone"),
+                "mission_id": row.get("mission_id"),
+                "battle_id": row.get("battle_id"),
+                "boss_mission": row.get("boss_mission"),
+                "sphere_id": row.get("sphere_id"),
+                "threshold": row.get("threshold"),
+            }
+            for row in (space_module.SPACE_LOCATIONS if space_module else ())
+        ]
+        # Gummi items: blueprints carry the zone their ship unlocks.
+        space_items = [
+            {
+                "name": name,
+                "category": row["category"],
+                "zone": space_module.SHIP_ZONES.get(name),
+            }
+            for name, row in (space_module.SPACE_ITEMS.items() if space_module else ())
+        ]
+
         return {
             "meta": {
                 **data.get("meta", {}),
@@ -202,6 +235,7 @@ def dump(apworld: Path) -> dict:
                 "location_count": len(locations),
                 "mom_location_count": len(mom_locations),
                 "music_chest_location_count": len(music_chest_locations),
+                "space_location_count": len(space_locations),
                 "base_location_id": BASE_LOCATION_ID,
                 "mom_location_id_base": mom_module.MOM_LOCATION_ID_BASE,
             },
@@ -209,6 +243,8 @@ def dump(apworld: Path) -> dict:
             "locations": locations,
             "mom_locations": mom_locations,
             "music_chest_locations": music_chest_locations,
+            "space_locations": space_locations,
+            "space_items": space_items,
         }
     finally:
         shutil.rmtree(workdir, ignore_errors=True)

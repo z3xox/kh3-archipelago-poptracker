@@ -561,3 +561,46 @@ function has_all_classic_kingdom_games()
     end
     return 0
 end
+
+-- ============================================================
+-- Gummi space (include_space)
+-- ============================================================
+
+-- Space.LANDING_WORLDS: the nine worlds a Gummi ship can land on. Each is reachable
+-- under the same gate as its Overworld pin (portal keyblade plus any combat gate).
+local LANDING_WORLD_ACCESS = {
+    ["Olympus"]             = function() return hasCode("kb_heros_origin") end,
+    ["Twilight Town"]       = function()
+        return hasCode("kb_shooting_star") and count_tier_one_keyblades() >= TIER_ONE_KEYBLADE_REQUIRED
+            and countCodes(DEFENSIVE_CODES) >= 1
+    end,
+    ["Toy Box"]             = function() return hasCode("kb_favorite_deputy") end,
+    ["Kingdom of Corona"]   = function() return hasCode("kb_ever_after") end,
+    ["Arendelle"]           = function() return hasCode("kb_crystal_snow") end,
+    ["Monstropolis"]        = function() return hasCode("kb_happy_gear") end,
+    ["San Fransokyo"]       = function() return hasCode("kb_nano_gear") end,
+    ["The Caribbean"]       = function() return hasCode("kb_wheel_of_fate") and hasCaribbeanSafetyTool() end,
+    ["Keyblade Graveyard"]  = function()
+        return hasCode("kb_starlight") and count_tier_one_keyblades() >= TIER_ONE_KEYBLADE_REQUIRED
+    end,
+}
+
+-- Access rule helper: $space_all_worlds -> every landing world is reachable.
+function space_all_worlds()
+    for _, reachable in pairs(LANDING_WORLD_ACCESS) do
+        if not reachable() then return 0 end
+    end
+    return 1
+end
+
+-- Access rule helper: $space_special_weapons|N
+-- The native shop sells two weapons that never reach the pool: Trinity Fire unlocks on
+-- Twilight Town arrival and Decoy Duckies once Monstropolis is completed. They count
+-- next to the 11 randomized special weapons.
+function space_special_weapons(needed)
+    local count = Tracker:ProviderCountForCode("space_special_weapon")
+    if LANDING_WORLD_ACCESS["Twilight Town"]() then count = count + 1 end
+    if coliseumWorldComplete("Monstropolis") then count = count + 1 end
+    if count >= (tonumber(needed) or 0) then return 1 end
+    return 0
+end

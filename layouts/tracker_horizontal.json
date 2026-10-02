@@ -131,6 +131,27 @@
                 ]
               ]
             }
+          },
+          {
+            "type": "group",
+            "dock": "left",
+            "header": "Gummi Space",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_size": "36,36",
+              "rows": [
+                [
+                  "space_starlight_way",
+                  "space_misty_stream",
+                  "space_eclipse"
+                ],
+                [
+                  "gummi_endymion",
+                  "space_special_weapon"
+                ]
+              ]
+            }
           }
         ]
       },

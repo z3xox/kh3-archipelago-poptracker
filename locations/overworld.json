@@ -6599,6 +6599,451 @@
                 "y": 545
               }
             ]
+          },
+          {
+            "name": "Gummi Space - Starlight Way - All Checks",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 01",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - A (Countdown 1)/Space - Starlight Way - Battle 01"
+              },
+              {
+                "name": "Space - Starlight Way - Battle 02",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - B (Countdown 2)/Space - Starlight Way - Battle 02"
+              },
+              {
+                "name": "Space - Starlight Way - Battle 03",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - C (Countdown 3)/Space - Starlight Way - Battle 03"
+              },
+              {
+                "name": "Space - Starlight Way - Battle 04",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - D (Countdown 4)/Space - Starlight Way - Battle 04"
+              },
+              {
+                "name": "Space - Starlight Way - Battle 05",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - E (Speed Skirmish 1)/Space - Starlight Way - Battle 05"
+              },
+              {
+                "name": "Space - Starlight Way - Battle 07",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - F (Speed Skirmish 2)/Space - Starlight Way - Battle 07"
+              },
+              {
+                "name": "Space - Starlight Way - Battle 08",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - G (Speed Skirmish 3)/Space - Starlight Way - Battle 08"
+              },
+              {
+                "name": "Space - Astrowarrior - Reward 1",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - H (Astrowarrior)/Space - Astrowarrior - Reward 1"
+              },
+              {
+                "name": "Space - Astrowarrior - Reward 2",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - H (Astrowarrior)/Space - Astrowarrior - Reward 2"
+              },
+              {
+                "name": "Space - Astrowarrior - Reward 3",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - H (Astrowarrior)/Space - Astrowarrior - Reward 3"
+              },
+              {
+                "name": "Space - Flower Guardian - Reward 1",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - I (Flower Guardian)/Space - Flower Guardian - Reward 1"
+              },
+              {
+                "name": "Space - Flower Guardian - Reward 2",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - I (Flower Guardian)/Space - Flower Guardian - Reward 2"
+              },
+              {
+                "name": "Space - Flower Guardian - Reward 3",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - I (Flower Guardian)/Space - Flower Guardian - Reward 3"
+              },
+              {
+                "name": "Space - Comet Crawler - Reward 1",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - J (Comet Crawlers)/Space - Comet Crawler - Reward 1"
+              },
+              {
+                "name": "Space - Comet Crawler - Reward 2",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - J (Comet Crawlers)/Space - Comet Crawler - Reward 2"
+              },
+              {
+                "name": "Space - Comet Crawler - Reward 3",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - J (Comet Crawlers)/Space - Comet Crawler - Reward 3"
+              },
+              {
+                "name": "Space - Starlight Way - Treasure Sphere 1",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Treasure Sphere α/Space - Starlight Way - Treasure Sphere 1"
+              },
+              {
+                "name": "Space - Starlight Way - Treasure Sphere 2",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Treasure Sphere β/Space - Starlight Way - Treasure Sphere 2"
+              },
+              {
+                "name": "Space - Starlight Way - Treasure Sphere 3",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Treasure Sphere γ/Space - Starlight Way - Treasure Sphere 3"
+              },
+              {
+                "name": "Space - Moogle Gazer",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Moogle Gazer/Space - Moogle Gazer"
+              },
+              {
+                "name": "Space - Cactuar Gazer",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Cactuar Gazer/Space - Cactuar Gazer"
+              },
+              {
+                "name": "Space - Bomb Gazer",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Bomb Gazer/Space - Bomb Gazer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 24,
+                "y": 94
+              }
+            ],
+            "visibility_rules": [
+              "active_space"
+            ],
+            "access_rules": [
+              "active_space,space_starlight_way:1"
+            ]
+          },
+          {
+            "name": "Gummi Space - Misty Stream - All Checks",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 01",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - A (Countdown 5)/Space - Misty Stream - Battle 01"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 02",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - B (Countdown 6)/Space - Misty Stream - Battle 02"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 03",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - C (Countdown 7)/Space - Misty Stream - Battle 03"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 04",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - D (Countdown 8)/Space - Misty Stream - Battle 04"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 05",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - E (Countdown 9)/Space - Misty Stream - Battle 05"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 06",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - F (Countdown 10)/Space - Misty Stream - Battle 06"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 07",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - G (Speed Skirmish 4)/Space - Misty Stream - Battle 07"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 08",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - H (Speed Skirmish 5)/Space - Misty Stream - Battle 08"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 09",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - I (Speed Skirmish 6)/Space - Misty Stream - Battle 09"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 10",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - J (Speed Skirmish 7)/Space - Misty Stream - Battle 10"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 11",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - K (Speed Skirmish 8)/Space - Misty Stream - Battle 11"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 12",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - L (Speed Skirmish 9)/Space - Misty Stream - Battle 12"
+              },
+              {
+                "name": "Space - Misty Stream - Battle 13",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - M (Speed Skirmish 10)/Space - Misty Stream - Battle 13"
+              },
+              {
+                "name": "Space - Dreadshark - Reward 1",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - N (Dreadshark)/Space - Dreadshark - Reward 1"
+              },
+              {
+                "name": "Space - Dreadshark - Reward 2",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - N (Dreadshark)/Space - Dreadshark - Reward 2"
+              },
+              {
+                "name": "Space - Dreadshark - Reward 3",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - N (Dreadshark)/Space - Dreadshark - Reward 3"
+              },
+              {
+                "name": "Space - Glacial Fortress - Reward 1",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - O (Glacial Fortress)/Space - Glacial Fortress - Reward 1"
+              },
+              {
+                "name": "Space - Glacial Fortress - Reward 2",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - O (Glacial Fortress)/Space - Glacial Fortress - Reward 2"
+              },
+              {
+                "name": "Space - Glacial Fortress - Reward 3",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - O (Glacial Fortress)/Space - Glacial Fortress - Reward 3"
+              },
+              {
+                "name": "Space - Space Worm - Reward 1",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - P (Space Worm)/Space - Space Worm - Reward 1"
+              },
+              {
+                "name": "Space - Space Worm - Reward 2",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - P (Space Worm)/Space - Space Worm - Reward 2"
+              },
+              {
+                "name": "Space - Space Worm - Reward 3",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - P (Space Worm)/Space - Space Worm - Reward 3"
+              },
+              {
+                "name": "Space - Schwarzgeist - Reward 1",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Q (Schwarzgeist)/Space - Schwarzgeist - Reward 1"
+              },
+              {
+                "name": "Space - Schwarzgeist - Reward 2",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Q (Schwarzgeist)/Space - Schwarzgeist - Reward 2"
+              },
+              {
+                "name": "Space - Schwarzgeist - Reward 3",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Q (Schwarzgeist)/Space - Schwarzgeist - Reward 3"
+              },
+              {
+                "name": "Space - Misty Stream - Treasure Sphere 1",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Treasure Sphere δ/Space - Misty Stream - Treasure Sphere 1"
+              },
+              {
+                "name": "Space - Misty Stream - Treasure Sphere 2",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Treasure Sphere ε/Space - Misty Stream - Treasure Sphere 2"
+              },
+              {
+                "name": "Space - Misty Stream - Treasure Sphere 3",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Treasure Sphere ζ/Space - Misty Stream - Treasure Sphere 3"
+              },
+              {
+                "name": "Space - Imp Gazer",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Imp Gazer/Space - Imp Gazer"
+              },
+              {
+                "name": "Space - Tonberry Gazer",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Tonberry Gazer/Space - Tonberry Gazer"
+              },
+              {
+                "name": "Space - Endymion Gazer",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Endymion Gazer/Space - Endymion Gazer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 56,
+                "y": 102
+              }
+            ],
+            "visibility_rules": [
+              "active_space"
+            ],
+            "access_rules": [
+              "active_space,space_misty_stream:1"
+            ]
+          },
+          {
+            "name": "Gummi Space - The Eclipse - All Checks",
+            "sections": [
+              {
+                "name": "Space - Colossus Pyramid - Reward 1",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - A (Colossus Pyramid)/Space - Colossus Pyramid - Reward 1"
+              },
+              {
+                "name": "Space - Colossus Pyramid - Reward 2",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - A (Colossus Pyramid)/Space - Colossus Pyramid - Reward 2"
+              },
+              {
+                "name": "Space - Colossus Pyramid - Reward 3",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - A (Colossus Pyramid)/Space - Colossus Pyramid - Reward 3"
+              },
+              {
+                "name": "Space - The Eclipse - Battle 02",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - B (Countdown 11)/Space - The Eclipse - Battle 02"
+              },
+              {
+                "name": "Space - The Eclipse - Battle 03",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - C (Speed Skirmish 11)/Space - The Eclipse - Battle 03"
+              },
+              {
+                "name": "Space - Supreme Warrior - Reward 1",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - D (Supreme Warrior)/Space - Supreme Warrior - Reward 1"
+              },
+              {
+                "name": "Space - Supreme Warrior - Reward 2",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - D (Supreme Warrior)/Space - Supreme Warrior - Reward 2"
+              },
+              {
+                "name": "Space - Supreme Warrior - Reward 3",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - D (Supreme Warrior)/Space - Supreme Warrior - Reward 3"
+              },
+              {
+                "name": "Space - Scarlet Shark - Reward 1",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - E (Scarlet Shark)/Space - Scarlet Shark - Reward 1"
+              },
+              {
+                "name": "Space - Scarlet Shark - Reward 2",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - E (Scarlet Shark)/Space - Scarlet Shark - Reward 2"
+              },
+              {
+                "name": "Space - Scarlet Shark - Reward 3",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - E (Scarlet Shark)/Space - Scarlet Shark - Reward 3"
+              },
+              {
+                "name": "Space - Omega Machina - Reward 1",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - F (Omega Machina)/Space - Omega Machina - Reward 1"
+              },
+              {
+                "name": "Space - Omega Machina - Reward 2",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - F (Omega Machina)/Space - Omega Machina - Reward 2"
+              },
+              {
+                "name": "Space - Omega Machina - Reward 3",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - F (Omega Machina)/Space - Omega Machina - Reward 3"
+              },
+              {
+                "name": "Space - The Eclipse - Treasure Sphere 1",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Treasure Sphere η/Space - The Eclipse - Treasure Sphere 1"
+              },
+              {
+                "name": "Space - The Eclipse - Treasure Sphere 2",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Treasure Sphere θ/Space - The Eclipse - Treasure Sphere 2"
+              },
+              {
+                "name": "Space - The Eclipse - Treasure Sphere 3",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Treasure Sphere ι/Space - The Eclipse - Treasure Sphere 3"
+              },
+              {
+                "name": "Space - Ultros Gazer",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Ultros Gazer/Space - Ultros Gazer"
+              },
+              {
+                "name": "Space - Bismarck Gazer",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Bismarck Gazer/Space - Bismarck Gazer"
+              },
+              {
+                "name": "Space - Omega Gazer",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Omega Gazer/Space - Omega Gazer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 88,
+                "y": 94
+              }
+            ],
+            "visibility_rules": [
+              "active_space"
+            ],
+            "access_rules": [
+              "active_space,space_eclipse:1"
+            ]
+          },
+          {
+            "name": "Gummi Space - Missions - All Checks",
+            "sections": [
+              {
+                "name": "Space - Blast Off",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Blast Off"
+              },
+              {
+                "name": "Space - Heartless Hunter",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Heartless Hunter"
+              },
+              {
+                "name": "Space - Heartless Harrier",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Heartless Harrier"
+              },
+              {
+                "name": "Space - Heartless Menacer",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Heartless Menacer"
+              },
+              {
+                "name": "Space - Heartless Destroyer",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Heartless Destroyer"
+              },
+              {
+                "name": "Space - Heartless Obliterator",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Heartless Obliterator"
+              },
+              {
+                "name": "Space - Special Weapon Dabbler",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Special Weapon Dabbler"
+              },
+              {
+                "name": "Space - Special Weapon Collector",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Special Weapon Collector"
+              },
+              {
+                "name": "Space - Special Weapon Hoarder",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Special Weapon Hoarder"
+              },
+              {
+                "name": "Space - Special Weapon Scholar",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Special Weapon Scholar"
+              },
+              {
+                "name": "Space - Special Weapon Authority",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Special Weapon Authority"
+              },
+              {
+                "name": "Space - Junior Treasure Hunter",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Junior Treasure Hunter"
+              },
+              {
+                "name": "Space - Authorized Treasure Hunter",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Authorized Treasure Hunter"
+              },
+              {
+                "name": "Space - Chief Treasure Hunter",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Chief Treasure Hunter"
+              },
+              {
+                "name": "Space - Veteran Treasure Hunter",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Veteran Treasure Hunter"
+              },
+              {
+                "name": "Space - Champion Treasure Hunter",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Champion Treasure Hunter"
+              },
+              {
+                "name": "Space - Pro Builder",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Pro Builder"
+              },
+              {
+                "name": "Space - Elite Builder",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Elite Builder"
+              },
+              {
+                "name": "Space - Master Builder",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Master Builder"
+              },
+              {
+                "name": "Space - Gummi Ship Completionist",
+                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Gummi Ship Completionist"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 104,
+                "y": 52,
+                "shape": "diamond"
+              }
+            ],
+            "visibility_rules": [
+              "active_space"
+            ],
+            "access_rules": [
+              "active_space,$has_any|space_starlight_way|space_misty_stream|space_eclipse"
+            ]
           }
         ]
       }

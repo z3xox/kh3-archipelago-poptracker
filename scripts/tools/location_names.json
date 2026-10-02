@@ -1133,6 +1133,203 @@
       "1263023995": "Moogle Workshop - Photo Mission 8 (Moon Amulet)",
       "1263023996": "Moogle Workshop - Photo Mission 17 (Star Charm)",
       "1263023997": "Moogle Workshop - Photo Mission 11 (Draw Ring)"
+    },
+    "Space - Starlight Way - A (Countdown 1)": {
+      "1263285509": "Space - Starlight Way - Battle 01"
+    },
+    "Space - Starlight Way - B (Countdown 2)": {
+      "1263285513": "Space - Starlight Way - Battle 02"
+    },
+    "Space - Starlight Way - C (Countdown 3)": {
+      "1263285517": "Space - Starlight Way - Battle 03"
+    },
+    "Space - Starlight Way - D (Countdown 4)": {
+      "1263285521": "Space - Starlight Way - Battle 04"
+    },
+    "Space - Starlight Way - E (Speed Skirmish 1)": {
+      "1263285525": "Space - Starlight Way - Battle 05"
+    },
+    "Space - Starlight Way - F (Speed Skirmish 2)": {
+      "1263285533": "Space - Starlight Way - Battle 07"
+    },
+    "Space - Starlight Way - G (Speed Skirmish 3)": {
+      "1263285537": "Space - Starlight Way - Battle 08"
+    },
+    "Space - Starlight Way - H (Astrowarrior)": {
+      "1263285545": "Space - Astrowarrior - Reward 1",
+      "1263285546": "Space - Astrowarrior - Reward 2",
+      "1263285547": "Space - Astrowarrior - Reward 3"
+    },
+    "Space - Starlight Way - I (Flower Guardian)": {
+      "1263285549": "Space - Flower Guardian - Reward 1",
+      "1263285550": "Space - Flower Guardian - Reward 2",
+      "1263285551": "Space - Flower Guardian - Reward 3"
+    },
+    "Space - Starlight Way - J (Comet Crawlers)": {
+      "1263285553": "Space - Comet Crawler - Reward 1",
+      "1263285554": "Space - Comet Crawler - Reward 2",
+      "1263285555": "Space - Comet Crawler - Reward 3"
+    },
+    "Space - Starlight Way - Treasure Sphere α": {
+      "1263287040": "Space - Starlight Way - Treasure Sphere 1"
+    },
+    "Space - Starlight Way - Treasure Sphere β": {
+      "1263287041": "Space - Starlight Way - Treasure Sphere 2"
+    },
+    "Space - Starlight Way - Treasure Sphere γ": {
+      "1263287042": "Space - Starlight Way - Treasure Sphere 3"
+    },
+    "Space - Starlight Way - Moogle Gazer": {
+      "1263285030": "Space - Moogle Gazer"
+    },
+    "Space - Starlight Way - Cactuar Gazer": {
+      "1263285028": "Space - Cactuar Gazer"
+    },
+    "Space - Starlight Way - Bomb Gazer": {
+      "1263285029": "Space - Bomb Gazer"
+    },
+    "Space - Misty Stream - A (Countdown 5)": {
+      "1263285765": "Space - Misty Stream - Battle 01"
+    },
+    "Space - Misty Stream - B (Countdown 6)": {
+      "1263285769": "Space - Misty Stream - Battle 02"
+    },
+    "Space - Misty Stream - C (Countdown 7)": {
+      "1263285773": "Space - Misty Stream - Battle 03"
+    },
+    "Space - Misty Stream - D (Countdown 8)": {
+      "1263285777": "Space - Misty Stream - Battle 04"
+    },
+    "Space - Misty Stream - E (Countdown 9)": {
+      "1263285781": "Space - Misty Stream - Battle 05"
+    },
+    "Space - Misty Stream - F (Countdown 10)": {
+      "1263285785": "Space - Misty Stream - Battle 06"
+    },
+    "Space - Misty Stream - G (Speed Skirmish 4)": {
+      "1263285789": "Space - Misty Stream - Battle 07"
+    },
+    "Space - Misty Stream - H (Speed Skirmish 5)": {
+      "1263285793": "Space - Misty Stream - Battle 08"
+    },
+    "Space - Misty Stream - I (Speed Skirmish 6)": {
+      "1263285797": "Space - Misty Stream - Battle 09"
+    },
+    "Space - Misty Stream - J (Speed Skirmish 7)": {
+      "1263285801": "Space - Misty Stream - Battle 10"
+    },
+    "Space - Misty Stream - K (Speed Skirmish 8)": {
+      "1263285805": "Space - Misty Stream - Battle 11"
+    },
+    "Space - Misty Stream - L (Speed Skirmish 9)": {
+      "1263285809": "Space - Misty Stream - Battle 12"
+    },
+    "Space - Misty Stream - M (Speed Skirmish 10)": {
+      "1263285813": "Space - Misty Stream - Battle 13"
+    },
+    "Space - Misty Stream - N (Dreadshark)": {
+      "1263285817": "Space - Dreadshark - Reward 1",
+      "1263285818": "Space - Dreadshark - Reward 2",
+      "1263285819": "Space - Dreadshark - Reward 3"
+    },
+    "Space - Misty Stream - O (Glacial Fortress)": {
+      "1263285821": "Space - Glacial Fortress - Reward 1",
+      "1263285822": "Space - Glacial Fortress - Reward 2",
+      "1263285823": "Space - Glacial Fortress - Reward 3"
+    },
+    "Space - Misty Stream - P (Space Worm)": {
+      "1263285825": "Space - Space Worm - Reward 1",
+      "1263285826": "Space - Space Worm - Reward 2",
+      "1263285827": "Space - Space Worm - Reward 3"
+    },
+    "Space - Misty Stream - Q (Schwarzgeist)": {
+      "1263285829": "Space - Schwarzgeist - Reward 1",
+      "1263285830": "Space - Schwarzgeist - Reward 2",
+      "1263285831": "Space - Schwarzgeist - Reward 3"
+    },
+    "Space - Misty Stream - Treasure Sphere δ": {
+      "1263287043": "Space - Misty Stream - Treasure Sphere 1"
+    },
+    "Space - Misty Stream - Treasure Sphere ε": {
+      "1263287044": "Space - Misty Stream - Treasure Sphere 2"
+    },
+    "Space - Misty Stream - Treasure Sphere ζ": {
+      "1263287045": "Space - Misty Stream - Treasure Sphere 3"
+    },
+    "Space - Misty Stream - Imp Gazer": {
+      "1263285033": "Space - Imp Gazer"
+    },
+    "Space - Misty Stream - Tonberry Gazer": {
+      "1263285032": "Space - Tonberry Gazer"
+    },
+    "Space - Misty Stream - Endymion Gazer": {
+      "1263285031": "Space - Endymion Gazer"
+    },
+    "Space - The Eclipse - A (Colossus Pyramid)": {
+      "1263286021": "Space - Colossus Pyramid - Reward 1",
+      "1263286022": "Space - Colossus Pyramid - Reward 2",
+      "1263286023": "Space - Colossus Pyramid - Reward 3"
+    },
+    "Space - The Eclipse - B (Countdown 11)": {
+      "1263286025": "Space - The Eclipse - Battle 02"
+    },
+    "Space - The Eclipse - C (Speed Skirmish 11)": {
+      "1263286029": "Space - The Eclipse - Battle 03"
+    },
+    "Space - The Eclipse - D (Supreme Warrior)": {
+      "1263286033": "Space - Supreme Warrior - Reward 1",
+      "1263286034": "Space - Supreme Warrior - Reward 2",
+      "1263286035": "Space - Supreme Warrior - Reward 3"
+    },
+    "Space - The Eclipse - E (Scarlet Shark)": {
+      "1263286037": "Space - Scarlet Shark - Reward 1",
+      "1263286038": "Space - Scarlet Shark - Reward 2",
+      "1263286039": "Space - Scarlet Shark - Reward 3"
+    },
+    "Space - The Eclipse - F (Omega Machina)": {
+      "1263286041": "Space - Omega Machina - Reward 1",
+      "1263286042": "Space - Omega Machina - Reward 2",
+      "1263286043": "Space - Omega Machina - Reward 3"
+    },
+    "Space - The Eclipse - Treasure Sphere η": {
+      "1263287046": "Space - The Eclipse - Treasure Sphere 1"
+    },
+    "Space - The Eclipse - Treasure Sphere θ": {
+      "1263287047": "Space - The Eclipse - Treasure Sphere 2"
+    },
+    "Space - The Eclipse - Treasure Sphere ι": {
+      "1263287048": "Space - The Eclipse - Treasure Sphere 3"
+    },
+    "Space - The Eclipse - Ultros Gazer": {
+      "1263285035": "Space - Ultros Gazer"
+    },
+    "Space - The Eclipse - Bismarck Gazer": {
+      "1263285034": "Space - Bismarck Gazer"
+    },
+    "Space - The Eclipse - Omega Gazer": {
+      "1263285036": "Space - Omega Gazer"
+    },
+    "Space - Missions": {
+      "1263284992": "Space - Blast Off",
+      "1263285010": "Space - Heartless Hunter",
+      "1263285011": "Space - Heartless Harrier",
+      "1263285012": "Space - Heartless Menacer",
+      "1263285013": "Space - Heartless Destroyer",
+      "1263285014": "Space - Heartless Obliterator",
+      "1263285015": "Space - Special Weapon Dabbler",
+      "1263285016": "Space - Special Weapon Collector",
+      "1263285017": "Space - Special Weapon Hoarder",
+      "1263285018": "Space - Special Weapon Scholar",
+      "1263285019": "Space - Special Weapon Authority",
+      "1263285020": "Space - Junior Treasure Hunter",
+      "1263285021": "Space - Authorized Treasure Hunter",
+      "1263285022": "Space - Chief Treasure Hunter",
+      "1263285023": "Space - Veteran Treasure Hunter",
+      "1263285024": "Space - Champion Treasure Hunter",
+      "1263285025": "Space - Pro Builder",
+      "1263285026": "Space - Elite Builder",
+      "1263285027": "Space - Master Builder",
+      "1263285037": "Space - Gummi Ship Completionist"
     }
   }
 }

@@ -121,7 +121,7 @@ def build_raw_records(data: dict, excluded: set[int]) -> dict[int, str]:
     records = {BASE_LOCATION_ID + i: n for i, n in enumerate(names)}
     records[ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_ID] = ROCK_TITAN_NO_WALL_RUN_BONUS_LOCATION_NAME
 
-    for key in ("mom_locations", "music_chest_locations"):
+    for key in ("mom_locations", "music_chest_locations", "space_locations"):
         for entry in data.get(key, []):
             ap_id = entry["ap_id"]
             if ap_id in records:
@@ -164,8 +164,8 @@ def build_display_records(data: dict, overrides: dict[int, str],
             return overrides[ap_id]
         loc = by_raw_name.get(raw_name)
         if loc is None:
-            # Melody of Memory songs and Melody Chests: no catalog row, and
-            # their names are already the display names.
+            # Melody of Memory songs, Melody Chests and Gummi space checks: no
+            # catalog row, and their names are already the display names.
             return raw_name
         if loc.get("type") == "treasure":
             return treasure_display_name(loc) or raw_name

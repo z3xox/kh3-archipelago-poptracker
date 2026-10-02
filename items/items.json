@@ -78,6 +78,48 @@
     "img": "images/items/Gummiphone.png"
   },
   {
+    "name": "Starlight Way Ships",
+    "type": "consumable",
+    "codes": "space_starlight_way",
+    "img": "images/items/gummi/starlight_way.png",
+    "max_quantity": 12,
+    "overlay_background": "#000000",
+    "overlay_font_size": 20
+  },
+  {
+    "name": "Misty Stream Ships",
+    "type": "consumable",
+    "codes": "space_misty_stream",
+    "img": "images/items/gummi/misty_stream.png",
+    "max_quantity": 13,
+    "overlay_background": "#000000",
+    "overlay_font_size": 20
+  },
+  {
+    "name": "The Eclipse Ships",
+    "type": "consumable",
+    "codes": "space_eclipse",
+    "img": "images/items/gummi/eclipse.png",
+    "max_quantity": 12,
+    "overlay_background": "#000000",
+    "overlay_font_size": 20
+  },
+  {
+    "name": "Gummi Blueprint: Endymion",
+    "type": "toggle",
+    "codes": "gummi_endymion",
+    "img": "images/items/gummi/endymion.png"
+  },
+  {
+    "name": "Gummi Special Weapons",
+    "type": "consumable",
+    "codes": "space_special_weapon",
+    "img": "images/items/gummi/special_weapons.png",
+    "max_quantity": 11,
+    "overlay_background": "#000000",
+    "overlay_font_size": 20
+  },
+  {
     "name": "Heart Piece",
     "type": "consumable",
     "codes": "heart_piece",

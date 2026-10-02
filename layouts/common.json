@@ -536,6 +536,41 @@
             "map_data_battles"
           ]
         }
+      },
+      {
+        "title": "Gummi Space",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Starlight Way",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_gummi_starlight_way"
+                ]
+              }
+            },
+            {
+              "title": "Misty Stream",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_gummi_misty_stream"
+                ]
+              }
+            },
+            {
+              "title": "The Eclipse",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_gummi_eclipse"
+                ]
+              }
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,0 +1,1116 @@
+[
+  {
+    "name": "Gummi Space - Starlight Way",
+    "visibility_rules": [
+      "active_space"
+    ],
+    "access_rules": [
+      "active_space,space_starlight_way:1"
+    ],
+    "children": [
+      {
+        "name": "Checks",
+        "children": [
+          {
+            "name": "Space - Starlight Way - A (Countdown 1)",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 01",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1222,
+                "y": 984
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - B (Countdown 2)",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 02",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1371,
+                "y": 329
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - C (Countdown 3)",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 03",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 628,
+                "y": 429
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - D (Countdown 4)",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 04",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1822,
+                "y": 1041
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - E (Speed Skirmish 1)",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 05",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1255,
+                "y": 694
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - F (Speed Skirmish 2)",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 07",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 959,
+                "y": 338
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - G (Speed Skirmish 3)",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Battle 08",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1804,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - H (Astrowarrior)",
+            "sections": [
+              {
+                "name": "Space - Astrowarrior - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Astrowarrior - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Astrowarrior - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 323,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - I (Flower Guardian)",
+            "sections": [
+              {
+                "name": "Space - Flower Guardian - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Flower Guardian - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Flower Guardian - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1639,
+                "y": 573
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - J (Comet Crawlers)",
+            "sections": [
+              {
+                "name": "Space - Comet Crawler - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Comet Crawler - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Comet Crawler - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 554,
+                "y": 960
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - Treasure Sphere α",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Treasure Sphere 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1145,
+                "y": 679,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - Treasure Sphere β",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Treasure Sphere 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 935,
+                "y": 540,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - Treasure Sphere γ",
+            "sections": [
+              {
+                "name": "Space - Starlight Way - Treasure Sphere 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 1054,
+                "y": 860,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - Moogle Gazer",
+            "sections": [
+              {
+                "name": "Space - Moogle Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 494,
+                "y": 71,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - Cactuar Gazer",
+            "sections": [
+              {
+                "name": "Space - Cactuar Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 2081,
+                "y": 1181,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Starlight Way - Bomb Gazer",
+            "sections": [
+              {
+                "name": "Space - Bomb Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_starlight_way",
+                "x": 804,
+                "y": 1449,
+                "shape": "diamond"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gummi Space - Misty Stream",
+    "visibility_rules": [
+      "active_space"
+    ],
+    "access_rules": [
+      "active_space,space_misty_stream:1"
+    ],
+    "children": [
+      {
+        "name": "Checks",
+        "children": [
+          {
+            "name": "Space - Misty Stream - A (Countdown 5)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 01",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1101,
+                "y": 416
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - B (Countdown 6)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 02",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1592,
+                "y": 610
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - C (Countdown 7)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 03",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 799,
+                "y": 457
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - D (Countdown 8)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 04",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1437,
+                "y": 1045
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - E (Countdown 9)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 05",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 689,
+                "y": 964
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - F (Countdown 10)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 06",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1109,
+                "y": 1121
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - G (Speed Skirmish 4)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 07",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1338,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - H (Speed Skirmish 5)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 08",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 549,
+                "y": 636
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - I (Speed Skirmish 6)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 09",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1478,
+                "y": 834
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - J (Speed Skirmish 7)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1247,
+                "y": 1034
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - K (Speed Skirmish 8)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 11",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 700,
+                "y": 311
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - L (Speed Skirmish 9)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 12",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1621,
+                "y": 788
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - M (Speed Skirmish 10)",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Battle 13",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 843,
+                "y": 1019
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - N (Dreadshark)",
+            "sections": [
+              {
+                "name": "Space - Dreadshark - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Dreadshark - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Dreadshark - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 493,
+                "y": 474
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - O (Glacial Fortress)",
+            "sections": [
+              {
+                "name": "Space - Glacial Fortress - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Glacial Fortress - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Glacial Fortress - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1719,
+                "y": 374
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - P (Space Worm)",
+            "sections": [
+              {
+                "name": "Space - Space Worm - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Space Worm - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Space Worm - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1010,
+                "y": 1011
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - Q (Schwarzgeist)",
+            "sections": [
+              {
+                "name": "Space - Schwarzgeist - Reward 1",
+                "item_count": 1,
+                "access_rules": [
+                  "gummi_endymion"
+                ]
+              },
+              {
+                "name": "Space - Schwarzgeist - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "gummi_endymion"
+                ]
+              },
+              {
+                "name": "Space - Schwarzgeist - Reward 3",
+                "item_count": 1,
+                "access_rules": [
+                  "gummi_endymion"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1038,
+                "y": 771
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - Treasure Sphere δ",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Treasure Sphere 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1514,
+                "y": 417,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - Treasure Sphere ε",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Treasure Sphere 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 470,
+                "y": 863,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - Treasure Sphere ζ",
+            "sections": [
+              {
+                "name": "Space - Misty Stream - Treasure Sphere 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 990,
+                "y": 1163,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - Imp Gazer",
+            "sections": [
+              {
+                "name": "Space - Imp Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 816,
+                "y": 91,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - Tonberry Gazer",
+            "sections": [
+              {
+                "name": "Space - Tonberry Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1465,
+                "y": 67,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - Misty Stream - Endymion Gazer",
+            "sections": [
+              {
+                "name": "Space - Endymion Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_misty_stream",
+                "x": 1129,
+                "y": 1456,
+                "shape": "diamond"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gummi Space - The Eclipse",
+    "visibility_rules": [
+      "active_space"
+    ],
+    "access_rules": [
+      "active_space,space_eclipse:1"
+    ],
+    "children": [
+      {
+        "name": "Checks",
+        "children": [
+          {
+            "name": "Space - The Eclipse - A (Colossus Pyramid)",
+            "sections": [
+              {
+                "name": "Space - Colossus Pyramid - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Colossus Pyramid - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Colossus Pyramid - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2138,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - B (Countdown 11)",
+            "sections": [
+              {
+                "name": "Space - The Eclipse - Battle 02",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 1848,
+                "y": 741
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - C (Speed Skirmish 11)",
+            "sections": [
+              {
+                "name": "Space - The Eclipse - Battle 03",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2440,
+                "y": 762
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - D (Supreme Warrior)",
+            "sections": [
+              {
+                "name": "Space - Supreme Warrior - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Supreme Warrior - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Supreme Warrior - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2138,
+                "y": 1042
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - E (Scarlet Shark)",
+            "sections": [
+              {
+                "name": "Space - Scarlet Shark - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Scarlet Shark - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Scarlet Shark - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2105,
+                "y": 662
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - F (Omega Machina)",
+            "sections": [
+              {
+                "name": "Space - Omega Machina - Reward 1",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Omega Machina - Reward 2",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Omega Machina - Reward 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2058,
+                "y": 728
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - Treasure Sphere η",
+            "sections": [
+              {
+                "name": "Space - The Eclipse - Treasure Sphere 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2050,
+                "y": 897,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - Treasure Sphere θ",
+            "sections": [
+              {
+                "name": "Space - The Eclipse - Treasure Sphere 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2235,
+                "y": 955,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - Treasure Sphere ι",
+            "sections": [
+              {
+                "name": "Space - The Eclipse - Treasure Sphere 3",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2045,
+                "y": 1195,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - Ultros Gazer",
+            "sections": [
+              {
+                "name": "Space - Ultros Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2142,
+                "y": 238,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - Bismarck Gazer",
+            "sections": [
+              {
+                "name": "Space - Bismarck Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 1735,
+                "y": 1170,
+                "shape": "diamond"
+              }
+            ]
+          },
+          {
+            "name": "Space - The Eclipse - Omega Gazer",
+            "sections": [
+              {
+                "name": "Space - Omega Gazer",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_gummi_eclipse",
+                "x": 2522,
+                "y": 1125,
+                "shape": "diamond"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gummi Space - Missions",
+    "visibility_rules": [
+      "active_space"
+    ],
+    "access_rules": [
+      "active_space,$has_any|space_starlight_way|space_misty_stream|space_eclipse"
+    ],
+    "children": [
+      {
+        "name": "Checks",
+        "children": [
+          {
+            "name": "Space - Missions",
+            "sections": [
+              {
+                "name": "Space - Blast Off",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Heartless Hunter",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Heartless Harrier",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Heartless Menacer",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Heartless Destroyer",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Heartless Obliterator",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Special Weapon Dabbler",
+                "item_count": 1,
+                "access_rules": [
+                  "$space_special_weapons|3"
+                ]
+              },
+              {
+                "name": "Space - Special Weapon Collector",
+                "item_count": 1,
+                "access_rules": [
+                  "$space_special_weapons|5"
+                ]
+              },
+              {
+                "name": "Space - Special Weapon Hoarder",
+                "item_count": 1,
+                "access_rules": [
+                  "$space_special_weapons|7"
+                ]
+              },
+              {
+                "name": "Space - Special Weapon Scholar",
+                "item_count": 1,
+                "access_rules": [
+                  "$space_special_weapons|10"
+                ]
+              },
+              {
+                "name": "Space - Special Weapon Authority",
+                "item_count": 1,
+                "access_rules": [
+                  "$space_special_weapons|13"
+                ]
+              },
+              {
+                "name": "Space - Junior Treasure Hunter",
+                "item_count": 1,
+                "access_rules": [
+                  "$has_at_least|1|space_starlight_way|space_misty_stream|space_eclipse"
+                ]
+              },
+              {
+                "name": "Space - Authorized Treasure Hunter",
+                "item_count": 1,
+                "access_rules": [
+                  "$has_at_least|1|space_starlight_way|space_misty_stream|space_eclipse"
+                ]
+              },
+              {
+                "name": "Space - Chief Treasure Hunter",
+                "item_count": 1,
+                "access_rules": [
+                  "$has_at_least|2|space_starlight_way|space_misty_stream|space_eclipse"
+                ]
+              },
+              {
+                "name": "Space - Veteran Treasure Hunter",
+                "item_count": 1,
+                "access_rules": [
+                  "$has_at_least|3|space_starlight_way|space_misty_stream|space_eclipse"
+                ]
+              },
+              {
+                "name": "Space - Champion Treasure Hunter",
+                "item_count": 1,
+                "access_rules": [
+                  "$has_at_least|3|space_starlight_way|space_misty_stream|space_eclipse"
+                ]
+              },
+              {
+                "name": "Space - Pro Builder",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Elite Builder",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Master Builder",
+                "item_count": 1
+              },
+              {
+                "name": "Space - Gummi Ship Completionist",
+                "item_count": 1,
+                "access_rules": [
+                  "gummi_endymion,$space_special_weapons|13,$space_all_worlds,$has_at_least|3|space_starlight_way|space_misty_stream|space_eclipse"
+                ]
+              }
+            ],
+            "map_locations": []
+          }
+        ]
+      }
+    ]
+  }
+]

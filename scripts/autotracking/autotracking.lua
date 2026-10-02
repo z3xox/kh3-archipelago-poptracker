@@ -3,6 +3,101 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 OVERWORLD_SECTION_MAP = {
+    -- BEGIN generated: gummi space (scripts/tools/generate_space_locations.py)
+    ["Space - Starlight Way - Battle 01"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 01",
+    ["Space - Starlight Way - Battle 02"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 02",
+    ["Space - Starlight Way - Battle 03"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 03",
+    ["Space - Starlight Way - Battle 04"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 04",
+    ["Space - Starlight Way - Battle 05"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 05",
+    ["Space - Starlight Way - Battle 07"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 07",
+    ["Space - Starlight Way - Battle 08"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 08",
+    ["Space - Astrowarrior - Reward 1"] = "@Gummi Space - Starlight Way - All Checks/Space - Astrowarrior - Reward 1",
+    ["Space - Astrowarrior - Reward 2"] = "@Gummi Space - Starlight Way - All Checks/Space - Astrowarrior - Reward 2",
+    ["Space - Astrowarrior - Reward 3"] = "@Gummi Space - Starlight Way - All Checks/Space - Astrowarrior - Reward 3",
+    ["Space - Flower Guardian - Reward 1"] = "@Gummi Space - Starlight Way - All Checks/Space - Flower Guardian - Reward 1",
+    ["Space - Flower Guardian - Reward 2"] = "@Gummi Space - Starlight Way - All Checks/Space - Flower Guardian - Reward 2",
+    ["Space - Flower Guardian - Reward 3"] = "@Gummi Space - Starlight Way - All Checks/Space - Flower Guardian - Reward 3",
+    ["Space - Comet Crawler - Reward 1"] = "@Gummi Space - Starlight Way - All Checks/Space - Comet Crawler - Reward 1",
+    ["Space - Comet Crawler - Reward 2"] = "@Gummi Space - Starlight Way - All Checks/Space - Comet Crawler - Reward 2",
+    ["Space - Comet Crawler - Reward 3"] = "@Gummi Space - Starlight Way - All Checks/Space - Comet Crawler - Reward 3",
+    ["Space - Starlight Way - Treasure Sphere 1"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Treasure Sphere 1",
+    ["Space - Starlight Way - Treasure Sphere 2"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Treasure Sphere 2",
+    ["Space - Starlight Way - Treasure Sphere 3"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Treasure Sphere 3",
+    ["Space - Moogle Gazer"] = "@Gummi Space - Starlight Way - All Checks/Space - Moogle Gazer",
+    ["Space - Cactuar Gazer"] = "@Gummi Space - Starlight Way - All Checks/Space - Cactuar Gazer",
+    ["Space - Bomb Gazer"] = "@Gummi Space - Starlight Way - All Checks/Space - Bomb Gazer",
+    ["Space - Misty Stream - Battle 01"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 01",
+    ["Space - Misty Stream - Battle 02"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 02",
+    ["Space - Misty Stream - Battle 03"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 03",
+    ["Space - Misty Stream - Battle 04"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 04",
+    ["Space - Misty Stream - Battle 05"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 05",
+    ["Space - Misty Stream - Battle 06"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 06",
+    ["Space - Misty Stream - Battle 07"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 07",
+    ["Space - Misty Stream - Battle 08"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 08",
+    ["Space - Misty Stream - Battle 09"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 09",
+    ["Space - Misty Stream - Battle 10"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 10",
+    ["Space - Misty Stream - Battle 11"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 11",
+    ["Space - Misty Stream - Battle 12"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 12",
+    ["Space - Misty Stream - Battle 13"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 13",
+    ["Space - Dreadshark - Reward 1"] = "@Gummi Space - Misty Stream - All Checks/Space - Dreadshark - Reward 1",
+    ["Space - Dreadshark - Reward 2"] = "@Gummi Space - Misty Stream - All Checks/Space - Dreadshark - Reward 2",
+    ["Space - Dreadshark - Reward 3"] = "@Gummi Space - Misty Stream - All Checks/Space - Dreadshark - Reward 3",
+    ["Space - Glacial Fortress - Reward 1"] = "@Gummi Space - Misty Stream - All Checks/Space - Glacial Fortress - Reward 1",
+    ["Space - Glacial Fortress - Reward 2"] = "@Gummi Space - Misty Stream - All Checks/Space - Glacial Fortress - Reward 2",
+    ["Space - Glacial Fortress - Reward 3"] = "@Gummi Space - Misty Stream - All Checks/Space - Glacial Fortress - Reward 3",
+    ["Space - Space Worm - Reward 1"] = "@Gummi Space - Misty Stream - All Checks/Space - Space Worm - Reward 1",
+    ["Space - Space Worm - Reward 2"] = "@Gummi Space - Misty Stream - All Checks/Space - Space Worm - Reward 2",
+    ["Space - Space Worm - Reward 3"] = "@Gummi Space - Misty Stream - All Checks/Space - Space Worm - Reward 3",
+    ["Space - Schwarzgeist - Reward 1"] = "@Gummi Space - Misty Stream - All Checks/Space - Schwarzgeist - Reward 1",
+    ["Space - Schwarzgeist - Reward 2"] = "@Gummi Space - Misty Stream - All Checks/Space - Schwarzgeist - Reward 2",
+    ["Space - Schwarzgeist - Reward 3"] = "@Gummi Space - Misty Stream - All Checks/Space - Schwarzgeist - Reward 3",
+    ["Space - Misty Stream - Treasure Sphere 1"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Treasure Sphere 1",
+    ["Space - Misty Stream - Treasure Sphere 2"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Treasure Sphere 2",
+    ["Space - Misty Stream - Treasure Sphere 3"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Treasure Sphere 3",
+    ["Space - Imp Gazer"] = "@Gummi Space - Misty Stream - All Checks/Space - Imp Gazer",
+    ["Space - Tonberry Gazer"] = "@Gummi Space - Misty Stream - All Checks/Space - Tonberry Gazer",
+    ["Space - Endymion Gazer"] = "@Gummi Space - Misty Stream - All Checks/Space - Endymion Gazer",
+    ["Space - Colossus Pyramid - Reward 1"] = "@Gummi Space - The Eclipse - All Checks/Space - Colossus Pyramid - Reward 1",
+    ["Space - Colossus Pyramid - Reward 2"] = "@Gummi Space - The Eclipse - All Checks/Space - Colossus Pyramid - Reward 2",
+    ["Space - Colossus Pyramid - Reward 3"] = "@Gummi Space - The Eclipse - All Checks/Space - Colossus Pyramid - Reward 3",
+    ["Space - The Eclipse - Battle 02"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Battle 02",
+    ["Space - The Eclipse - Battle 03"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Battle 03",
+    ["Space - Supreme Warrior - Reward 1"] = "@Gummi Space - The Eclipse - All Checks/Space - Supreme Warrior - Reward 1",
+    ["Space - Supreme Warrior - Reward 2"] = "@Gummi Space - The Eclipse - All Checks/Space - Supreme Warrior - Reward 2",
+    ["Space - Supreme Warrior - Reward 3"] = "@Gummi Space - The Eclipse - All Checks/Space - Supreme Warrior - Reward 3",
+    ["Space - Scarlet Shark - Reward 1"] = "@Gummi Space - The Eclipse - All Checks/Space - Scarlet Shark - Reward 1",
+    ["Space - Scarlet Shark - Reward 2"] = "@Gummi Space - The Eclipse - All Checks/Space - Scarlet Shark - Reward 2",
+    ["Space - Scarlet Shark - Reward 3"] = "@Gummi Space - The Eclipse - All Checks/Space - Scarlet Shark - Reward 3",
+    ["Space - Omega Machina - Reward 1"] = "@Gummi Space - The Eclipse - All Checks/Space - Omega Machina - Reward 1",
+    ["Space - Omega Machina - Reward 2"] = "@Gummi Space - The Eclipse - All Checks/Space - Omega Machina - Reward 2",
+    ["Space - Omega Machina - Reward 3"] = "@Gummi Space - The Eclipse - All Checks/Space - Omega Machina - Reward 3",
+    ["Space - The Eclipse - Treasure Sphere 1"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Treasure Sphere 1",
+    ["Space - The Eclipse - Treasure Sphere 2"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Treasure Sphere 2",
+    ["Space - The Eclipse - Treasure Sphere 3"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Treasure Sphere 3",
+    ["Space - Ultros Gazer"] = "@Gummi Space - The Eclipse - All Checks/Space - Ultros Gazer",
+    ["Space - Bismarck Gazer"] = "@Gummi Space - The Eclipse - All Checks/Space - Bismarck Gazer",
+    ["Space - Omega Gazer"] = "@Gummi Space - The Eclipse - All Checks/Space - Omega Gazer",
+    ["Space - Blast Off"] = "@Gummi Space - Missions - All Checks/Space - Blast Off",
+    ["Space - Heartless Hunter"] = "@Gummi Space - Missions - All Checks/Space - Heartless Hunter",
+    ["Space - Heartless Harrier"] = "@Gummi Space - Missions - All Checks/Space - Heartless Harrier",
+    ["Space - Heartless Menacer"] = "@Gummi Space - Missions - All Checks/Space - Heartless Menacer",
+    ["Space - Heartless Destroyer"] = "@Gummi Space - Missions - All Checks/Space - Heartless Destroyer",
+    ["Space - Heartless Obliterator"] = "@Gummi Space - Missions - All Checks/Space - Heartless Obliterator",
+    ["Space - Special Weapon Dabbler"] = "@Gummi Space - Missions - All Checks/Space - Special Weapon Dabbler",
+    ["Space - Special Weapon Collector"] = "@Gummi Space - Missions - All Checks/Space - Special Weapon Collector",
+    ["Space - Special Weapon Hoarder"] = "@Gummi Space - Missions - All Checks/Space - Special Weapon Hoarder",
+    ["Space - Special Weapon Scholar"] = "@Gummi Space - Missions - All Checks/Space - Special Weapon Scholar",
+    ["Space - Special Weapon Authority"] = "@Gummi Space - Missions - All Checks/Space - Special Weapon Authority",
+    ["Space - Junior Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Junior Treasure Hunter",
+    ["Space - Authorized Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Authorized Treasure Hunter",
+    ["Space - Chief Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Chief Treasure Hunter",
+    ["Space - Veteran Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Veteran Treasure Hunter",
+    ["Space - Champion Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Champion Treasure Hunter",
+    ["Space - Pro Builder"] = "@Gummi Space - Missions - All Checks/Space - Pro Builder",
+    ["Space - Elite Builder"] = "@Gummi Space - Missions - All Checks/Space - Elite Builder",
+    ["Space - Master Builder"] = "@Gummi Space - Missions - All Checks/Space - Master Builder",
+    ["Space - Gummi Ship Completionist"] = "@Gummi Space - Missions - All Checks/Space - Gummi Ship Completionist",
+    -- END generated: gummi space
     ["Ingredients+ - Arendelle - Pickup 007"] = {"@Ingredients+ - Arendelle - All Checks/Ingredients+ - Arendelle - Pickup 007", "@Ingredients - All Checks/Ingredients+ - Arendelle - Pickup 007"},
     ["Ingredients+ - Arendelle - Pickup 002"] = {"@Ingredients+ - Arendelle - All Checks/Ingredients+ - Arendelle - Pickup 002", "@Ingredients - All Checks/Ingredients+ - Arendelle - Pickup 002"},
     ["Ingredients+ - Arendelle - Pickup 009"] = {"@Ingredients+ - Arendelle - All Checks/Ingredients+ - Arendelle - Pickup 009", "@Ingredients - All Checks/Ingredients+ - Arendelle - Pickup 009"},
@@ -1188,6 +1283,11 @@ function onItem(index, item_id, item_name, player_id)
     elseif mapping.type == "consumable_max" then
         obj.AcquiredCount = mapping.max or obj.AcquiredCount
     end
+    -- An item may also switch on a second toggle (Endymion: Misty Stream ship + its own gate).
+    if mapping.also then
+        local also = Tracker:FindObjectForCode(mapping.also)
+        if also then also.Active = true end
+    end
     print(string.format("onItem: tracked '%s' -> %s", item_name, mapping.code))
 
     if item_name == "Magic: Cure" then
@@ -1354,6 +1454,10 @@ function autoFill(slot_data)
         setStage(entry[1], poolHasChecks(entry[2]) and 1 or 0)
     end
 
+    -- Gummi space is a base-game toggle, not a pool: top-level include_space
+    -- (0 = off, 1 = on; the apworld default is off).
+    setStage("space_setting", (slot_data["include_space"] or 0) == 1 and 1 or 0)
+
     -- Olympus Coliseum is a third-party pool: it is NOT in
     -- RANDOMIZER_POOL_NAMES, so it never appears under kh3_randomizer.pools.
     -- It ships as a top-level slot_data key instead.
@@ -1484,6 +1588,10 @@ function onClear(slot_data)
                 obj.AcquiredCount = 0
             end
         end
+        if mapping.also then
+            local also = Tracker:FindObjectForCode(mapping.also)
+            if also then also.Active = false end
+        end
     end
 
     autoFill(slot_data)
@@ -1511,7 +1619,7 @@ end
 -- with extract_data.py's WORLD_TREASURE_TABLES (same two-letter world codes).
 -- Only codes with a confident, unambiguous world match are listed; codes for
 -- worlds with no dedicated tab (Dark World "dw", The Final World "ew",
--- Unreality, 100 Acre Wood) or whose meaning wasn't confirmed ("ex", "gm",
+-- Unreality, 100 Acre Wood) or whose meaning wasn't confirmed ("ex",
 -- "po", "sf", "sp", "ss", "wm", "yt", "di", "dp") are intentionally omitted --
 -- an unmapped code just leaves the current tab alone instead of guessing wrong.
 -- The "_DLC" suffixed codes are Re:Mind's revisits of earlier worlds' assets
@@ -1534,6 +1642,8 @@ KH3_WORLD_CODE_TO_TAB = {
     ["rg"]     = "Radiant Garden",
     ["rg_DLC"] = "Radiant Garden",
     ["GardenOfAssemblage"] = "Overworld",
+    -- Gummi ship levels gm_01..gm_03 (apworld: "Gummiship"); gm_50 is a cutscene, left out.
+    ["gm"]     = "Gummi Space",
 }
 
 -- Second-level auto-follow: within a world's top-level tab, some worlds split
@@ -1564,6 +1674,11 @@ KH3_ROOM_ID_TO_SUBTAB = {
     ["mi_03"] = "Power Plant",
     ["mi_04"] = "Door Vault",
     ["ca_01"] = "Port Royal",
+    -- Space levels follow the apworld's gm_0<area> ids: area 1/2/3 = Starlight Way / Misty Stream / The Eclipse
+    -- (same numbering as its gm_0X_Battle_NN battle ids). Not yet confirmed in game.
+    ["gm_01"] = "Starlight Way",
+    ["gm_02"] = "Misty Stream",
+    ["gm_03"] = "The Eclipse",
 }
 
 -- Finest-grained auto-follow: "kh3_minimap_id" (confirmed by the apworld dev,

@@ -496,6 +496,27 @@
     "initial_stage_idx": 1
   },
   {
+    "name": "Gummi Space",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/worlds/Gummi Space.png",
+        "img_mods": "saturation|0",
+        "codes": "space_setting",
+        "inherit_codes": false,
+        "name": "Gummi Space Checks Off"
+      },
+      {
+        "img": "images/items/worlds/Gummi Space.png",
+        "codes": "space_setting, active_space",
+        "inherit_codes": false,
+        "name": "Gummi Space Checks On"
+      }
+    ]
+  },
+  {
     "name": "Level Ups",
     "type": "progressive",
     "allow_disabled": false,
