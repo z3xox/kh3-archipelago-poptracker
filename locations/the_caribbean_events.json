@@ -106,7 +106,10 @@
         "sections": [
           {
             "name": "Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
-            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 19 (Aqua Chaplet)"
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+            ]
           }
         ],
         "map_locations": [

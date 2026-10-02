@@ -2758,7 +2758,7 @@
   {
     "name": "Ingredients+ - Twilight Town",
     "access_rules": [
-      "active_ingredients_plus,kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+      "active_ingredients_plus,kb_shooting_star,$has_twilight_town_combat"
     ],
     "visibility_rules": [
       "active_ingredients_plus"

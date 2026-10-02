@@ -2,7 +2,7 @@
   {
     "name": "Olympus - Events",
     "access_rules": [
-      "active_olympus,kb_heros_origin"
+      "active_olympus"
     ],
     "children": [
       {
@@ -12,7 +12,7 @@
             "name": "Forge Knight's Shield+ for Goofy",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -34,7 +34,7 @@
             "chest_unopened_img": "images/items/Golden_Herc_Figure_None.png",
             "chest_opened_img": "images/items/Golden_Herc_Figure.png",
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -56,7 +56,7 @@
             "chest_unopened_img": "images/items/Golden_Herc_Figure_None.png",
             "chest_opened_img": "images/items/Golden_Herc_Figure.png",
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -78,7 +78,7 @@
             "chest_unopened_img": "images/items/Golden_Herc_Figure_None.png",
             "chest_opened_img": "images/items/Golden_Herc_Figure.png",
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -100,7 +100,7 @@
             "chest_unopened_img": "images/items/Golden_Herc_Figure_None.png",
             "chest_opened_img": "images/items/Golden_Herc_Figure.png",
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -122,7 +122,7 @@
             "chest_unopened_img": "images/items/Golden_Herc_Figure_None.png",
             "chest_opened_img": "images/items/Golden_Herc_Figure.png",
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -140,7 +140,10 @@
         "sections": [
           {
             "name": "Olympus - Mount Olympus: Cliff Ascent Heartless",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_heros_origin"
+            ]
           }
         ],
         "map_locations": [
@@ -159,9 +162,9 @@
             "name": "Olympus - Thebes: Agora Flame Cores",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "kb_heros_origin,unlock_wall_run",
+              "kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
           }
         ],
@@ -181,9 +184,9 @@
             "name": "Olympus - Thebes: Overlook Flame Cores",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "kb_heros_origin,unlock_wall_run",
+              "kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
           }
         ],
@@ -203,9 +206,9 @@
             "name": "Olympus - Thebes: Gardens Flame Cores",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "kb_heros_origin,unlock_wall_run",
+              "kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
           },
           {
@@ -214,7 +217,7 @@
             "chest_unopened_img": "images/items/Golden_Herc_Figure_None.png",
             "chest_opened_img": "images/items/Golden_Herc_Figure.png",
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -234,9 +237,9 @@
             "name": "Olympus - Thebes: Alleyway Heartless",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "kb_heros_origin,unlock_wall_run",
+              "kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
           }
         ],
@@ -256,9 +259,9 @@
             "name": "Defeat Rock Troll in Olympus - Thebes: Agora",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "kb_heros_origin,unlock_wall_run",
+              "kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
           }
         ],
@@ -278,7 +281,7 @@
             "name": "Defeat Rock Titan in Olympus: Mount Olympus - Summit",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -298,7 +301,7 @@
             "name": "Olympus - Rock Titan Sequence Break Bonus",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -318,7 +321,7 @@
             "name": "Olympus - Realm of the Gods: Courtyard Satyrs",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -338,14 +341,14 @@
             "name": "Defeat Tornado Titan in Olympus: Realm of the Gods",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           },
           {
             "name": "Olympus - EVENT_KEYBLADE_001 - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -382,7 +385,7 @@
             "name": "Flantastic - Olympus - Cherry Flan - High Score",
             "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Olympus - Cherry Flan - High Score",
             "access_rules": [
-              "unlock_wall_run"
+              "kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -400,7 +403,10 @@
         "sections": [
           {
             "name": "Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
-            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 5 (Cosmic Ring)"
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+            ]
           }
         ],
         "map_locations": [
@@ -417,7 +423,10 @@
         "sections": [
           {
             "name": "Moogle Workshop - Photo Mission 9 (Fire Chain)",
-            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 9 (Fire Chain)"
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 9 (Fire Chain)",
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+            ]
           }
         ],
         "map_locations": [
@@ -434,7 +443,10 @@
         "sections": [
           {
             "name": "Moogle Workshop - Photo Mission 10 (Thunder Chain)",
-            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 10 (Thunder Chain)"
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 10 (Thunder Chain)",
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+            ]
           }
         ],
         "map_locations": [

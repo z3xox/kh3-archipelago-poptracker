@@ -92,11 +92,12 @@ function has_tier_one_keyblades()
     return 0
 end
 
--- Twilight Town portal also needs AnyOf2(Block/Air Slide/Dodge Roll)
+-- Twilight Town portal also needs "Block OR Air Slide OR Dodge Roll"
+-- (TWILIGHT_TOWN_PORTAL_LOGIC_REQUIREMENTS from the AP world): any one of them.
 DEFENSIVE_CODES = {"ability_block", "ability_air_slide", "ability_dodge_roll"}
 
 function has_twilight_town_combat()
-    if countCodes(DEFENSIVE_CODES) >= 2 then return 1 end
+    if countCodes(DEFENSIVE_CODES) >= 1 then return 1 end
     return 0
 end
 
@@ -107,10 +108,17 @@ end
 -- The Caribbean portal also needs "Air Slide OR Dodge Roll OR Glide OR
 -- Blizzard" (THE_CARIBBEAN_PORTAL_LOGIC_REQUIREMENTS from the AP world) --
 -- one safety tool to survive the open water before the world is reachable.
-CARIBBEAN_SAFETY_TOOL_CODES = {"ability_air_slide", "ability_dodge_roll", "ability_glide", "blizzard"}
+-- Blizzard is a spell, so that route also needs the Magic unlock (the AP world
+-- adds it to every route that names a Magic: item).
+CARIBBEAN_SAFETY_TOOL_CODES = {"ability_air_slide", "ability_dodge_roll", "ability_glide"}
+
+local function hasCaribbeanSafetyTool()
+    if countCodes(CARIBBEAN_SAFETY_TOOL_CODES) >= 1 then return true end
+    return hasCode("blizzard") and hasCode("unlock_magic")
+end
 
 function has_caribbean_safety_tool()
-    if countCodes(CARIBBEAN_SAFETY_TOOL_CODES) >= 1 then return 1 end
+    if hasCaribbeanSafetyTool() then return 1 end
     return 0
 end
 
@@ -164,25 +172,24 @@ end
 -- World reachability (portal keyblade + tier gate)
 -- ============================================================
 
-WORLD_TIER = {
-    ["Olympus"] = 1, ["Toy Box"] = 1, ["Monstropolis"] = 1,
-    ["Kingdom of Corona"] = 1, ["The Caribbean"] = 1, ["Arendelle"] = 1,
-    ["San Fransokyo"] = 1, ["100 Acre Wood"] = 1,
-    ["Twilight Town"] = 2, ["Keyblade Graveyard"] = 2,
-    ["Re Mind"] = 2, ["Dark World"] = 2,
-    ["Radiant Garden"] = 3, ["Data Battles"] = 3,
+-- Worlds behind WORLD_DIFFICULTY_TIERS[2..4] in the AP world need
+-- HIGHER_TIER_TIER_ONE_KEYBLADE_COUNT tier-one keyblades on top of their own
+-- portal keyblade. Twilight Town is the exception (it keeps its combat gate
+-- instead), and Radiant Garden has no tier of its own.
+TIER_GATED_WORLDS = {
+    ["Keyblade Graveyard"] = true, ["Re Mind"] = true, ["Dark World"] = true,
+    ["Data Battles"] = true, ["Unreality"] = true,
 }
 
 local function worldReachable(world, keyblade)
     if keyblade and not hasCode(keyblade) then return false end
-    local tier = WORLD_TIER[world] or 1
-    if tier > 1 and count_tier_one_keyblades() < TIER_ONE_KEYBLADE_REQUIRED then
+    if TIER_GATED_WORLDS[world] and count_tier_one_keyblades() < TIER_ONE_KEYBLADE_REQUIRED then
         return false
     end
-    if world == "Twilight Town" and countCodes(DEFENSIVE_CODES) < 2 then
+    if world == "Twilight Town" and countCodes(DEFENSIVE_CODES) < 1 then
         return false
     end
-    if world == "The Caribbean" and countCodes(CARIBBEAN_SAFETY_TOOL_CODES) < 1 then
+    if world == "The Caribbean" and not hasCaribbeanSafetyTool() then
         return false
     end
     return true
@@ -425,18 +432,19 @@ end
 
 -- COLISEUM_WORLD_COMPLETION_SOURCES from the AP world: completing a world means
 -- clearing its final encounter, so each entry pairs the world's portal keyblade
--- with that encounter's own requirements (VICTORY_BONUS_LOGIC_REQUIREMENTS /
--- EVENT_LOGIC_REQUIREMENTS for the listed source). Worlds whose final encounter
--- has no item requirement carry an empty route list.
+-- with the item routes of that encounter's location (its VICTORY_BONUS_ /
+-- EVENT_LOGIC_REQUIREMENTS plus the earlier story encounters it depends on, as
+-- the finished location rule the AP world queries). The Twilight Town and
+-- Caribbean combat gates live in worldReachable, so those two carry no routes.
 COLISEUM_WORLD_COMPLETION = {
-    ["Olympus"]           = {keyblade="kb_heros_origin",    routes={}},
-    ["Twilight Town"]     = {keyblade="kb_shooting_star",   routes={}},
+    ["Olympus"]           = {keyblade="kb_heros_origin", routes={{{codes={"unlock_wall_run"},count=1}}}},
+    ["Twilight Town"]     = {keyblade="kb_shooting_star", routes={}},
     ["Toy Box"]           = {keyblade="kb_favorite_deputy", routes={{{codes={"unlock_wall_run"},count=1}}}},
-    ["Kingdom of Corona"] = {keyblade="kb_ever_after",      routes={{{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2}}}},
-    ["Monstropolis"]      = {keyblade="kb_happy_gear",      routes={{{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2},{codes={"unlock_magic"},count=1},{codes={"pride_heartbinder","ocean_heartbinder","dream_heartbinder","pixel_heartbinder","ohana_heartbinder"},count=1},{codes={"unlock_links"},count=1}}}},
-    ["Arendelle"]         = {keyblade="kb_crystal_snow",    routes={}},
-    ["The Caribbean"]     = {keyblade="kb_wheel_of_fate",   routes={}},
-    ["San Fransokyo"]     = {keyblade="kb_nano_gear",       routes={{{codes={"ability_pole_spin"},count=1},{codes={"thunder","fire"},count=1},{codes={"water","blizzard"},count=1},{codes={"thunder","aero"},count=1},{codes={"unlock_magic"},count=1}}}},
+    ["Kingdom of Corona"] = {keyblade="kb_ever_after", routes={{{codes={"unlock_wall_run"},count=1},{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2}}}},
+    ["Monstropolis"]      = {keyblade="kb_happy_gear", routes={{{codes={"ability_air_slide"},count=1},{codes={"ability_doubleflight"},count=1},{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"unlock_links"},count=1},{codes={"unlock_magic"},count=1},{codes={"ability_block","ability_dodge_roll"},count=1},{codes={"dream_heartbinder","ocean_heartbinder","ohana_heartbinder","pixel_heartbinder","pride_heartbinder"},count=1}},{{codes={"unlock_links"},count=1},{codes={"unlock_magic"},count=1},{codes={"unlock_wall_run"},count=1},{codes={"dream_heartbinder","ocean_heartbinder","ohana_heartbinder","pixel_heartbinder","pride_heartbinder"},count=1},{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2}}}},
+    ["Arendelle"]         = {keyblade="kb_crystal_snow", routes={{{codes={"ability_air_slide"},count=1},{codes={"ability_pole_spin"},count=1},{codes={"unlock_wall_run"},count=1}}}},
+    ["The Caribbean"]     = {keyblade="kb_wheel_of_fate", routes={}},
+    ["San Fransokyo"]     = {keyblade="kb_nano_gear", routes={{{codes={"ability_pole_spin"},count=1},{codes={"aero"},count=1},{codes={"fire"},count=1},{codes={"unlock_magic"},count=1},{codes={"blizzard","water"},count=1}},{{codes={"ability_pole_spin"},count=1},{codes={"thunder"},count=1},{codes={"unlock_magic"},count=1},{codes={"blizzard","water"},count=1}}}},
 }
 
 local function coliseumWorldComplete(world)

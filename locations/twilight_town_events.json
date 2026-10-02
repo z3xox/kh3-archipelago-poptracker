@@ -2,7 +2,7 @@
   {
     "name": "Twilight Town - Events",
     "access_rules": [
-      "active_twilight_town,kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+      "active_twilight_town,kb_shooting_star,$has_twilight_town_combat"
     ],
     "children": [
       {
@@ -82,7 +82,10 @@
         "sections": [
           {
             "name": "Moogle Workshop - Photo Mission 11 (Draw Ring)",
-            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 11 (Draw Ring)"
+            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 11 (Draw Ring)",
+            "access_rules": [
+              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+            ]
           }
         ],
         "map_locations": [

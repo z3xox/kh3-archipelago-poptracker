@@ -13,219 +13,441 @@
         "sections": [
           {
             "name": "Ingredients - Crab",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Scallop",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Lobster",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Sole",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat"
+            ]
           },
           {
             "name": "Ingredients - Eel",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after",
+              "kb_shooting_star,$has_twilight_town_combat"
+            ]
           },
           {
             "name": "Ingredients - Sea Bass",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_nano_gear"
+            ]
           },
           {
             "name": "Ingredients - Mussel",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_happy_gear",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Cod",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "ability_air_slide,ability_pole_spin,kb_crystal_snow,unlock_wall_run",
+              "kb_ever_after,unlock_wall_run"
             ]
           },
           {
             "name": "Ingredients - Pumpkin",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_favorite_deputy",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Zucchini",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_nano_gear"
+            ]
           },
           {
             "name": "Ingredients - Onion",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_happy_gear|kb_nano_gear",
+              "ability_air_slide,ability_superjump,ability_wall_kick,kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Tomato",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_favorite_deputy|kb_happy_gear|kb_nano_gear",
+              "kb_ever_after,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Eggplant",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after,unlock_wall_run",
+              "kb_nano_gear"
+            ]
           },
           {
             "name": "Ingredients - Carrot",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_crystal_snow",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Garlic",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_favorite_deputy|kb_nano_gear",
+              "kb_ever_after,unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients - Celery",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$has_any|kb_happy_gear|kb_heros_origin",
+              "ability_air_slide,ability_high_jump,ability_superjump,ability_wall_kick,kb_heros_origin",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool",
+              "unlock_wall_run,$has_any|kb_happy_gear|kb_heros_origin"
+            ]
           },
           {
             "name": "Ingredients - Morel",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,kb_crystal_snow,unlock_wall_run",
+              "kb_ever_after",
+              "kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Porcini",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Chanterelle",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
+              "kb_ever_after",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat",
+              "kb_wheel_of_fate,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Portobello",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,kb_crystal_snow,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Black Truffle",
             "item_count": 1,
             "access_rules": [
-              "$has_any|ability_doubleflight|ability_high_jump|unlock_wall_run"
+              "ability_air_slide,ability_superjump,ability_wall_kick,kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
+              "kb_ever_after,$has_any|ability_doubleflight|ability_high_jump",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_wheel_of_fate,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool"
             ]
           },
           {
             "name": "Ingredients - King Oyster Mushroom",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
+              "kb_ever_after",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Black Trumpet",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after",
+              "kb_shooting_star,$has_twilight_town_combat",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Miller Mushroom",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,kb_crystal_snow,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Cloves",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_favorite_deputy",
+              "kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Rosemary",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after",
+              "kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Thyme",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_ever_after|kb_favorite_deputy",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Bay Leaf",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_ever_after",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Basil",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_ever_after|kb_favorite_deputy",
+              "kb_wheel_of_fate,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Dill",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_happy_gear",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Parsley",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
+              "ability_superjump,aero,kb_wheel_of_fate,unlock_magic,$has_caribbean_safety_tool",
+              "kb_favorite_deputy",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat",
+              "kb_wheel_of_fate,unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Saffron",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,kb_wheel_of_fate,unlock_magic,$has_caribbean_safety_tool",
+              "kb_happy_gear",
+              "kb_wheel_of_fate,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Apricot",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,kb_heros_origin",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Gooseberry",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_crystal_snow,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Lemon",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
+              "kb_happy_gear",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Orange",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_happy_gear",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Raspberry",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+              "ability_air_slide,ability_pole_spin,kb_crystal_snow,unlock_wall_run"
             ]
           },
           {
             "name": "Ingredients - Pear",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_happy_gear",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Blackberry",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+              "ability_air_slide,ability_pole_spin,kb_crystal_snow,unlock_wall_run"
             ]
           },
           {
             "name": "Ingredients - Apple",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,kb_heros_origin",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat"
+            ]
           },
           {
             "name": "Ingredients - Cheese",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_favorite_deputy|kb_happy_gear|kb_nano_gear"
+            ]
           },
           {
             "name": "Ingredients - Chocolate",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_favorite_deputy",
+              "kb_shooting_star,$has_twilight_town_combat"
+            ]
           },
           {
             "name": "Ingredients - Caviar",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_favorite_deputy",
+              "kb_shooting_star,$has_twilight_town_combat"
+            ]
           },
           {
             "name": "Ingredients - Butter",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_favorite_deputy|kb_nano_gear",
+              "kb_shooting_star,$has_twilight_town_combat"
+            ]
           },
           {
             "name": "Ingredients - Olive Oil",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_happy_gear|kb_nano_gear",
+              "ability_doubleflight,ability_high_jump,kb_favorite_deputy",
+              "ability_superjump,aero,kb_favorite_deputy,unlock_magic",
+              "kb_favorite_deputy,$has_any|ability_air_slide|unlock_wall_run"
+            ]
           },
           {
             "name": "Ingredients - Cornichon",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_favorite_deputy",
+              "kb_shooting_star,$has_twilight_town_combat"
+            ]
           },
           {
             "name": "Ingredients - Rice",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_happy_gear|kb_nano_gear"
+            ]
           },
           {
             "name": "Ingredients - Veal",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,kb_heros_origin",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_shooting_star,$has_twilight_town_combat",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Beef",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$has_any|kb_favorite_deputy|kb_happy_gear",
+              "kb_heros_origin,unlock_wall_run",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Quail",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_nano_gear",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           },
           {
             "name": "Ingredients - Filet Mignon",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "kb_happy_gear",
+              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
           }
         ],
         "map_locations": []

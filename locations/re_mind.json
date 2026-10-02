@@ -2,7 +2,7 @@
   {
     "name": "Re Mind",
     "access_rules": [
-      "active_remind,kingdom_key,$has_tier_one_keyblades"
+      "$has_tier_one_keyblades"
     ],
     "children": [
       {
@@ -15,70 +15,70 @@
                 "name": "Defeat Dark Inferno χ in The Keyblade Graveyard (Re:Mind)",
                 "item_count": 1,
                 "access_rules": [
-                  "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Anti-Aqua in The Keyblade Graveyard (Re:Mind)",
                 "item_count": 1,
                 "access_rules": [
-                  "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Terra-Xehanort in The Keyblade Graveyard (Re:Mind)",
                 "item_count": 1,
                 "access_rules": [
-                  "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Xigbar & Dark Riku in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Trail of Valediction",
                 "item_count": 1,
                 "access_rules": [
-                  "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Luxord, Marluxia, & Larxene in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Trail of Valediction",
                 "item_count": 1,
                 "access_rules": [
-                  "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Vanitas & Terra-Xehanort in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Twist of Isolation",
                 "item_count": 1,
                 "access_rules": [
-                  "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "After the Saïx boss battle in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Twist of Isolation",
                 "item_count": 1,
                 "access_rules": [
-                  "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Tower of Endings",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Darkside in Scala ad Caelum (Re:Mind) - Breezy Quarter",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               },
               {
                 "name": "Defeat Armored Xehanort in Re:Mind",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -124,7 +124,7 @@
                 "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -143,7 +143,7 @@
                 "name": "Re Mind - Chest 2 (Large Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -162,7 +162,7 @@
                 "name": "Re Mind - Chest 3 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -181,7 +181,7 @@
                 "name": "Re Mind - Chest 4 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -200,7 +200,7 @@
                 "name": "Re Mind - Chest 5 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -219,7 +219,7 @@
                 "name": "Re Mind - Chest 6 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -238,7 +238,7 @@
                 "name": "Re Mind - Chest 7 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -257,7 +257,7 @@
                 "name": "Re Mind - Chest 8 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],
@@ -276,7 +276,7 @@
                 "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
                 ]
               }
             ],

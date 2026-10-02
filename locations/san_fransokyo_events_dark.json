@@ -65,96 +65,96 @@
         "name": "San Fransokyo - Flash Tracer Course A - A Rank",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - A Rank",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course A - A Rank First Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - A Rank First Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course A - A Rank Repeat Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - A Rank Repeat Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course A - B Rank Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - B Rank Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course A - C Rank Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - C Rank Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course A - D Rank Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course A)/Minigames - San Fransokyo (Flash Tracer Course A) - Checks/San Fransokyo - Flash Tracer Course A - D Rank Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course B - A Rank",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - A Rank",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course B - A Rank First Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - A Rank First Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course B - A Rank Repeat Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - A Rank Repeat Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course B - B Rank Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - B Rank Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course B - C Rank Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - C Rank Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - Flash Tracer Course B - D Rank Item Reward",
         "ref": "Minigames - San Fransokyo (Flash Tracer Course B)/Minigames - San Fransokyo (Flash Tracer Course B) - Checks/San Fransokyo - Flash Tracer Course B - D Rank Item Reward",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       }
     ],
@@ -174,8 +174,8 @@
         "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score",
         "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - San Fransokyo - Honeydew Flan - High Score",
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,aero,fire,kb_nano_gear,unlock_magic,$has_any|blizzard|water",
+          "ability_pole_spin,kb_nano_gear,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       }
     ],
@@ -193,7 +193,10 @@
     "sections": [
       {
         "name": "Moogle Workshop - Photo Mission 17 (Star Charm)",
-        "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 17 (Star Charm)"
+        "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 17 (Star Charm)",
+        "access_rules": [
+          "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+        ]
       }
     ],
     "map_locations": [
@@ -210,7 +213,10 @@
     "sections": [
       {
         "name": "Moogle Workshop - Photo Mission 18 (Aero Armlet)",
-        "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 18 (Aero Armlet)"
+        "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 18 (Aero Armlet)",
+        "access_rules": [
+          "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+        ]
       }
     ],
     "map_locations": [
