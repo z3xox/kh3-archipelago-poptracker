@@ -1188,6 +1188,11 @@ function onItem(index, item_id, item_name, player_id)
     elseif mapping.type == "consumable_max" then
         obj.AcquiredCount = mapping.max or obj.AcquiredCount
     end
+    -- An item may also switch on a second toggle (Endymion: Misty Stream ship + its own gate).
+    if mapping.also then
+        local also = Tracker:FindObjectForCode(mapping.also)
+        if also then also.Active = true end
+    end
     print(string.format("onItem: tracked '%s' -> %s", item_name, mapping.code))
 
     if item_name == "Magic: Cure" then
@@ -1481,6 +1486,10 @@ function onClear(slot_data)
             elseif mapping.type == "consumable" or mapping.type == "consumable_max" then
                 obj.AcquiredCount = 0
             end
+        end
+        if mapping.also then
+            local also = Tracker:FindObjectForCode(mapping.also)
+            if also then also.Active = false end
         end
     end
 
