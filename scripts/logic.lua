@@ -20,12 +20,58 @@ end
 -- would be misleading -- swap the Gimmick Unlocks grid instead of listing them.
 STYLE_CHANGE_KEYBLADE_SANITY = 1
 
+-- Keyblade Levels (apworld option): 0 = start at max (no level items at all),
+-- 1 = shuffled (ten shared Progressive Keyblade Level items), 2 = keyblade upgrade
+-- sanity (ten Progressive <Keyblade> Level items per keyblade). Counters only
+-- exist for the modes that use them: the shared one is listed in the Gimmick
+-- Unlocks grid, the per-keyblade ones are drawn over the keyblade icons, and
+-- start at max shows nothing.
+KEYBLADE_LEVELS_SHUFFLED = 1
+KEYBLADE_LEVELS_PER_KEYBLADE = 2
+
+local function keyblade_levels_mode()
+    local obj = Tracker:FindObjectForCode("keyblade_levels_setting")
+    return obj and obj.CurrentStage or 0
+end
+
 function update_gimmick_layout()
     local obj = Tracker:FindObjectForCode("style_change_setting")
-    if obj and obj.CurrentStage == STYLE_CHANGE_KEYBLADE_SANITY then
-        Tracker:AddLayouts("layouts/gimmick_stylesanity.json")
+    local style_sanity = obj and obj.CurrentStage == STYLE_CHANGE_KEYBLADE_SANITY
+    local with_level_counter = keyblade_levels_mode() == KEYBLADE_LEVELS_SHUFFLED
+    if style_sanity then
+        Tracker:AddLayouts(with_level_counter and "layouts/gimmick_stylesanity_levels.json"
+                           or "layouts/gimmick_stylesanity.json")
     else
-        Tracker:AddLayouts("layouts/gimmick_shared.json")
+        Tracker:AddLayouts(with_level_counter and "layouts/gimmick_shared_levels.json"
+                           or "layouts/gimmick_shared.json")
+    end
+end
+
+-- The keyblades that have a Moogle Workshop upgrade check, by their tracker code.
+KEYBLADE_LEVEL_KEYBLADES = {
+    "kingdom_key", "kb_shooting_star", "kb_heros_origin", "kb_favorite_deputy", "kb_ever_after",
+    "kb_wheel_of_fate", "kb_crystal_snow", "kb_hunny_spout", "kb_nano_gear", "kb_happy_gear",
+    "kb_classic_tone", "kb_grand_chef", "kb_starlight", "kb_oathkeeper", "kb_oblivion",
+}
+
+-- "kb_ever_after" -> "lvl_ever_after", "kingdom_key" -> "lvl_kingdom_key"
+local function keyblade_level_counter(keyblade_code)
+    return "lvl_" .. (keyblade_code:gsub("^kb_", ""))
+end
+
+function update_keyblade_level_overlays()
+    local per_keyblade = keyblade_levels_mode() == KEYBLADE_LEVELS_PER_KEYBLADE
+    for _, code in ipairs(KEYBLADE_LEVEL_KEYBLADES) do
+        local keyblade = Tracker:FindObjectForCode(code)
+        if keyblade then
+            if per_keyblade then
+                local counter = Tracker:FindObjectForCode(keyblade_level_counter(code))
+                keyblade:SetOverlay(tostring(counter and counter.AcquiredCount or 0))
+                keyblade:SetOverlayFontSize(11)
+            else
+                keyblade:SetOverlay("")
+            end
+        end
     end
 end
 
@@ -119,6 +165,18 @@ end
 
 function has_caribbean_safety_tool()
     if hasCaribbeanSafetyTool() then return 1 end
+    return 0
+end
+
+-- Access rule helper: $keyblade_upgrade|<keyblade code>|<level>
+-- A Moogle Workshop upgrade check needs its keyblade and, unless the seed starts
+-- every keyblade at max, enough level items: the shared ones or that keyblade's own.
+function keyblade_upgrade(keyblade_code, level)
+    if not hasCode(keyblade_code) then return 0 end
+    local mode = keyblade_levels_mode()
+    if mode == 0 then return 1 end
+    local counter = (mode == KEYBLADE_LEVELS_SHUFFLED) and "lvl_shared" or keyblade_level_counter(keyblade_code)
+    if Tracker:ProviderCountForCode(counter) >= (tonumber(level) or 1) then return 1 end
     return 0
 end
 

@@ -77,6 +77,24 @@ ITEM_MAPPING_BY_NAME = {
     ["Unlock: Attraction Flow"] = { code = "unlock_attraction_flow", type = "toggle" },
     ["Unlock: Airstep"] = { code = "unlock_airstep", type = "toggle" },
     ["Unlock: Links"] = { code = "unlock_links", type = "toggle" },
+    -- Keyblade Levels: "shuffled" gives ten shared items, "keyblade upgrade sanity" ten per keyblade.
+    -- Only the keyblades with a Moogle Workshop upgrade check are tracked.
+    ["Progressive Keyblade Level"] = { code = "lvl_shared", type = "consumable" },
+    ["Progressive Kingdom Key Level"] = { code = "lvl_kingdom_key", type = "consumable" },
+    ["Progressive Shooting Star Level"] = { code = "lvl_shooting_star", type = "consumable" },
+    ["Progressive Hero's Origin Level"] = { code = "lvl_heros_origin", type = "consumable" },
+    ["Progressive Favorite Deputy Level"] = { code = "lvl_favorite_deputy", type = "consumable" },
+    ["Progressive Ever After Level"] = { code = "lvl_ever_after", type = "consumable" },
+    ["Progressive Wheel of Fate Level"] = { code = "lvl_wheel_of_fate", type = "consumable" },
+    ["Progressive Crystal Snow Level"] = { code = "lvl_crystal_snow", type = "consumable" },
+    ["Progressive Hunny Spout Level"] = { code = "lvl_hunny_spout", type = "consumable" },
+    ["Progressive Nano Gear Level"] = { code = "lvl_nano_gear", type = "consumable" },
+    ["Progressive Happy Gear Level"] = { code = "lvl_happy_gear", type = "consumable" },
+    ["Progressive Classic Tone Level"] = { code = "lvl_classic_tone", type = "consumable" },
+    ["Progressive Grand Chef Level"] = { code = "lvl_grand_chef", type = "consumable" },
+    ["Progressive Starlight Level"] = { code = "lvl_starlight", type = "consumable" },
+    ["Progressive Oathkeeper Level"] = { code = "lvl_oathkeeper", type = "consumable" },
+    ["Progressive Oblivion Level"] = { code = "lvl_oblivion", type = "consumable" },
     ["Unlock: Style Change"] = { code = "unlock_style_change", type = "toggle" },
     -- Classic Kingdom minigame unlocks. Each "<game> - High Score" check is
     -- gated on its own game, and "Complete All Games" on all 23 (Rules.py).

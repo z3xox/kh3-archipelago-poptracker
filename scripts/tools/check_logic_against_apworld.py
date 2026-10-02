@@ -18,11 +18,12 @@ It covers what check_pack_schema / sync_access_rules cannot: world access
 Emblems, Coliseum cups, Moogle Workshop, classic kingdom, ingredients.
 
 Settings are modelled as "everything on": every pool active, Lucky Emblems per
-check = vanilla milestones, keyblade levels = start at max (the tracker does not
-track Progressive Keyblade Level items).
+check = vanilla milestones.
 
 Scenarios: plain, starts (start_with_* unlocks), base (default base abilities),
-hearts (goal = 7 Heart Pieces).
+hearts (goal = 7 Heart Pieces), levels_shared / levels_each (Keyblade Levels
+shuffled / keyblade upgrade sanity, with random Progressive Keyblade Level counts).
+The other scenarios use "start at max".
 
 Needs `pip install lupa`. Targets the 0.16.x Rules.py (plain lambdas on a state);
 0.17's rule-builder classes would need the fake state extended.
@@ -183,12 +184,15 @@ class Opt:
 
 
 SCENARIOS = {
-    "plain": dict(unlocks=(), base=False, goal="three_proofs"),
+    "plain": dict(unlocks=(), base=False, goal="three_proofs", levels=0),
     "starts": dict(unlocks=("start_with_wall_run", "start_with_magic", "start_with_attraction_flow",
-                            "start_with_links"), base=False, goal="three_proofs"),
-    "base": dict(unlocks=(), base=True, goal="three_proofs"),
-    "hearts": dict(unlocks=(), base=False, goal="seven_heart_pieces"),
+                            "start_with_links"), base=False, goal="three_proofs", levels=0),
+    "base": dict(unlocks=(), base=True, goal="three_proofs", levels=0),
+    "hearts": dict(unlocks=(), base=False, goal="seven_heart_pieces", levels=0),
+    "levels_shared": dict(unlocks=(), base=False, goal="three_proofs", levels=1),
+    "levels_each": dict(unlocks=(), base=False, goal="three_proofs", levels=2),
 }
+SHARED_LEVEL_ITEM = "Progressive Keyblade Level"
 
 
 # ------------------------------------------------------------------ one scenario
@@ -223,7 +227,7 @@ class Harness:
         sc = self.scenario
         goal = types.SimpleNamespace(current_key=sc["goal"], value=int(sc["goal"] != "three_proofs"))
         options = types.SimpleNamespace(default_base_abilities=Opt(int(sc["base"])),
-                                        keyblade_levels=Opt(0), goal=goal)
+                                        keyblade_levels=Opt(sc["levels"]), goal=goal)
         for option_name in self.Data.CONTROLLER_UNLOCK_ITEM_NAMES_BY_OPTION:
             setattr(options, option_name, Opt(int(option_name in sc["unlocks"])))
         self.Regions.location_name_to_id = {r["name"]: self.base_id + i for i, r in enumerate(self.catalog)}
@@ -250,7 +254,8 @@ class Harness:
         self.lua.execute(f"""
             COUNTS = {{}}
             SETTINGS = {{goal={{CurrentStage={goal_stage}}}, lep_check={{AcquiredCount=0}},
-                         le_limit={{AcquiredCount=90}}, lu_limit={{AcquiredCount=99}}}}
+                         le_limit={{AcquiredCount=90}}, lu_limit={{AcquiredCount=99}},
+                         keyblade_levels_setting={{CurrentStage={self.scenario["levels"]}}}}}
             Tracker = {{}}
             function Tracker:ProviderCountForCode(c)
               if string.sub(c, 1, 7) == "active_" then return 1 end
@@ -321,22 +326,22 @@ class Harness:
                 return False
         return True
 
-    def evaluate(self, owned, heart_pieces=0):
-        """owned: set of AP item names. Returns (state, tracker counts)."""
+    def evaluate(self, owned, counted):
+        """owned: set of AP item names; counted: {AP item name: copies}. Returns (state, tracker counts)."""
         names = set(owned) | self.free
         ap_counts = {n: 1 for n in names}
         counts = {self.name_to_code[n]: 1 for n in names if n in self.name_to_code}
         counts["unlock_airstep"] = 1
-        if heart_pieces:
-            ap_counts[HEART_PIECE] = heart_pieces
-            counts[self.name_to_code[HEART_PIECE]] = heart_pieces
+        for name, copies in counted.items():
+            ap_counts[name] = copies
+            counts[self.name_to_code[name]] = copies
         state = State(self.mw, ap_counts)
         state.compute()
         self.set_counts(self.lua.table_from(counts))
         return state, counts
 
-    def disagreements(self, owned, heart_pieces=0):
-        state, counts = self.evaluate(owned, heart_pieces)
+    def disagreements(self, owned, counted):
+        state, counts = self.evaluate(owned, counted)
         found = []
         for row, section, location in self.pairs:
             ap = bool(location.can_reach(state))
@@ -345,11 +350,11 @@ class Harness:
                     found.append((section, path, ap, row["type"]))
         return found
 
-    def minimal_inventory(self, section, path, owned, heart_pieces):
+    def minimal_inventory(self, section, path, owned, counted):
         items = sorted(owned)
 
         def differs(inv):
-            return any(s == section and p == path for s, p, _, _ in self.disagreements(set(inv), heart_pieces))
+            return any(s == section and p == path for s, p, _, _ in self.disagreements(set(inv), counted))
 
         i = 0
         while i < len(items):
@@ -362,14 +367,23 @@ class Harness:
 
     def run(self, inventories, seed, show):
         rnd = random.Random(seed)
-        universe = sorted(set(self.name_to_code) - {"Unlock: Airstep", HEART_PIECE})
+        level_items = {SHARED_LEVEL_ITEM} | set(self.Data.PROGRESSIVE_KEYBLADE_LEVEL_ITEM_NAME_BY_KEYBLADE.values())
+        tracked_level_items = sorted(n for n in level_items if n in self.name_to_code)
+        universe = sorted(set(self.name_to_code) - {"Unlock: Airstep", HEART_PIECE} - level_items)
         seen = {}
         for _ in range(inventories):
             density = rnd.choice([0.1, 0.2, 0.3, 0.45, 0.6, 0.75, 0.9])
             owned = {n for n in universe if rnd.random() < density}
-            hearts = rnd.randint(0, 9) if self.scenario["goal"] == "seven_heart_pieces" else 0
-            for section, path, ap, kind in self.disagreements(owned, hearts):
-                entry = seen.setdefault((section, path), {"ap": 0, "tracker": 0, "kind": kind, "inv": (owned, hearts)})
+            counted = {}
+            if self.scenario["goal"] == "seven_heart_pieces":
+                counted[HEART_PIECE] = rnd.randint(0, 9)
+            if self.scenario["levels"] == 1:
+                counted[SHARED_LEVEL_ITEM] = rnd.choice([0, rnd.randint(1, 10), 10])
+            if self.scenario["levels"] == 2:
+                for name in tracked_level_items:
+                    counted[name] = rnd.choice([0, rnd.randint(1, 10), 10])
+            for section, path, ap, kind in self.disagreements(owned, counted):
+                entry = seen.setdefault((section, path), {"ap": 0, "tracker": 0, "kind": kind, "inv": (owned, counted)})
                 entry["ap" if ap else "tracker"] += 1
         return seen
 
@@ -392,11 +406,11 @@ def main():
               f"({len(harness.untracked)} apworld locations have no tracker section): "
               f"{len(seen)} disagreeing section(s)")
         for (section, path), entry in sorted(seen.items(), key=lambda kv: -(kv[1]["ap"] + kv[1]["tracker"]))[:args.show]:
-            owned, hearts = entry["inv"]
-            minimal = harness.minimal_inventory(section, path, owned, hearts)
+            owned, counted = entry["inv"]
+            minimal = harness.minimal_inventory(section, path, owned, counted)
             who = "tracker too strict" if entry["ap"] > entry["tracker"] else "tracker too permissive"
             print(f"    {section} [{path}] ({entry['kind']}, {who}: AP-only {entry['ap']}, tracker-only {entry['tracker']})"
-                  f"\n        e.g. {minimal}" + (f" + {hearts} Heart Piece" if hearts else ""))
+                  f"\n        e.g. {minimal} + counts { {k: v for k, v in counted.items() if v} }")
         failed |= bool(seen)
     sys.exit(1 if failed else 0)
 

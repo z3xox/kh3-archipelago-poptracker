@@ -1298,6 +1298,11 @@ function autoFill(slot_data)
     setToggle("unlock_style_change", (slot_data["style_change"] or 0) == STYLE_CHANGE_ALWAYS_ON)
     setStage("style_change_setting", slot_data["style_change"] or 0)
 
+    -- Keyblade Levels (0 = start at max, 1 = shuffled, 2 = keyblade upgrade sanity;
+    -- the apworld default is shuffled). Drives the level counters and the
+    -- Moogle Workshop upgrade rules.
+    setStage("keyblade_levels_setting", slot_data["keyblade_levels"] or 1)
+
     -- World on/off flags -> Settings menu stage. The apworld dropped the old
     -- boolean "include_*" slot_data keys; each world's checks now live behind
     -- a pool mode (KH3LocationPoolMode) under slot_data.kh3_randomizer.pools,

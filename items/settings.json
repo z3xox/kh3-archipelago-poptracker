@@ -546,6 +546,34 @@
     ]
   },
   {
+    "name": "Keyblade Levels",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/keyblades/Generic.png",
+        "img_mods": "saturation|0",
+        "codes": "keyblade_levels_setting",
+        "inherit_codes": false,
+        "name": "Keyblade Levels - Start at Max"
+      },
+      {
+        "img": "images/items/keyblades/Generic.png",
+        "codes": "keyblade_levels_setting, keyblade_levels_shared",
+        "inherit_codes": false,
+        "name": "Keyblade Levels - Shuffled"
+      },
+      {
+        "img": "images/items/keyblades/Generic.png",
+        "codes": "keyblade_levels_setting, keyblade_levels_each",
+        "inherit_codes": false,
+        "name": "Keyblade Levels - Keyblade Upgrade Sanity"
+      }
+    ]
+  },
+  {
     "name": "Synthesis",
     "type": "progressive",
     "allow_disabled": false,

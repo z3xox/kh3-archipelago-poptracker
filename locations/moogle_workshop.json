@@ -501,133 +501,133 @@
             "name": "Moogle Workshop - Kingdom Key Level 4",
             "item_count": 1,
             "access_rules": [
-              "kingdom_key"
+              "$keyblade_upgrade|kingdom_key|4"
             ]
           },
           {
             "name": "Moogle Workshop - Hero's Origin Level 4",
             "item_count": 1,
             "access_rules": [
-              "kb_heros_origin"
+              "$keyblade_upgrade|kb_heros_origin|4"
             ]
           },
           {
             "name": "Moogle Workshop - Shooting Star Level 4",
             "item_count": 1,
             "access_rules": [
-              "kb_shooting_star"
+              "$keyblade_upgrade|kb_shooting_star|4"
             ]
           },
           {
             "name": "Moogle Workshop - Favorite Deputy Level 4",
             "item_count": 1,
             "access_rules": [
-              "kb_favorite_deputy"
+              "$keyblade_upgrade|kb_favorite_deputy|4"
             ]
           },
           {
             "name": "Moogle Workshop - Ever After Level 4",
             "item_count": 1,
             "access_rules": [
-              "kb_ever_after"
+              "$keyblade_upgrade|kb_ever_after|4"
             ]
           },
           {
             "name": "Moogle Workshop - Ever After Level 10",
             "item_count": 1,
             "access_rules": [
-              "kb_ever_after"
+              "$keyblade_upgrade|kb_ever_after|10"
             ]
           },
           {
             "name": "Moogle Workshop - Happy Gear Level 6",
             "item_count": 1,
             "access_rules": [
-              "kb_happy_gear"
+              "$keyblade_upgrade|kb_happy_gear|6"
             ]
           },
           {
             "name": "Moogle Workshop - Crystal Snow Level 9",
             "item_count": 1,
             "access_rules": [
-              "kb_crystal_snow"
+              "$keyblade_upgrade|kb_crystal_snow|9"
             ]
           },
           {
             "name": "Moogle Workshop - Hunny Spout Level 6",
             "item_count": 1,
             "access_rules": [
-              "kb_hunny_spout"
+              "$keyblade_upgrade|kb_hunny_spout|6"
             ]
           },
           {
             "name": "Moogle Workshop - Nano Gear Level 6",
             "item_count": 1,
             "access_rules": [
-              "kb_nano_gear"
+              "$keyblade_upgrade|kb_nano_gear|6"
             ]
           },
           {
             "name": "Moogle Workshop - Wheel of Fate Level 6",
             "item_count": 1,
             "access_rules": [
-              "kb_wheel_of_fate"
+              "$keyblade_upgrade|kb_wheel_of_fate|6"
             ]
           },
           {
             "name": "Moogle Workshop - Classic Tone Level 6",
             "item_count": 1,
             "access_rules": [
-              "kb_classic_tone"
+              "$keyblade_upgrade|kb_classic_tone|6"
             ]
           },
           {
             "name": "Moogle Workshop - Classic Tone Level 9",
             "item_count": 1,
             "access_rules": [
-              "kb_classic_tone"
+              "$keyblade_upgrade|kb_classic_tone|9"
             ]
           },
           {
             "name": "Moogle Workshop - Grand Chef Level 3",
             "item_count": 1,
             "access_rules": [
-              "kb_grand_chef"
+              "$keyblade_upgrade|kb_grand_chef|3"
             ]
           },
           {
             "name": "Moogle Workshop - Starlight Level 4",
             "item_count": 1,
             "access_rules": [
-              "kb_starlight"
+              "$keyblade_upgrade|kb_starlight|4"
             ]
           },
           {
             "name": "Moogle Workshop - Oathkeeper Level 4",
             "item_count": 1,
             "access_rules": [
-              "kb_oathkeeper"
+              "$keyblade_upgrade|kb_oathkeeper|4"
             ]
           },
           {
             "name": "Moogle Workshop - Oathkeeper Level 9",
             "item_count": 1,
             "access_rules": [
-              "kb_oathkeeper"
+              "$keyblade_upgrade|kb_oathkeeper|9"
             ]
           },
           {
             "name": "Moogle Workshop - Oblivion Level 4",
             "item_count": 1,
             "access_rules": [
-              "kb_oblivion"
+              "$keyblade_upgrade|kb_oblivion|4"
             ]
           },
           {
             "name": "Moogle Workshop - Oblivion Level 9",
             "item_count": 1,
             "access_rules": [
-              "kb_oblivion"
+              "$keyblade_upgrade|kb_oblivion|9"
             ]
           }
         ],

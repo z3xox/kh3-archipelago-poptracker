@@ -70,6 +70,7 @@ TT_COMBAT_ATOM = "$has_twilight_town_combat"
 CARIBBEAN_ATOM = "$has_caribbean_safety_tool"
 FINAL_BOSS_ATOM = "$can_reach_final_boss"
 ALL_CLASSIC_KINGDOM_ATOM = "$has_all_classic_kingdom_games"
+KEYBLADE_UPGRADE_ATOM = "$keyblade_upgrade"
 COMPLETE_ATOM = "$can_complete_coliseum_worlds"
 
 TRUE = frozenset([frozenset()])
@@ -281,8 +282,9 @@ def apworld_rules(apworld):
             if kind == "photo_mission" or row.get("synthesis_order", 0) > 15:
                 rule = AND(rule, atom(FINAL_BOSS_ATOM))
         if kind == "keyblade_upgrade":
-            # Progressive Keyblade Level items are not tracked: "start at max" semantics.
-            rule = AND(rule, atom(code(row["keyblade_name"])))
+            # The keyblade plus, depending on the Keyblade Levels option, enough level items:
+            # the tracker's $keyblade_upgrade function covers all three modes.
+            rule = AND(rule, atom(f"{KEYBLADE_UPGRADE_ATOM}|{code(row['keyblade_name'])}|{row['keyblade_level']}"))
         lock = battlegate_lock.get(row["source_id"])
         if lock is not None:
             rule = AND(rule, gate(lock))

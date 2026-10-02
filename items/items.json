@@ -736,5 +736,165 @@
     "type": "toggle",
     "codes": "kb_starlight",
     "img": "images/items/keyblades/Starlight.png"
+  },
+  {
+    "name": "Keyblade Level",
+    "type": "consumable",
+    "codes": "lvl_shared",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Kingdom Key Level",
+    "type": "consumable",
+    "codes": "lvl_kingdom_key",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Shooting Star Level",
+    "type": "consumable",
+    "codes": "lvl_shooting_star",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Hero's Origin Level",
+    "type": "consumable",
+    "codes": "lvl_heros_origin",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Favorite Deputy Level",
+    "type": "consumable",
+    "codes": "lvl_favorite_deputy",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Ever After Level",
+    "type": "consumable",
+    "codes": "lvl_ever_after",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Wheel of Fate Level",
+    "type": "consumable",
+    "codes": "lvl_wheel_of_fate",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Crystal Snow Level",
+    "type": "consumable",
+    "codes": "lvl_crystal_snow",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Hunny Spout Level",
+    "type": "consumable",
+    "codes": "lvl_hunny_spout",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Nano Gear Level",
+    "type": "consumable",
+    "codes": "lvl_nano_gear",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Happy Gear Level",
+    "type": "consumable",
+    "codes": "lvl_happy_gear",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Classic Tone Level",
+    "type": "consumable",
+    "codes": "lvl_classic_tone",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Grand Chef Level",
+    "type": "consumable",
+    "codes": "lvl_grand_chef",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Starlight Level",
+    "type": "consumable",
+    "codes": "lvl_starlight",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Oathkeeper Level",
+    "type": "consumable",
+    "codes": "lvl_oathkeeper",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Oblivion Level",
+    "type": "consumable",
+    "codes": "lvl_oblivion",
+    "img": "images/items/keyblades/Generic.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
   }
 ]

@@ -54,9 +54,18 @@ Tracker:AddLayouts("layouts/settings.json")
 update_goal_layout()
 ScriptHost:AddWatchForCode("goal_layout_watch", "goal", update_goal_layout)
 
--- Keyblade Style unlocks appear inside Gimmick Unlocks only in KeybladeStyleSanity
+-- Keyblade Style unlocks appear inside Gimmick Unlocks only in KeybladeStyleSanity,
+-- and the shared Keyblade Level counter only in the Shuffled keyblade levels mode
 update_gimmick_layout()
 ScriptHost:AddWatchForCode("gimmick_layout_watch", "style_change_setting", update_gimmick_layout)
+ScriptHost:AddWatchForCode("gimmick_layout_levels_watch", "keyblade_levels_setting", update_gimmick_layout)
+
+-- Per-keyblade levels (Keyblade Upgrade Sanity) are drawn over the keyblade icons
+update_keyblade_level_overlays()
+ScriptHost:AddWatchForCode("keyblade_level_overlay_mode_watch", "keyblade_levels_setting", update_keyblade_level_overlays)
+for _, code in ipairs(KEYBLADE_LEVEL_KEYBLADES) do
+    ScriptHost:AddWatchForCode("keyblade_level_overlay_" .. code, "lvl_" .. code:gsub("^kb_", ""), update_keyblade_level_overlays)
+end
 
 -- Minigame max-rank settings show "<minigame> <rank>" over their shared icon
 update_minigame_rank_overlays()
