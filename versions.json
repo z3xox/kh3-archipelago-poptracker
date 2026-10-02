@@ -1,6 +1,19 @@
 {
   "versions": [
   {
+    "package_version": "0.4.5",
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.5/kh3-archipelago-poptracker-v0.4.5.zip",
+    "sha256": "e25b0a4cb87325ebdc20cc6e9c8bb22e99c345fd1caaac92eb476fd817d3c9db",
+    "changelog": [
+      "Added Keyblade Levels tracking, auto-synced from the seed's Keyblade Levels option: a shared Keyblade Level counter in the Gimmick Unlocks grid with Shuffled, each keyblade's own level drawn on its icon with Keyblade Upgrade Sanity, and nothing at all when keyblades start at max. The 19 Moogle Workshop upgrade checks now need the matching keyblade and levels instead of lighting up as soon as the keyblade was owned.",
+      "Added the Links unlock as a trackable item (Start With Links is auto-synced). The Monstropolis Heartbinder routes now require it, as the apworld does.",
+      "Default Base Abilities now also marks Air Slide and Wall Kick as owned, not only Block, Dodge Roll and Pole Spin, so the checks that depend on them no longer show as out of reach.",
+      "Victory no longer requires Unlock: Style Change: the final door only asks for the goal items (3 Proofs or 7 Heart Pieces).",
+      "Checked every access rule against the apworld's own rules on randomized inventories and fixed about 170 sections that disagreed, among them: Twilight Town no longer needs three tier-one keyblades and only needs one of Block, Air Slide or Dodge Roll; the Caribbean's Blizzard route also needs the Magic unlock; Unreality only needs the tier gate, not Re:Mind's Kingdom Key; the opening Darkside check needs no keyblade; the four Keyblade Graveyard / Re:Mind shared chests open with Starlight or Kingdom Key; Battlegate reports are gated by their world; Data Battles need Second Chance and Withstand Combo.",
+      "Moogle Workshop synthesis and photo missions, the Ingredientsanity checks, the Flash Tracer and Flantastic rewards and the Coliseum cups now require what the apworld requires (every main world completed, plus the final boss for the late recipes and photo missions). A world now counts as completed using the real requirements of its final encounter; Wall Run was missing from almost all of them."
+    ]
+  },
+  {
     "package_version": "0.4.4",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.4/kh3-archipelago-poptracker-v0.4.4.zip",
     "sha256": "5004bb2c13732f9e6e90e26e8af57ac36b88124057162ff67bade436a98ad8a8",
