@@ -1,6 +1,18 @@
 {
   "versions": [
   {
+    "package_version": "1.0.0",
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v1.0.0/kh3-archipelago-poptracker-v1.0.0.zip",
+    "sha256": "",
+    "changelog": [
+      "Added Gummi space: a Gummi Space tab with the Starlight Way, Misty Stream and The Eclipse maps, and its 93 checks -- 55 battle rewards pinned on each map's red-heart markers, 9 treasure spheres, 9 ship Gazers and 20 global missions, all autotracked. A Gummi Space switch in the world pool settings follows the seed's include_space option (off by default, like the apworld).",
+      "Added Gummi ship tracking: one counter per galaxy fed by its blueprints, an Endymion toggle and a Special Weapons counter, in a new Gummi Space group of the item grid. Access rules follow the apworld: a galaxy needs one of its ships, global missions need any ship, Schwarzgeist and the Completionist need Endymion, Special Weapon missions count weapons (Trinity Fire and Decoy Duckies included once the shop grants them) and Treasure Hunter missions count the galaxies you can fly in.",
+      "Map auto-follow now switches to the Gummi Space tab, and to the right galaxy, when you take off.",
+      "Style Change is replaced by the apworld's new Stylesanity option (off/on), auto-synced from the seed and shown in the Gimmick Unlocks grid.",
+      "Added the 90 Lucky Emblem spots as map pins, placed on the green Mickey markers of each world map and in logic with the same movement requirements as the apworld. Each pin turns cleared as soon as that emblem is photographed in game: the KH3 client saves every capture on the AP server, so emblems photographed while PopTracker was closed or the pack was reloaded are restored on the next connection."
+    ]
+  },
+  {
     "package_version": "0.4.5",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.5/kh3-archipelago-poptracker-v0.4.5.zip",
     "sha256": "e25b0a4cb87325ebdc20cc6e9c8bb22e99c345fd1caaac92eb476fd817d3c9db",
