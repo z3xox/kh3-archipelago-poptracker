@@ -68,6 +68,8 @@ DEFENSIVE = ("ability_air_slide", "ability_block", "ability_dodge_roll")
 TIER_ATOM = "$has_tier_one_keyblades"
 # A world's portal: its keyblade, or its characters with Portal Unlocks = party members.
 PORTAL_ATOM = "$portal"
+# Chestsanity: the keyblade the seed assigned to a chest (by AP id), read from slot_data.
+CHEST_KEYBLADE_ATOM = "$chest_keyblade"
 TT_COMBAT_ATOM = "$has_twilight_town_combat"
 CARIBBEAN_ATOM = "$has_caribbean_safety_tool"
 FINAL_BOSS_ATOM = "$can_reach_final_boss"
@@ -285,6 +287,10 @@ def apworld_rules(apworld):
             rule = AND(rule, complete_all)
             if kind == "photo_mission" or row.get("synthesis_order", 0) > 15:
                 rule = AND(rule, atom(FINAL_BOSS_ATOM))
+        if kind == "treasure":
+            # Rules.location_rule adds Has(<assigned keyblade>) to the chest itself, so the
+            # checks that depend on it inherit the requirement too.
+            rule = AND(rule, atom(f"{CHEST_KEYBLADE_ATOM}|{dump.BASE_LOCATION_ID + index_by_key[key]}"))
         if kind == "keyblade_upgrade":
             # The keyblade plus, depending on the Keyblade Levels option, enough level items:
             # the tracker's $keyblade_upgrade function covers all three modes.

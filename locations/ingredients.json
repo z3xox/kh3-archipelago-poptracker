@@ -15,438 +15,597 @@
             "name": "Ingredients - Crab",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022995,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263022998,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023026,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023046,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Scallop",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263023002,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023015,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023026,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023035,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022940,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263022944,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Lobster",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022996,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023002,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023015,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023026,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023035,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023036,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022944,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263023001,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023030,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023036,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Sole",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat"
+              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "unlock_wall_run,$chest_keyblade|1263022944,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Eel",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after",
-              "$portal|kb_shooting_star,$has_twilight_town_combat"
+              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022933,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Sea Bass",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_nano_gear"
+              "$chest_keyblade|1263023079,$portal|kb_nano_gear",
+              "unlock_wall_run,$chest_keyblade|1263022940,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263022946,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Mussel",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_happy_gear",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022964,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022996,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263022998,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023014,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023046,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023037,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023043,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023044,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022945,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263023001,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023030,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023037,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023043,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023044,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Cod",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,$portal|kb_crystal_snow,unlock_wall_run",
-              "$portal|kb_ever_after,unlock_wall_run"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022972,$portal|kb_crystal_snow",
+              "unlock_wall_run,$chest_keyblade|1263022944,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263022946,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Pumpkin",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
               "$portal|kb_favorite_deputy",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "unlock_wall_run,$chest_keyblade|1263022923,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Zucchini",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_nano_gear"
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023057,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023066,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_nano_gear",
+              "unlock_wall_run,$chest_keyblade|1263022923,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Onion",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_happy_gear|kb_nano_gear",
-              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022956,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023013,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023073,$portal|kb_nano_gear",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022851,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022851,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022870,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022876,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - Tomato",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_favorite_deputy|kb_happy_gear|kb_nano_gear",
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022966,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023013,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023066,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023084,$portal|kb_nano_gear",
+              "$portal|kb_favorite_deputy",
+              "unlock_wall_run,$chest_keyblade|1263022923,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Eggplant",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run",
-              "$portal|kb_nano_gear"
+              "$chest_keyblade|1263023073,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023081,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023084,$portal|kb_nano_gear",
+              "unlock_wall_run,$chest_keyblade|1263022923,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263022942,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263023050,$portal|kb_nano_gear"
             ]
           },
           {
             "name": "Ingredients - Carrot",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_crystal_snow",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022969,$portal|kb_crystal_snow",
+              "$chest_keyblade|1263022975,$portal|kb_crystal_snow",
+              "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022984,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022993,$portal|kb_crystal_snow"
             ]
           },
           {
             "name": "Ingredients - Garlic",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_favorite_deputy|kb_nano_gear",
-              "$portal|kb_ever_after,unlock_wall_run"
+              "$chest_keyblade|1263022916,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023057,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023081,$portal|kb_nano_gear",
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$chest_keyblade|1263022923,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263022942,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263023050,$portal|kb_nano_gear"
             ]
           },
           {
             "name": "Ingredients - Celery",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$any_portal|kb_happy_gear|kb_heros_origin",
-              "ability_air_slide,ability_high_jump,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool",
-              "unlock_wall_run,$any_portal|kb_happy_gear|kb_heros_origin"
+              "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949,$portal|kb_happy_gear",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022851,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022851,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022870,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022876,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022949,$portal|kb_happy_gear"
             ]
           },
           {
             "name": "Ingredients - Morel",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,$portal|kb_crystal_snow,unlock_wall_run",
-              "$portal|kb_ever_after",
-              "$portal|kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022920,$portal|kb_ever_after",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022979,$portal|kb_crystal_snow",
+              "unlock_wall_run,$chest_keyblade|1263023030,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Porcini",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263023022,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022877,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022869,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022877,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - Chanterelle",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
-              "$portal|kb_ever_after",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat",
-              "$portal|kb_wheel_of_fate,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022888,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022933,$portal|kb_ever_after",
+              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022869,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - Portobello",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,$portal|kb_crystal_snow,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263023019,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023049,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022989,$portal|kb_crystal_snow"
             ]
           },
           {
             "name": "Ingredients - Black Truffle",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
-              "$portal|kb_ever_after,$has_any|ability_doubleflight|ability_high_jump",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022926,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after",
+              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - King Oyster Mushroom",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
-              "$portal|kb_ever_after",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022920,$portal|kb_ever_after",
+              "$chest_keyblade|1263022932,$portal|kb_ever_after",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022869,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022874,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263023030,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Black Trumpet",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after",
-              "$portal|kb_shooting_star,$has_twilight_town_combat",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022886,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022932,$portal|kb_ever_after",
+              "$chest_keyblade|1263022995,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022938,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Miller Mushroom",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,$portal|kb_crystal_snow,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022998,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023032,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022977,$portal|kb_crystal_snow",
+              "unlock_wall_run,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Cloves",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_favorite_deputy",
-              "$portal|kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022890,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$chest_keyblade|1263023001,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Rosemary",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after",
-              "$portal|kb_wheel_of_fate,unlock_wall_run,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022931,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263023030,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Thyme",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_ever_after|kb_favorite_deputy",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022891,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022926,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after",
+              "$chest_keyblade|1263022929,$portal|kb_ever_after",
+              "$chest_keyblade|1263023019,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023049,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Bay Leaf",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022919,$portal|kb_ever_after",
+              "$chest_keyblade|1263022929,$portal|kb_ever_after",
+              "$chest_keyblade|1263023022,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022940,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Basil",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_ever_after|kb_favorite_deputy",
-              "$portal|kb_wheel_of_fate,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022890,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022929,$portal|kb_ever_after",
+              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022935,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients - Dill",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_happy_gear",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022952,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022966,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022995,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023002,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Parsley",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
-              "ability_superjump,aero,$portal|kb_wheel_of_fate,unlock_magic,$has_caribbean_safety_tool",
-              "$portal|kb_favorite_deputy",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat",
-              "$portal|kb_wheel_of_fate,unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022889,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022890,$portal|kb_favorite_deputy",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Saffron",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,$portal|kb_wheel_of_fate,unlock_magic,$has_caribbean_safety_tool",
-              "$portal|kb_happy_gear",
-              "$portal|kb_wheel_of_fate,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022952,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949,$portal|kb_happy_gear",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$chest_keyblade|1263022949,$portal|kb_happy_gear",
+              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients - Apricot",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022882,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023007,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860,$portal|kb_heros_origin",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022863,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022860,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022863,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - Gooseberry",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_crystal_snow,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023007,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022979,$portal|kb_crystal_snow",
+              "unlock_wall_run,$chest_keyblade|1263022971,$portal|kb_crystal_snow"
             ]
           },
           {
             "name": "Ingredients - Lemon",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_heros_origin,$has_any|ability_doubleflight|ability_high_jump",
-              "$portal|kb_happy_gear",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022952,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022966,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022870,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022876,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - Orange",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_happy_gear",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022952,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022966,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949,$portal|kb_happy_gear",
+              "unlock_wall_run,$chest_keyblade|1263022949,$portal|kb_happy_gear"
             ]
           },
           {
             "name": "Ingredients - Raspberry",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,$portal|kb_crystal_snow,unlock_wall_run"
+              "ability_air_slide,ability_doubleflight,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022988,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022978,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022990,$portal|kb_crystal_snow"
             ]
           },
           {
             "name": "Ingredients - Pear",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_happy_gear",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022882,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022966,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949,$portal|kb_happy_gear",
+              "unlock_wall_run,$chest_keyblade|1263022867,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022949,$portal|kb_happy_gear"
             ]
           },
           {
             "name": "Ingredients - Blackberry",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,$portal|kb_crystal_snow,unlock_wall_run"
+              "ability_air_slide,ability_pole_spin,ability_superjump,ability_wall_kick,unlock_wall_run,$chest_keyblade|1263022992,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,ability_superjump,aero,unlock_magic,unlock_wall_run,$chest_keyblade|1263022992,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022990,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022992,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_crystal_snow"
             ]
           },
           {
             "name": "Ingredients - Apple",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat"
+              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022849,$portal|kb_heros_origin",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022865,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022849,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022865,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022866,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - Cheese",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_favorite_deputy|kb_happy_gear|kb_nano_gear"
+              "$chest_keyblade|1263022909,$has_any|ability_air_slide|unlock_wall_run,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022917,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022950,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023058,$portal|kb_nano_gear",
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022909,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$chest_keyblade|1263022906,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients - Chocolate",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_favorite_deputy",
-              "$portal|kb_shooting_star,$has_twilight_town_combat"
+              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022892,$portal|kb_favorite_deputy",
+              "$has_any|ability_doubleflight|ability_high_jump|unlock_wall_run,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients - Caviar",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_favorite_deputy",
-              "$portal|kb_shooting_star,$has_twilight_town_combat"
+              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022892,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022917,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients - Butter",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_favorite_deputy|kb_nano_gear",
-              "$portal|kb_shooting_star,$has_twilight_town_combat"
+              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022898,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022916,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263023051,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear"
             ]
           },
           {
             "name": "Ingredients - Olive Oil",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_happy_gear|kb_nano_gear",
-              "ability_doubleflight,ability_high_jump,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,$portal|kb_favorite_deputy,unlock_magic",
-              "$portal|kb_favorite_deputy,$has_any|ability_air_slide|unlock_wall_run"
+              "$chest_keyblade|1263022909,$has_any|ability_air_slide|unlock_wall_run,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022958,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022966,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023051,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023081,$portal|kb_nano_gear",
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022909,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$chest_keyblade|1263022906,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients - Cornichon",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_favorite_deputy",
-              "$portal|kb_shooting_star,$has_twilight_town_combat"
+              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022898,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022916,$portal|kb_favorite_deputy",
+              "$has_any|ability_doubleflight|ability_high_jump|unlock_wall_run,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients - Rice",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_happy_gear|kb_nano_gear"
+              "$chest_keyblade|1263022952,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023074,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023079,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023081,$portal|kb_nano_gear"
             ]
           },
           {
             "name": "Ingredients - Veal",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_shooting_star,$has_twilight_town_combat",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263023007,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022860,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients - Beef",
             "item_count": 1,
             "access_rules": [
-              "$any_portal|kb_favorite_deputy|kb_happy_gear",
-              "$portal|kb_heros_origin,unlock_wall_run",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022916,$portal|kb_favorite_deputy",
+              "$chest_keyblade|1263022966,$portal|kb_happy_gear",
+              "$chest_keyblade|1263023008,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$chest_keyblade|1263022866,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin",
+              "unlock_wall_run,$chest_keyblade|1263022906,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients - Quail",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_nano_gear",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023053,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023058,$portal|kb_nano_gear",
+              "$chest_keyblade|1263023074,$portal|kb_nano_gear"
             ]
           },
           {
             "name": "Ingredients - Filet Mignon",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_happy_gear",
-              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$chest_keyblade|1263022953,$portal|kb_happy_gear",
+              "$chest_keyblade|1263022999,$has_any|ability_doubleflight|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "$chest_keyblade|1263023010,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           }
         ],

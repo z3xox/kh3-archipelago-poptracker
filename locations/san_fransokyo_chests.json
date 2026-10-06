@@ -10,7 +10,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 3 (Large Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023050"
+            ]
           }
         ],
         "map_locations": [
@@ -26,7 +29,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 34 (Large Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023051"
+            ]
           }
         ],
         "map_locations": [
@@ -42,7 +48,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 35 (Large Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023052"
+            ]
           }
         ],
         "map_locations": [
@@ -58,7 +67,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 36 (Large Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023053"
+            ]
           }
         ],
         "map_locations": [
@@ -74,7 +86,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 2 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023055"
+            ]
           }
         ],
         "map_locations": [
@@ -90,7 +105,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 4 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023056"
+            ]
           }
         ],
         "map_locations": [
@@ -106,7 +124,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 5 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023057"
+            ]
           }
         ],
         "map_locations": [
@@ -122,7 +143,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 6 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023058"
+            ]
           }
         ],
         "map_locations": [
@@ -138,7 +162,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 7 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023059"
+            ]
           }
         ],
         "map_locations": [
@@ -154,7 +181,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 8 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023060"
+            ]
           }
         ],
         "map_locations": [
@@ -170,7 +200,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 9 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023061"
+            ]
           }
         ],
         "map_locations": [
@@ -186,7 +219,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 10 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023062"
+            ]
           }
         ],
         "map_locations": [
@@ -202,7 +238,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 13 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023065"
+            ]
           }
         ],
         "map_locations": [
@@ -218,7 +257,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 14 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023066"
+            ]
           }
         ],
         "map_locations": [
@@ -234,7 +276,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 15 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023067"
+            ]
           }
         ],
         "map_locations": [
@@ -250,7 +295,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 16 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023068"
+            ]
           }
         ],
         "map_locations": [
@@ -266,7 +314,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 17 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023069"
+            ]
           }
         ],
         "map_locations": [
@@ -282,7 +333,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 19 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023071"
+            ]
           }
         ],
         "map_locations": [
@@ -298,7 +352,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 20 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023072"
+            ]
           }
         ],
         "map_locations": [
@@ -314,7 +371,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 21 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023073"
+            ]
           }
         ],
         "map_locations": [
@@ -330,7 +390,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 22 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023074"
+            ]
           }
         ],
         "map_locations": [
@@ -346,7 +409,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 23 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023075"
+            ]
           }
         ],
         "map_locations": [
@@ -362,7 +428,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 24 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023076"
+            ]
           }
         ],
         "map_locations": [
@@ -378,7 +447,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 25 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023077"
+            ]
           }
         ],
         "map_locations": [
@@ -394,7 +466,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 26 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023078"
+            ]
           }
         ],
         "map_locations": [
@@ -410,7 +485,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 27 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023079"
+            ]
           }
         ],
         "map_locations": [
@@ -426,7 +504,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 28 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023080"
+            ]
           }
         ],
         "map_locations": [
@@ -442,7 +523,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 29 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023081"
+            ]
           }
         ],
         "map_locations": [
@@ -458,7 +542,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 31 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023083"
+            ]
           }
         ],
         "map_locations": [
@@ -474,7 +561,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 32 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023084"
+            ]
           }
         ],
         "map_locations": [
@@ -490,7 +580,10 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 33 (Small Chest, The City: North District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023085"
+            ]
           }
         ],
         "map_locations": [
@@ -506,15 +599,24 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 11 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023063"
+            ]
           },
           {
             "name": "San Fransokyo - Chest 12 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023064"
+            ]
           },
           {
             "name": "San Fransokyo - Chest 18 (Small Chest, The City: South District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023070"
+            ]
           }
         ],
         "map_locations": [
@@ -530,11 +632,17 @@
         "sections": [
           {
             "name": "San Fransokyo - Chest 1 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023054"
+            ]
           },
           {
             "name": "San Fransokyo - Chest 30 (Small Chest, The City: Central District)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023082"
+            ]
           }
         ],
         "map_locations": [

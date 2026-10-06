@@ -171,6 +171,18 @@ function any_portal(...)
     return 0
 end
 
+-- Chestsanity: AP location id -> code of the keyblade the seed assigned to that
+-- chest. Filled from slot_data on connect (autotracking.lua); empty when the
+-- option is off, for chests that keep their own world's keyblade, and offline.
+CHEST_KEYBLADE = {}
+
+-- Access rule helper: $chest_keyblade|<AP location id>
+function chest_keyblade(location_id)
+    local keyblade = CHEST_KEYBLADE[tonumber(location_id)]
+    if keyblade == nil or hasCode(keyblade) then return 1 end
+    return 0
+end
+
 -- The tier gate counts open tier-one worlds: their keyblades, or in party-member
 -- mode their characters ("Open tier-one worlds" in the AP world's Rules.py).
 function count_tier_one_keyblades()

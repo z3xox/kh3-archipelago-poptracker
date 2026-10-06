@@ -40,6 +40,27 @@
     ]
   },
   {
+    "name": "Chestsanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Chestsanity.png",
+        "img_mods": "saturation|0",
+        "codes": "chestsanity_setting",
+        "inherit_codes": false,
+        "name": "Chestsanity Off"
+      },
+      {
+        "img": "images/items/Chestsanity.png",
+        "codes": "chestsanity_setting, active_chestsanity",
+        "inherit_codes": false,
+        "name": "Chestsanity On (chests need the keyblade the seed assigned them)"
+      }
+    ]
+  },
+  {
     "name": "Battlegates",
     "type": "progressive",
     "allow_disabled": false,

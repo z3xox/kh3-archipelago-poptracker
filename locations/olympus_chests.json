@@ -12,7 +12,7 @@
             "name": "Olympus - Chest 29 (Large Chest, Realm of the Gods: Corridors)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022848"
             ]
           }
         ],
@@ -31,8 +31,8 @@
             "name": "Olympus - Chest 9 (Large Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022849",
+              "unlock_wall_run,$chest_keyblade|1263022849"
             ]
           }
         ],
@@ -51,7 +51,7 @@
             "name": "Olympus - Chest 31 (Large Chest, Realm of the Gods: Apex)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022850"
             ]
           }
         ],
@@ -70,9 +70,8 @@
             "name": "Olympus - Chest 24 (Large Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022851,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022851"
             ]
           }
         ],
@@ -91,7 +90,7 @@
             "name": "Olympus - Chest 25 (Small Chest, Realm of the Gods: Courtyard)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022852"
             ]
           }
         ],
@@ -110,7 +109,7 @@
             "name": "Olympus - Chest 26 (Small Chest, Realm of the Gods: Courtyard)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022853"
             ]
           }
         ],
@@ -129,7 +128,7 @@
             "name": "Olympus - Chest 27 (Small Chest, Realm of the Gods: Courtyard)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022854"
             ]
           }
         ],
@@ -148,7 +147,7 @@
             "name": "Olympus - Chest 28 (Small Chest, Realm of the Gods: Corridors)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022855"
             ]
           }
         ],
@@ -167,7 +166,7 @@
             "name": "Olympus - Chest 30 (Small Chest, Realm of the Gods: Cloud Ridge)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022856"
             ]
           }
         ],
@@ -186,7 +185,7 @@
             "name": "Olympus - Chest 32 (Small Chest, Realm of the Gods: Apex)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022857"
             ]
           }
         ],
@@ -205,9 +204,8 @@
             "name": "Olympus - Chest 1 (Small Chest, Mount Olympus: Ravine)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022858,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022858"
             ]
           }
         ],
@@ -226,9 +224,8 @@
             "name": "Olympus - Chest 2 (Small Chest, Mount Olympus: Ravine)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022859,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022859"
             ]
           }
         ],
@@ -247,8 +244,8 @@
             "name": "Olympus - Chest 3 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860",
+              "unlock_wall_run,$chest_keyblade|1263022860"
             ]
           }
         ],
@@ -267,8 +264,8 @@
             "name": "Olympus - Chest 4 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022861",
+              "unlock_wall_run,$chest_keyblade|1263022861"
             ]
           }
         ],
@@ -287,8 +284,8 @@
             "name": "Olympus - Chest 5 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022862",
+              "unlock_wall_run,$chest_keyblade|1263022862"
             ]
           }
         ],
@@ -307,8 +304,8 @@
             "name": "Olympus - Chest 6 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022863",
+              "unlock_wall_run,$chest_keyblade|1263022863"
             ]
           }
         ],
@@ -327,8 +324,8 @@
             "name": "Olympus - Chest 7 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022864",
+              "unlock_wall_run,$chest_keyblade|1263022864"
             ]
           }
         ],
@@ -347,8 +344,8 @@
             "name": "Olympus - Chest 8 (Small Chest, Mount Olympus: Cliff Ascent)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022865",
+              "unlock_wall_run,$chest_keyblade|1263022865"
             ]
           }
         ],
@@ -367,7 +364,7 @@
             "name": "Olympus - Chest 10 (Small Chest, Mount Olympus: Mountainside)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022866"
             ]
           }
         ],
@@ -386,7 +383,7 @@
             "name": "Olympus - Chest 11 (Small Chest, Mount Olympus: Summit)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022867"
             ]
           }
         ],
@@ -405,7 +402,7 @@
             "name": "Olympus - Chest 12 (Small Chest, Mount Olympus: Mountainside)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022868"
             ]
           }
         ],
@@ -424,9 +421,8 @@
             "name": "Olympus - Chest 13 (Small Chest, Thebes: Alleyway)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022869"
             ]
           }
         ],
@@ -445,9 +441,8 @@
             "name": "Olympus - Chest 14 (Small Chest, Thebes: Alleyway)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022870,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022870"
             ]
           }
         ],
@@ -466,9 +461,8 @@
             "name": "Olympus - Chest 15 (Small Chest, Thebes: Agora)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022871,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022871"
             ]
           }
         ],
@@ -487,9 +481,8 @@
             "name": "Olympus - Chest 16 (Small Chest, Thebes: The Big Olive)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022872"
             ]
           }
         ],
@@ -508,9 +501,8 @@
             "name": "Olympus - Chest 17 (Small Chest, Thebes: The Big Olive)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022873,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022873"
             ]
           }
         ],
@@ -529,9 +521,8 @@
             "name": "Olympus - Chest 18 (Small Chest, Thebes: Gardens)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022874"
             ]
           }
         ],
@@ -550,9 +541,8 @@
             "name": "Olympus - Chest 19 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022875,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022875"
             ]
           }
         ],
@@ -571,9 +561,8 @@
             "name": "Olympus - Chest 20 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022876"
             ]
           }
         ],
@@ -592,9 +581,8 @@
             "name": "Olympus - Chest 21 (Small Chest, Thebes: Gardens)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022877,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022877"
             ]
           }
         ],
@@ -613,9 +601,8 @@
             "name": "Olympus - Chest 22 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022878,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022878"
             ]
           }
         ],
@@ -634,9 +621,8 @@
             "name": "Olympus - Chest 23 (Small Chest, Thebes: Overlook)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
-              "ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022879,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022879"
             ]
           }
         ],

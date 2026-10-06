@@ -10,7 +10,10 @@
         "sections": [
           {
             "name": "Arendelle - Chest 1 (Large Chest, The North Mountain: Treescape)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022969"
+            ]
           }
         ],
         "map_locations": [
@@ -28,7 +31,7 @@
             "name": "Arendelle - Chest 10 (Large Chest, The Labyrinth of Ice: Middle Tier)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022970"
             ]
           }
         ],
@@ -47,7 +50,7 @@
             "name": "Arendelle - Chest 8 (Large Chest, The North Mountain: Treescape)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022971"
             ]
           }
         ],
@@ -66,7 +69,7 @@
             "name": "Arendelle - Chest 7 (Large Chest, The North Mountain: Snowfield)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022972"
             ]
           }
         ],
@@ -85,7 +88,7 @@
             "name": "Arendelle - Chest 14 (Large Chest, The Labyrinth of Ice: Lower Tier)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022973"
             ]
           }
         ],
@@ -104,7 +107,7 @@
             "name": "Arendelle - Chest 9 (Large Chest, The North Mountain: Snowfield)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022974"
             ]
           }
         ],
@@ -121,7 +124,10 @@
         "sections": [
           {
             "name": "Arendelle - Chest 2 (Small Chest, The North Mountain: Treescape)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022975"
+            ]
           }
         ],
         "map_locations": [
@@ -137,7 +143,10 @@
         "sections": [
           {
             "name": "Arendelle - Chest 3 (Small Chest, The North Mountain: Treescape)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022976"
+            ]
           }
         ],
         "map_locations": [
@@ -155,7 +164,7 @@
             "name": "Arendelle - Chest 4 (Small Chest, The North Mountain: Gorge)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022977"
             ]
           }
         ],
@@ -174,7 +183,7 @@
             "name": "Arendelle - Chest 5 (Small Chest, The North Mountain: Gorge)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022978"
             ]
           }
         ],
@@ -193,10 +202,7 @@
             "name": "Arendelle - Chest 6 (Small Chest, The North Mountain: Snowfield)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_glide,unlock_wall_run,ability_pole_spin",
-              "ability_air_slide,unlock_wall_run,ability_pole_spin",
-              "ability_superjump,aero:1,ability_air_slide,unlock_wall_run,ability_pole_spin,unlock_magic",
-              "ability_superjump,ability_wall_kick,ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022979"
             ]
           }
         ],
@@ -215,7 +221,7 @@
             "name": "Arendelle - Chest 11 (Small Chest, The Labyrinth of Ice: Upper Tier)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022980"
             ]
           }
         ],
@@ -234,7 +240,7 @@
             "name": "Arendelle - Chest 12 (Small Chest, The Labyrinth of Ice: Middle Tier)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run"
+              "unlock_wall_run,$chest_keyblade|1263022981"
             ]
           }
         ],
@@ -253,7 +259,7 @@
             "name": "Arendelle - Chest 13 (Small Chest, The Labyrinth of Ice: Upper Tier)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022982"
             ]
           }
         ],
@@ -272,7 +278,7 @@
             "name": "Arendelle - Chest 15 (Small Chest, The Labyrinth of Ice: Middle Tier)",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,ability_superjump,unlock_wall_run,$chest_keyblade|1263022983"
             ]
           }
         ],
@@ -291,7 +297,7 @@
             "name": "Arendelle - Chest 16 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022984"
             ]
           }
         ],
@@ -310,12 +316,7 @@
             "name": "Arendelle - Chest 17 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin",
-              "$has_any|ability_doubleflight|ability_high_jump,ability_air_slide,unlock_wall_run,ability_pole_spin",
-              "ability_air_slide,ability_combo_master,unlock_wall_run,ability_pole_spin",
-              "ability_superjump,ability_wall_kick,ability_air_slide,unlock_wall_run,ability_pole_spin",
-              "ability_superjump,aero:1,ability_air_slide,unlock_wall_run,ability_pole_spin,unlock_magic",
-              "ability_air_slide,ability_glide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022985"
             ]
           }
         ],
@@ -334,7 +335,7 @@
             "name": "Arendelle - Chest 18 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022986"
             ]
           }
         ],
@@ -353,9 +354,7 @@
             "name": "Arendelle - Chest 19 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_glide,unlock_wall_run,ability_pole_spin",
-              "ability_air_slide,unlock_wall_run,ability_pole_spin",
-              "ability_superjump,ability_wall_kick,ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022987"
             ]
           }
         ],
@@ -374,7 +373,7 @@
             "name": "Arendelle - Chest 20 (Small Chest, The North Mountain: Valley of Ice)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_doubleflight,ability_pole_spin"
+              "ability_air_slide,ability_doubleflight,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022988"
             ]
           }
         ],
@@ -393,7 +392,7 @@
             "name": "Arendelle - Chest 21 (Small Chest, The North Mountain: Frozen Wall)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022989"
             ]
           }
         ],
@@ -412,7 +411,7 @@
             "name": "Arendelle - Chest 22 (Small Chest, The North Mountain: Frozen Wall)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022990"
             ]
           }
         ],
@@ -431,7 +430,7 @@
             "name": "Arendelle - Chest 23 (Small Chest, The North Mountain: Frozen Wall)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022991"
             ]
           }
         ],
@@ -450,10 +449,9 @@
             "name": "Arendelle - Chest 24 (Small Chest, The North Mountain: Foothills)",
             "item_count": 1,
             "access_rules": [
-              "$has_any|ability_doubleflight|ability_high_jump,ability_air_slide,unlock_wall_run,ability_pole_spin",
-              "ability_air_slide,unlock_wall_run,ability_doubleflight,ability_pole_spin",
-              "ability_superjump,ability_wall_kick,ability_air_slide,unlock_wall_run,ability_pole_spin",
-              "ability_superjump,aero:1,ability_air_slide,unlock_wall_run,ability_pole_spin,unlock_magic"
+              "ability_air_slide,ability_pole_spin,ability_superjump,ability_wall_kick,unlock_wall_run,$chest_keyblade|1263022992",
+              "ability_air_slide,ability_pole_spin,ability_superjump,aero,unlock_magic,unlock_wall_run,$chest_keyblade|1263022992",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022992,$has_any|ability_doubleflight|ability_high_jump"
             ]
           }
         ],
@@ -472,7 +470,7 @@
             "name": "Arendelle - Chest 25 (Small Chest, The North Mountain: Foothills)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,unlock_wall_run,ability_pole_spin"
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022993"
             ]
           }
         ],

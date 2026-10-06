@@ -127,7 +127,7 @@
                 "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023093,$portal|kingdom_key"
                 ]
               }
             ],
@@ -149,7 +149,7 @@
                 "name": "Re Mind - Chest 2 (Large Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023094,$portal|kingdom_key"
                 ]
               }
             ],
@@ -171,7 +171,7 @@
                 "name": "Re Mind - Chest 3 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023095,$portal|kingdom_key"
                 ]
               }
             ],
@@ -193,7 +193,7 @@
                 "name": "Re Mind - Chest 4 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023096,$portal|kingdom_key"
                 ]
               }
             ],
@@ -215,7 +215,7 @@
                 "name": "Re Mind - Chest 5 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023097,$portal|kingdom_key"
                 ]
               }
             ],
@@ -237,7 +237,7 @@
                 "name": "Re Mind - Chest 6 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023098,$portal|kingdom_key"
                 ]
               }
             ],
@@ -259,7 +259,7 @@
                 "name": "Re Mind - Chest 7 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023099,$portal|kingdom_key"
                 ]
               }
             ],
@@ -281,7 +281,7 @@
                 "name": "Re Mind - Chest 8 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023100,$portal|kingdom_key"
                 ]
               }
             ],
@@ -303,7 +303,7 @@
                 "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter)",
                 "item_count": 1,
                 "access_rules": [
-                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023101,$portal|kingdom_key"
                 ]
               }
             ],

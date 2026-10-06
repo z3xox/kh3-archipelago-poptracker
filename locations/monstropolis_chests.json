@@ -10,7 +10,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 1 (Large Chest, Monsters)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022947"
+            ]
           }
         ],
         "map_locations": [
@@ -26,7 +29,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 9 (Large Chest, The Factory: Basement)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022948"
+            ]
           }
         ],
         "map_locations": [
@@ -44,8 +50,8 @@
             "name": "Monstropolis - Chest 19 (Large Chest, The Power Plant: Tank Yard)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949",
+              "unlock_wall_run,$chest_keyblade|1263022949"
             ]
           }
         ],
@@ -62,7 +68,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 10 (Large Chest, The Factory: Ground Floor)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022950"
+            ]
           }
         ],
         "map_locations": [
@@ -78,7 +87,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 2 (Small Chest, Monsters)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022951"
+            ]
           }
         ],
         "map_locations": [
@@ -94,7 +106,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 3 (Small Chest, Monsters)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022952"
+            ]
           }
         ],
         "map_locations": [
@@ -110,7 +125,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 4 (Small Chest, Monsters)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022953"
+            ]
           }
         ],
         "map_locations": [
@@ -126,7 +144,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 11 (Small Chest, The Factory: Ground Floor)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022954"
+            ]
           }
         ],
         "map_locations": [
@@ -142,7 +163,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 12 (Small Chest, The Factory: Ground Floor)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022955"
+            ]
           }
         ],
         "map_locations": [
@@ -158,7 +182,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 13 (Small Chest, The Factory: Second Floor)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022956"
+            ]
           }
         ],
         "map_locations": [
@@ -174,7 +201,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 14 (Small Chest, The Factory: Second Floor)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022957"
+            ]
           }
         ],
         "map_locations": [
@@ -190,7 +220,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 15 (Small Chest, The Power Plant: Accessway)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022958"
+            ]
           }
         ],
         "map_locations": [
@@ -206,7 +239,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 16 (Small Chest, The Power Plant: Accessway)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022959"
+            ]
           }
         ],
         "map_locations": [
@@ -224,8 +260,8 @@
             "name": "Monstropolis - Chest 17 (Small Chest, The Power Plant: Accessway)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022960",
+              "unlock_wall_run,$chest_keyblade|1263022960"
             ]
           }
         ],
@@ -244,8 +280,8 @@
             "name": "Monstropolis - Chest 18 (Small Chest, The Power Plant: Tank Yard)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022961",
+              "unlock_wall_run,$chest_keyblade|1263022961"
             ]
           }
         ],
@@ -264,8 +300,8 @@
             "name": "Monstropolis - Chest 20 (Small Chest, The Power Plant: Vault Passage)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022962",
+              "unlock_wall_run,$chest_keyblade|1263022962"
             ]
           }
         ],
@@ -284,8 +320,8 @@
             "name": "Monstropolis - Chest 21 (Small Chest, The Power Plant: Vault Passage)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$chest_keyblade|1263022963,$has_any|ability_block|ability_dodge_roll",
+              "unlock_magic,unlock_wall_run,$chest_keyblade|1263022963,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -302,7 +338,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 22 (Small Chest, The Power Plant: Accessway)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022964"
+            ]
           }
         ],
         "map_locations": [
@@ -318,7 +357,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 5 (Small Chest, Monsters)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022965"
+            ]
           }
         ],
         "map_locations": [
@@ -334,7 +376,10 @@
         "sections": [
           {
             "name": "Monstropolis - Chest 6 (Small Chest, Monsters)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022966"
+            ]
           }
         ],
         "map_locations": [
@@ -352,8 +397,8 @@
             "name": "Monstropolis - Chest 7 (Small Chest, The Door Vault: Service Area)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022967",
+              "unlock_wall_run,$chest_keyblade|1263022967"
             ]
           }
         ],
@@ -372,8 +417,8 @@
             "name": "Monstropolis - Chest 8 (Small Chest, The Door Vault: Service Area)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll",
-              "ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022968,$has_any|ability_block|ability_dodge_roll",
+              "unlock_wall_run,$chest_keyblade|1263022968,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],

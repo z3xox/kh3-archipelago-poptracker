@@ -1203,6 +1203,33 @@ CUR_INDEX = -1
 LUCKY_EMBLEMS_ID = nil
 LUCKY_EMBLEM_SPOT_COUNT = 90
 
+-- Chestsanity (apworld KeybladeChests.assign_keyblade_chests): each chest of a
+-- randomized world needs a keyblade drawn by the seed. The KH3 wire slot_data
+-- carries it as a per-location override, location_catalog.entries =
+-- [[ap_id, assignment_index, changes, removed], ...], with changes holding
+-- keyblade_chest_keyblade (item name) and keyblade_chest_native (true when it is
+-- the chest's own world keyblade, which Rules.py does not require).
+function LoadChestKeyblades(slot_data)
+    CHEST_KEYBLADE = {}
+    local catalog = type(slot_data) == "table" and slot_data["location_catalog"]
+    local entries = type(catalog) == "table" and catalog["entries"] or {}
+    local count = 0
+    for _, entry in ipairs(entries) do
+        local changes = type(entry) == "table" and entry[3]
+        local blade = type(changes) == "table" and changes["keyblade_chest_keyblade"]
+        if blade and changes["keyblade_chest_native"] ~= true then
+            local mapping = ITEM_MAPPING_BY_NAME[blade]
+            if mapping then
+                CHEST_KEYBLADE[tonumber(entry[1])] = mapping.code
+                count = count + 1
+            else
+                print(string.format("LoadChestKeyblades: no item code for %s", tostring(blade)))
+            end
+        end
+    end
+    print(string.format("LoadChestKeyblades: %d chests need a foreign keyblade", count))
+end
+
 function ApplyLuckyEmblems(value)
     local captured = type(value) == "table" and value or {}
     for global_id = 1, LUCKY_EMBLEM_SPOT_COUNT do
@@ -1483,6 +1510,8 @@ function autoFill(slot_data)
     -- Portal Unlocks (0 = keyblades, 1 = party members): which items open the worlds,
     -- see portal_open in logic.lua.
     setStage("portal_unlocks_setting", (slot_data["portal_unlocks"] or 0) == 1 and 1 or 0)
+    -- Chestsanity is shown only: the per-chest keyblades come from LoadChestKeyblades.
+    setStage("chestsanity_setting", (slot_data["chestsanity"] or 0) == 1 and 1 or 0)
     -- Optional space checks (both off by default): Heartless / Builder / Special
     -- Weapon Authority milestones, and the Schwarzgeist / Omega Machina rewards.
     -- Gummi Ship Completionist needs both.
@@ -1608,6 +1637,7 @@ end
 function onClear(slot_data)
     CUR_INDEX = -1
     ApplyLuckyEmblems(nil)
+    LoadChestKeyblades(slot_data)
 
     for name, mapping in pairs(ITEM_MAPPING_BY_NAME) do
         local obj = Tracker:FindObjectForCode(mapping.code)

@@ -944,7 +944,7 @@
                   "mc_chest_twilight_town"
                 ],
                 "access_rules": [
-                  "$portal|kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+                  "$portal|kb_shooting_star,$has_twilight_town_combat"
                 ]
               }
             ],

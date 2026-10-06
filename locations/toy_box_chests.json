@@ -10,7 +10,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 1 (Large Chest, Andy's House)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022890"
+            ]
           }
         ],
         "map_locations": [
@@ -26,7 +29,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 2 (Large Chest, Andy's House)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022891"
+            ]
           }
         ],
         "map_locations": [
@@ -42,7 +48,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 5 (Large Chest, Galaxy Toys: Main Floor 1F)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022892"
+            ]
           }
         ],
         "map_locations": [
@@ -60,8 +69,8 @@
             "name": "Toy Box - Chest 13 (Large Chest, Galaxy Toys: Lower Vents)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022893",
+              "unlock_wall_run,$chest_keyblade|1263022893"
             ]
           }
         ],
@@ -80,8 +89,8 @@
             "name": "Toy Box - Chest 24 (Large Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022894",
+              "unlock_wall_run,$chest_keyblade|1263022894"
             ]
           }
         ],
@@ -98,7 +107,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 29 (Large Chest, Galaxy Toys: Main Floor: 3F)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022895"
+            ]
           }
         ],
         "map_locations": [
@@ -116,10 +128,9 @@
             "name": "Toy Box - Chest 3 (Small Chest, Andy's House)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_doubleflight",
-              "ability_superjump,aero:1,unlock_magic",
-              "ability_superjump,ability_wall_kick,ability_air_slide"
+              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896"
             ]
           }
         ],
@@ -136,7 +147,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 4 (Small Chest, Andy's House)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022897"
+            ]
           }
         ],
         "map_locations": [
@@ -152,7 +166,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 6 (Small Chest, Galaxy Toys: Main Floor: 2F)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022898"
+            ]
           }
         ],
         "map_locations": [
@@ -168,7 +185,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 7 (Small Chest, Galaxy Toys: Main Floor: 3F)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022899"
+            ]
           }
         ],
         "map_locations": [
@@ -184,7 +204,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 8 (Small Chest, Galaxy Toys: Action Figures)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022900"
+            ]
           }
         ],
         "map_locations": [
@@ -200,7 +223,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 9 (Small Chest, Galaxy Toys: Action Figures)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022901"
+            ]
           }
         ],
         "map_locations": [
@@ -218,8 +244,7 @@
             "name": "Toy Box - Chest 10 (Small Chest, Galaxy Toys: Action Figures)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_doubleflight"
+              "$chest_keyblade|1263022902,$has_any|ability_doubleflight|unlock_wall_run"
             ]
           }
         ],
@@ -238,8 +263,8 @@
             "name": "Toy Box - Chest 11 (Small Chest, Galaxy Toys: Lower Vents)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022903",
+              "unlock_wall_run,$chest_keyblade|1263022903"
             ]
           }
         ],
@@ -258,8 +283,8 @@
             "name": "Toy Box - Chest 12 (Small Chest, Galaxy Toys: Lower Vents)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022904",
+              "unlock_wall_run,$chest_keyblade|1263022904"
             ]
           }
         ],
@@ -278,8 +303,8 @@
             "name": "Toy Box - Chest 14 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022905",
+              "unlock_wall_run,$chest_keyblade|1263022905"
             ]
           }
         ],
@@ -298,8 +323,8 @@
             "name": "Toy Box - Chest 15 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906",
+              "unlock_wall_run,$chest_keyblade|1263022906"
             ]
           }
         ],
@@ -318,8 +343,8 @@
             "name": "Toy Box - Chest 16 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022907",
+              "unlock_wall_run,$chest_keyblade|1263022907"
             ]
           }
         ],
@@ -338,8 +363,8 @@
             "name": "Toy Box - Chest 17 (Small Chest, Babies and Toddlers: Dolls)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022908",
+              "unlock_wall_run,$chest_keyblade|1263022908"
             ]
           }
         ],
@@ -358,10 +383,8 @@
             "name": "Toy Box - Chest 18 (Small Chest, Babies and Toddlers: Outdoors)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_air_slide",
-              "ability_superjump,ability_wall_kick,ability_air_slide",
-              "ability_superjump,aero:1,unlock_magic"
+              "$chest_keyblade|1263022909,$has_any|ability_air_slide|unlock_wall_run",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022909"
             ]
           }
         ],
@@ -378,7 +401,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 19 (Small Chest, Babies and Toddlers: Outdoors)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022910"
+            ]
           }
         ],
         "map_locations": [
@@ -396,8 +422,8 @@
             "name": "Toy Box - Chest 20 (Small Chest, Galaxy Toys: Video Games)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022911",
+              "unlock_wall_run,$chest_keyblade|1263022911"
             ]
           }
         ],
@@ -416,8 +442,8 @@
             "name": "Toy Box - Chest 21 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022912",
+              "unlock_wall_run,$chest_keyblade|1263022912"
             ]
           }
         ],
@@ -436,8 +462,8 @@
             "name": "Toy Box - Chest 22 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022913",
+              "unlock_wall_run,$chest_keyblade|1263022913"
             ]
           }
         ],
@@ -456,8 +482,8 @@
             "name": "Toy Box - Chest 23 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022914",
+              "unlock_wall_run,$chest_keyblade|1263022914"
             ]
           }
         ],
@@ -476,8 +502,8 @@
             "name": "Toy Box - Chest 25 (Small Chest, Galaxy Toys: Kid Korral)",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run",
-              "ability_high_jump,ability_doubleflight"
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022915",
+              "unlock_wall_run,$chest_keyblade|1263022915"
             ]
           }
         ],
@@ -494,7 +520,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 26 (Small Chest, Galaxy Toys: Rest Area)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022916"
+            ]
           }
         ],
         "map_locations": [
@@ -510,7 +539,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 27 (Small Chest, Galaxy Toys: Main Floor 1F)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022917"
+            ]
           }
         ],
         "map_locations": [
@@ -526,7 +558,10 @@
         "sections": [
           {
             "name": "Toy Box - Chest 28 (Small Chest, Babies and Toddlers: Outdoors)",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022918"
+            ]
           }
         ],
         "map_locations": [
