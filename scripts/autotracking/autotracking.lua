@@ -1671,6 +1671,36 @@ function LoadSongBonuses(slot_data)
     print(string.format("LoadSongBonuses: %d music chest Song Bonuses", count))
 end
 
+-- Melody of Memory in apworld 0.17: every selected song opens a music chest (an
+-- authored Melody Chest, music_chest_kind "additional", or a converted vanilla
+-- chest, "vanilla"); its row in location_catalog.entries carries mom_song_id.
+-- The song's own section (MOM_LOCATION_ID_BASE + song id, a 0.16 song-clear id)
+-- then mirrors that chest: visible, in logic with it (MOM_SONG_CHEST), and
+-- cleared by the chest's Song Bonus, or by the chest itself without bonus checks
+-- (MOM_SONG_BY_CHECK).
+MOM_SONG_BY_CHECK = {}
+MOM_SONG_LOCATION_BASE = 1263153920
+function LoadMusicChests(slot_data)
+    MOM_SONG_CHEST = {}
+    MOM_SONG_BY_CHECK = {}
+    local catalog = type(slot_data) == "table" and slot_data["location_catalog"]
+    local count = 0
+    for _, entry in ipairs((type(catalog) == "table" and catalog["entries"]) or {}) do
+        local changes = type(entry) == "table" and entry[3]
+        local song = type(changes) == "table" and changes["music_chest_kind"] and tonumber(changes["mom_song_id"])
+        local chest_id = song and tonumber(entry[1])
+        local mapping = chest_id and LOCATION_MAPPING[chest_id]
+        if mapping then
+            song = math.floor(song)
+            MOM_SONG_CHEST[song] = mapping.code
+            local bonus_id = chest_id + 0x100000
+            MOM_SONG_BY_CHECK[SONG_BONUS[bonus_id] and bonus_id or chest_id] = song
+            count = count + 1
+        end
+    end
+    print(string.format("LoadMusicChests: %d songs open a music chest", count))
+end
+
 function ApplyLuckyEmblems(value)
     local captured = type(value) == "table" and value or {}
     for global_id = 1, LUCKY_EMBLEM_SPOT_COUNT do
@@ -1795,6 +1825,12 @@ function onLocation(location_id, location_name)
     forEachOverworldMirror(section_name, function(ow_section)
         ow_section.AvailableChestCount = 0
     end)
+
+    -- The Melody of Memory song whose music chest this check belongs to.
+    local song = MOM_SONG_BY_CHECK[location_id]
+    if song and LOCATION_MAPPING[MOM_SONG_LOCATION_BASE + song] then
+        onLocation(MOM_SONG_LOCATION_BASE + song, nil)
+    end
 end
 
 -- Melody of Memory song ids are native Music IDs, not a 0..127 range: the 128
@@ -2034,6 +2070,12 @@ function autoFill(slot_data)
             chest_active[MUSIC_CHEST_PLACEMENT_BY_ID[ap_id]] = true
         end
     end
+    -- 0.17 songs open a music chest; their section mirrors it (LoadMusicChests).
+    for song_id, _ in pairs(MOM_SONG_CHEST) do
+        mom_active[tostring(song_id)] = true
+    end
+    -- Offline only: show every possible Song Bonus (the seed's are known once connected).
+    setStage("song_bonus_setting", 0)
     -- Expanded slot_data of older apworlds.
     local bridge = slot_data["bridge"]
     for _, row in ipairs((bridge and bridge["locations"]) or {}) do
@@ -2096,6 +2138,7 @@ function onClear(slot_data)
     ApplyLuckyEmblems(nil)
     LoadChestKeyblades(slot_data)
     LoadSongBonuses(slot_data)
+    LoadMusicChests(slot_data)
 
     for name, mapping in pairs(ITEM_MAPPING_BY_NAME) do
         local obj = Tracker:FindObjectForCode(mapping.code)

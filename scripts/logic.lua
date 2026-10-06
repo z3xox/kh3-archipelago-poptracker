@@ -189,8 +189,25 @@ end
 SONG_BONUS = {}
 
 -- Visibility helper: $song_bonus|<AP location id>
+-- Offline the seed's music chests are unknown: the "Song Bonuses - Show All"
+-- setting (song_bonus_all) shows every possible one instead.
 function song_bonus(location_id)
-    if SONG_BONUS[tonumber(location_id)] then return 1 end
+    if SONG_BONUS[tonumber(location_id)] or hasCode("song_bonus_all") then return 1 end
+    return 0
+end
+
+-- Melody of Memory songs of this seed: song id -> code of the music chest it
+-- opens (an authored Melody Chest or a converted vanilla chest), from slot_data.
+MOM_SONG_CHEST = {}
+
+-- Access rule helper: $mom_song_open|<song id>
+-- A song's section follows the chest it opens: in logic when that chest is.
+function mom_song_open(song_id)
+    local code = MOM_SONG_CHEST[tonumber(song_id)]
+    local chest = code and Tracker:FindObjectForCode(code)
+    if not chest then return 0 end
+    local normal = AccessibilityLevel and AccessibilityLevel.Normal or 6
+    if (chest.AccessibilityLevel or 0) >= normal then return 1 end
     return 0
 end
 

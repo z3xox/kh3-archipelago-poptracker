@@ -66,7 +66,10 @@ def main():
     count = sim.code_count
     lua_size = "(function(t) local n = 0 for _ in pairs(t) do n = n + 1 end return n end)"
 
-    songs = [i - MOM_BASE for i in ids if MOM_BASE <= i < MOM_BASE + 256]
+    # 0.17: a song opens a music chest (mom_song_id on the chest's row); older seeds
+    # had song-clear checks (MOM_LOCATION_ID_BASE + song id).
+    songs = [int(e[2]["mom_song_id"]) for e in entries if e[2].get("music_chest_kind") and "mom_song_id" in e[2]]
+    songs += [i - MOM_BASE for i in ids if MOM_BASE <= i < MOM_BASE + 256]
     chests = [MELODY_CHESTS[i] for i in ids if i in MELODY_CHESTS]
     foreign = sum(1 for e in entries if e[2].get("keyblade_chest_keyblade") and not e[2].get("keyblade_chest_native"))
     rows = [

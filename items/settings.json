@@ -61,6 +61,27 @@
     ]
   },
   {
+    "name": "Song Bonuses",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Symphony of Sorcery.png",
+        "img_mods": "saturation|0",
+        "codes": "song_bonus_setting",
+        "inherit_codes": false,
+        "name": "Song Bonuses - Seed's Music Chests Only"
+      },
+      {
+        "img": "images/items/Symphony of Sorcery.png",
+        "codes": "song_bonus_setting, song_bonus_all",
+        "inherit_codes": false,
+        "name": "Song Bonuses - Show All (offline; reset when connecting)"
+      }
+    ]
+  },
+  {
     "name": "Battlegates",
     "type": "progressive",
     "allow_disabled": false,
