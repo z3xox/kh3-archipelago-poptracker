@@ -208,7 +208,7 @@ def main():
     idx = iter(range(1, 1000))
 
     A = f"{SLW} - A (Countdown 1)"
-    A_sec = f"{SLW} - Battle 01"
+    A_sec = f"{SLW} - Battle 01 - Countdown 1"
     schwarz = f"{MST} - Q (Schwarzgeist)"
     schwarz_sec = "Space - Schwarzgeist - Reward 1"
     miss = "Space - Missions"
@@ -216,7 +216,7 @@ def main():
     # 1. include_space off: nothing is active
     sim.clear(include_space=0)
     check("setting off: active_space is not provided", sim.code_count("active_space") == 0)
-    sim.item(BP + "Necho Cat", next(idx))
+    sim.item(BP + "Golden Highwind", next(idx))
     check("setting off: Starlight check stays inaccessible", not sim.accessible(A, A_sec))
 
     # 2. include_space on, fresh slot
@@ -225,12 +225,18 @@ def main():
     check("no ship yet: Starlight check inaccessible", not sim.accessible(A, A_sec))
     check("no ship yet: global missions inaccessible", not sim.accessible(miss, "Space - Heartless Hunter"))
 
-    # 3. first Starlight Way ship
+    # 3. only the two travel blueprints of a zone open it (Space.ZONE_UNLOCK_BLUEPRINTS)
     sim.item(BP + "Necho Cat", next(idx))
+    check("Necho Cat opens no zone", sim.code_count("space_starlight_way") == 0
+          and not sim.accessible(A, A_sec))
+    check("Pro Builder needs Starlight Way",
+          not sim.accessible(f"{SLW} - Missions", "Space - Pro Builder"))
+    sim.item(BP + "Golden Highwind", next(idx))
     check("Starlight ship counter = 1", sim.code_count("space_starlight_way") == 1)
     check("Starlight ship: Starlight check accessible", sim.accessible(A, A_sec))
     check("Starlight ship: Misty check still inaccessible",
-          not sim.accessible(f"{MST} - A (Countdown 5)", f"{MST} - Battle 01"))
+          not sim.accessible(f"{MST} - A (Countdown 5)", f"{MST} - Battle 01 - Countdown 5"))
+    check("Starlight ship: Pro Builder accessible", sim.accessible(f"{SLW} - Missions", "Space - Pro Builder"))
     check("any ship: global missions accessible", sim.accessible(miss, "Space - Heartless Hunter"))
     check("1 zone: Junior Treasure Hunter ok", sim.accessible(miss, "Space - Junior Treasure Hunter"))
     check("1 zone: Chief Treasure Hunter (2 zones) not ok",
@@ -276,7 +282,12 @@ def main():
     check("after onLocation: overworld mirror cleared",
           sim.section_left("Gummi Space - Starlight Way - All Checks", A_sec) == 0)
 
-    # 8. reconnect resets state
+    # 8. optional checks follow their seed options
+    sim.clear(include_space=1, include_grindy_space_missions=1, include_space_superbosses=0)
+    check("grindy missions setting follows slot_data", sim.code_count("active_space_grindy") == 1
+          and sim.code_count("active_space_superbosses") == 0)
+
+    # 8b. reconnect resets state
     sim.clear(include_space=1)
     check("onClear resets ship counters", sim.code_count("space_starlight_way") == 0)
     check("onClear resets Endymion", sim.code_count("gummi_endymion") == 0)
@@ -285,7 +296,7 @@ def main():
     # 9. completionist needs everything
     sim.clear(include_space=1)
     n = next(idx)
-    for name in ["Necho Cat", "Wubber Ducky", "Bismarck", "Endymion"]:
+    for name in ["Golden Highwind", "Sirius", "Endymion"]:
         sim.item(BP + name, n); n = next(idx)
     for w in ["Repair Kit", "Force Field", "Heavy Rocket", "Twin Shot", "Firestorm", "Laser Squall",
               "Sunlight Laser", "Barrier", "Tracking Laser", "Electro Shot", "Knight's Arms"]:
@@ -300,8 +311,7 @@ def main():
     check("all worlds but Monstropolis finale (Decoy Duckies) unfinished: Completionist not ok",
           not sim.accessible(miss, "Space - Gummi Ship Completionist"))
     # Monstropolis' finale needs its own route of abilities (COLISEUM_WORLD_COMPLETION)
-    for code in ["ability_doubleflight", "ability_superjump", "ability_wall_kick", "unlock_links",
-                 "unlock_magic", "dream_heartbinder"]:
+    for code in ["ability_doubleflight", "ability_superjump", "ability_wall_kick", "unlock_magic"]:
         sim.lua.execute(f'Tracker:FindObjectForCode("{code}").Active = true')
     check("everything: Completionist ok", sim.accessible(miss, "Space - Gummi Ship Completionist"))
 

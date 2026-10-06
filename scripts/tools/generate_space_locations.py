@@ -12,10 +12,13 @@ Outputs (all idempotent -- re-running replaces what a previous run wrote):
   - scripts/autotracking/autotracking.lua  OVERWORLD_SECTION_MAP block between markers
   - scripts/autotracking/item_mapping.lua  Gummi blueprints / special weapons block between markers
 
-Access rules mirror Space.set_space_rules of the apworld: a zone needs a ship of
-that zone, global missions need any ship, Schwarzgeist and the Completionist need
-Endymion, Special Weapon missions count weapons (+ Twilight Town arrival and the
-Monstropolis finale), Treasure Hunter missions count owned zones.
+Access rules mirror Space.set_space_rules of the apworld: a zone needs one of its
+two travel blueprints (ZONE_UNLOCK_BLUEPRINTS), global missions need any of them,
+Schwarzgeist and the Completionist need Endymion, Special Weapon missions count
+weapons (+ Twilight Town arrival and the Monstropolis finale), Treasure Hunter
+missions count owned zones. Visibility rules follow Space.space_locations: grindy
+missions need active_space_grindy, superboss rewards active_space_superbosses, the
+Completionist both.
 
 Run order:  dump_apworld_catalog.py -> generate_space_locations.py -> sync_location_names.py
 
@@ -23,7 +26,8 @@ Display names:
   gazer   "Space - <Zone> - <Ship> Gazer"          (green marker on the map)
   battle  "Space - <Zone> - <letter> (<fight>)"   section = raw AP name
   sphere  "Space - <Zone> - Treasure Sphere <greek>"
-  mission "Space - Missions"                       (all missions, no map pin)
+  zone    "Space - <Zone> - Missions"              (its Builder commendation, no map pin)
+  mission "Space - Missions"                       (global missions, no map pin)
 The letter is the red-heart marker printed on the in-game map.
 """
 import json
@@ -54,6 +58,11 @@ OVERWORLD_PINS = {
 ZONE_CODES = {"Starlight Way": "space_starlight_way", "Misty Stream": "space_misty_stream",
               "The Eclipse": "space_eclipse"}
 ANY_SHIP = "$has_any|" + "|".join(ZONE_CODES.values())
+# Space.space_locations: checks that only exist with Include Grindy Space Missions /
+# Include Space Superbosses; the Completionist (mission 45) needs both options.
+GRINDY_MISSION_IDS = {20, 21, 22, 27, 33, 34, 35}
+SUPERBOSS_MISSION_IDS = {13, 17}
+COMPLETIONIST = 45
 ITEM_BEGIN = "    -- BEGIN generated: gummi space items (scripts/tools/generate_space_locations.py)"
 ITEM_END = "    -- END generated: gummi space items"
 BEGIN = "    -- BEGIN generated: gummi space (scripts/tools/generate_space_locations.py)"
@@ -109,12 +118,18 @@ def build():
             x, y = m["spheres"][greek]
             pins.append(dict(location=f"Space - {zone} - Treasure Sphere {greek}", x=x, y=y,
                              shape="diamond", sections=[sec(r)]))
-        gazers = {r["name"]: r for r in zrows if r["mission_id"] is not None}
-        assert len(gazers) == len(m["gazers"]) == 3, zone
+        zone_missions = {r["name"]: r for r in zrows if r["mission_id"] is not None}
+        assert len(m["gazers"]) == 3, zone
         for who, (x, y) in m["gazers"].items():
-            r = gazers[f"Space - {who} Gazer"]
+            r = zone_missions.pop(f"Space - {who} Gazer")
             pins.append(dict(location=f"Space - {zone} - {who} Gazer", x=x, y=y, shape="diamond",
                              sections=[sec(r)]))
+        # The zone's Builder commendation counts fragments found in that zone: it
+        # needs the zone but has no spot of its own, so it gets a pin-less location.
+        if zone_missions:
+            pins.append(dict(location=f"Space - {zone} - Missions", x=None, y=None, shape=None,
+                             sections=[sec(r) for r in sorted(zone_missions.values(),
+                                                              key=lambda r: r["ap_id"])]))
         zones[zone] = (m["map"], pins)
 
     missions = [sec(r) for r in sorted((r for r in rows if r["mission_id"] is not None
@@ -137,11 +152,25 @@ def zones_at_least(n):
     return f"$has_at_least|{n}|" + "|".join(ZONE_CODES.values())
 
 
-def section(name, rules=()):
+def section(name, rules=(), visibility=()):
     out = {"name": name, "item_count": 1}
     if rules:
         out["access_rules"] = list(rules)
+    if visibility:
+        out["visibility_rules"] = list(visibility)
     return out
+
+
+def section_visibility(row):
+    """Settings a check needs to exist in the seed, from Space.space_locations."""
+    mid = row.get("mission_id")
+    if mid == COMPLETIONIST:
+        return ["active_space_grindy,active_space_superbosses"]
+    if mid in GRINDY_MISSION_IDS:
+        return ["active_space_grindy"]
+    if row.get("boss_mission") in SUPERBOSS_MISSION_IDS:
+        return ["active_space_superbosses"]
+    return []
 
 
 def section_rules(row, weapon_count):
@@ -162,17 +191,20 @@ def section_rules(row, weapon_count):
 
 def write_space_json(zones, missions, weapon_count):
     def sections(secs):
-        return [section(n, section_rules(r, weapon_count)) for _, n, r in secs]
+        return [section(n, section_rules(r, weapon_count), section_visibility(r)) for _, n, r in secs]
 
     out = []
     for zone, (map_name, pins) in zones.items():
         children = []
         for pin in pins:
-            ml = {"map": map_name, "x": pin["x"], "y": pin["y"]}
-            if pin["shape"]:
-                ml["shape"] = pin["shape"]
+            mls = []
+            if pin["x"] is not None:
+                ml = {"map": map_name, "x": pin["x"], "y": pin["y"]}
+                if pin["shape"]:
+                    ml["shape"] = pin["shape"]
+                mls.append(ml)
             children.append({"name": pin["location"], "sections": sections(pin["sections"]),
-                             "map_locations": [ml]})
+                             "map_locations": mls})
         out.append({"name": parent_name(zone), "visibility_rules": ["active_space"],
                     "access_rules": [f"active_space,{ZONE_CODES[zone]}:1"],
                     "children": [{"name": "Checks", "children": children}]})
@@ -227,10 +259,11 @@ def update_autotracking(mirrors):
 
 
 def update_item_mapping(items):
-    """Blueprints feed their zone's counter (Endymion also its own toggle); special weapons one counter."""
+    """Zone blueprints feed their zone's counter (Endymion also its own toggle); special weapons
+    one counter. The other blueprints open nothing (Space.ZONE_UNLOCK_BLUEPRINTS) and stay unmapped."""
     lines = []
     for it in items:
-        if it["category"] == "Blueprint":
+        if it["category"] == "Blueprint" and it["zone"]:
             extra = ', also = "gummi_endymion"' if it["name"] == ENDYMION else ""
             lines.append(f'    ["{it["name"]}"] = {{ code = "{ZONE_CODES[it["zone"]]}", '
                          f'type = "consumable"{extra} }},')

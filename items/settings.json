@@ -517,6 +517,48 @@
     ]
   },
   {
+    "name": "Gummi Grindy Missions",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/gummi/grindy_missions.png",
+        "img_mods": "saturation|0",
+        "codes": "space_grindy_setting",
+        "inherit_codes": false,
+        "name": "Gummi Grindy Missions Off"
+      },
+      {
+        "img": "images/items/gummi/grindy_missions.png",
+        "codes": "space_grindy_setting, active_space_grindy",
+        "inherit_codes": false,
+        "name": "Gummi Grindy Missions On"
+      }
+    ]
+  },
+  {
+    "name": "Gummi Superbosses",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/gummi/superbosses.png",
+        "img_mods": "saturation|0",
+        "codes": "space_superbosses_setting",
+        "inherit_codes": false,
+        "name": "Gummi Superbosses Off"
+      },
+      {
+        "img": "images/items/gummi/superbosses.png",
+        "codes": "space_superbosses_setting, active_space_superbosses",
+        "inherit_codes": false,
+        "name": "Gummi Superbosses On"
+      }
+    ]
+  },
+  {
     "name": "Level Ups",
     "type": "progressive",
     "allow_disabled": false,

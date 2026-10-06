@@ -36,7 +36,9 @@
       ],
       [
         "unreality_setting",
-        "space_setting"
+        "space_setting",
+        "space_grindy_setting",
+        "space_superbosses_setting"
       ]
     ]
   },

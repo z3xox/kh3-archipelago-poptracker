@@ -82,7 +82,7 @@
     "type": "consumable",
     "codes": "space_starlight_way",
     "img": "images/items/gummi/starlight_way.png",
-    "max_quantity": 12,
+    "max_quantity": 2,
     "overlay_background": "#000000",
     "overlay_font_size": 20
   },
@@ -91,7 +91,7 @@
     "type": "consumable",
     "codes": "space_misty_stream",
     "img": "images/items/gummi/misty_stream.png",
-    "max_quantity": 13,
+    "max_quantity": 2,
     "overlay_background": "#000000",
     "overlay_font_size": 20
   },
@@ -100,7 +100,7 @@
     "type": "consumable",
     "codes": "space_eclipse",
     "img": "images/items/gummi/eclipse.png",
-    "max_quantity": 12,
+    "max_quantity": 2,
     "overlay_background": "#000000",
     "overlay_font_size": 20
   },

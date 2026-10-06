@@ -4,13 +4,13 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 OVERWORLD_SECTION_MAP = {
     -- BEGIN generated: gummi space (scripts/tools/generate_space_locations.py)
-    ["Space - Starlight Way - Battle 01"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 01",
-    ["Space - Starlight Way - Battle 02"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 02",
-    ["Space - Starlight Way - Battle 03"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 03",
-    ["Space - Starlight Way - Battle 04"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 04",
-    ["Space - Starlight Way - Battle 05"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 05",
-    ["Space - Starlight Way - Battle 07"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 07",
-    ["Space - Starlight Way - Battle 08"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 08",
+    ["Space - Starlight Way - Battle 01 - Countdown 1"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 01 - Countdown 1",
+    ["Space - Starlight Way - Battle 02 - Speed Skirmish 2"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 02 - Speed Skirmish 2",
+    ["Space - Starlight Way - Battle 03 - Countdown 4"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 03 - Countdown 4",
+    ["Space - Starlight Way - Battle 04 - Speed Skirmish 1"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 04 - Speed Skirmish 1",
+    ["Space - Starlight Way - Battle 05 - Speed Skirmish 3"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 05 - Speed Skirmish 3",
+    ["Space - Starlight Way - Battle 07 - Countdown 2"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 07 - Countdown 2",
+    ["Space - Starlight Way - Battle 08 - Countdown 3"] = "@Gummi Space - Starlight Way - All Checks/Space - Starlight Way - Battle 08 - Countdown 3",
     ["Space - Astrowarrior - Reward 1"] = "@Gummi Space - Starlight Way - All Checks/Space - Astrowarrior - Reward 1",
     ["Space - Astrowarrior - Reward 2"] = "@Gummi Space - Starlight Way - All Checks/Space - Astrowarrior - Reward 2",
     ["Space - Astrowarrior - Reward 3"] = "@Gummi Space - Starlight Way - All Checks/Space - Astrowarrior - Reward 3",
@@ -26,19 +26,20 @@ OVERWORLD_SECTION_MAP = {
     ["Space - Moogle Gazer"] = "@Gummi Space - Starlight Way - All Checks/Space - Moogle Gazer",
     ["Space - Cactuar Gazer"] = "@Gummi Space - Starlight Way - All Checks/Space - Cactuar Gazer",
     ["Space - Bomb Gazer"] = "@Gummi Space - Starlight Way - All Checks/Space - Bomb Gazer",
-    ["Space - Misty Stream - Battle 01"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 01",
-    ["Space - Misty Stream - Battle 02"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 02",
-    ["Space - Misty Stream - Battle 03"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 03",
-    ["Space - Misty Stream - Battle 04"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 04",
-    ["Space - Misty Stream - Battle 05"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 05",
-    ["Space - Misty Stream - Battle 06"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 06",
-    ["Space - Misty Stream - Battle 07"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 07",
-    ["Space - Misty Stream - Battle 08"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 08",
-    ["Space - Misty Stream - Battle 09"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 09",
-    ["Space - Misty Stream - Battle 10"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 10",
-    ["Space - Misty Stream - Battle 11"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 11",
-    ["Space - Misty Stream - Battle 12"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 12",
-    ["Space - Misty Stream - Battle 13"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 13",
+    ["Space - Pro Builder"] = "@Gummi Space - Starlight Way - All Checks/Space - Pro Builder",
+    ["Space - Misty Stream - Battle 01 - Countdown 5"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 01 - Countdown 5",
+    ["Space - Misty Stream - Battle 02 - Countdown 6"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 02 - Countdown 6",
+    ["Space - Misty Stream - Battle 03 - Countdown 8"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 03 - Countdown 8",
+    ["Space - Misty Stream - Battle 04 - Speed Skirmish 10"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 04 - Speed Skirmish 10",
+    ["Space - Misty Stream - Battle 05 - Speed Skirmish 4"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 05 - Speed Skirmish 4",
+    ["Space - Misty Stream - Battle 06 - Speed Skirmish 5"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 06 - Speed Skirmish 5",
+    ["Space - Misty Stream - Battle 07 - Speed Skirmish 7"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 07 - Speed Skirmish 7",
+    ["Space - Misty Stream - Battle 08 - Speed Skirmish 8"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 08 - Speed Skirmish 8",
+    ["Space - Misty Stream - Battle 09 - Countdown 10"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 09 - Countdown 10",
+    ["Space - Misty Stream - Battle 10 - Countdown 7"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 10 - Countdown 7",
+    ["Space - Misty Stream - Battle 11 - Speed Skirmish 6"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 11 - Speed Skirmish 6",
+    ["Space - Misty Stream - Battle 12 - Countdown 9"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 12 - Countdown 9",
+    ["Space - Misty Stream - Battle 13 - Speed Skirmish 9"] = "@Gummi Space - Misty Stream - All Checks/Space - Misty Stream - Battle 13 - Speed Skirmish 9",
     ["Space - Dreadshark - Reward 1"] = "@Gummi Space - Misty Stream - All Checks/Space - Dreadshark - Reward 1",
     ["Space - Dreadshark - Reward 2"] = "@Gummi Space - Misty Stream - All Checks/Space - Dreadshark - Reward 2",
     ["Space - Dreadshark - Reward 3"] = "@Gummi Space - Misty Stream - All Checks/Space - Dreadshark - Reward 3",
@@ -57,11 +58,12 @@ OVERWORLD_SECTION_MAP = {
     ["Space - Imp Gazer"] = "@Gummi Space - Misty Stream - All Checks/Space - Imp Gazer",
     ["Space - Tonberry Gazer"] = "@Gummi Space - Misty Stream - All Checks/Space - Tonberry Gazer",
     ["Space - Endymion Gazer"] = "@Gummi Space - Misty Stream - All Checks/Space - Endymion Gazer",
+    ["Space - Elite Builder"] = "@Gummi Space - Misty Stream - All Checks/Space - Elite Builder",
     ["Space - Colossus Pyramid - Reward 1"] = "@Gummi Space - The Eclipse - All Checks/Space - Colossus Pyramid - Reward 1",
     ["Space - Colossus Pyramid - Reward 2"] = "@Gummi Space - The Eclipse - All Checks/Space - Colossus Pyramid - Reward 2",
     ["Space - Colossus Pyramid - Reward 3"] = "@Gummi Space - The Eclipse - All Checks/Space - Colossus Pyramid - Reward 3",
-    ["Space - The Eclipse - Battle 02"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Battle 02",
-    ["Space - The Eclipse - Battle 03"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Battle 03",
+    ["Space - The Eclipse - Battle 02 - Speed Skirmish 11"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Battle 02 - Speed Skirmish 11",
+    ["Space - The Eclipse - Battle 03 - Countdown 11"] = "@Gummi Space - The Eclipse - All Checks/Space - The Eclipse - Battle 03 - Countdown 11",
     ["Space - Supreme Warrior - Reward 1"] = "@Gummi Space - The Eclipse - All Checks/Space - Supreme Warrior - Reward 1",
     ["Space - Supreme Warrior - Reward 2"] = "@Gummi Space - The Eclipse - All Checks/Space - Supreme Warrior - Reward 2",
     ["Space - Supreme Warrior - Reward 3"] = "@Gummi Space - The Eclipse - All Checks/Space - Supreme Warrior - Reward 3",
@@ -77,6 +79,7 @@ OVERWORLD_SECTION_MAP = {
     ["Space - Ultros Gazer"] = "@Gummi Space - The Eclipse - All Checks/Space - Ultros Gazer",
     ["Space - Bismarck Gazer"] = "@Gummi Space - The Eclipse - All Checks/Space - Bismarck Gazer",
     ["Space - Omega Gazer"] = "@Gummi Space - The Eclipse - All Checks/Space - Omega Gazer",
+    ["Space - Master Builder"] = "@Gummi Space - The Eclipse - All Checks/Space - Master Builder",
     ["Space - Blast Off"] = "@Gummi Space - Missions - All Checks/Space - Blast Off",
     ["Space - Heartless Hunter"] = "@Gummi Space - Missions - All Checks/Space - Heartless Hunter",
     ["Space - Heartless Harrier"] = "@Gummi Space - Missions - All Checks/Space - Heartless Harrier",
@@ -93,9 +96,6 @@ OVERWORLD_SECTION_MAP = {
     ["Space - Chief Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Chief Treasure Hunter",
     ["Space - Veteran Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Veteran Treasure Hunter",
     ["Space - Champion Treasure Hunter"] = "@Gummi Space - Missions - All Checks/Space - Champion Treasure Hunter",
-    ["Space - Pro Builder"] = "@Gummi Space - Missions - All Checks/Space - Pro Builder",
-    ["Space - Elite Builder"] = "@Gummi Space - Missions - All Checks/Space - Elite Builder",
-    ["Space - Master Builder"] = "@Gummi Space - Missions - All Checks/Space - Master Builder",
     ["Space - Gummi Ship Completionist"] = "@Gummi Space - Missions - All Checks/Space - Gummi Ship Completionist",
     -- END generated: gummi space
     ["Ingredients+ - Arendelle - Pickup 007"] = {"@Ingredients+ - Arendelle - All Checks/Ingredients+ - Arendelle - Pickup 007", "@Ingredients - All Checks/Ingredients+ - Arendelle - Pickup 007"},
@@ -1480,6 +1480,11 @@ function autoFill(slot_data)
     -- Gummi space is a base-game toggle, not a pool: top-level include_space
     -- (0 = off, 1 = on; the apworld default is off).
     setStage("space_setting", (slot_data["include_space"] or 0) == 1 and 1 or 0)
+    -- Optional space checks (both off by default): Heartless / Builder / Special
+    -- Weapon Authority milestones, and the Schwarzgeist / Omega Machina rewards.
+    -- Gummi Ship Completionist needs both.
+    setStage("space_grindy_setting", (slot_data["include_grindy_space_missions"] or 0) == 1 and 1 or 0)
+    setStage("space_superbosses_setting", (slot_data["include_space_superbosses"] or 0) == 1 and 1 or 0)
 
     -- Olympus Coliseum is a third-party pool: it is NOT in
     -- RANDOMIZER_POOL_NAMES, so it never appears under kh3_randomizer.pools.

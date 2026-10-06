@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Draw the Gummi space tracker icons (zone ship counters, Endymion, special weapons).
+"""Draw the Gummi space tracker icons (zone ship counters, Endymion, special weapons,
+the grindy missions and superbosses settings).
 
 The Gummi ship logo is cropped from images/map_overworld.png, then placed on a
 coloured rounded square with a short caption. Output: images/items/gummi/*.png
@@ -19,6 +20,8 @@ ICONS = {
     "eclipse": ("Eclipse", (150, 85, 40)),
     "endymion": ("Endymion", (150, 125, 40)),
     "special_weapons": ("Weapons", (140, 55, 60)),
+    "grindy_missions": ("Grindy", (70, 110, 60)),
+    "superbosses": ("Bosses", (110, 40, 110)),
 }
 
 

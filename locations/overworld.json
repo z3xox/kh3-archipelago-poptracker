@@ -6604,32 +6604,32 @@
             "name": "Gummi Space - Starlight Way - All Checks",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 01",
-                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - A (Countdown 1)/Space - Starlight Way - Battle 01"
+                "name": "Space - Starlight Way - Battle 01 - Countdown 1",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - A (Countdown 1)/Space - Starlight Way - Battle 01 - Countdown 1"
               },
               {
-                "name": "Space - Starlight Way - Battle 02",
-                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - B (Countdown 2)/Space - Starlight Way - Battle 02"
+                "name": "Space - Starlight Way - Battle 02 - Speed Skirmish 2",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - B (Countdown 2)/Space - Starlight Way - Battle 02 - Speed Skirmish 2"
               },
               {
-                "name": "Space - Starlight Way - Battle 03",
-                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - C (Countdown 3)/Space - Starlight Way - Battle 03"
+                "name": "Space - Starlight Way - Battle 03 - Countdown 4",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - C (Countdown 3)/Space - Starlight Way - Battle 03 - Countdown 4"
               },
               {
-                "name": "Space - Starlight Way - Battle 04",
-                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - D (Countdown 4)/Space - Starlight Way - Battle 04"
+                "name": "Space - Starlight Way - Battle 04 - Speed Skirmish 1",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - D (Countdown 4)/Space - Starlight Way - Battle 04 - Speed Skirmish 1"
               },
               {
-                "name": "Space - Starlight Way - Battle 05",
-                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - E (Speed Skirmish 1)/Space - Starlight Way - Battle 05"
+                "name": "Space - Starlight Way - Battle 05 - Speed Skirmish 3",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - E (Speed Skirmish 1)/Space - Starlight Way - Battle 05 - Speed Skirmish 3"
               },
               {
-                "name": "Space - Starlight Way - Battle 07",
-                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - F (Speed Skirmish 2)/Space - Starlight Way - Battle 07"
+                "name": "Space - Starlight Way - Battle 07 - Countdown 2",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - F (Speed Skirmish 2)/Space - Starlight Way - Battle 07 - Countdown 2"
               },
               {
-                "name": "Space - Starlight Way - Battle 08",
-                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - G (Speed Skirmish 3)/Space - Starlight Way - Battle 08"
+                "name": "Space - Starlight Way - Battle 08 - Countdown 3",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - G (Speed Skirmish 3)/Space - Starlight Way - Battle 08 - Countdown 3"
               },
               {
                 "name": "Space - Astrowarrior - Reward 1",
@@ -6690,6 +6690,10 @@
               {
                 "name": "Space - Bomb Gazer",
                 "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Bomb Gazer/Space - Bomb Gazer"
+              },
+              {
+                "name": "Space - Pro Builder",
+                "ref": "Gummi Space - Starlight Way/Checks/Space - Starlight Way - Missions/Space - Pro Builder"
               }
             ],
             "map_locations": [
@@ -6710,56 +6714,56 @@
             "name": "Gummi Space - Misty Stream - All Checks",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 01",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - A (Countdown 5)/Space - Misty Stream - Battle 01"
+                "name": "Space - Misty Stream - Battle 01 - Countdown 5",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - A (Countdown 5)/Space - Misty Stream - Battle 01 - Countdown 5"
               },
               {
-                "name": "Space - Misty Stream - Battle 02",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - B (Countdown 6)/Space - Misty Stream - Battle 02"
+                "name": "Space - Misty Stream - Battle 02 - Countdown 6",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - B (Countdown 6)/Space - Misty Stream - Battle 02 - Countdown 6"
               },
               {
-                "name": "Space - Misty Stream - Battle 03",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - C (Countdown 7)/Space - Misty Stream - Battle 03"
+                "name": "Space - Misty Stream - Battle 03 - Countdown 8",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - C (Countdown 7)/Space - Misty Stream - Battle 03 - Countdown 8"
               },
               {
-                "name": "Space - Misty Stream - Battle 04",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - D (Countdown 8)/Space - Misty Stream - Battle 04"
+                "name": "Space - Misty Stream - Battle 04 - Speed Skirmish 10",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - D (Countdown 8)/Space - Misty Stream - Battle 04 - Speed Skirmish 10"
               },
               {
-                "name": "Space - Misty Stream - Battle 05",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - E (Countdown 9)/Space - Misty Stream - Battle 05"
+                "name": "Space - Misty Stream - Battle 05 - Speed Skirmish 4",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - E (Countdown 9)/Space - Misty Stream - Battle 05 - Speed Skirmish 4"
               },
               {
-                "name": "Space - Misty Stream - Battle 06",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - F (Countdown 10)/Space - Misty Stream - Battle 06"
+                "name": "Space - Misty Stream - Battle 06 - Speed Skirmish 5",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - F (Countdown 10)/Space - Misty Stream - Battle 06 - Speed Skirmish 5"
               },
               {
-                "name": "Space - Misty Stream - Battle 07",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - G (Speed Skirmish 4)/Space - Misty Stream - Battle 07"
+                "name": "Space - Misty Stream - Battle 07 - Speed Skirmish 7",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - G (Speed Skirmish 4)/Space - Misty Stream - Battle 07 - Speed Skirmish 7"
               },
               {
-                "name": "Space - Misty Stream - Battle 08",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - H (Speed Skirmish 5)/Space - Misty Stream - Battle 08"
+                "name": "Space - Misty Stream - Battle 08 - Speed Skirmish 8",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - H (Speed Skirmish 5)/Space - Misty Stream - Battle 08 - Speed Skirmish 8"
               },
               {
-                "name": "Space - Misty Stream - Battle 09",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - I (Speed Skirmish 6)/Space - Misty Stream - Battle 09"
+                "name": "Space - Misty Stream - Battle 09 - Countdown 10",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - I (Speed Skirmish 6)/Space - Misty Stream - Battle 09 - Countdown 10"
               },
               {
-                "name": "Space - Misty Stream - Battle 10",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - J (Speed Skirmish 7)/Space - Misty Stream - Battle 10"
+                "name": "Space - Misty Stream - Battle 10 - Countdown 7",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - J (Speed Skirmish 7)/Space - Misty Stream - Battle 10 - Countdown 7"
               },
               {
-                "name": "Space - Misty Stream - Battle 11",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - K (Speed Skirmish 8)/Space - Misty Stream - Battle 11"
+                "name": "Space - Misty Stream - Battle 11 - Speed Skirmish 6",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - K (Speed Skirmish 8)/Space - Misty Stream - Battle 11 - Speed Skirmish 6"
               },
               {
-                "name": "Space - Misty Stream - Battle 12",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - L (Speed Skirmish 9)/Space - Misty Stream - Battle 12"
+                "name": "Space - Misty Stream - Battle 12 - Countdown 9",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - L (Speed Skirmish 9)/Space - Misty Stream - Battle 12 - Countdown 9"
               },
               {
-                "name": "Space - Misty Stream - Battle 13",
-                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - M (Speed Skirmish 10)/Space - Misty Stream - Battle 13"
+                "name": "Space - Misty Stream - Battle 13 - Speed Skirmish 9",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - M (Speed Skirmish 10)/Space - Misty Stream - Battle 13 - Speed Skirmish 9"
               },
               {
                 "name": "Space - Dreadshark - Reward 1",
@@ -6832,6 +6836,10 @@
               {
                 "name": "Space - Endymion Gazer",
                 "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Endymion Gazer/Space - Endymion Gazer"
+              },
+              {
+                "name": "Space - Elite Builder",
+                "ref": "Gummi Space - Misty Stream/Checks/Space - Misty Stream - Missions/Space - Elite Builder"
               }
             ],
             "map_locations": [
@@ -6864,12 +6872,12 @@
                 "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - A (Colossus Pyramid)/Space - Colossus Pyramid - Reward 3"
               },
               {
-                "name": "Space - The Eclipse - Battle 02",
-                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - B (Countdown 11)/Space - The Eclipse - Battle 02"
+                "name": "Space - The Eclipse - Battle 02 - Speed Skirmish 11",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - B (Countdown 11)/Space - The Eclipse - Battle 02 - Speed Skirmish 11"
               },
               {
-                "name": "Space - The Eclipse - Battle 03",
-                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - C (Speed Skirmish 11)/Space - The Eclipse - Battle 03"
+                "name": "Space - The Eclipse - Battle 03 - Countdown 11",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - C (Speed Skirmish 11)/Space - The Eclipse - Battle 03 - Countdown 11"
               },
               {
                 "name": "Space - Supreme Warrior - Reward 1",
@@ -6930,6 +6938,10 @@
               {
                 "name": "Space - Omega Gazer",
                 "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Omega Gazer/Space - Omega Gazer"
+              },
+              {
+                "name": "Space - Master Builder",
+                "ref": "Gummi Space - The Eclipse/Checks/Space - The Eclipse - Missions/Space - Master Builder"
               }
             ],
             "map_locations": [
@@ -7012,18 +7024,6 @@
               {
                 "name": "Space - Champion Treasure Hunter",
                 "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Champion Treasure Hunter"
-              },
-              {
-                "name": "Space - Pro Builder",
-                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Pro Builder"
-              },
-              {
-                "name": "Space - Elite Builder",
-                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Elite Builder"
-              },
-              {
-                "name": "Space - Master Builder",
-                "ref": "Gummi Space - Missions/Checks/Space - Missions/Space - Master Builder"
               },
               {
                 "name": "Space - Gummi Ship Completionist",

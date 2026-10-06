@@ -15,7 +15,7 @@
             "name": "Space - Starlight Way - A (Countdown 1)",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 01",
+                "name": "Space - Starlight Way - Battle 01 - Countdown 1",
                 "item_count": 1
               }
             ],
@@ -31,7 +31,7 @@
             "name": "Space - Starlight Way - B (Countdown 2)",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 02",
+                "name": "Space - Starlight Way - Battle 02 - Speed Skirmish 2",
                 "item_count": 1
               }
             ],
@@ -47,7 +47,7 @@
             "name": "Space - Starlight Way - C (Countdown 3)",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 03",
+                "name": "Space - Starlight Way - Battle 03 - Countdown 4",
                 "item_count": 1
               }
             ],
@@ -63,7 +63,7 @@
             "name": "Space - Starlight Way - D (Countdown 4)",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 04",
+                "name": "Space - Starlight Way - Battle 04 - Speed Skirmish 1",
                 "item_count": 1
               }
             ],
@@ -79,7 +79,7 @@
             "name": "Space - Starlight Way - E (Speed Skirmish 1)",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 05",
+                "name": "Space - Starlight Way - Battle 05 - Speed Skirmish 3",
                 "item_count": 1
               }
             ],
@@ -95,7 +95,7 @@
             "name": "Space - Starlight Way - F (Speed Skirmish 2)",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 07",
+                "name": "Space - Starlight Way - Battle 07 - Countdown 2",
                 "item_count": 1
               }
             ],
@@ -111,7 +111,7 @@
             "name": "Space - Starlight Way - G (Speed Skirmish 3)",
             "sections": [
               {
-                "name": "Space - Starlight Way - Battle 08",
+                "name": "Space - Starlight Way - Battle 08 - Countdown 3",
                 "item_count": 1
               }
             ],
@@ -296,6 +296,19 @@
                 "shape": "diamond"
               }
             ]
+          },
+          {
+            "name": "Space - Starlight Way - Missions",
+            "sections": [
+              {
+                "name": "Space - Pro Builder",
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_grindy"
+                ]
+              }
+            ],
+            "map_locations": []
           }
         ]
       }
@@ -317,7 +330,7 @@
             "name": "Space - Misty Stream - A (Countdown 5)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 01",
+                "name": "Space - Misty Stream - Battle 01 - Countdown 5",
                 "item_count": 1
               }
             ],
@@ -333,7 +346,7 @@
             "name": "Space - Misty Stream - B (Countdown 6)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 02",
+                "name": "Space - Misty Stream - Battle 02 - Countdown 6",
                 "item_count": 1
               }
             ],
@@ -349,7 +362,7 @@
             "name": "Space - Misty Stream - C (Countdown 7)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 03",
+                "name": "Space - Misty Stream - Battle 03 - Countdown 8",
                 "item_count": 1
               }
             ],
@@ -365,7 +378,7 @@
             "name": "Space - Misty Stream - D (Countdown 8)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 04",
+                "name": "Space - Misty Stream - Battle 04 - Speed Skirmish 10",
                 "item_count": 1
               }
             ],
@@ -381,7 +394,7 @@
             "name": "Space - Misty Stream - E (Countdown 9)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 05",
+                "name": "Space - Misty Stream - Battle 05 - Speed Skirmish 4",
                 "item_count": 1
               }
             ],
@@ -397,7 +410,7 @@
             "name": "Space - Misty Stream - F (Countdown 10)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 06",
+                "name": "Space - Misty Stream - Battle 06 - Speed Skirmish 5",
                 "item_count": 1
               }
             ],
@@ -413,7 +426,7 @@
             "name": "Space - Misty Stream - G (Speed Skirmish 4)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 07",
+                "name": "Space - Misty Stream - Battle 07 - Speed Skirmish 7",
                 "item_count": 1
               }
             ],
@@ -429,7 +442,7 @@
             "name": "Space - Misty Stream - H (Speed Skirmish 5)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 08",
+                "name": "Space - Misty Stream - Battle 08 - Speed Skirmish 8",
                 "item_count": 1
               }
             ],
@@ -445,7 +458,7 @@
             "name": "Space - Misty Stream - I (Speed Skirmish 6)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 09",
+                "name": "Space - Misty Stream - Battle 09 - Countdown 10",
                 "item_count": 1
               }
             ],
@@ -461,7 +474,7 @@
             "name": "Space - Misty Stream - J (Speed Skirmish 7)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 10",
+                "name": "Space - Misty Stream - Battle 10 - Countdown 7",
                 "item_count": 1
               }
             ],
@@ -477,7 +490,7 @@
             "name": "Space - Misty Stream - K (Speed Skirmish 8)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 11",
+                "name": "Space - Misty Stream - Battle 11 - Speed Skirmish 6",
                 "item_count": 1
               }
             ],
@@ -493,7 +506,7 @@
             "name": "Space - Misty Stream - L (Speed Skirmish 9)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 12",
+                "name": "Space - Misty Stream - Battle 12 - Countdown 9",
                 "item_count": 1
               }
             ],
@@ -509,7 +522,7 @@
             "name": "Space - Misty Stream - M (Speed Skirmish 10)",
             "sections": [
               {
-                "name": "Space - Misty Stream - Battle 13",
+                "name": "Space - Misty Stream - Battle 13 - Speed Skirmish 9",
                 "item_count": 1
               }
             ],
@@ -601,6 +614,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "gummi_endymion"
+                ],
+                "visibility_rules": [
+                  "active_space_superbosses"
                 ]
               },
               {
@@ -608,6 +624,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "gummi_endymion"
+                ],
+                "visibility_rules": [
+                  "active_space_superbosses"
                 ]
               },
               {
@@ -615,6 +634,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "gummi_endymion"
+                ],
+                "visibility_rules": [
+                  "active_space_superbosses"
                 ]
               }
             ],
@@ -727,6 +749,19 @@
                 "shape": "diamond"
               }
             ]
+          },
+          {
+            "name": "Space - Misty Stream - Missions",
+            "sections": [
+              {
+                "name": "Space - Elite Builder",
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_grindy"
+                ]
+              }
+            ],
+            "map_locations": []
           }
         ]
       }
@@ -772,7 +807,7 @@
             "name": "Space - The Eclipse - B (Countdown 11)",
             "sections": [
               {
-                "name": "Space - The Eclipse - Battle 02",
+                "name": "Space - The Eclipse - Battle 02 - Speed Skirmish 11",
                 "item_count": 1
               }
             ],
@@ -788,7 +823,7 @@
             "name": "Space - The Eclipse - C (Speed Skirmish 11)",
             "sections": [
               {
-                "name": "Space - The Eclipse - Battle 03",
+                "name": "Space - The Eclipse - Battle 03 - Countdown 11",
                 "item_count": 1
               }
             ],
@@ -853,15 +888,24 @@
             "sections": [
               {
                 "name": "Space - Omega Machina - Reward 1",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_superbosses"
+                ]
               },
               {
                 "name": "Space - Omega Machina - Reward 2",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_superbosses"
+                ]
               },
               {
                 "name": "Space - Omega Machina - Reward 3",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_superbosses"
+                ]
               }
             ],
             "map_locations": [
@@ -973,6 +1017,19 @@
                 "shape": "diamond"
               }
             ]
+          },
+          {
+            "name": "Space - The Eclipse - Missions",
+            "sections": [
+              {
+                "name": "Space - Master Builder",
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_grindy"
+                ]
+              }
+            ],
+            "map_locations": []
           }
         ]
       }
@@ -1007,15 +1064,24 @@
               },
               {
                 "name": "Space - Heartless Menacer",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_grindy"
+                ]
               },
               {
                 "name": "Space - Heartless Destroyer",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_grindy"
+                ]
               },
               {
                 "name": "Space - Heartless Obliterator",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "active_space_grindy"
+                ]
               },
               {
                 "name": "Space - Special Weapon Dabbler",
@@ -1050,6 +1116,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "$space_special_weapons|13"
+                ],
+                "visibility_rules": [
+                  "active_space_grindy"
                 ]
               },
               {
@@ -1088,22 +1157,13 @@
                 ]
               },
               {
-                "name": "Space - Pro Builder",
-                "item_count": 1
-              },
-              {
-                "name": "Space - Elite Builder",
-                "item_count": 1
-              },
-              {
-                "name": "Space - Master Builder",
-                "item_count": 1
-              },
-              {
                 "name": "Space - Gummi Ship Completionist",
                 "item_count": 1,
                 "access_rules": [
                   "gummi_endymion,$space_special_weapons|13,$space_all_worlds,$has_at_least|3|space_starlight_way|space_misty_stream|space_eclipse"
+                ],
+                "visibility_rules": [
+                  "active_space_grindy,active_space_superbosses"
                 ]
               }
             ],
