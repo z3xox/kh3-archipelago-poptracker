@@ -1367,12 +1367,20 @@ end
 -- keeps this in step with the generated catalogue; MoM is the only id space
 -- above MOM_LOCATION_ID_BASE, so the test is unambiguous.
 local MOM_LOCATION_ID_BASE = 1263153920
+-- Song ids stay below 256; the 8 authored Melody Chests follow at base + 257..264.
+local MOM_SONG_ID_SPAN = 256
+local MUSIC_CHEST_PLACEMENT_BY_ID = {
+    [1263154177] = "MOM_CHEST_001", [1263154178] = "MOM_CHEST_002",
+    [1263154179] = "MOM_CHEST_003", [1263154180] = "MOM_CHEST_004",
+    [1263154181] = "MOM_CHEST_005", [1263154182] = "MOM_CHEST_006",
+    [1263154183] = "MOM_CHEST_007", [1263154184] = "MOM_CHEST_008",
+}
 local _mom_song_ids = nil
 local function momSongIds()
     if _mom_song_ids == nil then
         _mom_song_ids = {}
         for ap_id, _ in pairs(LOCATION_MAPPING) do
-            if ap_id >= MOM_LOCATION_ID_BASE then
+            if ap_id >= MOM_LOCATION_ID_BASE and ap_id < MOM_LOCATION_ID_BASE + MOM_SONG_ID_SPAN then
                 _mom_song_ids[#_mom_song_ids + 1] = ap_id - MOM_LOCATION_ID_BASE
             end
         end
@@ -1578,6 +1586,20 @@ function autoFill(slot_data)
     }
     local mom_active = {}
     local chest_active = {}
+    -- apworld 0.17 wire slot_data: the seed's rows are references to the bundled
+    -- catalog (location_catalog.entries = [[ap_id, ...], ...]) and bridge.locations
+    -- is gone. A song whose clear is a check keeps MOM_LOCATION_ID_BASE + song_id;
+    -- a song moved into an authored chest takes the chest's id instead.
+    local catalog = slot_data["location_catalog"]
+    for _, entry in ipairs((type(catalog) == "table" and catalog["entries"]) or {}) do
+        local ap_id = type(entry) == "table" and tonumber(entry[1])
+        if ap_id and ap_id >= MOM_LOCATION_ID_BASE and ap_id < MOM_LOCATION_ID_BASE + MOM_SONG_ID_SPAN then
+            mom_active[tostring(ap_id - MOM_LOCATION_ID_BASE)] = true
+        elseif ap_id and MUSIC_CHEST_PLACEMENT_BY_ID[ap_id] then
+            chest_active[MUSIC_CHEST_PLACEMENT_BY_ID[ap_id]] = true
+        end
+    end
+    -- Expanded slot_data of older apworlds.
     local bridge = slot_data["bridge"]
     for _, row in ipairs((bridge and bridge["locations"]) or {}) do
         if row["type"] == "melody_of_memory" then
