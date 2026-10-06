@@ -14,6 +14,16 @@
             "access_rules": [
               "$chest_keyblade|1263022880"
             ]
+          },
+          {
+            "name": "Twilight Town - Chest 1 (Large Chest, The Neighborhood: Tram Common) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022880"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071456"
+            ]
           }
         ],
         "map_locations": [
@@ -32,6 +42,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022881"
+            ]
+          },
+          {
+            "name": "Twilight Town - Chest 2 (Small Chest, The Neighborhood: Tram Common) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022881"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071457"
             ]
           }
         ],
@@ -52,6 +72,16 @@
             "access_rules": [
               "$chest_keyblade|1263022882"
             ]
+          },
+          {
+            "name": "Twilight Town - Chest 3 (Small Chest, The Neighborhood: Tram Common) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022882"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071458"
+            ]
           }
         ],
         "map_locations": [
@@ -70,6 +100,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022883"
+            ]
+          },
+          {
+            "name": "Twilight Town - Chest 4 (Small Chest, The Neighborhood: Tram Common) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022883"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071459"
             ]
           }
         ],
@@ -90,6 +130,16 @@
             "access_rules": [
               "$chest_keyblade|1263022884"
             ]
+          },
+          {
+            "name": "Twilight Town - Chest 5 (Small Chest, The Neighborhood: Tram Common) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022884"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071460"
+            ]
           }
         ],
         "map_locations": [
@@ -108,6 +158,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022885"
+            ]
+          },
+          {
+            "name": "Twilight Town - Chest 6 (Small Chest, Underground Conduit) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022885"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071461"
             ]
           }
         ],
@@ -128,6 +188,16 @@
             "access_rules": [
               "$chest_keyblade|1263022886"
             ]
+          },
+          {
+            "name": "Twilight Town - Chest 7 (Small Chest, The Woods) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022886"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071462"
+            ]
           }
         ],
         "map_locations": [
@@ -146,6 +216,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022887"
+            ]
+          },
+          {
+            "name": "Twilight Town - Chest 8 (Small Chest, The Woods) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022887"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071463"
             ]
           }
         ],
@@ -166,6 +246,16 @@
             "access_rules": [
               "$chest_keyblade|1263022888"
             ]
+          },
+          {
+            "name": "Twilight Town - Chest 9 (Small Chest, The Woods) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022888"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071464"
+            ]
           }
         ],
         "map_locations": [
@@ -184,6 +274,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022889"
+            ]
+          },
+          {
+            "name": "Twilight Town - Chest 10 (Small Chest, The Old Mansion) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022889"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071465"
             ]
           }
         ],

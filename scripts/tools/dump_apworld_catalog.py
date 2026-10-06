@@ -61,6 +61,7 @@ DEFAULT_OUTPUT = ROOT / "scripts" / "tools" / "extracted_locations.json"
 
 BASE_LOCATION_ID = 0x4B483300
 EXTRA_VBONUS_LOCATION_ID_BASE = BASE_LOCATION_ID + 0x10000
+MUSIC_CHEST_BONUS_ID_OFFSET = 0x100000
 
 
 class _Any:
@@ -235,6 +236,29 @@ def dump(apworld: Path) -> dict:
             for index, row in enumerate(locations) if row["type"] == "vbonus"
             for reward in (2, 3)
         ]
+        # A music chest (a converted vanilla chest or an authored Melody Chest) gives a
+        # "<chest> - Song Bonus" check when opened (MelodyOfMemory.music_chest_bonus_locations),
+        # id = chest id + MUSIC_CHEST_BONUS_ID_OFFSET. Which chests are music chests is the
+        # seed's draw, so every possible one is listed.
+        song_bonus_locations = [
+            {
+                "ap_id": BASE_LOCATION_ID + index + MUSIC_CHEST_BONUS_ID_OFFSET,
+                "name": mom_module.music_chest_bonus_name(data_module.display_location_name(row)),
+                "type": "music_chest_bonus",
+                "world": row["world"],
+                "parent_ap_id": BASE_LOCATION_ID + index,
+            }
+            for index, row in enumerate(locations) if row["type"] == "treasure"
+        ] + [
+            {
+                "ap_id": chest["ap_id"] + MUSIC_CHEST_BONUS_ID_OFFSET,
+                "name": mom_module.music_chest_bonus_name(chest["name"]),
+                "type": "music_chest_bonus",
+                "world": chest["world"],
+                "parent_ap_id": chest["ap_id"],
+            }
+            for chest in music_chest_locations
+        ]
         # Gummi items: blueprints carry the zone their ship unlocks.
         space_items = [
             {
@@ -254,6 +278,7 @@ def dump(apworld: Path) -> dict:
                 "music_chest_location_count": len(music_chest_locations),
                 "space_location_count": len(space_locations),
                 "extra_vbonus_location_count": len(extra_vbonus_locations),
+                "song_bonus_location_count": len(song_bonus_locations),
                 "base_location_id": BASE_LOCATION_ID,
                 "mom_location_id_base": mom_module.MOM_LOCATION_ID_BASE,
             },
@@ -263,6 +288,7 @@ def dump(apworld: Path) -> dict:
             "music_chest_locations": music_chest_locations,
             "space_locations": space_locations,
             "extra_vbonus_locations": extra_vbonus_locations,
+            "song_bonus_locations": song_bonus_locations,
             "space_items": space_items,
         }
     finally:

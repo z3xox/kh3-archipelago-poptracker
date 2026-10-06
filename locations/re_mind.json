@@ -269,6 +269,16 @@
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023093,$portal|kingdom_key"
                 ]
+              },
+              {
+                "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023093,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071669"
+                ]
               }
             ],
             "map_locations": [
@@ -290,6 +300,16 @@
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023094,$portal|kingdom_key"
+                ]
+              },
+              {
+                "name": "Re Mind - Chest 2 (Large Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023094,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071670"
                 ]
               }
             ],
@@ -313,6 +333,16 @@
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023095,$portal|kingdom_key"
                 ]
+              },
+              {
+                "name": "Re Mind - Chest 3 (Small Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023095,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071671"
+                ]
               }
             ],
             "map_locations": [
@@ -334,6 +364,16 @@
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023096,$portal|kingdom_key"
+                ]
+              },
+              {
+                "name": "Re Mind - Chest 4 (Small Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023096,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071672"
                 ]
               }
             ],
@@ -357,6 +397,16 @@
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023097,$portal|kingdom_key"
                 ]
+              },
+              {
+                "name": "Re Mind - Chest 5 (Small Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023097,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071673"
+                ]
               }
             ],
             "map_locations": [
@@ -378,6 +428,16 @@
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023098,$portal|kingdom_key"
+                ]
+              },
+              {
+                "name": "Re Mind - Chest 6 (Small Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023098,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071674"
                 ]
               }
             ],
@@ -401,6 +461,16 @@
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023099,$portal|kingdom_key"
                 ]
+              },
+              {
+                "name": "Re Mind - Chest 7 (Small Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023099,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071675"
+                ]
               }
             ],
             "map_locations": [
@@ -423,6 +493,16 @@
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023100,$portal|kingdom_key"
                 ]
+              },
+              {
+                "name": "Re Mind - Chest 8 (Small Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023100,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071676"
+                ]
               }
             ],
             "map_locations": [
@@ -444,6 +524,16 @@
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023101,$portal|kingdom_key"
+                ]
+              },
+              {
+                "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter) - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run,$chest_keyblade|1263023101,$portal|kingdom_key"
+                ],
+                "visibility_rules": [
+                  "$song_bonus|1264071677"
                 ]
               }
             ],

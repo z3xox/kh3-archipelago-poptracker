@@ -14,6 +14,16 @@
             "access_rules": [
               "$chest_keyblade|1263022919"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 7 (Large Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022919"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071495"
+            ]
           }
         ],
         "map_locations": [
@@ -32,6 +42,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022920"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 10 (Large Chest, The Forest: Marsh) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022920"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071496"
             ]
           }
         ],
@@ -52,6 +72,16 @@
             "access_rules": [
               "$chest_keyblade|1263022921"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 9 (Large Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022921"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071497"
+            ]
           }
         ],
         "map_locations": [
@@ -70,6 +100,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022922"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 22 (Large Chest, The Forest: Wildflower Clearing) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022922"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071498"
             ]
           }
         ],
@@ -90,6 +130,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022923"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 24 (Large Chest, The Kingdom: Thoroughfare) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022923"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071499"
+            ]
           }
         ],
         "map_locations": [
@@ -108,6 +158,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022924"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 14 (Large Chest, The Forest: Wetlands) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022924"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071500"
             ]
           }
         ],
@@ -128,6 +188,16 @@
             "access_rules": [
               "$chest_keyblade|1263022925"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 1 (Small Chest, The Forest: Tower) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022925"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071501"
+            ]
           }
         ],
         "map_locations": [
@@ -146,6 +216,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022926,$has_any|ability_doubleflight|ability_high_jump"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 2 (Small Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022926,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071502"
             ]
           }
         ],
@@ -166,6 +246,16 @@
             "access_rules": [
               "$chest_keyblade|1263022927"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 3 (Small Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022927"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071503"
+            ]
           }
         ],
         "map_locations": [
@@ -184,6 +274,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022928"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 4 (Small Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022928"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071504"
             ]
           }
         ],
@@ -204,6 +304,16 @@
             "access_rules": [
               "$chest_keyblade|1263022929"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 5 (Small Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022929"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071505"
+            ]
           }
         ],
         "map_locations": [
@@ -222,6 +332,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022930"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 6 (Small Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022930"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071506"
             ]
           }
         ],
@@ -242,6 +362,16 @@
             "access_rules": [
               "$chest_keyblade|1263022931"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 8 (Small Chest, The Forest: Hills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022931"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071507"
+            ]
           }
         ],
         "map_locations": [
@@ -261,6 +391,16 @@
             "access_rules": [
               "$chest_keyblade|1263022932"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 11 (Small Chest, The Forest: Marsh) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022932"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071508"
+            ]
           }
         ],
         "map_locations": [
@@ -279,6 +419,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022933"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 12 (Small Chest, The Forest: Marsh) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022933"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071509"
             ]
           }
         ],
@@ -301,6 +451,18 @@
               "ability_doubleflight,unlock_wall_run,$chest_keyblade|1263022934",
               "ability_superjump,aero,unlock_magic,unlock_wall_run,$chest_keyblade|1263022934"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 13 (Small Chest, The Forest: Wetlands) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,unlock_wall_run,$chest_keyblade|1263022934",
+              "ability_doubleflight,unlock_wall_run,$chest_keyblade|1263022934",
+              "ability_superjump,aero,unlock_magic,unlock_wall_run,$chest_keyblade|1263022934"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071510"
+            ]
           }
         ],
         "map_locations": [
@@ -319,6 +481,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022935"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 15 (Small Chest, The Forest: Wetlands) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022935"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071511"
             ]
           }
         ],
@@ -339,6 +511,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022936"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 16 (Small Chest, The Forest: Wetlands) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022936"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071512"
+            ]
           }
         ],
         "map_locations": [
@@ -357,6 +539,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022937"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 17 (Small Chest, The Forest: Wetlands) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022937"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071513"
             ]
           }
         ],
@@ -377,6 +569,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022938"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 18 (Small Chest, The Forest: Wetlands) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022938"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071514"
+            ]
           }
         ],
         "map_locations": [
@@ -395,6 +597,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022939"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 19 (Small Chest, The Forest: Campsite) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022939"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071515"
             ]
           }
         ],
@@ -415,6 +627,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022940"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 20 (Small Chest, The Forest: Shore) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022940"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071516"
+            ]
           }
         ],
         "map_locations": [
@@ -433,6 +655,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022941"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 21 (Small Chest, The Forest: Wildflower Clearing) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022941"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071517"
             ]
           }
         ],
@@ -453,6 +685,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022942"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 23 (Small Chest, The Kingdom: Thoroughfare) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022942"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071518"
+            ]
           }
         ],
         "map_locations": [
@@ -471,6 +713,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022943"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 25 (Small Chest, The Kingdom: Thoroughfare) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022943"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071519"
             ]
           }
         ],
@@ -491,6 +743,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022944"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 26 (Small Chest, The Kingdom: Wharf) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022944"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071520"
+            ]
           }
         ],
         "map_locations": [
@@ -510,6 +772,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022945"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 27 (Small Chest, The Kingdom: Wharf) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022945"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071521"
+            ]
           }
         ],
         "map_locations": [
@@ -528,6 +800,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022946"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Chest 28 (Small Chest, The Kingdom: Wharf) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022946"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071522"
             ]
           }
         ],

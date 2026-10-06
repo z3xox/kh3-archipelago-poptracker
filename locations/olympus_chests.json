@@ -14,6 +14,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022848"
             ]
+          },
+          {
+            "name": "Olympus - Chest 29 (Large Chest, Realm of the Gods: Corridors) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022848"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071424"
+            ]
           }
         ],
         "map_locations": [
@@ -34,6 +44,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022849",
               "unlock_wall_run,$chest_keyblade|1263022849"
             ]
+          },
+          {
+            "name": "Olympus - Chest 9 (Large Chest, Mount Olympus: Cliff Ascent) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022849",
+              "unlock_wall_run,$chest_keyblade|1263022849"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071425"
+            ]
           }
         ],
         "map_locations": [
@@ -52,6 +73,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022850"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 31 (Large Chest, Realm of the Gods: Apex) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022850"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071426"
             ]
           }
         ],
@@ -73,6 +104,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022851,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022851"
             ]
+          },
+          {
+            "name": "Olympus - Chest 24 (Large Chest, Thebes: Overlook) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022851,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022851"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071427"
+            ]
           }
         ],
         "map_locations": [
@@ -91,6 +133,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022852"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 25 (Small Chest, Realm of the Gods: Courtyard) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022852"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071428"
             ]
           }
         ],
@@ -111,6 +163,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022853"
             ]
+          },
+          {
+            "name": "Olympus - Chest 26 (Small Chest, Realm of the Gods: Courtyard) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022853"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071429"
+            ]
           }
         ],
         "map_locations": [
@@ -129,6 +191,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022854"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 27 (Small Chest, Realm of the Gods: Courtyard) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022854"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071430"
             ]
           }
         ],
@@ -149,6 +221,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022855"
             ]
+          },
+          {
+            "name": "Olympus - Chest 28 (Small Chest, Realm of the Gods: Corridors) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022855"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071431"
+            ]
           }
         ],
         "map_locations": [
@@ -168,6 +250,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022856"
             ]
+          },
+          {
+            "name": "Olympus - Chest 30 (Small Chest, Realm of the Gods: Cloud Ridge) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022856"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071432"
+            ]
           }
         ],
         "map_locations": [
@@ -186,6 +278,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022857"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 32 (Small Chest, Realm of the Gods: Apex) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022857"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071433"
             ]
           }
         ],
@@ -207,6 +309,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022858,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022858"
             ]
+          },
+          {
+            "name": "Olympus - Chest 1 (Small Chest, Mount Olympus: Ravine) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022858,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022858"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071434"
+            ]
           }
         ],
         "map_locations": [
@@ -226,6 +339,17 @@
             "access_rules": [
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022859,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022859"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 2 (Small Chest, Mount Olympus: Ravine) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022859,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022859"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071435"
             ]
           }
         ],
@@ -247,6 +371,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860",
               "unlock_wall_run,$chest_keyblade|1263022860"
             ]
+          },
+          {
+            "name": "Olympus - Chest 3 (Small Chest, Mount Olympus: Cliff Ascent) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860",
+              "unlock_wall_run,$chest_keyblade|1263022860"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071436"
+            ]
           }
         ],
         "map_locations": [
@@ -266,6 +401,17 @@
             "access_rules": [
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022861",
               "unlock_wall_run,$chest_keyblade|1263022861"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 4 (Small Chest, Mount Olympus: Cliff Ascent) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022861",
+              "unlock_wall_run,$chest_keyblade|1263022861"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071437"
             ]
           }
         ],
@@ -287,6 +433,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022862",
               "unlock_wall_run,$chest_keyblade|1263022862"
             ]
+          },
+          {
+            "name": "Olympus - Chest 5 (Small Chest, Mount Olympus: Cliff Ascent) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022862",
+              "unlock_wall_run,$chest_keyblade|1263022862"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071438"
+            ]
           }
         ],
         "map_locations": [
@@ -306,6 +463,17 @@
             "access_rules": [
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022863",
               "unlock_wall_run,$chest_keyblade|1263022863"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 6 (Small Chest, Mount Olympus: Cliff Ascent) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022863",
+              "unlock_wall_run,$chest_keyblade|1263022863"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071439"
             ]
           }
         ],
@@ -327,6 +495,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022864",
               "unlock_wall_run,$chest_keyblade|1263022864"
             ]
+          },
+          {
+            "name": "Olympus - Chest 7 (Small Chest, Mount Olympus: Cliff Ascent) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022864",
+              "unlock_wall_run,$chest_keyblade|1263022864"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071440"
+            ]
           }
         ],
         "map_locations": [
@@ -347,6 +526,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022865",
               "unlock_wall_run,$chest_keyblade|1263022865"
             ]
+          },
+          {
+            "name": "Olympus - Chest 8 (Small Chest, Mount Olympus: Cliff Ascent) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022865",
+              "unlock_wall_run,$chest_keyblade|1263022865"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071441"
+            ]
           }
         ],
         "map_locations": [
@@ -365,6 +555,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022866"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 10 (Small Chest, Mount Olympus: Mountainside) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022866"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071442"
             ]
           }
         ],
@@ -385,6 +585,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022867"
             ]
+          },
+          {
+            "name": "Olympus - Chest 11 (Small Chest, Mount Olympus: Summit) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022867"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071443"
+            ]
           }
         ],
         "map_locations": [
@@ -403,6 +613,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022868"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 12 (Small Chest, Mount Olympus: Mountainside) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022868"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071444"
             ]
           }
         ],
@@ -424,6 +644,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022869"
             ]
+          },
+          {
+            "name": "Olympus - Chest 13 (Small Chest, Thebes: Alleyway) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022869"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071445"
+            ]
           }
         ],
         "map_locations": [
@@ -443,6 +674,17 @@
             "access_rules": [
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022870,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022870"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 14 (Small Chest, Thebes: Alleyway) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022870,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022870"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071446"
             ]
           }
         ],
@@ -464,6 +706,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022871,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022871"
             ]
+          },
+          {
+            "name": "Olympus - Chest 15 (Small Chest, Thebes: Agora) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022871,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022871"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071447"
+            ]
           }
         ],
         "map_locations": [
@@ -483,6 +736,17 @@
             "access_rules": [
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022872"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 16 (Small Chest, Thebes: The Big Olive) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022872"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071448"
             ]
           }
         ],
@@ -504,6 +768,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022873,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022873"
             ]
+          },
+          {
+            "name": "Olympus - Chest 17 (Small Chest, Thebes: The Big Olive) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022873,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022873"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071449"
+            ]
           }
         ],
         "map_locations": [
@@ -523,6 +798,17 @@
             "access_rules": [
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022874"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 18 (Small Chest, Thebes: Gardens) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022874"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071450"
             ]
           }
         ],
@@ -544,6 +830,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022875,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022875"
             ]
+          },
+          {
+            "name": "Olympus - Chest 19 (Small Chest, Thebes: Overlook) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022875,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022875"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071451"
+            ]
           }
         ],
         "map_locations": [
@@ -563,6 +860,17 @@
             "access_rules": [
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022876"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 20 (Small Chest, Thebes: Overlook) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022876"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071452"
             ]
           }
         ],
@@ -584,6 +892,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022877,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022877"
             ]
+          },
+          {
+            "name": "Olympus - Chest 21 (Small Chest, Thebes: Gardens) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022877,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022877"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071453"
+            ]
           }
         ],
         "map_locations": [
@@ -604,6 +923,17 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022878,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022878"
             ]
+          },
+          {
+            "name": "Olympus - Chest 22 (Small Chest, Thebes: Overlook) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022878,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022878"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071454"
+            ]
           }
         ],
         "map_locations": [
@@ -623,6 +953,17 @@
             "access_rules": [
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022879,$has_any|ability_doubleflight|ability_high_jump",
               "unlock_wall_run,$chest_keyblade|1263022879"
+            ]
+          },
+          {
+            "name": "Olympus - Chest 23 (Small Chest, Thebes: Overlook) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022879,$has_any|ability_doubleflight|ability_high_jump",
+              "unlock_wall_run,$chest_keyblade|1263022879"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071455"
             ]
           }
         ],

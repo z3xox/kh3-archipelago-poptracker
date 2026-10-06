@@ -30,9 +30,10 @@ IDs come from BASE_LOCATION_ID + index in the source "locations" array, except
 for the two id spaces that are not positional: Melody of Memory songs
 (MOM_LOCATION_ID_BASE + song_id) and the 8 authored Melody Chests, which both
 arrive from the dump carrying an explicit "ap_id". See build_raw_records.
-The extra victory bonus rewards ("extra_vbonus_locations") follow their parent
-victory bonus: same location, section "<parent section> - Reward N"; their
-sections are written by generate_extra_vbonus.py.
+Child checks follow their parent: the extra victory bonus rewards
+("extra_vbonus_locations", section "<parent section> - Reward N") and the music
+chest Song Bonuses ("song_bonus_locations", "<parent section> - Song Bonus") keep
+the parent's location; their sections are written by generate_child_checks.py.
 
 locations/*.json and autotracking.lua are updated with the same string-replace
 approach as rename_location.py: only name strings are swapped (once per
@@ -183,15 +184,18 @@ def build_display_records(data: dict, overrides: dict[int, str],
             name = resolved_name(ap_id, raw_name)
             records[ap_id] = (name, name)
 
-    # The two extra rewards of a victory bonus sit under their parent's pin, named
-    # after the parent's section ("<section> - Reward 2" / "- Reward 3").
-    for extra in data.get("extra_vbonus_locations", []):
-        parent = records.get(extra["parent_ap_id"])
-        if parent is None or extra["ap_id"] in excluded:
+    # Child checks sit under their parent's pin, named after the parent's section:
+    # the two extra rewards of a victory bonus ("<section> - Reward 2" / "- Reward 3")
+    # and a music chest's "<section> - Song Bonus".
+    children = [(row, f" - Reward {row['reward']}") for row in data.get("extra_vbonus_locations", [])]
+    children += [(row, " - Song Bonus") for row in data.get("song_bonus_locations", [])]
+    for child, suffix in children:
+        parent = records.get(child["parent_ap_id"])
+        if parent is None or child["ap_id"] in excluded:
             continue
-        if extra["ap_id"] in records:
-            raise SystemExit(f"error: extra victory bonus id {extra['ap_id']} collides with {records[extra['ap_id']]}")
-        records[extra["ap_id"]] = (parent[0], f"{parent[1]} - Reward {extra['reward']}")
+        if child["ap_id"] in records:
+            raise SystemExit(f"error: child check id {child['ap_id']} collides with {records[child['ap_id']]}")
+        records[child["ap_id"]] = (parent[0], parent[1] + suffix)
 
     unknown_registry_ids = sorted((set(overrides) | set(group_members)) - set(raw))
     if unknown_registry_ids:

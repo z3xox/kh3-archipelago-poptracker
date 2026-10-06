@@ -14,6 +14,16 @@
             "access_rules": [
               "$chest_keyblade|1263022994"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 51 (Large Chest, Port Royal: Docks) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022994"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071570"
+            ]
           }
         ],
         "map_locations": [
@@ -32,6 +42,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022995"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022995"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071571"
             ]
           }
         ],
@@ -52,6 +72,16 @@
             "access_rules": [
               "$chest_keyblade|1263022996"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 18 (Large Chest, Ship's End) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022996"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071572"
+            ]
           }
         ],
         "map_locations": [
@@ -70,6 +100,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022997"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 19 (Large Chest, Sandbar Isle) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022997"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071573"
             ]
           }
         ],
@@ -90,6 +130,16 @@
             "access_rules": [
               "$chest_keyblade|1263022998"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 20 (Large Chest, Huddled Isles) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022998"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071574"
+            ]
           }
         ],
         "map_locations": [
@@ -108,6 +158,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022999"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 47 (Large Chest, Port Royal: Fort) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022999"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071575"
             ]
           }
         ],
@@ -128,6 +188,16 @@
             "access_rules": [
               "$chest_keyblade|1263023000"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023000"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071576"
+            ]
           }
         ],
         "map_locations": [
@@ -146,6 +216,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263023001"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 10 (Large Chest, Isla Verdemontana) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263023001"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071577"
             ]
           }
         ],
@@ -166,6 +246,16 @@
             "access_rules": [
               "$chest_keyblade|1263023002"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 13 (Large Chest, Confinement Island) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023002"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071578"
+            ]
           }
         ],
         "map_locations": [
@@ -184,6 +274,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023003"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023003"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071579"
             ]
           }
         ],
@@ -204,6 +304,16 @@
             "access_rules": [
               "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071580"
+            ]
           }
         ],
         "map_locations": [
@@ -222,6 +332,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023005"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 46 (Small Chest, Port Royal: Fort) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023005"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071581"
             ]
           }
         ],
@@ -242,6 +362,16 @@
             "access_rules": [
               "$chest_keyblade|1263023006"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023006"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071582"
+            ]
           }
         ],
         "map_locations": [
@@ -260,6 +390,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023007"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023007"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071583"
             ]
           }
         ],
@@ -280,6 +420,16 @@
             "access_rules": [
               "$chest_keyblade|1263023008"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023008"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071584"
+            ]
           }
         ],
         "map_locations": [
@@ -298,6 +448,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023009"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023009"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071585"
             ]
           }
         ],
@@ -318,6 +478,16 @@
             "access_rules": [
               "$chest_keyblade|1263023010"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 53 (Small Chest, Port Royal: Docks) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023010"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071586"
+            ]
           }
         ],
         "map_locations": [
@@ -336,6 +506,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023011"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023011"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071587"
             ]
           }
         ],
@@ -356,6 +536,16 @@
             "access_rules": [
               "$chest_keyblade|1263023012"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023012"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071588"
+            ]
           }
         ],
         "map_locations": [
@@ -374,6 +564,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023013"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023013"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071589"
             ]
           }
         ],
@@ -394,6 +594,16 @@
             "access_rules": [
               "$chest_keyblade|1263023015"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023015"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071591"
+            ]
           }
         ],
         "map_locations": [
@@ -412,6 +622,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023016"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023016"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071592"
             ]
           }
         ],
@@ -433,6 +653,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263023020",
               "unlock_wall_run,$chest_keyblade|1263023020"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 9 (Small Chest, Isla Verdemontana) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263023020",
+              "unlock_wall_run,$chest_keyblade|1263023020"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071596"
+            ]
           }
         ],
         "map_locations": [
@@ -453,6 +684,17 @@
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021",
               "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021",
+              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071597"
+            ]
           }
         ],
         "map_locations": [
@@ -471,6 +713,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023022"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 12 (Small Chest, Exile Island) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023022"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071598"
             ]
           }
         ],
@@ -491,6 +743,16 @@
             "access_rules": [
               "$chest_keyblade|1263023029"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 45 (Small Chest, The Leviathan) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023029"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071605"
+            ]
           }
         ],
         "map_locations": [
@@ -509,6 +771,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023023"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 14 (Small Chest, The Gateway of Regret) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023023"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071599"
             ]
           }
         ],
@@ -529,6 +801,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263023030"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 25 (Small Chest, Isla Verdemontana) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263023030"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071606"
+            ]
           }
         ],
         "map_locations": [
@@ -548,6 +830,16 @@
             "access_rules": [
               "$chest_keyblade|1263023031"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023031"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071607"
+            ]
           }
         ],
         "map_locations": [
@@ -566,6 +858,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023032"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 27 (Small Chest, Sandbar Isle) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023032"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071608"
             ]
           }
         ],
@@ -588,6 +890,16 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 28 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023033"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071609"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater)",
             "item_count": 1,
             "access_rules": [
@@ -595,10 +907,30 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023034"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071610"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater)",
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023035"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023035"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071611"
             ]
           }
         ],
@@ -622,11 +954,33 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023038",
+              "unlock_wall_run,$chest_keyblade|1263023038,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071614"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023039",
               "unlock_wall_run,$chest_keyblade|1263023039,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023039",
+              "unlock_wall_run,$chest_keyblade|1263023039,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071615"
             ]
           },
           {
@@ -638,11 +992,33 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023040",
+              "unlock_wall_run,$chest_keyblade|1263023040,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071616"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023041",
               "unlock_wall_run,$chest_keyblade|1263023041,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023041",
+              "unlock_wall_run,$chest_keyblade|1263023041,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071617"
             ]
           },
           {
@@ -654,11 +1030,33 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023042",
+              "unlock_wall_run,$chest_keyblade|1263023042,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071618"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023043",
               "unlock_wall_run,$chest_keyblade|1263023043,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023043",
+              "unlock_wall_run,$chest_keyblade|1263023043,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071619"
             ]
           },
           {
@@ -670,11 +1068,33 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023044",
+              "unlock_wall_run,$chest_keyblade|1263023044,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071620"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023045",
               "unlock_wall_run,$chest_keyblade|1263023045,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023045",
+              "unlock_wall_run,$chest_keyblade|1263023045,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071621"
             ]
           }
         ],
@@ -698,11 +1118,33 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023036",
+              "unlock_wall_run,$chest_keyblade|1263023036,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071612"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023037",
               "unlock_wall_run,$chest_keyblade|1263023037,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023037",
+              "unlock_wall_run,$chest_keyblade|1263023037,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071613"
             ]
           }
         ],
@@ -725,10 +1167,30 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 16 (Small Chest, Horseshoe Island) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023024"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071600"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 41 (Small Chest, Horseshoe Island)",
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023046"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 41 (Small Chest, Horseshoe Island) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023046"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071622"
             ]
           },
           {
@@ -739,6 +1201,16 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 42 (Small Chest, Horseshoe Island) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023047"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071623"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 43 (Small Chest, Horseshoe Island)",
             "item_count": 1,
             "access_rules": [
@@ -746,10 +1218,30 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 43 (Small Chest, Horseshoe Island) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023048"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071624"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 44 (Small Chest, Horseshoe Island)",
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023049"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 44 (Small Chest, Horseshoe Island) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023049"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071625"
             ]
           }
         ],
@@ -772,6 +1264,16 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 1 (Small Chest, Huddled Isles) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023014"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071590"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 21 (Small Chest, Huddled Isles)",
             "item_count": 1,
             "access_rules": [
@@ -779,10 +1281,30 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 21 (Small Chest, Huddled Isles) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023025"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071601"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 22 (Small Chest, Huddled Isles)",
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023026"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 22 (Small Chest, Huddled Isles) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023026"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071602"
             ]
           }
         ],
@@ -805,10 +1327,30 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 7 (Small Chest, Ship's End) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023018"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071594"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 8 (Small Chest, Ship's End)",
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023019"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 8 (Small Chest, Ship's End) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023019"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071595"
             ]
           }
         ],
@@ -831,6 +1373,16 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263023017"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071593"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
@@ -838,10 +1390,30 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263023027"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071603"
+            ]
+          },
+          {
             "name": "The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263023028"
+            ]
+          },
+          {
+            "name": "The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263023028"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071604"
             ]
           }
         ],
@@ -864,11 +1436,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 51 (Large Chest, Port Royal: Docks) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 51 (Large Chest, Port Royal: Docks)/The Caribbean - Chest 51 (Large Chest, Port Royal: Docks) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)/The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)",
             "access_rules": [
               "$chest_keyblade|1263022999"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 47 (Large Chest, Port Royal: Fort) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 47 (Large Chest, Port Royal: Fort)/The Caribbean - Chest 47 (Large Chest, Port Royal: Fort) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 46 (Small Chest, Port Royal: Fort)",
@@ -878,11 +1458,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 46 (Small Chest, Port Royal: Fort) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 46 (Small Chest, Port Royal: Fort)/The Caribbean - Chest 46 (Small Chest, Port Royal: Fort) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)",
             "access_rules": [
               "$chest_keyblade|1263023006"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 48 (Small Chest, Port Royal: Seaport) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)",
@@ -892,11 +1480,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 49 (Small Chest, Port Royal: Seaport) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)",
             "access_rules": [
               "$chest_keyblade|1263023008"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 50 (Small Chest, Port Royal: Seaport) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)",
@@ -906,11 +1502,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement)/The Caribbean - Chest 52 (Small Chest, Port Royal: Settlement) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)/The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)",
             "access_rules": [
               "$chest_keyblade|1263023010"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 53 (Small Chest, Port Royal: Docks) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 53 (Small Chest, Port Royal: Docks)/The Caribbean - Chest 53 (Small Chest, Port Royal: Docks) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater)",
@@ -920,11 +1524,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater)/The Caribbean - Chest 54 (Small Chest, Port Royal: Underwater) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)/The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)",
             "access_rules": [
               "$chest_keyblade|1263023012"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement)/The Caribbean - Chest 55 (Small Chest, Port Royal: Settlement) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)",
@@ -934,11 +1546,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport)/The Caribbean - Chest 56 (Small Chest, Port Royal: Seaport) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 45 (Small Chest, The Leviathan)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 45 (Small Chest, The Leviathan)/The Caribbean - Chest 45 (Small Chest, The Leviathan)",
             "access_rules": [
               "$chest_keyblade|1263023029"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 45 (Small Chest, The Leviathan) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 45 (Small Chest, The Leviathan)/The Caribbean - Chest 45 (Small Chest, The Leviathan) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -960,11 +1580,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 20 (Large Chest, Huddled Isles) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 20 (Large Chest, Huddled Isles)/The Caribbean - Chest 20 (Large Chest, Huddled Isles) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)",
             "access_rules": [
               "$chest_keyblade|1263023000"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 4 (Large Chest, Huddled Isles: Undersea Cavern) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern)",
@@ -974,11 +1602,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 15 (Large Chest, Huddled Isles: Undersea Cavern) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)",
             "access_rules": [
               "$chest_keyblade|1263023015"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 2 (Small Chest, Huddled Isles: Undersea Cavern) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern)",
@@ -988,11 +1624,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern)/The Caribbean - Chest 3 (Small Chest, Huddled Isles: Undersea Cavern) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 1 (Small Chest, Huddled Isles)",
             "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 1 (Small Chest, Huddled Isles)",
             "access_rules": [
               "$chest_keyblade|1263023014"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 1 (Small Chest, Huddled Isles) - Song Bonus",
+            "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 1 (Small Chest, Huddled Isles) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 21 (Small Chest, Huddled Isles)",
@@ -1002,11 +1646,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 21 (Small Chest, Huddled Isles) - Song Bonus",
+            "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 21 (Small Chest, Huddled Isles) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 22 (Small Chest, Huddled Isles)",
             "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 22 (Small Chest, Huddled Isles)",
             "access_rules": [
               "$chest_keyblade|1263023026"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 22 (Small Chest, Huddled Isles) - Song Bonus",
+            "ref": "The Caribbean - Chests/Huddled Isles - Chests 1+21+22/The Caribbean - Chest 22 (Small Chest, Huddled Isles) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1028,11 +1680,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles)/The Caribbean - Chest 17 (Large Chest, Isla de los Mastiles) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)",
             "access_rules": [
               "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles)/The Caribbean - Chest 6 (Large Chest, Isla de los Mastiles) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
@@ -1042,6 +1702,10 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 5 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "access_rules": [
@@ -1049,11 +1713,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 23 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove)",
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263023028"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Isla Mastiles - Chests 5+23+24/The Caribbean - Chest 24 (Small Chest, Isla de los Mastiles: Underwater Alcove) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1075,6 +1747,10 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 18 (Large Chest, Ship's End) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 18 (Large Chest, Ship's End)/The Caribbean - Chest 18 (Large Chest, Ship's End) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 7 (Small Chest, Ship's End)",
             "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Chest 7 (Small Chest, Ship's End)",
             "access_rules": [
@@ -1082,11 +1758,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 7 (Small Chest, Ship's End) - Song Bonus",
+            "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Chest 7 (Small Chest, Ship's End) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 8 (Small Chest, Ship's End)",
             "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Chest 8 (Small Chest, Ship's End)",
             "access_rules": [
               "$chest_keyblade|1263023019"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 8 (Small Chest, Ship's End) - Song Bonus",
+            "ref": "The Caribbean - Chests/Ship's End - Chests 7+8/The Caribbean - Chest 8 (Small Chest, Ship's End) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1108,6 +1792,10 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 10 (Large Chest, Isla Verdemontana) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana)/The Caribbean - Chest 10 (Large Chest, Isla Verdemontana) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)",
             "access_rules": [
@@ -1116,11 +1804,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 9 (Small Chest, Isla Verdemontana) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 9 (Small Chest, Isla Verdemontana) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)",
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263023030"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 25 (Small Chest, Isla Verdemontana) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana)/The Caribbean - Chest 25 (Small Chest, Isla Verdemontana) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1142,12 +1838,20 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 19 (Large Chest, Sandbar Isle) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 19 (Large Chest, Sandbar Isle)/The Caribbean - Chest 19 (Large Chest, Sandbar Isle) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021",
               "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove)/The Caribbean - Chest 11 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)",
@@ -1157,11 +1861,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater)/The Caribbean - Chest 26 (Small Chest, Sandbar Isle: Underwater) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 27 (Small Chest, Sandbar Isle)",
             "ref": "The Caribbean - Chests/The Caribbean - Chest 27 (Small Chest, Sandbar Isle)/The Caribbean - Chest 27 (Small Chest, Sandbar Isle)",
             "access_rules": [
               "$chest_keyblade|1263023032"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 27 (Small Chest, Sandbar Isle) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 27 (Small Chest, Sandbar Isle)/The Caribbean - Chest 27 (Small Chest, Sandbar Isle) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 28 (Small Chest, Sandbar Isle: Underwater)",
@@ -1171,6 +1883,10 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 28 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 28 (Small Chest, Sandbar Isle: Underwater) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater)",
             "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater)",
             "access_rules": [
@@ -1178,11 +1894,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 29 (Small Chest, Sandbar Isle: Underwater) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater)",
             "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater)",
             "access_rules": [
               "$chest_keyblade|1263023035"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 28+29+30/The Caribbean - Chest 30 (Small Chest, Sandbar Isle: Underwater) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove)",
@@ -1193,12 +1917,20 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 33 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023039",
               "unlock_wall_run,$chest_keyblade|1263023039,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 34 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove)",
@@ -1209,12 +1941,20 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 35 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023041",
               "unlock_wall_run,$chest_keyblade|1263023041,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 36 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove)",
@@ -1225,12 +1965,20 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 37 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023043",
               "unlock_wall_run,$chest_keyblade|1263023043,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 38 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove)",
@@ -1241,12 +1989,20 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 39 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023045",
               "unlock_wall_run,$chest_keyblade|1263023045,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - x8 Cluster/The Caribbean - Chest 40 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove)",
@@ -1257,12 +2013,20 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 31 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove)",
             "access_rules": [
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023037",
               "unlock_wall_run,$chest_keyblade|1263023037,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus",
+            "ref": "The Caribbean - Chests/Sandbar Isle - Chests 31+32/The Caribbean - Chest 32 (Small Chest, Sandbar Isle: Underwater Alcove) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1282,6 +2046,10 @@
             "access_rules": [
               "$chest_keyblade|1263023022"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 12 (Small Chest, Exile Island) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 12 (Small Chest, Exile Island)/The Caribbean - Chest 12 (Small Chest, Exile Island) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1301,6 +2069,10 @@
             "access_rules": [
               "$chest_keyblade|1263023002"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 13 (Large Chest, Confinement Island) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 13 (Large Chest, Confinement Island)/The Caribbean - Chest 13 (Large Chest, Confinement Island) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1322,11 +2094,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 16 (Small Chest, Horseshoe Island) - Song Bonus",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 16 (Small Chest, Horseshoe Island) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 41 (Small Chest, Horseshoe Island)",
             "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 41 (Small Chest, Horseshoe Island)",
             "access_rules": [
               "$chest_keyblade|1263023046"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 41 (Small Chest, Horseshoe Island) - Song Bonus",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 41 (Small Chest, Horseshoe Island) - Song Bonus"
           },
           {
             "name": "The Caribbean - Chest 42 (Small Chest, Horseshoe Island)",
@@ -1336,6 +2116,10 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 42 (Small Chest, Horseshoe Island) - Song Bonus",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 42 (Small Chest, Horseshoe Island) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 43 (Small Chest, Horseshoe Island)",
             "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 43 (Small Chest, Horseshoe Island)",
             "access_rules": [
@@ -1343,11 +2127,19 @@
             ]
           },
           {
+            "name": "The Caribbean - Chest 43 (Small Chest, Horseshoe Island) - Song Bonus",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 43 (Small Chest, Horseshoe Island) - Song Bonus"
+          },
+          {
             "name": "The Caribbean - Chest 44 (Small Chest, Horseshoe Island)",
             "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 44 (Small Chest, Horseshoe Island)",
             "access_rules": [
               "$chest_keyblade|1263023049"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 44 (Small Chest, Horseshoe Island) - Song Bonus",
+            "ref": "The Caribbean - Chests/Horseshoe Island - Chest Cluster/The Caribbean - Chest 44 (Small Chest, Horseshoe Island) - Song Bonus"
           }
         ],
         "map_locations": [
@@ -1367,6 +2159,10 @@
             "access_rules": [
               "$chest_keyblade|1263023023"
             ]
+          },
+          {
+            "name": "The Caribbean - Chest 14 (Small Chest, The Gateway of Regret) - Song Bonus",
+            "ref": "The Caribbean - Chests/The Caribbean - Chest 14 (Small Chest, The Gateway of Regret)/The Caribbean - Chest 14 (Small Chest, The Gateway of Regret) - Song Bonus"
           }
         ],
         "map_locations": [

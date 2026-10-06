@@ -14,6 +14,16 @@
             "access_rules": [
               "$chest_keyblade|1263023050"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 3 (Large Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023050"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071626"
+            ]
           }
         ],
         "map_locations": [
@@ -32,6 +42,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023051"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 34 (Large Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023051"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071627"
             ]
           }
         ],
@@ -52,6 +72,16 @@
             "access_rules": [
               "$chest_keyblade|1263023052"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 35 (Large Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023052"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071628"
+            ]
           }
         ],
         "map_locations": [
@@ -70,6 +100,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023053"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 36 (Large Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023053"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071629"
             ]
           }
         ],
@@ -90,6 +130,16 @@
             "access_rules": [
               "$chest_keyblade|1263023055"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 2 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023055"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071631"
+            ]
           }
         ],
         "map_locations": [
@@ -108,6 +158,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023056"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 4 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023056"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071632"
             ]
           }
         ],
@@ -128,6 +188,16 @@
             "access_rules": [
               "$chest_keyblade|1263023057"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 5 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023057"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071633"
+            ]
           }
         ],
         "map_locations": [
@@ -146,6 +216,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023058"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 6 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023058"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071634"
             ]
           }
         ],
@@ -166,6 +246,16 @@
             "access_rules": [
               "$chest_keyblade|1263023059"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 7 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023059"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071635"
+            ]
           }
         ],
         "map_locations": [
@@ -184,6 +274,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023060"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 8 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023060"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071636"
             ]
           }
         ],
@@ -204,6 +304,16 @@
             "access_rules": [
               "$chest_keyblade|1263023061"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 9 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023061"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071637"
+            ]
           }
         ],
         "map_locations": [
@@ -222,6 +332,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023062"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 10 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023062"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071638"
             ]
           }
         ],
@@ -242,6 +362,16 @@
             "access_rules": [
               "$chest_keyblade|1263023065"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 13 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023065"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071641"
+            ]
           }
         ],
         "map_locations": [
@@ -260,6 +390,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023066"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 14 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023066"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071642"
             ]
           }
         ],
@@ -280,6 +420,16 @@
             "access_rules": [
               "$chest_keyblade|1263023067"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 15 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023067"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071643"
+            ]
           }
         ],
         "map_locations": [
@@ -298,6 +448,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023068"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 16 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023068"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071644"
             ]
           }
         ],
@@ -318,6 +478,16 @@
             "access_rules": [
               "$chest_keyblade|1263023069"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 17 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023069"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071645"
+            ]
           }
         ],
         "map_locations": [
@@ -336,6 +506,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023071"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 19 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023071"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071647"
             ]
           }
         ],
@@ -356,6 +536,16 @@
             "access_rules": [
               "$chest_keyblade|1263023072"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 20 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023072"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071648"
+            ]
           }
         ],
         "map_locations": [
@@ -374,6 +564,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023073"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 21 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023073"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071649"
             ]
           }
         ],
@@ -394,6 +594,16 @@
             "access_rules": [
               "$chest_keyblade|1263023074"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 22 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023074"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071650"
+            ]
           }
         ],
         "map_locations": [
@@ -412,6 +622,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023075"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 23 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023075"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071651"
             ]
           }
         ],
@@ -432,6 +652,16 @@
             "access_rules": [
               "$chest_keyblade|1263023076"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 24 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023076"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071652"
+            ]
           }
         ],
         "map_locations": [
@@ -450,6 +680,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023077"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 25 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023077"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071653"
             ]
           }
         ],
@@ -470,6 +710,16 @@
             "access_rules": [
               "$chest_keyblade|1263023078"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 26 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023078"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071654"
+            ]
           }
         ],
         "map_locations": [
@@ -488,6 +738,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023079"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 27 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023079"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071655"
             ]
           }
         ],
@@ -508,6 +768,16 @@
             "access_rules": [
               "$chest_keyblade|1263023080"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 28 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023080"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071656"
+            ]
           }
         ],
         "map_locations": [
@@ -526,6 +796,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023081"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 29 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023081"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071657"
             ]
           }
         ],
@@ -546,6 +826,16 @@
             "access_rules": [
               "$chest_keyblade|1263023083"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 31 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023083"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071659"
+            ]
           }
         ],
         "map_locations": [
@@ -565,6 +855,16 @@
             "access_rules": [
               "$chest_keyblade|1263023084"
             ]
+          },
+          {
+            "name": "San Fransokyo - Chest 32 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023084"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071660"
+            ]
           }
         ],
         "map_locations": [
@@ -583,6 +883,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023085"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 33 (Small Chest, The City: North District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023085"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071661"
             ]
           }
         ],
@@ -605,6 +915,16 @@
             ]
           },
           {
+            "name": "San Fransokyo - Chest 11 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023063"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071639"
+            ]
+          },
+          {
             "name": "San Fransokyo - Chest 12 (Small Chest, The City: South District)",
             "item_count": 1,
             "access_rules": [
@@ -612,10 +932,30 @@
             ]
           },
           {
+            "name": "San Fransokyo - Chest 12 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023064"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071640"
+            ]
+          },
+          {
             "name": "San Fransokyo - Chest 18 (Small Chest, The City: South District)",
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023070"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 18 (Small Chest, The City: South District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023070"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071646"
             ]
           }
         ],
@@ -638,10 +978,30 @@
             ]
           },
           {
+            "name": "San Fransokyo - Chest 1 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023054"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071630"
+            ]
+          },
+          {
             "name": "San Fransokyo - Chest 30 (Small Chest, The City: Central District)",
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263023082"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Chest 30 (Small Chest, The City: Central District) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263023082"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071658"
             ]
           }
         ],

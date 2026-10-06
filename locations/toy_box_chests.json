@@ -14,6 +14,16 @@
             "access_rules": [
               "$chest_keyblade|1263022890"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 1 (Large Chest, Andy's House) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022890"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071466"
+            ]
           }
         ],
         "map_locations": [
@@ -33,6 +43,16 @@
             "access_rules": [
               "$chest_keyblade|1263022891"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 2 (Large Chest, Andy's House) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022891"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071467"
+            ]
           }
         ],
         "map_locations": [
@@ -51,6 +71,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022892"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 5 (Large Chest, Galaxy Toys: Main Floor 1F) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022892"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071468"
             ]
           }
         ],
@@ -72,6 +102,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022893",
               "unlock_wall_run,$chest_keyblade|1263022893"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 13 (Large Chest, Galaxy Toys: Lower Vents) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022893",
+              "unlock_wall_run,$chest_keyblade|1263022893"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071469"
+            ]
           }
         ],
         "map_locations": [
@@ -92,6 +133,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022894",
               "unlock_wall_run,$chest_keyblade|1263022894"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 24 (Large Chest, Galaxy Toys: Kid Korral) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022894",
+              "unlock_wall_run,$chest_keyblade|1263022894"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071470"
+            ]
           }
         ],
         "map_locations": [
@@ -110,6 +162,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022895"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 29 (Large Chest, Galaxy Toys: Main Floor: 3F) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022895"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071471"
             ]
           }
         ],
@@ -132,6 +194,18 @@
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896",
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 3 (Small Chest, Andy's House) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071472"
+            ]
           }
         ],
         "map_locations": [
@@ -150,6 +224,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022897"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 4 (Small Chest, Andy's House) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022897"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071473"
             ]
           }
         ],
@@ -170,6 +254,16 @@
             "access_rules": [
               "$chest_keyblade|1263022898"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 6 (Small Chest, Galaxy Toys: Main Floor: 2F) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022898"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071474"
+            ]
           }
         ],
         "map_locations": [
@@ -188,6 +282,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022899"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 7 (Small Chest, Galaxy Toys: Main Floor: 3F) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022899"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071475"
             ]
           }
         ],
@@ -208,6 +312,16 @@
             "access_rules": [
               "$chest_keyblade|1263022900"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 8 (Small Chest, Galaxy Toys: Action Figures) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022900"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071476"
+            ]
           }
         ],
         "map_locations": [
@@ -227,6 +341,16 @@
             "access_rules": [
               "$chest_keyblade|1263022901"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 9 (Small Chest, Galaxy Toys: Action Figures) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022901"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071477"
+            ]
           }
         ],
         "map_locations": [
@@ -245,6 +369,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022902,$has_any|ability_doubleflight|unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 10 (Small Chest, Galaxy Toys: Action Figures) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022902,$has_any|ability_doubleflight|unlock_wall_run"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071478"
             ]
           }
         ],
@@ -266,6 +400,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022903",
               "unlock_wall_run,$chest_keyblade|1263022903"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 11 (Small Chest, Galaxy Toys: Lower Vents) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022903",
+              "unlock_wall_run,$chest_keyblade|1263022903"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071479"
+            ]
           }
         ],
         "map_locations": [
@@ -285,6 +430,17 @@
             "access_rules": [
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022904",
               "unlock_wall_run,$chest_keyblade|1263022904"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 12 (Small Chest, Galaxy Toys: Lower Vents) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022904",
+              "unlock_wall_run,$chest_keyblade|1263022904"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071480"
             ]
           }
         ],
@@ -306,6 +462,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022905",
               "unlock_wall_run,$chest_keyblade|1263022905"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 14 (Small Chest, Babies and Toddlers: Dolls) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022905",
+              "unlock_wall_run,$chest_keyblade|1263022905"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071481"
+            ]
           }
         ],
         "map_locations": [
@@ -325,6 +492,17 @@
             "access_rules": [
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906",
               "unlock_wall_run,$chest_keyblade|1263022906"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 15 (Small Chest, Babies and Toddlers: Dolls) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906",
+              "unlock_wall_run,$chest_keyblade|1263022906"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071482"
             ]
           }
         ],
@@ -346,6 +524,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022907",
               "unlock_wall_run,$chest_keyblade|1263022907"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 16 (Small Chest, Babies and Toddlers: Dolls) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022907",
+              "unlock_wall_run,$chest_keyblade|1263022907"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071483"
+            ]
           }
         ],
         "map_locations": [
@@ -365,6 +554,17 @@
             "access_rules": [
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022908",
               "unlock_wall_run,$chest_keyblade|1263022908"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 17 (Small Chest, Babies and Toddlers: Dolls) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022908",
+              "unlock_wall_run,$chest_keyblade|1263022908"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071484"
             ]
           }
         ],
@@ -386,6 +586,17 @@
               "$chest_keyblade|1263022909,$has_any|ability_air_slide|unlock_wall_run",
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022909"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 18 (Small Chest, Babies and Toddlers: Outdoors) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022909,$has_any|ability_air_slide|unlock_wall_run",
+              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022909"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071485"
+            ]
           }
         ],
         "map_locations": [
@@ -404,6 +615,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022910"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 19 (Small Chest, Babies and Toddlers: Outdoors) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022910"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071486"
             ]
           }
         ],
@@ -425,6 +646,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022911",
               "unlock_wall_run,$chest_keyblade|1263022911"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 20 (Small Chest, Galaxy Toys: Video Games) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022911",
+              "unlock_wall_run,$chest_keyblade|1263022911"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071487"
+            ]
           }
         ],
         "map_locations": [
@@ -444,6 +676,17 @@
             "access_rules": [
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022912",
               "unlock_wall_run,$chest_keyblade|1263022912"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 21 (Small Chest, Galaxy Toys: Kid Korral) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022912",
+              "unlock_wall_run,$chest_keyblade|1263022912"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071488"
             ]
           }
         ],
@@ -465,6 +708,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022913",
               "unlock_wall_run,$chest_keyblade|1263022913"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 22 (Small Chest, Galaxy Toys: Kid Korral) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022913",
+              "unlock_wall_run,$chest_keyblade|1263022913"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071489"
+            ]
           }
         ],
         "map_locations": [
@@ -484,6 +738,17 @@
             "access_rules": [
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022914",
               "unlock_wall_run,$chest_keyblade|1263022914"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 23 (Small Chest, Galaxy Toys: Kid Korral) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022914",
+              "unlock_wall_run,$chest_keyblade|1263022914"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071490"
             ]
           }
         ],
@@ -505,6 +770,17 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022915",
               "unlock_wall_run,$chest_keyblade|1263022915"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 25 (Small Chest, Galaxy Toys: Kid Korral) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022915",
+              "unlock_wall_run,$chest_keyblade|1263022915"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071491"
+            ]
           }
         ],
         "map_locations": [
@@ -523,6 +799,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022916"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 26 (Small Chest, Galaxy Toys: Rest Area) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022916"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071492"
             ]
           }
         ],
@@ -543,6 +829,16 @@
             "access_rules": [
               "$chest_keyblade|1263022917"
             ]
+          },
+          {
+            "name": "Toy Box - Chest 27 (Small Chest, Galaxy Toys: Main Floor 1F) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022917"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071493"
+            ]
           }
         ],
         "map_locations": [
@@ -561,6 +857,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022918"
+            ]
+          },
+          {
+            "name": "Toy Box - Chest 28 (Small Chest, Babies and Toddlers: Outdoors) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022918"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071494"
             ]
           }
         ],

@@ -921,6 +921,16 @@
                 "access_rules": [
                   "$portal|kb_heros_origin"
                 ]
+              },
+              {
+                "name": "Olympus - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_heros_origin"
+                ],
+                "visibility_rules": [
+                  "mc_chest_olympus,$song_bonus|1264202753"
+                ]
               }
             ],
             "map_locations": [
@@ -945,6 +955,16 @@
                 ],
                 "access_rules": [
                   "$portal|kb_shooting_star,$has_twilight_town_combat"
+                ]
+              },
+              {
+                "name": "Twilight Town - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_shooting_star,$has_twilight_town_combat"
+                ],
+                "visibility_rules": [
+                  "mc_chest_twilight_town,$song_bonus|1264202754"
                 ]
               }
             ],
@@ -971,6 +991,16 @@
                 "access_rules": [
                   "$portal|kb_happy_gear"
                 ]
+              },
+              {
+                "name": "Monstropolis - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_happy_gear"
+                ],
+                "visibility_rules": [
+                  "mc_chest_monstropolis,$song_bonus|1264202755"
+                ]
               }
             ],
             "map_locations": [
@@ -995,6 +1025,16 @@
                 ],
                 "access_rules": [
                   "$portal|kb_ever_after"
+                ]
+              },
+              {
+                "name": "Kingdom of Corona - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_ever_after"
+                ],
+                "visibility_rules": [
+                  "mc_chest_kingdom_of_corona,$song_bonus|1264202756"
                 ]
               }
             ],
@@ -1021,6 +1061,16 @@
                 "access_rules": [
                   "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
                 ]
+              },
+              {
+                "name": "The Caribbean - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+                ],
+                "visibility_rules": [
+                  "mc_chest_the_caribbean,$song_bonus|1264202757"
+                ]
               }
             ],
             "map_locations": [
@@ -1045,6 +1095,16 @@
                 ],
                 "access_rules": [
                   "$portal|kb_favorite_deputy"
+                ]
+              },
+              {
+                "name": "Toy Box - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_favorite_deputy"
+                ],
+                "visibility_rules": [
+                  "mc_chest_toy_box,$song_bonus|1264202758"
                 ]
               }
             ],
@@ -1071,6 +1131,16 @@
                 "access_rules": [
                   "$portal|kb_nano_gear"
                 ]
+              },
+              {
+                "name": "San Fransokyo - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_nano_gear"
+                ],
+                "visibility_rules": [
+                  "mc_chest_san_fransokyo,$song_bonus|1264202759"
+                ]
               }
             ],
             "map_locations": [
@@ -1095,6 +1165,16 @@
                 ],
                 "access_rules": [
                   "$portal|kb_crystal_snow"
+                ]
+              },
+              {
+                "name": "Arendelle - Melody Chest - Song Bonus",
+                "item_count": 1,
+                "access_rules": [
+                  "$portal|kb_crystal_snow"
+                ],
+                "visibility_rules": [
+                  "mc_chest_arendelle,$song_bonus|1264202760"
                 ]
               }
             ],

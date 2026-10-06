@@ -14,6 +14,16 @@
             "access_rules": [
               "$chest_keyblade|1263022947"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 1 (Large Chest, Monsters) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022947"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071523"
+            ]
           }
         ],
         "map_locations": [
@@ -32,6 +42,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022948"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 9 (Large Chest, The Factory: Basement) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022948"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071524"
             ]
           }
         ],
@@ -53,6 +73,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949",
               "unlock_wall_run,$chest_keyblade|1263022949"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 19 (Large Chest, The Power Plant: Tank Yard) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949",
+              "unlock_wall_run,$chest_keyblade|1263022949"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071525"
+            ]
           }
         ],
         "map_locations": [
@@ -71,6 +102,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022950"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 10 (Large Chest, The Factory: Ground Floor) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022950"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071526"
             ]
           }
         ],
@@ -91,6 +132,16 @@
             "access_rules": [
               "$chest_keyblade|1263022951"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 2 (Small Chest, Monsters) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022951"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071527"
+            ]
           }
         ],
         "map_locations": [
@@ -109,6 +160,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022952"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 3 (Small Chest, Monsters) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022952"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071528"
             ]
           }
         ],
@@ -129,6 +190,16 @@
             "access_rules": [
               "$chest_keyblade|1263022953"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 4 (Small Chest, Monsters) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022953"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071529"
+            ]
           }
         ],
         "map_locations": [
@@ -147,6 +218,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022954"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 11 (Small Chest, The Factory: Ground Floor) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022954"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071530"
             ]
           }
         ],
@@ -167,6 +248,16 @@
             "access_rules": [
               "$chest_keyblade|1263022955"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 12 (Small Chest, The Factory: Ground Floor) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022955"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071531"
+            ]
           }
         ],
         "map_locations": [
@@ -185,6 +276,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022956"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 13 (Small Chest, The Factory: Second Floor) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022956"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071532"
             ]
           }
         ],
@@ -205,6 +306,16 @@
             "access_rules": [
               "$chest_keyblade|1263022957"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 14 (Small Chest, The Factory: Second Floor) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022957"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071533"
+            ]
           }
         ],
         "map_locations": [
@@ -224,6 +335,16 @@
             "access_rules": [
               "$chest_keyblade|1263022958"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 15 (Small Chest, The Power Plant: Accessway) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022958"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071534"
+            ]
           }
         ],
         "map_locations": [
@@ -242,6 +363,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022959"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 16 (Small Chest, The Power Plant: Accessway) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022959"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071535"
             ]
           }
         ],
@@ -263,6 +394,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022960",
               "unlock_wall_run,$chest_keyblade|1263022960"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 17 (Small Chest, The Power Plant: Accessway) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022960",
+              "unlock_wall_run,$chest_keyblade|1263022960"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071536"
+            ]
           }
         ],
         "map_locations": [
@@ -282,6 +424,17 @@
             "access_rules": [
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022961",
               "unlock_wall_run,$chest_keyblade|1263022961"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 18 (Small Chest, The Power Plant: Tank Yard) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022961",
+              "unlock_wall_run,$chest_keyblade|1263022961"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071537"
             ]
           }
         ],
@@ -303,6 +456,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022962",
               "unlock_wall_run,$chest_keyblade|1263022962"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 20 (Small Chest, The Power Plant: Vault Passage) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022962",
+              "unlock_wall_run,$chest_keyblade|1263022962"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071538"
+            ]
           }
         ],
         "map_locations": [
@@ -323,6 +487,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$chest_keyblade|1263022963,$has_any|ability_block|ability_dodge_roll",
               "unlock_magic,unlock_wall_run,$chest_keyblade|1263022963,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 21 (Small Chest, The Power Plant: Vault Passage) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$chest_keyblade|1263022963,$has_any|ability_block|ability_dodge_roll",
+              "unlock_magic,unlock_wall_run,$chest_keyblade|1263022963,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071539"
+            ]
           }
         ],
         "map_locations": [
@@ -341,6 +516,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022964"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 22 (Small Chest, The Power Plant: Accessway) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022964"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071540"
             ]
           }
         ],
@@ -361,6 +546,16 @@
             "access_rules": [
               "$chest_keyblade|1263022965"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 5 (Small Chest, Monsters) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022965"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071541"
+            ]
           }
         ],
         "map_locations": [
@@ -379,6 +574,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022966"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 6 (Small Chest, Monsters) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022966"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071542"
             ]
           }
         ],
@@ -400,6 +605,17 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022967",
               "unlock_wall_run,$chest_keyblade|1263022967"
             ]
+          },
+          {
+            "name": "Monstropolis - Chest 7 (Small Chest, The Door Vault: Service Area) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022967",
+              "unlock_wall_run,$chest_keyblade|1263022967"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071543"
+            ]
           }
         ],
         "map_locations": [
@@ -419,6 +635,17 @@
             "access_rules": [
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022968,$has_any|ability_block|ability_dodge_roll",
               "unlock_wall_run,$chest_keyblade|1263022968,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Monstropolis - Chest 8 (Small Chest, The Door Vault: Service Area) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022968,$has_any|ability_block|ability_dodge_roll",
+              "unlock_wall_run,$chest_keyblade|1263022968,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071544"
             ]
           }
         ],

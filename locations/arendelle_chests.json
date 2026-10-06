@@ -14,6 +14,16 @@
             "access_rules": [
               "$chest_keyblade|1263022969"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 1 (Large Chest, The North Mountain: Treescape) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022969"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071545"
+            ]
           }
         ],
         "map_locations": [
@@ -32,6 +42,16 @@
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022970"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 10 (Large Chest, The Labyrinth of Ice: Middle Tier) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022970"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071546"
             ]
           }
         ],
@@ -52,6 +72,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022971"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 8 (Large Chest, The North Mountain: Treescape) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022971"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071547"
+            ]
           }
         ],
         "map_locations": [
@@ -70,6 +100,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022972"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 7 (Large Chest, The North Mountain: Snowfield) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022972"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071548"
             ]
           }
         ],
@@ -90,6 +130,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022973"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 14 (Large Chest, The Labyrinth of Ice: Lower Tier) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022973"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071549"
+            ]
           }
         ],
         "map_locations": [
@@ -108,6 +158,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022974"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 9 (Large Chest, The North Mountain: Snowfield) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022974"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071550"
             ]
           }
         ],
@@ -128,6 +188,16 @@
             "access_rules": [
               "$chest_keyblade|1263022975"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 2 (Small Chest, The North Mountain: Treescape) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022975"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071551"
+            ]
           }
         ],
         "map_locations": [
@@ -146,6 +216,16 @@
             "item_count": 1,
             "access_rules": [
               "$chest_keyblade|1263022976"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 3 (Small Chest, The North Mountain: Treescape) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$chest_keyblade|1263022976"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071552"
             ]
           }
         ],
@@ -166,6 +246,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022977"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 4 (Small Chest, The North Mountain: Gorge) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022977"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071553"
+            ]
           }
         ],
         "map_locations": [
@@ -184,6 +274,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022978"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 5 (Small Chest, The North Mountain: Gorge) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022978"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071554"
             ]
           }
         ],
@@ -204,6 +304,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022979"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 6 (Small Chest, The North Mountain: Snowfield) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022979"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071555"
+            ]
           }
         ],
         "map_locations": [
@@ -222,6 +332,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022980"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 11 (Small Chest, The Labyrinth of Ice: Upper Tier) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022980"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071556"
             ]
           }
         ],
@@ -242,6 +362,16 @@
             "access_rules": [
               "unlock_wall_run,$chest_keyblade|1263022981"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 12 (Small Chest, The Labyrinth of Ice: Middle Tier) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$chest_keyblade|1263022981"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071557"
+            ]
           }
         ],
         "map_locations": [
@@ -260,6 +390,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022982"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 13 (Small Chest, The Labyrinth of Ice: Upper Tier) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022982"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071558"
             ]
           }
         ],
@@ -280,6 +420,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,ability_superjump,unlock_wall_run,$chest_keyblade|1263022983"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 15 (Small Chest, The Labyrinth of Ice: Middle Tier) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,ability_superjump,unlock_wall_run,$chest_keyblade|1263022983"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071559"
+            ]
           }
         ],
         "map_locations": [
@@ -298,6 +448,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022984"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 16 (Small Chest, The North Mountain: Valley of Ice) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022984"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071560"
             ]
           }
         ],
@@ -318,6 +478,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022985"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 17 (Small Chest, The North Mountain: Valley of Ice) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022985"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071561"
+            ]
           }
         ],
         "map_locations": [
@@ -336,6 +506,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022986"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 18 (Small Chest, The North Mountain: Valley of Ice) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022986"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071562"
             ]
           }
         ],
@@ -356,6 +536,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022987"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 19 (Small Chest, The North Mountain: Valley of Ice) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022987"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071563"
+            ]
           }
         ],
         "map_locations": [
@@ -374,6 +564,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_doubleflight,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022988"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 20 (Small Chest, The North Mountain: Valley of Ice) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022988"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071564"
             ]
           }
         ],
@@ -394,6 +594,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022989"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 21 (Small Chest, The North Mountain: Frozen Wall) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022989"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071565"
+            ]
           }
         ],
         "map_locations": [
@@ -413,6 +623,16 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022990"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 22 (Small Chest, The North Mountain: Frozen Wall) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022990"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071566"
+            ]
           }
         ],
         "map_locations": [
@@ -431,6 +651,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022991"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 23 (Small Chest, The North Mountain: Frozen Wall) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022991"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071567"
             ]
           }
         ],
@@ -453,6 +683,18 @@
               "ability_air_slide,ability_pole_spin,ability_superjump,aero,unlock_magic,unlock_wall_run,$chest_keyblade|1263022992",
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022992,$has_any|ability_doubleflight|ability_high_jump"
             ]
+          },
+          {
+            "name": "Arendelle - Chest 24 (Small Chest, The North Mountain: Foothills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,ability_superjump,ability_wall_kick,unlock_wall_run,$chest_keyblade|1263022992",
+              "ability_air_slide,ability_pole_spin,ability_superjump,aero,unlock_magic,unlock_wall_run,$chest_keyblade|1263022992",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022992,$has_any|ability_doubleflight|ability_high_jump"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071568"
+            ]
           }
         ],
         "map_locations": [
@@ -471,6 +713,16 @@
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022993"
+            ]
+          },
+          {
+            "name": "Arendelle - Chest 25 (Small Chest, The North Mountain: Foothills) - Song Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022993"
+            ],
+            "visibility_rules": [
+              "$song_bonus|1264071569"
             ]
           }
         ],

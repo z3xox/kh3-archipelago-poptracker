@@ -183,6 +183,17 @@ function chest_keyblade(location_id)
     return 0
 end
 
+-- Music chest Song Bonuses in this seed: AP location id -> true. Which chests
+-- are music chests is the seed's draw, read from slot_data on connect
+-- (autotracking.lua); offline, no Song Bonus is shown.
+SONG_BONUS = {}
+
+-- Visibility helper: $song_bonus|<AP location id>
+function song_bonus(location_id)
+    if SONG_BONUS[tonumber(location_id)] then return 1 end
+    return 0
+end
+
 -- The tier gate counts open tier-one worlds: their keyblades, or in party-member
 -- mode their characters ("Open tier-one worlds" in the AP world's Rules.py).
 function count_tier_one_keyblades()
