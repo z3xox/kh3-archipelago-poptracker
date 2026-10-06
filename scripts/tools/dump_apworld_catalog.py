@@ -60,6 +60,7 @@ DEFAULT_APWORLD = ROOT / "kh3.apworld"
 DEFAULT_OUTPUT = ROOT / "scripts" / "tools" / "extracted_locations.json"
 
 BASE_LOCATION_ID = 0x4B483300
+EXTRA_VBONUS_LOCATION_ID_BASE = BASE_LOCATION_ID + 0x10000
 
 
 class _Any:
@@ -218,6 +219,22 @@ def dump(apworld: Path) -> dict:
             }
             for row in (space_module.SPACE_LOCATIONS if space_module else ())
         ]
+        # Every victory bonus has two more checks, "<parent> - Reward 2/3", in a
+        # fifth id space (Locations.EXTRA_VBONUS_LOCATION_ID_BASE + 2 * parent
+        # index + reward - 2). They are in every seed and open with their parent.
+        extra_vbonus_locations = [
+            {
+                "ap_id": EXTRA_VBONUS_LOCATION_ID_BASE + 2 * index + reward - 2,
+                # Named after the parent's AP display name, as Locations.py does.
+                "name": f"{data_module.display_location_name(row)} - Reward {reward}",
+                "type": "vbonus_extra",
+                "world": row["world"],
+                "parent_ap_id": BASE_LOCATION_ID + index,
+                "reward": reward,
+            }
+            for index, row in enumerate(locations) if row["type"] == "vbonus"
+            for reward in (2, 3)
+        ]
         # Gummi items: blueprints carry the zone their ship unlocks.
         space_items = [
             {
@@ -236,6 +253,7 @@ def dump(apworld: Path) -> dict:
                 "mom_location_count": len(mom_locations),
                 "music_chest_location_count": len(music_chest_locations),
                 "space_location_count": len(space_locations),
+                "extra_vbonus_location_count": len(extra_vbonus_locations),
                 "base_location_id": BASE_LOCATION_ID,
                 "mom_location_id_base": mom_module.MOM_LOCATION_ID_BASE,
             },
@@ -244,6 +262,7 @@ def dump(apworld: Path) -> dict:
             "mom_locations": mom_locations,
             "music_chest_locations": music_chest_locations,
             "space_locations": space_locations,
+            "extra_vbonus_locations": extra_vbonus_locations,
             "space_items": space_items,
         }
     finally:

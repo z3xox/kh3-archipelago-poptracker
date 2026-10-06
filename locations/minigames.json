@@ -16,6 +16,20 @@
             ]
           },
           {
+            "name": "Toy Box - Verum Rex - A Rank - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Toy Box - Verum Rex - A Rank - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
             "name": "Toy Box - Verum Rex - A Rank First Item Reward",
             "item_count": 1,
             "access_rules": [
@@ -66,6 +80,20 @@
         "sections": [
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank - Reward 3",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
@@ -128,7 +156,35 @@
             ]
           },
           {
+            "name": "Arendelle - Frozen Slider - A Rank - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Arendelle - Frozen Slider - A Rank - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
+          },
+          {
             "name": "Arendelle - Frozen Slider - All Treasures",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run"
@@ -199,6 +255,22 @@
             ]
           },
           {
+            "name": "San Fransokyo - Flash Tracer Course A - A Rank - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course A - A Rank - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
+          },
+          {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank First Item Reward",
             "item_count": 1,
             "access_rules": [
@@ -254,6 +326,22 @@
         "sections": [
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - A Rank - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
+          },
+          {
+            "name": "San Fransokyo - Flash Tracer Course B - A Rank - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",

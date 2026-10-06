@@ -32,6 +32,14 @@
           {
             "name": "Defeat Demon Tide in Twilight Town - The Neighborhood: Tram Common",
             "item_count": 1
+          },
+          {
+            "name": "Defeat Demon Tide in Twilight Town - The Neighborhood: Tram Common - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Defeat Demon Tide in Twilight Town - The Neighborhood: Tram Common - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -49,6 +57,14 @@
           {
             "name": "Twilight Town - The Woods Powerwilds",
             "item_count": 1
+          },
+          {
+            "name": "Twilight Town - The Woods Powerwilds - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Twilight Town - The Woods Powerwilds - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -65,6 +81,14 @@
         "sections": [
           {
             "name": "Twilight Town - The Old Mansion Heartless & Nobodies",
+            "item_count": 1
+          },
+          {
+            "name": "Twilight Town - The Old Mansion Heartless & Nobodies - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Twilight Town - The Old Mansion Heartless & Nobodies - Reward 3",
             "item_count": 1
           }
         ],

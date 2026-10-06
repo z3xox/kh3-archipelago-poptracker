@@ -19,7 +19,35 @@
                 ]
               },
               {
+                "name": "Defeat Dark Inferno χ in The Keyblade Graveyard (Re:Mind) - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Dark Inferno χ in The Keyblade Graveyard (Re:Mind) - Reward 3",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
                 "name": "Defeat Anti-Aqua in The Keyblade Graveyard (Re:Mind)",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Anti-Aqua in The Keyblade Graveyard (Re:Mind) - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Anti-Aqua in The Keyblade Graveyard (Re:Mind) - Reward 3",
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -33,7 +61,35 @@
                 ]
               },
               {
+                "name": "Defeat Terra-Xehanort in The Keyblade Graveyard (Re:Mind) - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Terra-Xehanort in The Keyblade Graveyard (Re:Mind) - Reward 3",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
                 "name": "Defeat Xigbar & Dark Riku in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Trail of Valediction",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Xigbar & Dark Riku in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Trail of Valediction - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Xigbar & Dark Riku in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Trail of Valediction - Reward 3",
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -47,7 +103,35 @@
                 ]
               },
               {
+                "name": "Defeat Luxord, Marluxia, & Larxene in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Trail of Valediction - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Luxord, Marluxia, & Larxene in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Trail of Valediction - Reward 3",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
                 "name": "Defeat Vanitas & Terra-Xehanort in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Twist of Isolation",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Vanitas & Terra-Xehanort in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Twist of Isolation - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Vanitas & Terra-Xehanort in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Twist of Isolation - Reward 3",
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -61,7 +145,35 @@
                 ]
               },
               {
+                "name": "After the Saïx boss battle in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Twist of Isolation - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "After the Saïx boss battle in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Twist of Isolation - Reward 3",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
                 "name": "Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Tower of Endings",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Tower of Endings - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard (Re:Mind) - The Skein of Severance: Tower of Endings - Reward 3",
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -75,7 +187,35 @@
                 ]
               },
               {
+                "name": "Defeat Darkside in Scala ad Caelum (Re:Mind) - Breezy Quarter - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Darkside in Scala ad Caelum (Re:Mind) - Breezy Quarter - Reward 3",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
                 "name": "Defeat Armored Xehanort in Re:Mind",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Armored Xehanort in Re:Mind - Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+                ]
+              },
+              {
+                "name": "Defeat Armored Xehanort in Re:Mind - Reward 3",
                 "item_count": 1,
                 "access_rules": [
                   "active_remind,$portal|kingdom_key,unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"

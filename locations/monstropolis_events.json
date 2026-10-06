@@ -11,6 +11,14 @@
           {
             "name": "Monstropolis - Monsters Inc.: Lobby & Offices Unversed",
             "item_count": 1
+          },
+          {
+            "name": "Monstropolis - Monsters Inc.: Lobby & Offices Unversed - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - Monsters Inc.: Lobby & Offices Unversed - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -27,6 +35,14 @@
         "sections": [
           {
             "name": "Monstropolis - Monsters Inc.: Laugh Floor Unversed",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - Monsters Inc.: Laugh Floor Unversed - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - Monsters Inc.: Laugh Floor Unversed - Reward 3",
             "item_count": 1
           }
         ],
@@ -45,6 +61,14 @@
           {
             "name": "Monstropolis - The Door Vault: Upper Level Heartless",
             "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Door Vault: Upper Level Heartless - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Door Vault: Upper Level Heartless - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -62,6 +86,14 @@
           {
             "name": "Monstropolis - The Factory: Second Floor Heartless & Unversed",
             "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Factory: Second Floor Heartless & Unversed - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Factory: Second Floor Heartless & Unversed - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -78,6 +110,14 @@
         "sections": [
           {
             "name": "Monstropolis - The Factory: Second Floor Unversed",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Factory: Second Floor Unversed - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Factory: Second Floor Unversed - Reward 3",
             "item_count": 1
           },
           {
@@ -100,6 +140,14 @@
           {
             "name": "Monstropolis - The Power Plant: Accessway Heartless & Unversed",
             "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Power Plant: Accessway Heartless & Unversed - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Monstropolis - The Power Plant: Accessway Heartless & Unversed - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -116,6 +164,22 @@
         "sections": [
           {
             "name": "Monstropolis  - The Power Plant: Tank Yard Heartless",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run",
+              "ability_superjump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Monstropolis  - The Power Plant: Tank Yard Heartless - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run",
+              "ability_superjump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Monstropolis  - The Power Plant: Tank Yard Heartless - Reward 3",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run",
@@ -150,6 +214,22 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick",
               "unlock_wall_run"
             ]
+          },
+          {
+            "name": "Monstropolis - The Power Plant: Tank Yard Unversed - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick",
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Monstropolis - The Power Plant: Tank Yard Unversed - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick",
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -166,6 +246,22 @@
         "sections": [
           {
             "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
+              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
+              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
@@ -200,6 +296,14 @@
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
               "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
+          },
+          {
+            "name": "Flantastic - Monstropolis - Banana Flan - High Score - Reward 2",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Monstropolis - Banana Flan - High Score - Reward 2"
+          },
+          {
+            "name": "Flantastic - Monstropolis - Banana Flan - High Score - Reward 3",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Monstropolis - Banana Flan - High Score - Reward 3"
           }
         ],
         "map_locations": [

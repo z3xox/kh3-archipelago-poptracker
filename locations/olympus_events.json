@@ -144,6 +144,20 @@
             "access_rules": [
               "$portal|kb_heros_origin"
             ]
+          },
+          {
+            "name": "Olympus - Mount Olympus: Cliff Ascent Heartless - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin"
+            ]
+          },
+          {
+            "name": "Olympus - Mount Olympus: Cliff Ascent Heartless - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin"
+            ]
           }
         ],
         "map_locations": [
@@ -160,6 +174,24 @@
         "sections": [
           {
             "name": "Olympus - Thebes: Agora Flame Cores",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Olympus - Thebes: Agora Flame Cores - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Olympus - Thebes: Agora Flame Cores - Reward 3",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_heros_origin,unlock_wall_run",
@@ -188,6 +220,24 @@
               "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
               "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
+          },
+          {
+            "name": "Olympus - Thebes: Overlook Flame Cores - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Olympus - Thebes: Overlook Flame Cores - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
           }
         ],
         "map_locations": [
@@ -204,6 +254,24 @@
         "sections": [
           {
             "name": "Olympus - Thebes: Gardens Flame Cores",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Olympus - Thebes: Gardens Flame Cores - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Olympus - Thebes: Gardens Flame Cores - Reward 3",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_heros_origin,unlock_wall_run",
@@ -241,6 +309,24 @@
               "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
               "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
+          },
+          {
+            "name": "Olympus - Thebes: Alleyway Heartless - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Olympus - Thebes: Alleyway Heartless - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
           }
         ],
         "map_locations": [
@@ -263,6 +349,24 @@
               "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
               "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
             ]
+          },
+          {
+            "name": "Defeat Rock Troll in Olympus - Thebes: Agora - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
+          },
+          {
+            "name": "Defeat Rock Troll in Olympus - Thebes: Agora - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run",
+              "$portal|kb_heros_origin,ability_superjump,ability_wall_kick,ability_air_slide,ability_doubleflight",
+              "$portal|kb_heros_origin,ability_superjump,$has_any|ability_doubleflight|ability_high_jump,ability_wall_kick,ability_air_slide"
+            ]
           }
         ],
         "map_locations": [
@@ -279,6 +383,20 @@
         "sections": [
           {
             "name": "Defeat Rock Titan in Olympus: Mount Olympus - Summit",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Rock Titan in Olympus: Mount Olympus - Summit - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Rock Titan in Olympus: Mount Olympus - Summit - Reward 3",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_heros_origin,unlock_wall_run"
@@ -323,6 +441,20 @@
             "access_rules": [
               "$portal|kb_heros_origin,unlock_wall_run"
             ]
+          },
+          {
+            "name": "Olympus - Realm of the Gods: Courtyard Satyrs - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Olympus - Realm of the Gods: Courtyard Satyrs - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -339,6 +471,20 @@
         "sections": [
           {
             "name": "Defeat Tornado Titan in Olympus: Realm of the Gods",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Tornado Titan in Olympus: Realm of the Gods - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Tornado Titan in Olympus: Realm of the Gods - Reward 3",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_heros_origin,unlock_wall_run"
@@ -367,6 +513,14 @@
           {
             "name": "Olympus - Defeat Darkside (Final World)",
             "item_count": 1
+          },
+          {
+            "name": "Olympus - Defeat Darkside (Final World) - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Olympus - Defeat Darkside (Final World) - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -387,6 +541,14 @@
             "access_rules": [
               "$portal|kb_heros_origin,unlock_wall_run"
             ]
+          },
+          {
+            "name": "Flantastic - Olympus - Cherry Flan - High Score - Reward 2",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Olympus - Cherry Flan - High Score - Reward 2"
+          },
+          {
+            "name": "Flantastic - Olympus - Cherry Flan - High Score - Reward 3",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Olympus - Cherry Flan - High Score - Reward 3"
           }
         ],
         "map_locations": [

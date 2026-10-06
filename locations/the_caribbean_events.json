@@ -11,6 +11,14 @@
           {
             "name": "Defeat Lightning Angler in The Caribbean - The High Seas: Undersea Cavern",
             "item_count": 1
+          },
+          {
+            "name": "Defeat Lightning Angler in The Caribbean - The High Seas: Undersea Cavern - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Defeat Lightning Angler in The Caribbean - The High Seas: Undersea Cavern - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -30,7 +38,23 @@
             "item_count": 1
           },
           {
+            "name": "Defeat Anchor Raiders in The Caribbean - Davy Jones' Locker - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Defeat Anchor Raiders in The Caribbean - Davy Jones' Locker - Reward 3",
+            "item_count": 1
+          },
+          {
             "name": "1st Ship Battle in The Caribbean - Over the Edge",
+            "item_count": 1
+          },
+          {
+            "name": "1st Ship Battle in The Caribbean - Over the Edge - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "1st Ship Battle in The Caribbean - Over the Edge - Reward 3",
             "item_count": 1
           },
           {
@@ -38,11 +62,35 @@
             "item_count": 1
           },
           {
+            "name": "Defeat Raging Vulture in The Caribbean - The High Seas: Southern Waters - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Defeat Raging Vulture in The Caribbean - The High Seas: Southern Waters - Reward 3",
+            "item_count": 1
+          },
+          {
             "name": "Race Luxord to Port Royal in The Caribbean",
             "item_count": 1
           },
           {
+            "name": "Race Luxord to Port Royal in The Caribbean - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Race Luxord to Port Royal in The Caribbean - Reward 3",
+            "item_count": 1
+          },
+          {
             "name": "2nd Ship Battle in The Caribbean: The High Seas - Port Royal Waters",
+            "item_count": 1
+          },
+          {
+            "name": "2nd Ship Battle in The Caribbean: The High Seas - Port Royal Waters - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "2nd Ship Battle in The Caribbean: The High Seas - Port Royal Waters - Reward 3",
             "item_count": 1
           }
         ],
@@ -67,11 +115,35 @@
             "item_count": 1
           },
           {
+            "name": "Defeat Kraken in The Caribbean - Shipwreck Cove - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Defeat Kraken in The Caribbean - Shipwreck Cove - Reward 3",
+            "item_count": 1
+          },
+          {
             "name": "Defeat Davy Jones in The Caribbean - Shipwreck Cove",
             "item_count": 1
           },
           {
+            "name": "Defeat Davy Jones in The Caribbean - Shipwreck Cove - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Defeat Davy Jones in The Caribbean - Shipwreck Cove - Reward 3",
+            "item_count": 1
+          },
+          {
             "name": "3rd Ship Battle in The Caribbean: The High Seas - Forsaken Isle",
+            "item_count": 1
+          },
+          {
+            "name": "3rd Ship Battle in The Caribbean: The High Seas - Forsaken Isle - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "3rd Ship Battle in The Caribbean: The High Seas - Forsaken Isle - Reward 3",
             "item_count": 1
           }
         ],
@@ -90,6 +162,14 @@
           {
             "name": "Flantastic - The Caribbean - Watermelon Flan - High Score",
             "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - The Caribbean - Watermelon Flan - High Score"
+          },
+          {
+            "name": "Flantastic - The Caribbean - Watermelon Flan - High Score - Reward 2",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - The Caribbean - Watermelon Flan - High Score - Reward 2"
+          },
+          {
+            "name": "Flantastic - The Caribbean - Watermelon Flan - High Score - Reward 3",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - The Caribbean - Watermelon Flan - High Score - Reward 3"
           }
         ],
         "map_locations": [

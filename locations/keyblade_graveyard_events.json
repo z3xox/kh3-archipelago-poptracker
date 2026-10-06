@@ -23,7 +23,35 @@
             ]
           },
           {
+            "name": "Defeat Lich in The Final World (San Fransokyo - The City: Central District) - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Lich in The Final World (San Fransokyo - The City: Central District) - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
             "name": "Defeat Demon Tide in The Keyblade Graveyard: The Badlands",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Demon Tide in The Keyblade Graveyard: The Badlands - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Demon Tide in The Keyblade Graveyard: The Badlands - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -37,7 +65,35 @@
             ]
           },
           {
+            "name": "After collecting 222 Soras in The Final World - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "After collecting 222 Soras in The Final World - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
             "name": "After collecting 333 Soras in The Final World",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "After collecting 333 Soras in The Final World - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "After collecting 333 Soras in The Final World - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic"
@@ -64,7 +120,35 @@
             ]
           },
           {
+            "name": "10,000 Enemy Fight in The Keyblade Graveyard: The Badlands a - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "10,000 Enemy Fight in The Keyblade Graveyard: The Badlands a - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
             "name": "10,000 Enemy Fight in The Keyblade Graveyard: The Badlands b",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "10,000 Enemy Fight in The Keyblade Graveyard: The Badlands b - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "10,000 Enemy Fight in The Keyblade Graveyard: The Badlands b - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -89,6 +173,20 @@
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
             ]
+          },
+          {
+            "name": "Defeat Xigbar & Dark Riku in The Keyblade Graveyard - The Skein of Severance: Trail of Valediction - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Xigbar & Dark Riku in The Keyblade Graveyard - The Skein of Severance: Trail of Valediction - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
           }
         ],
         "map_locations": [
@@ -105,6 +203,20 @@
         "sections": [
           {
             "name": "Defeat Luxord, Marluxia, & Larxene in The Keyblade Graveyard - The Skein of Severance: Trail of Valediction",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Luxord, Marluxia, & Larxene in The Keyblade Graveyard - The Skein of Severance: Trail of Valediction - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Luxord, Marluxia, & Larxene in The Keyblade Graveyard - The Skein of Severance: Trail of Valediction - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
@@ -129,6 +241,20 @@
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
             ]
+          },
+          {
+            "name": "Defeat Vanitas & Terra-Xehanort in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Vanitas & Terra-Xehanort in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
           }
         ],
         "map_locations": [
@@ -149,6 +275,20 @@
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
             ]
+          },
+          {
+            "name": "Defeat Saïx in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Saïx in The Keyblade Graveyard - The Skein of Severance: Twist of Isolation - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
           }
         ],
         "map_locations": [
@@ -165,6 +305,20 @@
         "sections": [
           {
             "name": "Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard: The Skein of Severance - Tower of Endings",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard: The Skein of Severance - Tower of Endings - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"
+            ]
+          },
+          {
+            "name": "Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard: The Skein of Severance - Tower of Endings - Reward 3",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_attraction_flow,unlock_magic"

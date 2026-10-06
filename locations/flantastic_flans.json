@@ -13,6 +13,20 @@
             ]
           },
           {
+            "name": "Flantastic - Olympus - Cherry Flan - High Score - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Flantastic - Olympus - Cherry Flan - High Score - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_heros_origin,unlock_wall_run"
+            ]
+          },
+          {
             "name": "Flantastic - Toy Box - Strawberry Flan - High Score",
             "item_count": 1,
             "access_rules": [
@@ -20,7 +34,35 @@
             ]
           },
           {
+            "name": "Flantastic - Toy Box - Strawberry Flan - High Score - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_favorite_deputy,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Flantastic - Toy Box - Strawberry Flan - High Score - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_favorite_deputy,unlock_wall_run"
+            ]
+          },
+          {
             "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 3",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
@@ -35,7 +77,37 @@
             ]
           },
           {
+            "name": "Flantastic - Monstropolis - Banana Flan - High Score - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,unlock_magic,$has_any|ability_block|ability_dodge_roll",
+              "$portal|kb_happy_gear,unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Flantastic - Monstropolis - Banana Flan - High Score - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,unlock_magic,$has_any|ability_block|ability_dodge_roll",
+              "$portal|kb_happy_gear,unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
             "name": "Flantastic - Arendelle - Grape Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_crystal_snow,ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Flantastic - Arendelle - Grape Flan - High Score - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_crystal_snow,ability_air_slide,ability_pole_spin,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Flantastic - Arendelle - Grape Flan - High Score - Reward 3",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_crystal_snow,ability_air_slide,ability_pole_spin,unlock_wall_run"
@@ -49,7 +121,37 @@
             ]
           },
           {
+            "name": "Flantastic - The Caribbean - Watermelon Flan - High Score - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
+          },
+          {
+            "name": "Flantastic - The Caribbean - Watermelon Flan - High Score - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ]
+          },
+          {
             "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_nano_gear,ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "$portal|kb_nano_gear,ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
+          },
+          {
+            "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "$portal|kb_nano_gear,ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
+              "$portal|kb_nano_gear,ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+            ]
+          },
+          {
+            "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score - Reward 3",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_nano_gear,ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",

@@ -14,6 +14,20 @@
             "access_rules": [
               "unlock_wall_run"
             ]
+          },
+          {
+            "name": "Defeat Rock Troll & Winterhorns in Arendelle - The North Mountain: Gorge - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Rock Troll & Winterhorns in Arendelle - The North Mountain: Gorge - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -30,6 +44,20 @@
         "sections": [
           {
             "name": "The Labyrinth of Ice: Middle Tier Ninjas I",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Middle Tier Ninjas I - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Middle Tier Ninjas I - Reward 3",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -54,6 +82,20 @@
             "access_rules": [
               "ability_pole_spin,ability_air_slide,unlock_wall_run"
             ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Lower Tier Ninjas II - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Lower Tier Ninjas II - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -70,6 +112,20 @@
         "sections": [
           {
             "name": "The Labyrinth of Ice: Middle Tier Ninjas III",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Middle Tier Ninjas III - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Middle Tier Ninjas III - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_pole_spin,ability_air_slide,unlock_wall_run"
@@ -94,6 +150,20 @@
             "access_rules": [
               "ability_pole_spin,ability_air_slide,unlock_wall_run"
             ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Middle Tier Ninjas IV - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "The Labyrinth of Ice: Middle Tier Ninjas IV - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -110,6 +180,20 @@
         "sections": [
           {
             "name": "Defeat Marshmallow in Arendelle - The North Mountain: Mountain Ridge",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Marshmallow in Arendelle - The North Mountain: Mountain Ridge - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Marshmallow in Arendelle - The North Mountain: Mountain Ridge - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_pole_spin,ability_air_slide,unlock_wall_run"
@@ -134,6 +218,20 @@
             "access_rules": [
               "ability_pole_spin,ability_air_slide,unlock_wall_run"
             ]
+          },
+          {
+            "name": "Frozen Slider Frost Serpents - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Frozen Slider Frost Serpents - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -154,6 +252,20 @@
             "access_rules": [
               "ability_pole_spin,ability_air_slide,unlock_wall_run"
             ]
+          },
+          {
+            "name": "Arendelle - The North Mountain: The Valley of Ice Heartless - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Arendelle - The North Mountain: The Valley of Ice Heartless - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -170,6 +282,20 @@
         "sections": [
           {
             "name": "Defeat Skoll in Arendelle",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Skoll in Arendelle - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "ability_pole_spin,ability_air_slide,unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Skoll in Arendelle - Reward 3",
             "item_count": 1,
             "access_rules": [
               "ability_pole_spin,ability_air_slide,unlock_wall_run"
@@ -203,11 +329,27 @@
             ]
           },
           {
+            "name": "Arendelle - Frozen Slider - A Rank - Reward 2",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank - Reward 2"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - A Rank - Reward 3",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - A Rank - Reward 3"
+          },
+          {
             "name": "Arendelle - Frozen Slider - All Treasures",
             "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures",
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run"
             ]
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures - Reward 2",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures - Reward 2"
+          },
+          {
+            "name": "Arendelle - Frozen Slider - All Treasures - Reward 3",
+            "ref": "Minigames - Arendelle (Frozen Slider)/Minigames - Arendelle (Frozen Slider) - Checks/Arendelle - Frozen Slider - All Treasures - Reward 3"
           },
           {
             "name": "Arendelle - Frozen Slider - A Rank First Item Reward",
@@ -270,6 +412,14 @@
             "access_rules": [
               "ability_air_slide,ability_pole_spin,unlock_wall_run"
             ]
+          },
+          {
+            "name": "Flantastic - Arendelle - Grape Flan - High Score - Reward 2",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Arendelle - Grape Flan - High Score - Reward 2"
+          },
+          {
+            "name": "Flantastic - Arendelle - Grape Flan - High Score - Reward 3",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Arendelle - Grape Flan - High Score - Reward 3"
           }
         ],
         "map_locations": [

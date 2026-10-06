@@ -11,6 +11,14 @@
           {
             "name": "Kingdom of Corona - The Forest: Hills Heartless",
             "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - The Forest: Hills Heartless - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - The Forest: Hills Heartless - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -28,6 +36,14 @@
           {
             "name": "Kingdom of Corona - The Forest: Hills Chief Puffs & Puffballs",
             "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - The Forest: Hills Chief Puffs & Puffballs - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - The Forest: Hills Chief Puffs & Puffballs - Reward 3",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -44,6 +60,14 @@
         "sections": [
           {
             "name": "Kingdom of Corona - The Forest: Hills Reapers",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - The Forest: Hills Reapers - Reward 2",
+            "item_count": 1
+          },
+          {
+            "name": "Kingdom of Corona - The Forest: Hills Reapers - Reward 3",
             "item_count": 1
           }
         ],
@@ -65,6 +89,20 @@
             "access_rules": [
               "unlock_wall_run"
             ]
+          },
+          {
+            "name": "Defeat Chaos Carriage in Kingdom of Corona - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Defeat Chaos Carriage in Kingdom of Corona - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
           }
         ],
         "map_locations": [
@@ -81,6 +119,20 @@
         "sections": [
           {
             "name": "Kingdom of Corona - The Kingdom: Wharf Nobodies",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - The Kingdom: Wharf Nobodies - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - The Kingdom: Wharf Nobodies - Reward 3",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run"
@@ -107,6 +159,20 @@
             ]
           },
           {
+            "name": "Kingdom of Corona - The Forest: Tower Heartless - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
+            "name": "Kingdom of Corona - The Forest: Tower Heartless - Reward 3",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run"
+            ]
+          },
+          {
             "name": "Kingdom of Corona - EVENT_KEYBLADE_004 - RandomizedItem",
             "item_count": 1,
             "access_rules": [
@@ -115,6 +181,20 @@
           },
           {
             "name": "Defeat Grim Guardianess in Kingdom of Corona - The Forest: Tower",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Defeat Grim Guardianess in Kingdom of Corona - The Forest: Tower - Reward 2",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ]
+          },
+          {
+            "name": "Defeat Grim Guardianess in Kingdom of Corona - The Forest: Tower - Reward 3",
             "item_count": 1,
             "access_rules": [
               "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
@@ -139,6 +219,14 @@
             "access_rules": [
               "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank - Reward 2",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank - Reward 2"
+          },
+          {
+            "name": "Kingdom of Corona - Festival Dance - A Rank - Reward 3",
+            "ref": "Minigames - Kingdom of Corona (Festival Dance)/Minigames - Kingdom of Corona (Festival Dance) - Checks/Kingdom of Corona - Festival Dance - A Rank - Reward 3"
           },
           {
             "name": "Kingdom of Corona - Festival Dance - A Rank First Item Reward",
@@ -194,6 +282,14 @@
             "access_rules": [
               "unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
+          },
+          {
+            "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 2",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 2"
+          },
+          {
+            "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 3",
+            "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 3"
           }
         ],
         "map_locations": [
