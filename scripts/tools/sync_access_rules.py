@@ -249,7 +249,7 @@ def apworld_rules(apworld):
         rule = TRUE
         if region in portal:
             rule = AND(rule, atom(code(portal[region])))
-        if region != "Twilight Town" and tiers.get(region, 1) > 1:
+        if region not in {"Twilight Town", "Unreality"} and tiers.get(region, 1) > 1:
             rule = AND(rule, atom(TIER_ATOM))
         if region == "Twilight Town":
             rule = AND(rule, atom(TT_COMBAT_ATOM))

@@ -30,8 +30,8 @@
             "name": "Flantastic - Monstropolis - Banana Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "kb_happy_gear,ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_links,unlock_magic,$has_any|ability_block|ability_dodge_roll,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder",
-              "kb_happy_gear,unlock_links,unlock_magic,unlock_wall_run,$has_any|dream_heartbinder|ocean_heartbinder|ohana_heartbinder|pixel_heartbinder|pride_heartbinder,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,kb_happy_gear,unlock_magic,$has_any|ability_block|ability_dodge_roll",
+              "kb_happy_gear,unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {

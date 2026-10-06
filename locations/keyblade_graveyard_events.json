@@ -33,14 +33,14 @@
             "name": "After collecting 222 Soras in The Final World",
             "item_count": 1,
             "access_rules": [
-              "unlock_attraction_flow"
+              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic"
             ]
           },
           {
             "name": "After collecting 333 Soras in The Final World",
             "item_count": 1,
             "access_rules": [
-              "unlock_attraction_flow"
+              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic"
             ]
           }
         ],
