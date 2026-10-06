@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Olympus Lucky Emblem 1 - Overlook Wall (Global 1)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_001",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 2 - Big Olive Rubble (Global 2)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_002",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 3 - Agora Steps (Global 3)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_003",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 4 - Overlook Planters (Global 4)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_004",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 5 - Cliff Pillar (Global 5)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_005",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 6 - Drained Waterfall Wall (Global 6)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_006",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 7 - Rock Spire (Global 7)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_007",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 8 - Vines (Global 8)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_008",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 9 - Corridor Steps (Global 9)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_009",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 10 - Corridor Wall (Global 10)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_010",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 11 - Forge Anvil (Global 11)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_011",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Olympus Lucky Emblem 12 - Southeast Clouds (Global 12)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_012",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 1 - Tram Common Wall (Global 13)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_013",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 2 - Tram Roof (Global 14)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_014",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 3 - Moogle Shop Chimney (Global 15)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_015",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 4 - Projector Screen (Global 16)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_016",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 5 - Rooftop Plates (Global 17)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_017",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 6 - Woods Door (Global 18)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_018",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 7 - High Woods Wall (Global 19)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_019",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 8 - Sunbeams (Global 20)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_020",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Twilight Town Lucky Emblem 9 - Mansion Outer Wall (Global 21)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_021",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 1 - Bedroom Shelves (Global 22)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_022",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 2 - Garage Roof (Global 23)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_023",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 3 - Front Walkway Leaves (Global 24)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_024",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 4 - Minivan (Global 25)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_025",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 5 - Tape Rolls (Global 26)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_026",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 6 - Toy Display Platform (Global 27)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_027",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 7 - Lower Vents Return Path (Global 28)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_028",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 8 - UFO Hatch (Global 29)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_029",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 9 - Disco Balls (Global 30)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_030",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 10 - Robot Display (Global 31)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_031",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Toy Box Lucky Emblem 11 - Box Stickers (Global 32)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_032",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 1 - Tower Waterfall View (Global 33)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_033",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 2 - Marsh Wall (Global 34)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_034",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 3 - Mine Barrel (Global 35)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_035",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 4 - Kingdom Entrance Railing (Global 36)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_036",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 5 - Dance Archway (Global 37)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_037",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 6 - Large Wooden Door (Global 38)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_038",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 7 - Wharf Tower Door Frame (Global 39)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_039",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 8 - Barrel Pallet Pattern (Global 40)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_040",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Corona Lucky Emblem 9 - Lighthouse Brazier (Global 41)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_041",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 1 - Clipboard (Global 42)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_042",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 2 - Clown Floor Mark (Global 43)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_043",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 3 - Upper Level Wall (Global 44)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_044",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 4 - Distant Yellow Doors (Global 45)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_045",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 5 - Window Wall (Global 46)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_046",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 6 - Pink Paint (Global 47)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_047",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 7 - Machinery Hall Wall (Global 48)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_048",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 8 - Filing Cabinets (Global 49)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_049",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 9 - Maintenance Door Frame (Global 50)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_050",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 10 - High Pipes (Global 51)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_051",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Monstropolis Lucky Emblem 11 - Post-Fire Oil Stain (Global 52)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_052",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 1 - Treescape Tree (Global 53)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_053",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 2 - Middle Tier Bridge (Global 54)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_054",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 3 - Lower Tier Side Path (Global 55)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_055",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 4 - Icy Wall Circles (Global 56)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_056",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 5 - Upper Tier Rocks (Global 57)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_057",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 6 - Mountain Ridge Cliff (Global 58)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_058",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 7 - Frozen Wall Ledge (Global 59)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_059",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 8 - Rime Ice Rock (Global 60)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_060",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 9 - Snowfield Ledge (Global 61)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_061",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 10 - Log Stack (Global 62)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_062",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Arendelle Lucky Emblem 11 - Foothills Snow Rock (Global 63)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_063",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 1 - Dock Rowboat (Global 64)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_064",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 2 - Brick Archway (Global 65)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_065",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 3 - Beach Hut Light (Global 66)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_066",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 4 - Pier Sign (Global 67)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_067",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 5 - Fort Rope Piles (Global 68)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_068",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 6 - Prison Ball And Chain (Global 69)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_069",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 7 - Isla Verdemontana Underwater Rocks (Global 70)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_070",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 8 - Isle Of Luck Rocks (Global 71)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_071",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 9 - Horseshoe Island Arch Rocks (Global 72)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_072",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 10 - Small Island West Of Main Beach (Global 73)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_073",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 11 - Ship's End Wreck (Global 74)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_074",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 12 - Sandbar Isle Cave Entrance (Global 75)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_075",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "Caribbean Lucky Emblem 13 - Underwater Spire Top (Global 76)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_076",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 1 - Garage Wires (Global 77)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_077",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 2 - Chef Statue Bushes (Global 78)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_078",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 3 - Night Spotlights (Global 79)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_079",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 4 - Statue Fan (Global 80)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_080",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 5 - Dome Roof (Global 81)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_081",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 6 - Vent Roof (Global 82)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_082",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 7 - Floating Object (Global 83)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_083",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 8 - North District Stairs (Global 84)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_084",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 9 - Train Tunnel Wall (Global 85)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_085",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 10 - Yellow Car (Global 86)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_086",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "San Fransokyo Lucky Emblem 11 - Train Tunnel Antenna (Global 87)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_087",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "100 Acre Wood Lucky Emblem 1 - Clothesline Bucket (Global 88)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_088",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "100 Acre Wood Lucky Emblem 2 - Pumpkin (Global 89)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_089",
+    "img": "images/items/Lucky Emblems.png"
+  },
+  {
+    "name": "100 Acre Wood Lucky Emblem 3 - Horizon Bushes (Global 90)",
+    "type": "toggle",
+    "codes": "lucky_emblem_spot_090",
+    "img": "images/items/Lucky Emblems.png"
+  }
+]

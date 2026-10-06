@@ -1194,6 +1194,25 @@ TEAM_NUMBER = 0
 HINTS_ID = nil
 CUR_INDEX = -1
 
+-- Photographed Lucky Emblems. The KH3 client (Client.py's
+-- build_kh3_lucky_emblem_sync_messages) merges every capture into this DataStorage
+-- key as {"<global_id>": true, ...} and resends its whole set on each reconnect,
+-- so the server value is the full history: the pack only has to Get it on
+-- connect and SetNotify it for live updates. The client's Bounce carries the same
+-- ids but is lost while PopTracker is closed, so it is not used here.
+LUCKY_EMBLEMS_ID = nil
+LUCKY_EMBLEM_SPOT_COUNT = 90
+
+function ApplyLuckyEmblems(value)
+    local captured = type(value) == "table" and value or {}
+    for global_id = 1, LUCKY_EMBLEM_SPOT_COUNT do
+        local obj = Tracker:FindObjectForCode(string.format("lucky_emblem_spot_%03d", global_id))
+        if obj then
+            obj.Active = captured[tostring(global_id)] == true
+        end
+    end
+end
+
 -- Apply highlight to every location section that maps to this AP location ID
 function UpdateHints(locationID, hint)
     if not Highlight then return end
@@ -1228,7 +1247,9 @@ function UpdateHints(locationID, hint)
 end
 
 function OnNotify(key, value, old_value)
-    if value ~= old_value and key == HINTS_ID then
+    if key == LUCKY_EMBLEMS_ID then
+        ApplyLuckyEmblems(value)
+    elseif value ~= old_value and key == HINTS_ID then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
@@ -1240,7 +1261,9 @@ function OnNotify(key, value, old_value)
 end
 
 function OnNotifyLaunch(key, value)
-    if key == HINTS_ID then
+    if key == LUCKY_EMBLEMS_ID then
+        ApplyLuckyEmblems(value)
+    elseif key == HINTS_ID then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
@@ -1576,6 +1599,7 @@ end
 
 function onClear(slot_data)
     CUR_INDEX = -1
+    ApplyLuckyEmblems(nil)
 
     for name, mapping in pairs(ITEM_MAPPING_BY_NAME) do
         local obj = Tracker:FindObjectForCode(mapping.code)
@@ -1601,8 +1625,9 @@ function onClear(slot_data)
 
     if PLAYER_ID > -1 then
         HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
+        LUCKY_EMBLEMS_ID = "kh3_lucky_emblems_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+        Archipelago:SetNotify({HINTS_ID, LUCKY_EMBLEMS_ID})
+        Archipelago:Get({HINTS_ID, LUCKY_EMBLEMS_ID})
     end
 end
 

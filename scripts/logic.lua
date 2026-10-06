@@ -411,14 +411,26 @@ LUCKY_EMBLEM_SPOTS = {
     {world="100 Acre Wood",keyblade=nil,routes={}},
 }
 
+local function emblemSpotReachable(spot)
+    return worldReachable(spot.world, spot.keyblade) and anyRouteSatisfied(spot.routes)
+end
+
 function count_reachable_lucky_emblems()
     local count = 0
     for _, spot in ipairs(LUCKY_EMBLEM_SPOTS) do
-        if worldReachable(spot.world, spot.keyblade) and anyRouteSatisfied(spot.routes) then
+        if emblemSpotReachable(spot) then
             count = count + 1
         end
     end
     return count
+end
+
+-- Access rule helper: $can_reach_emblem_spot|N
+-- Pin of the photographable spot with global id N (locations/lucky_emblem_spots.json).
+function can_reach_emblem_spot(global_id)
+    local spot = LUCKY_EMBLEM_SPOTS[tonumber(global_id) or 0]
+    if spot and emblemSpotReachable(spot) then return 1 end
+    return 0
 end
 
 -- Access rule helper: $can_reach_emblem_milestone|N

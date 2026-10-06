@@ -5,6 +5,7 @@ print("-- KH3 Archipelago Tracker --")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/melody_of_memory.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/lucky_emblem_spots.json")
 
 -- Logic functions (must load before locations reference them)
 ScriptHost:LoadScript("scripts/logic.lua")
