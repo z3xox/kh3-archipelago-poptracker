@@ -6,7 +6,8 @@
     "item_size": "40,40",
     "rows": [
       [
-        "goal"
+        "goal",
+        "portal_unlocks_setting"
       ]
     ]
   },

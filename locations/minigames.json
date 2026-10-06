@@ -2,7 +2,7 @@
   {
     "name": "Minigames - Toy Box (Verum Rex)",
     "access_rules": [
-      "kb_favorite_deputy"
+      "$portal|kb_favorite_deputy"
     ],
     "children": [
       {
@@ -58,7 +58,7 @@
   {
     "name": "Minigames - Kingdom of Corona (Festival Dance)",
     "access_rules": [
-      "kb_ever_after"
+      "$portal|kb_ever_after"
     ],
     "children": [
       {
@@ -114,7 +114,7 @@
   {
     "name": "Minigames - Arendelle (Frozen Slider)",
     "access_rules": [
-      "kb_crystal_snow"
+      "$portal|kb_crystal_snow"
     ],
     "children": [
       {
@@ -184,7 +184,7 @@
   {
     "name": "Minigames - San Fransokyo (Flash Tracer Course A)",
     "access_rules": [
-      "kb_nano_gear"
+      "$portal|kb_nano_gear"
     ],
     "children": [
       {
@@ -246,7 +246,7 @@
   {
     "name": "Minigames - San Fransokyo (Flash Tracer Course B)",
     "access_rules": [
-      "kb_nano_gear"
+      "$portal|kb_nano_gear"
     ],
     "children": [
       {

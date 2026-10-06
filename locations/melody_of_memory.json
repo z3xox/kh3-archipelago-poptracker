@@ -919,7 +919,7 @@
                   "mc_chest_olympus"
                 ],
                 "access_rules": [
-                  "kb_heros_origin"
+                  "$portal|kb_heros_origin"
                 ]
               }
             ],
@@ -944,7 +944,7 @@
                   "mc_chest_twilight_town"
                 ],
                 "access_rules": [
-                  "kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+                  "$portal|kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
                 ]
               }
             ],
@@ -969,7 +969,7 @@
                   "mc_chest_monstropolis"
                 ],
                 "access_rules": [
-                  "kb_happy_gear"
+                  "$portal|kb_happy_gear"
                 ]
               }
             ],
@@ -994,7 +994,7 @@
                   "mc_chest_kingdom_of_corona"
                 ],
                 "access_rules": [
-                  "kb_ever_after"
+                  "$portal|kb_ever_after"
                 ]
               }
             ],
@@ -1019,7 +1019,7 @@
                   "mc_chest_the_caribbean"
                 ],
                 "access_rules": [
-                  "kb_wheel_of_fate,$has_caribbean_safety_tool"
+                  "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
                 ]
               }
             ],
@@ -1044,7 +1044,7 @@
                   "mc_chest_toy_box"
                 ],
                 "access_rules": [
-                  "kb_favorite_deputy"
+                  "$portal|kb_favorite_deputy"
                 ]
               }
             ],
@@ -1069,7 +1069,7 @@
                   "mc_chest_san_fransokyo"
                 ],
                 "access_rules": [
-                  "kb_nano_gear"
+                  "$portal|kb_nano_gear"
                 ]
               }
             ],
@@ -1094,7 +1094,7 @@
                   "mc_chest_arendelle"
                 ],
                 "access_rules": [
-                  "kb_crystal_snow"
+                  "$portal|kb_crystal_snow"
                 ]
               }
             ],

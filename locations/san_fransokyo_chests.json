@@ -2,7 +2,7 @@
   {
     "name": "San Fransokyo - Chests",
     "access_rules": [
-      "active_san_fransokyo,kb_nano_gear"
+      "active_san_fransokyo,$portal|kb_nano_gear"
     ],
     "children": [
       {

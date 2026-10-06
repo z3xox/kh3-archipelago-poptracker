@@ -2,7 +2,7 @@
   {
     "name": "Monstropolis - Chests",
     "access_rules": [
-      "active_monstropolis,kb_happy_gear"
+      "active_monstropolis,$portal|kb_happy_gear"
     ],
     "children": [
       {

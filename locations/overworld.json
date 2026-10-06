@@ -218,7 +218,7 @@
               }
             ],
             "access_rules": [
-              "kb_heros_origin"
+              "$portal|kb_heros_origin"
             ]
           },
           {
@@ -293,7 +293,7 @@
               }
             ],
             "access_rules": [
-              "kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+              "$portal|kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
             ]
           },
           {
@@ -460,7 +460,7 @@
               }
             ],
             "access_rules": [
-              "kb_favorite_deputy"
+              "$portal|kb_favorite_deputy"
             ]
           },
           {
@@ -619,7 +619,7 @@
               }
             ],
             "access_rules": [
-              "kb_ever_after"
+              "$portal|kb_ever_after"
             ]
           },
           {
@@ -770,7 +770,7 @@
               }
             ],
             "access_rules": [
-              "kb_happy_gear"
+              "$portal|kb_happy_gear"
             ]
           },
           {
@@ -925,7 +925,7 @@
               }
             ],
             "access_rules": [
-              "kb_crystal_snow"
+              "$portal|kb_crystal_snow"
             ]
           },
           {
@@ -1204,7 +1204,7 @@
               }
             ],
             "access_rules": [
-              "kb_wheel_of_fate,$has_caribbean_safety_tool"
+              "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
             ]
           },
           {
@@ -1407,7 +1407,7 @@
               }
             ],
             "access_rules": [
-              "kb_nano_gear"
+              "$portal|kb_nano_gear"
             ]
           },
           {
@@ -1498,7 +1498,7 @@
               }
             ],
             "access_rules": [
-              "active_keyblade_graveyard,kb_starlight,$has_tier_one_keyblades"
+              "active_keyblade_graveyard,$portal|kb_starlight,$has_tier_one_keyblades"
             ]
           },
           {
@@ -1517,7 +1517,7 @@
               }
             ],
             "access_rules": [
-              "kb_oblivion,$has_tier_one_keyblades"
+              "$portal|kb_oblivion,$has_tier_one_keyblades"
             ]
           },
           {
@@ -1608,7 +1608,7 @@
               }
             ],
             "access_rules": [
-              "active_remind,kingdom_key,$has_tier_one_keyblades"
+              "active_remind,$portal|kingdom_key,$has_tier_one_keyblades"
             ]
           },
           {
@@ -1675,7 +1675,7 @@
               }
             ],
             "access_rules": [
-              "active_radiant_garden,kb_oathkeeper,$has_tier_one_keyblades"
+              "active_radiant_garden,$portal|kb_oathkeeper,$has_tier_one_keyblades"
             ]
           },
           {
@@ -1922,7 +1922,7 @@
               }
             ],
             "access_rules": [
-              "$has_any|kb_wheel_of_fate|kb_crystal_snow|kb_ever_after|kb_nano_gear|kb_happy_gear|kb_favorite_deputy|kb_shooting_star"
+              "$any_portal|kb_wheel_of_fate|kb_crystal_snow|kb_ever_after|kb_nano_gear|kb_happy_gear|kb_favorite_deputy|kb_shooting_star"
             ]
           },
           {

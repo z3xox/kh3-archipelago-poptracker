@@ -2,7 +2,7 @@
   {
     "name": "Ingredients+ - Arendelle",
     "access_rules": [
-      "active_ingredients_plus,kb_crystal_snow"
+      "active_ingredients_plus,$portal|kb_crystal_snow"
     ],
     "visibility_rules": [
       "active_ingredients_plus"
@@ -293,7 +293,7 @@
   {
     "name": "Ingredients+ - Kingdom of Corona",
     "access_rules": [
-      "active_ingredients_plus,kb_ever_after"
+      "active_ingredients_plus,$portal|kb_ever_after"
     ],
     "visibility_rules": [
       "active_ingredients_plus"
@@ -843,7 +843,7 @@
   {
     "name": "Ingredients+ - Monstropolis",
     "access_rules": [
-      "active_ingredients_plus,kb_happy_gear"
+      "active_ingredients_plus,$portal|kb_happy_gear"
     ],
     "visibility_rules": [
       "active_ingredients_plus"
@@ -1022,7 +1022,7 @@
   {
     "name": "Ingredients+ - Olympus",
     "access_rules": [
-      "active_ingredients_plus,kb_heros_origin"
+      "active_ingredients_plus,$portal|kb_heros_origin"
     ],
     "visibility_rules": [
       "active_ingredients_plus"
@@ -1412,7 +1412,7 @@
   {
     "name": "Ingredients+ - San Fransokyo",
     "access_rules": [
-      "active_ingredients_plus,kb_nano_gear"
+      "active_ingredients_plus,$portal|kb_nano_gear"
     ],
     "visibility_rules": [
       "active_ingredients_plus"
@@ -1636,7 +1636,7 @@
   {
     "name": "Ingredients+ - The Caribbean",
     "access_rules": [
-      "active_ingredients_plus,kb_wheel_of_fate,$has_caribbean_safety_tool"
+      "active_ingredients_plus,$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
     ],
     "visibility_rules": [
       "active_ingredients_plus"
@@ -2456,7 +2456,7 @@
   {
     "name": "Ingredients+ - Toy Box",
     "access_rules": [
-      "active_ingredients_plus,kb_favorite_deputy"
+      "active_ingredients_plus,$portal|kb_favorite_deputy"
     ],
     "visibility_rules": [
       "active_ingredients_plus"
@@ -2758,7 +2758,7 @@
   {
     "name": "Ingredients+ - Twilight Town",
     "access_rules": [
-      "active_ingredients_plus,kb_shooting_star,$has_twilight_town_combat"
+      "active_ingredients_plus,$portal|kb_shooting_star,$has_twilight_town_combat"
     ],
     "visibility_rules": [
       "active_ingredients_plus"

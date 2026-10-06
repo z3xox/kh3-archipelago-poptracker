@@ -2,7 +2,7 @@
   {
     "name": "Twilight Town - Events",
     "access_rules": [
-      "active_twilight_town,kb_shooting_star,$has_twilight_town_combat"
+      "active_twilight_town,$portal|kb_shooting_star,$has_twilight_town_combat"
     ],
     "children": [
       {

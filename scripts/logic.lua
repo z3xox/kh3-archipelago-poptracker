@@ -129,8 +129,56 @@ local function countCodes(codes)
     return count
 end
 
+-- Portal Unlocks = party members (portal_party): a world opens with one of its
+-- characters instead of its keyblade (PORTAL_PARTY_REGION_LOCKS in the AP world).
+-- Indexed by the world's portal keyblade, which every rule names, so that one
+-- "$portal|<keyblade>" atom covers both modes. Oathkeeper's two worlds (Radiant
+-- Garden, Data Battles) both open with Riku.
+PORTAL_PARTY_BY_KEYBLADE = {
+    kb_heros_origin    = {"party_hercules"},
+    kb_favorite_deputy = {"party_woody", "party_buzz_lightyear"},
+    kb_ever_after      = {"party_rapunzel", "party_flynn_rider"},
+    kb_happy_gear      = {"party_sulley", "party_mike"},
+    kb_wheel_of_fate   = {"party_captain_jack_sparrow"},
+    kb_nano_gear       = {"party_baymax"},
+    kb_crystal_snow    = {"party_marshmallow"},
+    kb_shooting_star   = {"party_roxas"},
+    kb_oblivion        = {"party_aqua"},
+    kb_starlight       = {"party_ventus"},
+    kingdom_key        = {"party_kairi"},
+    kb_oathkeeper      = {"party_riku"},
+}
+
+local function portalOpen(keyblade)
+    if hasCode("portal_party") then
+        local party = PORTAL_PARTY_BY_KEYBLADE[keyblade]
+        return party ~= nil and countCodes(party) > 0
+    end
+    return hasCode(keyblade)
+end
+
+-- Access rule helper: $portal|<portal keyblade> -> the world it opens is open.
+function portal(keyblade)
+    if portalOpen(keyblade) then return 1 end
+    return 0
+end
+
+-- Access rule helper: $any_portal|<keyblade>|<keyblade>... -> any of those worlds is open.
+function any_portal(...)
+    for _, keyblade in ipairs({...}) do
+        if portalOpen(keyblade) then return 1 end
+    end
+    return 0
+end
+
+-- The tier gate counts open tier-one worlds: their keyblades, or in party-member
+-- mode their characters ("Open tier-one worlds" in the AP world's Rules.py).
 function count_tier_one_keyblades()
-    return countCodes(TIER_ONE_KEYBLADE_CODES)
+    local count = 0
+    for _, keyblade in ipairs(TIER_ONE_KEYBLADE_CODES) do
+        if portalOpen(keyblade) then count = count + 1 end
+    end
+    return count
 end
 
 function has_tier_one_keyblades()
@@ -240,7 +288,7 @@ TIER_GATED_WORLDS = {
 }
 
 local function worldReachable(world, keyblade)
-    if keyblade and not hasCode(keyblade) then return false end
+    if keyblade and not portalOpen(keyblade) then return false end
     if TIER_GATED_WORLDS[world] and count_tier_one_keyblades() < TIER_ONE_KEYBLADE_REQUIRED then
         return false
     end
@@ -578,29 +626,24 @@ end
 -- Gummi space (include_space)
 -- ============================================================
 
--- Space.LANDING_WORLDS: the nine worlds a Gummi ship can land on. Each is reachable
--- under the same gate as its Overworld pin (portal keyblade plus any combat gate).
-local LANDING_WORLD_ACCESS = {
-    ["Olympus"]             = function() return hasCode("kb_heros_origin") end,
-    ["Twilight Town"]       = function()
-        return hasCode("kb_shooting_star") and count_tier_one_keyblades() >= TIER_ONE_KEYBLADE_REQUIRED
-            and countCodes(DEFENSIVE_CODES) >= 1
-    end,
-    ["Toy Box"]             = function() return hasCode("kb_favorite_deputy") end,
-    ["Kingdom of Corona"]   = function() return hasCode("kb_ever_after") end,
-    ["Arendelle"]           = function() return hasCode("kb_crystal_snow") end,
-    ["Monstropolis"]        = function() return hasCode("kb_happy_gear") end,
-    ["San Fransokyo"]       = function() return hasCode("kb_nano_gear") end,
-    ["The Caribbean"]       = function() return hasCode("kb_wheel_of_fate") and hasCaribbeanSafetyTool() end,
-    ["Keyblade Graveyard"]  = function()
-        return hasCode("kb_starlight") and count_tier_one_keyblades() >= TIER_ONE_KEYBLADE_REQUIRED
-    end,
+-- Space.LANDING_WORLDS: the nine worlds a Gummi ship can land on, with their portal
+-- keyblade. Each is reachable under its hub entrance rule (worldReachable).
+local LANDING_WORLDS = {
+    ["Olympus"]            = "kb_heros_origin",
+    ["Twilight Town"]      = "kb_shooting_star",
+    ["Toy Box"]            = "kb_favorite_deputy",
+    ["Kingdom of Corona"]  = "kb_ever_after",
+    ["Arendelle"]          = "kb_crystal_snow",
+    ["Monstropolis"]       = "kb_happy_gear",
+    ["San Fransokyo"]      = "kb_nano_gear",
+    ["The Caribbean"]      = "kb_wheel_of_fate",
+    ["Keyblade Graveyard"] = "kb_starlight",
 }
 
 -- Access rule helper: $space_all_worlds -> every landing world is reachable.
 function space_all_worlds()
-    for _, reachable in pairs(LANDING_WORLD_ACCESS) do
-        if not reachable() then return 0 end
+    for world, keyblade in pairs(LANDING_WORLDS) do
+        if not worldReachable(world, keyblade) then return 0 end
     end
     return 1
 end
@@ -611,7 +654,7 @@ end
 -- next to the 11 randomized special weapons.
 function space_special_weapons(needed)
     local count = Tracker:ProviderCountForCode("space_special_weapon")
-    if LANDING_WORLD_ACCESS["Twilight Town"]() then count = count + 1 end
+    if worldReachable("Twilight Town", LANDING_WORLDS["Twilight Town"]) then count = count + 1 end
     if coliseumWorldComplete("Monstropolis") then count = count + 1 end
     if count >= (tonumber(needed) or 0) then return 1 end
     return 0

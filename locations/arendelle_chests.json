@@ -2,7 +2,7 @@
   {
     "name": "Arendelle - Chests",
     "access_rules": [
-      "active_arendelle,kb_crystal_snow"
+      "active_arendelle,$portal|kb_crystal_snow"
     ],
     "children": [
       {

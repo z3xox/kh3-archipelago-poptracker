@@ -2,7 +2,7 @@
   {
     "name": "Radiant Garden",
     "access_rules": [
-      "active_radiant_garden,kb_oathkeeper,$has_tier_one_keyblades"
+      "active_radiant_garden,$portal|kb_oathkeeper,$has_tier_one_keyblades"
     ],
     "children": [
       {

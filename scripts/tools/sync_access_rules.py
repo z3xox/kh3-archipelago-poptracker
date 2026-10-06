@@ -66,6 +66,8 @@ RULE_TYPES = {"treasure", "event", "vbonus", "ingredient", "minigame_reward", "s
 DEFENSIVE = ("ability_air_slide", "ability_block", "ability_dodge_roll")
 
 TIER_ATOM = "$has_tier_one_keyblades"
+# A world's portal: its keyblade, or its characters with Portal Unlocks = party members.
+PORTAL_ATOM = "$portal"
 TT_COMBAT_ATOM = "$has_twilight_town_combat"
 CARIBBEAN_ATOM = "$has_caribbean_safety_tool"
 FINAL_BOSS_ATOM = "$can_reach_final_boss"
@@ -122,6 +124,8 @@ def token_rule(token):
         parts = token[1:].split("|")
         if parts[0] == "has_any":
             return minimize(frozenset([c]) for c in parts[1:])
+        if parts[0] == "any_portal":
+            return minimize(frozenset([f"{PORTAL_ATOM}|{c}"]) for c in parts[1:])
         if parts[0] == "has_at_least":
             return minimize(frozenset(c) for c in itertools.combinations(parts[2:], int(parts[1])))
         return atom(token)
@@ -248,7 +252,7 @@ def apworld_rules(apworld):
             return OR(gate("Keyblade Graveyard"), gate("Re Mind"))
         rule = TRUE
         if region in portal:
-            rule = AND(rule, atom(code(portal[region])))
+            rule = AND(rule, atom(f"{PORTAL_ATOM}|{code(portal[region])}"))
         if region not in {"Twilight Town", "Unreality"} and tiers.get(region, 1) > 1:
             rule = AND(rule, atom(TIER_ATOM))
         if region == "Twilight Town":

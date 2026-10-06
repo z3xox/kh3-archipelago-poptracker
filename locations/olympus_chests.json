@@ -2,7 +2,7 @@
   {
     "name": "Olympus - Chests",
     "access_rules": [
-      "active_olympus,kb_heros_origin"
+      "active_olympus,$portal|kb_heros_origin"
     ],
     "children": [
       {

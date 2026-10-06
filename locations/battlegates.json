@@ -61,14 +61,14 @@
             "name": "Battlegate Reports - EVENT_REPORT_003a - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "kb_shooting_star,$has_twilight_town_combat,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "$portal|kb_shooting_star,$has_twilight_town_combat,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
             ]
           },
           {
             "name": "Battlegate Rewards - EVENT_REPORT_003b - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "kb_shooting_star,$has_twilight_town_combat,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "$portal|kb_shooting_star,$has_twilight_town_combat,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
             ]
           }
         ],
@@ -88,14 +88,14 @@
             "name": "Battlegate Reports - EVENT_REPORT_004a - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "kb_favorite_deputy,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run"
+              "$portal|kb_favorite_deputy,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run"
             ]
           },
           {
             "name": "Battlegate Rewards - EVENT_REPORT_004b - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "kb_favorite_deputy,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run"
+              "$portal|kb_favorite_deputy,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run"
             ]
           }
         ],
@@ -115,14 +115,14 @@
             "name": "Battlegate Reports - EVENT_REPORT_005a - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
             ]
           },
           {
             "name": "Battlegate Rewards - EVENT_REPORT_005b - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
             ]
           }
         ],

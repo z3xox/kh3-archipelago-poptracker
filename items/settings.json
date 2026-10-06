@@ -20,6 +20,26 @@
     ]
   },
   {
+    "name": "Portal Unlocks",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/keyblades/Kingdom Key.png",
+        "codes": "portal_unlocks_setting",
+        "inherit_codes": false,
+        "name": "Portal Unlocks - Keyblades"
+      },
+      {
+        "img": "images/items/party/NpcExDonald.png",
+        "codes": "portal_unlocks_setting, portal_party",
+        "inherit_codes": false,
+        "name": "Portal Unlocks - Party Members"
+      }
+    ]
+  },
+  {
     "name": "Battlegates",
     "type": "progressive",
     "allow_disabled": false,

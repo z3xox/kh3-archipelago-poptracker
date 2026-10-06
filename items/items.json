@@ -612,6 +612,12 @@
     "img": "images/items/party/NpcBxBaymax.png"
   },
   {
+    "name": "Party Member: Marshmallow",
+    "type": "toggle",
+    "codes": "party_marshmallow",
+    "img": "images/items/party/NpcFzMarshmallow.png"
+  },
+  {
     "name": "Party Member: Mickey",
     "type": "toggle",
     "codes": "party_mickey",

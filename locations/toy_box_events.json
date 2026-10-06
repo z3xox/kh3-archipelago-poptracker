@@ -2,7 +2,7 @@
   {
     "name": "Toy Box - Events",
     "access_rules": [
-      "active_toy_box,kb_favorite_deputy"
+      "active_toy_box,$portal|kb_favorite_deputy"
     ],
     "children": [
       {

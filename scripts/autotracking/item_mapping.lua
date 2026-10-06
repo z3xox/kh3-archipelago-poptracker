@@ -159,6 +159,7 @@ ITEM_MAPPING_BY_NAME = {
     ["Party Member: Mike"] = { code = "party_mike", type = "toggle" },
     ["Party Member: Captain Jack Sparrow"] = { code = "party_captain_jack_sparrow", type = "toggle" },
     ["Party Member: Baymax"] = { code = "party_baymax", type = "toggle" },
+    ["Party Member: Marshmallow"] = { code = "party_marshmallow", type = "toggle" },
     ["Party Member: Mickey"] = { code = "party_mickey", type = "toggle" },
     ["Party Member: Riku"] = { code = "party_riku", type = "toggle" },
     ["Party Member: Aqua"] = { code = "party_aqua", type = "toggle" },

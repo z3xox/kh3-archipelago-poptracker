@@ -1480,6 +1480,9 @@ function autoFill(slot_data)
     -- Gummi space is a base-game toggle, not a pool: top-level include_space
     -- (0 = off, 1 = on; the apworld default is off).
     setStage("space_setting", (slot_data["include_space"] or 0) == 1 and 1 or 0)
+    -- Portal Unlocks (0 = keyblades, 1 = party members): which items open the worlds,
+    -- see portal_open in logic.lua.
+    setStage("portal_unlocks_setting", (slot_data["portal_unlocks"] or 0) == 1 and 1 or 0)
     -- Optional space checks (both off by default): Heartless / Builder / Special
     -- Weapon Authority milestones, and the Schwarzgeist / Omega Machina rewards.
     -- Gummi Ship Completionist needs both.

@@ -287,36 +287,27 @@
               "item_size": "36,36",
               "rows": [
                 [
-                  "party_donald",
-                  "party_goofy",
-                  "party_donald_toy_box",
-                  "party_goofy_toy_box",
-                  "party_donald_monstropolis"
-                ],
-                [
-                  "party_goofy_monstropolis",
-                  "party_donald_caribbean",
-                  "party_goofy_caribbean",
                   "party_hercules",
-                  "party_woody"
-                ],
-                [
+                  "party_woody",
                   "party_buzz_lightyear",
                   "party_rapunzel",
-                  "party_flynn_rider",
-                  "party_sulley",
-                  "party_mike"
+                  "party_flynn_rider"
                 ],
                 [
+                  "party_sulley",
+                  "party_mike",
                   "party_captain_jack_sparrow",
                   "party_baymax",
-                  "party_mickey",
-                  "party_riku",
-                  "party_aqua"
+                  "party_marshmallow"
                 ],
                 [
+                  "party_mickey",
+                  "party_riku",
+                  "party_aqua",
                   "party_ventus",
-                  "party_lea",
+                  "party_lea"
+                ],
+                [
                   "party_kairi",
                   "party_roxas",
                   "party_xion"
