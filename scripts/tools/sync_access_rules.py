@@ -11,9 +11,12 @@ upgrades...) -- as a set of alternative routes, then compares it with what the
 tracker enforces for the matching section: its own access_rules ANDed with
 every parent's.
 
-It models Rules.py of the apworld (0.16.x layout). Run
-check_logic_against_apworld.py afterwards: that one executes the apworld's real
-Rules.py and is the judge.
+It models Rules.py of the apworld as of 0.17.10: world portals as
+"$portal|<keyblade>" (party members with Portal Unlocks), Unreality and Twilight
+Town outside the tier gate, Chestsanity as "$chest_keyblade|<AP id>" on each
+chest (inherited by the checks anchored on it). check_logic_against_apworld.py,
+which executes the apworld's real Rules.py, only runs on 0.16.x: 0.17 moved to
+rule-builder classes.
 
 Atoms
 -----

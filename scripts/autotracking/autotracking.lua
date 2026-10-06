@@ -1780,12 +1780,6 @@ function onItem(index, item_id, item_name, player_id)
         if also then also.Active = true end
     end
     print(string.format("onItem: tracked '%s' -> %s", item_name, mapping.code))
-
-    if item_name == "Magic: Cure" then
-        local cure_obj = Tracker:FindObjectForCode("cure")
-        print(string.format("DEBUG_CURE_OBJ: exists=%s CurrentStage=%s",
-            tostring(cure_obj ~= nil), tostring(cure_obj and cure_obj.CurrentStage)))
-    end
 end
 
 function onLocation(location_id, location_name)
@@ -1909,7 +1903,7 @@ function autoFill(slot_data)
     -- a pool mode (KH3LocationPoolMode) under slot_data.kh3_randomizer.pools,
     -- keyed by the pool's display name.
     --
-    -- As of apworld 0.15.4, KH3LocationPoolMode only offers randomize (2) and
+    -- Since apworld 0.15.4 (still so in 0.17.10), KH3LocationPoolMode only offers randomize (2) and
     -- junk (3) -- option_vanilla (1) was removed from every pool that uses this
     -- enum (Data.filter_locations_for_options no longer excludes their
     -- locations at all), so poolHasChecks below is now always true for them.

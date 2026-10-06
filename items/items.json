@@ -510,54 +510,6 @@
     "img": "images/items/Classic-Kingdom/LSI23_Mickey_Steps_Out.png"
   },
   {
-    "name": "Party Member: Donald",
-    "type": "toggle",
-    "codes": "party_donald",
-    "img": "images/items/party/NpcExDonald.png"
-  },
-  {
-    "name": "Party Member: Goofy",
-    "type": "toggle",
-    "codes": "party_goofy",
-    "img": "images/items/party/NpcExGoofy.png"
-  },
-  {
-    "name": "Party Member: Donald (Toy Box)",
-    "type": "toggle",
-    "codes": "party_donald_toy_box",
-    "img": "images/items/party/NpcTsDonald.png"
-  },
-  {
-    "name": "Party Member: Goofy (Toy Box)",
-    "type": "toggle",
-    "codes": "party_goofy_toy_box",
-    "img": "images/items/party/NpcTsGoofy.png"
-  },
-  {
-    "name": "Party Member: Donald (Monstropolis)",
-    "type": "toggle",
-    "codes": "party_donald_monstropolis",
-    "img": "images/items/party/NpcMiDonald.png"
-  },
-  {
-    "name": "Party Member: Goofy (Monstropolis)",
-    "type": "toggle",
-    "codes": "party_goofy_monstropolis",
-    "img": "images/items/party/NpcMiGoofy.png"
-  },
-  {
-    "name": "Party Member: Donald (Caribbean)",
-    "type": "toggle",
-    "codes": "party_donald_caribbean",
-    "img": "images/items/party/NpcCaDonald.png"
-  },
-  {
-    "name": "Party Member: Goofy (Caribbean)",
-    "type": "toggle",
-    "codes": "party_goofy_caribbean",
-    "img": "images/items/party/NpcCaGoofy.png"
-  },
-  {
     "name": "Party Member: Hercules",
     "type": "toggle",
     "codes": "party_hercules",
