@@ -413,26 +413,6 @@
         ]
       },
       {
-        "name": "Olympus - Rock Titan Sequence Break Bonus",
-        "sections": [
-          {
-            "name": "Olympus - Rock Titan Sequence Break Bonus",
-            "item_count": 1,
-            "access_rules": [
-              "$portal|kb_heros_origin,unlock_wall_run"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "map_olympus_mount_olympus_p1",
-            "x": 216,
-            "y": 186,
-            "shape": "diamond"
-          }
-        ]
-      },
-      {
         "name": "Olympus - Realm of the Gods: Courtyard Satyrs",
         "sections": [
           {
