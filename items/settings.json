@@ -61,6 +61,27 @@
     ]
   },
   {
+    "name": "Hide Junk Checks",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Item.png",
+        "img_mods": "saturation|0",
+        "codes": "hide_junk_setting",
+        "inherit_codes": false,
+        "name": "Junk Checks Shown"
+      },
+      {
+        "img": "images/items/Item.png",
+        "codes": "hide_junk_setting, hide_junk_checks",
+        "inherit_codes": false,
+        "name": "Junk Checks Hidden (pools set to junk only hold filler or traps)"
+      }
+    ]
+  },
+  {
     "name": "Song Bonuses",
     "type": "progressive",
     "allow_disabled": false,

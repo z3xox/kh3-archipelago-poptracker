@@ -115,6 +115,9 @@ function Archipelago:Get() end
 
 ScriptHost = {}
 function ScriptHost:LoadScript(path) dofile(ROOT .. "/" .. path) end
+-- PopTracker calls these when the watched code changes; tests fire them by hand.
+WATCHES = {}  -- code -> callback
+function ScriptHost:AddWatchForCode(name, code, fn) WATCHES[code] = fn end
 """
 
 

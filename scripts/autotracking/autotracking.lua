@@ -1860,6 +1860,80 @@ local function momSongIds()
     return _mom_song_ids
 end
 
+-- slot_data of the connected seed, kept so the pool flags below can be
+-- recomputed when "Hide Junk Checks" is toggled after connecting.
+POOL_SLOT_DATA = nil
+
+-- KH3LocationPoolMode values: vanilla (1) adds no checks; junk (3) keeps the
+-- checks but only puts filler or traps there.
+local VANILLA_POOL_MODE = 1
+local JUNK_POOL_MODE = 3
+
+-- World and reward pool flags -> Settings menu stages. The apworld dropped the
+-- old boolean "include_*" slot_data keys; each world's checks now live behind
+-- a pool mode (KH3LocationPoolMode) under slot_data.kh3_randomizer.pools,
+-- keyed by the pool's display name.
+--
+-- Since apworld 0.15.4 (still so in 0.17.12), KH3LocationPoolMode only offers
+-- randomize (2) and junk (3) for these pools, so their checks always exist.
+-- With "Hide Junk Checks" on, a junk pool is switched off like a vanilla one:
+-- its checks still exist in the seed, but hold nothing worth the trip.
+function ApplyPoolSettings()
+    local slot_data = POOL_SLOT_DATA
+    if not slot_data then return end
+    local hide_junk = Tracker:ProviderCountForCode("hide_junk_checks") > 0
+
+    local function setStage(code, stage)
+        local obj = Tracker:FindObjectForCode(code)
+        if obj then obj.CurrentStage = stage end
+    end
+    -- mode: the pool's value, or nil when the seed does not send it.
+    local function shown(mode, default)
+        mode = mode or default
+        if mode == VANILLA_POOL_MODE then return 0 end
+        if hide_junk and mode == JUNK_POOL_MODE then return 0 end
+        return 1
+    end
+
+    local pools = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["pools"]) or {}
+    -- Keys are RANDOMIZER_POOL_NAMES display names from the apworld's Options.py.
+    -- Absent pools default to randomize (2), matching the option's own default.
+    local RANDOMIZER_POOL_SETTINGS = {
+        {"battlegates_setting",        "Battlegates"},
+        {"remind_setting",             "Re+Mind"},
+        {"lucky_emblems_setting",      "Lucky Emblems"},
+        {"keyblade_graveyard_setting", "Keyblade Graveyard"},
+        {"radiant_garden_setting",     "Data Battle Rewards"},
+        {"olympus_setting",            "Olympus"},
+        {"twilight_town_setting",      "Twilight Town"},
+        {"toy_box_setting",            "Toy Box"},
+        {"kingdom_of_corona_setting",  "Kingdom of Corona"},
+        {"monstropolis_setting",       "Monstropolis"},
+        {"arendelle_setting",          "Arendelle"},
+        {"the_caribbean_setting",      "The Caribbean"},
+        {"san_fransokyo_setting",      "San Fransokyo"},
+        {"hundred_acre_wood_setting",  "100 Acre Wood"},
+        {"dark_world_setting",         "Dark World"},
+        {"unreality_setting",          "Unreality"},
+        -- Level Ups are the "Sora" pool in the randomizer's naming.
+        {"level_ups_setting",          "Sora"},
+    }
+    for _, entry in ipairs(RANDOMIZER_POOL_SETTINGS) do
+        setStage(entry[1], shown(pools[entry[2]], 2))
+    end
+
+    -- Olympus Coliseum is a third-party pool: it is NOT in
+    -- RANDOMIZER_POOL_NAMES, so it never appears under kh3_randomizer.pools.
+    -- It ships as a top-level slot_data key instead.
+    setStage("olympus_coliseum_setting", shown(slot_data["olympus_coliseum_pool"], 2))
+
+    -- Moogle Workshop pools (top-level keys). Unlike the pools above these still
+    -- have a vanilla mode, and vanilla (the default) adds no checks at all.
+    setStage("synthesis_setting", shown(slot_data["synthesis_pool"], VANILLA_POOL_MODE))
+    setStage("photo_missions_setting", shown(slot_data["photo_missions_pool"], VANILLA_POOL_MODE))
+    setStage("keyblade_upgrades_setting", shown(slot_data["keyblade_upgrade_rewards_pool"], VANILLA_POOL_MODE))
+end
+
 function autoFill(slot_data)
     if not slot_data then return end
 
@@ -1933,55 +2007,9 @@ function autoFill(slot_data)
     -- the apworld default is shuffled). Drives the level counters and the
     -- Moogle Workshop upgrade rules.
     setStage("keyblade_levels_setting", slot_data["keyblade_levels"] or 1)
-
-    -- World on/off flags -> Settings menu stage. The apworld dropped the old
-    -- boolean "include_*" slot_data keys; each world's checks now live behind
-    -- a pool mode (KH3LocationPoolMode) under slot_data.kh3_randomizer.pools,
-    -- keyed by the pool's display name.
-    --
-    -- Since apworld 0.15.4 (still so in 0.17.10), KH3LocationPoolMode only offers randomize (2) and
-    -- junk (3) -- option_vanilla (1) was removed from every pool that uses this
-    -- enum (Data.filter_locations_for_options no longer excludes their
-    -- locations at all), so poolHasChecks below is now always true for them.
-    -- It's kept as a defensive default rather than hardcoded, in case a future
-    -- apworld version reintroduces a hide-this-world's-checks pool value.
-    -- The Olympus Coliseum mod pool is the one remaining exception: it kept
-    -- its own separate option_off = VANILLA_LOCATION_POOL_VALUE (still 1),
-    -- handled below.
-    local VANILLA_POOL_MODE = 1
-    local pools = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["pools"]) or {}
-    local function poolHasChecks(pool_name)
-        -- Default to "randomize" (2) when absent, matching the option's own default.
-        local mode = pools[pool_name] or 2
-        return mode ~= VANILLA_POOL_MODE
-    end
-
-    setStage("battlegates_setting",        poolHasChecks("Battlegates") and 1 or 0)
-    setStage("remind_setting",             poolHasChecks("Re+Mind") and 1 or 0)
-    setStage("lucky_emblems_setting",      poolHasChecks("Lucky Emblems") and 1 or 0)
-    setStage("keyblade_graveyard_setting", poolHasChecks("Keyblade Graveyard") and 1 or 0)
-    setStage("radiant_garden_setting",     poolHasChecks("Data Battle Rewards") and 1 or 0)
-
-    -- The per-world pools. Keys are RANDOMIZER_POOL_NAMES display names from
-    -- the apworld's Options.py.
-    local WORLD_POOL_SETTINGS = {
-        {"olympus_setting",           "Olympus"},
-        {"twilight_town_setting",     "Twilight Town"},
-        {"toy_box_setting",           "Toy Box"},
-        {"kingdom_of_corona_setting", "Kingdom of Corona"},
-        {"monstropolis_setting",      "Monstropolis"},
-        {"arendelle_setting",         "Arendelle"},
-        {"the_caribbean_setting",     "The Caribbean"},
-        {"san_fransokyo_setting",     "San Fransokyo"},
-        {"hundred_acre_wood_setting",  "100 Acre Wood"},
-        {"dark_world_setting",        "Dark World"},
-        {"unreality_setting",         "Unreality"},
-        -- Level Ups are the "Sora" pool in the randomizer's naming.
-        {"level_ups_setting",         "Sora"},
-    }
-    for _, entry in ipairs(WORLD_POOL_SETTINGS) do
-        setStage(entry[1], poolHasChecks(entry[2]) and 1 or 0)
-    end
+    -- Pool on/off flags, which "Hide Junk Checks" can later turn off again.
+    POOL_SLOT_DATA = slot_data
+    ApplyPoolSettings()
 
     -- Gummi space is a base-game toggle, not a pool: top-level include_space
     -- (0 = off, 1 = on; the apworld default is off).
@@ -1997,12 +2025,6 @@ function autoFill(slot_data)
     setStage("space_grindy_setting", (slot_data["include_grindy_space_missions"] or 0) == 1 and 1 or 0)
     setStage("space_superbosses_setting", (slot_data["include_space_superbosses"] or 0) == 1 and 1 or 0)
 
-    -- Olympus Coliseum is a third-party pool: it is NOT in
-    -- RANDOMIZER_POOL_NAMES, so it never appears under kh3_randomizer.pools.
-    -- It ships as a top-level slot_data key instead.
-    setStage("olympus_coliseum_setting",
-             (slot_data["olympus_coliseum_pool"] or 2) ~= VANILLA_POOL_MODE and 1 or 0)
-
     -- Classic Kingdom Checks (top-level key, 0 = off, 1 = high score)
     setStage("classic_kingdom_setting", (slot_data["classic_kingdom_checks"] or 0) ~= 0 and 1 or 0)
 
@@ -2010,14 +2032,6 @@ function autoFill(slot_data)
     -- The stage indices line up with the option's own values.
     setStage("ingredients_setting", slot_data["ingredients"] or 0)
 
-    -- Moogle Workshop pools (top-level keys). Unlike the pools above these still
-    -- have a vanilla mode, and vanilla (the default) adds no checks at all.
-    setStage("synthesis_setting",
-             (slot_data["synthesis_pool"] or VANILLA_POOL_MODE) ~= VANILLA_POOL_MODE and 1 or 0)
-    setStage("photo_missions_setting",
-             (slot_data["photo_missions_pool"] or VANILLA_POOL_MODE) ~= VANILLA_POOL_MODE and 1 or 0)
-    setStage("keyblade_upgrades_setting",
-             (slot_data["keyblade_upgrade_rewards_pool"] or VANILLA_POOL_MODE) ~= VANILLA_POOL_MODE and 1 or 0)
 
     -- Minigame max AP rank (top-level keys, 0 = junk, 1..4 = D..A, matching the
     -- stage indices). It never removes checks, only restricts rewards above the
@@ -2123,12 +2137,13 @@ function autoFill(slot_data)
     local ms_limit = slot_data["moogle_shop_checks"] or 0
     setAmount("ms_limit", ms_limit)
 
+    local pools = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["pools"]) or {}
     print(string.format("autoFill: battlegates=%s remind=%s lucky_emblems=%s kg=%s rg=%s le_limit=%d lep_check=%d lu_limit=%d ms_limit=%d default_base_abilities=%s",
-        tostring(poolHasChecks("Battlegates")),
-        tostring(poolHasChecks("Re+Mind")),
-        tostring(poolHasChecks("Lucky Emblems")),
-        tostring(poolHasChecks("Keyblade Graveyard")),
-        tostring(poolHasChecks("Data Battle Rewards")),
+        tostring(pools["Battlegates"]),
+        tostring(pools["Re+Mind"]),
+        tostring(pools["Lucky Emblems"]),
+        tostring(pools["Keyblade Graveyard"]),
+        tostring(pools["Data Battle Rewards"]),
         le_limit, lep_check, lu_limit, ms_limit,
         tostring(default_base_abilities)))
 end
@@ -2310,6 +2325,9 @@ function onKH3MapChanged(message)
         Tracker:UiHint("ActivateTab", subtab)
     end
 end
+
+-- Re-applies the pool flags of the connected seed when "Hide Junk Checks" changes.
+ScriptHost:AddWatchForCode("hide junk watch", "hide_junk_setting", ApplyPoolSettings)
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
