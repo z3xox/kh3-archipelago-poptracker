@@ -72,8 +72,8 @@ def main():
     # 3. tier gate counts open tier-one worlds, through their characters
     sim.give(*KG_NEEDS, "Party Member: Ventus")
     check("party mode: Ventus + 2 tier-one worlds: Keyblade Graveyard still gated", not sim.open(KG))
-    sim.give("Party Member: Mike")
-    check("party mode: 3rd tier-one world (Mike) opens Keyblade Graveyard", sim.open(KG))
+    sim.give("Party Member: Sulley")
+    check("party mode: 3rd tier-one world (Sulley) opens Keyblade Graveyard", sim.open(KG))
     sim.clear(portal_unlocks=1)
     sim.give(*KG_NEEDS, "Starlight", "Favorite Deputy", "Ever After", "Nano Gear")
     check("party mode: keyblades count for nothing at the tier gate", not sim.open(KG))

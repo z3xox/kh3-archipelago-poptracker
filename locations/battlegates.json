@@ -18,7 +18,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -41,7 +41,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -115,14 +115,14 @@
             "name": "Battlegate Reports - EVENT_REPORT_005a - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,unlock_wall_run"
             ]
           },
           {
             "name": "Battlegate Rewards - EVENT_REPORT_005b - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,unlock_wall_run"
             ]
           }
         ],
@@ -145,7 +145,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -168,7 +168,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -191,7 +191,8 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,ability_doubleflight,ability_superjump,ability_wall_kick,$has_any|ability_block|ability_dodge_roll",
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -214,7 +215,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_crystal_snow,ability_pole_spin,unlock_wall_run"
             ]
           }
         ],
@@ -237,7 +238,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
             ]
           }
         ],
@@ -260,7 +261,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
           }
         ],
@@ -283,7 +284,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
           }
         ],
@@ -306,7 +307,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,$has_tier_one_keyblades,unlock_wall_run,unlock_attraction_flow"
             ]
           }
         ],
@@ -329,7 +330,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -352,7 +353,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
           }
         ],
@@ -375,7 +376,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -398,7 +399,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -421,7 +422,8 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,ability_doubleflight,ability_superjump,ability_wall_kick,$has_any|ability_block|ability_dodge_roll",
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -444,7 +446,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_crystal_snow,ability_pole_spin,unlock_wall_run"
             ]
           }
         ],
@@ -467,7 +469,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
             ]
           }
         ],
@@ -490,7 +492,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
           }
         ],
@@ -513,7 +515,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
           }
         ],
@@ -536,7 +538,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,$has_tier_one_keyblades,unlock_wall_run,unlock_attraction_flow"
             ]
           }
         ],
@@ -559,7 +561,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,$has_tier_one_keyblades,unlock_wall_run,unlock_attraction_flow"
             ]
           }
         ],

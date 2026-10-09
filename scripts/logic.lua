@@ -136,9 +136,9 @@ end
 -- Garden, Data Battles) both open with Riku.
 PORTAL_PARTY_BY_KEYBLADE = {
     kb_heros_origin    = {"party_hercules"},
-    kb_favorite_deputy = {"party_woody", "party_buzz_lightyear"},
-    kb_ever_after      = {"party_rapunzel", "party_flynn_rider"},
-    kb_happy_gear      = {"party_sulley", "party_mike"},
+    kb_favorite_deputy = {"party_woody"},
+    kb_ever_after      = {"party_rapunzel"},
+    kb_happy_gear      = {"party_sulley"},
     kb_wheel_of_fate   = {"party_captain_jack_sparrow"},
     kb_nano_gear       = {"party_baymax"},
     kb_crystal_snow    = {"party_marshmallow"},
