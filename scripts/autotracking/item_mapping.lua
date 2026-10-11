@@ -8,12 +8,10 @@
 
 ITEM_MAPPING_BY_NAME = {
     -- BEGIN generated: gummi space items (scripts/tools/generate_space_locations.py)
-    ["Gummi Blueprint: Stationery Squadron"] = { code = "space_eclipse", type = "consumable" },
-    ["Gummi Blueprint: Omega"] = { code = "space_misty_stream", type = "consumable" },
-    ["Gummi Blueprint: Endymion"] = { code = "space_misty_stream", type = "consumable", also = "gummi_endymion" },
-    ["Gummi Blueprint: Sirius"] = { code = "space_eclipse", type = "consumable" },
-    ["Gummi Blueprint: Shooting Star"] = { code = "space_starlight_way", type = "consumable" },
-    ["Gummi Blueprint: Golden Highwind"] = { code = "space_starlight_way", type = "consumable" },
+    ["Gummi Blueprint: Submarine"] = { code = "space_eclipse", type = "consumable" },
+    ["Gummi Blueprint: Endymion"] = { code = "gummi_endymion", type = "toggle" },
+    ["Gummi Blueprint: Bomb"] = { code = "space_starlight_way", type = "consumable" },
+    ["Gummi Blueprint: Galleon"] = { code = "space_misty_stream", type = "consumable" },
     ["Gummi Special Weapon: Repair Kit"] = { code = "space_special_weapon", type = "consumable" },
     ["Gummi Special Weapon: Force Field"] = { code = "space_special_weapon", type = "consumable" },
     ["Gummi Special Weapon: Heavy Rocket"] = { code = "space_special_weapon", type = "consumable" },

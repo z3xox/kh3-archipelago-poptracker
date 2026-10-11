@@ -12,8 +12,8 @@ Outputs (all idempotent -- re-running replaces what a previous run wrote):
   - scripts/autotracking/autotracking.lua  OVERWORLD_SECTION_MAP block between markers
   - scripts/autotracking/item_mapping.lua  Gummi blueprints / special weapons block between markers
 
-Access rules mirror Space.set_space_rules of the apworld: a zone needs one of its
-two travel blueprints (ZONE_UNLOCK_BLUEPRINTS), global missions need any of them,
+Access rules mirror Space.set_space_rules of the apworld: a zone needs its
+travel blueprint (ZONE_UNLOCK_BLUEPRINTS), global missions need any of them,
 Schwarzgeist and the Completionist need Endymion, Special Weapon missions count
 weapons (+ Twilight Town arrival and the Monstropolis finale), Treasure Hunter
 missions count owned zones. Visibility rules follow Space.space_locations: grindy
@@ -259,14 +259,14 @@ def update_autotracking(mirrors):
 
 
 def update_item_mapping(items):
-    """Zone blueprints feed their zone's counter (Endymion also its own toggle); special weapons
-    one counter. The other blueprints open nothing (Space.ZONE_UNLOCK_BLUEPRINTS) and stay unmapped."""
+    """Zone blueprints feed their zone's counter, Endymion its own toggle (Schwarzgeist); special
+    weapons one counter. The other blueprints open nothing (Space.ZONE_UNLOCK_BLUEPRINTS) and stay unmapped."""
     lines = []
     for it in items:
         if it["category"] == "Blueprint" and it["zone"]:
-            extra = ', also = "gummi_endymion"' if it["name"] == ENDYMION else ""
-            lines.append(f'    ["{it["name"]}"] = {{ code = "{ZONE_CODES[it["zone"]]}", '
-                         f'type = "consumable"{extra} }},')
+            lines.append(f'    ["{it["name"]}"] = {{ code = "{ZONE_CODES[it["zone"]]}", type = "consumable" }},')
+        elif it["name"] == ENDYMION:
+            lines.append(f'    ["{it["name"]}"] = {{ code = "gummi_endymion", type = "toggle" }},')
         elif it["category"] == "Special Weapon":
             lines.append(f'    ["{it["name"]}"] = {{ code = "space_special_weapon", type = "consumable" }},')
     replace_block(ITEM_MAPPING, ITEM_BEGIN, ITEM_END, lines, "ITEM_MAPPING_BY_NAME = {\n")

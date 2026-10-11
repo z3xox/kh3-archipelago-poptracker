@@ -219,7 +219,7 @@ def main():
     # 1. include_space off: nothing is active
     sim.clear(include_space=0)
     check("setting off: active_space is not provided", sim.code_count("active_space") == 0)
-    sim.item(BP + "Golden Highwind", next(idx))
+    sim.item(BP + "Bomb", next(idx))
     check("setting off: Starlight check stays inaccessible", not sim.accessible(A, A_sec))
 
     # 2. include_space on, fresh slot
@@ -228,13 +228,14 @@ def main():
     check("no ship yet: Starlight check inaccessible", not sim.accessible(A, A_sec))
     check("no ship yet: global missions inaccessible", not sim.accessible(miss, "Space - Heartless Hunter"))
 
-    # 3. only the two travel blueprints of a zone open it (Space.ZONE_UNLOCK_BLUEPRINTS)
+    # 3. only the travel blueprint of a zone opens it (Space.ZONE_UNLOCK_BLUEPRINTS)
     sim.item(BP + "Necho Cat", next(idx))
-    check("Necho Cat opens no zone", sim.code_count("space_starlight_way") == 0
+    sim.item(BP + "Golden Highwind", next(idx))
+    check("Necho Cat / Golden Highwind open no zone", sim.code_count("space_starlight_way") == 0
           and not sim.accessible(A, A_sec))
     check("Pro Builder needs Starlight Way",
           not sim.accessible(f"{SLW} - Missions", "Space - Pro Builder"))
-    sim.item(BP + "Golden Highwind", next(idx))
+    sim.item(BP + "Bomb", next(idx))
     check("Starlight ship counter = 1", sim.code_count("space_starlight_way") == 1)
     check("Starlight ship: Starlight check accessible", sim.accessible(A, A_sec))
     check("Starlight ship: Misty check still inaccessible",
@@ -246,11 +247,15 @@ def main():
           not sim.accessible(miss, "Space - Chief Treasure Hunter"))
     check("no Endymion: Schwarzgeist reward inaccessible", not sim.accessible(schwarz, schwarz_sec))
 
-    # 4. Endymion: counts for Misty Stream and its own toggle
+    # 4. Endymion: its own toggle only, Galleon opens Misty Stream
     sim.item(BP + "Endymion", next(idx))
-    check("Endymion: Misty counter = 1", sim.code_count("space_misty_stream") == 1)
+    check("Endymion: Misty counter stays 0", sim.code_count("space_misty_stream") == 0)
     check("Endymion: gummi_endymion toggle on", sim.code_count("gummi_endymion") == 1)
-    check("Endymion: Schwarzgeist reward accessible", sim.accessible(schwarz, schwarz_sec))
+    check("Endymion without Galleon: Schwarzgeist reward inaccessible",
+          not sim.accessible(schwarz, schwarz_sec))
+    sim.item(BP + "Galleon", next(idx))
+    check("Galleon: Misty counter = 1", sim.code_count("space_misty_stream") == 1)
+    check("Galleon + Endymion: Schwarzgeist reward accessible", sim.accessible(schwarz, schwarz_sec))
     check("2 zones: Chief Treasure Hunter ok", sim.accessible(miss, "Space - Chief Treasure Hunter"))
     check("2 zones: Veteran Treasure Hunter (3 zones) not ok",
           not sim.accessible(miss, "Space - Veteran Treasure Hunter"))
@@ -299,7 +304,7 @@ def main():
     # 9. completionist needs everything
     sim.clear(include_space=1)
     n = next(idx)
-    for name in ["Golden Highwind", "Sirius", "Endymion"]:
+    for name in ["Bomb", "Galleon", "Submarine", "Endymion"]:
         sim.item(BP + name, n); n = next(idx)
     for w in ["Repair Kit", "Force Field", "Heavy Rocket", "Twin Shot", "Firestorm", "Laser Squall",
               "Sunlight Laser", "Barrier", "Tracking Laser", "Electro Shot", "Knight's Arms"]:
