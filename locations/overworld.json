@@ -293,7 +293,7 @@
               }
             ],
             "access_rules": [
-              "kb_shooting_star,$has_tier_one_keyblades,$has_twilight_town_combat"
+              "kb_shooting_star,$has_twilight_town_combat"
             ]
           },
           {

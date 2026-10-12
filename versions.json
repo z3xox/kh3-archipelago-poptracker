@@ -3,9 +3,10 @@
   {
     "package_version": "0.4.6",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v0.4.6/kh3-archipelago-poptracker-v0.4.6.zip",
-    "sha256": "1799c09d3ff528f6c38f20001b76de206573522a3647b743f1da6fa46f4bacfa",
+    "sha256": "b729d8da65ca6d61df2da0a6b6cbfe0819faa850f2e488285f3bf97642cfc916",
     "changelog": [
-      "Removed the Olympus - Rock Titan Sequence Break Bonus check."
+      "Removed the Olympus - Rock Titan Sequence Break Bonus check.",
+      "Fixed the Twilight Town Melody Chest and Overworld pin asking for three tier-one keyblades: like the apworld, Twilight Town only needs Shooting Star and its combat gate."
     ]
   },
   {
