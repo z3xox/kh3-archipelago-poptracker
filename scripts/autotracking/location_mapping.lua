@@ -1010,7 +1010,6 @@ LOCATION_MAPPING = {
     [1263023869] = { code = "@Level Ups - Sora Level 97/Level Ups - Sora Level 97" },
     [1263023870] = { code = "@Level Ups - Sora Level 98/Level Ups - Sora Level 98" },
     [1263023871] = { code = "@Level Ups - Sora Level 99/Level Ups - Sora Level 99" },
-    [1263088383] = { code = "@Olympus - Rock Titan Sequence Break Bonus/Olympus - Rock Titan Sequence Break Bonus" },
     [1263153920] = { code = "@Melody of Memory - Songs/Melody of Memory - The 13th Struggle (KINGDOM HEARTS II) Clear" },
     [1263153921] = { code = "@Melody of Memory - Songs/Melody of Memory - Shrouding Dark Cloud (KINGDOM HEARTS) Clear" },
     [1263153922] = { code = "@Melody of Memory - Songs/Melody of Memory - Traverse Town (KINGDOM HEARTS) Clear" },
