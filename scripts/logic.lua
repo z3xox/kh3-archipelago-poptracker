@@ -81,6 +81,12 @@ KEYBLADE_LEVEL_KEYBLADES = {
     "kb_classic_tone", "kb_grand_chef", "kb_starlight", "kb_oathkeeper", "kb_oblivion",
 }
 
+-- Level shown for a keyblade holding `items` level items: the apworld counts the
+-- items ("Level 4" = 4 of them) and a keyblade is level 1 before any.
+function keyblade_display_level(items)
+    return math.max(1, items or 0)
+end
+
 -- "kb_ever_after" -> "lvl_ever_after", "kingdom_key" -> "lvl_kingdom_key"
 local function keyblade_level_counter(keyblade_code)
     return "lvl_" .. (keyblade_code:gsub("^kb_", ""))
@@ -93,7 +99,7 @@ function update_keyblade_level_overlays()
         if keyblade then
             if per_keyblade then
                 local counter = Tracker:FindObjectForCode(keyblade_level_counter(code))
-                keyblade:SetOverlay(tostring(counter and counter.AcquiredCount or 0))
+                keyblade:SetOverlay(tostring(keyblade_display_level(counter and counter.AcquiredCount)))
                 keyblade:SetOverlayFontSize(11)
             else
                 keyblade:SetOverlay("")
