@@ -6432,7 +6432,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 43,
+                "x": 23,
                 "y": 265,
                 "shape": "trapezoid"
               }
@@ -6697,7 +6697,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 562,
+                "x": 584,
                 "y": 261,
                 "shape": "trapezoid"
               }
@@ -6770,7 +6770,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 536,
+                "x": 558,
                 "y": 408,
                 "shape": "trapezoid"
               }
@@ -6915,7 +6915,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 78,
+                "x": 58,
                 "y": 190,
                 "shape": "trapezoid"
               }
@@ -6992,7 +6992,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 90,
+                "x": 70,
                 "y": 421,
                 "shape": "trapezoid"
               }
@@ -7429,7 +7429,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 527,
+                "x": 549,
                 "y": 186,
                 "shape": "trapezoid"
               }
@@ -7558,7 +7558,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 151,
+                "x": 131,
                 "y": 467,
                 "shape": "trapezoid"
               }
@@ -7643,7 +7643,7 @@
             "map_locations": [
               {
                 "map": "map_overworld",
-                "x": 464,
+                "x": 486,
                 "y": 460,
                 "shape": "trapezoid"
               }
