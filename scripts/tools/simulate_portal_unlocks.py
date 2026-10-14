@@ -5,7 +5,7 @@ Headless simulation of Portal Unlocks (apworld option portal_unlocks).
 Reuses simulate_space.py's PopTracker mock with a few world chest files. With
 portal_unlocks = 0 a world opens with its keyblade; with 1 it opens with one of
 its party members instead (PORTAL_PARTY_REGION_LOCKS), and the tier-one gate
-counts open tier-one worlds either way. Every rule names the world through
+of Data Battles counts open tier-one worlds either way. Every rule names the world through
 "$portal|<keyblade>", so both modes go through logic.lua's portal_open.
 
 Needs `pip install lupa`.  Usage:  python scripts/tools/simulate_portal_unlocks.py
@@ -21,13 +21,17 @@ ARE = "Arendelle - Chest 1 (Large Chest, The North Mountain: Treescape)"
 KG = "Keyblade Graveyard - Chest 1 (Large Chest, The Badlands)"
 KG_NEEDS = ["Ability: Air Slide", "Ability: Block", "Ability: Dodge Roll", "Magic: Cure",
             "Unlock: Attraction Flow", "Unlock: Magic"]
+DB = "Data Battles - EVENT_DATAB_001 - RandomizedItem"
+DB_NEEDS = ["Ability: Air Slide", "Ability: Block", "Ability: Dodge Roll", "Ability: Glide",
+            "Ability: Second Chance", "Ability: Withstand Combo", "Ability: Counter Slash",
+            "Magic: Cure", "Unlock: Magic"]
 
 
 class PortalSim(Sim):
     def __init__(self):
         super().__init__()
         for rel in ("locations/olympus_chests.json", "locations/arendelle_chests.json",
-                    "locations/keyblade_graveyard_chests.json"):
+                    "locations/keyblade_graveyard_chests.json", "locations/radiant_garden.json"):
             for top in load_json(rel):
                 self._index(top, [])
         self.n = 0
@@ -69,16 +73,20 @@ def main():
     check("party mode: Marshmallow opens Arendelle", sim.open(ARE))
     check("party mode: Hercules opens Olympus", sim.open(OLY))
 
-    # 3. tier gate counts open tier-one worlds, through their characters
+    # 3. story worlds have no tier gate any more (apworld 0.17.21)
     sim.give(*KG_NEEDS, "Party Member: Ventus")
-    check("party mode: Ventus + 2 tier-one worlds: Keyblade Graveyard still gated", not sim.open(KG))
-    sim.give("Party Member: Sulley")
-    check("party mode: 3rd tier-one world (Sulley) opens Keyblade Graveyard", sim.open(KG))
-    sim.clear(portal_unlocks=1)
-    sim.give(*KG_NEEDS, "Starlight", "Favorite Deputy", "Ever After", "Nano Gear")
-    check("party mode: keyblades count for nothing at the tier gate", not sim.open(KG))
+    check("party mode: Ventus opens Keyblade Graveyard, no tier gate", sim.open(KG))
 
-    # 4. Trinity Fire counts once Twilight Town is reachable, without the tier gate
+    # 4. the Data Battles tier gate counts open tier-one worlds, through their characters
+    sim.give(*DB_NEEDS, "Party Member: Riku")
+    check("party mode: Riku + 2 tier-one worlds: Data Battles still gated", not sim.open(DB))
+    sim.give("Party Member: Sulley")
+    check("party mode: 3rd tier-one world (Sulley) opens Data Battles", sim.open(DB))
+    sim.clear(portal_unlocks=1)
+    sim.give(*DB_NEEDS, "Party Member: Riku", "Favorite Deputy", "Ever After", "Nano Gear")
+    check("party mode: keyblades count for nothing at the tier gate", not sim.open(DB))
+
+    # 5. Trinity Fire counts once Twilight Town is reachable, without the tier gate
     sim.clear(portal_unlocks=0, include_space=1)
     sim.give("Shooting Star", "Ability: Block")
     check("Twilight Town reachable with Shooting Star + a defensive ability only",
