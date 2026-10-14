@@ -307,7 +307,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,$has_tier_one_keyblades,unlock_wall_run,unlock_attraction_flow"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,unlock_wall_run,unlock_attraction_flow"
             ]
           }
         ],
@@ -538,7 +538,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,$has_tier_one_keyblades,unlock_wall_run,unlock_attraction_flow"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,unlock_wall_run,unlock_attraction_flow"
             ]
           }
         ],
@@ -561,7 +561,7 @@
               "active_unsupported_battlegates"
             ],
             "access_rules": [
-              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,$has_tier_one_keyblades,unlock_wall_run,unlock_attraction_flow"
+              "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,unlock_wall_run,unlock_attraction_flow"
             ]
           }
         ],

@@ -318,12 +318,10 @@ end
 -- World reachability (portal keyblade + tier gate)
 -- ============================================================
 
--- Worlds behind WORLD_DIFFICULTY_TIERS[2..4] in the AP world need
--- HIGHER_TIER_TIER_ONE_KEYBLADE_COUNT tier-one keyblades on top of their own
--- portal keyblade. Twilight Town (which keeps its combat gate instead) and
--- Unreality are the exceptions, and Radiant Garden has no tier of its own.
+-- Since apworld 0.17.21 only Data Battles keeps the gate of
+-- HIGHER_TIER_TIER_ONE_KEYBLADE_COUNT tier-one keyblades on top of its portal
+-- keyblade; story worlds rely on their check-level combat requirements.
 TIER_GATED_WORLDS = {
-    ["Keyblade Graveyard"] = true, ["Re Mind"] = true, ["Dark World"] = true,
     ["Data Battles"] = true,
 }
 
@@ -333,6 +331,10 @@ local function worldReachable(world, keyblade)
         return false
     end
     if world == "Twilight Town" and countCodes(DEFENSIVE_CODES) < 1 then
+        return false
+    end
+    -- The Keyblade Graveyard entrance also needs Attraction Flow.
+    if world == "Keyblade Graveyard" and not hasCode("unlock_attraction_flow") then
         return false
     end
     if world == "The Caribbean" and not hasCaribbeanSafetyTool() then

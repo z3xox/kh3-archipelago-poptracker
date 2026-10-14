@@ -2,7 +2,7 @@
   {
     "name": "Keyblade Graveyard - Chests",
     "access_rules": [
-      "active_keyblade_graveyard,$has_tier_one_keyblades"
+      "active_keyblade_graveyard"
     ],
     "children": [
       {

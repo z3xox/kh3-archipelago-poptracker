@@ -7,9 +7,6 @@
         "children": [
           {
             "name": "Re Mind - Story Battles",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Defeat Dark Inferno χ in The Keyblade Graveyard (Re:Mind)",
@@ -259,9 +256,6 @@
           },
           {
             "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky)",
@@ -291,9 +285,6 @@
           },
           {
             "name": "Re Mind - Chest 2 (Large Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 2 (Large Chest, Breezy Quarter)",
@@ -323,9 +314,6 @@
           },
           {
             "name": "Re Mind - Chest 3 (Small Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 3 (Small Chest, Breezy Quarter)",
@@ -355,9 +343,6 @@
           },
           {
             "name": "Re Mind - Chest 4 (Small Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 4 (Small Chest, Breezy Quarter)",
@@ -387,9 +372,6 @@
           },
           {
             "name": "Re Mind - Chest 5 (Small Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 5 (Small Chest, Breezy Quarter)",
@@ -419,9 +401,6 @@
           },
           {
             "name": "Re Mind - Chest 6 (Small Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 6 (Small Chest, Breezy Quarter)",
@@ -451,9 +430,6 @@
           },
           {
             "name": "Re Mind - Chest 7 (Small Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 7 (Small Chest, Breezy Quarter)",
@@ -483,9 +459,6 @@
           },
           {
             "name": "Re Mind - Chest 8 (Small Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 8 (Small Chest, Breezy Quarter)",
@@ -515,9 +488,6 @@
           },
           {
             "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter)",
-            "access_rules": [
-              "$has_tier_one_keyblades"
-            ],
             "sections": [
               {
                 "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter)",

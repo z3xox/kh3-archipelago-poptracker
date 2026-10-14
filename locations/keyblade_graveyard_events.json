@@ -2,7 +2,7 @@
   {
     "name": "Keyblade Graveyard - Events",
     "access_rules": [
-      "active_keyblade_graveyard,$portal|kb_starlight,$has_tier_one_keyblades"
+      "active_keyblade_graveyard,$portal|kb_starlight"
     ],
     "children": [
       {
