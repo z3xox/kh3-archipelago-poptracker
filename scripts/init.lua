@@ -10,6 +10,9 @@ Tracker:AddItems("items/lucky_emblem_spots.json")
 -- Logic functions (must load before locations reference them)
 ScriptHost:LoadScript("scripts/logic.lua")
 
+-- Clickable keyblade level cells (LuaItems must exist before the layouts place them)
+ScriptHost:LoadScript("scripts/keyblade_level_items.lua")
+
 -- Maps (dark variants swap in dark-themed map backgrounds; marker positions are identical)
 local dark_variant = (Tracker.ActiveVariantUID == "dark_vertical" or Tracker.ActiveVariantUID == "dark_horizontal"
     or Tracker.ActiveVariantUID == "dark_vertical_compact" or Tracker.ActiveVariantUID == "dark_horizontal_compact"
@@ -60,6 +63,12 @@ ScriptHost:AddWatchForCode("goal_layout_watch", "goal", update_goal_layout)
 update_gimmick_layout()
 ScriptHost:AddWatchForCode("gimmick_layout_watch", "style_change_setting", update_gimmick_layout)
 ScriptHost:AddWatchForCode("gimmick_layout_levels_watch", "keyblade_levels_setting", update_gimmick_layout)
+
+-- Classic Kingdom, Party Members and Gummi Space only show when their setting uses them
+update_option_groups()
+for _, group in ipairs(OPTION_GROUPS) do
+    ScriptHost:AddWatchForCode(group[1] .. "_watch", group[2], update_option_groups)
+end
 
 -- Keyblade Upgrade Sanity adds a Keyblades row for the Pandora's Power / Ultima Weapon levels
 update_keyblades_layout()

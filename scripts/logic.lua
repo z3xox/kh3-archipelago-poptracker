@@ -47,6 +47,22 @@ function update_gimmick_layout()
     end
 end
 
+-- Item groups that only matter under one setting are hidden without it, to
+-- leave room for the others: {layout key, setting watched, code it provides}.
+OPTION_GROUPS = {
+    {"group_classic_kingdom", "classic_kingdom_setting", "active_classic_kingdom"},
+    -- Party members only open worlds with Portal Unlocks = Party Members.
+    {"group_party_members", "portal_unlocks_setting", "portal_party"},
+    {"group_gummi_space", "space_setting", "active_space"},
+}
+
+function update_option_groups()
+    for _, group in ipairs(OPTION_GROUPS) do
+        local shown = Tracker:ProviderCountForCode(group[3]) > 0
+        Tracker:AddLayouts("layouts/" .. group[1] .. (shown and ".json" or "_hidden.json"))
+    end
+end
+
 -- Pandora's Power and Ultima Weapon have no Workshop upgrade check, but keyblade
 -- upgrade sanity still shuffles their level items: a sixth Keyblades row shows
 -- their counters in that mode only.

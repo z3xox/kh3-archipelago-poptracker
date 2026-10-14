@@ -27,10 +27,15 @@ HORIZONTAL = ROOT / "layouts" / "tracker_horizontal.json"
 
 def _iter_groups(entries):
     """Yield leaf "group" dicts, recursing into "dock" wrappers (the two-column/
-    row splits) that hold further groups instead of a header themselves."""
+    row splits) that hold further groups instead of a header themselves. A
+    "layout" entry is a whole group shared from layouts/<key>.json (the groups
+    hidden when their setting is off), so it is read from there."""
     for entry in entries:
         if entry.get("type") == "dock":
             yield from _iter_groups(entry["content"])
+        elif entry.get("type") == "layout":
+            with (ROOT / "layouts" / f"{entry['key']}.json").open(encoding="utf-8") as f:
+                yield json.load(f)[entry["key"]]
         else:
             yield entry
 

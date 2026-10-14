@@ -5,29 +5,29 @@
     "item_size": "36,36",
     "rows": [
       [
-        "kingdom_key",
-        "kb_heros_origin",
-        "kb_favorite_deputy"
+        "kblvl_kingdom_key",
+        "kblvl_heros_origin",
+        "kblvl_favorite_deputy"
       ],
       [
-        "kb_happy_gear",
-        "kb_ever_after",
-        "kb_wheel_of_fate"
+        "kblvl_happy_gear",
+        "kblvl_ever_after",
+        "kblvl_wheel_of_fate"
       ],
       [
-        "kb_crystal_snow",
-        "kb_nano_gear",
-        "kb_shooting_star"
+        "kblvl_crystal_snow",
+        "kblvl_nano_gear",
+        "kblvl_shooting_star"
       ],
       [
-        "kb_classic_tone",
-        "kb_oblivion",
-        "kb_oathkeeper"
+        "kblvl_classic_tone",
+        "kblvl_oblivion",
+        "kblvl_oathkeeper"
       ],
       [
-        "kb_grand_chef",
-        "kb_hunny_spout",
-        "kb_starlight"
+        "kblvl_grand_chef",
+        "kblvl_hunny_spout",
+        "kblvl_starlight"
       ],
       [
         "lvl_pandoras_power",

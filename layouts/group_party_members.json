@@ -1,0 +1,39 @@
+{
+  "group_party_members": {
+    "type": "group",
+    "header": "Party Members",
+    "content": {
+      "type": "itemgrid",
+      "item_margin": "2,2",
+      "item_size": "36,36",
+      "rows": [
+        [
+          "party_hercules",
+          "party_woody",
+          "party_buzz_lightyear",
+          "party_rapunzel",
+          "party_flynn_rider"
+        ],
+        [
+          "party_sulley",
+          "party_mike",
+          "party_captain_jack_sparrow",
+          "party_baymax",
+          "party_marshmallow"
+        ],
+        [
+          "party_mickey",
+          "party_riku",
+          "party_aqua",
+          "party_ventus",
+          "party_lea"
+        ],
+        [
+          "party_kairi",
+          "party_roxas",
+          "party_xion"
+        ]
+      ]
+    }
+  }
+}
