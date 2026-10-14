@@ -69,9 +69,9 @@ KEYBLADE_LEVEL_KEYBLADES = {
     "kb_classic_tone", "kb_grand_chef", "kb_starlight", "kb_oathkeeper", "kb_oblivion",
 }
 
--- A keyblade starts at level 1; "Level N" checks need N level items.
+-- A keyblade starts at level 0 and gains one level per level item.
 function keyblade_display_level(items)
-    return math.max(1, items or 0)
+    return items or 0
 end
 
 -- "kb_ever_after" -> "lvl_ever_after", "kingdom_key" -> "lvl_kingdom_key"
