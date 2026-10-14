@@ -416,6 +416,54 @@
               {
                 "name": "Olympus - Defeat Darkside (Final World) - Reward 3",
                 "ref": "Olympus - Events/Olympus - Defeat Darkside (Final World)/Olympus - Defeat Darkside (Final World) - Reward 3"
+              },
+              {
+                "name": "Olympus Lucky Emblem 1 - Overlook Wall",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 1 - Overlook Wall/On a wall in Thebes Overlook."
+              },
+              {
+                "name": "Olympus Lucky Emblem 2 - Big Olive Rubble",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 2 - Big Olive Rubble/On a wall among the rubble in The Big Olive."
+              },
+              {
+                "name": "Olympus Lucky Emblem 3 - Agora Steps",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 3 - Agora Steps/On the Agora steps, viewed from far enough back to align the mark."
+              },
+              {
+                "name": "Olympus Lucky Emblem 4 - Overlook Planters",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 4 - Overlook Planters/On the wall between planters in Thebes Overlook."
+              },
+              {
+                "name": "Olympus Lucky Emblem 5 - Cliff Pillar",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 5 - Cliff Pillar/On the side of a pillar during Cliff Ascent."
+              },
+              {
+                "name": "Olympus Lucky Emblem 6 - Drained Waterfall Wall",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 6 - Drained Waterfall Wall/On the wall revealed after the waterfall is drained."
+              },
+              {
+                "name": "Olympus Lucky Emblem 7 - Rock Spire",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 7 - Rock Spire/Rock formation on a high spire, photographed from the west-side high point."
+              },
+              {
+                "name": "Olympus Lucky Emblem 8 - Vines",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 8 - Vines/Vines hanging from a tree on the Mountainside."
+              },
+              {
+                "name": "Olympus Lucky Emblem 9 - Corridor Steps",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 9 - Corridor Steps/On the wall beside the stairs in the Corridors."
+              },
+              {
+                "name": "Olympus Lucky Emblem 10 - Corridor Wall",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 10 - Corridor Wall/On a wall in the Realm of the Gods Corridors."
+              },
+              {
+                "name": "Olympus Lucky Emblem 11 - Forge Anvil",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 11 - Forge Anvil/On the anvil in the Secluded Forge."
+              },
+              {
+                "name": "Olympus Lucky Emblem 12 - Southeast Clouds",
+                "ref": "Lucky Emblem Spots/Olympus/Olympus Lucky Emblem 12 - Southeast Clouds/Cloud shape visible in the southeast distance from Cloud Ridge."
               }
             ],
             "map_locations": [
@@ -558,6 +606,42 @@
               {
                 "name": "Twilight Town - The Old Mansion Heartless & Nobodies - Reward 3",
                 "ref": "Twilight Town - Events/Twilight Town - The Old Mansion Heartless & Nobodies/Twilight Town - The Old Mansion Heartless & Nobodies - Reward 3"
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 1 - Tram Common Wall",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 1 - Tram Common Wall/Tutorial emblem on a wall in Tram Common."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 2 - Tram Roof",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 2 - Tram Roof/On the roof of the moving tram in Tram Common."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 3 - Moogle Shop Chimney",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 3 - Moogle Shop Chimney/On a chimney above the Moogle Shop."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 4 - Projector Screen",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 4 - Projector Screen/On the outdoor movie screen between showings."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 5 - Rooftop Plates",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 5 - Rooftop Plates/Dinner plates on a rooftop, photographed from the north building."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 6 - Woods Door",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 6 - Woods Door/On the wooden door in The Woods."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 7 - High Woods Wall",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 7 - High Woods Wall/High on a wall reached by free running in The Woods."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 8 - Sunbeams",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 8 - Sunbeams/Sunbeam pattern on the south-facing side of the hill."
+              },
+              {
+                "name": "Twilight Town Lucky Emblem 9 - Mansion Outer Wall",
+                "ref": "Lucky Emblem Spots/Twilight Town/Twilight Town Lucky Emblem 9 - Mansion Outer Wall/On the south-facing side of the mansion's western outer wall."
               }
             ],
             "map_locations": [
@@ -900,6 +984,50 @@
               {
                 "name": "Defeat King of Toys in Toy Box: Galaxy Toys - Reward 3",
                 "ref": "Toy Box - Events/Defeat King of Toys in Toy Box: Galaxy Toys/Defeat King of Toys in Toy Box: Galaxy Toys - Reward 3"
+              },
+              {
+                "name": "Toy Box Lucky Emblem 1 - Bedroom Shelves",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 1 - Bedroom Shelves/Halfway up the eastern wall shelves in Andy's room."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 2 - Garage Roof",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 2 - Garage Roof/On the corner of the garage roof."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 3 - Front Walkway Leaves",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 3 - Front Walkway Leaves/Leaf pattern on the front walkway, aligned from the front steps."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 4 - Minivan",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 4 - Minivan/On the back of the minivan outside Andy's house."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 5 - Tape Rolls",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 5 - Tape Rolls/Tape rolls hanging on the 1F wall."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 6 - Toy Display Platform",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 6 - Toy Display Platform/On the round display platform after breaking the toy display with a Gigas."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 7 - Lower Vents Return Path",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 7 - Lower Vents Return Path/On the lower vent path reached from the updraft; turn back after landing."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 8 - UFO Hatch",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 8 - UFO Hatch/On the UFO hatch below the 3F balcony."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 9 - Disco Balls",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 9 - Disco Balls/Disco ball pattern aligned from the north Julia display."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 10 - Robot Display",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 10 - Robot Display/At the base of the robot display on 3F."
+              },
+              {
+                "name": "Toy Box Lucky Emblem 11 - Box Stickers",
+                "ref": "Lucky Emblem Spots/Toy Box/Toy Box Lucky Emblem 11 - Box Stickers/Logo and sticker pattern on boxes on 1F."
               }
             ],
             "map_locations": [
@@ -1230,6 +1358,42 @@
               {
                 "name": "Defeat Grim Guardianess in Kingdom of Corona - The Forest: Tower - Reward 3",
                 "ref": "Kingdom of Corona - Events/Kingdom of Corona - The Forest: Tower Heartless/Defeat Grim Guardianess in Kingdom of Corona - The Forest: Tower - Reward 3"
+              },
+              {
+                "name": "Corona Lucky Emblem 1 - Tower Waterfall View",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 1 - Tower Waterfall View/Near the waterfall southeast of Rapunzel's tower, viewed from the tower top."
+              },
+              {
+                "name": "Corona Lucky Emblem 2 - Marsh Wall",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 2 - Marsh Wall/Wall discoloration in the Marsh."
+              },
+              {
+                "name": "Corona Lucky Emblem 3 - Mine Barrel",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 3 - Mine Barrel/On the side of a barrel in the Wetlands mine."
+              },
+              {
+                "name": "Corona Lucky Emblem 4 - Kingdom Entrance Railing",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 4 - Kingdom Entrance Railing/On the end of a stone railing near the Kingdom entrance."
+              },
+              {
+                "name": "Corona Lucky Emblem 5 - Dance Archway",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 5 - Dance Archway/On the side of the archway leading toward the dance area."
+              },
+              {
+                "name": "Corona Lucky Emblem 6 - Large Wooden Door",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 6 - Large Wooden Door/On the large wooden door in the Thoroughfare."
+              },
+              {
+                "name": "Corona Lucky Emblem 7 - Wharf Tower Door Frame",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 7 - Wharf Tower Door Frame/On the stone door frame at the tower base."
+              },
+              {
+                "name": "Corona Lucky Emblem 8 - Barrel Pallet Pattern",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 8 - Barrel Pallet Pattern/Barrels and pallet against the wharf wall, aligned from farther back."
+              },
+              {
+                "name": "Corona Lucky Emblem 9 - Lighthouse Brazier",
+                "ref": "Lucky Emblem Spots/Kingdom of Corona/Corona Lucky Emblem 9 - Lighthouse Brazier/In the brazier ashes at the top of the lighthouse."
               }
             ],
             "map_locations": [
@@ -1544,6 +1708,50 @@
               {
                 "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area - Reward 3",
                 "ref": "Monstropolis - Events/Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area/Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area - Reward 3"
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 1 - Clipboard",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 1 - Clipboard/On a clipboard attached to one of the Laugh Floor desks."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 2 - Clown Floor Mark",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 2 - Clown Floor Mark/On the floor under the movable weighted clown."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 3 - Upper Level Wall",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 3 - Upper Level Wall/On a wall in the Door Vault upper level."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 4 - Distant Yellow Doors",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 4 - Distant Yellow Doors/Yellow doors in the far distance of the Door Vault."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 5 - Window Wall",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 5 - Window Wall/On the wall below a window on the Factory ground floor."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 6 - Pink Paint",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 6 - Pink Paint/Pink paint marks on the floor near the west wall."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 7 - Machinery Hall Wall",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 7 - Machinery Hall Wall/On the south wall of a machinery-filled hallway."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 8 - Filing Cabinets",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 8 - Filing Cabinets/On the side of the filing cabinets in the Accessway."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 9 - Maintenance Door Frame",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 9 - Maintenance Door Frame/Above the door frame outside the maintenance room."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 10 - High Pipes",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 10 - High Pipes/Pipe ends high on the wall, aligned from the northeast platform."
+              },
+              {
+                "name": "Monstropolis Lucky Emblem 11 - Post-Fire Oil Stain",
+                "ref": "Lucky Emblem Spots/Monstropolis/Monstropolis Lucky Emblem 11 - Post-Fire Oil Stain/Oil-stain pattern on the ground after the fires are cleared, photographed from the west balcony."
               }
             ],
             "map_locations": [
@@ -1874,6 +2082,50 @@
               {
                 "name": "Defeat Skoll in Arendelle - Reward 3",
                 "ref": "Arendelle - Events/Defeat Skoll in Arendelle/Defeat Skoll in Arendelle - Reward 3"
+              },
+              {
+                "name": "Arendelle Lucky Emblem 1 - Treescape Tree",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 1 - Treescape Tree/On a tree south of the chest ledge reached from the Gorge."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 2 - Middle Tier Bridge",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 2 - Middle Tier Bridge/At the northeast end of a small bridge in the Middle Tier."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 3 - Lower Tier Side Path",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 3 - Lower Tier Side Path/At the end of a side path in the Lower Tier."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 4 - Icy Wall Circles",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 4 - Icy Wall Circles/Icy circle pattern on the wall next to the Middle Tier bridge."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 5 - Upper Tier Rocks",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 5 - Upper Tier Rocks/Rocks on the floor in the northwest room, aligned from the central high platform."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 6 - Mountain Ridge Cliff",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 6 - Mountain Ridge Cliff/On the cliff face while climbing up from the Gorge."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 7 - Frozen Wall Ledge",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 7 - Frozen Wall Ledge/On a packed-snow rock on a side ledge reached by running along the Frozen Wall."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 8 - Rime Ice Rock",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 8 - Rime Ice Rock/On the back side of the rock covered with spiky rime ice."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 9 - Snowfield Ledge",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 9 - Snowfield Ledge/On a small snowy ledge, photographed from the cliff to the south."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 10 - Log Stack",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 10 - Log Stack/Pattern made by the ends of stacked logs."
+              },
+              {
+                "name": "Arendelle Lucky Emblem 11 - Foothills Snow Rock",
+                "ref": "Lucky Emblem Spots/Arendelle/Arendelle Lucky Emblem 11 - Foothills Snow Rock/Snow imprint on the back of a rock in the Foothills."
               }
             ],
             "map_locations": [
@@ -2452,6 +2704,58 @@
               {
                 "name": "Defeat Davy Jones in The Caribbean - Shipwreck Cove - Reward 3",
                 "ref": "The Caribbean - Events/The Caribbean - Shipwreck Cove/Defeat Davy Jones in The Caribbean - Shipwreck Cove - Reward 3"
+              },
+              {
+                "name": "Caribbean Lucky Emblem 1 - Dock Rowboat",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 1 - Dock Rowboat/On the rowboat near the Port Royal shore."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 2 - Brick Archway",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 2 - Brick Archway/Brick pattern on the archway under a Port Royal building."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 3 - Beach Hut Light",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 3 - Beach Hut Light/Light pattern on crates in the Seaport beach hut."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 4 - Pier Sign",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 4 - Pier Sign/On the back of the sign at the start of the pier."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 5 - Fort Rope Piles",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 5 - Fort Rope Piles/Rope piles on top of the fort's inner wall."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 6 - Prison Ball And Chain",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 6 - Prison Ball And Chain/On the ball and chain inside the prison cell."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 7 - Isla Verdemontana Underwater Rocks",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 7 - Isla Verdemontana Underwater Rocks/Large underwater rock pattern near the southeast cliffs of Isla Verdemontana."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 8 - Isle Of Luck Rocks",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 8 - Isle Of Luck Rocks/Three rocks in the island's southeast corner, aligned from the tall northern spire."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 9 - Horseshoe Island Arch Rocks",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 9 - Horseshoe Island Arch Rocks/Round rocks near the large southern arch, photographed from the ship."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 10 - Small Island West Of Main Beach",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 10 - Small Island West Of Main Beach/On a small sandy island west of the main island beach."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 11 - Ship's End Wreck",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 11 - Ship's End Wreck/On the side of a wrecked ship protruding from the water."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 12 - Sandbar Isle Cave Entrance",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 12 - Sandbar Isle Cave Entrance/Underwater cave entrance at Sandbar Isle."
+              },
+              {
+                "name": "Caribbean Lucky Emblem 13 - Underwater Spire Top",
+                "ref": "Lucky Emblem Spots/The Caribbean/Caribbean Lucky Emblem 13 - Underwater Spire Top/On the rock at the top of the central underwater spire."
               }
             ],
             "map_locations": [
@@ -2858,6 +3162,50 @@
               {
                 "name": "Defeat Dark Baymax in San Fransokyo - The City (Day) - Reward 3",
                 "ref": "San Fransokyo - Events/San Fransokyo Events/Defeat Dark Baymax in San Fransokyo - The City (Day) - Reward 3"
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 1 - Garage Wires",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 1 - Garage Wires/Yellow wires hanging on the wall in Hiro's Garage."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 2 - Chef Statue Bushes",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 2 - Chef Statue Bushes/Dark red bush pattern viewed from the chef statue northwest of it."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 3 - Night Spotlights",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 3 - Night Spotlights/Night-only spotlight pattern on an advertisement, photographed from the south building roof."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 4 - Statue Fan",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 4 - Statue Fan/On a statue fan, photographed from the building roof to the east."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 5 - Dome Roof",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 5 - Dome Roof/On the eastern side of a dome rooftop."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 6 - Vent Roof",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 6 - Vent Roof/On a roof beside vents that launch Sora upward."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 7 - Floating Object",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 7 - Floating Object/On top of the floating object above the city, near roof height."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 8 - North District Stairs",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 8 - North District Stairs/Stair discoloration in North District, aligned from the east."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 9 - Train Tunnel Wall",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 9 - Train Tunnel Wall/Stretch mark on the train tunnel wall, aligned from the west tunnel entrance barrier."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 10 - Yellow Car",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 10 - Yellow Car/On the side of a yellow parked car in North District."
+              },
+              {
+                "name": "San Fransokyo Lucky Emblem 11 - Train Tunnel Antenna",
+                "ref": "Lucky Emblem Spots/San Fransokyo/San Fransokyo Lucky Emblem 11 - Train Tunnel Antenna/At the top of the antenna on the building spanning the train tunnel."
               }
             ],
             "map_locations": [
@@ -3420,6 +3768,18 @@
               {
                 "name": "100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem",
                 "ref": "100 Acre Wood/Events/100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem/100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem"
+              },
+              {
+                "name": "100 Acre Wood Lucky Emblem 1 - Clothesline Bucket",
+                "ref": "Lucky Emblem Spots/100 Acre Wood/100 Acre Wood Lucky Emblem 1 - Clothesline Bucket/Inside a bucket near the clothesline."
+              },
+              {
+                "name": "100 Acre Wood Lucky Emblem 2 - Pumpkin",
+                "ref": "Lucky Emblem Spots/100 Acre Wood/100 Acre Wood Lucky Emblem 2 - Pumpkin/On the side of the large pumpkin."
+              },
+              {
+                "name": "100 Acre Wood Lucky Emblem 3 - Horizon Bushes",
+                "ref": "Lucky Emblem Spots/100 Acre Wood/100 Acre Wood Lucky Emblem 3 - Horizon Bushes/Bush pattern on the horizon."
               }
             ],
             "map_locations": [
