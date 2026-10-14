@@ -8491,7 +8491,7 @@
               "active_space"
             ],
             "access_rules": [
-              "active_space,space_starlight_way:1"
+              "active_space,$space_zone_open|space_starlight_way"
             ]
           },
           {
@@ -8637,7 +8637,7 @@
               "active_space"
             ],
             "access_rules": [
-              "active_space,space_misty_stream:1"
+              "active_space,$space_zone_open|space_misty_stream"
             ]
           },
           {
@@ -8739,7 +8739,7 @@
               "active_space"
             ],
             "access_rules": [
-              "active_space,space_eclipse:1"
+              "active_space,$space_zone_open|space_eclipse"
             ]
           },
           {
@@ -8826,7 +8826,7 @@
               "active_space"
             ],
             "access_rules": [
-              "active_space,$has_any|space_starlight_way|space_misty_stream|space_eclipse"
+              "active_space,$space_open_zones|1"
             ]
           }
         ]

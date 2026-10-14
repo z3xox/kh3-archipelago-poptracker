@@ -690,6 +690,43 @@ function space_all_worlds()
     return 1
 end
 
+-- Space.WORLD_COMPLETIONS_BY_ZONE: a zone opens with its travel blueprint once
+-- that many main worlds (COLISEUM_WORLD_COMPLETION) are completed.
+local SPACE_ZONE_COMPLETIONS = {
+    space_starlight_way = 1,
+    space_misty_stream  = 2,
+    space_eclipse       = 3,
+}
+
+local function completedMainWorlds()
+    local count = 0
+    for world, _ in pairs(COLISEUM_WORLD_COMPLETION) do
+        if coliseumWorldComplete(world) then count = count + 1 end
+    end
+    return count
+end
+
+local function spaceZoneOpen(zone_code)
+    local needed = SPACE_ZONE_COMPLETIONS[zone_code]
+    return needed ~= nil and hasCode(zone_code) and completedMainWorlds() >= needed
+end
+
+-- Access rule helper: $space_zone_open|<zone code> -> that zone can be flown in.
+function space_zone_open(zone_code)
+    if spaceZoneOpen(zone_code) then return 1 end
+    return 0
+end
+
+-- Access rule helper: $space_open_zones|N -> at least N zones can be flown in.
+function space_open_zones(needed)
+    local count = 0
+    for zone_code, _ in pairs(SPACE_ZONE_COMPLETIONS) do
+        if spaceZoneOpen(zone_code) then count = count + 1 end
+    end
+    if count >= (tonumber(needed) or 0) then return 1 end
+    return 0
+end
+
 -- Access rule helper: $space_special_weapons|N
 -- The native shop sells two weapons that never reach the pool: Trinity Fire unlocks on
 -- Twilight Town arrival and Decoy Duckies once Monstropolis is completed. They count

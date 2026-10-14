@@ -5,7 +5,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,space_starlight_way:1"
+      "active_space,$space_zone_open|space_starlight_way"
     ],
     "children": [
       {
@@ -320,7 +320,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,space_misty_stream:1"
+      "active_space,$space_zone_open|space_misty_stream"
     ],
     "children": [
       {
@@ -773,7 +773,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,space_eclipse:1"
+      "active_space,$space_zone_open|space_eclipse"
     ],
     "children": [
       {
@@ -1041,7 +1041,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,$has_any|space_starlight_way|space_misty_stream|space_eclipse"
+      "active_space,$space_open_zones|1"
     ],
     "children": [
       {
@@ -1125,42 +1125,42 @@
                 "name": "Space - Junior Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$has_at_least|1|space_starlight_way|space_misty_stream|space_eclipse"
+                  "$space_open_zones|1"
                 ]
               },
               {
                 "name": "Space - Authorized Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$has_at_least|1|space_starlight_way|space_misty_stream|space_eclipse"
+                  "$space_open_zones|1"
                 ]
               },
               {
                 "name": "Space - Chief Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$has_at_least|2|space_starlight_way|space_misty_stream|space_eclipse"
+                  "$space_open_zones|2"
                 ]
               },
               {
                 "name": "Space - Veteran Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$has_at_least|3|space_starlight_way|space_misty_stream|space_eclipse"
+                  "$space_open_zones|3"
                 ]
               },
               {
                 "name": "Space - Champion Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$has_at_least|3|space_starlight_way|space_misty_stream|space_eclipse"
+                  "$space_open_zones|3"
                 ]
               },
               {
                 "name": "Space - Gummi Ship Completionist",
                 "item_count": 1,
                 "access_rules": [
-                  "gummi_endymion,$space_special_weapons|13,$space_all_worlds,$has_at_least|3|space_starlight_way|space_misty_stream|space_eclipse"
+                  "gummi_endymion,$space_special_weapons|13,$space_all_worlds,$space_open_zones|3"
                 ],
                 "visibility_rules": [
                   "active_space_grindy,active_space_superbosses"

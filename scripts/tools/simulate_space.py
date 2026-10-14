@@ -237,6 +237,12 @@ def main():
           not sim.accessible(f"{SLW} - Missions", "Space - Pro Builder"))
     sim.item(BP + "Bomb", next(idx))
     check("Starlight ship counter = 1", sim.code_count("space_starlight_way") == 1)
+    check("Starlight ship, no completed world: Starlight check inaccessible", not sim.accessible(A, A_sec))
+    check("Starlight ship, no completed world: global missions inaccessible",
+          not sim.accessible(miss, "Space - Heartless Hunter"))
+    # Space.WORLD_COMPLETIONS_BY_ZONE: Starlight Way needs 1 completed world (The Caribbean)
+    sim.item("Wheel of Fate", next(idx))
+    sim.item("Ability: Air Slide", next(idx))
     check("Starlight ship: Starlight check accessible", sim.accessible(A, A_sec))
     check("Starlight ship: Misty check still inaccessible",
           not sim.accessible(f"{MST} - A (Countdown 5)", f"{MST} - Battle 01 - Countdown 5"))
@@ -255,6 +261,11 @@ def main():
           not sim.accessible(schwarz, schwarz_sec))
     sim.item(BP + "Galleon", next(idx))
     check("Galleon: Misty counter = 1", sim.code_count("space_misty_stream") == 1)
+    check("Galleon, 1 completed world: Schwarzgeist reward inaccessible",
+          not sim.accessible(schwarz, schwarz_sec))
+    # Misty Stream needs 2 completed worlds (+ Olympus)
+    sim.item("Hero's Origin", next(idx))
+    sim.item("Unlock: Wall Run", next(idx))
     check("Galleon + Endymion: Schwarzgeist reward accessible", sim.accessible(schwarz, schwarz_sec))
     check("2 zones: Chief Treasure Hunter ok", sim.accessible(miss, "Space - Chief Treasure Hunter"))
     check("2 zones: Veteran Treasure Hunter (3 zones) not ok",
@@ -271,7 +282,7 @@ def main():
     check("5 weapons: Collector (5) ok", sim.accessible(miss, "Space - Special Weapon Collector"))
     check("5 weapons: Completionist not ok", not sim.accessible(miss, "Space - Gummi Ship Completionist"))
 
-    # 6. Twilight Town arrival counts as a weapon (Trinity Fire): needs 3 tier-one keyblades + combat
+    # 6. Twilight Town arrival counts as a weapon (Trinity Fire): needs its keyblade + combat
     mapping = {"Hero's Origin": "kb_heros_origin", "Favorite Deputy": "kb_favorite_deputy",
                "Ever After": "kb_ever_after", "Shooting Star": "kb_shooting_star"}
     for name in mapping:
@@ -314,7 +325,7 @@ def main():
     for kb in ["kb_heros_origin", "kb_shooting_star", "kb_favorite_deputy", "kb_ever_after", "kb_crystal_snow",
                "kb_happy_gear", "kb_nano_gear", "kb_wheel_of_fate", "kb_starlight"]:
         sim.lua.execute(f'Tracker:FindObjectForCode("{kb}").Active = true')
-    for code in ["ability_block", "ability_air_slide"]:
+    for code in ["ability_block", "ability_air_slide", "unlock_attraction_flow"]:
         sim.lua.execute(f'Tracker:FindObjectForCode("{code}").Active = true')
     check("all worlds but Monstropolis finale (Decoy Duckies) unfinished: Completionist not ok",
           not sim.accessible(miss, "Space - Gummi Ship Completionist"))

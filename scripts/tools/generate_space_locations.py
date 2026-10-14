@@ -13,10 +13,11 @@ Outputs (all idempotent -- re-running replaces what a previous run wrote):
   - scripts/autotracking/item_mapping.lua  Gummi blueprints / special weapons block between markers
 
 Access rules mirror Space.set_space_rules of the apworld: a zone needs its
-travel blueprint (ZONE_UNLOCK_BLUEPRINTS), global missions need any of them,
-Schwarzgeist and the Completionist need Endymion, Special Weapon missions count
-weapons (+ Twilight Town arrival and the Monstropolis finale), Treasure Hunter
-missions count owned zones. Visibility rules follow Space.space_locations: grindy
+travel blueprint (ZONE_UNLOCK_BLUEPRINTS) and 1 / 2 / 3 completed main worlds
+(WORLD_COMPLETIONS_BY_ZONE), global missions need any open zone, Schwarzgeist
+and the Completionist need Endymion, Special Weapon missions count weapons
+(+ Twilight Town arrival and the Monstropolis finale), Treasure Hunter missions
+count open zones. Visibility rules follow Space.space_locations: grindy
 missions need active_space_grindy, superboss rewards active_space_superbosses, the
 Completionist both.
 
@@ -57,7 +58,7 @@ OVERWORLD_PINS = {
 }
 ZONE_CODES = {"Starlight Way": "space_starlight_way", "Misty Stream": "space_misty_stream",
               "The Eclipse": "space_eclipse"}
-ANY_SHIP = "$has_any|" + "|".join(ZONE_CODES.values())
+ANY_SHIP = "$space_open_zones|1"
 # Space.space_locations: checks that only exist with Include Grindy Space Missions /
 # Include Space Superbosses; the Completionist (mission 45) needs both options.
 GRINDY_MISSION_IDS = {20, 21, 22, 27, 33, 34, 35}
@@ -149,7 +150,7 @@ def update_names(zones, missions):
 
 
 def zones_at_least(n):
-    return f"$has_at_least|{n}|" + "|".join(ZONE_CODES.values())
+    return f"$space_open_zones|{n}"
 
 
 def section(name, rules=(), visibility=()):
@@ -206,7 +207,7 @@ def write_space_json(zones, missions, weapon_count):
             children.append({"name": pin["location"], "sections": sections(pin["sections"]),
                              "map_locations": mls})
         out.append({"name": parent_name(zone), "visibility_rules": ["active_space"],
-                    "access_rules": [f"active_space,{ZONE_CODES[zone]}:1"],
+                    "access_rules": [f"active_space,$space_zone_open|{ZONE_CODES[zone]}"],
                     "children": [{"name": "Checks", "children": children}]})
     out.append({"name": parent_name("Missions"), "visibility_rules": ["active_space"],
                 "access_rules": [f"active_space,{ANY_SHIP}"],
@@ -231,7 +232,7 @@ def update_overworld(zones, missions):
         ml = {"map": "map_overworld", "x": x, "y": y}
         if zone == "Missions":
             ml["shape"] = "diamond"
-        access = ANY_SHIP if zone == "Missions" else f"{ZONE_CODES[zone]}:1"
+        access = ANY_SHIP if zone == "Missions" else f"$space_zone_open|{ZONE_CODES[zone]}"
         kids.append({"name": mirror_name(zone), "sections": secs, "map_locations": [ml],
                      "visibility_rules": ["active_space"], "access_rules": [f"active_space,{access}"]})
     write_text(OVERWORLD, json.dumps(ow, indent=2, ensure_ascii=False) + "\n")
