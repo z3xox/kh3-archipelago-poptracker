@@ -11,12 +11,12 @@ upgrades...) -- as a set of alternative routes, then compares it with what the
 tracker enforces for the matching section: its own access_rules ANDed with
 every parent's.
 
-It models Rules.py of the apworld as of 0.17.10: world portals as
-"$portal|<keyblade>" (party members with Portal Unlocks), Unreality and Twilight
-Town outside the tier gate, Chestsanity as "$chest_keyblade|<AP id>" on each
+It models Rules.py of the apworld as of 0.17.21: world portals as
+"$portal|<keyblade>" (party members with Portal Unlocks), the tier gate on Data
+Battles only, Attraction Flow at the Keyblade Graveyard entrance, photo missions
+on their subject's world, Chestsanity as "$chest_keyblade|<AP id>" on each
 chest (inherited by the checks anchored on it). check_logic_against_apworld.py,
-which executes the apworld's real Rules.py, only runs on 0.16.x: 0.17 moved to
-rule-builder classes.
+which runs the apworld's real Rules.py on a real multiworld, is the judge.
 
 Atoms
 -----
@@ -198,7 +198,7 @@ def load_apworld(apworld):
     sys.path.insert(0, str(workdir))
     try:
         mods = {name: importlib.import_module(f"{package}.{name}")
-                for name in ("Data", "LogicData", "Logic", "ColiseumLogic", "Ingredients", "Regions")}
+                for name in ("Data", "LogicData", "Logic", "ColiseumLogic", "Ingredients", "Regions", "Battlegates", "Workshop")}
         mods["catalog"] = mods["Data"].load_extracted_data()["locations"]
     finally:
         sys.path.remove(str(workdir))
@@ -209,6 +209,7 @@ def apworld_rules(apworld):
     m = load_apworld(apworld)
     data, logic_data, logic = m["Data"], m["LogicData"], m["Logic"]
     coliseum, ingredients, regions, catalog = m["ColiseumLogic"], m["Ingredients"], m["Regions"], m["catalog"]
+    workshop = m["Workshop"]
 
     item_mapping = (ROOT / "scripts/autotracking/item_mapping.lua").read_text(encoding="utf-8")
     name_to_code = dict(re.findall(r'\["([^"]+)"\]\s*=\s*\{\s*code\s*=\s*"([^"]+)"', item_mapping))
@@ -243,8 +244,7 @@ def apworld_rules(apworld):
         reqs.update(getattr(logic_data, table))
     deps = logic_data.LOCATION_LOGIC_DEPENDENCIES
     portal = data.PORTAL_KEYBLADE_REGION_LOCKS
-    tiers = data.WORLD_DIFFICULTY_TIER_BY_REGION
-    battlegate_lock = data.CURRENTLY_WORKING_BATTLEGATE_SOURCE_ID_REGION_LOCKS
+    battlegate_lock = m["Battlegates"].BATTLEGATE_SOURCE_ID_REGION_LOCKS
     shared_name = regions.KEYBLADE_GRAVEYARD_REMIND_SHARED_REGION_NAME
     shared_keys = regions.KEYBLADE_GRAVEYARD_REMIND_SHARED_SOURCE_KEYS
     all_worlds = tuple(coliseum.COLISEUM_WORLD_COMPLETION_SOURCES)
@@ -258,8 +258,11 @@ def apworld_rules(apworld):
         rule = TRUE
         if region in portal:
             rule = AND(rule, atom(f"{PORTAL_ATOM}|{code(portal[region])}"))
-        if region not in {"Twilight Town", "Unreality"} and tiers.get(region, 1) > 1:
+        # Since 0.17.21 only Data Battles keep the tier-one keyblade gate.
+        if region == "Data Battles":
             rule = AND(rule, atom(TIER_ATOM))
+        if region == "Keyblade Graveyard":
+            rule = AND(rule, atom("unlock_attraction_flow"))
         if region == "Twilight Town":
             rule = AND(rule, atom(TT_COMBAT_ATOM))
         if region == "The Caribbean":
@@ -286,10 +289,26 @@ def apworld_rules(apworld):
 
         if row["source_table"] == "IngredientSpot":
             rule = AND(rule, gate(ingredients.INGREDIENT_SPOTS_BY_ID[row["source_id"]]["world"]))
-        if kind in ("synthesis", "photo_mission"):
+        if kind == "synthesis":
             rule = AND(rule, complete_all)
-            if kind == "photo_mission" or row.get("synthesis_order", 0) > 15:
+            if row.get("synthesis_order", 0) > 15:
                 rule = AND(rule, atom(FINAL_BOSS_ATOM))
+        if kind == "photo_mission":
+            # Rules.location_rule: each world the subject needs is completed (100 Acre Wood:
+            # reached and its extra sources), plus the mission's own additional sources.
+            mission = row["source_id"]
+            completed = []
+            for world in workshop.PHOTO_MISSION_COMPLETION_WORLDS[mission]:
+                if world in workshop.PHOTO_WORLD_COMPLETION_EXTRA_SOURCES:
+                    rule = AND(rule, gate(world))
+                    for source in workshop.PHOTO_WORLD_COMPLETION_EXTRA_SOURCES[world]:
+                        rule = AND(rule, full(source))
+                else:
+                    completed.append(world)
+            if completed:
+                rule = AND(rule, atom(COMPLETE_ATOM + "|" + "|".join(completed)))
+            for source in workshop.PHOTO_MISSION_ADDITIONAL_SOURCES.get(mission, ()):
+                rule = AND(rule, full(source))
         if kind == "treasure":
             # Rules.location_rule adds Has(<assigned keyblade>) to the chest itself, so the
             # checks that depend on it inherit the requirement too.

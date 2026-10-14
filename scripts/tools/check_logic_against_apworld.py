@@ -59,7 +59,9 @@ HEART_PIECE = "Heart Piece"
 EVERYTHING_ON = dict(include_space=True, include_grindy_space_missions=True, include_space_superbosses=True,
                      chestsanity=True, classic_kingdom_checks="high_score", ingredients="ingredientsanity_plus",
                      music_chest_bonus_checks=True, moogle_shop_checks=20, battlegates_pool="randomize",
-                     olympus_coliseum_pool="randomize", kh02_objectives=[str(n) for n in range(1, 52)])
+                     olympus_coliseum_pool="randomize", synthesis_pool="randomize",
+                     photo_missions_pool="randomize", keyblade_upgrade_rewards_pool="randomize",
+                     adversary_checks=True, kh02_objectives=[str(n) for n in range(1, 52)])
 
 SCENARIOS = {
     "plain": dict(unlocks=(), base=False, goal="three_proofs", levels=0),
