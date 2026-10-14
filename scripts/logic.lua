@@ -84,7 +84,7 @@ function update_keyblade_level_overlays()
     for _, code in ipairs(KEYBLADE_LEVEL_KEYBLADES) do
         local keyblade = Tracker:FindObjectForCode(code)
         if keyblade then
-            if per_keyblade then
+            if per_keyblade and keyblade.Active then
                 local counter = Tracker:FindObjectForCode(keyblade_level_counter(code))
                 keyblade:SetOverlay(tostring(keyblade_display_level(counter and counter.AcquiredCount)))
                 keyblade:SetOverlayFontSize(11)

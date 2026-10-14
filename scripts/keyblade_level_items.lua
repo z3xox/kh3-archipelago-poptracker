@@ -35,10 +35,16 @@ end
 
 local function refreshCell(cell)
     local keyblade = cell.keyblade and Tracker:FindObjectForCode(cell.keyblade)
-    local counter = Tracker:FindObjectForCode(cell.counter)
-    local owned = cell.keyblade == nil or (keyblade and keyblade.Active)
+    local items = Tracker:ProviderCountForCode(cell.counter)
+    -- Without a keyblade to own, a level-only cell counts once it has a level item.
+    local owned
+    if cell.keyblade then
+        owned = keyblade ~= nil and keyblade.Active
+    else
+        owned = items > 0
+    end
     cell.item.IconMods = owned and "" or "@disabled"
-    cell.item:SetOverlay(tostring(keyblade_display_level(counter and counter.AcquiredCount or 0)))
+    cell.item:SetOverlay(owned and tostring(keyblade_display_level(items)) or "")
     cell.item:SetOverlayFontSize(11)
 end
 

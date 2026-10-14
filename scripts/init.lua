@@ -71,6 +71,7 @@ update_keyblade_level_overlays()
 ScriptHost:AddWatchForCode("keyblade_level_overlay_mode_watch", "keyblade_levels_setting", update_keyblade_level_overlays)
 for _, code in ipairs(KEYBLADE_LEVEL_KEYBLADES) do
     ScriptHost:AddWatchForCode("keyblade_level_overlay_" .. code, "lvl_" .. code:gsub("^kb_", ""), update_keyblade_level_overlays)
+    ScriptHost:AddWatchForCode("keyblade_owned_overlay_" .. code, code, update_keyblade_level_overlays)
 end
 
 update_minigame_rank_overlays()
