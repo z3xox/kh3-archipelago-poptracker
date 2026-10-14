@@ -85,8 +85,9 @@ local function makeCell(suffix, keyblade_code, name)
 end
 
 for _, keyblade_code in ipairs(KEYBLADE_LEVEL_KEYBLADES) do
-    local keyblade = Tracker:FindObjectForCode(keyblade_code)
-    makeCell(keybladeSuffix(keyblade_code), keyblade_code, keyblade and keyblade.Name or keyblade_code)
+    -- "images/items/keyblades/Kingdom Key.png" -> "Kingdom Key"
+    local name = KEYBLADE_ICONS[keyblade_code]:match("([^/]+)%.png$")
+    makeCell(keybladeSuffix(keyblade_code), keyblade_code, name)
 end
 for _, entry in ipairs(LEVEL_ONLY_CELLS) do
     makeCell(entry[1], nil, entry[2])

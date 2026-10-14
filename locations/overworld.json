@@ -427,6 +427,9 @@
             ],
             "access_rules": [
               "$portal|kb_heros_origin"
+            ],
+            "visibility_rules": [
+              "active_olympus"
             ]
           },
           {
@@ -566,6 +569,9 @@
             ],
             "access_rules": [
               "$portal|kb_shooting_star,$has_twilight_town_combat"
+            ],
+            "visibility_rules": [
+              "active_twilight_town"
             ]
           },
           {
@@ -905,6 +911,9 @@
             ],
             "access_rules": [
               "$portal|kb_favorite_deputy"
+            ],
+            "visibility_rules": [
+              "active_toy_box"
             ]
           },
           {
@@ -1232,6 +1241,9 @@
             ],
             "access_rules": [
               "$portal|kb_ever_after"
+            ],
+            "visibility_rules": [
+              "active_kingdom_of_corona"
             ]
           },
           {
@@ -1543,6 +1555,9 @@
             ],
             "access_rules": [
               "$portal|kb_happy_gear"
+            ],
+            "visibility_rules": [
+              "active_monstropolis"
             ]
           },
           {
@@ -1870,6 +1885,9 @@
             ],
             "access_rules": [
               "$portal|kb_crystal_snow"
+            ],
+            "visibility_rules": [
+              "active_arendelle"
             ]
           },
           {
@@ -2445,6 +2463,9 @@
             ],
             "access_rules": [
               "$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
+            ],
+            "visibility_rules": [
+              "active_the_caribbean"
             ]
           },
           {
@@ -2848,6 +2869,9 @@
             ],
             "access_rules": [
               "$portal|kb_nano_gear"
+            ],
+            "visibility_rules": [
+              "active_san_fransokyo"
             ]
           },
           {
@@ -3055,6 +3079,9 @@
             ],
             "access_rules": [
               "active_keyblade_graveyard,$portal|kb_starlight"
+            ],
+            "visibility_rules": [
+              "active_keyblade_graveyard"
             ]
           },
           {
@@ -3082,6 +3109,9 @@
             ],
             "access_rules": [
               "$portal|kb_oblivion"
+            ],
+            "visibility_rules": [
+              "active_dark_world"
             ]
           },
           {
@@ -3289,6 +3319,9 @@
             ],
             "access_rules": [
               "active_remind,$portal|kingdom_key"
+            ],
+            "visibility_rules": [
+              "active_remind"
             ]
           },
           {
@@ -3356,6 +3389,9 @@
             ],
             "access_rules": [
               "active_radiant_garden,$portal|kb_oathkeeper,$has_tier_one_keyblades"
+            ],
+            "visibility_rules": [
+              "active_radiant_garden"
             ]
           },
           {
@@ -3392,6 +3428,9 @@
                 "x": 309,
                 "y": 539
               }
+            ],
+            "visibility_rules": [
+              "active_hundred_acre_wood"
             ]
           },
           {
@@ -3603,6 +3642,9 @@
             ],
             "access_rules": [
               "$any_portal|kb_wheel_of_fate|kb_crystal_snow|kb_ever_after|kb_nano_gear|kb_happy_gear|kb_favorite_deputy|kb_shooting_star"
+            ],
+            "visibility_rules": [
+              "active_level_ups"
             ]
           },
           {
@@ -4307,6 +4349,9 @@
                 "x": 474,
                 "y": 545
               }
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
@@ -4419,6 +4464,9 @@
                 "x": 508,
                 "y": 545
               }
+            ],
+            "visibility_rules": [
+              "active_olympus_coliseum"
             ]
           },
           {
@@ -6351,6 +6399,10 @@
                 "x": 541,
                 "y": 545
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients",
+              "active_ingredients_plus"
             ]
           },
           {
@@ -6436,6 +6488,9 @@
                 "y": 265,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -6701,6 +6756,9 @@
                 "y": 261,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -6774,6 +6832,9 @@
                 "y": 408,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -6919,6 +6980,9 @@
                 "y": 190,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -6996,6 +7060,9 @@
                 "y": 421,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -7433,6 +7500,9 @@
                 "y": 186,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -7562,6 +7632,9 @@
                 "y": 467,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -7647,6 +7720,9 @@
                 "y": 460,
                 "shape": "trapezoid"
               }
+            ],
+            "visibility_rules": [
+              "active_ingredients_plus"
             ]
           },
           {
@@ -8086,6 +8162,9 @@
                 "y": 545,
                 "shape": "diamond"
               }
+            ],
+            "visibility_rules": [
+              "active_photo_missions"
             ]
           },
           {
@@ -8442,6 +8521,11 @@
                 "x": 208,
                 "y": 545
               }
+            ],
+            "visibility_rules": [
+              "active_synthesis",
+              "active_photo_missions",
+              "active_keyblade_upgrades"
             ]
           },
           {
