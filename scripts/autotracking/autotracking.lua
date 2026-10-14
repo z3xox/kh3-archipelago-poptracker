@@ -2228,12 +2228,19 @@ KH3_MINIMAP_ID_TO_SUBTAB = {
     -- ca02 variants are the open High Seas: no single island.
 }
 
+-- The client sends "" for a field it does not know.
+local function bounceField(data, key)
+    local value = data[key]
+    if value == nil or value == "" then return nil end
+    return value
+end
+
 function onKH3MapChanged(message)
     local data = message and message.data
     if type(data) ~= "table" then return end
     if data["kh3_tracker_event"] ~= "map_changed" then return end
 
-    local world_code = data["kh3_world_code"]
+    local world_code = bounceField(data, "kh3_world_code")
     local tab = world_code and KH3_WORLD_CODE_TO_TAB[world_code]
     if not tab then
         print(string.format("onKH3MapChanged: no tab mapping for world_code=%s (level_path=%s)",
@@ -2244,9 +2251,9 @@ function onKH3MapChanged(message)
     print(string.format("onKH3MapChanged: world_code=%s -> ActivateTab '%s'", world_code, tab))
     Tracker:UiHint("ActivateTab", tab)
 
-    local minimap_id = data["kh3_minimap_id"]
+    local minimap_id = bounceField(data, "kh3_minimap_id")
     local subtab = minimap_id and KH3_MINIMAP_ID_TO_SUBTAB[minimap_id]
-    local room_id = data["kh3_room_id"] or data["kh3_level_id"]
+    local room_id = bounceField(data, "kh3_room_id") or bounceField(data, "kh3_level_id")
     if not subtab then
         subtab = room_id and KH3_ROOM_ID_TO_SUBTAB[room_id]
     end
