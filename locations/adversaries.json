@@ -14,6 +14,8 @@
           {
             "name": "Adversaries - Shadow",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona|Olympus|Re Mind|San Fransokyo|Toy Box|Twilight Town"
             ]
@@ -21,6 +23,8 @@
           {
             "name": "Adversaries - Neoshadow",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/neoshadow.png",
+            "chest_opened_img": "images/adversaries/neoshadow_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Re Mind|San Fransokyo|Twilight Town"
             ]
@@ -28,6 +32,8 @@
           {
             "name": "Adversaries - Fluttering",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/fluttering.png",
+            "chest_opened_img": "images/adversaries/fluttering_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Monstropolis"
             ]
@@ -35,6 +41,8 @@
           {
             "name": "Adversaries - Flame Core",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/flame_core.png",
+            "chest_opened_img": "images/adversaries/flame_core_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Monstropolis|Olympus|Re Mind"
             ]
@@ -42,6 +50,8 @@
           {
             "name": "Adversaries - Water Core",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/water_core.png",
+            "chest_opened_img": "images/adversaries/water_core_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Kingdom of Corona|Monstropolis|Olympus|Re Mind"
             ]
@@ -49,6 +59,8 @@
           {
             "name": "Adversaries - Earth Core",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/earth_core.png",
+            "chest_opened_img": "images/adversaries/earth_core_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Kingdom of Corona|Olympus|The Caribbean"
             ]
@@ -56,6 +68,8 @@
           {
             "name": "Adversaries - Soldier",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/soldier.png",
+            "chest_opened_img": "images/adversaries/soldier_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Monstropolis|Olympus|San Fransokyo"
             ]
@@ -63,6 +77,8 @@
           {
             "name": "Adversaries - High Soldier",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/high_soldier.png",
+            "chest_opened_img": "images/adversaries/high_soldier_cleared.png",
             "access_rules": [
               "$can_reach_any_world|San Fransokyo"
             ]
@@ -70,6 +86,8 @@
           {
             "name": "Adversaries - Air Soldier",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/air_soldier.png",
+            "chest_opened_img": "images/adversaries/air_soldier_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Keyblade Graveyard|Olympus"
             ]
@@ -77,6 +95,8 @@
           {
             "name": "Adversaries - Large Body",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/large_body.png",
+            "chest_opened_img": "images/adversaries/large_body_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Monstropolis|Olympus|Toy Box|Twilight Town"
             ]
@@ -84,6 +104,8 @@
           {
             "name": "Adversaries - Helmed Body",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/helmed_body.png",
+            "chest_opened_img": "images/adversaries/helmed_body_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Re Mind"
             ]
@@ -91,6 +113,8 @@
           {
             "name": "Adversaries - Vermilion Samba",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/vermilion_samba.png",
+            "chest_opened_img": "images/adversaries/vermilion_samba_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Monstropolis|Toy Box|Twilight Town"
             ]
@@ -98,6 +122,8 @@
           {
             "name": "Adversaries - Marine Rumba",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/marine_rumba.png",
+            "chest_opened_img": "images/adversaries/marine_rumba_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Kingdom of Corona|Monstropolis|Re Mind"
             ]
@@ -105,6 +131,8 @@
           {
             "name": "Adversaries - Gold Beat",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/gold_beat.png",
+            "chest_opened_img": "images/adversaries/gold_beat_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Monstropolis|San Fransokyo|Toy Box"
             ]
@@ -112,6 +140,8 @@
           {
             "name": "Adversaries - Malachite Bolero",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/malachite_bolero.png",
+            "chest_opened_img": "images/adversaries/malachite_bolero_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Kingdom of Corona|Re Mind"
             ]
@@ -119,6 +149,8 @@
           {
             "name": "Adversaries - Popcat",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/popcat.png",
+            "chest_opened_img": "images/adversaries/popcat_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Olympus|Re Mind"
             ]
@@ -126,6 +158,8 @@
           {
             "name": "Adversaries - Vitality Popcat",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/vitality_popcat.png",
+            "chest_opened_img": "images/adversaries/vitality_popcat_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
             ]
@@ -133,6 +167,8 @@
           {
             "name": "Adversaries - Magic Popcat",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/magic_popcat.png",
+            "chest_opened_img": "images/adversaries/magic_popcat_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
             ]
@@ -140,6 +176,8 @@
           {
             "name": "Adversaries - Focus Popcat",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/focus_popcat.png",
+            "chest_opened_img": "images/adversaries/focus_popcat_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
             ]
@@ -147,6 +185,8 @@
           {
             "name": "Adversaries - Munny Popcat",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/munny_popcat.png",
+            "chest_opened_img": "images/adversaries/munny_popcat_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Kingdom of Corona|Toy Box|Twilight Town"
             ]
@@ -154,6 +194,8 @@
           {
             "name": "Adversaries - Bizarre Archer",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/bizarre_archer.png",
+            "chest_opened_img": "images/adversaries/bizarre_archer_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Kingdom of Corona|Olympus|Twilight Town"
             ]
@@ -161,6 +203,8 @@
           {
             "name": "Adversaries - Rock Troll",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/rock_troll.png",
+            "chest_opened_img": "images/adversaries/rock_troll_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Keyblade Graveyard|Olympus"
             ]
@@ -168,6 +212,8 @@
           {
             "name": "Adversaries - Satyr",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/satyr.png",
+            "chest_opened_img": "images/adversaries/satyr_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Olympus|Re Mind"
             ]
@@ -175,6 +221,8 @@
           {
             "name": "Adversaries - Mechanitaur",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/mechanitaur.png",
+            "chest_opened_img": "images/adversaries/mechanitaur_cleared.png",
             "access_rules": [
               "$can_reach_any_world|San Fransokyo"
             ]
@@ -182,6 +230,8 @@
           {
             "name": "Adversaries - Toy Trooper",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/toy_trooper.png",
+            "chest_opened_img": "images/adversaries/toy_trooper_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Toy Box"
             ]
@@ -189,6 +239,8 @@
           {
             "name": "Adversaries - Pole Cannon",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/pole_cannon.png",
+            "chest_opened_img": "images/adversaries/pole_cannon_cleared.png",
             "access_rules": [
               "$can_reach_any_world|San Fransokyo|Toy Box"
             ]
@@ -196,6 +248,8 @@
           {
             "name": "Adversaries - Marionette",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/marionette.png",
+            "chest_opened_img": "images/adversaries/marionette_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Toy Box"
             ]
@@ -203,6 +257,8 @@
           {
             "name": "Adversaries - Powerwild",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/powerwild.png",
+            "chest_opened_img": "images/adversaries/powerwild_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Kingdom of Corona"
             ]
@@ -210,6 +266,8 @@
           {
             "name": "Adversaries - Pogo Shovel",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/pogo_shovel.png",
+            "chest_opened_img": "images/adversaries/pogo_shovel_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Monstropolis|San Fransokyo"
             ]
@@ -217,6 +275,8 @@
           {
             "name": "Adversaries - Parasol Beauty",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/parasol_beauty.png",
+            "chest_opened_img": "images/adversaries/parasol_beauty_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Kingdom of Corona"
             ]
@@ -224,6 +284,8 @@
           {
             "name": "Adversaries - Chief Puff",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/chief_puff.png",
+            "chest_opened_img": "images/adversaries/chief_puff_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Kingdom of Corona"
             ]
@@ -231,6 +293,8 @@
           {
             "name": "Adversaries - Puffball",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/puffball.png",
+            "chest_opened_img": "images/adversaries/puffball_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Kingdom of Corona"
             ]
@@ -238,6 +302,8 @@
           {
             "name": "Adversaries - Winterhorn",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/winterhorn.png",
+            "chest_opened_img": "images/adversaries/winterhorn_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle"
             ]
@@ -245,6 +311,8 @@
           {
             "name": "Adversaries - Vaporfly",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/vaporfly.png",
+            "chest_opened_img": "images/adversaries/vaporfly_cleared.png",
             "access_rules": [
               "$can_reach_any_world|The Caribbean"
             ]
@@ -252,6 +320,8 @@
           {
             "name": "Adversaries - Sea Sprite",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/sea_sprite.png",
+            "chest_opened_img": "images/adversaries/sea_sprite_cleared.png",
             "access_rules": [
               "$can_reach_any_world|The Caribbean"
             ]
@@ -259,6 +329,8 @@
           {
             "name": "Adversaries - Spear Lizard",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/spear_lizard.png",
+            "chest_opened_img": "images/adversaries/spear_lizard_cleared.png",
             "access_rules": [
               "$can_reach_any_world|The Caribbean"
             ]
@@ -266,6 +338,8 @@
           {
             "name": "Adversaries - Anchor Raider",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/anchor_raider.png",
+            "chest_opened_img": "images/adversaries/anchor_raider_cleared.png",
             "access_rules": [
               "$can_reach_any_world|The Caribbean"
             ]
@@ -273,6 +347,8 @@
           {
             "name": "Adversaries - Tireblade",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/tireblade.png",
+            "chest_opened_img": "images/adversaries/tireblade_cleared.png",
             "access_rules": [
               "$can_reach_any_world|San Fransokyo"
             ]
@@ -280,6 +356,8 @@
           {
             "name": "Adversaries - Dusk",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/dusk.png",
+            "chest_opened_img": "images/adversaries/dusk_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Re Mind|Twilight Town"
             ]
@@ -287,6 +365,8 @@
           {
             "name": "Adversaries - Berserker",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/berserker.png",
+            "chest_opened_img": "images/adversaries/berserker_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Re Mind"
             ]
@@ -294,6 +374,8 @@
           {
             "name": "Adversaries - Gambler",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/gambler.png",
+            "chest_opened_img": "images/adversaries/gambler_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Re Mind"
             ]
@@ -301,6 +383,8 @@
           {
             "name": "Adversaries - Sorcerer",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/sorcerer.png",
+            "chest_opened_img": "images/adversaries/sorcerer_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Twilight Town"
             ]
@@ -308,6 +392,8 @@
           {
             "name": "Adversaries - Reaper",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/reaper.png",
+            "chest_opened_img": "images/adversaries/reaper_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona"
             ]
@@ -315,6 +401,8 @@
           {
             "name": "Adversaries - Ninja",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/ninja.png",
+            "chest_opened_img": "images/adversaries/ninja_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Arendelle|Re Mind"
             ]
@@ -322,6 +410,8 @@
           {
             "name": "Adversaries - Flood",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/flood.png",
+            "chest_opened_img": "images/adversaries/flood_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Monstropolis"
             ]
@@ -329,6 +419,8 @@
           {
             "name": "Adversaries - Flowersnake",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/flowersnake.png",
+            "chest_opened_img": "images/adversaries/flowersnake_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Monstropolis"
             ]
@@ -336,6 +428,8 @@
           {
             "name": "Adversaries - Spiked Turtletoad",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/spiked_turtletoad.png",
+            "chest_opened_img": "images/adversaries/spiked_turtletoad_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Keyblade Graveyard|Monstropolis"
             ]
@@ -343,6 +437,8 @@
           {
             "name": "Adversaries - Turtletoad",
             "item_count": 1,
+            "chest_unopened_img": "images/adversaries/turtletoad.png",
+            "chest_opened_img": "images/adversaries/turtletoad_cleared.png",
             "access_rules": [
               "$can_reach_any_world|Monstropolis"
             ]
@@ -364,47 +460,69 @@
         "sections": [
           {
             "name": "Adversaries - Shadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow",
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png"
           },
           {
             "name": "Adversaries - Flame Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core",
+            "chest_unopened_img": "images/adversaries/flame_core.png",
+            "chest_opened_img": "images/adversaries/flame_core_cleared.png"
           },
           {
             "name": "Adversaries - Water Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core",
+            "chest_unopened_img": "images/adversaries/water_core.png",
+            "chest_opened_img": "images/adversaries/water_core_cleared.png"
           },
           {
             "name": "Adversaries - Earth Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core",
+            "chest_unopened_img": "images/adversaries/earth_core.png",
+            "chest_opened_img": "images/adversaries/earth_core_cleared.png"
           },
           {
             "name": "Adversaries - Soldier",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier",
+            "chest_unopened_img": "images/adversaries/soldier.png",
+            "chest_opened_img": "images/adversaries/soldier_cleared.png"
           },
           {
             "name": "Adversaries - Air Soldier",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Air Soldier"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Air Soldier",
+            "chest_unopened_img": "images/adversaries/air_soldier.png",
+            "chest_opened_img": "images/adversaries/air_soldier_cleared.png"
           },
           {
             "name": "Adversaries - Large Body",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body",
+            "chest_unopened_img": "images/adversaries/large_body.png",
+            "chest_opened_img": "images/adversaries/large_body_cleared.png"
           },
           {
             "name": "Adversaries - Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat",
+            "chest_unopened_img": "images/adversaries/popcat.png",
+            "chest_opened_img": "images/adversaries/popcat_cleared.png"
           },
           {
             "name": "Adversaries - Bizarre Archer",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer",
+            "chest_unopened_img": "images/adversaries/bizarre_archer.png",
+            "chest_opened_img": "images/adversaries/bizarre_archer_cleared.png"
           },
           {
             "name": "Adversaries - Rock Troll",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll",
+            "chest_unopened_img": "images/adversaries/rock_troll.png",
+            "chest_opened_img": "images/adversaries/rock_troll_cleared.png"
           },
           {
             "name": "Adversaries - Satyr",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr",
+            "chest_unopened_img": "images/adversaries/satyr.png",
+            "chest_opened_img": "images/adversaries/satyr_cleared.png"
           }
         ],
         "map_locations": [
@@ -424,35 +542,51 @@
         "sections": [
           {
             "name": "Adversaries - Shadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow",
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png"
           },
           {
             "name": "Adversaries - Neoshadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow",
+            "chest_unopened_img": "images/adversaries/neoshadow.png",
+            "chest_opened_img": "images/adversaries/neoshadow_cleared.png"
           },
           {
             "name": "Adversaries - Large Body",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body",
+            "chest_unopened_img": "images/adversaries/large_body.png",
+            "chest_opened_img": "images/adversaries/large_body_cleared.png"
           },
           {
             "name": "Adversaries - Vermilion Samba",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba",
+            "chest_unopened_img": "images/adversaries/vermilion_samba.png",
+            "chest_opened_img": "images/adversaries/vermilion_samba_cleared.png"
           },
           {
             "name": "Adversaries - Munny Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat",
+            "chest_unopened_img": "images/adversaries/munny_popcat.png",
+            "chest_opened_img": "images/adversaries/munny_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Bizarre Archer",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer",
+            "chest_unopened_img": "images/adversaries/bizarre_archer.png",
+            "chest_opened_img": "images/adversaries/bizarre_archer_cleared.png"
           },
           {
             "name": "Adversaries - Dusk",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk",
+            "chest_unopened_img": "images/adversaries/dusk.png",
+            "chest_opened_img": "images/adversaries/dusk_cleared.png"
           },
           {
             "name": "Adversaries - Sorcerer",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Sorcerer"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Sorcerer",
+            "chest_unopened_img": "images/adversaries/sorcerer.png",
+            "chest_opened_img": "images/adversaries/sorcerer_cleared.png"
           }
         ],
         "map_locations": [
@@ -472,47 +606,69 @@
         "sections": [
           {
             "name": "Adversaries - Shadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow",
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png"
           },
           {
             "name": "Adversaries - Large Body",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body",
+            "chest_unopened_img": "images/adversaries/large_body.png",
+            "chest_opened_img": "images/adversaries/large_body_cleared.png"
           },
           {
             "name": "Adversaries - Vermilion Samba",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba",
+            "chest_unopened_img": "images/adversaries/vermilion_samba.png",
+            "chest_opened_img": "images/adversaries/vermilion_samba_cleared.png"
           },
           {
             "name": "Adversaries - Gold Beat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat",
+            "chest_unopened_img": "images/adversaries/gold_beat.png",
+            "chest_opened_img": "images/adversaries/gold_beat_cleared.png"
           },
           {
             "name": "Adversaries - Vitality Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat",
+            "chest_unopened_img": "images/adversaries/vitality_popcat.png",
+            "chest_opened_img": "images/adversaries/vitality_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Magic Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat",
+            "chest_unopened_img": "images/adversaries/magic_popcat.png",
+            "chest_opened_img": "images/adversaries/magic_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Focus Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat",
+            "chest_unopened_img": "images/adversaries/focus_popcat.png",
+            "chest_opened_img": "images/adversaries/focus_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Munny Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat",
+            "chest_unopened_img": "images/adversaries/munny_popcat.png",
+            "chest_opened_img": "images/adversaries/munny_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Toy Trooper",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Toy Trooper"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Toy Trooper",
+            "chest_unopened_img": "images/adversaries/toy_trooper.png",
+            "chest_opened_img": "images/adversaries/toy_trooper_cleared.png"
           },
           {
             "name": "Adversaries - Pole Cannon",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pole Cannon"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pole Cannon",
+            "chest_unopened_img": "images/adversaries/pole_cannon.png",
+            "chest_opened_img": "images/adversaries/pole_cannon_cleared.png"
           },
           {
             "name": "Adversaries - Marionette",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marionette"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marionette",
+            "chest_unopened_img": "images/adversaries/marionette.png",
+            "chest_opened_img": "images/adversaries/marionette_cleared.png"
           }
         ],
         "map_locations": [
@@ -532,59 +688,87 @@
         "sections": [
           {
             "name": "Adversaries - Shadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow",
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png"
           },
           {
             "name": "Adversaries - Fluttering",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering",
+            "chest_unopened_img": "images/adversaries/fluttering.png",
+            "chest_opened_img": "images/adversaries/fluttering_cleared.png"
           },
           {
             "name": "Adversaries - Water Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core",
+            "chest_unopened_img": "images/adversaries/water_core.png",
+            "chest_opened_img": "images/adversaries/water_core_cleared.png"
           },
           {
             "name": "Adversaries - Earth Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core",
+            "chest_unopened_img": "images/adversaries/earth_core.png",
+            "chest_opened_img": "images/adversaries/earth_core_cleared.png"
           },
           {
             "name": "Adversaries - Marine Rumba",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba",
+            "chest_unopened_img": "images/adversaries/marine_rumba.png",
+            "chest_opened_img": "images/adversaries/marine_rumba_cleared.png"
           },
           {
             "name": "Adversaries - Malachite Bolero",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Malachite Bolero"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Malachite Bolero",
+            "chest_unopened_img": "images/adversaries/malachite_bolero.png",
+            "chest_opened_img": "images/adversaries/malachite_bolero_cleared.png"
           },
           {
             "name": "Adversaries - Munny Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat",
+            "chest_unopened_img": "images/adversaries/munny_popcat.png",
+            "chest_opened_img": "images/adversaries/munny_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Bizarre Archer",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer",
+            "chest_unopened_img": "images/adversaries/bizarre_archer.png",
+            "chest_opened_img": "images/adversaries/bizarre_archer_cleared.png"
           },
           {
             "name": "Adversaries - Powerwild",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Powerwild"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Powerwild",
+            "chest_unopened_img": "images/adversaries/powerwild.png",
+            "chest_opened_img": "images/adversaries/powerwild_cleared.png"
           },
           {
             "name": "Adversaries - Parasol Beauty",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Parasol Beauty"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Parasol Beauty",
+            "chest_unopened_img": "images/adversaries/parasol_beauty.png",
+            "chest_opened_img": "images/adversaries/parasol_beauty_cleared.png"
           },
           {
             "name": "Adversaries - Chief Puff",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Chief Puff"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Chief Puff",
+            "chest_unopened_img": "images/adversaries/chief_puff.png",
+            "chest_opened_img": "images/adversaries/chief_puff_cleared.png"
           },
           {
             "name": "Adversaries - Puffball",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Puffball"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Puffball",
+            "chest_unopened_img": "images/adversaries/puffball.png",
+            "chest_opened_img": "images/adversaries/puffball_cleared.png"
           },
           {
             "name": "Adversaries - Dusk",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk",
+            "chest_unopened_img": "images/adversaries/dusk.png",
+            "chest_opened_img": "images/adversaries/dusk_cleared.png"
           },
           {
             "name": "Adversaries - Reaper",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Reaper"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Reaper",
+            "chest_unopened_img": "images/adversaries/reaper.png",
+            "chest_opened_img": "images/adversaries/reaper_cleared.png"
           }
         ],
         "map_locations": [
@@ -604,55 +788,81 @@
         "sections": [
           {
             "name": "Adversaries - Fluttering",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering",
+            "chest_unopened_img": "images/adversaries/fluttering.png",
+            "chest_opened_img": "images/adversaries/fluttering_cleared.png"
           },
           {
             "name": "Adversaries - Flame Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core",
+            "chest_unopened_img": "images/adversaries/flame_core.png",
+            "chest_opened_img": "images/adversaries/flame_core_cleared.png"
           },
           {
             "name": "Adversaries - Water Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core",
+            "chest_unopened_img": "images/adversaries/water_core.png",
+            "chest_opened_img": "images/adversaries/water_core_cleared.png"
           },
           {
             "name": "Adversaries - Soldier",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier",
+            "chest_unopened_img": "images/adversaries/soldier.png",
+            "chest_opened_img": "images/adversaries/soldier_cleared.png"
           },
           {
             "name": "Adversaries - Large Body",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body",
+            "chest_unopened_img": "images/adversaries/large_body.png",
+            "chest_opened_img": "images/adversaries/large_body_cleared.png"
           },
           {
             "name": "Adversaries - Vermilion Samba",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba",
+            "chest_unopened_img": "images/adversaries/vermilion_samba.png",
+            "chest_opened_img": "images/adversaries/vermilion_samba_cleared.png"
           },
           {
             "name": "Adversaries - Marine Rumba",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba",
+            "chest_unopened_img": "images/adversaries/marine_rumba.png",
+            "chest_opened_img": "images/adversaries/marine_rumba_cleared.png"
           },
           {
             "name": "Adversaries - Gold Beat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat",
+            "chest_unopened_img": "images/adversaries/gold_beat.png",
+            "chest_opened_img": "images/adversaries/gold_beat_cleared.png"
           },
           {
             "name": "Adversaries - Pogo Shovel",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pogo Shovel"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pogo Shovel",
+            "chest_unopened_img": "images/adversaries/pogo_shovel.png",
+            "chest_opened_img": "images/adversaries/pogo_shovel_cleared.png"
           },
           {
             "name": "Adversaries - Flood",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flood"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flood",
+            "chest_unopened_img": "images/adversaries/flood.png",
+            "chest_opened_img": "images/adversaries/flood_cleared.png"
           },
           {
             "name": "Adversaries - Flowersnake",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flowersnake"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flowersnake",
+            "chest_unopened_img": "images/adversaries/flowersnake.png",
+            "chest_opened_img": "images/adversaries/flowersnake_cleared.png"
           },
           {
             "name": "Adversaries - Spiked Turtletoad",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spiked Turtletoad"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spiked Turtletoad",
+            "chest_unopened_img": "images/adversaries/spiked_turtletoad.png",
+            "chest_opened_img": "images/adversaries/spiked_turtletoad_cleared.png"
           },
           {
             "name": "Adversaries - Turtletoad",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Turtletoad"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Turtletoad",
+            "chest_unopened_img": "images/adversaries/turtletoad.png",
+            "chest_opened_img": "images/adversaries/turtletoad_cleared.png"
           }
         ],
         "map_locations": [
@@ -672,67 +882,99 @@
         "sections": [
           {
             "name": "Adversaries - Fluttering",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering",
+            "chest_unopened_img": "images/adversaries/fluttering.png",
+            "chest_opened_img": "images/adversaries/fluttering_cleared.png"
           },
           {
             "name": "Adversaries - Soldier",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier",
+            "chest_unopened_img": "images/adversaries/soldier.png",
+            "chest_opened_img": "images/adversaries/soldier_cleared.png"
           },
           {
             "name": "Adversaries - Helmed Body",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Helmed Body"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Helmed Body",
+            "chest_unopened_img": "images/adversaries/helmed_body.png",
+            "chest_opened_img": "images/adversaries/helmed_body_cleared.png"
           },
           {
             "name": "Adversaries - Marine Rumba",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba",
+            "chest_unopened_img": "images/adversaries/marine_rumba.png",
+            "chest_opened_img": "images/adversaries/marine_rumba_cleared.png"
           },
           {
             "name": "Adversaries - Gold Beat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat",
+            "chest_unopened_img": "images/adversaries/gold_beat.png",
+            "chest_opened_img": "images/adversaries/gold_beat_cleared.png"
           },
           {
             "name": "Adversaries - Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat",
+            "chest_unopened_img": "images/adversaries/popcat.png",
+            "chest_opened_img": "images/adversaries/popcat_cleared.png"
           },
           {
             "name": "Adversaries - Vitality Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat",
+            "chest_unopened_img": "images/adversaries/vitality_popcat.png",
+            "chest_opened_img": "images/adversaries/vitality_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Magic Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat",
+            "chest_unopened_img": "images/adversaries/magic_popcat.png",
+            "chest_opened_img": "images/adversaries/magic_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Focus Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat",
+            "chest_unopened_img": "images/adversaries/focus_popcat.png",
+            "chest_opened_img": "images/adversaries/focus_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Munny Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat",
+            "chest_unopened_img": "images/adversaries/munny_popcat.png",
+            "chest_opened_img": "images/adversaries/munny_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Rock Troll",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll",
+            "chest_unopened_img": "images/adversaries/rock_troll.png",
+            "chest_opened_img": "images/adversaries/rock_troll_cleared.png"
           },
           {
             "name": "Adversaries - Satyr",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr",
+            "chest_unopened_img": "images/adversaries/satyr.png",
+            "chest_opened_img": "images/adversaries/satyr_cleared.png"
           },
           {
             "name": "Adversaries - Parasol Beauty",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Parasol Beauty"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Parasol Beauty",
+            "chest_unopened_img": "images/adversaries/parasol_beauty.png",
+            "chest_opened_img": "images/adversaries/parasol_beauty_cleared.png"
           },
           {
             "name": "Adversaries - Winterhorn",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Winterhorn"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Winterhorn",
+            "chest_unopened_img": "images/adversaries/winterhorn.png",
+            "chest_opened_img": "images/adversaries/winterhorn_cleared.png"
           },
           {
             "name": "Adversaries - Dusk",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk",
+            "chest_unopened_img": "images/adversaries/dusk.png",
+            "chest_opened_img": "images/adversaries/dusk_cleared.png"
           },
           {
             "name": "Adversaries - Ninja",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Ninja"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Ninja",
+            "chest_unopened_img": "images/adversaries/ninja.png",
+            "chest_opened_img": "images/adversaries/ninja_cleared.png"
           }
         ],
         "map_locations": [
@@ -752,23 +994,33 @@
         "sections": [
           {
             "name": "Adversaries - Earth Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core",
+            "chest_unopened_img": "images/adversaries/earth_core.png",
+            "chest_opened_img": "images/adversaries/earth_core_cleared.png"
           },
           {
             "name": "Adversaries - Vaporfly",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vaporfly"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vaporfly",
+            "chest_unopened_img": "images/adversaries/vaporfly.png",
+            "chest_opened_img": "images/adversaries/vaporfly_cleared.png"
           },
           {
             "name": "Adversaries - Sea Sprite",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Sea Sprite"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Sea Sprite",
+            "chest_unopened_img": "images/adversaries/sea_sprite.png",
+            "chest_opened_img": "images/adversaries/sea_sprite_cleared.png"
           },
           {
             "name": "Adversaries - Spear Lizard",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spear Lizard"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spear Lizard",
+            "chest_unopened_img": "images/adversaries/spear_lizard.png",
+            "chest_opened_img": "images/adversaries/spear_lizard_cleared.png"
           },
           {
             "name": "Adversaries - Anchor Raider",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Anchor Raider"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Anchor Raider",
+            "chest_unopened_img": "images/adversaries/anchor_raider.png",
+            "chest_opened_img": "images/adversaries/anchor_raider_cleared.png"
           }
         ],
         "map_locations": [
@@ -788,39 +1040,57 @@
         "sections": [
           {
             "name": "Adversaries - Shadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow",
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png"
           },
           {
             "name": "Adversaries - Neoshadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow",
+            "chest_unopened_img": "images/adversaries/neoshadow.png",
+            "chest_opened_img": "images/adversaries/neoshadow_cleared.png"
           },
           {
             "name": "Adversaries - Soldier",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier",
+            "chest_unopened_img": "images/adversaries/soldier.png",
+            "chest_opened_img": "images/adversaries/soldier_cleared.png"
           },
           {
             "name": "Adversaries - High Soldier",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - High Soldier"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - High Soldier",
+            "chest_unopened_img": "images/adversaries/high_soldier.png",
+            "chest_opened_img": "images/adversaries/high_soldier_cleared.png"
           },
           {
             "name": "Adversaries - Gold Beat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat",
+            "chest_unopened_img": "images/adversaries/gold_beat.png",
+            "chest_opened_img": "images/adversaries/gold_beat_cleared.png"
           },
           {
             "name": "Adversaries - Mechanitaur",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Mechanitaur"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Mechanitaur",
+            "chest_unopened_img": "images/adversaries/mechanitaur.png",
+            "chest_opened_img": "images/adversaries/mechanitaur_cleared.png"
           },
           {
             "name": "Adversaries - Pole Cannon",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pole Cannon"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pole Cannon",
+            "chest_unopened_img": "images/adversaries/pole_cannon.png",
+            "chest_opened_img": "images/adversaries/pole_cannon_cleared.png"
           },
           {
             "name": "Adversaries - Pogo Shovel",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pogo Shovel"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pogo Shovel",
+            "chest_unopened_img": "images/adversaries/pogo_shovel.png",
+            "chest_opened_img": "images/adversaries/pogo_shovel_cleared.png"
           },
           {
             "name": "Adversaries - Tireblade",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Tireblade"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Tireblade",
+            "chest_unopened_img": "images/adversaries/tireblade.png",
+            "chest_opened_img": "images/adversaries/tireblade_cleared.png"
           }
         ],
         "map_locations": [
@@ -840,31 +1110,45 @@
         "sections": [
           {
             "name": "Adversaries - Shadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow",
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png"
           },
           {
             "name": "Adversaries - Fluttering",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering",
+            "chest_unopened_img": "images/adversaries/fluttering.png",
+            "chest_opened_img": "images/adversaries/fluttering_cleared.png"
           },
           {
             "name": "Adversaries - Air Soldier",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Air Soldier"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Air Soldier",
+            "chest_unopened_img": "images/adversaries/air_soldier.png",
+            "chest_opened_img": "images/adversaries/air_soldier_cleared.png"
           },
           {
             "name": "Adversaries - Rock Troll",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll",
+            "chest_unopened_img": "images/adversaries/rock_troll.png",
+            "chest_opened_img": "images/adversaries/rock_troll_cleared.png"
           },
           {
             "name": "Adversaries - Dusk",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk",
+            "chest_unopened_img": "images/adversaries/dusk.png",
+            "chest_opened_img": "images/adversaries/dusk_cleared.png"
           },
           {
             "name": "Adversaries - Reaper",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Reaper"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Reaper",
+            "chest_unopened_img": "images/adversaries/reaper.png",
+            "chest_opened_img": "images/adversaries/reaper_cleared.png"
           },
           {
             "name": "Adversaries - Spiked Turtletoad",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spiked Turtletoad"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spiked Turtletoad",
+            "chest_unopened_img": "images/adversaries/spiked_turtletoad.png",
+            "chest_opened_img": "images/adversaries/spiked_turtletoad_cleared.png"
           }
         ],
         "map_locations": [
@@ -884,67 +1168,99 @@
         "sections": [
           {
             "name": "Adversaries - Shadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow",
+            "chest_unopened_img": "images/adversaries/shadow.png",
+            "chest_opened_img": "images/adversaries/shadow_cleared.png"
           },
           {
             "name": "Adversaries - Neoshadow",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow",
+            "chest_unopened_img": "images/adversaries/neoshadow.png",
+            "chest_opened_img": "images/adversaries/neoshadow_cleared.png"
           },
           {
             "name": "Adversaries - Flame Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core",
+            "chest_unopened_img": "images/adversaries/flame_core.png",
+            "chest_opened_img": "images/adversaries/flame_core_cleared.png"
           },
           {
             "name": "Adversaries - Water Core",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core",
+            "chest_unopened_img": "images/adversaries/water_core.png",
+            "chest_opened_img": "images/adversaries/water_core_cleared.png"
           },
           {
             "name": "Adversaries - Helmed Body",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Helmed Body"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Helmed Body",
+            "chest_unopened_img": "images/adversaries/helmed_body.png",
+            "chest_opened_img": "images/adversaries/helmed_body_cleared.png"
           },
           {
             "name": "Adversaries - Marine Rumba",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba",
+            "chest_unopened_img": "images/adversaries/marine_rumba.png",
+            "chest_opened_img": "images/adversaries/marine_rumba_cleared.png"
           },
           {
             "name": "Adversaries - Malachite Bolero",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Malachite Bolero"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Malachite Bolero",
+            "chest_unopened_img": "images/adversaries/malachite_bolero.png",
+            "chest_opened_img": "images/adversaries/malachite_bolero_cleared.png"
           },
           {
             "name": "Adversaries - Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat",
+            "chest_unopened_img": "images/adversaries/popcat.png",
+            "chest_opened_img": "images/adversaries/popcat_cleared.png"
           },
           {
             "name": "Adversaries - Vitality Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat",
+            "chest_unopened_img": "images/adversaries/vitality_popcat.png",
+            "chest_opened_img": "images/adversaries/vitality_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Magic Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat",
+            "chest_unopened_img": "images/adversaries/magic_popcat.png",
+            "chest_opened_img": "images/adversaries/magic_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Focus Popcat",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat",
+            "chest_unopened_img": "images/adversaries/focus_popcat.png",
+            "chest_opened_img": "images/adversaries/focus_popcat_cleared.png"
           },
           {
             "name": "Adversaries - Satyr",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr",
+            "chest_unopened_img": "images/adversaries/satyr.png",
+            "chest_opened_img": "images/adversaries/satyr_cleared.png"
           },
           {
             "name": "Adversaries - Dusk",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk",
+            "chest_unopened_img": "images/adversaries/dusk.png",
+            "chest_opened_img": "images/adversaries/dusk_cleared.png"
           },
           {
             "name": "Adversaries - Berserker",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Berserker"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Berserker",
+            "chest_unopened_img": "images/adversaries/berserker.png",
+            "chest_opened_img": "images/adversaries/berserker_cleared.png"
           },
           {
             "name": "Adversaries - Gambler",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gambler"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gambler",
+            "chest_unopened_img": "images/adversaries/gambler.png",
+            "chest_opened_img": "images/adversaries/gambler_cleared.png"
           },
           {
             "name": "Adversaries - Ninja",
-            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Ninja"
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Ninja",
+            "chest_unopened_img": "images/adversaries/ninja.png",
+            "chest_opened_img": "images/adversaries/ninja_cleared.png"
           }
         ],
         "map_locations": [

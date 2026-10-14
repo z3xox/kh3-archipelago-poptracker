@@ -25,3 +25,5 @@ Built for use with the KH3 Archipelago alpha APWorld developed by Aesais.
 
 Icon art from [Kingdom Hearts Re:Collection](https://televo.github.io/kingdom-hearts-recollection)
 by Televo, used under its free-use terms.
+
+Enemy portraits from the [Kingdom Hearts Wiki](https://www.khwiki.com).
