@@ -33,8 +33,8 @@
           {
             "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
-            "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+            "visibility_rules": [
+              "$photo_mission_shown|100 Acre Wood"
             ]
           }
         ],
@@ -45,6 +45,9 @@
             "y": 272,
             "shape": "diamond"
           }
+        ],
+        "visibility_rules": [
+          "$photo_mission_shown|100 Acre Wood"
         ]
       }
     ],

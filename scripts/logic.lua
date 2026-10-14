@@ -196,6 +196,20 @@ function song_bonus(location_id)
     return 0
 end
 
+-- World pools this seed sets to junk: pool display name -> true, read from
+-- slot_data on connect (autotracking.lua); offline none is known.
+JUNK_WORLD_POOLS = {}
+
+-- Visibility helper: $photo_mission_shown|<World>|<World>...
+-- The apworld omits a photo mission when any world its subject needs
+-- (Workshop.PHOTO_MISSION_COMPLETION_WORLDS) is junk: it is not a check then.
+function photo_mission_shown(...)
+    for _, world in ipairs({...}) do
+        if JUNK_WORLD_POOLS[world] then return 0 end
+    end
+    return 1
+end
+
 -- Melody of Memory songs of this seed: song id -> code of the music chest it
 -- opens (an authored Melody Chest or a converted vanilla chest), from slot_data.
 MOM_SONG_CHEST = {}

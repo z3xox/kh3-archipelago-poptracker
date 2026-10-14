@@ -322,7 +322,10 @@
             "name": "Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Monstropolis"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Monstropolis"
             ]
           }
         ],
@@ -333,6 +336,9 @@
             "y": 486,
             "shape": "diamond"
           }
+        ],
+        "visibility_rules": [
+          "$photo_mission_shown|Monstropolis"
         ]
       }
     ],

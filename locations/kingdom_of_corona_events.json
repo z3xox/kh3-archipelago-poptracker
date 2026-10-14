@@ -308,7 +308,10 @@
             "name": "Moogle Workshop - Photo Mission 7 (Mage's Earring)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 7 (Mage's Earring)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Kingdom of Corona"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Kingdom of Corona"
             ]
           }
         ],
@@ -319,6 +322,9 @@
             "y": 105,
             "shape": "diamond"
           }
+        ],
+        "visibility_rules": [
+          "$photo_mission_shown|Kingdom of Corona"
         ]
       },
       {
@@ -328,7 +334,10 @@
             "name": "Moogle Workshop - Photo Mission 8 (Moon Amulet)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 8 (Moon Amulet)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Kingdom of Corona"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Kingdom of Corona"
             ]
           }
         ],
@@ -339,6 +348,9 @@
             "y": 318,
             "shape": "diamond"
           }
+        ],
+        "visibility_rules": [
+          "$photo_mission_shown|Kingdom of Corona"
         ]
       }
     ],

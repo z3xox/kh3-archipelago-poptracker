@@ -2007,6 +2007,13 @@ function autoFill(slot_data)
     -- the apworld default is shuffled). Drives the level counters and the
     -- Moogle Workshop upgrade rules.
     setStage("keyblade_levels_setting", slot_data["keyblade_levels"] or 1)
+    -- Junk world pools: a photo mission of a junk world is not a check
+    -- ($photo_mission_shown in logic.lua).
+    JUNK_WORLD_POOLS = {}
+    local pools = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["pools"]) or {}
+    for name, mode in pairs(pools) do
+        if mode == JUNK_POOL_MODE then JUNK_WORLD_POOLS[name] = true end
+    end
     -- Pool on/off flags, which "Hide Junk Checks" can later turn off again.
     POOL_SLOT_DATA = slot_data
     ApplyPoolSettings()

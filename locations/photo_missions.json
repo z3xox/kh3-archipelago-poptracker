@@ -15,140 +15,198 @@
             "name": "Moogle Workshop - Photo Mission 2 (Firefighter Rosette)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Olympus"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Olympus"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 3 (Umbrella Rosette)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Kingdom of Corona"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Kingdom of Corona"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 4 (Mask Rosette)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Kingdom of Corona"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Kingdom of Corona"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Olympus"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Olympus"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Toy Box"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Toy Box"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 7 (Mage's Earring)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Kingdom of Corona"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Kingdom of Corona"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 8 (Moon Amulet)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Kingdom of Corona"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Kingdom of Corona"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 9 (Fire Chain)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Olympus"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Olympus"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 10 (Thunder Chain)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Olympus"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Olympus"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 11 (Draw Ring)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Twilight Town"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Twilight Town"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Monstropolis"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Monstropolis"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Arendelle"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Arendelle"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Arendelle"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Arendelle"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Toy Box"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Toy Box"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
             "item_count": 1,
-            "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+            "visibility_rules": [
+              "$photo_mission_shown|100 Acre Wood"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 17 (Star Charm)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|San Fransokyo"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|San Fransokyo"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 18 (Aero Armlet)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|San Fransokyo"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|San Fransokyo"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|The Caribbean"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|The Caribbean"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 20 (Dark Chain)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Monstropolis,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,ability_doubleflight,ability_superjump,ability_wall_kick,$has_any|ability_block|ability_dodge_roll",
+              "$can_complete_coliseum_worlds|Monstropolis,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Monstropolis"
             ]
           },
           {
             "name": "Moogle Workshop - Photo Mission 21 (Petite Ribbon)",
             "item_count": 1,
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Olympus|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Olympus|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo"
             ]
           }
         ],

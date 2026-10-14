@@ -7940,83 +7940,143 @@
             "sections": [
               {
                 "name": "Moogle Workshop - Photo Mission 2 (Firefighter Rosette)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 2 (Firefighter Rosette)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 2 (Firefighter Rosette)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Olympus"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 3 (Umbrella Rosette)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 3 (Umbrella Rosette)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 3 (Umbrella Rosette)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Kingdom of Corona"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 4 (Mask Rosette)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 4 (Mask Rosette)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 4 (Mask Rosette)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Kingdom of Corona"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 5 (Cosmic Ring)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Olympus"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 6 (Soldier's Earring)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Toy Box"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 7 (Mage's Earring)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 7 (Mage's Earring)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 7 (Mage's Earring)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Kingdom of Corona"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 8 (Moon Amulet)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 8 (Moon Amulet)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 8 (Moon Amulet)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Kingdom of Corona"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 9 (Fire Chain)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 9 (Fire Chain)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 9 (Fire Chain)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Olympus"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 10 (Thunder Chain)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 10 (Thunder Chain)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 10 (Thunder Chain)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Olympus"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 11 (Draw Ring)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 11 (Draw Ring)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 11 (Draw Ring)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Twilight Town"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 12 (Insulator Rosette)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Monstropolis"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 13 (Blizzard Chain)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Arendelle"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 14 (Snowman Rosette)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Arendelle"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 15 (Fencer's Earring)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Toy Box"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 16 (Slayer's Earring)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
+                "visibility_rules": [
+                  "$photo_mission_shown|100 Acre Wood"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 17 (Star Charm)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 17 (Star Charm)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 17 (Star Charm)",
+                "visibility_rules": [
+                  "$photo_mission_shown|San Fransokyo"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 18 (Aero Armlet)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 18 (Aero Armlet)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 18 (Aero Armlet)",
+                "visibility_rules": [
+                  "$photo_mission_shown|San Fransokyo"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 19 (Aqua Chaplet)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 19 (Aqua Chaplet)",
+                "visibility_rules": [
+                  "$photo_mission_shown|The Caribbean"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 20 (Dark Chain)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 20 (Dark Chain)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 20 (Dark Chain)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Monstropolis"
+                ]
               },
               {
                 "name": "Moogle Workshop - Photo Mission 21 (Petite Ribbon)",
-                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 21 (Petite Ribbon)"
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 21 (Petite Ribbon)",
+                "visibility_rules": [
+                  "$photo_mission_shown|Olympus|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo"
+                ]
               }
             ],
             "map_locations": [

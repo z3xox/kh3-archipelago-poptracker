@@ -108,7 +108,10 @@
             "name": "Moogle Workshop - Photo Mission 11 (Draw Ring)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 11 (Draw Ring)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus|Twilight Town|Toy Box|Kingdom of Corona|Monstropolis|Arendelle|The Caribbean|San Fransokyo,$can_reach_final_boss"
+              "$can_complete_coliseum_worlds|Twilight Town"
+            ],
+            "visibility_rules": [
+              "$photo_mission_shown|Twilight Town"
             ]
           }
         ],
@@ -119,6 +122,9 @@
             "y": 277,
             "shape": "diamond"
           }
+        ],
+        "visibility_rules": [
+          "$photo_mission_shown|Twilight Town"
         ]
       }
     ],
