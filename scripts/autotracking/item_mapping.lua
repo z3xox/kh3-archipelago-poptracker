@@ -1,10 +1,4 @@
--- Auto-generated from KH3 Archipelago
---
--- Items the pack does not display are deliberately absent: mapping them made
--- the autotracker log 'Did not find object for code ...' on every seed without
--- doing anything. Their names and codes are parked in
--- scripts/tools/unmapped_item_codes.json; move an entry back here when its
--- item is added to items/items.json.
+-- AP item name -> tracker item. Items the pack does not show are left out.
 
 ITEM_MAPPING_BY_NAME = {
     -- BEGIN generated: gummi space items (scripts/tools/generate_space_locations.py)
@@ -68,15 +62,10 @@ ITEM_MAPPING_BY_NAME = {
     ["Secret Report 11"] = { code = "secret_report", type = "consumable" },
     ["Secret Report 12"] = { code = "secret_report", type = "consumable" },
     ["Secret Report 13"] = { code = "secret_report", type = "consumable" },
-    -- Sent once per shard; a single AP item name repeated up to the seed's
-    -- Ultima Weapon Shard Count (2-13), not 13 distinct numbered items.
     ["Ultima Weapon Shard"] = { code = "ultima_weapon_shard", type = "consumable" },
-    -- Other Ultima Weapon unlock modes (shop/yozora/randomized pool) send the
-    -- keyblade itself instead of shards; fill the same counter to max so one
-    -- widget reflects "Ultima obtained" regardless of the seed's unlock mode.
+    -- The other Ultima Weapon modes send the keyblade: fill the shard counter.
     ["Ultima Weapon"] = { code = "ultima_weapon_shard", type = "consumable_max", max = 13 },
 
-    -- Logic items (portal keyblades, unlocks, movement abilities)
     ["Hero's Origin"] = { code = "kb_heros_origin", type = "toggle" },
     ["Favorite Deputy"] = { code = "kb_favorite_deputy", type = "toggle" },
     ["Happy Gear"] = { code = "kb_happy_gear", type = "toggle" },
@@ -94,8 +83,7 @@ ITEM_MAPPING_BY_NAME = {
     ["Unlock: Attraction Flow"] = { code = "unlock_attraction_flow", type = "toggle" },
     ["Unlock: Airstep"] = { code = "unlock_airstep", type = "toggle" },
     ["Unlock: Links"] = { code = "unlock_links", type = "toggle" },
-    -- Keyblade Levels: "shuffled" gives ten shared items, "keyblade upgrade sanity" ten per keyblade.
-    -- Only the keyblades with a Moogle Workshop upgrade check are tracked.
+    -- Keyblade Levels
     ["Progressive Keyblade Level"] = { code = "lvl_shared", type = "consumable" },
     ["Progressive Kingdom Key Level"] = { code = "lvl_kingdom_key", type = "consumable" },
     ["Progressive Shooting Star Level"] = { code = "lvl_shooting_star", type = "consumable" },
@@ -115,8 +103,7 @@ ITEM_MAPPING_BY_NAME = {
     ["Progressive Ultima Weapon Level"] = { code = "lvl_ultima_weapon", type = "consumable" },
     ["Progressive Pandora's Power Level"] = { code = "lvl_pandoras_power", type = "consumable" },
     ["Unlock: Style Change"] = { code = "unlock_style_change", type = "toggle" },
-    -- Classic Kingdom minigame unlocks. Each "<game> - High Score" check is
-    -- gated on its own game, and "Complete All Games" on all 23 (Rules.py).
+    -- Classic Kingdom games
     ["CK: Giantland"] = { code = "ck_giantland", type = "toggle" },
     ["CK: Mickey, The Mail Pilot"] = { code = "ck_mickey_the_mail_pilot", type = "toggle" },
     ["CK: The Musical Farmer"] = { code = "ck_the_musical_farmer", type = "toggle" },
@@ -140,8 +127,7 @@ ITEM_MAPPING_BY_NAME = {
     ["CK: Cast Out to Sea"] = { code = "ck_cast_out_to_sea", type = "toggle" },
     ["CK: Backyard Sports"] = { code = "ck_backyard_sports", type = "toggle" },
     ["CK: Mickey Steps Out"] = { code = "ck_mickey_steps_out", type = "toggle" },
-    -- Party member unlocks. Always in the pool (PARTY_MEMBER_UNLOCK_EXTRA_ITEM_POOL_ITEMS),
-    -- classified "useful"; no logic rule references them.
+    -- Party members
     ["Party Member: Hercules"] = { code = "party_hercules", type = "toggle" },
     ["Party Member: Woody"] = { code = "party_woody", type = "toggle" },
     ["Party Member: Buzz Lightyear"] = { code = "party_buzz_lightyear", type = "toggle" },
@@ -160,9 +146,7 @@ ITEM_MAPPING_BY_NAME = {
     ["Party Member: Kairi"] = { code = "party_kairi", type = "toggle" },
     ["Party Member: Roxas"] = { code = "party_roxas", type = "toggle" },
     ["Party Member: Xion"] = { code = "party_xion", type = "toggle" },
-    -- Per-keyblade Style Change unlocks, added when the seed uses
-    -- stylesanity: on. Classified progression by AP,
-    -- though no access rule references them.
+    -- Stylesanity
     ["Unlock Style: Kingdom Key"] = { code = "style_kingdom_key", type = "toggle" },
     ["Unlock Style: Shooting Star"] = { code = "style_shooting_star", type = "toggle" },
     ["Unlock Style: Hero's Origin"] = { code = "style_heros_origin", type = "toggle" },
@@ -180,7 +164,7 @@ ITEM_MAPPING_BY_NAME = {
     ["Unlock Style: Hunny Spout"] = { code = "style_hunny_spout", type = "toggle" },
     ["Unlock Style: Starlight"] = { code = "style_starlight", type = "toggle" },
     ["Unlock Style: Pandora's Power"] = { code = "style_pandoras_power", type = "toggle" },
-    -- Non-portal keyblades: obtainable but not tied to a world gate.
+    -- Other keyblades
     ["Grand Chef"] = { code = "kb_grand_chef", type = "toggle" },
     ["Hunny Spout"] = { code = "kb_hunny_spout", type = "toggle" },
     ["Starlight"] = { code = "kb_starlight", type = "toggle" },

@@ -1,4 +1,4 @@
--- Auto-generated from KH3 Archipelago
+-- AP location id -> tracker section
 
 LOCATION_MAPPING = {
     [1263022848] = { code = "@Olympus - Chest 29 (Large Chest, Realm of the Gods: Corridors)/Olympus - Chest 29 (Large Chest, Realm of the Gods: Corridors)" },

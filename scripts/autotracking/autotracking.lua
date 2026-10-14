@@ -1625,8 +1625,7 @@ OVERWORLD_SECTION_MAP = {
     ["Lucky Emblems - Milestone 90"] = "@Lucky Emblems - All Checks/Lucky Emblems - Milestone 90",
 }
 
--- A section may be mirrored by several Overworld pins, so OVERWORLD_SECTION_MAP
--- values are either one code or a list of them. Always iterate.
+-- A section can have several Overworld mirrors.
 local function forEachOverworldMirror(section_name, apply)
     if not section_name then return end
     local codes = OVERWORLD_SECTION_MAP[section_name]
@@ -1639,10 +1638,7 @@ local function forEachOverworldMirror(section_name, apply)
 end
 
 
--- Highlight level mapping (matches AP hint item_flags and status codes)
--- status=0 means use item_flags: 100+flags
--- item_flags: 0=Filler, 1=Progression, 2=Useful, 4=Trap (bitflag)
--- status: 10=NoPriority, 20=Avoid, 30=Priority, 40=None
+-- Hint highlight: the hint status, or 100 + item flags when it has none
 HIGHLIGHT_LEVEL = nil
 if Highlight then
     HIGHLIGHT_LEVEL = {
@@ -1666,21 +1662,11 @@ TEAM_NUMBER = 0
 HINTS_ID = nil
 CUR_INDEX = -1
 
--- Photographed Lucky Emblems. The KH3 client (Client.py's
--- build_kh3_lucky_emblem_sync_messages) merges every capture into this DataStorage
--- key as {"<global_id>": true, ...} and resends its whole set on each reconnect,
--- so the server value is the full history: the pack only has to Get it on
--- connect and SetNotify it for live updates. The client's Bounce carries the same
--- ids but is lost while PopTracker is closed, so it is not used here.
+-- Photographed Lucky Emblems, kept by the KH3 client in this DataStorage key
 LUCKY_EMBLEMS_ID = nil
 LUCKY_EMBLEM_SPOT_COUNT = 90
 
--- Chestsanity (apworld KeybladeChests.assign_keyblade_chests): each chest of a
--- randomized world needs a keyblade drawn by the seed. The KH3 wire slot_data
--- carries it as a per-location override, location_catalog.entries =
--- [[ap_id, assignment_index, changes, removed], ...], with changes holding
--- keyblade_chest_keyblade (item name) and keyblade_chest_native (true when it is
--- the chest's own world keyblade, which Rules.py does not require).
+-- Chestsanity: the keyblade each chest needs, from location_catalog.entries
 function LoadChestKeyblades(slot_data)
     CHEST_KEYBLADE = {}
     local catalog = type(slot_data) == "table" and slot_data["location_catalog"]
@@ -1702,9 +1688,7 @@ function LoadChestKeyblades(slot_data)
     print(string.format("LoadChestKeyblades: %d chests need a foreign keyblade", count))
 end
 
--- Music chest Song Bonuses (MelodyOfMemory.music_chest_bonus_locations): a chest's
--- bonus is a check of the seed when its id (chest id + MUSIC_CHEST_BONUS_ID_OFFSET)
--- is among location_catalog.entries.
+-- Song Bonuses of the seed, from location_catalog.entries
 local SONG_BONUS_ID_MIN = 1263022848 + 0x100000
 local SONG_BONUS_ID_MAX = 1263022848 + 0x200000
 function LoadSongBonuses(slot_data)
@@ -1721,13 +1705,7 @@ function LoadSongBonuses(slot_data)
     print(string.format("LoadSongBonuses: %d music chest Song Bonuses", count))
 end
 
--- Melody of Memory in apworld 0.17: every selected song opens a music chest (an
--- authored Melody Chest, music_chest_kind "additional", or a converted vanilla
--- chest, "vanilla"); its row in location_catalog.entries carries mom_song_id.
--- The song's own section (MOM_LOCATION_ID_BASE + song id, a 0.16 song-clear id)
--- then mirrors that chest: visible, in logic with it (MOM_SONG_CHEST), and
--- cleared by the chest's Song Bonus, or by the chest itself without bonus checks
--- (MOM_SONG_BY_CHECK).
+-- Melody of Memory: each song opens a music chest, and its section follows it
 MOM_SONG_BY_CHECK = {}
 MOM_SONG_LOCATION_BASE = 1263153920
 function LoadMusicChests(slot_data)
@@ -1854,7 +1832,7 @@ function onItem(index, item_id, item_name, player_id)
     elseif mapping.type == "consumable_max" then
         obj.AcquiredCount = mapping.max or obj.AcquiredCount
     end
-    -- An item may also switch on a second toggle (Endymion: Misty Stream ship + its own gate).
+    -- Some items also switch on a second toggle (Endymion).
     if mapping.also then
         local also = Tracker:FindObjectForCode(mapping.also)
         if also then also.Active = true end
@@ -1883,10 +1861,7 @@ function onLocation(location_id, location_name)
     end
 end
 
--- Melody of Memory song ids are native Music IDs, not a 0..127 range: the 128
--- songs are spread over 0..206 with gaps. Deriving them from LOCATION_MAPPING
--- keeps this in step with the generated catalogue; MoM is the only id space
--- above MOM_LOCATION_ID_BASE, so the test is unambiguous.
+-- Melody of Memory song ids, taken from LOCATION_MAPPING
 local MOM_LOCATION_ID_BASE = 1263153920
 -- Song ids stay below 256; the 8 authored Melody Chests follow at base + 257..264.
 local MOM_SONG_ID_SPAN = 256
@@ -1910,24 +1885,14 @@ local function momSongIds()
     return _mom_song_ids
 end
 
--- slot_data of the connected seed, kept so the pool flags below can be
--- recomputed when "Hide Junk Checks" is toggled after connecting.
+-- Kept to reapply the pool settings when Hide Junk Checks changes
 POOL_SLOT_DATA = nil
 
--- KH3LocationPoolMode values: vanilla (1) adds no checks; junk (3) keeps the
--- checks but only puts filler or traps there.
+-- Pool modes: vanilla adds no checks, junk only holds filler or traps
 local VANILLA_POOL_MODE = 1
 local JUNK_POOL_MODE = 3
 
--- World and reward pool flags -> Settings menu stages. The apworld dropped the
--- old boolean "include_*" slot_data keys; each world's checks now live behind
--- a pool mode (KH3LocationPoolMode) under slot_data.kh3_randomizer.pools,
--- keyed by the pool's display name.
---
--- Since apworld 0.15.4 (still so in 0.17.12), KH3LocationPoolMode only offers
--- randomize (2) and junk (3) for these pools, so their checks always exist.
--- With "Hide Junk Checks" on, a junk pool is switched off like a vanilla one:
--- its checks still exist in the seed, but hold nothing worth the trip.
+-- Pool settings. With Hide Junk Checks on, junk pools are hidden too.
 function ApplyPoolSettings()
     local slot_data = POOL_SLOT_DATA
     if not slot_data then return end
@@ -1946,8 +1911,7 @@ function ApplyPoolSettings()
     end
 
     local pools = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["pools"]) or {}
-    -- Keys are RANDOMIZER_POOL_NAMES display names from the apworld's Options.py.
-    -- Absent pools default to randomize (2), matching the option's own default.
+    -- Pools by display name; a missing one defaults to randomize.
     local RANDOMIZER_POOL_SETTINGS = {
         {"battlegates_setting",        "Battlegates"},
         {"remind_setting",             "Re+Mind"},
@@ -1972,13 +1936,10 @@ function ApplyPoolSettings()
         setStage(entry[1], shown(pools[entry[2]], 2))
     end
 
-    -- Olympus Coliseum is a third-party pool: it is NOT in
-    -- RANDOMIZER_POOL_NAMES, so it never appears under kh3_randomizer.pools.
-    -- It ships as a top-level slot_data key instead.
+    -- Olympus Coliseum is a top-level key.
     setStage("olympus_coliseum_setting", shown(slot_data["olympus_coliseum_pool"], 2))
 
-    -- Moogle Workshop pools (top-level keys). Unlike the pools above these still
-    -- have a vanilla mode, and vanilla (the default) adds no checks at all.
+    -- Moogle Workshop pools default to vanilla (no checks).
     setStage("synthesis_setting", shown(slot_data["synthesis_pool"], VANILLA_POOL_MODE))
     setStage("photo_missions_setting", shown(slot_data["photo_missions_pool"], VANILLA_POOL_MODE))
     setStage("keyblade_upgrades_setting", shown(slot_data["keyblade_upgrade_rewards_pool"], VANILLA_POOL_MODE))
@@ -2005,11 +1966,7 @@ function autoFill(slot_data)
         if obj then obj.AcquiredCount = amount end
     end
 
-    -- Controller unlocks the seed grants up front. These are top-level slot_data
-    -- keys straight off the options (see KH3World.fill_slot_data's as_dict list);
-    -- kh3_randomizer holds pools/exceptions/limiters/qol/runtime/hint, never a
-    -- "controller_unlocks" block, so reading one there always yielded nil and
-    -- switched every unlock off on connect.
+    -- Controller unlocks granted at start
     local function startsWith(key)
         local value = slot_data[key]
         return value ~= nil and value ~= false and value ~= 0
@@ -2017,23 +1974,12 @@ function autoFill(slot_data)
     setToggle("unlock_wall_run",        startsWith("start_with_wall_run"))
     setToggle("unlock_magic",           startsWith("start_with_magic"))
     setToggle("unlock_attraction_flow", startsWith("start_with_attraction_flow"))
-    -- Airstep=true means Air Slide works via controller (always available)
-    -- Activate unlock_airstep; ability_air_slide tracks the actual item
+    -- Airstep is always available; Air Slide is its own item.
     setToggle("unlock_airstep",         startsWith("start_with_airstep"))
-    -- Links only gates the Heartbinder routes; the Heartbinders themselves
-    -- are still separate items.
+    -- Links only gates the Heartbinder routes.
     setToggle("unlock_links",           startsWith("start_with_links"))
 
-    -- Default Base Abilities (RANDOMIZER_EXCEPTION_NAMES key "Default Base
-    -- Abilities" under kh3_randomizer.exceptions): when on, the randomizer
-    -- keeps Block/Dodge Roll/Pole Spin (among others) as innate starting
-    -- abilities instead of adding them to the AP item pool, so no
-    -- "Ability: Block"/"Ability: Dodge Roll"/"Ability: Pole Spin" item is
-    -- ever sent for this slot. Without this, logic that requires them (e.g.
-    -- keyblade unlock routes) would stay permanently gated. Only the entries of
-    -- the apworld's DEFAULT_BASE_ABILITY_CHRINIT_FIELDS that this pack tracks as
-    -- items are handled here (the rest -- Scan, Aerial Dodge, Superslide, ... --
-    -- have no item and no logic).
+    -- Default Base Abilities: Sora starts with them instead of receiving them.
     local exceptions = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["exceptions"]) or {}
     local default_base_abilities = exceptions["Default Base Abilities"] == true
     if default_base_abilities then
@@ -2044,21 +1990,16 @@ function autoFill(slot_data)
         setToggle("ability_wall_kick", true)
     end
 
-    -- Stylesanity (0 = off, 1 = on; apworld default on). On: every keyblade
-    -- needs its own "Unlock Style: ..." item. Off: Sora starts with
-    -- Unlock: Style Change owned, so it is ticked from the start.
+    -- Stylesanity off: Sora starts with Style Change.
     local stylesanity = slot_data["stylesanity"]
     if stylesanity == nil then stylesanity = 1 end
     stylesanity = (stylesanity ~= false and stylesanity ~= 0) and 1 or 0
     setToggle("unlock_style_change", stylesanity == 0)
     setStage("style_change_setting", stylesanity)
 
-    -- Keyblade Levels (0 = start at max, 1 = shuffled, 2 = keyblade upgrade sanity;
-    -- the apworld default is shuffled). Drives the level counters and the
-    -- Moogle Workshop upgrade rules.
+    -- Keyblade Levels (0 = start at max, 1 = shuffled, 2 = keyblade upgrade sanity)
     setStage("keyblade_levels_setting", slot_data["keyblade_levels"] or 1)
-    -- Junk world pools: a photo mission of a junk world is not a check
-    -- ($photo_mission_shown in logic.lua).
+    -- Junk world pools (their photo missions are not checks)
     JUNK_WORLD_POOLS = {}
     local pools = (slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["pools"]) or {}
     for name, mode in pairs(pools) do
@@ -2068,34 +2009,27 @@ function autoFill(slot_data)
     POOL_SLOT_DATA = slot_data
     ApplyPoolSettings()
 
-    -- Gummi space is a base-game toggle, not a pool: top-level include_space
-    -- (0 = off, 1 = on; the apworld default is off).
+    -- Gummi space (off by default)
     setStage("space_setting", (slot_data["include_space"] or 0) == 1 and 1 or 0)
-    -- Portal Unlocks (0 = keyblades, 1 = party members): which items open the worlds,
-    -- see portal_open in logic.lua.
+    -- Portal Unlocks (0 = keyblades, 1 = party members)
     setStage("portal_unlocks_setting", (slot_data["portal_unlocks"] or 0) == 1 and 1 or 0)
-    -- Chestsanity is shown only: the per-chest keyblades come from LoadChestKeyblades.
+    -- Chestsanity (the chests' keyblades come from LoadChestKeyblades)
     setStage("chestsanity_setting", (slot_data["chestsanity"] or 0) == 1 and 1 or 0)
-    -- Optional space checks (both off by default): Heartless / Builder / Special
-    -- Weapon Authority milestones, and the Schwarzgeist / Omega Machina rewards.
-    -- Gummi Ship Completionist needs both.
+    -- Optional space checks
     setStage("space_grindy_setting", (slot_data["include_grindy_space_missions"] or 0) == 1 and 1 or 0)
     setStage("space_superbosses_setting", (slot_data["include_space_superbosses"] or 0) == 1 and 1 or 0)
 
-    -- Classic Kingdom Checks (top-level key, 0 = off, 1 = high score)
+    -- Classic Kingdom Checks (0 = off, 1 = high score)
     setStage("classic_kingdom_setting", (slot_data["classic_kingdom_checks"] or 0) ~= 0 and 1 or 0)
 
-    -- Ingredients (top-level key, 0 = off, 1 = ingredientsanity, 2 = ingredientsanity+).
-    -- The stage indices line up with the option's own values.
+    -- Ingredients (0 = off, 1 = ingredientsanity, 2 = ingredientsanity+)
     setStage("ingredients_setting", slot_data["ingredients"] or 0)
 
-    -- Adversary Checks (top-level key, 0 = off, 1 = on; the apworld default is off)
+    -- Adversary Checks
     setStage("adversaries_setting", (slot_data["adversary_checks"] or 0) ~= 0 and 1 or 0)
 
 
-    -- Minigame max AP rank (top-level keys, 0 = junk, 1..4 = D..A, matching the
-    -- stage indices). It never removes checks, only restricts rewards above the
-    -- cap to filler/traps. Seeds without the key keep the apworld's A default.
+    -- Minigame max AP rank (0 = junk, 1..4 = D..A)
     local MINIGAME_RANK_KEYS = {
         {"verum_rex_rank",      "verum_rex_max_rank"},
         {"festival_dance_rank", "festival_dance_max_rank"},
@@ -2107,18 +2041,10 @@ function autoFill(slot_data)
         setStage(entry[1], slot_data[entry[2]] or 4)
     end
 
-    -- Melody of Memory. A seed's songs are drawn at random from the 128-song
-    -- catalog (MelodyOfMemory.select_music_chests), so the count option alone
-    -- can't say which ones are in play -- the bridge rows can.
+    -- Melody of Memory
     setAmount("mc_limit", slot_data["music_chest_count"] or 0)
 
-    -- Up to 8 of those songs are reassigned from their menu clear to one of
-    -- the 8 authored world chests (MelodyOfMemory.placed_music_chest). Their
-    -- bridge row keeps type "melody_of_memory" (song_location's type is never
-    -- overwritten) but carries music_chest_kind "additional" and a
-    -- music_chest_placement_id -- such a row must NOT also light up the
-    -- song's menu-clear section below, since that check no longer exists;
-    -- only the chest at its placement does.
+    -- Authored Melody Chests
     local MUSIC_CHEST_PLACEMENT_CODES = {
         MOM_CHEST_001 = "mc_chest_olympus",
         MOM_CHEST_002 = "mc_chest_twilight_town",
@@ -2131,10 +2057,7 @@ function autoFill(slot_data)
     }
     local mom_active = {}
     local chest_active = {}
-    -- apworld 0.17 wire slot_data: the seed's rows are references to the bundled
-    -- catalog (location_catalog.entries = [[ap_id, ...], ...]) and bridge.locations
-    -- is gone. A song whose clear is a check keeps MOM_LOCATION_ID_BASE + song_id;
-    -- a song moved into an authored chest takes the chest's id instead.
+    -- Songs and Melody Chests of the seed (location_catalog.entries)
     local catalog = slot_data["location_catalog"]
     for _, entry in ipairs((type(catalog) == "table" and catalog["entries"]) or {}) do
         local ap_id = type(entry) == "table" and tonumber(entry[1])
@@ -2144,13 +2067,13 @@ function autoFill(slot_data)
             chest_active[MUSIC_CHEST_PLACEMENT_BY_ID[ap_id]] = true
         end
     end
-    -- 0.17 songs open a music chest; their section mirrors it (LoadMusicChests).
+    -- Songs that open a music chest
     for song_id, _ in pairs(MOM_SONG_CHEST) do
         mom_active[tostring(song_id)] = true
     end
-    -- Offline only: show every possible Song Bonus (the seed's are known once connected).
+    -- Offline only: show every possible Song Bonus
     setStage("song_bonus_setting", 0)
-    -- Expanded slot_data of older apworlds.
+    -- Older apworlds: expanded slot_data
     local bridge = slot_data["bridge"]
     for _, row in ipairs((bridge and bridge["locations"]) or {}) do
         if row["type"] == "melody_of_memory" then
@@ -2170,7 +2093,7 @@ function autoFill(slot_data)
         setToggle(code, chest_active[placement_id] == true)
     end
 
-    -- Goal (0 = collect the 3 Proofs, 1 = collect 7 Heart Pieces) -> Settings menu stage
+    -- Goal (0 = 3 Proofs, 1 = 7 Heart Pieces)
     local goal = slot_data["goal"] or 0
     setStage("goal", goal)
 
@@ -2181,8 +2104,7 @@ function autoFill(slot_data)
     end
     setAmount("le_limit", le_limit)
 
-    -- Lucky Emblems Per Check (0 = vanilla irregular milestones, N = every Nth
-    -- emblem is a check). Top-level slot_data key, not under kh3_randomizer/limiters.
+    -- Lucky Emblems Per Check (0 = vanilla milestones)
     local lep_check = slot_data["lucky_emblems_per_check"] or 0
     setAmount("lep_check", lep_check)
 
@@ -2193,7 +2115,7 @@ function autoFill(slot_data)
     end
     setAmount("lu_limit", lu_limit)
 
-    -- Moogle Shop Checks (top-level slot_data key, same pattern as lucky_emblems_per_check)
+    -- Moogle Shop Checks
     local ms_limit = slot_data["moogle_shop_checks"] or 0
     setAmount("ms_limit", ms_limit)
 
@@ -2245,25 +2167,8 @@ function onClear(slot_data)
     end
 end
 
--- Auto-follow: the KH3 client (Client.py's handle_poptracker_runtime_context_bounce)
--- polls the running game once a second and, on every map change, sends a
--- {"cmd": "Bounce", "slots": [slot], "data": {...}} packet whose "data" carries
--- "kh3_world_code" -- the lowercase folder segment from the game's Unreal level
--- path (e.g. "/Game/Levels/he/he_01/he_01" -> "he" for Olympus). This table maps
--- those codes to this pack's top-level tracker.json tab titles so we can call
--- Tracker:UiHint("ActivateTab", ...) and follow the player around automatically.
---
--- Source: confirmed against data_from_ap/runtime_map_ap_grant_classification.json
--- (which enumerates every level path the apworld knows about) cross-referenced
--- with extract_data.py's WORLD_TREASURE_TABLES (same two-letter world codes).
--- Only codes with a confident, unambiguous world match are listed; codes for
--- worlds with no dedicated tab (Dark World "dw", The Final World "ew",
--- Unreality, 100 Acre Wood) or whose meaning wasn't confirmed ("ex",
--- "po", "sf", "sp", "ss", "wm", "yt", "di", "dp") are intentionally omitted --
--- an unmapped code just leaves the current tab alone instead of guessing wrong.
--- The "_DLC" suffixed codes are Re:Mind's revisits of earlier worlds' assets
--- (their checks belong to the separate "Re Mind" AP location table), so they
--- route to the Re:Mind tab rather than the original world's tab.
+-- Auto-follow: the KH3 client sends the current world code on each map change.
+-- Unknown codes leave the tab alone; the _DLC codes are Re Mind's.
 KH3_WORLD_CODE_TO_TAB = {
     ["he"]     = "Olympus",
     ["he_DLC"] = "Re:Mind",
@@ -2281,27 +2186,11 @@ KH3_WORLD_CODE_TO_TAB = {
     ["rg"]     = "Radiant Garden",
     ["rg_DLC"] = "Radiant Garden",
     ["GardenOfAssemblage"] = "Overworld",
-    -- Gummi ship levels gm_01..gm_03 (apworld: "Gummiship"); gm_50 is a cutscene, left out.
+    -- Gummi zones (gm_50 is a cutscene)
     ["gm"]     = "Gummi Space",
 }
 
--- Second-level auto-follow: within a world's top-level tab, some worlds split
--- into several nested map tabs (see layouts/tracker.json). "kh3_room_id" (falls
--- back to "kh3_level_id") is the finest-grained location the game currently
--- sends us -- confirmed by the apworld dev to equal the Unreal level id (e.g.
--- "fz_03"), NOT a sub-area within a level. So this table only lists room/level
--- ids that map to exactly ONE nested tab; ids that cover several of this pack's
--- nested tabs are intentionally left out (an unmapped id just leaves whichever
--- nested tab is already selected alone, same as an unmapped world_code above).
---
--- Left out for that reason, pending finer-grained data from the apworld:
---   he_02 (Mt. Olympus P1 vs P2), ts_02 (all 3 Galaxy Toys tabs),
---   ra_01 (Corona's Forest: Hills A+Tower/Hills B+C/Marsh/Campsite),
---   fz_* (none of Arendelle's 9 tabs map to a single fz_XX id),
---   ca_02+ (every Caribbean island besides Port Royal is one open "High Seas"
---   level with no per-island id -- this is the big one, see kh3_room_id).
--- Source: same data_from_ap/runtime_map_ap_grant_classification.json notes
--- used for KH3_WORLD_CODE_TO_TAB above.
+-- Nested tabs by room id, only where a room maps to a single tab
 KH3_ROOM_ID_TO_SUBTAB = {
     ["he_01"] = "Realm Of The Gods",
     ["he_03"] = "Thebes",
@@ -2313,29 +2202,13 @@ KH3_ROOM_ID_TO_SUBTAB = {
     ["mi_03"] = "Power Plant",
     ["mi_04"] = "Door Vault",
     ["ca_01"] = "Port Royal",
-    -- Space levels follow the apworld's gm_0<area> ids: area 1/2/3 = Starlight Way / Misty Stream / The Eclipse
-    -- (same numbering as its gm_0X_Battle_NN battle ids). Not yet confirmed in game.
+    -- Gummi zones 1 to 3
     ["gm_01"] = "Starlight Way",
     ["gm_02"] = "Misty Stream",
     ["gm_03"] = "The Eclipse",
 }
 
--- Finest-grained auto-follow: "kh3_minimap_id" (confirmed by the apworld dev,
--- 2026-09-21) is the id of the minimap texture the game is currently showing
--- (source "TresUIP_NaviMapGra.SelectMap", read from NaviMapData), sent
--- alongside kh3_room_id in the same Bounce payload. It resolves exactly the
--- granularity kh3_room_id/kh3_level_id couldn't: individual islands within
--- Caribbean's single open "The High Seas" level -- the gap
--- KH3_ROOM_ID_TO_SUBTAB's comment called out as "the big one".
---
--- Only ids whose minimap_reference.json map_name/area_name resolves to
--- exactly ONE of this pack's nested tabs are listed here. Ids whose game
--- map_name has no area breakdown at all in that data (Corona's Hills A+Tower
--- vs Hills B+C vs Marsh vs Campsite split, Toy Box's 3 Galaxy Toys floors,
--- Arendelle's 9 areas, Olympus's Mt. Olympus P1 vs P2) are intentionally
--- left out, same "unmapped id leaves the tab alone" rule as
--- KH3_ROOM_ID_TO_SUBTAB -- guessing wrong is worse than not following.
--- Source: minimap_reference.json (NaviMapData/AreaSelectData dump), 2026-09-21.
+-- Nested tabs by minimap id (tells the Caribbean islands apart)
 KH3_MINIMAP_ID_TO_SUBTAB = {
     ["ra01_01"]         = "Hills A+Tower",  -- Kingdom of Corona: The Forest / Tower
     ["ca02_Center"]     = "Horseshoe",      -- Horseshoe Island
@@ -2352,9 +2225,7 @@ KH3_MINIMAP_ID_TO_SUBTAB = {
     ["ca02_Twoway_01"]  = "Isla Mastiles",  -- Isla de los Mástiles
     ["ca02_Twoway_02"]  = "Isla Mastiles",
     ["ca02_west"]       = "Isle of Luck",
-    -- ca02 / ca02_2 / ca02_seabattle intentionally omitted: their map_name is
-    -- the undifferentiated "The High Seas" with no area, so they can mean any
-    -- island (per the reference doc's own note on ca02_2/Gateway of Regret).
+    -- ca02 variants are the open High Seas: no single island.
 }
 
 function onKH3MapChanged(message)

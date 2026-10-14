@@ -1,5 +1,4 @@
--- Custom logic functions for KH3 Archipelago tracker
--- Referenced from access_rules as $function_name
+-- Logic functions, used in access rules as $function_name
 
 -- ============================================================
 -- Goal display (Proofs vs Heart Pieces)
@@ -14,18 +13,11 @@ function update_goal_layout()
     end
 end
 
--- Per-keyblade Style Change unlocks only exist when the seed has stylesanity
--- on (stage 1). With it off, Sora starts with the shared Style Change unlock,
--- so showing 17 items that can never drop would be misleading -- swap the
--- Gimmick Unlocks grid instead of listing them.
+-- Stylesanity on: per-keyblade Style Change unlocks instead of the shared one.
 STYLE_CHANGE_KEYBLADE_SANITY = 1
 
--- Keyblade Levels (apworld option): 0 = start at max (no level items at all),
--- 1 = shuffled (ten shared Progressive Keyblade Level items), 2 = keyblade upgrade
--- sanity (ten Progressive <Keyblade> Level items per keyblade). Counters only
--- exist for the modes that use them: the shared one is listed in the Gimmick
--- Unlocks grid, the per-keyblade ones are drawn over the keyblade icons, and
--- start at max shows nothing.
+-- Keyblade Levels: 0 = start at max, 1 = shuffled (shared counter),
+-- 2 = keyblade upgrade sanity (one counter per keyblade).
 KEYBLADE_LEVELS_SHUFFLED = 1
 KEYBLADE_LEVELS_PER_KEYBLADE = 2
 
@@ -47,11 +39,9 @@ function update_gimmick_layout()
     end
 end
 
--- Item groups that only matter under one setting are hidden without it, to
--- leave room for the others: {layout key, setting watched, code it provides}.
+-- Groups hidden when their setting is off: {layout key, setting, code}.
 OPTION_GROUPS = {
     {"group_classic_kingdom", "classic_kingdom_setting", "active_classic_kingdom"},
-    -- Party members only open worlds with Portal Unlocks = Party Members.
     {"group_party_members", "portal_unlocks_setting", "portal_party"},
     {"group_gummi_space", "space_setting", "active_space"},
 }
@@ -63,9 +53,7 @@ function update_option_groups()
     end
 end
 
--- Pandora's Power and Ultima Weapon have no Workshop upgrade check, but keyblade
--- upgrade sanity still shuffles their level items: a sixth Keyblades row shows
--- their counters in that mode only.
+-- Keyblade upgrade sanity adds a row for Pandora's Power and Ultima Weapon levels.
 function update_keyblades_layout()
     if keyblade_levels_mode() == KEYBLADE_LEVELS_PER_KEYBLADE then
         Tracker:AddLayouts("layouts/keyblades_levels.json")
@@ -74,15 +62,14 @@ function update_keyblades_layout()
     end
 end
 
--- The keyblades that have a Moogle Workshop upgrade check, by their tracker code.
+-- Keyblades with a Moogle Workshop upgrade check.
 KEYBLADE_LEVEL_KEYBLADES = {
     "kingdom_key", "kb_shooting_star", "kb_heros_origin", "kb_favorite_deputy", "kb_ever_after",
     "kb_wheel_of_fate", "kb_crystal_snow", "kb_hunny_spout", "kb_nano_gear", "kb_happy_gear",
     "kb_classic_tone", "kb_grand_chef", "kb_starlight", "kb_oathkeeper", "kb_oblivion",
 }
 
--- Level shown for a keyblade holding `items` level items: the apworld counts the
--- items ("Level 4" = 4 of them) and a keyblade is level 1 before any.
+-- A keyblade starts at level 1; "Level N" checks need N level items.
 function keyblade_display_level(items)
     return math.max(1, items or 0)
 end
@@ -108,9 +95,7 @@ function update_keyblade_level_overlays()
     end
 end
 
--- The five minigame max-rank settings share one icon, so each carries a short
--- "<minigame> <rank>" overlay to tell them apart. Stage index = option value
--- (0 = junk, 1..4 = D..A).
+-- Minigame rank settings share one icon: overlay "<minigame> <rank>".
 MINIGAME_RANK_SETTINGS = {
     {"verum_rex_rank",      "VR"},
     {"festival_dance_rank", "FD"},
@@ -134,8 +119,7 @@ end
 -- Portal keyblades / world tiers
 -- ============================================================
 
--- Tier-1 portal keyblades (WORLD_DIFFICULTY_TIERS[1] in the AP world).
--- 100 Acre Wood has no portal keyblade, so there are 7 total.
+-- Tier-one portal keyblades (100 Acre Wood has none).
 TIER_ONE_KEYBLADE_CODES = {
     "kb_heros_origin",     -- Olympus
     "kb_favorite_deputy",  -- Toy Box
@@ -146,7 +130,6 @@ TIER_ONE_KEYBLADE_CODES = {
     "kb_nano_gear",        -- San Fransokyo
 }
 
--- HIGHER_TIER_TIER_ONE_KEYBLADE_COUNT from the AP world
 TIER_ONE_KEYBLADE_REQUIRED = 3
 
 local function hasCode(code)
@@ -162,11 +145,7 @@ local function countCodes(codes)
     return count
 end
 
--- Portal Unlocks = party members (portal_party): a world opens with one of its
--- characters instead of its keyblade (PORTAL_PARTY_REGION_LOCKS in the AP world).
--- Indexed by the world's portal keyblade, which every rule names, so that one
--- "$portal|<keyblade>" atom covers both modes. Oathkeeper's two worlds (Radiant
--- Garden, Data Battles) both open with Riku.
+-- Portal Unlocks = Party Members: the character opening each keyblade's world.
 PORTAL_PARTY_BY_KEYBLADE = {
     kb_heros_origin    = {"party_hercules"},
     kb_favorite_deputy = {"party_woody"},
@@ -190,13 +169,13 @@ local function portalOpen(keyblade)
     return hasCode(keyblade)
 end
 
--- Access rule helper: $portal|<portal keyblade> -> the world it opens is open.
+-- $portal|<keyblade>
 function portal(keyblade)
     if portalOpen(keyblade) then return 1 end
     return 0
 end
 
--- Access rule helper: $any_portal|<keyblade>|<keyblade>... -> any of those worlds is open.
+-- $any_portal|<keyblade>|...
 function any_portal(...)
     for _, keyblade in ipairs({...}) do
         if portalOpen(keyblade) then return 1 end
@@ -204,38 +183,29 @@ function any_portal(...)
     return 0
 end
 
--- Chestsanity: AP location id -> code of the keyblade the seed assigned to that
--- chest. Filled from slot_data on connect (autotracking.lua); empty when the
--- option is off, for chests that keep their own world's keyblade, and offline.
+-- Chestsanity: AP location id -> keyblade code, from slot_data.
 CHEST_KEYBLADE = {}
 
--- Access rule helper: $chest_keyblade|<AP location id>
+-- $chest_keyblade|<AP location id>
 function chest_keyblade(location_id)
     local keyblade = CHEST_KEYBLADE[tonumber(location_id)]
     if keyblade == nil or hasCode(keyblade) then return 1 end
     return 0
 end
 
--- Music chest Song Bonuses in this seed: AP location id -> true. Which chests
--- are music chests is the seed's draw, read from slot_data on connect
--- (autotracking.lua); offline, no Song Bonus is shown.
+-- Song Bonuses of the seed: AP location id -> true, from slot_data.
 SONG_BONUS = {}
 
--- Visibility helper: $song_bonus|<AP location id>
--- Offline the seed's music chests are unknown: the "Song Bonuses - Show All"
--- setting (song_bonus_all) shows every possible one instead.
+-- $song_bonus|<AP location id> (visibility; "Show All" setting when offline)
 function song_bonus(location_id)
     if SONG_BONUS[tonumber(location_id)] or hasCode("song_bonus_all") then return 1 end
     return 0
 end
 
--- World pools this seed sets to junk: pool display name -> true, read from
--- slot_data on connect (autotracking.lua); offline none is known.
+-- World pools set to junk: pool name -> true, from slot_data.
 JUNK_WORLD_POOLS = {}
 
--- Visibility helper: $photo_mission_shown|<World>|<World>...
--- The apworld omits a photo mission when any world its subject needs
--- (Workshop.PHOTO_MISSION_COMPLETION_WORLDS) is junk: it is not a check then.
+-- $photo_mission_shown|<World>|... (visibility: no photo mission for a junk world)
 function photo_mission_shown(...)
     for _, world in ipairs({...}) do
         if JUNK_WORLD_POOLS[world] then return 0 end
@@ -243,12 +213,10 @@ function photo_mission_shown(...)
     return 1
 end
 
--- Melody of Memory songs of this seed: song id -> code of the music chest it
--- opens (an authored Melody Chest or a converted vanilla chest), from slot_data.
+-- Melody of Memory: song id -> code of the music chest it opens, from slot_data.
 MOM_SONG_CHEST = {}
 
--- Access rule helper: $mom_song_open|<song id>
--- A song's section follows the chest it opens: in logic when that chest is.
+-- $mom_song_open|<song id>: in logic when its chest is.
 function mom_song_open(song_id)
     local code = MOM_SONG_CHEST[tonumber(song_id)]
     local chest = code and Tracker:FindObjectForCode(code)
@@ -258,8 +226,7 @@ function mom_song_open(song_id)
     return 0
 end
 
--- The tier gate counts open tier-one worlds: their keyblades, or in party-member
--- mode their characters ("Open tier-one worlds" in the AP world's Rules.py).
+-- Open tier-one worlds (keyblades, or characters with party portals).
 function count_tier_one_keyblades()
     local count = 0
     for _, keyblade in ipairs(TIER_ONE_KEYBLADE_CODES) do
@@ -273,8 +240,7 @@ function has_tier_one_keyblades()
     return 0
 end
 
--- Twilight Town portal also needs "Block OR Air Slide OR Dodge Roll"
--- (TWILIGHT_TOWN_PORTAL_LOGIC_REQUIREMENTS from the AP world): any one of them.
+-- Twilight Town also needs Block, Air Slide or Dodge Roll.
 DEFENSIVE_CODES = {"ability_block", "ability_air_slide", "ability_dodge_roll"}
 
 function has_twilight_town_combat()
@@ -286,11 +252,7 @@ function has_any_two_defensive()
     return has_twilight_town_combat()
 end
 
--- The Caribbean portal also needs "Air Slide OR Dodge Roll OR Glide OR
--- Blizzard" (THE_CARIBBEAN_PORTAL_LOGIC_REQUIREMENTS from the AP world) --
--- one safety tool to survive the open water before the world is reachable.
--- Blizzard is a spell, so that route also needs the Magic unlock (the AP world
--- adds it to every route that names a Magic: item).
+-- The Caribbean also needs Air Slide, Dodge Roll, Glide or Blizzard (+ Magic).
 CARIBBEAN_SAFETY_TOOL_CODES = {"ability_air_slide", "ability_dodge_roll", "ability_glide"}
 
 local function hasCaribbeanSafetyTool()
@@ -303,9 +265,7 @@ function has_caribbean_safety_tool()
     return 0
 end
 
--- Access rule helper: $keyblade_upgrade|<keyblade code>|<level>
--- A Moogle Workshop upgrade check needs its keyblade and, unless the seed starts
--- every keyblade at max, enough level items: the shared ones or that keyblade's own.
+-- $keyblade_upgrade|<keyblade code>|<level>
 function keyblade_upgrade(keyblade_code, level)
     if not hasCode(keyblade_code) then return 0 end
     local mode = keyblade_levels_mode()
@@ -315,7 +275,7 @@ function keyblade_upgrade(keyblade_code, level)
     return 0
 end
 
--- Generic helper: $has_any|code1|code2|...  -> 1 if any listed code is active
+-- $has_any|code|...
 function has_any(...)
     local codes = {...}
     for _, code in ipairs(codes) do
@@ -324,7 +284,7 @@ function has_any(...)
     return 0
 end
 
--- Generic helper: $has_at_least|N|code1|code2|... -> 1 if at least N are active
+-- $has_at_least|N|code|...
 function has_at_least(...)
     local args = {...}
     local needed = tonumber(args[1]) or 1
@@ -340,8 +300,7 @@ end
 -- Requirement route evaluation
 -- ============================================================
 
--- A route is a list of clauses; each clause is {codes={...}, count=N}.
--- The route is satisfied when every clause has at least `count` of its codes.
+-- A route is a list of clauses {codes={...}, count=N}, all required.
 local function routeSatisfied(route)
     for _, clause in ipairs(route) do
         if countCodes(clause.codes) < clause.count then
@@ -351,8 +310,7 @@ local function routeSatisfied(route)
     return true
 end
 
--- routes is a list of alternative routes; any one satisfied is enough.
--- An empty route list means no item requirement.
+-- Any one route is enough; no route means no requirement.
 local function anyRouteSatisfied(routes)
     if routes == nil or #routes == 0 then return true end
     for _, route in ipairs(routes) do
@@ -362,12 +320,10 @@ local function anyRouteSatisfied(routes)
 end
 
 -- ============================================================
--- World reachability (portal keyblade + tier gate)
+-- World reachability
 -- ============================================================
 
--- Since apworld 0.17.21 only Data Battles keeps the gate of
--- HIGHER_TIER_TIER_ONE_KEYBLADE_COUNT tier-one keyblades on top of its portal
--- keyblade; story worlds rely on their check-level combat requirements.
+-- Worlds that also need three tier-one worlds open.
 TIER_GATED_WORLDS = {
     ["Data Battles"] = true,
 }
@@ -380,7 +336,6 @@ local function worldReachable(world, keyblade)
     if world == "Twilight Town" and countCodes(DEFENSIVE_CODES) < 1 then
         return false
     end
-    -- The Keyblade Graveyard entrance also needs Attraction Flow.
     if world == "Keyblade Graveyard" and not hasCode("unlock_attraction_flow") then
         return false
     end
@@ -390,7 +345,6 @@ local function worldReachable(world, keyblade)
     return true
 end
 
--- PORTAL_KEYBLADE_REGION_LOCKS of the AP world, for the worlds a rule names.
 WORLD_PORTAL_KEYBLADES = {
     ["Olympus"]            = "kb_heros_origin",
     ["Twilight Town"]      = "kb_shooting_star",
@@ -405,8 +359,7 @@ WORLD_PORTAL_KEYBLADES = {
     ["Dark World"]         = "kb_oblivion",
 }
 
--- Access rule helper: $can_reach_any_world|World A|World B...
--- An adversary check only needs one world it appears in (Adversaries.ADVERSARY_WORLDS).
+-- $can_reach_any_world|<World>|...
 function can_reach_any_world(...)
     for _, world in ipairs({...}) do
         if worldReachable(world, WORLD_PORTAL_KEYBLADES[world]) then return 1 end
@@ -418,7 +371,7 @@ end
 -- Level Ups
 -- ============================================================
 
--- LEVEL_UP_XP_SOURCE_REGION_NAMES and their portal keyblades
+-- Worlds that give XP
 XP_SOURCE_WORLDS = {
     {world = "The Caribbean",     keyblade = "kb_wheel_of_fate"},
     {world = "Arendelle",         keyblade = "kb_crystal_snow"},
@@ -429,7 +382,7 @@ XP_SOURCE_WORLDS = {
     {world = "Twilight Town",     keyblade = "kb_shooting_star"},
 }
 
--- SCALED_STORY_LEVEL_CAPS_BY_XP_SOURCE_COUNT
+-- Highest level reachable with 1, 2, ... XP worlds
 LEVEL_CAPS = {3, 5, 8, 12, 15, 19, 22}
 
 function count_reachable_xp_sources()
@@ -442,7 +395,6 @@ function count_reachable_xp_sources()
     return count
 end
 
--- required_level_up_xp_source_count(level) from the AP world
 function required_xp_sources_for_level(level)
     local total = #XP_SOURCE_WORLDS
     if level < 2 then return total end
@@ -452,7 +404,7 @@ function required_xp_sources_for_level(level)
     return total
 end
 
--- Access rule helper: $can_reach_level|N
+-- $can_reach_level|N
 function can_reach_level(level)
     level = tonumber(level) or 0
     if count_reachable_xp_sources() >= required_xp_sources_for_level(level) then
@@ -461,12 +413,8 @@ function can_reach_level(level)
     return 0
 end
 
--- Access rule helper: $can_reach_level_gate|N
--- Required half of the level-up access rule. Leveling is grinding-bound, not hard-gated,
--- so a level should only be fully out of logic (red) while the previous level is itself
--- unreachable. Once the previous level is reachable, this level stays enabled and is
--- marked yellow (via the optional/bracketed can_reach_level|N rule) until its own,
--- stricter XP-source requirement is actually met.
+-- $can_reach_level_gate|N: red only while the previous level is out of reach,
+-- yellow (via [$can_reach_level|N]) until this one is in logic.
 function can_reach_level_gate(level)
     level = tonumber(level) or 0
     local prev = level - 1
@@ -478,7 +426,7 @@ end
 -- Lucky Emblems
 -- ============================================================
 
--- Auto-generated Lucky Emblem spot logic from AP world
+-- One entry per photographable spot, by global id
 LUCKY_EMBLEM_SPOTS = {
     {world="Olympus",keyblade="kb_heros_origin",routes={{{codes={"unlock_wall_run"},count=1}},{{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"ability_air_slide"},count=1}}}},
     {world="Olympus",keyblade="kb_heros_origin",routes={{{codes={"unlock_wall_run"},count=1}},{{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"ability_air_slide"},count=1}}}},
@@ -586,45 +534,34 @@ function count_reachable_lucky_emblems()
     return count
 end
 
--- Access rule helper: $can_reach_emblem_spot|N
--- Pin of the photographable spot with global id N (locations/lucky_emblem_spots.json).
+-- $can_reach_emblem_spot|<global id>
 function can_reach_emblem_spot(global_id)
     local spot = LUCKY_EMBLEM_SPOTS[tonumber(global_id) or 0]
     if spot and emblemSpotReachable(spot) then return 1 end
     return 0
 end
 
--- Access rule helper: $can_reach_emblem_milestone|N
+-- $can_reach_emblem_milestone|N
 function can_reach_emblem_milestone(required)
     required = tonumber(required) or 0
     if count_reachable_lucky_emblems() >= required then return 1 end
     return 0
 end
 
--- Ordered milestone thresholds as they appear in locations/lucky_emblems.json.
--- The apworld defines a check for every emblem count from 1 up to the total
--- spot count in data_from_ap/lucky_emblem_spots.json ("total": 90); which of
--- these are actually in logic for a given seed is a separate question, see
--- is_active_emblem_milestone below.
+-- One milestone per emblem count, 1 to 90
 EMBLEM_MILESTONES = {}
 for i = 1, 90 do
     EMBLEM_MILESTONES[i] = i
 end
 
--- The KH3 apworld's fixed set of milestones with real (non-filler) vanilla
--- rewards, used when the seed's "Lucky Emblems Per Check" option is 0
--- (vanilla). Mirrors Data.py's VANILLA_LUCKY_EMBLEM_MILESTONES.
+-- Milestones that are checks when Lucky Emblems Per Check is 0
 VANILLA_LUCKY_EMBLEM_MILESTONES = {
     [1] = true, [3] = true, [5] = true, [10] = true, [15] = true, [20] = true,
     [25] = true, [30] = true, [35] = true, [40] = true, [45] = true, [50] = true,
     [55] = true, [60] = true, [65] = true, [70] = true, [80] = true, [90] = true,
 }
 
--- Access rule helper: $is_active_emblem_milestone|N
--- Whether milestone N is actually a check for the connected seed: with
--- "Lucky Emblems Per Check" (lep_check) set to a positive N, every Nth emblem
--- is a check; at 0 (vanilla), only VANILLA_LUCKY_EMBLEM_MILESTONES are.
--- Mirrors Data.py's filter_locations_for_options Lucky Emblems branch.
+-- $is_active_emblem_milestone|N: every Nth emblem, or the vanilla milestones at 0
 function is_active_emblem_milestone(target)
     target = tonumber(target) or 0
     local lep_check_obj = Tracker:FindObjectForCode("lep_check")
@@ -637,12 +574,7 @@ function is_active_emblem_milestone(target)
     return 0
 end
 
--- Access rule helper: $can_reach_emblem_milestone_gate|N
--- Required half of the milestone access rule. Mirrors can_reach_level_gate: a milestone
--- is only fully out of logic (red) while the previous milestone is itself unreachable.
--- Once the previous milestone is reachable, this milestone stays enabled and is marked
--- yellow (via the optional/bracketed can_reach_emblem_milestone|N rule) until we've
--- actually explored enough of the currently-reachable worlds to hit its own count.
+-- $can_reach_emblem_milestone_gate|N: same idea as can_reach_level_gate
 function can_reach_emblem_milestone_gate(target)
     target = tonumber(target) or 0
     local prev = nil
@@ -658,15 +590,10 @@ function can_reach_emblem_milestone_gate(target)
 end
 
 -- ============================================================
--- Olympus Coliseum (third-party 1.4.2 pak)
+-- World completion (Olympus Coliseum, photo missions, Gummi zones)
 -- ============================================================
 
--- COLISEUM_WORLD_COMPLETION_SOURCES from the AP world: completing a world means
--- clearing its final encounter, so each entry pairs the world's portal keyblade
--- with the item routes of that encounter's location (its VICTORY_BONUS_ /
--- EVENT_LOGIC_REQUIREMENTS plus the earlier story encounters it depends on, as
--- the finished location rule the AP world queries). The Twilight Town and
--- Caribbean combat gates live in worldReachable, so those two carry no routes.
+-- A world is completed once its final fight is in logic.
 COLISEUM_WORLD_COMPLETION = {
     ["Olympus"]           = {keyblade="kb_heros_origin", routes={{{codes={"unlock_wall_run"},count=1}}}},
     ["Twilight Town"]     = {keyblade="kb_shooting_star", routes={}},
@@ -684,8 +611,7 @@ local function coliseumWorldComplete(world)
     return worldReachable(world, entry.keyblade) and anyRouteSatisfied(entry.routes)
 end
 
--- Access rule helper: $can_complete_coliseum_worlds|World A|World B
--- COLISEUM_CUP_REQUIRED_WORLDS is an AND, not a set of alternatives.
+-- $can_complete_coliseum_worlds|<World>|... (all of them)
 function can_complete_coliseum_worlds(...)
     local worlds = {...}
     for _, world in ipairs(worlds) do
@@ -694,9 +620,7 @@ function can_complete_coliseum_worlds(...)
     return 1
 end
 
--- Access rule helper: $can_reach_final_boss
--- COLISEUM_POSTGAME_CUP_IDS additionally require the base game to be cleared,
--- which AP expresses as the final door being reachable: the seed's goal items.
+-- $can_reach_final_boss: the goal items are collected
 function can_reach_final_boss()
     local goal_obj = Tracker:FindObjectForCode("goal")
     if goal_obj and goal_obj.CurrentStage == 1 then
@@ -713,9 +637,6 @@ end
 -- Classic Kingdom
 -- ============================================================
 
--- CLASSIC_KINGDOM_UNLOCK_ITEM_NAMES_BY_GAME_ID from the AP world, in LSIGAME
--- order. Each High Score check needs its own game; "Complete All Games" needs
--- every one of them.
 CLASSIC_KINGDOM_GAME_CODES = {
     "ck_giantland", "ck_mickey_the_mail_pilot", "ck_the_musical_farmer",
     "ck_building_a_building", "ck_the_mad_doctor", "ck_mickeys_kitten_catch",
@@ -727,7 +648,7 @@ CLASSIC_KINGDOM_GAME_CODES = {
     "ck_backyard_sports", "ck_mickey_steps_out",
 }
 
--- Access rule helper: $has_all_classic_kingdom_games
+-- $has_all_classic_kingdom_games
 function has_all_classic_kingdom_games()
     if countCodes(CLASSIC_KINGDOM_GAME_CODES) >= #CLASSIC_KINGDOM_GAME_CODES then
         return 1
@@ -739,8 +660,7 @@ end
 -- Gummi space (include_space)
 -- ============================================================
 
--- Space.LANDING_WORLDS: the nine worlds a Gummi ship can land on, with their portal
--- keyblade. Each is reachable under its hub entrance rule (worldReachable).
+-- Worlds a Gummi ship can land on
 local LANDING_WORLDS = {
     ["Olympus"]            = "kb_heros_origin",
     ["Twilight Town"]      = "kb_shooting_star",
@@ -753,7 +673,7 @@ local LANDING_WORLDS = {
     ["Keyblade Graveyard"] = "kb_starlight",
 }
 
--- Access rule helper: $space_all_worlds -> every landing world is reachable.
+-- $space_all_worlds
 function space_all_worlds()
     for world, keyblade in pairs(LANDING_WORLDS) do
         if not worldReachable(world, keyblade) then return 0 end
@@ -761,8 +681,7 @@ function space_all_worlds()
     return 1
 end
 
--- Space.WORLD_COMPLETIONS_BY_ZONE: a zone opens with its travel blueprint once
--- that many main worlds (COLISEUM_WORLD_COMPLETION) are completed.
+-- Completed worlds a zone needs, on top of its blueprint
 local SPACE_ZONE_COMPLETIONS = {
     space_starlight_way = 1,
     space_misty_stream  = 2,
@@ -782,13 +701,13 @@ local function spaceZoneOpen(zone_code)
     return needed ~= nil and hasCode(zone_code) and completedMainWorlds() >= needed
 end
 
--- Access rule helper: $space_zone_open|<zone code> -> that zone can be flown in.
+-- $space_zone_open|<zone code>
 function space_zone_open(zone_code)
     if spaceZoneOpen(zone_code) then return 1 end
     return 0
 end
 
--- Access rule helper: $space_open_zones|N -> at least N zones can be flown in.
+-- $space_open_zones|N
 function space_open_zones(needed)
     local count = 0
     for zone_code, _ in pairs(SPACE_ZONE_COMPLETIONS) do
@@ -798,10 +717,7 @@ function space_open_zones(needed)
     return 0
 end
 
--- Access rule helper: $space_special_weapons|N
--- The native shop sells two weapons that never reach the pool: Trinity Fire unlocks on
--- Twilight Town arrival and Decoy Duckies once Monstropolis is completed. They count
--- next to the 11 randomized special weapons.
+-- $space_special_weapons|N (the shop adds Trinity Fire and Decoy Duckies)
 function space_special_weapons(needed)
     local count = Tracker:ProviderCountForCode("space_special_weapon")
     if worldReachable("Twilight Town", LANDING_WORLDS["Twilight Town"]) then count = count + 1 end

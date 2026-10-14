@@ -15,9 +15,7 @@ Tracker:AddLocations("locations/the_caribbean_chests.json")
 Tracker:AddLocations("locations/the_caribbean_events.json")
 Tracker:AddLocations("locations/san_fransokyo_chests.json")
 Tracker:AddLocations("locations/san_fransokyo_events.json")
--- "San Fransokyo Events" pin position differs between the light/dark map
--- images, so it's loaded from a variant-specific file and attached back to
--- the "San Fransokyo - Events" parent above via "parent".
+-- The San Fransokyo event pins sit differently on the light and dark maps.
 if Tracker.ActiveVariantUID == "dark_vertical" or Tracker.ActiveVariantUID == "dark_horizontal" then
     Tracker:AddLocations("locations/san_fransokyo_events_dark.json")
 else

@@ -1,13 +1,6 @@
--- Keyblade Upgrade Sanity: the Keyblades grid (layouts/keyblades_levels.json)
--- shows one clickable cell per keyblade instead of its toggle. A cell walks one
--- scale -- not owned, owned, then 1 to 10 level items -- with a left click going
--- one step up and a right click one step down. Pandora's Power and Ultima Weapon
--- have no keyblade to own (no Workshop upgrade check), so their cells only count
--- levels. A cell keeps no state of its own: it reads and writes the keyblade
--- toggle and its level counter, so the autotracker and the logic keep using those.
--- The number shown is the level as the apworld counts it ("Level 4" = 4 level
--- items), and a keyblade is level 1 before any: 0 and 1 item both show 1.
--- LuaItems must exist before a layout places them: load this before the layouts.
+-- Keyblade upgrade sanity: one cell per keyblade, from not owned up to 10 level
+-- items. Left click +1, right click -1. The cells only drive the keyblade toggle
+-- and its level counter. Pandora's Power and Ultima Weapon only count levels.
 
 local MAX_KEYBLADE_LEVEL = 10
 
@@ -31,13 +24,11 @@ local KEYBLADE_ICONS = {
     ultima_weapon      = "images/items/keyblades/Ultima.png",
 }
 
--- Level-only cells: {suffix, name}.
 local LEVEL_ONLY_CELLS = {
     {"pandoras_power", "Pandora's Power"},
     {"ultima_weapon", "Ultima Weapon"},
 }
 
--- "kb_ever_after" -> "ever_after", "kingdom_key" -> "kingdom_key"
 local function keybladeSuffix(keyblade_code)
     return (keyblade_code:gsub("^kb_", ""))
 end
@@ -62,7 +53,6 @@ local function makeCell(suffix, keyblade_code, name)
     item.Name = name
     item.Icon = ImageReference:FromPackRelativePath(KEYBLADE_ICONS[keyblade_code or suffix])
     item.CanProvideCodeFunc = function(self, code) return code == cell.code end
-    -- Placement only: ownership and levels stay with the keyblade and its counter.
     item.ProvidesCodeFunc = function(self, code) return false end
     item.OnLeftClickFunc = function(self)
         local kb = cell.keyblade and Tracker:FindObjectForCode(cell.keyblade)
