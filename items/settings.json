@@ -332,14 +332,14 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/items/Item.png",
+        "img": "images/items/Adversaries.png",
         "img_mods": "saturation|0",
         "codes": "adversaries_setting",
         "inherit_codes": false,
         "name": "Adversary Checks Off"
       },
       {
-        "img": "images/items/Item.png",
+        "img": "images/items/Adversaries.png",
         "codes": "adversaries_setting, active_adversaries",
         "inherit_codes": false,
         "name": "Adversary Checks On (first defeat of each enemy type)"
