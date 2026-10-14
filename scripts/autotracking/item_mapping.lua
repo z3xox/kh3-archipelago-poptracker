@@ -112,6 +112,8 @@ ITEM_MAPPING_BY_NAME = {
     ["Progressive Starlight Level"] = { code = "lvl_starlight", type = "consumable" },
     ["Progressive Oathkeeper Level"] = { code = "lvl_oathkeeper", type = "consumable" },
     ["Progressive Oblivion Level"] = { code = "lvl_oblivion", type = "consumable" },
+    ["Progressive Ultima Weapon Level"] = { code = "lvl_ultima_weapon", type = "consumable" },
+    ["Progressive Pandora's Power Level"] = { code = "lvl_pandoras_power", type = "consumable" },
     ["Unlock: Style Change"] = { code = "unlock_style_change", type = "toggle" },
     -- Classic Kingdom minigame unlocks. Each "<game> - High Score" check is
     -- gated on its own game, and "Complete All Games" on all 23 (Rules.py).

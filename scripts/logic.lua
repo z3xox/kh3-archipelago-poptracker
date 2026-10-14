@@ -47,6 +47,17 @@ function update_gimmick_layout()
     end
 end
 
+-- Pandora's Power and Ultima Weapon have no Workshop upgrade check, but keyblade
+-- upgrade sanity still shuffles their level items: a sixth Keyblades row shows
+-- their counters in that mode only.
+function update_keyblades_layout()
+    if keyblade_levels_mode() == KEYBLADE_LEVELS_PER_KEYBLADE then
+        Tracker:AddLayouts("layouts/keyblades_levels.json")
+    else
+        Tracker:AddLayouts("layouts/keyblades.json")
+    end
+end
+
 -- The keyblades that have a Moogle Workshop upgrade check, by their tracker code.
 KEYBLADE_LEVEL_KEYBLADES = {
     "kingdom_key", "kb_shooting_star", "kb_heros_origin", "kb_favorite_deputy", "kb_ever_after",

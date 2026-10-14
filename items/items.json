@@ -896,5 +896,25 @@
     "max_quantity": 10,
     "initial_quantity": 0,
     "increment": 1
+  },
+  {
+    "name": "Pandora's Power Level",
+    "type": "consumable",
+    "codes": "lvl_pandoras_power",
+    "img": "images/items/keyblades/Pandora.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
+  },
+  {
+    "name": "Ultima Weapon Level",
+    "type": "consumable",
+    "codes": "lvl_ultima_weapon",
+    "img": "images/items/keyblades/Ultima.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1
   }
 ]

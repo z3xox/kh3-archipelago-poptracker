@@ -61,6 +61,10 @@ update_gimmick_layout()
 ScriptHost:AddWatchForCode("gimmick_layout_watch", "style_change_setting", update_gimmick_layout)
 ScriptHost:AddWatchForCode("gimmick_layout_levels_watch", "keyblade_levels_setting", update_gimmick_layout)
 
+-- Keyblade Upgrade Sanity adds a Keyblades row for the Pandora's Power / Ultima Weapon levels
+update_keyblades_layout()
+ScriptHost:AddWatchForCode("keyblades_layout_levels_watch", "keyblade_levels_setting", update_keyblades_layout)
+
 -- Per-keyblade levels (Keyblade Upgrade Sanity) are drawn over the keyblade icons
 update_keyblade_level_overlays()
 ScriptHost:AddWatchForCode("keyblade_level_overlay_mode_watch", "keyblade_levels_setting", update_keyblade_level_overlays)
