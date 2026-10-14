@@ -326,6 +326,27 @@
     ]
   },
   {
+    "name": "Adversaries",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Item.png",
+        "img_mods": "saturation|0",
+        "codes": "adversaries_setting",
+        "inherit_codes": false,
+        "name": "Adversary Checks Off"
+      },
+      {
+        "img": "images/items/Item.png",
+        "codes": "adversaries_setting, active_adversaries",
+        "inherit_codes": false,
+        "name": "Adversary Checks On (first defeat of each enemy type)"
+      }
+    ]
+  },
+  {
     "name": "Music Chest Count",
     "img": "images/items/Symphony of Sorcery.png",
     "overlay_font_size": 21,

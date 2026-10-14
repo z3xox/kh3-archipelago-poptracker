@@ -3,6 +3,56 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 OVERWORLD_SECTION_MAP = {
+    -- BEGIN generated: adversaries (scripts/tools/generate_adversary_locations.py)
+    ["Adversaries - Shadow"] = {"@Adversaries - Keyblade Graveyard/Adversaries - Shadow", "@Adversaries - Kingdom of Corona/Adversaries - Shadow", "@Adversaries - Olympus/Adversaries - Shadow", "@Adversaries - Re Mind/Adversaries - Shadow", "@Adversaries - San Fransokyo/Adversaries - Shadow", "@Adversaries - Toy Box/Adversaries - Shadow", "@Adversaries - Twilight Town/Adversaries - Shadow"},
+    ["Adversaries - Neoshadow"] = {"@Adversaries - Re Mind/Adversaries - Neoshadow", "@Adversaries - San Fransokyo/Adversaries - Neoshadow", "@Adversaries - Twilight Town/Adversaries - Neoshadow"},
+    ["Adversaries - Fluttering"] = {"@Adversaries - Arendelle/Adversaries - Fluttering", "@Adversaries - Keyblade Graveyard/Adversaries - Fluttering", "@Adversaries - Kingdom of Corona/Adversaries - Fluttering", "@Adversaries - Monstropolis/Adversaries - Fluttering"},
+    ["Adversaries - Flame Core"] = {"@Adversaries - Monstropolis/Adversaries - Flame Core", "@Adversaries - Olympus/Adversaries - Flame Core", "@Adversaries - Re Mind/Adversaries - Flame Core"},
+    ["Adversaries - Water Core"] = {"@Adversaries - Kingdom of Corona/Adversaries - Water Core", "@Adversaries - Monstropolis/Adversaries - Water Core", "@Adversaries - Olympus/Adversaries - Water Core", "@Adversaries - Re Mind/Adversaries - Water Core"},
+    ["Adversaries - Earth Core"] = {"@Adversaries - Kingdom of Corona/Adversaries - Earth Core", "@Adversaries - Olympus/Adversaries - Earth Core", "@Adversaries - The Caribbean/Adversaries - Earth Core"},
+    ["Adversaries - Soldier"] = {"@Adversaries - Arendelle/Adversaries - Soldier", "@Adversaries - Monstropolis/Adversaries - Soldier", "@Adversaries - Olympus/Adversaries - Soldier", "@Adversaries - San Fransokyo/Adversaries - Soldier"},
+    ["Adversaries - High Soldier"] = {"@Adversaries - San Fransokyo/Adversaries - High Soldier"},
+    ["Adversaries - Air Soldier"] = {"@Adversaries - Keyblade Graveyard/Adversaries - Air Soldier", "@Adversaries - Olympus/Adversaries - Air Soldier"},
+    ["Adversaries - Large Body"] = {"@Adversaries - Monstropolis/Adversaries - Large Body", "@Adversaries - Olympus/Adversaries - Large Body", "@Adversaries - Toy Box/Adversaries - Large Body", "@Adversaries - Twilight Town/Adversaries - Large Body"},
+    ["Adversaries - Helmed Body"] = {"@Adversaries - Arendelle/Adversaries - Helmed Body", "@Adversaries - Re Mind/Adversaries - Helmed Body"},
+    ["Adversaries - Vermilion Samba"] = {"@Adversaries - Monstropolis/Adversaries - Vermilion Samba", "@Adversaries - Toy Box/Adversaries - Vermilion Samba", "@Adversaries - Twilight Town/Adversaries - Vermilion Samba"},
+    ["Adversaries - Marine Rumba"] = {"@Adversaries - Arendelle/Adversaries - Marine Rumba", "@Adversaries - Kingdom of Corona/Adversaries - Marine Rumba", "@Adversaries - Monstropolis/Adversaries - Marine Rumba", "@Adversaries - Re Mind/Adversaries - Marine Rumba"},
+    ["Adversaries - Gold Beat"] = {"@Adversaries - Arendelle/Adversaries - Gold Beat", "@Adversaries - Monstropolis/Adversaries - Gold Beat", "@Adversaries - San Fransokyo/Adversaries - Gold Beat", "@Adversaries - Toy Box/Adversaries - Gold Beat"},
+    ["Adversaries - Malachite Bolero"] = {"@Adversaries - Kingdom of Corona/Adversaries - Malachite Bolero", "@Adversaries - Re Mind/Adversaries - Malachite Bolero"},
+    ["Adversaries - Popcat"] = {"@Adversaries - Arendelle/Adversaries - Popcat", "@Adversaries - Olympus/Adversaries - Popcat", "@Adversaries - Re Mind/Adversaries - Popcat"},
+    ["Adversaries - Vitality Popcat"] = {"@Adversaries - Arendelle/Adversaries - Vitality Popcat", "@Adversaries - Re Mind/Adversaries - Vitality Popcat", "@Adversaries - Toy Box/Adversaries - Vitality Popcat"},
+    ["Adversaries - Magic Popcat"] = {"@Adversaries - Arendelle/Adversaries - Magic Popcat", "@Adversaries - Re Mind/Adversaries - Magic Popcat", "@Adversaries - Toy Box/Adversaries - Magic Popcat"},
+    ["Adversaries - Focus Popcat"] = {"@Adversaries - Arendelle/Adversaries - Focus Popcat", "@Adversaries - Re Mind/Adversaries - Focus Popcat", "@Adversaries - Toy Box/Adversaries - Focus Popcat"},
+    ["Adversaries - Munny Popcat"] = {"@Adversaries - Arendelle/Adversaries - Munny Popcat", "@Adversaries - Kingdom of Corona/Adversaries - Munny Popcat", "@Adversaries - Toy Box/Adversaries - Munny Popcat", "@Adversaries - Twilight Town/Adversaries - Munny Popcat"},
+    ["Adversaries - Bizarre Archer"] = {"@Adversaries - Kingdom of Corona/Adversaries - Bizarre Archer", "@Adversaries - Olympus/Adversaries - Bizarre Archer", "@Adversaries - Twilight Town/Adversaries - Bizarre Archer"},
+    ["Adversaries - Rock Troll"] = {"@Adversaries - Arendelle/Adversaries - Rock Troll", "@Adversaries - Keyblade Graveyard/Adversaries - Rock Troll", "@Adversaries - Olympus/Adversaries - Rock Troll"},
+    ["Adversaries - Satyr"] = {"@Adversaries - Arendelle/Adversaries - Satyr", "@Adversaries - Olympus/Adversaries - Satyr", "@Adversaries - Re Mind/Adversaries - Satyr"},
+    ["Adversaries - Mechanitaur"] = {"@Adversaries - San Fransokyo/Adversaries - Mechanitaur"},
+    ["Adversaries - Toy Trooper"] = {"@Adversaries - Toy Box/Adversaries - Toy Trooper"},
+    ["Adversaries - Pole Cannon"] = {"@Adversaries - San Fransokyo/Adversaries - Pole Cannon", "@Adversaries - Toy Box/Adversaries - Pole Cannon"},
+    ["Adversaries - Marionette"] = {"@Adversaries - Toy Box/Adversaries - Marionette"},
+    ["Adversaries - Powerwild"] = {"@Adversaries - Kingdom of Corona/Adversaries - Powerwild"},
+    ["Adversaries - Pogo Shovel"] = {"@Adversaries - Monstropolis/Adversaries - Pogo Shovel", "@Adversaries - San Fransokyo/Adversaries - Pogo Shovel"},
+    ["Adversaries - Parasol Beauty"] = {"@Adversaries - Arendelle/Adversaries - Parasol Beauty", "@Adversaries - Kingdom of Corona/Adversaries - Parasol Beauty"},
+    ["Adversaries - Chief Puff"] = {"@Adversaries - Kingdom of Corona/Adversaries - Chief Puff"},
+    ["Adversaries - Puffball"] = {"@Adversaries - Kingdom of Corona/Adversaries - Puffball"},
+    ["Adversaries - Winterhorn"] = {"@Adversaries - Arendelle/Adversaries - Winterhorn"},
+    ["Adversaries - Vaporfly"] = {"@Adversaries - The Caribbean/Adversaries - Vaporfly"},
+    ["Adversaries - Sea Sprite"] = {"@Adversaries - The Caribbean/Adversaries - Sea Sprite"},
+    ["Adversaries - Spear Lizard"] = {"@Adversaries - The Caribbean/Adversaries - Spear Lizard"},
+    ["Adversaries - Anchor Raider"] = {"@Adversaries - The Caribbean/Adversaries - Anchor Raider"},
+    ["Adversaries - Tireblade"] = {"@Adversaries - San Fransokyo/Adversaries - Tireblade"},
+    ["Adversaries - Dusk"] = {"@Adversaries - Arendelle/Adversaries - Dusk", "@Adversaries - Keyblade Graveyard/Adversaries - Dusk", "@Adversaries - Kingdom of Corona/Adversaries - Dusk", "@Adversaries - Re Mind/Adversaries - Dusk", "@Adversaries - Twilight Town/Adversaries - Dusk"},
+    ["Adversaries - Berserker"] = {"@Adversaries - Re Mind/Adversaries - Berserker"},
+    ["Adversaries - Gambler"] = {"@Adversaries - Re Mind/Adversaries - Gambler"},
+    ["Adversaries - Sorcerer"] = {"@Adversaries - Twilight Town/Adversaries - Sorcerer"},
+    ["Adversaries - Reaper"] = {"@Adversaries - Keyblade Graveyard/Adversaries - Reaper", "@Adversaries - Kingdom of Corona/Adversaries - Reaper"},
+    ["Adversaries - Ninja"] = {"@Adversaries - Arendelle/Adversaries - Ninja", "@Adversaries - Re Mind/Adversaries - Ninja"},
+    ["Adversaries - Flood"] = {"@Adversaries - Monstropolis/Adversaries - Flood"},
+    ["Adversaries - Flowersnake"] = {"@Adversaries - Monstropolis/Adversaries - Flowersnake"},
+    ["Adversaries - Spiked Turtletoad"] = {"@Adversaries - Keyblade Graveyard/Adversaries - Spiked Turtletoad", "@Adversaries - Monstropolis/Adversaries - Spiked Turtletoad"},
+    ["Adversaries - Turtletoad"] = {"@Adversaries - Monstropolis/Adversaries - Turtletoad"},
+    -- END generated: adversaries
     -- BEGIN generated: child checks (scripts/tools/generate_child_checks.py)
     ["10,000 Enemy Fight in The Keyblade Graveyard: The Badlands a - Reward 2"] = "@Keyblade Graveyard - All Checks/10,000 Enemy Fight in The Keyblade Graveyard: The Badlands a - Reward 2",
     ["10,000 Enemy Fight in The Keyblade Graveyard: The Badlands a - Reward 3"] = "@Keyblade Graveyard - All Checks/10,000 Enemy Fight in The Keyblade Graveyard: The Badlands a - Reward 3",
@@ -2038,6 +2088,9 @@ function autoFill(slot_data)
     -- Ingredients (top-level key, 0 = off, 1 = ingredientsanity, 2 = ingredientsanity+).
     -- The stage indices line up with the option's own values.
     setStage("ingredients_setting", slot_data["ingredients"] or 0)
+
+    -- Adversary Checks (top-level key, 0 = off, 1 = on; the apworld default is off)
+    setStage("adversaries_setting", (slot_data["adversary_checks"] or 0) ~= 0 and 1 or 0)
 
 
     -- Minigame max AP rank (top-level keys, 0 = junk, 1..4 = D..A, matching the

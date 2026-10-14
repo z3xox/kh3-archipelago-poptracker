@@ -390,6 +390,30 @@ local function worldReachable(world, keyblade)
     return true
 end
 
+-- PORTAL_KEYBLADE_REGION_LOCKS of the AP world, for the worlds a rule names.
+WORLD_PORTAL_KEYBLADES = {
+    ["Olympus"]            = "kb_heros_origin",
+    ["Twilight Town"]      = "kb_shooting_star",
+    ["Toy Box"]            = "kb_favorite_deputy",
+    ["Kingdom of Corona"]  = "kb_ever_after",
+    ["Monstropolis"]       = "kb_happy_gear",
+    ["Arendelle"]          = "kb_crystal_snow",
+    ["San Fransokyo"]      = "kb_nano_gear",
+    ["The Caribbean"]      = "kb_wheel_of_fate",
+    ["Keyblade Graveyard"] = "kb_starlight",
+    ["Re Mind"]            = "kingdom_key",
+    ["Dark World"]         = "kb_oblivion",
+}
+
+-- Access rule helper: $can_reach_any_world|World A|World B...
+-- An adversary check only needs one world it appears in (Adversaries.ADVERSARY_WORLDS).
+function can_reach_any_world(...)
+    for _, world in ipairs({...}) do
+        if worldReachable(world, WORLD_PORTAL_KEYBLADES[world]) then return 1 end
+    end
+    return 0
+end
+
 -- ============================================================
 -- Level Ups
 -- ============================================================

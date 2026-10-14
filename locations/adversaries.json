@@ -1,0 +1,961 @@
+[
+  {
+    "name": "Adversaries",
+    "access_rules": [
+      "active_adversaries"
+    ],
+    "visibility_rules": [
+      "active_adversaries"
+    ],
+    "children": [
+      {
+        "name": "Adversaries - First Defeats",
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona|Olympus|Re Mind|San Fransokyo|Toy Box|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Neoshadow",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Re Mind|San Fransokyo|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Fluttering",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Monstropolis"
+            ]
+          },
+          {
+            "name": "Adversaries - Flame Core",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Monstropolis|Olympus|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Water Core",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Kingdom of Corona|Monstropolis|Olympus|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Earth Core",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Kingdom of Corona|Olympus|The Caribbean"
+            ]
+          },
+          {
+            "name": "Adversaries - Soldier",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Monstropolis|Olympus|San Fransokyo"
+            ]
+          },
+          {
+            "name": "Adversaries - High Soldier",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|San Fransokyo"
+            ]
+          },
+          {
+            "name": "Adversaries - Air Soldier",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Keyblade Graveyard|Olympus"
+            ]
+          },
+          {
+            "name": "Adversaries - Large Body",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Monstropolis|Olympus|Toy Box|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Helmed Body",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Vermilion Samba",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Monstropolis|Toy Box|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Marine Rumba",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Kingdom of Corona|Monstropolis|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Gold Beat",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Monstropolis|San Fransokyo|Toy Box"
+            ]
+          },
+          {
+            "name": "Adversaries - Malachite Bolero",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Kingdom of Corona|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Popcat",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Olympus|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Vitality Popcat",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
+            ]
+          },
+          {
+            "name": "Adversaries - Magic Popcat",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
+            ]
+          },
+          {
+            "name": "Adversaries - Focus Popcat",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
+            ]
+          },
+          {
+            "name": "Adversaries - Munny Popcat",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Kingdom of Corona|Toy Box|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Bizarre Archer",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Kingdom of Corona|Olympus|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Rock Troll",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Keyblade Graveyard|Olympus"
+            ]
+          },
+          {
+            "name": "Adversaries - Satyr",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Olympus|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Mechanitaur",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|San Fransokyo"
+            ]
+          },
+          {
+            "name": "Adversaries - Toy Trooper",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Toy Box"
+            ]
+          },
+          {
+            "name": "Adversaries - Pole Cannon",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|San Fransokyo|Toy Box"
+            ]
+          },
+          {
+            "name": "Adversaries - Marionette",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Toy Box"
+            ]
+          },
+          {
+            "name": "Adversaries - Powerwild",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Adversaries - Pogo Shovel",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Monstropolis|San Fransokyo"
+            ]
+          },
+          {
+            "name": "Adversaries - Parasol Beauty",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Adversaries - Chief Puff",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Adversaries - Puffball",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Adversaries - Winterhorn",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle"
+            ]
+          },
+          {
+            "name": "Adversaries - Vaporfly",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|The Caribbean"
+            ]
+          },
+          {
+            "name": "Adversaries - Sea Sprite",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|The Caribbean"
+            ]
+          },
+          {
+            "name": "Adversaries - Spear Lizard",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|The Caribbean"
+            ]
+          },
+          {
+            "name": "Adversaries - Anchor Raider",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|The Caribbean"
+            ]
+          },
+          {
+            "name": "Adversaries - Tireblade",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|San Fransokyo"
+            ]
+          },
+          {
+            "name": "Adversaries - Dusk",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Re Mind|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Berserker",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Gambler",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Sorcerer",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Twilight Town"
+            ]
+          },
+          {
+            "name": "Adversaries - Reaper",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona"
+            ]
+          },
+          {
+            "name": "Adversaries - Ninja",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Arendelle|Re Mind"
+            ]
+          },
+          {
+            "name": "Adversaries - Flood",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Monstropolis"
+            ]
+          },
+          {
+            "name": "Adversaries - Flowersnake",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Monstropolis"
+            ]
+          },
+          {
+            "name": "Adversaries - Spiked Turtletoad",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Keyblade Graveyard|Monstropolis"
+            ]
+          },
+          {
+            "name": "Adversaries - Turtletoad",
+            "item_count": 1,
+            "access_rules": [
+              "$can_reach_any_world|Monstropolis"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 309,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Olympus",
+        "access_rules": [
+          "$can_reach_any_world|Olympus"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+          },
+          {
+            "name": "Adversaries - Flame Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core"
+          },
+          {
+            "name": "Adversaries - Water Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+          },
+          {
+            "name": "Adversaries - Earth Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core"
+          },
+          {
+            "name": "Adversaries - Soldier",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+          },
+          {
+            "name": "Adversaries - Air Soldier",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Air Soldier"
+          },
+          {
+            "name": "Adversaries - Large Body",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+          },
+          {
+            "name": "Adversaries - Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat"
+          },
+          {
+            "name": "Adversaries - Bizarre Archer",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer"
+          },
+          {
+            "name": "Adversaries - Rock Troll",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll"
+          },
+          {
+            "name": "Adversaries - Satyr",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 192,
+            "y": 234,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Twilight Town",
+        "access_rules": [
+          "$can_reach_any_world|Twilight Town"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+          },
+          {
+            "name": "Adversaries - Neoshadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow"
+          },
+          {
+            "name": "Adversaries - Large Body",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+          },
+          {
+            "name": "Adversaries - Vermilion Samba",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba"
+          },
+          {
+            "name": "Adversaries - Munny Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+          },
+          {
+            "name": "Adversaries - Bizarre Archer",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer"
+          },
+          {
+            "name": "Adversaries - Dusk",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+          },
+          {
+            "name": "Adversaries - Sorcerer",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Sorcerer"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 382,
+            "y": 396,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Toy Box",
+        "access_rules": [
+          "$can_reach_any_world|Toy Box"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+          },
+          {
+            "name": "Adversaries - Large Body",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+          },
+          {
+            "name": "Adversaries - Vermilion Samba",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba"
+          },
+          {
+            "name": "Adversaries - Gold Beat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+          },
+          {
+            "name": "Adversaries - Vitality Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat"
+          },
+          {
+            "name": "Adversaries - Magic Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat"
+          },
+          {
+            "name": "Adversaries - Focus Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat"
+          },
+          {
+            "name": "Adversaries - Munny Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+          },
+          {
+            "name": "Adversaries - Toy Trooper",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Toy Trooper"
+          },
+          {
+            "name": "Adversaries - Pole Cannon",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pole Cannon"
+          },
+          {
+            "name": "Adversaries - Marionette",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marionette"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 236,
+            "y": 400,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Kingdom of Corona",
+        "access_rules": [
+          "$can_reach_any_world|Kingdom of Corona"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+          },
+          {
+            "name": "Adversaries - Fluttering",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+          },
+          {
+            "name": "Adversaries - Water Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+          },
+          {
+            "name": "Adversaries - Earth Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core"
+          },
+          {
+            "name": "Adversaries - Marine Rumba",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+          },
+          {
+            "name": "Adversaries - Malachite Bolero",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Malachite Bolero"
+          },
+          {
+            "name": "Adversaries - Munny Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+          },
+          {
+            "name": "Adversaries - Bizarre Archer",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Bizarre Archer"
+          },
+          {
+            "name": "Adversaries - Powerwild",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Powerwild"
+          },
+          {
+            "name": "Adversaries - Parasol Beauty",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Parasol Beauty"
+          },
+          {
+            "name": "Adversaries - Chief Puff",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Chief Puff"
+          },
+          {
+            "name": "Adversaries - Puffball",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Puffball"
+          },
+          {
+            "name": "Adversaries - Dusk",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+          },
+          {
+            "name": "Adversaries - Reaper",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Reaper"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 440,
+            "y": 277,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Monstropolis",
+        "access_rules": [
+          "$can_reach_any_world|Monstropolis"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Fluttering",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+          },
+          {
+            "name": "Adversaries - Flame Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core"
+          },
+          {
+            "name": "Adversaries - Water Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+          },
+          {
+            "name": "Adversaries - Soldier",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+          },
+          {
+            "name": "Adversaries - Large Body",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Large Body"
+          },
+          {
+            "name": "Adversaries - Vermilion Samba",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vermilion Samba"
+          },
+          {
+            "name": "Adversaries - Marine Rumba",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+          },
+          {
+            "name": "Adversaries - Gold Beat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+          },
+          {
+            "name": "Adversaries - Pogo Shovel",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pogo Shovel"
+          },
+          {
+            "name": "Adversaries - Flood",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flood"
+          },
+          {
+            "name": "Adversaries - Flowersnake",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flowersnake"
+          },
+          {
+            "name": "Adversaries - Spiked Turtletoad",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spiked Turtletoad"
+          },
+          {
+            "name": "Adversaries - Turtletoad",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Turtletoad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 425,
+            "y": 365,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Arendelle",
+        "access_rules": [
+          "$can_reach_any_world|Arendelle"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Fluttering",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+          },
+          {
+            "name": "Adversaries - Soldier",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+          },
+          {
+            "name": "Adversaries - Helmed Body",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Helmed Body"
+          },
+          {
+            "name": "Adversaries - Marine Rumba",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+          },
+          {
+            "name": "Adversaries - Gold Beat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+          },
+          {
+            "name": "Adversaries - Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat"
+          },
+          {
+            "name": "Adversaries - Vitality Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat"
+          },
+          {
+            "name": "Adversaries - Magic Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat"
+          },
+          {
+            "name": "Adversaries - Focus Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat"
+          },
+          {
+            "name": "Adversaries - Munny Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Munny Popcat"
+          },
+          {
+            "name": "Adversaries - Rock Troll",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll"
+          },
+          {
+            "name": "Adversaries - Satyr",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr"
+          },
+          {
+            "name": "Adversaries - Parasol Beauty",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Parasol Beauty"
+          },
+          {
+            "name": "Adversaries - Winterhorn",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Winterhorn"
+          },
+          {
+            "name": "Adversaries - Dusk",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+          },
+          {
+            "name": "Adversaries - Ninja",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Ninja"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 171,
+            "y": 279,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - The Caribbean",
+        "access_rules": [
+          "$can_reach_any_world|The Caribbean"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Earth Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Earth Core"
+          },
+          {
+            "name": "Adversaries - Vaporfly",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vaporfly"
+          },
+          {
+            "name": "Adversaries - Sea Sprite",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Sea Sprite"
+          },
+          {
+            "name": "Adversaries - Spear Lizard",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spear Lizard"
+          },
+          {
+            "name": "Adversaries - Anchor Raider",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Anchor Raider"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 419,
+            "y": 232,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - San Fransokyo",
+        "access_rules": [
+          "$can_reach_any_world|San Fransokyo"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+          },
+          {
+            "name": "Adversaries - Neoshadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow"
+          },
+          {
+            "name": "Adversaries - Soldier",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Soldier"
+          },
+          {
+            "name": "Adversaries - High Soldier",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - High Soldier"
+          },
+          {
+            "name": "Adversaries - Gold Beat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gold Beat"
+          },
+          {
+            "name": "Adversaries - Mechanitaur",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Mechanitaur"
+          },
+          {
+            "name": "Adversaries - Pole Cannon",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pole Cannon"
+          },
+          {
+            "name": "Adversaries - Pogo Shovel",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Pogo Shovel"
+          },
+          {
+            "name": "Adversaries - Tireblade",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Tireblade"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 199,
+            "y": 373,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Keyblade Graveyard",
+        "access_rules": [
+          "$can_reach_any_world|Keyblade Graveyard"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+          },
+          {
+            "name": "Adversaries - Fluttering",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Fluttering"
+          },
+          {
+            "name": "Adversaries - Air Soldier",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Air Soldier"
+          },
+          {
+            "name": "Adversaries - Rock Troll",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Rock Troll"
+          },
+          {
+            "name": "Adversaries - Dusk",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+          },
+          {
+            "name": "Adversaries - Reaper",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Reaper"
+          },
+          {
+            "name": "Adversaries - Spiked Turtletoad",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Spiked Turtletoad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 382,
+            "y": 196,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Adversaries - Re Mind",
+        "access_rules": [
+          "$can_reach_any_world|Re Mind"
+        ],
+        "sections": [
+          {
+            "name": "Adversaries - Shadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Shadow"
+          },
+          {
+            "name": "Adversaries - Neoshadow",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Neoshadow"
+          },
+          {
+            "name": "Adversaries - Flame Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Flame Core"
+          },
+          {
+            "name": "Adversaries - Water Core",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Water Core"
+          },
+          {
+            "name": "Adversaries - Helmed Body",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Helmed Body"
+          },
+          {
+            "name": "Adversaries - Marine Rumba",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Marine Rumba"
+          },
+          {
+            "name": "Adversaries - Malachite Bolero",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Malachite Bolero"
+          },
+          {
+            "name": "Adversaries - Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Popcat"
+          },
+          {
+            "name": "Adversaries - Vitality Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Vitality Popcat"
+          },
+          {
+            "name": "Adversaries - Magic Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Magic Popcat"
+          },
+          {
+            "name": "Adversaries - Focus Popcat",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Focus Popcat"
+          },
+          {
+            "name": "Adversaries - Satyr",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Satyr"
+          },
+          {
+            "name": "Adversaries - Dusk",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Dusk"
+          },
+          {
+            "name": "Adversaries - Berserker",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Berserker"
+          },
+          {
+            "name": "Adversaries - Gambler",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Gambler"
+          },
+          {
+            "name": "Adversaries - Ninja",
+            "ref": "Adversaries/Adversaries - First Defeats/Adversaries - Ninja"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 228,
+            "y": 191,
+            "shape": "diamond"
+          }
+        ]
+      }
+    ]
+  }
+]
