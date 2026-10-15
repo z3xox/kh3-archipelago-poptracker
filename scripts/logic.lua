@@ -481,7 +481,7 @@ LUCKY_EMBLEM_SPOTS = {
     {world="Monstropolis",keyblade="kb_happy_gear",routes={{{codes={"unlock_wall_run"},count=1}},{{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"ability_air_slide"},count=1},{codes={"ability_doubleflight"},count=1}}}},
     {world="Monstropolis",keyblade="kb_happy_gear",routes={{{codes={"unlock_wall_run"},count=1}},{{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"ability_air_slide"},count=1},{codes={"ability_doubleflight"},count=1}}}},
     {world="Arendelle",keyblade="kb_crystal_snow",routes={{{codes={"unlock_wall_run"},count=1},{codes={"ability_pole_spin"},count=1}},{{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"ability_air_slide"},count=1},{codes={"ability_doubleflight"},count=1},{codes={"ability_pole_spin"},count=1}}}},
-    {world="Arendelle",keyblade="kb_crystal_snow",routes={{{codes={"unlock_wall_run"},count=1},{codes={"ability_pole_spin"},count=1}}}},
+    {world="Arendelle",keyblade="kb_crystal_snow",routes={{{codes={"unlock_wall_run"},count=1}}}},
     {world="Arendelle",keyblade="kb_crystal_snow",routes={{{codes={"ability_pole_spin"},count=1},{codes={"ability_air_slide"},count=1},{codes={"unlock_wall_run"},count=1}}}},
     {world="Arendelle",keyblade="kb_crystal_snow",routes={{{codes={"ability_pole_spin"},count=1},{codes={"ability_air_slide"},count=1},{codes={"unlock_wall_run"},count=1}}}},
     {world="Arendelle",keyblade="kb_crystal_snow",routes={{{codes={"ability_pole_spin"},count=1},{codes={"ability_air_slide"},count=1},{codes={"unlock_wall_run"},count=1}}}},
