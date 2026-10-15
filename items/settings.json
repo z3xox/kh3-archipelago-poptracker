@@ -124,12 +124,6 @@
     ]
   },
   {
-    "name": "Battlegates - Unsupported Reports",
-    "type": "toggle",
-    "codes": "active_unsupported_battlegates",
-    "img": "images/items/Battlegates.png"
-  },
-  {
     "name": "Re:Mind",
     "type": "progressive",
     "allow_disabled": false,

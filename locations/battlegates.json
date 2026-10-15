@@ -9,14 +9,11 @@
     ],
     "children": [
       {
-        "name": "Battlegate Reports - EVENT_REPORT_001a - RandomizedItem",
+        "name": "Olympus - Battlegate 1 - Realm of the Gods: Courtyard - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_001a - RandomizedItem",
+            "name": "Olympus - Battlegate 1 - Realm of the Gods: Courtyard - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
@@ -32,14 +29,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_002a - RandomizedItem",
+        "name": "Olympus - Battlegate 2 - Realm of the Gods: Apex - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_002a - RandomizedItem",
+            "name": "Olympus - Battlegate 2 - Realm of the Gods: Apex - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
@@ -55,17 +49,17 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_003a - RandomizedItem",
+        "name": "Twilight Town - Battlegate 3 - The Old Mansion - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_003a - RandomizedItem",
+            "name": "Twilight Town - Battlegate 3 - The Old Mansion - Report",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_shooting_star,$has_twilight_town_combat,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
             ]
           },
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_003b - RandomizedItem",
+            "name": "Twilight Town - Battlegate 3 - The Old Mansion - Reward",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_shooting_star,$has_twilight_town_combat,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic"
@@ -82,17 +76,17 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_004a - RandomizedItem",
+        "name": "Toy Box - Battlegate 4 - Galaxy Toys: Kid Korral - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_004a - RandomizedItem",
+            "name": "Toy Box - Battlegate 4 - Galaxy Toys: Kid Korral - Report",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_favorite_deputy,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run"
             ]
           },
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_004b - RandomizedItem",
+            "name": "Toy Box - Battlegate 4 - Galaxy Toys: Kid Korral - Reward",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_favorite_deputy,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic,unlock_wall_run"
@@ -109,17 +103,17 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_005a - RandomizedItem",
+        "name": "Toy Box - Battlegate 5 - Galaxy Toys: Main Floor: 1F - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_005a - RandomizedItem",
+            "name": "Toy Box - Battlegate 5 - Galaxy Toys: Main Floor: 1F - Report",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,unlock_wall_run"
             ]
           },
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_005b - RandomizedItem",
+            "name": "Toy Box - Battlegate 5 - Galaxy Toys: Main Floor: 1F - Reward",
             "item_count": 1,
             "access_rules": [
               "$portal|kb_favorite_deputy,ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,unlock_wall_run"
@@ -136,14 +130,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_006a - RandomizedItem",
+        "name": "Kingdom of Corona - Battlegate 6 - The Forest: Wetlands - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_006a - RandomizedItem",
+            "name": "Kingdom of Corona - Battlegate 6 - The Forest: Wetlands - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
@@ -159,14 +150,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_007a - RandomizedItem",
+        "name": "Kingdom of Corona - Battlegate 7 - The Forest: Hills - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_007a - RandomizedItem",
+            "name": "Kingdom of Corona - Battlegate 7 - The Forest: Hills - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
@@ -182,14 +170,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_008a - RandomizedItem",
+        "name": "Monstropolis - Battlegate 8 - The Power Plant: Tank Yard - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_008a - RandomizedItem",
+            "name": "Monstropolis - Battlegate 8 - The Power Plant: Tank Yard - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,ability_doubleflight,ability_superjump,ability_wall_kick,$has_any|ability_block|ability_dodge_roll",
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
@@ -206,14 +191,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_009a - RandomizedItem",
+        "name": "Arendelle - Battlegate 9 - The Labyrinth of Ice: Middle Tier - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_009a - RandomizedItem",
+            "name": "Arendelle - Battlegate 9 - The Labyrinth of Ice: Middle Tier - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_crystal_snow,ability_pole_spin,unlock_wall_run"
             ]
@@ -229,14 +211,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_010a - RandomizedItem",
+        "name": "The Caribbean - Battlegate 10 - The High Seas: Huddled Isles - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_010a - RandomizedItem",
+            "name": "The Caribbean - Battlegate 10 - The High Seas: Huddled Isles - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
             ]
@@ -252,14 +231,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_011a - RandomizedItem",
+        "name": "San Fransokyo - Battlegate 11 - The City: North District - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_011a - RandomizedItem",
+            "name": "San Fransokyo - Battlegate 11 - The City: North District - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
@@ -275,14 +251,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_012a - RandomizedItem",
+        "name": "San Fransokyo - Battlegate 12 - The City: Central District - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_012a - RandomizedItem",
+            "name": "San Fransokyo - Battlegate 12 - The City: Central District - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
@@ -298,14 +271,11 @@
         ]
       },
       {
-        "name": "Battlegate Reports - EVENT_REPORT_013a - RandomizedItem",
+        "name": "Keyblade Graveyard - Battlegate 13 - The Badlands - Report",
         "sections": [
           {
-            "name": "Battlegate Reports - EVENT_REPORT_013a - RandomizedItem",
+            "name": "Keyblade Graveyard - Battlegate 13 - The Badlands - Report",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,unlock_wall_run,unlock_attraction_flow"
             ]
@@ -321,14 +291,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_001b - RandomizedItem",
+        "name": "Olympus - Battlegate 1 - Realm of the Gods: Courtyard - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_001b - RandomizedItem",
+            "name": "Olympus - Battlegate 1 - Realm of the Gods: Courtyard - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
@@ -344,14 +311,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_002b - RandomizedItem",
+        "name": "Olympus - Battlegate 2 - Realm of the Gods: Apex - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_002b - RandomizedItem",
+            "name": "Olympus - Battlegate 2 - Realm of the Gods: Apex - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_heros_origin,unlock_wall_run"
             ]
@@ -367,14 +331,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_006b - RandomizedItem",
+        "name": "Kingdom of Corona - Battlegate 6 - The Forest: Wetlands - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_006b - RandomizedItem",
+            "name": "Kingdom of Corona - Battlegate 6 - The Forest: Wetlands - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
@@ -390,14 +351,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_007b - RandomizedItem",
+        "name": "Kingdom of Corona - Battlegate 7 - The Forest: Hills - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_007b - RandomizedItem",
+            "name": "Kingdom of Corona - Battlegate 7 - The Forest: Hills - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
@@ -413,14 +371,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_008b - RandomizedItem",
+        "name": "Monstropolis - Battlegate 8 - The Power Plant: Tank Yard - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_008b - RandomizedItem",
+            "name": "Monstropolis - Battlegate 8 - The Power Plant: Tank Yard - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,ability_doubleflight,ability_superjump,ability_wall_kick,$has_any|ability_block|ability_dodge_roll",
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_happy_gear,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
@@ -437,14 +392,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_009b - RandomizedItem",
+        "name": "Arendelle - Battlegate 9 - The Labyrinth of Ice: Middle Tier - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_009b - RandomizedItem",
+            "name": "Arendelle - Battlegate 9 - The Labyrinth of Ice: Middle Tier - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_crystal_snow,ability_pole_spin,unlock_wall_run"
             ]
@@ -460,14 +412,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_010b - RandomizedItem",
+        "name": "The Caribbean - Battlegate 10 - The High Seas: Huddled Isles - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_010b - RandomizedItem",
+            "name": "The Caribbean - Battlegate 10 - The High Seas: Huddled Isles - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_wheel_of_fate,$has_caribbean_safety_tool"
             ]
@@ -483,14 +432,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_011b - RandomizedItem",
+        "name": "San Fransokyo - Battlegate 11 - The City: North District - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_011b - RandomizedItem",
+            "name": "San Fransokyo - Battlegate 11 - The City: North District - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
@@ -506,14 +452,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_012b - RandomizedItem",
+        "name": "San Fransokyo - Battlegate 12 - The City: Central District - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_012b - RandomizedItem",
+            "name": "San Fransokyo - Battlegate 12 - The City: Central District - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
             ]
@@ -529,14 +472,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_013b - RandomizedItem",
+        "name": "Keyblade Graveyard - Battlegate 13 - The Badlands - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_013b - RandomizedItem",
+            "name": "Keyblade Graveyard - Battlegate 13 - The Badlands - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,unlock_wall_run,unlock_attraction_flow"
             ]
@@ -552,14 +492,11 @@
         ]
       },
       {
-        "name": "Battlegate Rewards - EVENT_REPORT_014 - RandomizedItem",
+        "name": "Keyblade Graveyard - Battlegate 14 - The Badlands - Reward",
         "sections": [
           {
-            "name": "Battlegate Rewards - EVENT_REPORT_014 - RandomizedItem",
+            "name": "Keyblade Graveyard - Battlegate 14 - The Badlands - Reward",
             "item_count": 1,
-            "visibility_rules": [
-              "active_unsupported_battlegates"
-            ],
             "access_rules": [
               "ability_block,ability_air_slide,cure:1,ability_dodge_roll,unlock_magic,$portal|kb_starlight,unlock_wall_run,unlock_attraction_flow"
             ]

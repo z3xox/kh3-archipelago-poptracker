@@ -20,6 +20,7 @@
       "Hide Junk Checks setting: hides the pools the seed sets to junk.",
       "Classic Kingdom, Party Members and Gummi Space only show when the seed uses them.",
       "Logic follows the apworld 0.17.21: only Data Battles need three tier-one worlds, Keyblade Graveyard needs Attraction Flow, Battlegates need their world's story, each photo mission needs its subject's world (and is hidden when that world is junk), two Arendelle Lucky Emblems need Pole Spin, Monstropolis' final fight no longer needs Links or a Heartbinder, and the 222 / 333 Soras rewards need the 10,000 Heartless fight.",
+      "Battlegates: all 27 reports and rewards are tracked and shown, not just reports 3 to 5, and the \"Battlegates - Unsupported Reports\" setting is gone. Each check now carries its apworld name (world, battlegate number and area) and has a new spot on the map.",
       "Fixed the checks after the Olympus Coliseum cups pointing one location off.",
       "Fixed Twilight Town (its Melody Chest, Trinity Fire) asking for three tier-one keyblades."
     ]

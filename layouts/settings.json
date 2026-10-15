@@ -61,8 +61,7 @@
         "classic_kingdom_setting",
         "ingredients_setting",
         "adversaries_setting",
-        "battlegates_setting",
-        "active_unsupported_battlegates"
+        "battlegates_setting"
       ],
       [
         "style_change_setting",
