@@ -22,8 +22,8 @@
         "map_locations": [
           {
             "map": "map_olympus_realm_of_the_gods",
-            "x": 420,
-            "y": 400,
+            "x": 538,
+            "y": 456,
             "shape": "diamond"
           }
         ]
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "map_olympus_realm_of_the_gods",
-            "x": 550,
-            "y": 140,
+            "x": 676,
+            "y": 14,
             "shape": "diamond"
           }
         ]
@@ -142,9 +142,9 @@
         ],
         "map_locations": [
           {
-            "map": "map_corona_marsh",
-            "x": 400,
-            "y": 150,
+            "map": "map_corona_campsite",
+            "x": 80,
+            "y": 155,
             "shape": "diamond"
           }
         ]
@@ -183,9 +183,9 @@
         ],
         "map_locations": [
           {
-            "map": "map_monstropolis_power_plant",
-            "x": 480,
-            "y": 560,
+            "map": "map_monstropolis_door_vault",
+            "x": 589,
+            "y": 387,
             "shape": "diamond"
           }
         ]
@@ -204,8 +204,8 @@
         "map_locations": [
           {
             "map": "map_arendelle_lab_middle",
-            "x": 140,
-            "y": 100,
+            "x": 261,
+            "y": 116,
             "shape": "diamond"
           }
         ]
@@ -224,8 +224,8 @@
         "map_locations": [
           {
             "map": "map_caribbean_huddled_isles",
-            "x": 580,
-            "y": 600,
+            "x": 617,
+            "y": 739,
             "shape": "diamond"
           }
         ]
@@ -244,8 +244,8 @@
         "map_locations": [
           {
             "map": "map_sanfransokyo",
-            "x": 150,
-            "y": 200,
+            "x": 86,
+            "y": 153,
             "shape": "diamond"
           }
         ]
@@ -264,8 +264,8 @@
         "map_locations": [
           {
             "map": "map_sanfransokyo",
-            "x": 545,
-            "y": 110,
+            "x": 563,
+            "y": 413,
             "shape": "diamond"
           }
         ]
@@ -284,8 +284,8 @@
         "map_locations": [
           {
             "map": "map_keyblade_graveyard",
-            "x": 120,
-            "y": 430,
+            "x": 76,
+            "y": 484,
             "shape": "diamond"
           }
         ]
@@ -304,8 +304,8 @@
         "map_locations": [
           {
             "map": "map_olympus_realm_of_the_gods",
-            "x": 420,
-            "y": 400,
+            "x": 538,
+            "y": 456,
             "shape": "diamond"
           }
         ]
@@ -324,8 +324,8 @@
         "map_locations": [
           {
             "map": "map_olympus_realm_of_the_gods",
-            "x": 550,
-            "y": 140,
+            "x": 676,
+            "y": 14,
             "shape": "diamond"
           }
         ]
@@ -343,9 +343,9 @@
         ],
         "map_locations": [
           {
-            "map": "map_corona_marsh",
-            "x": 400,
-            "y": 150,
+            "map": "map_corona_campsite",
+            "x": 80,
+            "y": 155,
             "shape": "diamond"
           }
         ]
@@ -384,9 +384,9 @@
         ],
         "map_locations": [
           {
-            "map": "map_monstropolis_power_plant",
-            "x": 480,
-            "y": 560,
+            "map": "map_monstropolis_door_vault",
+            "x": 589,
+            "y": 387,
             "shape": "diamond"
           }
         ]
@@ -405,8 +405,8 @@
         "map_locations": [
           {
             "map": "map_arendelle_lab_middle",
-            "x": 140,
-            "y": 100,
+            "x": 261,
+            "y": 116,
             "shape": "diamond"
           }
         ]
@@ -425,8 +425,8 @@
         "map_locations": [
           {
             "map": "map_caribbean_huddled_isles",
-            "x": 580,
-            "y": 600,
+            "x": 617,
+            "y": 739,
             "shape": "diamond"
           }
         ]
@@ -445,8 +445,8 @@
         "map_locations": [
           {
             "map": "map_sanfransokyo",
-            "x": 150,
-            "y": 200,
+            "x": 86,
+            "y": 153,
             "shape": "diamond"
           }
         ]
@@ -465,8 +465,8 @@
         "map_locations": [
           {
             "map": "map_sanfransokyo",
-            "x": 545,
-            "y": 110,
+            "x": 563,
+            "y": 413,
             "shape": "diamond"
           }
         ]
@@ -485,8 +485,8 @@
         "map_locations": [
           {
             "map": "map_keyblade_graveyard",
-            "x": 120,
-            "y": 430,
+            "x": 76,
+            "y": 484,
             "shape": "diamond"
           }
         ]
@@ -505,8 +505,8 @@
         "map_locations": [
           {
             "map": "map_keyblade_graveyard",
-            "x": 40,
-            "y": 480,
+            "x": 96,
+            "y": 116,
             "shape": "diamond"
           }
         ]
