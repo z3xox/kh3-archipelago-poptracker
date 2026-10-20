@@ -246,9 +246,9 @@
             "sections": [
               {
                 "name": "Tutorial emblem on a wall in Tram Common.",
-                "hosted_item": "lucky_emblem_spot_013",
+                "hosted_item": "lucky_emblem_spot_079",
                 "access_rules": [
-                  "$can_reach_emblem_spot|13"
+                  "$can_reach_emblem_spot|79"
                 ]
               }
             ],
@@ -265,9 +265,9 @@
             "sections": [
               {
                 "name": "On the roof of the moving tram in Tram Common.",
-                "hosted_item": "lucky_emblem_spot_014",
+                "hosted_item": "lucky_emblem_spot_080",
                 "access_rules": [
-                  "$can_reach_emblem_spot|14"
+                  "$can_reach_emblem_spot|80"
                 ]
               }
             ],
@@ -284,9 +284,9 @@
             "sections": [
               {
                 "name": "On a chimney above the Moogle Shop.",
-                "hosted_item": "lucky_emblem_spot_015",
+                "hosted_item": "lucky_emblem_spot_081",
                 "access_rules": [
-                  "$can_reach_emblem_spot|15"
+                  "$can_reach_emblem_spot|81"
                 ]
               }
             ],
@@ -303,9 +303,9 @@
             "sections": [
               {
                 "name": "On the outdoor movie screen between showings.",
-                "hosted_item": "lucky_emblem_spot_016",
+                "hosted_item": "lucky_emblem_spot_082",
                 "access_rules": [
-                  "$can_reach_emblem_spot|16"
+                  "$can_reach_emblem_spot|82"
                 ]
               }
             ],
@@ -322,9 +322,9 @@
             "sections": [
               {
                 "name": "Dinner plates on a rooftop, photographed from the north building.",
-                "hosted_item": "lucky_emblem_spot_017",
+                "hosted_item": "lucky_emblem_spot_083",
                 "access_rules": [
-                  "$can_reach_emblem_spot|17"
+                  "$can_reach_emblem_spot|83"
                 ]
               }
             ],
@@ -341,9 +341,9 @@
             "sections": [
               {
                 "name": "On the wooden door in The Woods.",
-                "hosted_item": "lucky_emblem_spot_018",
+                "hosted_item": "lucky_emblem_spot_084",
                 "access_rules": [
-                  "$can_reach_emblem_spot|18"
+                  "$can_reach_emblem_spot|84"
                 ]
               }
             ],
@@ -360,9 +360,9 @@
             "sections": [
               {
                 "name": "High on a wall reached by free running in The Woods.",
-                "hosted_item": "lucky_emblem_spot_019",
+                "hosted_item": "lucky_emblem_spot_085",
                 "access_rules": [
-                  "$can_reach_emblem_spot|19"
+                  "$can_reach_emblem_spot|85"
                 ]
               }
             ],
@@ -379,9 +379,9 @@
             "sections": [
               {
                 "name": "Sunbeam pattern on the south-facing side of the hill.",
-                "hosted_item": "lucky_emblem_spot_020",
+                "hosted_item": "lucky_emblem_spot_086",
                 "access_rules": [
-                  "$can_reach_emblem_spot|20"
+                  "$can_reach_emblem_spot|86"
                 ]
               }
             ],
@@ -398,9 +398,9 @@
             "sections": [
               {
                 "name": "On the south-facing side of the mansion's western outer wall.",
-                "hosted_item": "lucky_emblem_spot_021",
+                "hosted_item": "lucky_emblem_spot_087",
                 "access_rules": [
-                  "$can_reach_emblem_spot|21"
+                  "$can_reach_emblem_spot|87"
                 ]
               }
             ],
@@ -422,9 +422,9 @@
             "sections": [
               {
                 "name": "Halfway up the eastern wall shelves in Andy's room.",
-                "hosted_item": "lucky_emblem_spot_022",
+                "hosted_item": "lucky_emblem_spot_013",
                 "access_rules": [
-                  "$can_reach_emblem_spot|22"
+                  "$can_reach_emblem_spot|13"
                 ]
               }
             ],
@@ -441,9 +441,9 @@
             "sections": [
               {
                 "name": "On the corner of the garage roof.",
-                "hosted_item": "lucky_emblem_spot_023",
+                "hosted_item": "lucky_emblem_spot_014",
                 "access_rules": [
-                  "$can_reach_emblem_spot|23"
+                  "$can_reach_emblem_spot|14"
                 ]
               }
             ],
@@ -460,9 +460,9 @@
             "sections": [
               {
                 "name": "Leaf pattern on the front walkway, aligned from the front steps.",
-                "hosted_item": "lucky_emblem_spot_024",
+                "hosted_item": "lucky_emblem_spot_015",
                 "access_rules": [
-                  "$can_reach_emblem_spot|24"
+                  "$can_reach_emblem_spot|15"
                 ]
               }
             ],
@@ -479,9 +479,9 @@
             "sections": [
               {
                 "name": "On the back of the minivan outside Andy's house.",
-                "hosted_item": "lucky_emblem_spot_025",
+                "hosted_item": "lucky_emblem_spot_016",
                 "access_rules": [
-                  "$can_reach_emblem_spot|25"
+                  "$can_reach_emblem_spot|16"
                 ]
               }
             ],
@@ -498,9 +498,9 @@
             "sections": [
               {
                 "name": "Tape rolls hanging on the 1F wall.",
-                "hosted_item": "lucky_emblem_spot_026",
+                "hosted_item": "lucky_emblem_spot_017",
                 "access_rules": [
-                  "$can_reach_emblem_spot|26"
+                  "$can_reach_emblem_spot|17"
                 ]
               }
             ],
@@ -517,9 +517,9 @@
             "sections": [
               {
                 "name": "On the round display platform after breaking the toy display with a Gigas.",
-                "hosted_item": "lucky_emblem_spot_027",
+                "hosted_item": "lucky_emblem_spot_018",
                 "access_rules": [
-                  "$can_reach_emblem_spot|27"
+                  "$can_reach_emblem_spot|18"
                 ]
               }
             ],
@@ -536,9 +536,9 @@
             "sections": [
               {
                 "name": "On the lower vent path reached from the updraft; turn back after landing.",
-                "hosted_item": "lucky_emblem_spot_028",
+                "hosted_item": "lucky_emblem_spot_019",
                 "access_rules": [
-                  "$can_reach_emblem_spot|28"
+                  "$can_reach_emblem_spot|19"
                 ]
               }
             ],
@@ -555,9 +555,9 @@
             "sections": [
               {
                 "name": "On the UFO hatch below the 3F balcony.",
-                "hosted_item": "lucky_emblem_spot_029",
+                "hosted_item": "lucky_emblem_spot_020",
                 "access_rules": [
-                  "$can_reach_emblem_spot|29"
+                  "$can_reach_emblem_spot|20"
                 ]
               }
             ],
@@ -574,9 +574,9 @@
             "sections": [
               {
                 "name": "Disco ball pattern aligned from the north Julia display.",
-                "hosted_item": "lucky_emblem_spot_030",
+                "hosted_item": "lucky_emblem_spot_021",
                 "access_rules": [
-                  "$can_reach_emblem_spot|30"
+                  "$can_reach_emblem_spot|21"
                 ]
               }
             ],
@@ -593,9 +593,9 @@
             "sections": [
               {
                 "name": "At the base of the robot display on 3F.",
-                "hosted_item": "lucky_emblem_spot_031",
+                "hosted_item": "lucky_emblem_spot_022",
                 "access_rules": [
-                  "$can_reach_emblem_spot|31"
+                  "$can_reach_emblem_spot|22"
                 ]
               }
             ],
@@ -612,9 +612,9 @@
             "sections": [
               {
                 "name": "Logo and sticker pattern on boxes on 1F.",
-                "hosted_item": "lucky_emblem_spot_032",
+                "hosted_item": "lucky_emblem_spot_023",
                 "access_rules": [
-                  "$can_reach_emblem_spot|32"
+                  "$can_reach_emblem_spot|23"
                 ]
               }
             ],
@@ -636,9 +636,9 @@
             "sections": [
               {
                 "name": "Near the waterfall southeast of Rapunzel's tower, viewed from the tower top.",
-                "hosted_item": "lucky_emblem_spot_033",
+                "hosted_item": "lucky_emblem_spot_048",
                 "access_rules": [
-                  "$can_reach_emblem_spot|33"
+                  "$can_reach_emblem_spot|48"
                 ]
               }
             ],
@@ -655,9 +655,9 @@
             "sections": [
               {
                 "name": "Wall discoloration in the Marsh.",
-                "hosted_item": "lucky_emblem_spot_034",
+                "hosted_item": "lucky_emblem_spot_049",
                 "access_rules": [
-                  "$can_reach_emblem_spot|34"
+                  "$can_reach_emblem_spot|49"
                 ]
               }
             ],
@@ -674,9 +674,9 @@
             "sections": [
               {
                 "name": "On the side of a barrel in the Wetlands mine.",
-                "hosted_item": "lucky_emblem_spot_035",
+                "hosted_item": "lucky_emblem_spot_050",
                 "access_rules": [
-                  "$can_reach_emblem_spot|35"
+                  "$can_reach_emblem_spot|50"
                 ]
               }
             ],
@@ -693,9 +693,9 @@
             "sections": [
               {
                 "name": "On the end of a stone railing near the Kingdom entrance.",
-                "hosted_item": "lucky_emblem_spot_036",
+                "hosted_item": "lucky_emblem_spot_051",
                 "access_rules": [
-                  "$can_reach_emblem_spot|36"
+                  "$can_reach_emblem_spot|51"
                 ]
               }
             ],
@@ -712,9 +712,9 @@
             "sections": [
               {
                 "name": "On the side of the archway leading toward the dance area.",
-                "hosted_item": "lucky_emblem_spot_037",
+                "hosted_item": "lucky_emblem_spot_052",
                 "access_rules": [
-                  "$can_reach_emblem_spot|37"
+                  "$can_reach_emblem_spot|52"
                 ]
               }
             ],
@@ -731,9 +731,9 @@
             "sections": [
               {
                 "name": "On the large wooden door in the Thoroughfare.",
-                "hosted_item": "lucky_emblem_spot_038",
+                "hosted_item": "lucky_emblem_spot_053",
                 "access_rules": [
-                  "$can_reach_emblem_spot|38"
+                  "$can_reach_emblem_spot|53"
                 ]
               }
             ],
@@ -750,9 +750,9 @@
             "sections": [
               {
                 "name": "On the stone door frame at the tower base.",
-                "hosted_item": "lucky_emblem_spot_039",
+                "hosted_item": "lucky_emblem_spot_054",
                 "access_rules": [
-                  "$can_reach_emblem_spot|39"
+                  "$can_reach_emblem_spot|54"
                 ]
               }
             ],
@@ -769,9 +769,9 @@
             "sections": [
               {
                 "name": "Barrels and pallet against the wharf wall, aligned from farther back.",
-                "hosted_item": "lucky_emblem_spot_040",
+                "hosted_item": "lucky_emblem_spot_055",
                 "access_rules": [
-                  "$can_reach_emblem_spot|40"
+                  "$can_reach_emblem_spot|55"
                 ]
               }
             ],
@@ -788,9 +788,9 @@
             "sections": [
               {
                 "name": "In the brazier ashes at the top of the lighthouse.",
-                "hosted_item": "lucky_emblem_spot_041",
+                "hosted_item": "lucky_emblem_spot_056",
                 "access_rules": [
-                  "$can_reach_emblem_spot|41"
+                  "$can_reach_emblem_spot|56"
                 ]
               }
             ],
@@ -812,9 +812,9 @@
             "sections": [
               {
                 "name": "On a clipboard attached to one of the Laugh Floor desks.",
-                "hosted_item": "lucky_emblem_spot_042",
+                "hosted_item": "lucky_emblem_spot_037",
                 "access_rules": [
-                  "$can_reach_emblem_spot|42"
+                  "$can_reach_emblem_spot|37"
                 ]
               }
             ],
@@ -831,9 +831,9 @@
             "sections": [
               {
                 "name": "On the floor under the movable weighted clown.",
-                "hosted_item": "lucky_emblem_spot_043",
+                "hosted_item": "lucky_emblem_spot_038",
                 "access_rules": [
-                  "$can_reach_emblem_spot|43"
+                  "$can_reach_emblem_spot|38"
                 ]
               }
             ],
@@ -850,9 +850,9 @@
             "sections": [
               {
                 "name": "On a wall in the Door Vault upper level.",
-                "hosted_item": "lucky_emblem_spot_044",
+                "hosted_item": "lucky_emblem_spot_039",
                 "access_rules": [
-                  "$can_reach_emblem_spot|44"
+                  "$can_reach_emblem_spot|39"
                 ]
               }
             ],
@@ -869,9 +869,9 @@
             "sections": [
               {
                 "name": "Yellow doors in the far distance of the Door Vault.",
-                "hosted_item": "lucky_emblem_spot_045",
+                "hosted_item": "lucky_emblem_spot_040",
                 "access_rules": [
-                  "$can_reach_emblem_spot|45"
+                  "$can_reach_emblem_spot|40"
                 ]
               }
             ],
@@ -888,9 +888,9 @@
             "sections": [
               {
                 "name": "On the wall below a window on the Factory ground floor.",
-                "hosted_item": "lucky_emblem_spot_046",
+                "hosted_item": "lucky_emblem_spot_041",
                 "access_rules": [
-                  "$can_reach_emblem_spot|46"
+                  "$can_reach_emblem_spot|41"
                 ]
               }
             ],
@@ -907,9 +907,9 @@
             "sections": [
               {
                 "name": "Pink paint marks on the floor near the west wall.",
-                "hosted_item": "lucky_emblem_spot_047",
+                "hosted_item": "lucky_emblem_spot_042",
                 "access_rules": [
-                  "$can_reach_emblem_spot|47"
+                  "$can_reach_emblem_spot|42"
                 ]
               }
             ],
@@ -926,9 +926,9 @@
             "sections": [
               {
                 "name": "On the south wall of a machinery-filled hallway.",
-                "hosted_item": "lucky_emblem_spot_048",
+                "hosted_item": "lucky_emblem_spot_043",
                 "access_rules": [
-                  "$can_reach_emblem_spot|48"
+                  "$can_reach_emblem_spot|43"
                 ]
               }
             ],
@@ -945,9 +945,9 @@
             "sections": [
               {
                 "name": "On the side of the filing cabinets in the Accessway.",
-                "hosted_item": "lucky_emblem_spot_049",
+                "hosted_item": "lucky_emblem_spot_044",
                 "access_rules": [
-                  "$can_reach_emblem_spot|49"
+                  "$can_reach_emblem_spot|44"
                 ]
               }
             ],
@@ -964,9 +964,9 @@
             "sections": [
               {
                 "name": "Above the door frame outside the maintenance room.",
-                "hosted_item": "lucky_emblem_spot_050",
+                "hosted_item": "lucky_emblem_spot_045",
                 "access_rules": [
-                  "$can_reach_emblem_spot|50"
+                  "$can_reach_emblem_spot|45"
                 ]
               }
             ],
@@ -983,9 +983,9 @@
             "sections": [
               {
                 "name": "Pipe ends high on the wall, aligned from the northeast platform.",
-                "hosted_item": "lucky_emblem_spot_051",
+                "hosted_item": "lucky_emblem_spot_046",
                 "access_rules": [
-                  "$can_reach_emblem_spot|51"
+                  "$can_reach_emblem_spot|46"
                 ]
               }
             ],
@@ -1002,9 +1002,9 @@
             "sections": [
               {
                 "name": "Oil-stain pattern on the ground after the fires are cleared, photographed from the west balcony.",
-                "hosted_item": "lucky_emblem_spot_052",
+                "hosted_item": "lucky_emblem_spot_047",
                 "access_rules": [
-                  "$can_reach_emblem_spot|52"
+                  "$can_reach_emblem_spot|47"
                 ]
               }
             ],
@@ -1026,9 +1026,9 @@
             "sections": [
               {
                 "name": "On a tree south of the chest ledge reached from the Gorge.",
-                "hosted_item": "lucky_emblem_spot_053",
+                "hosted_item": "lucky_emblem_spot_057",
                 "access_rules": [
-                  "$can_reach_emblem_spot|53"
+                  "$can_reach_emblem_spot|57"
                 ]
               }
             ],
@@ -1045,9 +1045,9 @@
             "sections": [
               {
                 "name": "At the northeast end of a small bridge in the Middle Tier.",
-                "hosted_item": "lucky_emblem_spot_054",
+                "hosted_item": "lucky_emblem_spot_061",
                 "access_rules": [
-                  "$can_reach_emblem_spot|54"
+                  "$can_reach_emblem_spot|61"
                 ]
               }
             ],
@@ -1064,9 +1064,9 @@
             "sections": [
               {
                 "name": "At the end of a side path in the Lower Tier.",
-                "hosted_item": "lucky_emblem_spot_055",
+                "hosted_item": "lucky_emblem_spot_062",
                 "access_rules": [
-                  "$can_reach_emblem_spot|55"
+                  "$can_reach_emblem_spot|62"
                 ]
               }
             ],
@@ -1088,9 +1088,9 @@
             "sections": [
               {
                 "name": "Icy circle pattern on the wall next to the Middle Tier bridge.",
-                "hosted_item": "lucky_emblem_spot_056",
+                "hosted_item": "lucky_emblem_spot_063",
                 "access_rules": [
-                  "$can_reach_emblem_spot|56"
+                  "$can_reach_emblem_spot|63"
                 ]
               }
             ],
@@ -1112,9 +1112,9 @@
             "sections": [
               {
                 "name": "Rocks on the floor in the northwest room, aligned from the central high platform.",
-                "hosted_item": "lucky_emblem_spot_057",
+                "hosted_item": "lucky_emblem_spot_064",
                 "access_rules": [
-                  "$can_reach_emblem_spot|57"
+                  "$can_reach_emblem_spot|64"
                 ]
               }
             ],
@@ -1150,9 +1150,9 @@
             "sections": [
               {
                 "name": "On a packed-snow rock on a side ledge reached by running along the Frozen Wall.",
-                "hosted_item": "lucky_emblem_spot_059",
+                "hosted_item": "lucky_emblem_spot_065",
                 "access_rules": [
-                  "$can_reach_emblem_spot|59"
+                  "$can_reach_emblem_spot|65"
                 ]
               }
             ],
@@ -1169,9 +1169,9 @@
             "sections": [
               {
                 "name": "On the back side of the rock covered with spiky rime ice.",
-                "hosted_item": "lucky_emblem_spot_060",
+                "hosted_item": "lucky_emblem_spot_066",
                 "access_rules": [
-                  "$can_reach_emblem_spot|60"
+                  "$can_reach_emblem_spot|66"
                 ]
               }
             ],
@@ -1188,9 +1188,9 @@
             "sections": [
               {
                 "name": "On a small snowy ledge, photographed from the cliff to the south.",
-                "hosted_item": "lucky_emblem_spot_061",
+                "hosted_item": "lucky_emblem_spot_059",
                 "access_rules": [
-                  "$can_reach_emblem_spot|61"
+                  "$can_reach_emblem_spot|59"
                 ]
               }
             ],
@@ -1207,9 +1207,9 @@
             "sections": [
               {
                 "name": "Pattern made by the ends of stacked logs.",
-                "hosted_item": "lucky_emblem_spot_062",
+                "hosted_item": "lucky_emblem_spot_060",
                 "access_rules": [
-                  "$can_reach_emblem_spot|62"
+                  "$can_reach_emblem_spot|60"
                 ]
               }
             ],
@@ -1226,9 +1226,9 @@
             "sections": [
               {
                 "name": "Snow imprint on the back of a rock in the Foothills.",
-                "hosted_item": "lucky_emblem_spot_063",
+                "hosted_item": "lucky_emblem_spot_067",
                 "access_rules": [
-                  "$can_reach_emblem_spot|63"
+                  "$can_reach_emblem_spot|67"
                 ]
               }
             ],
@@ -1250,9 +1250,9 @@
             "sections": [
               {
                 "name": "On the rowboat near the Port Royal shore.",
-                "hosted_item": "lucky_emblem_spot_064",
+                "hosted_item": "lucky_emblem_spot_031",
                 "access_rules": [
-                  "$can_reach_emblem_spot|64"
+                  "$can_reach_emblem_spot|31"
                 ]
               }
             ],
@@ -1269,9 +1269,9 @@
             "sections": [
               {
                 "name": "Brick pattern on the archway under a Port Royal building.",
-                "hosted_item": "lucky_emblem_spot_065",
+                "hosted_item": "lucky_emblem_spot_032",
                 "access_rules": [
-                  "$can_reach_emblem_spot|65"
+                  "$can_reach_emblem_spot|32"
                 ]
               }
             ],
@@ -1288,9 +1288,9 @@
             "sections": [
               {
                 "name": "Light pattern on crates in the Seaport beach hut.",
-                "hosted_item": "lucky_emblem_spot_066",
+                "hosted_item": "lucky_emblem_spot_033",
                 "access_rules": [
-                  "$can_reach_emblem_spot|66"
+                  "$can_reach_emblem_spot|33"
                 ]
               }
             ],
@@ -1307,9 +1307,9 @@
             "sections": [
               {
                 "name": "On the back of the sign at the start of the pier.",
-                "hosted_item": "lucky_emblem_spot_067",
+                "hosted_item": "lucky_emblem_spot_034",
                 "access_rules": [
-                  "$can_reach_emblem_spot|67"
+                  "$can_reach_emblem_spot|34"
                 ]
               }
             ],
@@ -1326,9 +1326,9 @@
             "sections": [
               {
                 "name": "Rope piles on top of the fort's inner wall.",
-                "hosted_item": "lucky_emblem_spot_068",
+                "hosted_item": "lucky_emblem_spot_035",
                 "access_rules": [
-                  "$can_reach_emblem_spot|68"
+                  "$can_reach_emblem_spot|35"
                 ]
               }
             ],
@@ -1345,9 +1345,9 @@
             "sections": [
               {
                 "name": "On the ball and chain inside the prison cell.",
-                "hosted_item": "lucky_emblem_spot_069",
+                "hosted_item": "lucky_emblem_spot_036",
                 "access_rules": [
-                  "$can_reach_emblem_spot|69"
+                  "$can_reach_emblem_spot|36"
                 ]
               }
             ],
@@ -1364,9 +1364,9 @@
             "sections": [
               {
                 "name": "Large underwater rock pattern near the southeast cliffs of Isla Verdemontana.",
-                "hosted_item": "lucky_emblem_spot_070",
+                "hosted_item": "lucky_emblem_spot_024",
                 "access_rules": [
-                  "$can_reach_emblem_spot|70"
+                  "$can_reach_emblem_spot|24"
                 ]
               }
             ],
@@ -1383,9 +1383,9 @@
             "sections": [
               {
                 "name": "Three rocks in the island's southeast corner, aligned from the tall northern spire.",
-                "hosted_item": "lucky_emblem_spot_071",
+                "hosted_item": "lucky_emblem_spot_025",
                 "access_rules": [
-                  "$can_reach_emblem_spot|71"
+                  "$can_reach_emblem_spot|25"
                 ]
               }
             ],
@@ -1402,9 +1402,9 @@
             "sections": [
               {
                 "name": "Round rocks near the large southern arch, photographed from the ship.",
-                "hosted_item": "lucky_emblem_spot_072",
+                "hosted_item": "lucky_emblem_spot_026",
                 "access_rules": [
-                  "$can_reach_emblem_spot|72"
+                  "$can_reach_emblem_spot|26"
                 ]
               }
             ],
@@ -1421,9 +1421,9 @@
             "sections": [
               {
                 "name": "On a small sandy island west of the main island beach.",
-                "hosted_item": "lucky_emblem_spot_073",
+                "hosted_item": "lucky_emblem_spot_027",
                 "access_rules": [
-                  "$can_reach_emblem_spot|73"
+                  "$can_reach_emblem_spot|27"
                 ]
               }
             ],
@@ -1440,9 +1440,9 @@
             "sections": [
               {
                 "name": "On the side of a wrecked ship protruding from the water.",
-                "hosted_item": "lucky_emblem_spot_074",
+                "hosted_item": "lucky_emblem_spot_028",
                 "access_rules": [
-                  "$can_reach_emblem_spot|74"
+                  "$can_reach_emblem_spot|28"
                 ]
               }
             ],
@@ -1459,9 +1459,9 @@
             "sections": [
               {
                 "name": "Underwater cave entrance at Sandbar Isle.",
-                "hosted_item": "lucky_emblem_spot_075",
+                "hosted_item": "lucky_emblem_spot_029",
                 "access_rules": [
-                  "$can_reach_emblem_spot|75"
+                  "$can_reach_emblem_spot|29"
                 ]
               }
             ],
@@ -1478,9 +1478,9 @@
             "sections": [
               {
                 "name": "On the rock at the top of the central underwater spire.",
-                "hosted_item": "lucky_emblem_spot_076",
+                "hosted_item": "lucky_emblem_spot_030",
                 "access_rules": [
-                  "$can_reach_emblem_spot|76"
+                  "$can_reach_emblem_spot|30"
                 ]
               }
             ],
@@ -1502,9 +1502,9 @@
             "sections": [
               {
                 "name": "Yellow wires hanging on the wall in Hiro's Garage.",
-                "hosted_item": "lucky_emblem_spot_077",
+                "hosted_item": "lucky_emblem_spot_078",
                 "access_rules": [
-                  "$can_reach_emblem_spot|77"
+                  "$can_reach_emblem_spot|78"
                 ]
               }
             ],
@@ -1521,9 +1521,9 @@
             "sections": [
               {
                 "name": "Dark red bush pattern viewed from the chef statue northwest of it.",
-                "hosted_item": "lucky_emblem_spot_078",
+                "hosted_item": "lucky_emblem_spot_068",
                 "access_rules": [
-                  "$can_reach_emblem_spot|78"
+                  "$can_reach_emblem_spot|68"
                 ]
               }
             ],
@@ -1540,9 +1540,9 @@
             "sections": [
               {
                 "name": "Night-only spotlight pattern on an advertisement, photographed from the south building roof.",
-                "hosted_item": "lucky_emblem_spot_079",
+                "hosted_item": "lucky_emblem_spot_069",
                 "access_rules": [
-                  "$can_reach_emblem_spot|79"
+                  "$can_reach_emblem_spot|69"
                 ]
               }
             ],
@@ -1559,9 +1559,9 @@
             "sections": [
               {
                 "name": "On a statue fan, photographed from the building roof to the east.",
-                "hosted_item": "lucky_emblem_spot_080",
+                "hosted_item": "lucky_emblem_spot_070",
                 "access_rules": [
-                  "$can_reach_emblem_spot|80"
+                  "$can_reach_emblem_spot|70"
                 ]
               }
             ],
@@ -1578,9 +1578,9 @@
             "sections": [
               {
                 "name": "On the eastern side of a dome rooftop.",
-                "hosted_item": "lucky_emblem_spot_081",
+                "hosted_item": "lucky_emblem_spot_071",
                 "access_rules": [
-                  "$can_reach_emblem_spot|81"
+                  "$can_reach_emblem_spot|71"
                 ]
               }
             ],
@@ -1597,9 +1597,9 @@
             "sections": [
               {
                 "name": "On a roof beside vents that launch Sora upward.",
-                "hosted_item": "lucky_emblem_spot_082",
+                "hosted_item": "lucky_emblem_spot_072",
                 "access_rules": [
-                  "$can_reach_emblem_spot|82"
+                  "$can_reach_emblem_spot|72"
                 ]
               }
             ],
@@ -1616,9 +1616,9 @@
             "sections": [
               {
                 "name": "On top of the floating object above the city, near roof height.",
-                "hosted_item": "lucky_emblem_spot_083",
+                "hosted_item": "lucky_emblem_spot_073",
                 "access_rules": [
-                  "$can_reach_emblem_spot|83"
+                  "$can_reach_emblem_spot|73"
                 ]
               }
             ],
@@ -1635,9 +1635,9 @@
             "sections": [
               {
                 "name": "Stair discoloration in North District, aligned from the east.",
-                "hosted_item": "lucky_emblem_spot_084",
+                "hosted_item": "lucky_emblem_spot_074",
                 "access_rules": [
-                  "$can_reach_emblem_spot|84"
+                  "$can_reach_emblem_spot|74"
                 ]
               }
             ],
@@ -1654,9 +1654,9 @@
             "sections": [
               {
                 "name": "Stretch mark on the train tunnel wall, aligned from the west tunnel entrance barrier.",
-                "hosted_item": "lucky_emblem_spot_085",
+                "hosted_item": "lucky_emblem_spot_075",
                 "access_rules": [
-                  "$can_reach_emblem_spot|85"
+                  "$can_reach_emblem_spot|75"
                 ]
               }
             ],
@@ -1673,9 +1673,9 @@
             "sections": [
               {
                 "name": "On the side of a yellow parked car in North District.",
-                "hosted_item": "lucky_emblem_spot_086",
+                "hosted_item": "lucky_emblem_spot_076",
                 "access_rules": [
-                  "$can_reach_emblem_spot|86"
+                  "$can_reach_emblem_spot|76"
                 ]
               }
             ],
@@ -1692,9 +1692,9 @@
             "sections": [
               {
                 "name": "At the top of the antenna on the building spanning the train tunnel.",
-                "hosted_item": "lucky_emblem_spot_087",
+                "hosted_item": "lucky_emblem_spot_077",
                 "access_rules": [
-                  "$can_reach_emblem_spot|87"
+                  "$can_reach_emblem_spot|77"
                 ]
               }
             ],
