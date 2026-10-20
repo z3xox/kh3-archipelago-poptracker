@@ -118,22 +118,6 @@
           {
             "type": "group",
             "dock": "left",
-            "header": "Key Items",
-            "content": {
-              "type": "itemgrid",
-              "item_margin": "2,2",
-              "item_size": "36,36",
-              "rows": [
-                [
-                  "gummiphone",
-                  "secret_report"
-                ]
-              ]
-            }
-          },
-          {
-            "type": "group",
-            "dock": "left",
             "header": "Heartbinders",
             "content": {
               "type": "itemgrid",

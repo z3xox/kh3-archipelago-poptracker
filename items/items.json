@@ -72,12 +72,6 @@
     "overlay_font_size": 20
   },
   {
-    "name": "Gummiphone",
-    "type": "toggle",
-    "codes": "gummiphone",
-    "img": "images/items/Gummiphone.png"
-  },
-  {
     "name": "Starlight Way Ships",
     "type": "consumable",
     "codes": "space_starlight_way",
@@ -125,14 +119,6 @@
     "codes": "heart_piece",
     "max_quantity": 30,
     "img": "images/items/heart_piece.png",
-    "overlay_font_size": 24
-  },
-  {
-    "name": "Secret Report",
-    "type": "consumable",
-    "codes": "secret_report",
-    "max_quantity": 13,
-    "img": "images/items/Secret_Report.png",
     "overlay_font_size": 24
   },
   {
