@@ -907,7 +907,6 @@ OVERWORLD_SECTION_MAP = {
     ["Olympus Coliseum - KH3 - Apollo Cup Clear"] = "@Olympus Coliseum - All Checks/Olympus Coliseum - KH3 - Apollo Cup Clear",
     ["Olympus Coliseum - KH3 - Athena Cup Clear"] = "@Olympus Coliseum - All Checks/Olympus Coliseum - KH3 - Athena Cup Clear",
     ["Olympus Coliseum - KH3 - Zeus Cup Clear"] = "@Olympus Coliseum - All Checks/Olympus Coliseum - KH3 - Zeus Cup Clear",
-    ["Olympus Coliseum - Secret - Sephiroth Match Clear"] = "@Olympus Coliseum - All Checks/Olympus Coliseum - Secret - Sephiroth Match Clear",
     ["Olympus Coliseum - Apro - Chef Cup Clear"] = "@Olympus Coliseum - All Checks/Olympus Coliseum - Apro - Chef Cup Clear",
     ["Olympus Coliseum - Apro - Flan Cup Clear"] = "@Olympus Coliseum - All Checks/Olympus Coliseum - Apro - Flan Cup Clear",
     ["Olympus Coliseum - Apro - The Story So Far Cup Clear"] = "@Olympus Coliseum - All Checks/Olympus Coliseum - Apro - The Story So Far Cup Clear",

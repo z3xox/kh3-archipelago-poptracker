@@ -25,7 +25,8 @@
       "Fixed the checks after the Olympus Coliseum cups pointing one location off.",
       "Fixed Twilight Town (its Melody Chest, Trinity Fire) asking for three tier-one keyblades.",
       "Fixed Sora levels 51 to 99 missing from the Overworld's Level Ups pin.",
-      "Yozora's two checks (Unreality) were on no map: they get their own pin in the middle of the Overworld, shown only when the seed randomizes the Unreality pool (hidden by default, since it defaults to junk)."
+      "Yozora's two checks (Unreality) were on no map: they get their own pin in the middle of the Overworld, shown only when the seed randomizes the Unreality pool (hidden by default, since it defaults to junk).",
+      "Removed the Olympus Coliseum's Sephiroth match, which the apworld no longer has as a check."
     ]
   },
   {
