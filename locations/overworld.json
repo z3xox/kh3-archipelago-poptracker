@@ -3673,6 +3673,32 @@
             ]
           },
           {
+            "name": "Unreality - All Checks",
+            "sections": [
+              {
+                "name": "Unreality - EVENT_KEYITEM_005 - RandomizedItem",
+                "ref": "Unreality - Yozora/Unreality - EVENT_KEYITEM_005 - RandomizedItem"
+              },
+              {
+                "name": "Unreality - EVENT_YOZORA_001 - RandomizedItem",
+                "ref": "Unreality - Yozora/Unreality - EVENT_YOZORA_001 - RandomizedItem"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_overworld",
+                "x": 308,
+                "y": 300
+              }
+            ],
+            "access_rules": [
+              "active_unreality"
+            ],
+            "visibility_rules": [
+              "active_unreality"
+            ]
+          },
+          {
             "name": "Radiant Garden - All Checks",
             "sections": [
               {

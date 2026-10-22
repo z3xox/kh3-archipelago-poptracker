@@ -229,32 +229,6 @@
             ]
           },
           {
-            "name": "Unreality - Yozora",
-            "sections": [
-              {
-                "name": "Unreality - EVENT_KEYITEM_005 - RandomizedItem",
-                "item_count": 1,
-                "access_rules": [
-                  "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic"
-                ]
-              },
-              {
-                "name": "Unreality - EVENT_YOZORA_001 - RandomizedItem",
-                "item_count": 1,
-                "access_rules": [
-                  "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic"
-                ]
-              }
-            ],
-            "map_locations": [],
-            "visibility_rules": [
-              "active_unreality"
-            ],
-            "access_rules": [
-              "active_unreality"
-            ]
-          },
-          {
             "name": "Re Mind - Chest 1 (Large Chest, The Stairway to the Sky)",
             "sections": [
               {
@@ -520,6 +494,32 @@
     ],
     "visibility_rules": [
       "active_remind"
+    ]
+  },
+  {
+    "name": "Unreality - Yozora",
+    "sections": [
+      {
+        "name": "Unreality - EVENT_KEYITEM_005 - RandomizedItem",
+        "item_count": 1,
+        "access_rules": [
+          "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic"
+        ]
+      },
+      {
+        "name": "Unreality - EVENT_YOZORA_001 - RandomizedItem",
+        "item_count": 1,
+        "access_rules": [
+          "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_magic"
+        ]
+      }
+    ],
+    "map_locations": [],
+    "visibility_rules": [
+      "active_unreality"
+    ],
+    "access_rules": [
+      "active_unreality"
     ]
   }
 ]

@@ -1456,6 +1456,8 @@ OVERWORLD_SECTION_MAP = {
     ["Re Mind - Chest 7 (Small Chest, Breezy Quarter)"] = "@Re Mind - All Checks/Re Mind - Chest 7 (Small Chest, Breezy Quarter)",
     ["Re Mind - Chest 8 (Small Chest, Breezy Quarter)"] = "@Re Mind - All Checks/Re Mind - Chest 8 (Small Chest, Breezy Quarter)",
     ["Re Mind - Chest 9 (Small Chest, Breezy Quarter)"] = "@Re Mind - All Checks/Re Mind - Chest 9 (Small Chest, Breezy Quarter)",
+    ["Unreality - EVENT_KEYITEM_005 - RandomizedItem"] = "@Unreality - All Checks/Unreality - EVENT_KEYITEM_005 - RandomizedItem",
+    ["Unreality - EVENT_YOZORA_001 - RandomizedItem"] = "@Unreality - All Checks/Unreality - EVENT_YOZORA_001 - RandomizedItem",
     -- Data Battles (under Radiant Garden overworld node)
     ["Data Battles - EVENT_DATAB_001 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_001 - RandomizedItem",
     ["Data Battles - EVENT_DATAB_002 - RandomizedItem"] = "@Radiant Garden - All Checks/Data Battles - EVENT_DATAB_002 - RandomizedItem",
@@ -1934,6 +1936,10 @@ function ApplyPoolSettings()
     }
     for _, entry in ipairs(RANDOMIZER_POOL_SETTINGS) do
         setStage(entry[1], shown(pools[entry[2]], 2))
+    end
+    -- Yozora is an optional superboss: a junk Unreality stays hidden, junk checks shown or not.
+    if pools["Unreality"] == JUNK_POOL_MODE then
+        setStage("unreality_setting", 0)
     end
 
     -- Olympus Coliseum is a top-level key.

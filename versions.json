@@ -24,7 +24,8 @@
       "Battlegates: all 27 reports and rewards are tracked and shown, not just reports 3 to 5, and the \"Battlegates - Unsupported Reports\" setting is gone. Each check now carries its apworld name (world, battlegate number and area) and has a new spot on the map.",
       "Fixed the checks after the Olympus Coliseum cups pointing one location off.",
       "Fixed Twilight Town (its Melody Chest, Trinity Fire) asking for three tier-one keyblades.",
-      "Fixed Sora levels 51 to 99 missing from the Overworld's Level Ups pin."
+      "Fixed Sora levels 51 to 99 missing from the Overworld's Level Ups pin.",
+      "Yozora's two checks (Unreality) were on no map: they get their own pin in the middle of the Overworld, shown only when the seed randomizes the Unreality pool (hidden by default, since it defaults to junk)."
     ]
   },
   {
