@@ -1,9 +1,6 @@
 [
   {
     "name": "Classic Kingdom",
-    "access_rules": [
-      "active_classic_kingdom"
-    ],
     "children": [
       {
         "name": "Classic Kingdom - High Scores",
@@ -12,161 +9,230 @@
             "name": "Classic Kingdom - Giantland - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_giantland"
+              "active_classic_kingdom,ck_giantland"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Mickey, The Mail Pilot - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_mickey_the_mail_pilot"
+              "active_classic_kingdom,ck_mickey_the_mail_pilot"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - The Musical Farmer - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_the_musical_farmer"
+              "active_classic_kingdom,ck_the_musical_farmer"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Building a Building - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_building_a_building"
+              "active_classic_kingdom,ck_building_a_building"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - The Mad Doctor - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_the_mad_doctor"
+              "active_classic_kingdom,ck_the_mad_doctor"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Mickey's Kitten Catch - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_mickeys_kitten_catch"
+              "active_classic_kingdom,ck_mickeys_kitten_catch"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - The Klondike Kid - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_the_klondike_kid"
+              "active_classic_kingdom,ck_the_klondike_kid"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Fishin' Frenzy - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_fishin_frenzy"
+              "active_classic_kingdom,ck_fishin_frenzy"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - The Karnival Kid - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_the_karnival_kid"
+              "active_classic_kingdom,ck_the_karnival_kid"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Mickey Cuts Up - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_mickey_cuts_up"
+              "active_classic_kingdom,ck_mickey_cuts_up"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Mickey's Prison Escape - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_mickeys_prison_escape"
+              "active_classic_kingdom,ck_mickeys_prison_escape"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - How to Play Baseball - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_how_to_play_baseball"
+              "active_classic_kingdom,ck_how_to_play_baseball"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - How to Play Golf - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_how_to_play_golf"
+              "active_classic_kingdom,ck_how_to_play_golf"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Mickey's Circus - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_mickeys_circus"
+              "active_classic_kingdom,ck_mickeys_circus"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Camping Out - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_camping_out"
+              "active_classic_kingdom,ck_camping_out"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Taxi Troubles - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_taxi_troubles"
+              "active_classic_kingdom,ck_taxi_troubles"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Beach Party - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_beach_party"
+              "active_classic_kingdom,ck_beach_party"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - The Wayward Canary - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_the_wayward_canary"
+              "active_classic_kingdom,ck_the_wayward_canary"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Mickey's Mechanical Man - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_mickeys_mechanical_man"
+              "active_classic_kingdom,ck_mickeys_mechanical_man"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - The Barnyard Battle - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_the_barnyard_battle"
+              "active_classic_kingdom,ck_the_barnyard_battle"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Cast Out to Sea - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_cast_out_to_sea"
+              "active_classic_kingdom,ck_cast_out_to_sea"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Backyard Sports - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_backyard_sports"
+              "active_classic_kingdom,ck_backyard_sports"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
             "name": "Classic Kingdom - Mickey Steps Out - High Score",
             "item_count": 1,
             "access_rules": [
-              "ck_mickey_steps_out"
+              "active_classic_kingdom,ck_mickey_steps_out"
+            ],
+            "visibility_rules": [
+              "active_classic_kingdom"
             ]
           },
           {
@@ -179,9 +245,6 @@
         ],
         "map_locations": []
       }
-    ],
-    "visibility_rules": [
-      "active_classic_kingdom"
     ]
   }
 ]
