@@ -3,7 +3,7 @@
   {
     "package_version": "1.0.0",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v1.0.0/kh3-archipelago-poptracker-v1.0.0.zip",
-    "sha256": "",
+    "sha256": "230145615a46e47a90895152c342e891fed4db9714afeca265a3c2f08453d71b",
     "changelog": [
       "Gummi Space: a new tab with the three galaxy maps and their 93 checks. It follows the seed's Include Space, Grindy Space Missions and Space Superbosses options.",
       "Gummi ships: each galaxy opens with its blueprint (Bomb, Galleon, Submarine) once 1, 2 or 3 worlds are completed. Endymion and the special weapons are tracked too.",
