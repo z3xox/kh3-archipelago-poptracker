@@ -40,7 +40,7 @@
         ],
         "map_locations": [
           {
-            "map": "map_100AcreMap",
+            "map": "map_100AcreWoods_rabbitHouse",
             "x": 812,
             "y": 272,
             "shape": "diamond"
