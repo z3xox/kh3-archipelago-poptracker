@@ -225,8 +225,7 @@ function mom_song_open(song_id)
     return 0
 end
 
--- $any_mom_song (visibility): the seed has at least one Melody of Memory song.
--- Song ids stay below 256.
+-- $any_mom_song (visibility): the seed has a Melody of Memory song (ids stay below 256).
 function any_mom_song()
     for song_id = 0, 255 do
         if hasCode("mom_song_" .. song_id) then return 1 end
