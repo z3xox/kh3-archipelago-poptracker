@@ -4226,7 +4226,7 @@
               "$any_portal|kb_wheel_of_fate|kb_crystal_snow|kb_ever_after|kb_nano_gear|kb_happy_gear|kb_favorite_deputy|kb_shooting_star"
             ],
             "visibility_rules": [
-              "active_level_ups"
+              "active_level_ups,lu_limit:2"
             ]
           },
           {
