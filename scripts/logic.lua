@@ -225,6 +225,15 @@ function mom_song_open(song_id)
     return 0
 end
 
+-- $any_mom_song (visibility): the seed has at least one Melody of Memory song.
+-- Song ids stay below 256.
+function any_mom_song()
+    for song_id = 0, 255 do
+        if hasCode("mom_song_" .. song_id) then return 1 end
+    end
+    return 0
+end
+
 -- Open tier-one worlds (keyblades, or characters with party portals).
 function count_tier_one_keyblades()
     local count = 0
@@ -570,6 +579,15 @@ function is_active_emblem_milestone(target)
         return 1
     end
     if VANILLA_LUCKY_EMBLEM_MILESTONES[target] then return 1 end
+    return 0
+end
+
+-- $any_emblem_milestone (visibility): a milestone exists up to the Lucky Emblem Limit.
+function any_emblem_milestone()
+    local limit = math.min(Tracker:ProviderCountForCode("le_limit"), 90)
+    for target = 1, limit do
+        if is_active_emblem_milestone(target) > 0 then return 1 end
+    end
     return 0
 end
 

@@ -4727,7 +4727,7 @@
               }
             ],
             "visibility_rules": [
-              "active_lucky_emblems"
+              "active_lucky_emblems,$any_emblem_milestone"
             ],
             "access_rules": [
               "active_lucky_emblems"
@@ -5571,7 +5571,7 @@
               }
             ],
             "visibility_rules": [
-              "mc_limit:1"
+              "$any_mom_song"
             ]
           },
           {
@@ -8745,7 +8745,15 @@
               }
             ],
             "visibility_rules": [
-              "active_photo_missions"
+              "active_photo_missions,$photo_mission_shown|Olympus",
+              "active_photo_missions,$photo_mission_shown|Twilight Town",
+              "active_photo_missions,$photo_mission_shown|Toy Box",
+              "active_photo_missions,$photo_mission_shown|Kingdom of Corona",
+              "active_photo_missions,$photo_mission_shown|Monstropolis",
+              "active_photo_missions,$photo_mission_shown|Arendelle",
+              "active_photo_missions,$photo_mission_shown|San Fransokyo",
+              "active_photo_missions,$photo_mission_shown|The Caribbean",
+              "active_photo_missions,$photo_mission_shown|100 Acre Wood"
             ]
           },
           {
