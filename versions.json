@@ -18,6 +18,7 @@
       "Lucky Emblems: the 90 spots as map pins, cleared as soon as the emblem is photographed, even while PopTracker was closed.",
       "Keyblade Upgrade Sanity: click a keyblade to set its level (left +1, right -1). Pandora's Power and Ultima Weapon get their own row.",
       "Hide Junk Checks setting: hides the pools the seed sets to junk.",
+      "Offline, every setting starts at the apworld's default, so the tracker shows the checks of a default seed.",
       "The Key Items row (Gummiphone, Secret Reports) is gone: neither unlocks a check, and the apworld no longer sends the Gummiphone.",
       "Party Members and Gummi Space only show when the seed uses them, and so do the Overworld's Moogle Shop, Melody of Memory, Level Ups, Lucky Emblems and Photo Missions pins.",
       "Logic follows the apworld 1.0.0: only Data Battles need three tier-one worlds, Keyblade Graveyard needs Attraction Flow, Battlegates need their world's story, each photo mission needs its subject's world (and is hidden when that world is junk), Arendelle's Treescape Lucky Emblem needs Pole Spin, Monstropolis' final fight no longer needs Links or a Heartbinder, and the 222 / 333 Soras rewards need the 10,000 Heartless fight.",

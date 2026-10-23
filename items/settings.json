@@ -121,7 +121,8 @@
         "inherit_codes": false,
         "name": "Battlegates On"
       }
-    ]
+    ],
+    "initial_stage_idx": 1
   },
   {
     "name": "Re:Mind",
@@ -142,7 +143,8 @@
         "inherit_codes": false,
         "name": "Re:Mind On"
       }
-    ]
+    ],
+    "initial_stage_idx": 1
   },
   {
     "name": "Lucky Emblems",
@@ -163,7 +165,8 @@
         "inherit_codes": false,
         "name": "Lucky Emblems On"
       }
-    ]
+    ],
+    "initial_stage_idx": 1
   },
   {
     "name": "Keyblade Graveyard",
@@ -184,7 +187,8 @@
         "inherit_codes": false,
         "name": "Keyblade Graveyard On"
       }
-    ]
+    ],
+    "initial_stage_idx": 1
   },
   {
     "name": "Radiant Garden",
@@ -205,7 +209,8 @@
         "inherit_codes": false,
         "name": "Radiant Garden On"
       }
-    ]
+    ],
+    "initial_stage_idx": 1
   },
   {
     "name": "Level Up Limit",
@@ -226,7 +231,7 @@
     "min_quantity": 0,
     "max_quantity": 90,
     "increment": 1,
-    "initial_quantity": 90
+    "initial_quantity": 50
   },
   {
     "name": "Lucky Emblems Per Check",
@@ -796,7 +801,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 4,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/Minigames.png",
@@ -836,7 +841,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 4,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/Minigames.png",
@@ -876,7 +881,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 4,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/Minigames.png",
@@ -916,7 +921,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 4,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/Minigames.png",
@@ -956,7 +961,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 4,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/Minigames.png",

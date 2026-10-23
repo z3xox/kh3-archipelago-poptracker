@@ -2043,7 +2043,7 @@ function autoFill(slot_data)
         {"flash_tracer_b_rank", "flash_tracer_course_b_max_rank"},
     }
     for _, entry in ipairs(MINIGAME_RANK_KEYS) do
-        setStage(entry[1], slot_data[entry[2]] or 4)
+        setStage(entry[1], slot_data[entry[2]] or 0)
     end
 
     -- Melody of Memory
@@ -2103,9 +2103,9 @@ function autoFill(slot_data)
     setStage("goal", goal)
 
     -- Lucky Emblem milestone limit
-    local le_limit = 90  -- default show all
+    local le_limit = 50  -- the apworld default
     if slot_data["kh3_randomizer"] and slot_data["kh3_randomizer"]["limiters"] then
-        le_limit = slot_data["kh3_randomizer"]["limiters"]["Lucky Emblem Limit"] or 90
+        le_limit = slot_data["kh3_randomizer"]["limiters"]["Lucky Emblem Limit"] or 50
     end
     setAmount("le_limit", le_limit)
 
