@@ -28,6 +28,8 @@ ScriptHost:LoadScript("scripts/locations.lua")
 
 -- Layouts
 Tracker:AddLayouts("layouts/common.json")
+-- Every seed has Complete All Games and the 23 games, whatever Classic Kingdom Checks says.
+Tracker:AddLayouts("layouts/group_classic_kingdom.json")
 local horizontal_variant = (Tracker.ActiveVariantUID == "horizontal" or Tracker.ActiveVariantUID == "dark_horizontal"
     or Tracker.ActiveVariantUID == "horizontal_compact" or Tracker.ActiveVariantUID == "dark_horizontal_compact")
 local compact_variant = (Tracker.ActiveVariantUID == "vertical_compact" or Tracker.ActiveVariantUID == "horizontal_compact"

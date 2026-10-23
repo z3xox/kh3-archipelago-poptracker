@@ -41,7 +41,6 @@ end
 
 -- Groups hidden when their setting is off: {layout key, setting, code}.
 OPTION_GROUPS = {
-    {"group_classic_kingdom", "classic_kingdom_setting", "active_classic_kingdom"},
     {"group_party_members", "portal_unlocks_setting", "portal_party"},
     {"group_gummi_space", "space_setting", "active_space"},
 }
