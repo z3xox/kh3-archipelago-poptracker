@@ -15,12 +15,6 @@ Tracker:AddLocations("locations/the_caribbean_chests.json")
 Tracker:AddLocations("locations/the_caribbean_events.json")
 Tracker:AddLocations("locations/san_fransokyo_chests.json")
 Tracker:AddLocations("locations/san_fransokyo_events.json")
--- The San Fransokyo event pins sit differently on the light and dark maps.
-if Tracker.ActiveVariantUID == "dark_vertical" or Tracker.ActiveVariantUID == "dark_horizontal" then
-    Tracker:AddLocations("locations/san_fransokyo_events_dark.json")
-else
-    Tracker:AddLocations("locations/san_fransokyo_events_light.json")
-end
 Tracker:AddLocations("locations/keyblade_graveyard_chests.json")
 Tracker:AddLocations("locations/keyblade_graveyard_events.json")
 Tracker:AddLocations("locations/100_acre_wood.json")
