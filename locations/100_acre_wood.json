@@ -14,6 +14,13 @@
               {
                 "name": "100 Acre Wood - EVENT_KEYBLADE_006 - RandomizedItem",
                 "item_count": 1
+              },
+              {
+                "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
+                "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
+                "visibility_rules": [
+                  "$photo_mission_shown|100 Acre Wood"
+                ]
               }
             ],
             "map_locations": [
@@ -25,29 +32,6 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "name": "100 Acre Wood - Photo Mission 16 (Slayer's Earring)",
-        "sections": [
-          {
-            "name": "Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
-            "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 16 (Slayer's Earring)",
-            "visibility_rules": [
-              "$photo_mission_shown|100 Acre Wood"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "map_100AcreWoods_rabbitHouse",
-            "x": 812,
-            "y": 272,
-            "shape": "diamond"
-          }
-        ],
-        "visibility_rules": [
-          "$photo_mission_shown|100 Acre Wood"
         ]
       }
     ],

@@ -352,7 +352,7 @@
     ]
   },
   {
-    "name": "San Fransokyo - Photo Mission 17 (Star Charm)",
+    "name": "San Fransokyo - Photo Missions 17+18",
     "sections": [
       {
         "name": "Moogle Workshop - Photo Mission 17 (Star Charm)",
@@ -363,23 +363,7 @@
         "visibility_rules": [
           "$photo_mission_shown|San Fransokyo"
         ]
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "map_sanfransokyo",
-        "x": 812,
-        "y": 272,
-        "shape": "diamond"
-      }
-    ],
-    "visibility_rules": [
-      "$photo_mission_shown|San Fransokyo"
-    ]
-  },
-  {
-    "name": "San Fransokyo - Photo Mission 18 (Aero Armlet)",
-    "sections": [
+      },
       {
         "name": "Moogle Workshop - Photo Mission 18 (Aero Armlet)",
         "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 18 (Aero Armlet)",
