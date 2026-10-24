@@ -15,6 +15,12 @@ Twilight Town and Caribbean combat gates, the movement and combat requirements
 of each check, Chestsanity keyblades, Gummi space ships, and the goal items for
 the final door.
 
+A check that only misses combat abilities shows yellow (sequence break) instead
+of red, once its world is open and any movement it needs is collected: Block,
+Air Slide, Dodge Roll, Cure and Magic, Twilight Town's defensive ability, the
+extra defense of Grim Guardianess and Monstropolis' final fight, and the Data
+Battles' abilities. The Combat Requirements setting switches back to red.
+
 When connected, the pack reads the seed's settings from the slot data (world
 pools, Gummi space, Portal Unlocks, Chestsanity, Melody of Memory songs and
 music chests, Lucky Emblem and Level Up limits...) and tracks items, checks and

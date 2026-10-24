@@ -484,16 +484,16 @@
             "name": "Monstropolis - Chest 21 (Small Chest, The Power Plant: Vault Passage)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$chest_keyblade|1263022963,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$chest_keyblade|1263022963,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,^$combat|unlock_magic,$chest_keyblade|1263022963,^$combat_any|ability_block|ability_dodge_roll",
+              "^$combat|unlock_magic,unlock_wall_run,$chest_keyblade|1263022963,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Monstropolis - Chest 21 (Small Chest, The Power Plant: Vault Passage) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$chest_keyblade|1263022963,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$chest_keyblade|1263022963,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,^$combat|unlock_magic,$chest_keyblade|1263022963,^$combat_any|ability_block|ability_dodge_roll",
+              "^$combat|unlock_magic,unlock_wall_run,$chest_keyblade|1263022963,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ],
             "visibility_rules": [
               "$song_bonus|1264071539"
@@ -633,16 +633,16 @@
             "name": "Monstropolis - Chest 8 (Small Chest, The Door Vault: Service Area)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022968,$has_any|ability_block|ability_dodge_roll",
-              "unlock_wall_run,$chest_keyblade|1263022968,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022968,^$combat_any|ability_block|ability_dodge_roll",
+              "unlock_wall_run,$chest_keyblade|1263022968,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Monstropolis - Chest 8 (Small Chest, The Door Vault: Service Area) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022968,$has_any|ability_block|ability_dodge_roll",
-              "unlock_wall_run,$chest_keyblade|1263022968,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022968,^$combat_any|ability_block|ability_dodge_roll",
+              "unlock_wall_run,$chest_keyblade|1263022968,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ],
             "visibility_rules": [
               "$song_bonus|1264071544"

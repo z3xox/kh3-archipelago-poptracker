@@ -338,7 +338,7 @@
             "name": "Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 6 (Soldier's Earring)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Toy Box"
+              "^$can_complete_coliseum_worlds|Toy Box"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Toy Box"
@@ -364,7 +364,7 @@
             "name": "Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 15 (Fencer's Earring)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Toy Box"
+              "^$can_complete_coliseum_worlds|Toy Box"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Toy Box"

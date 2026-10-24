@@ -654,14 +654,14 @@
             "name": "Ingredients+ - Kingdom of Corona - Pickup 062",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022942,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "$chest_keyblade|1263022942,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 063",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022942,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "$chest_keyblade|1263022942,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -726,14 +726,14 @@
             "name": "Ingredients+ - Kingdom of Corona - Pickup 060",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022923,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "$chest_keyblade|1263022923,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 061",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022923,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "$chest_keyblade|1263022923,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -3580,7 +3580,7 @@
   {
     "name": "Ingredients+ - Twilight Town",
     "access_rules": [
-      "active_ingredients_plus,$portal|kb_shooting_star,$has_twilight_town_combat"
+      "active_ingredients_plus,$portal|kb_shooting_star,^$has_twilight_town_combat"
     ],
     "visibility_rules": [
       "active_ingredients_plus"

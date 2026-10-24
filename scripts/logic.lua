@@ -144,6 +144,41 @@ local function countCodes(codes)
     return count
 end
 
+-- Levels returned by ^$ rules (fallbacks for the headless simulators).
+LEVEL_NONE = AccessibilityLevel and AccessibilityLevel.None or 0
+LEVEL_SEQUENCE_BREAK = AccessibilityLevel and AccessibilityLevel.SequenceBreak or 5
+LEVEL_NORMAL = AccessibilityLevel and AccessibilityLevel.Normal or 6
+
+-- Missing combat abilities turn a check yellow instead of red, unless the setting says Required.
+local function combatLevel(ok)
+    if ok then return LEVEL_NORMAL end
+    if hasCode("combat_sequence_break") then return LEVEL_SEQUENCE_BREAK end
+    return LEVEL_NONE
+end
+
+-- ^$combat|code|... (all of them)
+function combat(...)
+    local codes = {...}
+    return combatLevel(countCodes(codes) >= #codes)
+end
+
+-- ^$combat_any|code|...
+function combat_any(...)
+    return combatLevel(countCodes({...}) >= 1)
+end
+
+-- ^$combat_at_least|N|code|...
+function combat_at_least(needed, ...)
+    return combatLevel(countCodes({...}) >= (tonumber(needed) or 1))
+end
+
+-- Normal when enough entries are in logic, yellow when enough are at least sequence breaks.
+local function countLevel(counter, needed)
+    if counter(LEVEL_NORMAL) >= needed then return LEVEL_NORMAL end
+    if counter(LEVEL_SEQUENCE_BREAK) >= needed then return LEVEL_SEQUENCE_BREAK end
+    return LEVEL_NONE
+end
+
 -- Portal Unlocks = Party Members: the character opening each keyblade's world.
 PORTAL_PARTY_BY_KEYBLADE = {
     kb_heros_origin    = {"party_hercules"},
@@ -215,14 +250,14 @@ end
 -- Melody of Memory: song id -> code of the music chest it opens, from slot_data.
 MOM_SONG_CHEST = {}
 
--- $mom_song_open|<song id>: in logic when its chest is.
+-- ^$mom_song_open|<song id>: same color as the music chest it opens.
 function mom_song_open(song_id)
     local code = MOM_SONG_CHEST[tonumber(song_id)]
     local chest = code and Tracker:FindObjectForCode(code)
-    if not chest then return 0 end
-    local normal = AccessibilityLevel and AccessibilityLevel.Normal or 6
-    if (chest.AccessibilityLevel or 0) >= normal then return 1 end
-    return 0
+    local level = chest and chest.AccessibilityLevel or LEVEL_NONE
+    if level >= LEVEL_NORMAL then return LEVEL_NORMAL end
+    if level == LEVEL_SEQUENCE_BREAK then return LEVEL_SEQUENCE_BREAK end
+    return LEVEL_NONE
 end
 
 -- $any_mom_song (visibility): the seed has a Melody of Memory song (ids stay below 256).
@@ -250,13 +285,9 @@ end
 -- Twilight Town also needs Block, Air Slide or Dodge Roll.
 DEFENSIVE_CODES = {"ability_block", "ability_air_slide", "ability_dodge_roll"}
 
+-- ^$has_twilight_town_combat
 function has_twilight_town_combat()
-    if countCodes(DEFENSIVE_CODES) >= 1 then return 1 end
-    return 0
-end
-
-function has_any_two_defensive()
-    return has_twilight_town_combat()
+    return combatLevel(countCodes(DEFENSIVE_CODES) >= 1)
 end
 
 -- The Caribbean also needs Air Slide, Dodge Roll, Glide or Blizzard (+ Magic).
@@ -307,23 +338,26 @@ end
 -- Requirement route evaluation
 -- ============================================================
 
--- A route is a list of clauses {codes={...}, count=N}, all required.
-local function routeSatisfied(route)
+-- A route is a list of clauses {codes={...}, count=N, combat=true?}, all required.
+local function routeLevel(route)
+    local level = LEVEL_NORMAL
     for _, clause in ipairs(route) do
         if countCodes(clause.codes) < clause.count then
-            return false
+            if not clause.combat then return LEVEL_NONE end
+            level = math.min(level, combatLevel(false))
         end
     end
-    return true
+    return level
 end
 
 -- Any one route is enough; no route means no requirement.
-local function anyRouteSatisfied(routes)
-    if routes == nil or #routes == 0 then return true end
+local function anyRouteLevel(routes)
+    if routes == nil or #routes == 0 then return LEVEL_NORMAL end
+    local best = LEVEL_NONE
     for _, route in ipairs(routes) do
-        if routeSatisfied(route) then return true end
+        best = math.max(best, routeLevel(route))
     end
-    return false
+    return best
 end
 
 -- ============================================================
@@ -335,21 +369,21 @@ TIER_GATED_WORLDS = {
     ["Data Battles"] = true,
 }
 
-local function worldReachable(world, keyblade)
-    if keyblade and not portalOpen(keyblade) then return false end
+local function worldLevel(world, keyblade)
+    if keyblade and not portalOpen(keyblade) then return LEVEL_NONE end
     if TIER_GATED_WORLDS[world] and count_tier_one_keyblades() < TIER_ONE_KEYBLADE_REQUIRED then
-        return false
-    end
-    if world == "Twilight Town" and countCodes(DEFENSIVE_CODES) < 1 then
-        return false
+        return LEVEL_NONE
     end
     if world == "Keyblade Graveyard" and not hasCode("unlock_attraction_flow") then
-        return false
+        return LEVEL_NONE
     end
     if world == "The Caribbean" and not hasCaribbeanSafetyTool() then
-        return false
+        return LEVEL_NONE
     end
-    return true
+    if world == "Twilight Town" then
+        return combatLevel(countCodes(DEFENSIVE_CODES) >= 1)
+    end
+    return LEVEL_NORMAL
 end
 
 WORLD_PORTAL_KEYBLADES = {
@@ -366,12 +400,13 @@ WORLD_PORTAL_KEYBLADES = {
     ["Dark World"]         = "kb_oblivion",
 }
 
--- $can_reach_any_world|<World>|...
+-- ^$can_reach_any_world|<World>|...
 function can_reach_any_world(...)
+    local best = LEVEL_NONE
     for _, world in ipairs({...}) do
-        if worldReachable(world, WORLD_PORTAL_KEYBLADES[world]) then return 1 end
+        best = math.max(best, worldLevel(world, WORLD_PORTAL_KEYBLADES[world]))
     end
-    return 0
+    return best
 end
 
 -- ============================================================
@@ -392,10 +427,11 @@ XP_SOURCE_WORLDS = {
 -- Highest level reachable with 1, 2, ... XP worlds
 LEVEL_CAPS = {3, 5, 8, 12, 15, 19, 22}
 
-function count_reachable_xp_sources()
+function count_reachable_xp_sources(min_level)
+    min_level = min_level or LEVEL_NORMAL
     local count = 0
     for _, entry in ipairs(XP_SOURCE_WORLDS) do
-        if worldReachable(entry.world, entry.keyblade) then
+        if worldLevel(entry.world, entry.keyblade) >= min_level then
             count = count + 1
         end
     end
@@ -426,7 +462,11 @@ function can_reach_level_gate(level)
     level = tonumber(level) or 0
     local prev = level - 1
     if prev < 2 then prev = 2 end
-    return can_reach_level(prev)
+    -- Worlds open only through a combat sequence break still count here.
+    if count_reachable_xp_sources(LEVEL_SEQUENCE_BREAK) >= required_xp_sources_for_level(prev) then
+        return 1
+    end
+    return 0
 end
 
 -- ============================================================
@@ -527,25 +567,26 @@ LUCKY_EMBLEM_SPOTS = {
     {world="100 Acre Wood",keyblade=nil,routes={}},
 }
 
-local function emblemSpotReachable(spot)
-    return worldReachable(spot.world, spot.keyblade) and anyRouteSatisfied(spot.routes)
+local function emblemSpotLevel(spot)
+    return math.min(worldLevel(spot.world, spot.keyblade), anyRouteLevel(spot.routes))
 end
 
-function count_reachable_lucky_emblems()
+function count_reachable_lucky_emblems(min_level)
+    min_level = min_level or LEVEL_NORMAL
     local count = 0
     for _, spot in ipairs(LUCKY_EMBLEM_SPOTS) do
-        if emblemSpotReachable(spot) then
+        if emblemSpotLevel(spot) >= min_level then
             count = count + 1
         end
     end
     return count
 end
 
--- $can_reach_emblem_spot|<global id>
+-- ^$can_reach_emblem_spot|<global id>
 function can_reach_emblem_spot(global_id)
     local spot = LUCKY_EMBLEM_SPOTS[tonumber(global_id) or 0]
-    if spot and emblemSpotReachable(spot) then return 1 end
-    return 0
+    if spot == nil then return LEVEL_NONE end
+    return emblemSpotLevel(spot)
 end
 
 -- $can_reach_emblem_milestone|N
@@ -599,10 +640,8 @@ function can_reach_emblem_milestone_gate(target)
             prev = m
         end
     end
-    if prev == nil then
-        return can_reach_emblem_milestone(target)
-    end
-    return can_reach_emblem_milestone(prev)
+    if count_reachable_lucky_emblems(LEVEL_SEQUENCE_BREAK) >= (prev or target) then return 1 end
+    return 0
 end
 
 -- ============================================================
@@ -614,26 +653,26 @@ COLISEUM_WORLD_COMPLETION = {
     ["Olympus"]           = {keyblade="kb_heros_origin", routes={{{codes={"unlock_wall_run"},count=1}}}},
     ["Twilight Town"]     = {keyblade="kb_shooting_star", routes={}},
     ["Toy Box"]           = {keyblade="kb_favorite_deputy", routes={{{codes={"unlock_wall_run"},count=1}}}},
-    ["Kingdom of Corona"] = {keyblade="kb_ever_after", routes={{{codes={"unlock_wall_run"},count=1},{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2}}}},
-    ["Monstropolis"]      = {keyblade="kb_happy_gear", routes={{{codes={"ability_air_slide"},count=1},{codes={"ability_doubleflight"},count=1},{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"unlock_magic"},count=1},{codes={"ability_block","ability_dodge_roll"},count=1}},{{codes={"unlock_magic"},count=1},{codes={"unlock_wall_run"},count=1},{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2}}}},
+    ["Kingdom of Corona"] = {keyblade="kb_ever_after", routes={{{codes={"unlock_wall_run"},count=1},{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2,combat=true}}}},
+    ["Monstropolis"]      = {keyblade="kb_happy_gear", routes={{{codes={"ability_air_slide"},count=1},{codes={"ability_doubleflight"},count=1},{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"unlock_magic"},count=1,combat=true},{codes={"ability_block","ability_dodge_roll"},count=1,combat=true}},{{codes={"unlock_magic"},count=1,combat=true},{codes={"unlock_wall_run"},count=1},{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2,combat=true}}}},
     ["Arendelle"]         = {keyblade="kb_crystal_snow", routes={{{codes={"ability_air_slide"},count=1},{codes={"ability_pole_spin"},count=1},{codes={"unlock_wall_run"},count=1}}}},
     ["The Caribbean"]     = {keyblade="kb_wheel_of_fate", routes={}},
     ["San Fransokyo"]     = {keyblade="kb_nano_gear", routes={{{codes={"ability_pole_spin"},count=1},{codes={"aero"},count=1},{codes={"fire"},count=1},{codes={"unlock_magic"},count=1},{codes={"blizzard","water"},count=1}},{{codes={"ability_pole_spin"},count=1},{codes={"thunder"},count=1},{codes={"unlock_magic"},count=1},{codes={"blizzard","water"},count=1}}}},
 }
 
-local function coliseumWorldComplete(world)
+local function coliseumWorldLevel(world)
     local entry = COLISEUM_WORLD_COMPLETION[world]
-    if entry == nil then return false end
-    return worldReachable(world, entry.keyblade) and anyRouteSatisfied(entry.routes)
+    if entry == nil then return LEVEL_NONE end
+    return math.min(worldLevel(world, entry.keyblade), anyRouteLevel(entry.routes))
 end
 
--- $can_complete_coliseum_worlds|<World>|... (all of them)
+-- ^$can_complete_coliseum_worlds|<World>|... (all of them)
 function can_complete_coliseum_worlds(...)
-    local worlds = {...}
-    for _, world in ipairs(worlds) do
-        if not coliseumWorldComplete(world) then return 0 end
+    local level = LEVEL_NORMAL
+    for _, world in ipairs({...}) do
+        level = math.min(level, coliseumWorldLevel(world))
     end
-    return 1
+    return level
 end
 
 -- $can_reach_final_boss: the goal items are collected
@@ -689,12 +728,13 @@ local LANDING_WORLDS = {
     ["Keyblade Graveyard"] = "kb_starlight",
 }
 
--- $space_all_worlds
+-- ^$space_all_worlds
 function space_all_worlds()
+    local level = LEVEL_NORMAL
     for world, keyblade in pairs(LANDING_WORLDS) do
-        if not worldReachable(world, keyblade) then return 0 end
+        level = math.min(level, worldLevel(world, keyblade))
     end
-    return 1
+    return level
 end
 
 -- Completed worlds a zone needs, on top of its blueprint
@@ -704,40 +744,44 @@ local SPACE_ZONE_COMPLETIONS = {
     space_eclipse       = 3,
 }
 
-local function completedMainWorlds()
+local function completedMainWorlds(min_level)
     local count = 0
     for world, _ in pairs(COLISEUM_WORLD_COMPLETION) do
-        if coliseumWorldComplete(world) then count = count + 1 end
+        if coliseumWorldLevel(world) >= min_level then count = count + 1 end
     end
     return count
 end
 
-local function spaceZoneOpen(zone_code)
+local function spaceZoneLevel(zone_code)
     local needed = SPACE_ZONE_COMPLETIONS[zone_code]
-    return needed ~= nil and hasCode(zone_code) and completedMainWorlds() >= needed
+    if needed == nil or not hasCode(zone_code) then return LEVEL_NONE end
+    return countLevel(completedMainWorlds, needed)
 end
 
--- $space_zone_open|<zone code>
+-- ^$space_zone_open|<zone code>
 function space_zone_open(zone_code)
-    if spaceZoneOpen(zone_code) then return 1 end
-    return 0
+    return spaceZoneLevel(zone_code)
 end
 
--- $space_open_zones|N
+-- ^$space_open_zones|N
 function space_open_zones(needed)
-    local count = 0
-    for zone_code, _ in pairs(SPACE_ZONE_COMPLETIONS) do
-        if spaceZoneOpen(zone_code) then count = count + 1 end
-    end
-    if count >= (tonumber(needed) or 0) then return 1 end
-    return 0
+    return countLevel(function(min_level)
+        local count = 0
+        for zone_code, _ in pairs(SPACE_ZONE_COMPLETIONS) do
+            if spaceZoneLevel(zone_code) >= min_level then count = count + 1 end
+        end
+        return count
+    end, tonumber(needed) or 0)
 end
 
--- $space_special_weapons|N (the shop adds Trinity Fire and Decoy Duckies)
+-- ^$space_special_weapons|N (the shop adds Trinity Fire and Decoy Duckies)
 function space_special_weapons(needed)
-    local count = Tracker:ProviderCountForCode("space_special_weapon")
-    if worldReachable("Twilight Town", LANDING_WORLDS["Twilight Town"]) then count = count + 1 end
-    if coliseumWorldComplete("Monstropolis") then count = count + 1 end
-    if count >= (tonumber(needed) or 0) then return 1 end
-    return 0
+    return countLevel(function(min_level)
+        local count = Tracker:ProviderCountForCode("space_special_weapon")
+        if worldLevel("Twilight Town", LANDING_WORLDS["Twilight Town"]) >= min_level then
+            count = count + 1
+        end
+        if coliseumWorldLevel("Monstropolis") >= min_level then count = count + 1 end
+        return count
+    end, tonumber(needed) or 0)
 end

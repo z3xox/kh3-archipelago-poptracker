@@ -9,7 +9,7 @@
             "name": "Melody of Memory - The 13th Struggle (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|0"
+              "^$mom_song_open|0"
             ],
             "visibility_rules": [
               "mom_song_0"
@@ -19,7 +19,7 @@
             "name": "Melody of Memory - Shrouding Dark Cloud (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|1"
+              "^$mom_song_open|1"
             ],
             "visibility_rules": [
               "mom_song_1"
@@ -29,7 +29,7 @@
             "name": "Melody of Memory - Traverse Town (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|2"
+              "^$mom_song_open|2"
             ],
             "visibility_rules": [
               "mom_song_2"
@@ -39,7 +39,7 @@
             "name": "Melody of Memory - Hand in Hand (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|3"
+              "^$mom_song_open|3"
             ],
             "visibility_rules": [
               "mom_song_3"
@@ -49,7 +49,7 @@
             "name": "Melody of Memory - A Very Small Wish (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|4"
+              "^$mom_song_open|4"
             ],
             "visibility_rules": [
               "mom_song_4"
@@ -59,7 +59,7 @@
             "name": "Melody of Memory - Monstrous Monstro (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|5"
+              "^$mom_song_open|5"
             ],
             "visibility_rules": [
               "mom_song_5"
@@ -69,7 +69,7 @@
             "name": "Melody of Memory - Welcome to Wonderland (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|6"
+              "^$mom_song_open|6"
             ],
             "visibility_rules": [
               "mom_song_6"
@@ -79,7 +79,7 @@
             "name": "Melody of Memory - To Our Surprise (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|7"
+              "^$mom_song_open|7"
             ],
             "visibility_rules": [
               "mom_song_7"
@@ -89,7 +89,7 @@
             "name": "Melody of Memory - This is Halloween (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|8"
+              "^$mom_song_open|8"
             ],
             "visibility_rules": [
               "mom_song_8"
@@ -99,7 +99,7 @@
             "name": "Melody of Memory - Spooks of Halloween Town (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|9"
+              "^$mom_song_open|9"
             ],
             "visibility_rules": [
               "mom_song_9"
@@ -109,7 +109,7 @@
             "name": "Melody of Memory - Captain Hook's Pirate Ship (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|10"
+              "^$mom_song_open|10"
             ],
             "visibility_rules": [
               "mom_song_10"
@@ -119,7 +119,7 @@
             "name": "Melody of Memory - Pirate's Gigue (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|11"
+              "^$mom_song_open|11"
             ],
             "visibility_rules": [
               "mom_song_11"
@@ -129,7 +129,7 @@
             "name": "Melody of Memory - A Day in Agrabah (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|12"
+              "^$mom_song_open|12"
             ],
             "visibility_rules": [
               "mom_song_12"
@@ -139,7 +139,7 @@
             "name": "Melody of Memory - Arabian Dream (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|13"
+              "^$mom_song_open|13"
             ],
             "visibility_rules": [
               "mom_song_13"
@@ -149,7 +149,7 @@
             "name": "Melody of Memory - Hollow Bastion (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|14"
+              "^$mom_song_open|14"
             ],
             "visibility_rules": [
               "mom_song_14"
@@ -159,7 +159,7 @@
             "name": "Melody of Memory - Scherzo Di Notte (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|15"
+              "^$mom_song_open|15"
             ],
             "visibility_rules": [
               "mom_song_15"
@@ -169,7 +169,7 @@
             "name": "Melody of Memory - The Home of Dragons (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|16"
+              "^$mom_song_open|16"
             ],
             "visibility_rules": [
               "mom_song_16"
@@ -179,7 +179,7 @@
             "name": "Melody of Memory - Fields of Honor (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|17"
+              "^$mom_song_open|17"
             ],
             "visibility_rules": [
               "mom_song_17"
@@ -189,7 +189,7 @@
             "name": "Melody of Memory - Under the Sea (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|18"
+              "^$mom_song_open|18"
             ],
             "visibility_rules": [
               "mom_song_18"
@@ -199,7 +199,7 @@
             "name": "Melody of Memory - An Adventure in Atlantica (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|19"
+              "^$mom_song_open|19"
             ],
             "visibility_rules": [
               "mom_song_19"
@@ -209,7 +209,7 @@
             "name": "Melody of Memory - Olympus Coliseum (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|20"
+              "^$mom_song_open|20"
             ],
             "visibility_rules": [
               "mom_song_20"
@@ -219,7 +219,7 @@
             "name": "Melody of Memory - Go for It! (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|21"
+              "^$mom_song_open|21"
             ],
             "visibility_rules": [
               "mom_song_21"
@@ -229,7 +229,7 @@
             "name": "Melody of Memory - Lazy Afternoons (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|22"
+              "^$mom_song_open|22"
             ],
             "visibility_rules": [
               "mom_song_22"
@@ -239,7 +239,7 @@
             "name": "Melody of Memory - Sinister Sundown (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|23"
+              "^$mom_song_open|23"
             ],
             "visibility_rules": [
               "mom_song_23"
@@ -249,7 +249,7 @@
             "name": "Melody of Memory - The Afternoon Streets (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|24"
+              "^$mom_song_open|24"
             ],
             "visibility_rules": [
               "mom_song_24"
@@ -259,7 +259,7 @@
             "name": "Melody of Memory - Working Together (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|25"
+              "^$mom_song_open|25"
             ],
             "visibility_rules": [
               "mom_song_25"
@@ -269,7 +269,7 @@
             "name": "Melody of Memory - End of the World (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|26"
+              "^$mom_song_open|26"
             ],
             "visibility_rules": [
               "mom_song_26"
@@ -279,7 +279,7 @@
             "name": "Melody of Memory - Fragments of Sorrow (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|27"
+              "^$mom_song_open|27"
             ],
             "visibility_rules": [
               "mom_song_27"
@@ -289,7 +289,7 @@
             "name": "Melody of Memory - Waltz of the Damned (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|28"
+              "^$mom_song_open|28"
             ],
             "visibility_rules": [
               "mom_song_28"
@@ -299,7 +299,7 @@
             "name": "Melody of Memory - Dance of the Daring (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|29"
+              "^$mom_song_open|29"
             ],
             "visibility_rules": [
               "mom_song_29"
@@ -309,7 +309,7 @@
             "name": "Melody of Memory - Space Paranoids (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|30"
+              "^$mom_song_open|30"
             ],
             "visibility_rules": [
               "mom_song_30"
@@ -319,7 +319,7 @@
             "name": "Melody of Memory - Byte Bashing (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|31"
+              "^$mom_song_open|31"
             ],
             "visibility_rules": [
               "mom_song_31"
@@ -329,7 +329,7 @@
             "name": "Melody of Memory - Radiant Garden (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|32"
+              "^$mom_song_open|32"
             ],
             "visibility_rules": [
               "mom_song_32"
@@ -339,7 +339,7 @@
             "name": "Melody of Memory - Black Garden (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|33"
+              "^$mom_song_open|33"
             ],
             "visibility_rules": [
               "mom_song_33"
@@ -349,7 +349,7 @@
             "name": "Melody of Memory - The Underworld (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|34"
+              "^$mom_song_open|34"
             ],
             "visibility_rules": [
               "mom_song_34"
@@ -359,7 +359,7 @@
             "name": "Melody of Memory - What Lies Beneath (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|35"
+              "^$mom_song_open|35"
             ],
             "visibility_rules": [
               "mom_song_35"
@@ -369,7 +369,7 @@
             "name": "Melody of Memory - Bibbidi-Bobbidi-Boo (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|36"
+              "^$mom_song_open|36"
             ],
             "visibility_rules": [
               "mom_song_36"
@@ -379,7 +379,7 @@
             "name": "Melody of Memory - Castle Escapade (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|37"
+              "^$mom_song_open|37"
             ],
             "visibility_rules": [
               "mom_song_37"
@@ -389,7 +389,7 @@
             "name": "Melody of Memory - Mickey Mouse March (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|38"
+              "^$mom_song_open|38"
             ],
             "visibility_rules": [
               "mom_song_38"
@@ -399,7 +399,7 @@
             "name": "Melody of Memory - Up Down Adventure (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|39"
+              "^$mom_song_open|39"
             ],
             "visibility_rules": [
               "mom_song_39"
@@ -409,7 +409,7 @@
             "name": "Melody of Memory - What A Surprise?! (KINGDOM HEARTS II -FINAL MIX-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|40"
+              "^$mom_song_open|40"
             ],
             "visibility_rules": [
               "mom_song_40"
@@ -419,7 +419,7 @@
             "name": "Melody of Memory - Happy Holidays! (KINGDOM HEARTS II -FINAL MIX-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|41"
+              "^$mom_song_open|41"
             ],
             "visibility_rules": [
               "mom_song_41"
@@ -429,7 +429,7 @@
             "name": "Melody of Memory - Castle Oblivion (KINGDOM HEARTS Re:Chain of Memories) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|42"
+              "^$mom_song_open|42"
             ],
             "visibility_rules": [
               "mom_song_42"
@@ -439,7 +439,7 @@
             "name": "Melody of Memory - Forgotten Challenge (KINGDOM HEARTS Re:Chain of Memories) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|43"
+              "^$mom_song_open|43"
             ],
             "visibility_rules": [
               "mom_song_43"
@@ -449,7 +449,7 @@
             "name": "Melody of Memory - Magical Mystery (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|44"
+              "^$mom_song_open|44"
             ],
             "visibility_rules": [
               "mom_song_44"
@@ -459,7 +459,7 @@
             "name": "Melody of Memory - Destiny Islands (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|45"
+              "^$mom_song_open|45"
             ],
             "visibility_rules": [
               "mom_song_45"
@@ -469,7 +469,7 @@
             "name": "Melody of Memory - Bustin' Up on the Beach (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|46"
+              "^$mom_song_open|46"
             ],
             "visibility_rules": [
               "mom_song_46"
@@ -479,7 +479,7 @@
             "name": "Melody of Memory - Traverse in Trance (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|47"
+              "^$mom_song_open|47"
             ],
             "visibility_rules": [
               "mom_song_47"
@@ -489,7 +489,7 @@
             "name": "Melody of Memory - Hand to Hand (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|48"
+              "^$mom_song_open|48"
             ],
             "visibility_rules": [
               "mom_song_48"
@@ -499,7 +499,7 @@
             "name": "Melody of Memory - Daydream upon Neverland (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|50"
+              "^$mom_song_open|50"
             ],
             "visibility_rules": [
               "mom_song_50"
@@ -509,7 +509,7 @@
             "name": "Melody of Memory - Neverland's Scherzo (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|51"
+              "^$mom_song_open|51"
             ],
             "visibility_rules": [
               "mom_song_51"
@@ -519,7 +519,7 @@
             "name": "Melody of Memory - Secret of Neverland (KINGDOM HEARTS 358-2 Days) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|52"
+              "^$mom_song_open|52"
             ],
             "visibility_rules": [
               "mom_song_52"
@@ -529,7 +529,7 @@
             "name": "Melody of Memory - Crossing to Neverland (KINGDOM HEARTS 358-2 Days) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|53"
+              "^$mom_song_open|53"
             ],
             "visibility_rules": [
               "mom_song_53"
@@ -539,7 +539,7 @@
             "name": "Melody of Memory - Monochrome Dreams (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|54"
+              "^$mom_song_open|54"
             ],
             "visibility_rules": [
               "mom_song_54"
@@ -549,7 +549,7 @@
             "name": "Melody of Memory - Old Friends, Old Rivals (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|55"
+              "^$mom_song_open|55"
             ],
             "visibility_rules": [
               "mom_song_55"
@@ -559,7 +559,7 @@
             "name": "Melody of Memory - Adventures in the Savannah (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|56"
+              "^$mom_song_open|56"
             ],
             "visibility_rules": [
               "mom_song_56"
@@ -569,7 +569,7 @@
             "name": "Melody of Memory - Savannah Pride (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|57"
+              "^$mom_song_open|57"
             ],
             "visibility_rules": [
               "mom_song_57"
@@ -579,7 +579,7 @@
             "name": "Melody of Memory - Sacred Moon (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|58"
+              "^$mom_song_open|58"
             ],
             "visibility_rules": [
               "mom_song_58"
@@ -589,7 +589,7 @@
             "name": "Melody of Memory - Deep Drive (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|59"
+              "^$mom_song_open|59"
             ],
             "visibility_rules": [
               "mom_song_59"
@@ -599,7 +599,7 @@
             "name": "Melody of Memory - Sacred Distance (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|60"
+              "^$mom_song_open|60"
             ],
             "visibility_rules": [
               "mom_song_60"
@@ -609,7 +609,7 @@
             "name": "Melody of Memory - Deep Drop (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|61"
+              "^$mom_song_open|61"
             ],
             "visibility_rules": [
               "mom_song_61"
@@ -619,7 +619,7 @@
             "name": "Melody of Memory - The Promised Beginning (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|62"
+              "^$mom_song_open|62"
             ],
             "visibility_rules": [
               "mom_song_62"
@@ -629,7 +629,7 @@
             "name": "Melody of Memory - Future Masters (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|63"
+              "^$mom_song_open|63"
             ],
             "visibility_rules": [
               "mom_song_63"
@@ -639,7 +639,7 @@
             "name": "Melody of Memory - Reviving Hollow Bastion (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|64"
+              "^$mom_song_open|64"
             ],
             "visibility_rules": [
               "mom_song_64"
@@ -649,7 +649,7 @@
             "name": "Melody of Memory - Scherzo Di Notte (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|65"
+              "^$mom_song_open|65"
             ],
             "visibility_rules": [
               "mom_song_65"
@@ -659,7 +659,7 @@
             "name": "Melody of Memory - The Silent Forest (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|66"
+              "^$mom_song_open|66"
             ],
             "visibility_rules": [
               "mom_song_66"
@@ -669,7 +669,7 @@
             "name": "Melody of Memory - The Rustling Forest (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|67"
+              "^$mom_song_open|67"
             ],
             "visibility_rules": [
               "mom_song_67"
@@ -679,7 +679,7 @@
             "name": "Melody of Memory - The Secret Whispers (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|68"
+              "^$mom_song_open|68"
             ],
             "visibility_rules": [
               "mom_song_68"
@@ -689,7 +689,7 @@
             "name": "Melody of Memory - Risky Romp (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|69"
+              "^$mom_song_open|69"
             ],
             "visibility_rules": [
               "mom_song_69"
@@ -699,7 +699,7 @@
             "name": "Melody of Memory - Hau'oli, Hau'oli (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|70"
+              "^$mom_song_open|70"
             ],
             "visibility_rules": [
               "mom_song_70"
@@ -709,7 +709,7 @@
             "name": "Melody of Memory - Mákaukau? (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|71"
+              "^$mom_song_open|71"
             ],
             "visibility_rules": [
               "mom_song_71"
@@ -719,7 +719,7 @@
             "name": "Melody of Memory - La Cloche (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|72"
+              "^$mom_song_open|72"
             ],
             "visibility_rules": [
               "mom_song_72"
@@ -729,7 +729,7 @@
             "name": "Melody of Memory - Le Sanctuaire (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|73"
+              "^$mom_song_open|73"
             ],
             "visibility_rules": [
               "mom_song_73"
@@ -739,7 +739,7 @@
             "name": "Melody of Memory - Access the Grid (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|74"
+              "^$mom_song_open|74"
             ],
             "visibility_rules": [
               "mom_song_74"
@@ -749,7 +749,7 @@
             "name": "Melody of Memory - Digital Domination (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|75"
+              "^$mom_song_open|75"
             ],
             "visibility_rules": [
               "mom_song_75"
@@ -759,7 +759,7 @@
             "name": "Melody of Memory - The Fun Fair (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|76"
+              "^$mom_song_open|76"
             ],
             "visibility_rules": [
               "mom_song_76"
@@ -769,7 +769,7 @@
             "name": "Melody of Memory - Prankster's Party (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|77"
+              "^$mom_song_open|77"
             ],
             "visibility_rules": [
               "mom_song_77"
@@ -779,7 +779,7 @@
             "name": "Melody of Memory - One for All (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|78"
+              "^$mom_song_open|78"
             ],
             "visibility_rules": [
               "mom_song_78"
@@ -789,7 +789,7 @@
             "name": "Melody of Memory - All for One (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|79"
+              "^$mom_song_open|79"
             ],
             "visibility_rules": [
               "mom_song_79"
@@ -799,7 +799,7 @@
             "name": "Melody of Memory - Wonder of Electron (KINGDOM HEARTS Re:coded) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|82"
+              "^$mom_song_open|82"
             ],
             "visibility_rules": [
               "mom_song_82"
@@ -809,7 +809,7 @@
             "name": "Melody of Memory - No More Bugs!! (KINGDOM HEARTS Re:coded) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|83"
+              "^$mom_song_open|83"
             ],
             "visibility_rules": [
               "mom_song_83"
@@ -819,7 +819,7 @@
             "name": "Melody of Memory - Squirming Evil (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|86"
+              "^$mom_song_open|86"
             ],
             "visibility_rules": [
               "mom_song_86"
@@ -829,7 +829,7 @@
             "name": "Melody of Memory - The Force in You (KINGDOM HEARTS Re:Chain of Memories) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|87"
+              "^$mom_song_open|87"
             ],
             "visibility_rules": [
               "mom_song_87"
@@ -839,7 +839,7 @@
             "name": "Melody of Memory - Lord of the Castle (KINGDOM HEARTS Re:Chain of Memories) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|88"
+              "^$mom_song_open|88"
             ],
             "visibility_rules": [
               "mom_song_88"
@@ -849,7 +849,7 @@
             "name": "Melody of Memory - Tension Rising (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|89"
+              "^$mom_song_open|89"
             ],
             "visibility_rules": [
               "mom_song_89"
@@ -859,7 +859,7 @@
             "name": "Melody of Memory - The 13th Dilemma (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|90"
+              "^$mom_song_open|90"
             ],
             "visibility_rules": [
               "mom_song_90"
@@ -869,7 +869,7 @@
             "name": "Melody of Memory - Desire for All That Is Lost (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|91"
+              "^$mom_song_open|91"
             ],
             "visibility_rules": [
               "mom_song_91"
@@ -879,7 +879,7 @@
             "name": "Melody of Memory - Vim and Vigor (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|92"
+              "^$mom_song_open|92"
             ],
             "visibility_rules": [
               "mom_song_92"
@@ -889,7 +889,7 @@
             "name": "Melody of Memory - Rowdy Rumble (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|93"
+              "^$mom_song_open|93"
             ],
             "visibility_rules": [
               "mom_song_93"
@@ -899,7 +899,7 @@
             "name": "Melody of Memory - Sinister Shadows (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|95"
+              "^$mom_song_open|95"
             ],
             "visibility_rules": [
               "mom_song_95"
@@ -909,7 +909,7 @@
             "name": "Melody of Memory - Fight and Away (KINGDOM HEARTS 358-2 Days) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|97"
+              "^$mom_song_open|97"
             ],
             "visibility_rules": [
               "mom_song_97"
@@ -919,7 +919,7 @@
             "name": "Melody of Memory - Vector to the Heavens (KINGDOM HEARTS 358-2 Days) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|98"
+              "^$mom_song_open|98"
             ],
             "visibility_rules": [
               "mom_song_98"
@@ -929,7 +929,7 @@
             "name": "Melody of Memory - Another Side - Battle Ver. - (KINGDOM HEARTS 358-2 Days) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|99"
+              "^$mom_song_open|99"
             ],
             "visibility_rules": [
               "mom_song_99"
@@ -939,7 +939,7 @@
             "name": "Melody of Memory - The Tumbling (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|100"
+              "^$mom_song_open|100"
             ],
             "visibility_rules": [
               "mom_song_100"
@@ -949,7 +949,7 @@
             "name": "Melody of Memory - Black Powder (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|101"
+              "^$mom_song_open|101"
             ],
             "visibility_rules": [
               "mom_song_101"
@@ -959,7 +959,7 @@
             "name": "Melody of Memory - Rage Awakened -The Origin- (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|102"
+              "^$mom_song_open|102"
             ],
             "visibility_rules": [
               "mom_song_102"
@@ -969,7 +969,7 @@
             "name": "Melody of Memory - Enter the Darkness (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|103"
+              "^$mom_song_open|103"
             ],
             "visibility_rules": [
               "mom_song_103"
@@ -979,7 +979,7 @@
             "name": "Melody of Memory - Dismiss (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|104"
+              "^$mom_song_open|104"
             ],
             "visibility_rules": [
               "mom_song_104"
@@ -989,7 +989,7 @@
             "name": "Melody of Memory - Night of Fate (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|105"
+              "^$mom_song_open|105"
             ],
             "visibility_rules": [
               "mom_song_105"
@@ -999,7 +999,7 @@
             "name": "Melody of Memory - Majestic Wings (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|106"
+              "^$mom_song_open|106"
             ],
             "visibility_rules": [
               "mom_song_106"
@@ -1009,7 +1009,7 @@
             "name": "Melody of Memory - L'Oscurità dell'Ignoto (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|107"
+              "^$mom_song_open|107"
             ],
             "visibility_rules": [
               "mom_song_107"
@@ -1019,7 +1019,7 @@
             "name": "Melody of Memory - L'Impeto Oscuro (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|108"
+              "^$mom_song_open|108"
             ],
             "visibility_rules": [
               "mom_song_108"
@@ -1029,7 +1029,7 @@
             "name": "Melody of Memory - The Eye of Darkness (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|109"
+              "^$mom_song_open|109"
             ],
             "visibility_rules": [
               "mom_song_109"
@@ -1039,7 +1039,7 @@
             "name": "Melody of Memory - Wave of Darkness I (KINGDOM HEARTS 0.2 Birth by Sleep -A fragmentary passage-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|110"
+              "^$mom_song_open|110"
             ],
             "visibility_rules": [
               "mom_song_110"
@@ -1049,7 +1049,7 @@
             "name": "Melody of Memory - Another Side (KINGDOM HEARTS -FINAL MIX-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|122"
+              "^$mom_song_open|122"
             ],
             "visibility_rules": [
               "mom_song_122"
@@ -1059,7 +1059,7 @@
             "name": "Melody of Memory - Fate of the Unknown (KINGDOM HEARTS II -FINAL MIX-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|123"
+              "^$mom_song_open|123"
             ],
             "visibility_rules": [
               "mom_song_123"
@@ -1069,7 +1069,7 @@
             "name": "Melody of Memory - One-Winged Angel (from FINAL FANTASY VII) (KINGDOM HEARTS -FINAL MIX-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|124"
+              "^$mom_song_open|124"
             ],
             "visibility_rules": [
               "mom_song_124"
@@ -1079,7 +1079,7 @@
             "name": "Melody of Memory - Rage Awakened (KINGDOM HEARTS II -FINAL MIX-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|125"
+              "^$mom_song_open|125"
             ],
             "visibility_rules": [
               "mom_song_125"
@@ -1089,7 +1089,7 @@
             "name": "Melody of Memory - The Other Promise (KINGDOM HEARTS II -FINAL MIX-) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|127"
+              "^$mom_song_open|127"
             ],
             "visibility_rules": [
               "mom_song_127"
@@ -1099,7 +1099,7 @@
             "name": "Melody of Memory - CALLING -KINGDOM MIX- (KINGDOM HEARTS 3D [Dream Drop Distance]) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|128"
+              "^$mom_song_open|128"
             ],
             "visibility_rules": [
               "mom_song_128"
@@ -1109,7 +1109,7 @@
             "name": "Melody of Memory - A Whole New World (Other Titles) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|140"
+              "^$mom_song_open|140"
             ],
             "visibility_rules": [
               "mom_song_140"
@@ -1119,7 +1119,7 @@
             "name": "Melody of Memory - Circle Of Life (Other Titles) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|143"
+              "^$mom_song_open|143"
             ],
             "visibility_rules": [
               "mom_song_143"
@@ -1129,7 +1129,7 @@
             "name": "Melody of Memory - Hand in Hand (Piano Collections KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|144"
+              "^$mom_song_open|144"
             ],
             "visibility_rules": [
               "mom_song_144"
@@ -1139,7 +1139,7 @@
             "name": "Melody of Memory - Working Together - Allegro vivace (Piano Collections KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|145"
+              "^$mom_song_open|145"
             ],
             "visibility_rules": [
               "mom_song_145"
@@ -1149,7 +1149,7 @@
             "name": "Melody of Memory - Sora - Allegro con brio (Piano Collections KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|146"
+              "^$mom_song_open|146"
             ],
             "visibility_rules": [
               "mom_song_146"
@@ -1159,7 +1159,7 @@
             "name": "Melody of Memory - Medley of Conflict (Piano Collections KINGDOM HEARTS FIELD & BATTLE) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|147"
+              "^$mom_song_open|147"
             ],
             "visibility_rules": [
               "mom_song_147"
@@ -1169,7 +1169,7 @@
             "name": "Melody of Memory - Destati (KINGDOM HEARTS Orchestra -World Tour- Album) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|148"
+              "^$mom_song_open|148"
             ],
             "visibility_rules": [
               "mom_song_148"
@@ -1179,7 +1179,7 @@
             "name": "Melody of Memory - Destiny's Force (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|161"
+              "^$mom_song_open|161"
             ],
             "visibility_rules": [
               "mom_song_161"
@@ -1189,7 +1189,7 @@
             "name": "Melody of Memory - Guardando nel buio (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|162"
+              "^$mom_song_open|162"
             ],
             "visibility_rules": [
               "mom_song_162"
@@ -1199,7 +1199,7 @@
             "name": "Melody of Memory - The Encounter -Birth by Sleep Version- (KINGDOM HEARTS Birth by Sleep) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|163"
+              "^$mom_song_open|163"
             ],
             "visibility_rules": [
               "mom_song_163"
@@ -1209,7 +1209,7 @@
             "name": "Melody of Memory - Darkness of the Unknown (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|164"
+              "^$mom_song_open|164"
             ],
             "visibility_rules": [
               "mom_song_164"
@@ -1219,7 +1219,7 @@
             "name": "Melody of Memory - Simple And Clean (KINGDOM HEARTS) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|168"
+              "^$mom_song_open|168"
             ],
             "visibility_rules": [
               "mom_song_168"
@@ -1229,7 +1229,7 @@
             "name": "Melody of Memory - Sanctuary ~opening version~ (KINGDOM HEARTS II) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|169"
+              "^$mom_song_open|169"
             ],
             "visibility_rules": [
               "mom_song_169"
@@ -1239,7 +1239,7 @@
             "name": "Melody of Memory - Don't Think Twice (KINGDOM HEARTS III) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|170"
+              "^$mom_song_open|170"
             ],
             "visibility_rules": [
               "mom_song_170"
@@ -1249,7 +1249,7 @@
             "name": "Melody of Memory - Graveyard Labyrinth (KINGDOM HEARTS III) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|174"
+              "^$mom_song_open|174"
             ],
             "visibility_rules": [
               "mom_song_174"
@@ -1259,7 +1259,7 @@
             "name": "Melody of Memory - Rise of the Union (KINGDOM HEARTS III) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|175"
+              "^$mom_song_open|175"
             ],
             "visibility_rules": [
               "mom_song_175"
@@ -1269,7 +1269,7 @@
             "name": "Melody of Memory - Dark Domination (KINGDOM HEARTS III) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|203"
+              "^$mom_song_open|203"
             ],
             "visibility_rules": [
               "mom_song_203"
@@ -1279,7 +1279,7 @@
             "name": "Melody of Memory - Beauty and the Beast (Other Titles) Clear",
             "item_count": 1,
             "access_rules": [
-              "$mom_song_open|206"
+              "^$mom_song_open|206"
             ],
             "visibility_rules": [
               "mom_song_206"
@@ -1338,14 +1338,14 @@
                   "mc_chest_twilight_town"
                 ],
                 "access_rules": [
-                  "$portal|kb_shooting_star,$has_twilight_town_combat"
+                  "$portal|kb_shooting_star,^$has_twilight_town_combat"
                 ]
               },
               {
                 "name": "Twilight Town - Melody Chest - Song Bonus",
                 "item_count": 1,
                 "access_rules": [
-                  "$portal|kb_shooting_star,$has_twilight_town_combat"
+                  "$portal|kb_shooting_star,^$has_twilight_town_combat"
                 ],
                 "visibility_rules": [
                   "mc_chest_twilight_town,$song_bonus|1264202754"

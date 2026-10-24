@@ -17,7 +17,7 @@
             "chest_unopened_img": "images/adversaries/shadow.png",
             "chest_opened_img": "images/adversaries/shadow_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona|Olympus|Re Mind|San Fransokyo|Toy Box|Twilight Town"
+              "^$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona|Olympus|Re Mind|San Fransokyo|Toy Box|Twilight Town"
             ]
           },
           {
@@ -26,7 +26,7 @@
             "chest_unopened_img": "images/adversaries/neoshadow.png",
             "chest_opened_img": "images/adversaries/neoshadow_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Re Mind|San Fransokyo|Twilight Town"
+              "^$can_reach_any_world|Re Mind|San Fransokyo|Twilight Town"
             ]
           },
           {
@@ -35,7 +35,7 @@
             "chest_unopened_img": "images/adversaries/fluttering.png",
             "chest_opened_img": "images/adversaries/fluttering_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Monstropolis"
+              "^$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Monstropolis"
             ]
           },
           {
@@ -44,7 +44,7 @@
             "chest_unopened_img": "images/adversaries/flame_core.png",
             "chest_opened_img": "images/adversaries/flame_core_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Monstropolis|Olympus|Re Mind"
+              "^$can_reach_any_world|Monstropolis|Olympus|Re Mind"
             ]
           },
           {
@@ -53,7 +53,7 @@
             "chest_unopened_img": "images/adversaries/water_core.png",
             "chest_opened_img": "images/adversaries/water_core_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Kingdom of Corona|Monstropolis|Olympus|Re Mind"
+              "^$can_reach_any_world|Kingdom of Corona|Monstropolis|Olympus|Re Mind"
             ]
           },
           {
@@ -62,7 +62,7 @@
             "chest_unopened_img": "images/adversaries/earth_core.png",
             "chest_opened_img": "images/adversaries/earth_core_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Kingdom of Corona|Olympus|The Caribbean"
+              "^$can_reach_any_world|Kingdom of Corona|Olympus|The Caribbean"
             ]
           },
           {
@@ -71,7 +71,7 @@
             "chest_unopened_img": "images/adversaries/soldier.png",
             "chest_opened_img": "images/adversaries/soldier_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Monstropolis|Olympus|San Fransokyo"
+              "^$can_reach_any_world|Arendelle|Monstropolis|Olympus|San Fransokyo"
             ]
           },
           {
@@ -80,7 +80,7 @@
             "chest_unopened_img": "images/adversaries/high_soldier.png",
             "chest_opened_img": "images/adversaries/high_soldier_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|San Fransokyo"
+              "^$can_reach_any_world|San Fransokyo"
             ]
           },
           {
@@ -89,7 +89,7 @@
             "chest_unopened_img": "images/adversaries/air_soldier.png",
             "chest_opened_img": "images/adversaries/air_soldier_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Keyblade Graveyard|Olympus"
+              "^$can_reach_any_world|Keyblade Graveyard|Olympus"
             ]
           },
           {
@@ -98,7 +98,7 @@
             "chest_unopened_img": "images/adversaries/large_body.png",
             "chest_opened_img": "images/adversaries/large_body_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Monstropolis|Olympus|Toy Box|Twilight Town"
+              "^$can_reach_any_world|Monstropolis|Olympus|Toy Box|Twilight Town"
             ]
           },
           {
@@ -107,7 +107,7 @@
             "chest_unopened_img": "images/adversaries/helmed_body.png",
             "chest_opened_img": "images/adversaries/helmed_body_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Re Mind"
+              "^$can_reach_any_world|Arendelle|Re Mind"
             ]
           },
           {
@@ -116,7 +116,7 @@
             "chest_unopened_img": "images/adversaries/vermilion_samba.png",
             "chest_opened_img": "images/adversaries/vermilion_samba_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Monstropolis|Toy Box|Twilight Town"
+              "^$can_reach_any_world|Monstropolis|Toy Box|Twilight Town"
             ]
           },
           {
@@ -125,7 +125,7 @@
             "chest_unopened_img": "images/adversaries/marine_rumba.png",
             "chest_opened_img": "images/adversaries/marine_rumba_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Kingdom of Corona|Monstropolis|Re Mind"
+              "^$can_reach_any_world|Arendelle|Kingdom of Corona|Monstropolis|Re Mind"
             ]
           },
           {
@@ -134,7 +134,7 @@
             "chest_unopened_img": "images/adversaries/gold_beat.png",
             "chest_opened_img": "images/adversaries/gold_beat_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Monstropolis|San Fransokyo|Toy Box"
+              "^$can_reach_any_world|Arendelle|Monstropolis|San Fransokyo|Toy Box"
             ]
           },
           {
@@ -143,7 +143,7 @@
             "chest_unopened_img": "images/adversaries/malachite_bolero.png",
             "chest_opened_img": "images/adversaries/malachite_bolero_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Kingdom of Corona|Re Mind"
+              "^$can_reach_any_world|Kingdom of Corona|Re Mind"
             ]
           },
           {
@@ -152,7 +152,7 @@
             "chest_unopened_img": "images/adversaries/popcat.png",
             "chest_opened_img": "images/adversaries/popcat_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Olympus|Re Mind"
+              "^$can_reach_any_world|Arendelle|Olympus|Re Mind"
             ]
           },
           {
@@ -161,7 +161,7 @@
             "chest_unopened_img": "images/adversaries/vitality_popcat.png",
             "chest_opened_img": "images/adversaries/vitality_popcat_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
+              "^$can_reach_any_world|Arendelle|Re Mind|Toy Box"
             ]
           },
           {
@@ -170,7 +170,7 @@
             "chest_unopened_img": "images/adversaries/magic_popcat.png",
             "chest_opened_img": "images/adversaries/magic_popcat_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
+              "^$can_reach_any_world|Arendelle|Re Mind|Toy Box"
             ]
           },
           {
@@ -179,7 +179,7 @@
             "chest_unopened_img": "images/adversaries/focus_popcat.png",
             "chest_opened_img": "images/adversaries/focus_popcat_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Re Mind|Toy Box"
+              "^$can_reach_any_world|Arendelle|Re Mind|Toy Box"
             ]
           },
           {
@@ -188,7 +188,7 @@
             "chest_unopened_img": "images/adversaries/munny_popcat.png",
             "chest_opened_img": "images/adversaries/munny_popcat_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Kingdom of Corona|Toy Box|Twilight Town"
+              "^$can_reach_any_world|Arendelle|Kingdom of Corona|Toy Box|Twilight Town"
             ]
           },
           {
@@ -197,7 +197,7 @@
             "chest_unopened_img": "images/adversaries/bizarre_archer.png",
             "chest_opened_img": "images/adversaries/bizarre_archer_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Kingdom of Corona|Olympus|Twilight Town"
+              "^$can_reach_any_world|Kingdom of Corona|Olympus|Twilight Town"
             ]
           },
           {
@@ -206,7 +206,7 @@
             "chest_unopened_img": "images/adversaries/rock_troll.png",
             "chest_opened_img": "images/adversaries/rock_troll_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Keyblade Graveyard|Olympus"
+              "^$can_reach_any_world|Arendelle|Keyblade Graveyard|Olympus"
             ]
           },
           {
@@ -215,7 +215,7 @@
             "chest_unopened_img": "images/adversaries/satyr.png",
             "chest_opened_img": "images/adversaries/satyr_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Olympus|Re Mind"
+              "^$can_reach_any_world|Arendelle|Olympus|Re Mind"
             ]
           },
           {
@@ -224,7 +224,7 @@
             "chest_unopened_img": "images/adversaries/mechanitaur.png",
             "chest_opened_img": "images/adversaries/mechanitaur_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|San Fransokyo"
+              "^$can_reach_any_world|San Fransokyo"
             ]
           },
           {
@@ -233,7 +233,7 @@
             "chest_unopened_img": "images/adversaries/toy_trooper.png",
             "chest_opened_img": "images/adversaries/toy_trooper_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Toy Box"
+              "^$can_reach_any_world|Toy Box"
             ]
           },
           {
@@ -242,7 +242,7 @@
             "chest_unopened_img": "images/adversaries/pole_cannon.png",
             "chest_opened_img": "images/adversaries/pole_cannon_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|San Fransokyo|Toy Box"
+              "^$can_reach_any_world|San Fransokyo|Toy Box"
             ]
           },
           {
@@ -251,7 +251,7 @@
             "chest_unopened_img": "images/adversaries/marionette.png",
             "chest_opened_img": "images/adversaries/marionette_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Toy Box"
+              "^$can_reach_any_world|Toy Box"
             ]
           },
           {
@@ -260,7 +260,7 @@
             "chest_unopened_img": "images/adversaries/powerwild.png",
             "chest_opened_img": "images/adversaries/powerwild_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Kingdom of Corona"
+              "^$can_reach_any_world|Kingdom of Corona"
             ]
           },
           {
@@ -269,7 +269,7 @@
             "chest_unopened_img": "images/adversaries/pogo_shovel.png",
             "chest_opened_img": "images/adversaries/pogo_shovel_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Monstropolis|San Fransokyo"
+              "^$can_reach_any_world|Monstropolis|San Fransokyo"
             ]
           },
           {
@@ -278,7 +278,7 @@
             "chest_unopened_img": "images/adversaries/parasol_beauty.png",
             "chest_opened_img": "images/adversaries/parasol_beauty_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Kingdom of Corona"
+              "^$can_reach_any_world|Arendelle|Kingdom of Corona"
             ]
           },
           {
@@ -287,7 +287,7 @@
             "chest_unopened_img": "images/adversaries/chief_puff.png",
             "chest_opened_img": "images/adversaries/chief_puff_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Kingdom of Corona"
+              "^$can_reach_any_world|Kingdom of Corona"
             ]
           },
           {
@@ -296,7 +296,7 @@
             "chest_unopened_img": "images/adversaries/puffball.png",
             "chest_opened_img": "images/adversaries/puffball_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Kingdom of Corona"
+              "^$can_reach_any_world|Kingdom of Corona"
             ]
           },
           {
@@ -305,7 +305,7 @@
             "chest_unopened_img": "images/adversaries/winterhorn.png",
             "chest_opened_img": "images/adversaries/winterhorn_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle"
+              "^$can_reach_any_world|Arendelle"
             ]
           },
           {
@@ -314,7 +314,7 @@
             "chest_unopened_img": "images/adversaries/vaporfly.png",
             "chest_opened_img": "images/adversaries/vaporfly_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|The Caribbean"
+              "^$can_reach_any_world|The Caribbean"
             ]
           },
           {
@@ -323,7 +323,7 @@
             "chest_unopened_img": "images/adversaries/sea_sprite.png",
             "chest_opened_img": "images/adversaries/sea_sprite_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|The Caribbean"
+              "^$can_reach_any_world|The Caribbean"
             ]
           },
           {
@@ -332,7 +332,7 @@
             "chest_unopened_img": "images/adversaries/spear_lizard.png",
             "chest_opened_img": "images/adversaries/spear_lizard_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|The Caribbean"
+              "^$can_reach_any_world|The Caribbean"
             ]
           },
           {
@@ -341,7 +341,7 @@
             "chest_unopened_img": "images/adversaries/anchor_raider.png",
             "chest_opened_img": "images/adversaries/anchor_raider_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|The Caribbean"
+              "^$can_reach_any_world|The Caribbean"
             ]
           },
           {
@@ -350,7 +350,7 @@
             "chest_unopened_img": "images/adversaries/tireblade.png",
             "chest_opened_img": "images/adversaries/tireblade_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|San Fransokyo"
+              "^$can_reach_any_world|San Fransokyo"
             ]
           },
           {
@@ -359,7 +359,7 @@
             "chest_unopened_img": "images/adversaries/dusk.png",
             "chest_opened_img": "images/adversaries/dusk_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Re Mind|Twilight Town"
+              "^$can_reach_any_world|Arendelle|Keyblade Graveyard|Kingdom of Corona|Re Mind|Twilight Town"
             ]
           },
           {
@@ -368,7 +368,7 @@
             "chest_unopened_img": "images/adversaries/berserker.png",
             "chest_opened_img": "images/adversaries/berserker_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Re Mind"
+              "^$can_reach_any_world|Re Mind"
             ]
           },
           {
@@ -377,7 +377,7 @@
             "chest_unopened_img": "images/adversaries/gambler.png",
             "chest_opened_img": "images/adversaries/gambler_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Re Mind"
+              "^$can_reach_any_world|Re Mind"
             ]
           },
           {
@@ -386,7 +386,7 @@
             "chest_unopened_img": "images/adversaries/sorcerer.png",
             "chest_opened_img": "images/adversaries/sorcerer_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Twilight Town"
+              "^$can_reach_any_world|Twilight Town"
             ]
           },
           {
@@ -395,7 +395,7 @@
             "chest_unopened_img": "images/adversaries/reaper.png",
             "chest_opened_img": "images/adversaries/reaper_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona"
+              "^$can_reach_any_world|Keyblade Graveyard|Kingdom of Corona"
             ]
           },
           {
@@ -404,7 +404,7 @@
             "chest_unopened_img": "images/adversaries/ninja.png",
             "chest_opened_img": "images/adversaries/ninja_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Arendelle|Re Mind"
+              "^$can_reach_any_world|Arendelle|Re Mind"
             ]
           },
           {
@@ -413,7 +413,7 @@
             "chest_unopened_img": "images/adversaries/flood.png",
             "chest_opened_img": "images/adversaries/flood_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Monstropolis"
+              "^$can_reach_any_world|Monstropolis"
             ]
           },
           {
@@ -422,7 +422,7 @@
             "chest_unopened_img": "images/adversaries/flowersnake.png",
             "chest_opened_img": "images/adversaries/flowersnake_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Monstropolis"
+              "^$can_reach_any_world|Monstropolis"
             ]
           },
           {
@@ -431,7 +431,7 @@
             "chest_unopened_img": "images/adversaries/spiked_turtletoad.png",
             "chest_opened_img": "images/adversaries/spiked_turtletoad_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Keyblade Graveyard|Monstropolis"
+              "^$can_reach_any_world|Keyblade Graveyard|Monstropolis"
             ]
           },
           {
@@ -440,7 +440,7 @@
             "chest_unopened_img": "images/adversaries/turtletoad.png",
             "chest_opened_img": "images/adversaries/turtletoad_cleared.png",
             "access_rules": [
-              "$can_reach_any_world|Monstropolis"
+              "^$can_reach_any_world|Monstropolis"
             ]
           }
         ],
@@ -455,7 +455,7 @@
       {
         "name": "Adversaries - Olympus",
         "access_rules": [
-          "$can_reach_any_world|Olympus"
+          "^$can_reach_any_world|Olympus"
         ],
         "sections": [
           {
@@ -537,7 +537,7 @@
       {
         "name": "Adversaries - Twilight Town",
         "access_rules": [
-          "$can_reach_any_world|Twilight Town"
+          "^$can_reach_any_world|Twilight Town"
         ],
         "sections": [
           {
@@ -601,7 +601,7 @@
       {
         "name": "Adversaries - Toy Box",
         "access_rules": [
-          "$can_reach_any_world|Toy Box"
+          "^$can_reach_any_world|Toy Box"
         ],
         "sections": [
           {
@@ -683,7 +683,7 @@
       {
         "name": "Adversaries - Kingdom of Corona",
         "access_rules": [
-          "$can_reach_any_world|Kingdom of Corona"
+          "^$can_reach_any_world|Kingdom of Corona"
         ],
         "sections": [
           {
@@ -783,7 +783,7 @@
       {
         "name": "Adversaries - Monstropolis",
         "access_rules": [
-          "$can_reach_any_world|Monstropolis"
+          "^$can_reach_any_world|Monstropolis"
         ],
         "sections": [
           {
@@ -877,7 +877,7 @@
       {
         "name": "Adversaries - Arendelle",
         "access_rules": [
-          "$can_reach_any_world|Arendelle"
+          "^$can_reach_any_world|Arendelle"
         ],
         "sections": [
           {
@@ -989,7 +989,7 @@
       {
         "name": "Adversaries - The Caribbean",
         "access_rules": [
-          "$can_reach_any_world|The Caribbean"
+          "^$can_reach_any_world|The Caribbean"
         ],
         "sections": [
           {
@@ -1035,7 +1035,7 @@
       {
         "name": "Adversaries - San Fransokyo",
         "access_rules": [
-          "$can_reach_any_world|San Fransokyo"
+          "^$can_reach_any_world|San Fransokyo"
         ],
         "sections": [
           {
@@ -1105,7 +1105,7 @@
       {
         "name": "Adversaries - Keyblade Graveyard",
         "access_rules": [
-          "$can_reach_any_world|Keyblade Graveyard"
+          "^$can_reach_any_world|Keyblade Graveyard"
         ],
         "sections": [
           {
@@ -1163,7 +1163,7 @@
       {
         "name": "Adversaries - Re Mind",
         "access_rules": [
-          "$can_reach_any_world|Re Mind"
+          "^$can_reach_any_world|Re Mind"
         ],
         "sections": [
           {

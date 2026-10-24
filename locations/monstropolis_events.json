@@ -248,32 +248,32 @@
             "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area - Reward 2",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Defeat Lump of Horror in Monstropolis - The Door Vault: Service Area - Reward 3",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Monstropolis - EVENT_KEYBLADE_005 - RandomizedItem",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -293,8 +293,8 @@
             "name": "Flantastic - Monstropolis - Banana Flan - High Score",
             "ref": "Flantastic Flans/Flantastic Flans - High Scores/Flantastic - Monstropolis - Banana Flan - High Score",
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
@@ -322,7 +322,7 @@
             "name": "Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 12 (Insulator Rosette)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Monstropolis"
+              "^$can_complete_coliseum_worlds|Monstropolis"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Monstropolis"

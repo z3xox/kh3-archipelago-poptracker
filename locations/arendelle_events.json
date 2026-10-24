@@ -438,7 +438,7 @@
             "name": "Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 13 (Blizzard Chain)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Arendelle"
+              "^$can_complete_coliseum_worlds|Arendelle"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Arendelle"
@@ -448,7 +448,7 @@
             "name": "Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 14 (Snowman Rosette)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Arendelle"
+              "^$can_complete_coliseum_worlds|Arendelle"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Arendelle"

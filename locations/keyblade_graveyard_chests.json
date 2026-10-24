@@ -12,14 +12,14 @@
             "name": "Keyblade Graveyard - Chest 1 (Large Chest, The Badlands)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023086,$portal|kb_starlight"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023086,$portal|kb_starlight"
             ]
           },
           {
             "name": "Keyblade Graveyard - Chest 1 (Large Chest, The Badlands) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023086,$portal|kb_starlight"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023086,$portal|kb_starlight"
             ],
             "visibility_rules": [
               "$song_bonus|1264071662"
@@ -41,16 +41,16 @@
             "name": "Keyblade Graveyard - Chest 3 (Large Chest, The Skein of Severance: Trail of Valediction)",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023087,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023087,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023087,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023087,$portal|kingdom_key"
             ]
           },
           {
             "name": "Keyblade Graveyard - Chest 3 (Large Chest, The Skein of Severance: Trail of Valediction) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023087,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023087,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023087,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023087,$portal|kingdom_key"
             ],
             "visibility_rules": [
               "$song_bonus|1264071663"
@@ -72,14 +72,14 @@
             "name": "Keyblade Graveyard - Chest 2 (Small Chest, The Badlands)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023091,$portal|kb_starlight"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023091,$portal|kb_starlight"
             ]
           },
           {
             "name": "Keyblade Graveyard - Chest 2 (Small Chest, The Badlands) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023091,$portal|kb_starlight"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023091,$portal|kb_starlight"
             ],
             "visibility_rules": [
               "$song_bonus|1264071667"
@@ -101,16 +101,16 @@
             "name": "Keyblade Graveyard - Chest 5 (Small Chest, The Skein of Severance: Trail of Valediction)",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023089,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023089,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023089,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023089,$portal|kingdom_key"
             ]
           },
           {
             "name": "Keyblade Graveyard - Chest 5 (Small Chest, The Skein of Severance: Trail of Valediction) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023089,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023089,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023089,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023089,$portal|kingdom_key"
             ],
             "visibility_rules": [
               "$song_bonus|1264071665"
@@ -132,16 +132,16 @@
             "name": "Keyblade Graveyard - Chest 6 (Small Chest, The Skein of Severance: Twist of Isolation)",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023090,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023090,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023090,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023090,$portal|kingdom_key"
             ]
           },
           {
             "name": "Keyblade Graveyard - Chest 6 (Small Chest, The Skein of Severance: Twist of Isolation) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023090,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023090,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023090,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023090,$portal|kingdom_key"
             ],
             "visibility_rules": [
               "$song_bonus|1264071666"
@@ -163,16 +163,16 @@
             "name": "Keyblade Graveyard - Chest 4 (Small Chest, The Skein of Severance: Trail of Valediction)",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023088,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023088,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023088,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023088,$portal|kingdom_key"
             ]
           },
           {
             "name": "Keyblade Graveyard - Chest 4 (Small Chest, The Skein of Severance: Trail of Valediction) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023088,$portal|kb_starlight",
-              "active_remind,ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023088,$portal|kingdom_key"
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023088,$portal|kb_starlight",
+              "active_remind,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023088,$portal|kingdom_key"
             ],
             "visibility_rules": [
               "$song_bonus|1264071664"
@@ -194,14 +194,14 @@
             "name": "The Final World - Chest 1 (Large Chest, The Final World)",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023092,$portal|kb_starlight"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023092,$portal|kb_starlight"
             ]
           },
           {
             "name": "The Final World - Chest 1 (Large Chest, The Final World) - Song Bonus",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_block,ability_dodge_roll,cure,unlock_attraction_flow,unlock_magic,$chest_keyblade|1263023092,$portal|kb_starlight"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow,$chest_keyblade|1263023092,$portal|kb_starlight"
             ],
             "visibility_rules": [
               "$song_bonus|1264071668"

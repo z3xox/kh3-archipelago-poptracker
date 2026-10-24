@@ -547,7 +547,7 @@
             "name": "Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 5 (Cosmic Ring)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus"
+              "^$can_complete_coliseum_worlds|Olympus"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Olympus"
@@ -573,7 +573,7 @@
             "name": "Moogle Workshop - Photo Mission 9 (Fire Chain)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 9 (Fire Chain)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus"
+              "^$can_complete_coliseum_worlds|Olympus"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Olympus"
@@ -599,7 +599,7 @@
             "name": "Moogle Workshop - Photo Mission 10 (Thunder Chain)",
             "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 10 (Thunder Chain)",
             "access_rules": [
-              "$can_complete_coliseum_worlds|Olympus"
+              "^$can_complete_coliseum_worlds|Olympus"
             ],
             "visibility_rules": [
               "$photo_mission_shown|Olympus"

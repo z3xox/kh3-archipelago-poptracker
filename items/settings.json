@@ -82,6 +82,28 @@
     ]
   },
   {
+    "name": "Combat Requirements",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Block.png",
+        "img_mods": "saturation|0",
+        "codes": "combat_logic_setting",
+        "inherit_codes": false,
+        "name": "Combat Requirements - Required (checks stay red without them)"
+      },
+      {
+        "img": "images/items/Block.png",
+        "codes": "combat_logic_setting, combat_sequence_break",
+        "inherit_codes": false,
+        "name": "Combat Requirements - Sequence Break (yellow when only combat abilities are missing)"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
     "name": "Song Bonuses",
     "type": "progressive",
     "allow_disabled": false,

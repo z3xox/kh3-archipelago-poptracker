@@ -58,8 +58,8 @@
             "name": "Ingredients - Sole",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022881,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "unlock_wall_run,$chest_keyblade|1263022944,$portal|kb_ever_after"
             ]
           },
@@ -67,7 +67,7 @@
             "name": "Ingredients - Eel",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022933,$portal|kb_ever_after"
             ]
           },
@@ -168,7 +168,7 @@
               "$chest_keyblade|1263023081,$portal|kb_nano_gear",
               "$chest_keyblade|1263023084,$portal|kb_nano_gear",
               "unlock_wall_run,$chest_keyblade|1263022923,$portal|kb_ever_after",
-              "unlock_wall_run,$chest_keyblade|1263022942,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263022942,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,$portal|kb_ever_after",
               "unlock_wall_run,$chest_keyblade|1263023050,$portal|kb_nano_gear"
             ]
           },
@@ -195,7 +195,7 @@
               "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
               "unlock_wall_run,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
               "unlock_wall_run,$chest_keyblade|1263022923,$portal|kb_ever_after",
-              "unlock_wall_run,$chest_keyblade|1263022942,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,$portal|kb_ever_after",
+              "unlock_wall_run,$chest_keyblade|1263022942,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll,$portal|kb_ever_after",
               "unlock_wall_run,$chest_keyblade|1263023050,$portal|kb_nano_gear"
             ]
           },
@@ -239,7 +239,7 @@
             "name": "Ingredients - Chanterelle",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022888,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022888,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022933,$portal|kb_ever_after",
               "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
@@ -282,7 +282,7 @@
             "name": "Ingredients - Black Trumpet",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022886,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022886,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022932,$portal|kb_ever_after",
               "$chest_keyblade|1263022995,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
               "unlock_wall_run,$chest_keyblade|1263022938,$portal|kb_ever_after"
@@ -363,7 +363,7 @@
             "name": "Ingredients - Parsley",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022889,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022889,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022890,$portal|kb_favorite_deputy",
               "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
               "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
@@ -387,8 +387,8 @@
             "name": "Ingredients - Apricot",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022882,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022880,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022882,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
               "$chest_keyblade|1263023007,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860,$portal|kb_heros_origin",
@@ -412,8 +412,8 @@
             "name": "Ingredients - Lemon",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022880,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022881,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022952,$portal|kb_happy_gear",
               "$chest_keyblade|1263022966,$portal|kb_happy_gear",
               "$chest_keyblade|1263022994,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
@@ -447,9 +447,9 @@
             "name": "Ingredients - Pear",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022882,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022880,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022882,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022966,$portal|kb_happy_gear",
               "$chest_keyblade|1263023009,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949,$portal|kb_happy_gear",
@@ -471,8 +471,8 @@
             "name": "Ingredients - Apple",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022881,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022849,$portal|kb_heros_origin",
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022865,$portal|kb_heros_origin",
               "unlock_wall_run,$chest_keyblade|1263022849,$portal|kb_heros_origin",
@@ -498,8 +498,8 @@
             "name": "Ingredients - Chocolate",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022880,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022892,$portal|kb_favorite_deputy",
               "$has_any|ability_doubleflight|ability_high_jump|unlock_wall_run,$portal|kb_favorite_deputy"
             ]
@@ -508,9 +508,9 @@
             "name": "Ingredients - Caviar",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022881,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022892,$portal|kb_favorite_deputy",
               "$chest_keyblade|1263022917,$portal|kb_favorite_deputy"
             ]
@@ -519,9 +519,9 @@
             "name": "Ingredients - Butter",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022880,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022883,$has_twilight_town_combat,$portal|kb_shooting_star",
-              "$chest_keyblade|1263022884,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022880,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022883,^$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022884,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022898,$portal|kb_favorite_deputy",
               "$chest_keyblade|1263022916,$portal|kb_favorite_deputy",
               "$chest_keyblade|1263023051,$portal|kb_nano_gear",
@@ -547,7 +547,7 @@
             "name": "Ingredients - Cornichon",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022881,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263022898,$portal|kb_favorite_deputy",
               "$chest_keyblade|1263022916,$portal|kb_favorite_deputy",
               "$has_any|ability_doubleflight|ability_high_jump|unlock_wall_run,$portal|kb_favorite_deputy"
@@ -568,7 +568,7 @@
             "name": "Ingredients - Veal",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022881,$has_twilight_town_combat,$portal|kb_shooting_star",
+              "$chest_keyblade|1263022881,^$has_twilight_town_combat,$portal|kb_shooting_star",
               "$chest_keyblade|1263023007,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
               "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860,$portal|kb_heros_origin",
               "unlock_wall_run,$chest_keyblade|1263022860,$portal|kb_heros_origin",

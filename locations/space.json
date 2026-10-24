@@ -5,7 +5,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,$space_zone_open|space_starlight_way"
+      "active_space,^$space_zone_open|space_starlight_way"
     ],
     "children": [
       {
@@ -320,7 +320,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,$space_zone_open|space_misty_stream"
+      "active_space,^$space_zone_open|space_misty_stream"
     ],
     "children": [
       {
@@ -773,7 +773,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,$space_zone_open|space_eclipse"
+      "active_space,^$space_zone_open|space_eclipse"
     ],
     "children": [
       {
@@ -1041,7 +1041,7 @@
       "active_space"
     ],
     "access_rules": [
-      "active_space,$space_open_zones|1"
+      "active_space,^$space_open_zones|1"
     ],
     "children": [
       {
@@ -1087,35 +1087,35 @@
                 "name": "Space - Special Weapon Dabbler",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_special_weapons|3"
+                  "^$space_special_weapons|3"
                 ]
               },
               {
                 "name": "Space - Special Weapon Collector",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_special_weapons|5"
+                  "^$space_special_weapons|5"
                 ]
               },
               {
                 "name": "Space - Special Weapon Hoarder",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_special_weapons|7"
+                  "^$space_special_weapons|7"
                 ]
               },
               {
                 "name": "Space - Special Weapon Scholar",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_special_weapons|10"
+                  "^$space_special_weapons|10"
                 ]
               },
               {
                 "name": "Space - Special Weapon Authority",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_special_weapons|13"
+                  "^$space_special_weapons|13"
                 ],
                 "visibility_rules": [
                   "active_space_grindy"
@@ -1125,42 +1125,42 @@
                 "name": "Space - Junior Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_open_zones|1"
+                  "^$space_open_zones|1"
                 ]
               },
               {
                 "name": "Space - Authorized Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_open_zones|1"
+                  "^$space_open_zones|1"
                 ]
               },
               {
                 "name": "Space - Chief Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_open_zones|2"
+                  "^$space_open_zones|2"
                 ]
               },
               {
                 "name": "Space - Veteran Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_open_zones|3"
+                  "^$space_open_zones|3"
                 ]
               },
               {
                 "name": "Space - Champion Treasure Hunter",
                 "item_count": 1,
                 "access_rules": [
-                  "$space_open_zones|3"
+                  "^$space_open_zones|3"
                 ]
               },
               {
                 "name": "Space - Gummi Ship Completionist",
                 "item_count": 1,
                 "access_rules": [
-                  "gummi_endymion,$space_special_weapons|13,$space_all_worlds,$space_open_zones|3"
+                  "gummi_endymion,^$space_special_weapons|13,^$space_all_worlds,^$space_open_zones|3"
                 ],
                 "visibility_rules": [
                   "active_space_grindy,active_space_superbosses"

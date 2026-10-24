@@ -10,7 +10,8 @@
         "portal_unlocks_setting",
         "chestsanity_setting",
         "song_bonus_setting",
-        "hide_junk_setting"
+        "hide_junk_setting",
+        "combat_logic_setting"
       ]
     ]
   },

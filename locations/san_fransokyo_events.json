@@ -358,7 +358,7 @@
         "name": "Moogle Workshop - Photo Mission 17 (Star Charm)",
         "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 17 (Star Charm)",
         "access_rules": [
-          "$can_complete_coliseum_worlds|San Fransokyo"
+          "^$can_complete_coliseum_worlds|San Fransokyo"
         ],
         "visibility_rules": [
           "$photo_mission_shown|San Fransokyo"
@@ -368,7 +368,7 @@
         "name": "Moogle Workshop - Photo Mission 18 (Aero Armlet)",
         "ref": "Photo Missions/Photo Missions - Rewards/Moogle Workshop - Photo Mission 18 (Aero Armlet)",
         "access_rules": [
-          "$can_complete_coliseum_worlds|San Fransokyo"
+          "^$can_complete_coliseum_worlds|San Fransokyo"
         ],
         "visibility_rules": [
           "$photo_mission_shown|San Fransokyo"

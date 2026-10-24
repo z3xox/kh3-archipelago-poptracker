@@ -51,45 +51,45 @@
             "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "$portal|kb_ever_after,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 2",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "$portal|kb_ever_after,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Flantastic - Kingdom of Corona - Orange Flan - High Score - Reward 3",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_ever_after,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "$portal|kb_ever_after,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Flantastic - Monstropolis - Banana Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "$portal|kb_happy_gear,unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "$portal|kb_happy_gear,^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Flantastic - Monstropolis - Banana Flan - High Score - Reward 2",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "$portal|kb_happy_gear,unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "$portal|kb_happy_gear,^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Flantastic - Monstropolis - Banana Flan - High Score - Reward 3",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,unlock_magic,$has_any|ability_block|ability_dodge_roll",
-              "$portal|kb_happy_gear,unlock_magic,unlock_wall_run,$has_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear,^$combat|unlock_magic,^$combat_any|ability_block|ability_dodge_roll",
+              "$portal|kb_happy_gear,^$combat|unlock_magic,unlock_wall_run,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
