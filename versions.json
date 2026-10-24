@@ -1,6 +1,15 @@
 {
   "versions": [
   {
+    "package_version": "1.0.1",
+    "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v1.0.1/kh3-archipelago-poptracker-v1.0.1.zip",
+    "sha256": "c2b857b3210543a555debe66dbe4d0c7567a21d2f69d7b028ee945788b1509d3",
+    "changelog": [
+      "Combat Requirements setting (Sequence Break by default): a check that only misses combat abilities shows yellow instead of red, once its world is open and any movement it needs is collected. It covers Block, Air Slide, Dodge Roll, Cure and Magic, Twilight Town's defensive ability, the extra defense of Grim Guardianess and Monstropolis' final fight, and the Data Battles' abilities. Set it to Required to keep these checks red.",
+      "The yellow carries over to what depends on those checks: Olympus Coliseum cups, photo missions, Gummi zones, Level Ups, Lucky Emblem milestones, Adversary Checks and Melody of Memory songs."
+    ]
+  },
+  {
     "package_version": "1.0.0",
     "download_url": "https://github.com/z3xox/kh3-archipelago-poptracker/releases/download/v1.0.0/kh3-archipelago-poptracker-v1.0.0.zip",
     "sha256": "230145615a46e47a90895152c342e891fed4db9714afeca265a3c2f08453d71b",
