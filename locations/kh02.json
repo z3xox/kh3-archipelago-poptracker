@@ -155,22 +155,33 @@
     ]
   },
   {
-    "name": "0.2 - Castle Town - Bosses & Objectives",
+    "name": "0.2 - Castle Town - Demon Tower",
+    "access_rules": [
+      "active_kh02_bosses"
+    ],
     "visibility_rules": [
-      "active_kh02_bosses",
-      "active_kh02_challenges"
+      "active_kh02_bosses"
     ],
     "sections": [
       {
         "name": "0.2 - Castle Town - Demon Tower",
-        "item_count": 1,
-        "access_rules": [
-          "active_kh02_bosses"
-        ],
-        "visibility_rules": [
-          "active_kh02_bosses"
-        ]
-      },
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_castle_town",
+        "x": 249,
+        "y": 607
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Castle Town - Objectives",
+    "visibility_rules": [
+      "active_kh02_challenges"
+    ],
+    "sections": [
       {
         "name": "0.2 - Objective 23: Strike Streetlamps",
         "item_count": 1,
@@ -461,42 +472,77 @@
     ]
   },
   {
-    "name": "0.2 - The World Within - Bosses & Objectives",
+    "name": "0.2 - The World Within - Phantom Aqua I",
+    "access_rules": [
+      "active_kh02_bosses"
+    ],
     "visibility_rules": [
-      "active_kh02_bosses",
-      "active_kh02_challenges"
+      "active_kh02_bosses"
     ],
     "sections": [
       {
         "name": "0.2 - The World Within - Phantom Aqua I",
-        "item_count": 1,
-        "access_rules": [
-          "active_kh02_bosses"
-        ],
-        "visibility_rules": [
-          "active_kh02_bosses"
-        ]
-      },
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_world_within",
+        "x": 154,
+        "y": 90
+      }
+    ]
+  },
+  {
+    "name": "0.2 - The World Within - Phantom Aqua II",
+    "access_rules": [
+      "active_kh02_bosses"
+    ],
+    "visibility_rules": [
+      "active_kh02_bosses"
+    ],
+    "sections": [
       {
         "name": "0.2 - The World Within - Phantom Aqua II",
-        "item_count": 1,
-        "access_rules": [
-          "active_kh02_bosses"
-        ],
-        "visibility_rules": [
-          "active_kh02_bosses"
-        ]
-      },
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_world_within",
+        "x": 267,
+        "y": 100
+      }
+    ]
+  },
+  {
+    "name": "0.2 - The World Within - Phantom Aqua III",
+    "access_rules": [
+      "active_kh02_bosses"
+    ],
+    "visibility_rules": [
+      "active_kh02_bosses"
+    ],
+    "sections": [
       {
         "name": "0.2 - The World Within - Phantom Aqua III",
-        "item_count": 1,
-        "access_rules": [
-          "active_kh02_bosses"
-        ],
-        "visibility_rules": [
-          "active_kh02_bosses"
-        ]
-      },
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_world_within",
+        "x": 49,
+        "y": 213
+      }
+    ]
+  },
+  {
+    "name": "0.2 - The World Within - Objectives",
+    "visibility_rules": [
+      "active_kh02_challenges"
+    ],
+    "sections": [
       {
         "name": "0.2 - Objective 26: Clear the Mirror Rooms",
         "item_count": 1,
@@ -821,32 +867,55 @@
     ]
   },
   {
-    "name": "0.2 - Forest of Thorns - Bosses & Objectives",
+    "name": "0.2 - Forest of Thorns - Darkside I",
+    "access_rules": [
+      "active_kh02_bosses"
+    ],
     "visibility_rules": [
-      "active_kh02_bosses",
-      "active_kh02_challenges"
+      "active_kh02_bosses"
     ],
     "sections": [
       {
         "name": "0.2 - Forest of Thorns - Darkside I",
-        "item_count": 1,
-        "access_rules": [
-          "active_kh02_bosses"
-        ],
-        "visibility_rules": [
-          "active_kh02_bosses"
-        ]
-      },
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_forest_of_thorns",
+        "x": 291,
+        "y": 375
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Forest of Thorns - Darkside II",
+    "access_rules": [
+      "active_kh02_bosses"
+    ],
+    "visibility_rules": [
+      "active_kh02_bosses"
+    ],
+    "sections": [
       {
         "name": "0.2 - Forest of Thorns - Darkside II",
-        "item_count": 1,
-        "access_rules": [
-          "active_kh02_bosses"
-        ],
-        "visibility_rules": [
-          "active_kh02_bosses"
-        ]
-      },
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_forest_of_thorns",
+        "x": 1060,
+        "y": 175
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Forest of Thorns - Objectives",
+    "visibility_rules": [
+      "active_kh02_challenges"
+    ],
+    "sections": [
       {
         "name": "0.2 - Objective 32: Defeat the Darksides",
         "item_count": 1,
@@ -1035,22 +1104,33 @@
     ]
   },
   {
-    "name": "0.2 - Depths of Darkness - Bosses & Objectives",
+    "name": "0.2 - Depths of Darkness - Demon Tower",
+    "access_rules": [
+      "active_kh02_bosses"
+    ],
     "visibility_rules": [
-      "active_kh02_bosses",
-      "active_kh02_challenges"
+      "active_kh02_bosses"
     ],
     "sections": [
       {
         "name": "0.2 - Depths of Darkness - Demon Tower",
-        "item_count": 1,
-        "access_rules": [
-          "active_kh02_bosses"
-        ],
-        "visibility_rules": [
-          "active_kh02_bosses"
-        ]
-      },
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_depths_of_darkness",
+        "x": 306,
+        "y": 1572
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Depths of Darkness - Objectives",
+    "visibility_rules": [
+      "active_kh02_challenges"
+    ],
+    "sections": [
       {
         "name": "0.2 - Objective 35: Fight Alongside Mickey",
         "item_count": 1,
@@ -1102,7 +1182,7 @@
     ]
   },
   {
-    "name": "0.2 - Dark World - Bosses & Objectives",
+    "name": "0.2 - Dark World - Objectives",
     "visibility_rules": [
       "active_kh02_challenges"
     ],
