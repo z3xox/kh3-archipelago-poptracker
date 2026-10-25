@@ -368,6 +368,69 @@
     ]
   },
   {
+    "name": "0.2 Chests",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/party/Aqua.png",
+        "img_mods": "saturation|0",
+        "codes": "kh02_chests_setting",
+        "inherit_codes": false,
+        "name": "0.2 Chests Off"
+      },
+      {
+        "img": "images/items/party/Aqua.png",
+        "codes": "kh02_chests_setting, active_kh02_chests",
+        "inherit_codes": false,
+        "name": "0.2 Chests On (the 40 chests of Kingdom Hearts 0.2)"
+      }
+    ]
+  },
+  {
+    "name": "0.2 Bosses",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/party/Aqua.png",
+        "img_mods": "saturation|0",
+        "codes": "kh02_bosses_setting",
+        "inherit_codes": false,
+        "name": "0.2 Bosses Off"
+      },
+      {
+        "img": "images/items/party/Aqua.png",
+        "codes": "kh02_bosses_setting, active_kh02_bosses",
+        "inherit_codes": false,
+        "name": "0.2 Bosses On (the 8 story bosses of Kingdom Hearts 0.2)"
+      }
+    ]
+  },
+  {
+    "name": "0.2 Challenges",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/party/Aqua.png",
+        "img_mods": "saturation|0",
+        "codes": "kh02_challenges_setting",
+        "inherit_codes": false,
+        "name": "0.2 Challenges Off"
+      },
+      {
+        "img": "images/items/party/Aqua.png",
+        "codes": "kh02_challenges_setting, active_kh02_challenges",
+        "inherit_codes": false,
+        "name": "0.2 Challenges On (the 51 objectives of Kingdom Hearts 0.2)"
+      }
+    ]
+  },
+  {
     "name": "Music Chest Count",
     "img": "images/items/Symphony of Sorcery.png",
     "overlay_font_size": 21,

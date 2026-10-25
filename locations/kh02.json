@@ -1,0 +1,1361 @@
+[
+  {
+    "name": "0.2 - Castle Town - Chests",
+    "access_rules": [
+      "active_kh02_chests"
+    ],
+    "visibility_rules": [
+      "active_kh02_chests"
+    ],
+    "children": [
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX002",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX002",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 319,
+            "y": 297
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX003",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX003",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 111,
+            "y": 276
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX004",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX004",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 305,
+            "y": 281
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX005",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX005",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 266,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX006",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX006",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 274,
+            "y": 128
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX007",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX007",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 268,
+            "y": 69
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX031",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX031",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 85,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_BOX036",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_BOX036",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 149,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Castle Town - Chest DW_LBOX01",
+        "sections": [
+          {
+            "name": "0.2 - Castle Town - Chest DW_LBOX01",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_castle_town",
+            "x": 264,
+            "y": 677
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Castle Town - Bosses & Objectives",
+    "visibility_rules": [
+      "active_kh02_bosses",
+      "active_kh02_challenges"
+    ],
+    "sections": [
+      {
+        "name": "0.2 - Castle Town - Demon Tower",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 23: Strike Streetlamps",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 24: Castle Town Highest Point",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 25: Watch the Shooting Stars",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 36: Demon Tower Spellweaver Finish",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 37: Castle Town All Treasures",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 38: Castle Town Secret",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_castle_town",
+        "x": 485,
+        "y": 36,
+        "shape": "diamond"
+      }
+    ]
+  },
+  {
+    "name": "0.2 - The World Within - Chests",
+    "access_rules": [
+      "active_kh02_chests"
+    ],
+    "visibility_rules": [
+      "active_kh02_chests"
+    ],
+    "children": [
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX008",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX008",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 148,
+            "y": 273
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX009",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX009",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 436,
+            "y": 119
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX010",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX010",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 155,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX011",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX011",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 977,
+            "y": 398
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX012",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX012",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 1252,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX013",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX013",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 1157,
+            "y": 356
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX014",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX014",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 128,
+            "y": 871
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX015",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX015",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 959,
+            "y": 605
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX016",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX016",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 1142,
+            "y": 889
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX032",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX032",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 708,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX033",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX033",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 1219,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_BOX037",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_BOX037",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 643,
+            "y": 808
+          }
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Chest DW_LBOX02",
+        "sections": [
+          {
+            "name": "0.2 - The World Within - Chest DW_LBOX02",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_world_within",
+            "x": 169,
+            "y": 383
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "0.2 - The World Within - Bosses & Objectives",
+    "visibility_rules": [
+      "active_kh02_bosses",
+      "active_kh02_challenges"
+    ],
+    "sections": [
+      {
+        "name": "0.2 - The World Within - Phantom Aqua I",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Phantom Aqua II",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - The World Within - Phantom Aqua III",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 26: Clear the Mirror Rooms",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 27: Dark Room Battle",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 28: Find the True Treasure",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 29: Collect the White Gems",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 30: Connect the Mirror Pattern",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 31: Phantom Aqua Spin",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 39: World Within All Treasures",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 40: World Within Secret",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 41: Phantom Aqua No Damage",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 42: Boss Rush",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 43: Collect All Zodiac Relics",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_world_within",
+        "x": 1336,
+        "y": 36,
+        "shape": "diamond"
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Forest of Thorns - Chests",
+    "access_rules": [
+      "active_kh02_chests"
+    ],
+    "visibility_rules": [
+      "active_kh02_chests"
+    ],
+    "children": [
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX017",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX017",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 354,
+            "y": 953
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX018",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX018",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 865,
+            "y": 1569
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX019",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX019",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 906,
+            "y": 1298
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX020",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX020",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 868,
+            "y": 1069
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX021",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX021",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 677,
+            "y": 1058
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX022",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX022",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 994,
+            "y": 1011
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX023",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX023",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 893,
+            "y": 963
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX024",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX024",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 1137,
+            "y": 854
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX025",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX025",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 731,
+            "y": 846
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX034",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX034",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 413,
+            "y": 1031
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_BOX035",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_BOX035",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 56,
+            "y": 796
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Chest DW_LBOX03",
+        "sections": [
+          {
+            "name": "0.2 - Forest of Thorns - Chest DW_LBOX03",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_forest_of_thorns",
+            "x": 446,
+            "y": 1086
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Forest of Thorns - Bosses & Objectives",
+    "visibility_rules": [
+      "active_kh02_bosses",
+      "active_kh02_challenges"
+    ],
+    "sections": [
+      {
+        "name": "0.2 - Forest of Thorns - Darkside I",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - Forest of Thorns - Darkside II",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 32: Defeat the Darksides",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 33: Destroy Thorns",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 34: Find All Flowers",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 44: Forest of Thorns All Treasures",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 45: Forest of Thorns Secret",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 46: Forest Rail No Damage",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 47: Darkside No Damage",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_forest_of_thorns",
+        "x": 1150,
+        "y": 36,
+        "shape": "diamond"
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Depths of Darkness - Chests",
+    "access_rules": [
+      "active_kh02_chests"
+    ],
+    "visibility_rules": [
+      "active_kh02_chests"
+    ],
+    "children": [
+      {
+        "name": "0.2 - Depths of Darkness - Chest DW_BOX026",
+        "sections": [
+          {
+            "name": "0.2 - Depths of Darkness - Chest DW_BOX026",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_depths_of_darkness",
+            "x": 1016,
+            "y": 154
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Depths of Darkness - Chest DW_BOX027",
+        "sections": [
+          {
+            "name": "0.2 - Depths of Darkness - Chest DW_BOX027",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_depths_of_darkness",
+            "x": 178,
+            "y": 1011
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Depths of Darkness - Chest DW_BOX028",
+        "sections": [
+          {
+            "name": "0.2 - Depths of Darkness - Chest DW_BOX028",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_depths_of_darkness",
+            "x": 175,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Depths of Darkness - Chest DW_BOX029",
+        "sections": [
+          {
+            "name": "0.2 - Depths of Darkness - Chest DW_BOX029",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_depths_of_darkness",
+            "x": 444,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Depths of Darkness - Chest DW_BOX030",
+        "sections": [
+          {
+            "name": "0.2 - Depths of Darkness - Chest DW_BOX030",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_depths_of_darkness",
+            "x": 607,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "0.2 - Depths of Darkness - Chest DW_LBOX04",
+        "sections": [
+          {
+            "name": "0.2 - Depths of Darkness - Chest DW_LBOX04",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_kh02_depths_of_darkness",
+            "x": 436,
+            "y": 1184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Depths of Darkness - Bosses & Objectives",
+    "visibility_rules": [
+      "active_kh02_bosses",
+      "active_kh02_challenges"
+    ],
+    "sections": [
+      {
+        "name": "0.2 - Depths of Darkness - Demon Tower",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 35: Fight Alongside Mickey",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 48: Depths of Darkness All Treasures",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 49: Depths of Darkness Secret",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 50: Demon Tower Team Finish",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map_kh02_depths_of_darkness",
+        "x": 1025,
+        "y": 36,
+        "shape": "diamond"
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Dark World - Bosses & Objectives",
+    "visibility_rules": [
+      "active_kh02_challenges"
+    ],
+    "sections": [
+      {
+        "name": "0.2 - Objective 01: Defeat Shadows",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 02: Defeat Flutterings",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 03: Defeat Flame Cores",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 04: Defeat Neoshadows",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 05: Defeat Water Cores",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 06: Defeat Earth Cores",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 07: Reach Level 60",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 08: Reach Level 70",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 09: Reach Level 80",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 10: Counter Blast Finish",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 11: Firaga Finish",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 12: Blizzaga Finish",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 13: Thundaga Finish",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 14: Ice Rail Slide",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 15: Ice Breaker",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 16: Magic Weakness",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 17: Aerial Combat",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 18: Excellent Shotlocks",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 19: Style Change Kills",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 20: Spellweaver Finish",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 21: Spellweaver with Full Wardrobe",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 22: Equip a Wardrobe Piece",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "0.2 - Destiny Islands - Bosses & Objectives",
+    "visibility_rules": [
+      "active_kh02_bosses",
+      "active_kh02_challenges"
+    ],
+    "sections": [
+      {
+        "name": "0.2 - Destiny Islands - Demon Tide",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_bosses"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - Objective 51: Demon Tide on Critical",
+        "item_count": 1,
+        "access_rules": [
+          "active_kh02_challenges"
+        ],
+        "visibility_rules": [
+          "active_kh02_challenges"
+        ]
+      }
+    ]
+  }
+]

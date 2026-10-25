@@ -72,6 +72,11 @@
         "synthesis_setting",
         "photo_missions_setting",
         "keyblade_upgrades_setting"
+      ],
+      [
+        "kh02_chests_setting",
+        "kh02_bosses_setting",
+        "kh02_challenges_setting"
       ]
     ]
   },

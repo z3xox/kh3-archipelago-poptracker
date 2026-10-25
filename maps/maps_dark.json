@@ -292,5 +292,29 @@
     "location_size": 30,
     "location_border_thickness": 2,
     "img": "images/dark/map_gummi_eclipse.png"
+  },
+  {
+    "name": "map_kh02_castle_town",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/map_kh02_castle_town.png"
+  },
+  {
+    "name": "map_kh02_world_within",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/map_kh02_world_within.png"
+  },
+  {
+    "name": "map_kh02_forest_of_thorns",
+    "location_size": 28,
+    "location_border_thickness": 2,
+    "img": "images/map_kh02_forest_of_thorns.png"
+  },
+  {
+    "name": "map_kh02_depths_of_darkness",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/map_kh02_depths_of_darkness.png"
   }
 ]

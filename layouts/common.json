@@ -571,6 +571,50 @@
             }
           ]
         }
+      },
+      {
+        "title": "0.2",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Castle Town",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_kh02_castle_town"
+                ]
+              }
+            },
+            {
+              "title": "World Within",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_kh02_world_within"
+                ]
+              }
+            },
+            {
+              "title": "Forest of Thorns",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_kh02_forest_of_thorns"
+                ]
+              }
+            },
+            {
+              "title": "Depths of Darkness",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_kh02_depths_of_darkness"
+                ]
+              }
+            }
+          ]
+        }
       }
     ]
   }
