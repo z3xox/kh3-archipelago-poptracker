@@ -2299,6 +2299,10 @@ KH3_WORLD_CODE_TO_TAB = {
     ["GardenOfAssemblage"] = "Overworld",
     -- Gummi zones (gm_50 is a cutscene)
     ["gm"]     = "Gummi Space",
+    -- Kingdom Hearts 0.2 inside KH3 (/Game/Maps/APKH02*)
+    ["APKH02CastleTown"]  = "0.2",
+    ["APKH02WorldWithin"] = "0.2",
+    ["APKH02Mirrors"]     = "0.2",
 }
 
 -- Nested tabs by room id, only where a room maps to a single tab
@@ -2317,6 +2321,16 @@ KH3_ROOM_ID_TO_SUBTAB = {
     ["gm_01"] = "Starlight Way",
     ["gm_02"] = "Misty Stream",
     ["gm_03"] = "The Eclipse",
+    -- 0.2 maps; stairs, corridor, tunnel and Phantom Aqua arenas are behind World Within mirrors
+    ["APKH02CastleTown"]      = "Castle Town",
+    ["APKH02WorldWithin"]     = "World Within",
+    ["APKH02Stairs"]          = "World Within",
+    ["APKH02Corridor"]        = "World Within",
+    ["APKH02Tunnel"]          = "World Within",
+    ["APKH02Phantom"]         = "World Within",
+    ["APKH02MirrorChallenge"] = "World Within",
+    ["APKH02Forest"]          = "Forest of Thorns",
+    ["APKH02Depths"]          = "Depths of Darkness",
 }
 
 -- Nested tabs by minimap id (tells the Caribbean islands apart)
