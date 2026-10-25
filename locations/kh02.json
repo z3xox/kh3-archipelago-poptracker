@@ -172,7 +172,8 @@
       {
         "map": "map_kh02_castle_town",
         "x": 249,
-        "y": 607
+        "y": 607,
+        "shape": "diamond"
       }
     ]
   },
@@ -489,7 +490,8 @@
       {
         "map": "map_kh02_world_within",
         "x": 154,
-        "y": 90
+        "y": 90,
+        "shape": "diamond"
       }
     ]
   },
@@ -511,7 +513,8 @@
       {
         "map": "map_kh02_world_within",
         "x": 267,
-        "y": 100
+        "y": 100,
+        "shape": "diamond"
       }
     ]
   },
@@ -533,7 +536,8 @@
       {
         "map": "map_kh02_world_within",
         "x": 49,
-        "y": 213
+        "y": 213,
+        "shape": "diamond"
       }
     ]
   },
@@ -884,7 +888,8 @@
       {
         "map": "map_kh02_forest_of_thorns",
         "x": 291,
-        "y": 375
+        "y": 375,
+        "shape": "diamond"
       }
     ]
   },
@@ -906,7 +911,8 @@
       {
         "map": "map_kh02_forest_of_thorns",
         "x": 1060,
-        "y": 175
+        "y": 175,
+        "shape": "diamond"
       }
     ]
   },
@@ -1121,7 +1127,8 @@
       {
         "map": "map_kh02_depths_of_darkness",
         "x": 306,
-        "y": 1572
+        "y": 1572,
+        "shape": "diamond"
       }
     ]
   },
