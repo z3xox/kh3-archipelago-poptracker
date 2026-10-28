@@ -1,6 +1,12 @@
 [
   {
     "name": "Flantastic Flans",
+    "visibility_rules": [
+      "active_flantastic_flans"
+    ],
+    "access_rules": [
+      "active_flantastic_flans"
+    ],
     "children": [
       {
         "name": "Flantastic Flans - High Scores",
