@@ -1917,6 +1917,7 @@ function ApplyPoolSettings()
         {"battlegates_setting",        "Battlegates"},
         {"remind_setting",             "Re+Mind"},
         {"lucky_emblems_setting",      "Lucky Emblems"},
+        {"flantastic_flans_setting",   "Flantastic Flans"},
         {"keyblade_graveyard_setting", "Keyblade Graveyard"},
         {"radiant_garden_setting",     "Data Battle Rewards"},
         {"olympus_setting",            "Olympus"},

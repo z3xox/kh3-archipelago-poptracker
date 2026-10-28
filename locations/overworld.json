@@ -8401,6 +8401,12 @@
                 "y": 545,
                 "shape": "diamond"
               }
+            ],
+            "visibility_rules": [
+              "active_flantastic_flans"
+            ],
+            "access_rules": [
+              "active_flantastic_flans"
             ]
           },
           {

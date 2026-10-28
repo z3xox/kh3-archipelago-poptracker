@@ -191,6 +191,28 @@
     "initial_stage_idx": 1
   },
   {
+    "name": "Flantastic Flans",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/Flantastic Seven.png",
+        "img_mods": "saturation|0",
+        "codes": "flantastic_flans_setting",
+        "inherit_codes": false,
+        "name": "Flantastic Flans Off"
+      },
+      {
+        "img": "images/items/Flantastic Seven.png",
+        "codes": "flantastic_flans_setting, active_flantastic_flans",
+        "inherit_codes": false,
+        "name": "Flantastic Flans On"
+      }
+    ],
+    "initial_stage_idx": 1
+  },
+  {
     "name": "Keyblade Graveyard",
     "type": "progressive",
     "allow_disabled": false,
