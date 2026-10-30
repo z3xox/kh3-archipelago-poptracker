@@ -209,6 +209,16 @@ function portal(keyblade)
     return 0
 end
 
+-- $kh02_dark_world: with any 0.2 option on, the Dark World portal also needs Oblivion itself.
+function kh02_dark_world()
+    if hasCode("kb_oblivion") then return 1 end
+    if hasCode("active_kh02_chests") or hasCode("active_kh02_bosses")
+        or hasCode("active_kh02_challenges") then
+        return 0
+    end
+    return 1
+end
+
 -- $any_portal|<keyblade>|...
 function any_portal(...)
     for _, keyblade in ipairs({...}) do
