@@ -62,21 +62,21 @@
             "name": "Defeat Darkubes in San Fransokyo - The City (Night)",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+              "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
             ]
           },
           {
             "name": "Defeat Darkubes in San Fransokyo - The City (Night) - Reward 2",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+              "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
             ]
           },
           {
             "name": "Defeat Darkubes in San Fransokyo - The City (Night) - Reward 3",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+              "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
             ]
           }
         ],
@@ -102,15 +102,14 @@
         "name": "San Fransokyo - EVENT_009 - RandomizedItem",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-          "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+          "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
         ]
       },
       {
         "name": "San Fransokyo - EVENT_KEYBLADE_009 - RandomizedItem",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+          "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
         ]
       },
       {
@@ -149,42 +148,42 @@
         "name": "Rescue Big Hero 6 from Darkubes in San Fransokyo - The City (Night)",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+          "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
         ]
       },
       {
         "name": "Rescue Big Hero 6 from Darkubes in San Fransokyo - The City (Night) - Reward 2",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+          "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
         ]
       },
       {
         "name": "Rescue Big Hero 6 from Darkubes in San Fransokyo - The City (Night) - Reward 3",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+          "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
         ]
       },
       {
         "name": "Defeat Dark Baymax in San Fransokyo - The City (Day)",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+          "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
         ]
       },
       {
         "name": "Defeat Dark Baymax in San Fransokyo - The City (Day) - Reward 2",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+          "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
         ]
       },
       {
         "name": "Defeat Dark Baymax in San Fransokyo - The City (Day) - Reward 3",
         "item_count": 1,
         "access_rules": [
-          "ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder,unlock_magic"
+          "ability_pole_spin,fire,$has_any|blizzard|water,thunder,unlock_magic"
         ]
       }
     ],

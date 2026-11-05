@@ -667,7 +667,7 @@ COLISEUM_WORLD_COMPLETION = {
     ["Monstropolis"]      = {keyblade="kb_happy_gear", routes={{{codes={"ability_air_slide"},count=1},{codes={"ability_doubleflight"},count=1},{codes={"ability_superjump"},count=1},{codes={"ability_wall_kick"},count=1},{codes={"unlock_magic"},count=1,combat=true},{codes={"ability_block","ability_dodge_roll"},count=1,combat=true}},{{codes={"unlock_magic"},count=1,combat=true},{codes={"unlock_wall_run"},count=1},{codes={"ability_air_slide","ability_block","ability_dodge_roll"},count=2,combat=true}}}},
     ["Arendelle"]         = {keyblade="kb_crystal_snow", routes={{{codes={"ability_air_slide"},count=1},{codes={"ability_pole_spin"},count=1},{codes={"unlock_wall_run"},count=1}}}},
     ["The Caribbean"]     = {keyblade="kb_wheel_of_fate", routes={}},
-    ["San Fransokyo"]     = {keyblade="kb_nano_gear", routes={{{codes={"ability_pole_spin"},count=1},{codes={"aero"},count=1},{codes={"fire"},count=1},{codes={"unlock_magic"},count=1},{codes={"blizzard","water"},count=1}},{{codes={"ability_pole_spin"},count=1},{codes={"thunder"},count=1},{codes={"unlock_magic"},count=1},{codes={"blizzard","water"},count=1}}}},
+    ["San Fransokyo"]     = {keyblade="kb_nano_gear", routes={{{codes={"ability_pole_spin"},count=1},{codes={"fire"},count=1},{codes={"thunder"},count=1},{codes={"unlock_magic"},count=1},{codes={"blizzard","water"},count=1}}}},
 }
 
 local function coliseumWorldLevel(world)

@@ -237,7 +237,7 @@
             "name": "San Fransokyo - Battlegate 11 - The City: North District - Report",
             "item_count": 1,
             "access_rules": [
-              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,fire,$has_any|blizzard|water,thunder"
             ]
           }
         ],
@@ -257,7 +257,7 @@
             "name": "San Fransokyo - Battlegate 12 - The City: Central District - Report",
             "item_count": 1,
             "access_rules": [
-              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,fire,$has_any|blizzard|water,thunder"
             ]
           }
         ],
@@ -438,7 +438,7 @@
             "name": "San Fransokyo - Battlegate 11 - The City: North District - Reward",
             "item_count": 1,
             "access_rules": [
-              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,fire,$has_any|blizzard|water,thunder"
             ]
           }
         ],
@@ -458,7 +458,7 @@
             "name": "San Fransokyo - Battlegate 12 - The City: Central District - Reward",
             "item_count": 1,
             "access_rules": [
-              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,$has_any|fire|thunder,$has_any|blizzard|water,$has_any|aero|thunder"
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure,unlock_magic,$portal|kb_nano_gear,ability_pole_spin,fire,$has_any|blizzard|water,thunder"
             ]
           }
         ],

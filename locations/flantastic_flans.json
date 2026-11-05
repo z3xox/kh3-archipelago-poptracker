@@ -144,24 +144,21 @@
             "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_nano_gear,ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "$portal|kb_nano_gear,ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "$portal|kb_nano_gear,ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score - Reward 2",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_nano_gear,ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "$portal|kb_nano_gear,ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "$portal|kb_nano_gear,ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "Flantastic - San Fransokyo - Honeydew Flan - High Score - Reward 3",
             "item_count": 1,
             "access_rules": [
-              "$portal|kb_nano_gear,ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "$portal|kb_nano_gear,ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "$portal|kb_nano_gear,ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           }
         ],

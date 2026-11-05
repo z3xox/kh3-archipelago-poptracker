@@ -250,64 +250,56 @@
             "name": "San Fransokyo - Flash Tracer Course A - A Rank",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank - Reward 2",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank - Reward 3",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank First Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - A Rank Repeat Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - B Rank Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - C Rank Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course A - D Rank Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           }
         ],
@@ -328,64 +320,56 @@
             "name": "San Fransokyo - Flash Tracer Course B - A Rank",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank - Reward 2",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank - Reward 3",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank First Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - A Rank Repeat Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - B Rank Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - C Rank Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           },
           {
             "name": "San Fransokyo - Flash Tracer Course B - D Rank Item Reward",
             "item_count": 1,
             "access_rules": [
-              "ability_pole_spin,aero,fire,unlock_magic,$has_any|blizzard|water",
-              "ability_pole_spin,thunder,unlock_magic,$has_any|blizzard|water"
+              "ability_pole_spin,fire,thunder,unlock_magic,$has_any|blizzard|water"
             ]
           }
         ],
