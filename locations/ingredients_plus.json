@@ -13,10 +13,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022969"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -33,10 +30,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 016",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022984"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -56,24 +50,15 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 001",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022975"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Arendelle - Pickup 008",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022975"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Arendelle - Pickup 010",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022975"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -90,10 +75,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 012",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022988"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -113,10 +95,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 013",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022989"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -136,17 +115,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 014",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022990"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Arendelle - Pickup 015",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022990"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -168,9 +141,9 @@
             "name": "Ingredients+ - Arendelle - Pickup 017",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_pole_spin,ability_superjump,ability_wall_kick,unlock_wall_run,$chest_keyblade|1263022992,$portal|kb_crystal_snow",
-              "ability_air_slide,ability_pole_spin,ability_superjump,aero,unlock_magic,unlock_wall_run,$chest_keyblade|1263022992,$portal|kb_crystal_snow",
-              "ability_air_slide,ability_pole_spin,unlock_wall_run,$chest_keyblade|1263022992,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_crystal_snow"
+              "ability_air_slide,ability_pole_spin,ability_superjump,ability_wall_kick,unlock_wall_run,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,ability_superjump,aero,unlock_magic,unlock_wall_run,$portal|kb_crystal_snow",
+              "ability_air_slide,ability_pole_spin,unlock_wall_run,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_crystal_snow"
             ]
           }
         ],
@@ -194,10 +167,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 018",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022993"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -217,10 +187,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 004",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022977"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -240,10 +207,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 003",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022978"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -263,17 +227,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 005",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022979"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Arendelle - Pickup 006",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022979"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -296,17 +254,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 009",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022972"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Arendelle - Pickup 011",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022972"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -326,10 +278,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Arendelle - Pickup 002",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022971"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -360,17 +309,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 034",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022925"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 035",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022925"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -387,17 +330,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 021",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022920"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 023",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022920"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -414,17 +351,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 019",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022932"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 020",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022932"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -441,24 +372,15 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 018",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022933"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 022",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022933"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 040",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022933"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -475,24 +397,15 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 024",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022935"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 025",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022935"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 026",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022935"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -512,10 +425,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 027",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022938"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -537,21 +447,21 @@
             "name": "Ingredients+ - Kingdom of Corona - Pickup 015",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022926,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after"
+              "$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 016",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022926,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after"
+              "$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after"
             ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 017",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022926,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after"
+              "$has_any|ability_doubleflight|ability_high_jump,$portal|kb_ever_after"
             ]
           }
         ],
@@ -573,66 +483,39 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 028",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 029",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 030",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 031",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 032",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 033",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 041",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 042",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 043",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022940"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -654,14 +537,14 @@
             "name": "Ingredients+ - Kingdom of Corona - Pickup 062",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022942,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 063",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022942,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -682,58 +565,40 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 054",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022923"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 055",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022923"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 056",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022923"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 057",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022923"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 058",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022923"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 059",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022923"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 060",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022923,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 061",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022923,^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
+              "^$combat_at_least|2|ability_air_slide|ability_block|ability_dodge_roll"
             ]
           }
         ],
@@ -754,31 +619,19 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 045",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022944"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 051",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022944"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 052",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022944"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 053",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022944"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -798,17 +651,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 049",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022945"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 050",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022945"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -828,31 +675,19 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 044",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022946"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 046",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022946"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 047",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022946"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 048",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022946"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -872,17 +707,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 013",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022927"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 014",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022927"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -899,17 +728,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 010",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022928"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 011",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022928"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -926,59 +749,35 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 005",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 006",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 008",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 009",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 037",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 038",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 039",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022929"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -995,10 +794,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 012",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022930"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1015,17 +811,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 003",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022919"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 004",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022919"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1042,24 +832,15 @@
         "sections": [
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 001",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022931"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 002",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022931"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Kingdom of Corona - Pickup 036",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022931"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1087,10 +868,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Monstropolis - Pickup 005",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022950"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1107,10 +885,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Monstropolis - Pickup 006",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022956"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1127,10 +902,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Monstropolis - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022958"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1149,16 +921,16 @@
             "name": "Ingredients+ - Monstropolis - Pickup 009",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949,$portal|kb_happy_gear",
-              "unlock_wall_run,$chest_keyblade|1263022949,$portal|kb_happy_gear"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear",
+              "unlock_wall_run,$portal|kb_happy_gear"
             ]
           },
           {
             "name": "Ingredients+ - Monstropolis - Pickup 010",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022949,$portal|kb_happy_gear",
-              "unlock_wall_run,$chest_keyblade|1263022949,$portal|kb_happy_gear"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_happy_gear",
+              "unlock_wall_run,$portal|kb_happy_gear"
             ]
           }
         ],
@@ -1180,10 +952,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Monstropolis - Pickup 008",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022964"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1200,24 +969,15 @@
         "sections": [
           {
             "name": "Ingredients+ - Monstropolis - Pickup 001",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022952"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Monstropolis - Pickup 002",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022952"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Monstropolis - Pickup 003",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022952"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1234,10 +994,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Monstropolis - Pickup 004",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022953"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1254,38 +1011,23 @@
         "sections": [
           {
             "name": "Ingredients+ - Monstropolis - Pickup 011",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022966"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Monstropolis - Pickup 012",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022966"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Monstropolis - Pickup 013",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022966"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Monstropolis - Pickup 014",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022966"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Monstropolis - Pickup 015",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022966"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1313,17 +1055,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Olympus - Pickup 006",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022866"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022866"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1343,10 +1079,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Olympus - Pickup 009",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022867"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1368,32 +1101,32 @@
             "name": "Ingredients+ - Olympus - Pickup 020",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022869,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 021",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022869,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 022",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022869,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 023",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022869,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022869,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1418,22 +1151,22 @@
             "name": "Ingredients+ - Olympus - Pickup 024",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022870,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022870,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 032",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022870,$portal|kb_heros_origin"
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 033",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022870,$portal|kb_heros_origin"
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1458,51 +1191,51 @@
             "name": "Ingredients+ - Olympus - Pickup 017",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 018",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022872,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 019",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 025",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 027",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 030",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 031",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022872,$portal|kb_heros_origin"
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1527,48 +1260,48 @@
             "name": "Ingredients+ - Olympus - Pickup 011",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022874,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 012",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022874,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 013",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022874,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 014",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022874,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 015",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022874,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 016",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022874,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022874,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1593,16 +1326,16 @@
             "name": "Ingredients+ - Olympus - Pickup 028",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022876,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 029",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022876,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022876,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1627,8 +1360,8 @@
             "name": "Ingredients+ - Olympus - Pickup 010",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022877,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022877,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1653,8 +1386,8 @@
             "name": "Ingredients+ - Olympus - Pickup 026",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022851,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022851,$portal|kb_heros_origin"
+              "ability_air_slide,ability_superjump,ability_wall_kick,$has_any|ability_doubleflight|ability_high_jump,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1679,24 +1412,24 @@
             "name": "Ingredients+ - Olympus - Pickup 003",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022860,$portal|kb_heros_origin"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 005",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022860,$portal|kb_heros_origin"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           },
           {
             "name": "Ingredients+ - Olympus - Pickup 008",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022860,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022860,$portal|kb_heros_origin"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1720,8 +1453,8 @@
             "name": "Ingredients+ - Olympus - Pickup 002",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022863,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022863,$portal|kb_heros_origin"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1745,8 +1478,8 @@
             "name": "Ingredients+ - Olympus - Pickup 004",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022865,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022865,$portal|kb_heros_origin"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1770,8 +1503,8 @@
             "name": "Ingredients+ - Olympus - Pickup 001",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263022849,$portal|kb_heros_origin",
-              "unlock_wall_run,$chest_keyblade|1263022849,$portal|kb_heros_origin"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$portal|kb_heros_origin",
+              "unlock_wall_run,$portal|kb_heros_origin"
             ]
           }
         ],
@@ -1806,7 +1539,7 @@
             "name": "Ingredients+ - San Fransokyo - Pickup 016",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023066,$has_any|ability_doubleflight|unlock_wall_run"
+              "$has_any|ability_doubleflight|unlock_wall_run"
             ]
           }
         ],
@@ -1824,10 +1557,7 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 002",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023073"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1844,10 +1574,7 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 009",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023074"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1864,10 +1591,7 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 001",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023079"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1884,17 +1608,11 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 012",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023081"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 014",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023081"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1913,7 +1631,7 @@
             "name": "Ingredients+ - San Fransokyo - Pickup 003",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263023050"
+              "unlock_wall_run"
             ]
           }
         ],
@@ -1931,10 +1649,7 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 013",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023084"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1951,10 +1666,7 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 011",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023051"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1971,38 +1683,23 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 004",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023053"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 005",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023053"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 006",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023053"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023053"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 008",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023053"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2019,10 +1716,7 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 015",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023057"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2039,10 +1733,7 @@
         "sections": [
           {
             "name": "Ingredients+ - San Fransokyo - Pickup 010",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023058"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2070,52 +1761,31 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 042",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023014"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 043",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023014"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 037",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023026"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 038",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023026"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 044",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023026"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 045",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023026"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 046",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023026"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2132,38 +1802,23 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 098",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023001"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 100",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023001"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 101",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023001"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 103",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023001"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 104",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023001"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2185,40 +1840,40 @@
             "name": "Ingredients+ - The Caribbean - Pickup 021",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 022",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 024",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 025",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 028",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023021,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023021,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           }
         ],
@@ -2242,24 +1897,15 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 091",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023022"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 092",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023022"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 093",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023022"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2276,45 +1922,27 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 055",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023002"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 056",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023002"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 057",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023002"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 058",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023002"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 059",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023002"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 060",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023002"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2331,30 +1959,21 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 079",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022995"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 081",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022995"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 086",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022995"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 090",
             "item_count": 1,
             "access_rules": [
-              "unlock_wall_run,$chest_keyblade|1263022995"
+              "unlock_wall_run"
             ]
           }
         ],
@@ -2372,38 +1991,23 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 073",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022996"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 074",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022996"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 075",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022996"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 076",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022996"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 077",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022996"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2420,17 +2024,11 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 039",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023015"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 047",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023015"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2447,38 +2045,23 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 034",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022998"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 035",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022998"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 036",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022998"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 040",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022998"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 041",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022998"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2495,52 +2078,31 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 094",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023030"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 095",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023030"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 096",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023030"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 099",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023030"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 102",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023030"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 105",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023030"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 106",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023030"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2560,10 +2122,7 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 023",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023032"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2580,24 +2139,15 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 027",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023035"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 032",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023035"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 033",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023035"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2616,16 +2166,16 @@
             "name": "Ingredients+ - The Caribbean - Pickup 026",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023036,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023036,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 029",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023037,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023037,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           }
         ],
@@ -2651,16 +2201,16 @@
             "name": "Ingredients+ - The Caribbean - Pickup 031",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023043,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023043,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 030",
             "item_count": 1,
             "access_rules": [
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263023044,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023044,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_superjump,aero,unlock_magic,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_any|ability_air_slide|ability_combo_master|ability_glide,$has_any|ability_doubleflight|ability_high_jump,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           }
         ],
@@ -2686,106 +2236,82 @@
             "name": "Ingredients+ - The Caribbean - Pickup 048",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump"
+              "$has_any|ability_doubleflight|ability_high_jump"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 049",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump"
+              "$has_any|ability_doubleflight|ability_high_jump"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 050",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump"
+              "$has_any|ability_doubleflight|ability_high_jump"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 051",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump"
+              "$has_any|ability_doubleflight|ability_high_jump"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 052",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump"
+              "$has_any|ability_doubleflight|ability_high_jump"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 053",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump"
+              "$has_any|ability_doubleflight|ability_high_jump"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 054",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023046,$has_any|ability_doubleflight|ability_high_jump"
+              "$has_any|ability_doubleflight|ability_high_jump"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 065",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023046"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 066",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023046"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 068",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023046"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 069",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023046"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 070",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023046"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 063",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023049"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 064",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023049"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 067",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023049"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2804,7 +2330,7 @@
             "name": "Ingredients+ - The Caribbean - Pickup 013",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022999,$has_any|ability_doubleflight|unlock_wall_run"
+              "$has_any|ability_doubleflight|unlock_wall_run"
             ]
           }
         ],
@@ -2822,17 +2348,11 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 001",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023007"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 002",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023007"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2849,10 +2369,7 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 003",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023008"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2869,45 +2386,27 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 015",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022994"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 016",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022994"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 017",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022994"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 018",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022994"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 019",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022994"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 020",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022994"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2924,59 +2423,35 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 004",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 005",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 006",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 008",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 009",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 010",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 011",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023009"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2993,10 +2468,7 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 014",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023010"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3013,10 +2485,7 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 012",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023013"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3035,63 +2504,63 @@
             "name": "Ingredients+ - The Caribbean - Pickup 078",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 080",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 082",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 083",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 084",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 085",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 087",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 088",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 089",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263023004,$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "$has_any|ability_air_slide|ability_glide|unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           }
         ],
@@ -3114,17 +2583,11 @@
         "sections": [
           {
             "name": "Ingredients+ - The Caribbean - Pickup 071",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023019"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 072",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263023019"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3143,24 +2606,24 @@
             "name": "Ingredients+ - The Caribbean - Pickup 061",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 062",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           },
           {
             "name": "Ingredients+ - The Caribbean - Pickup 097",
             "item_count": 1,
             "access_rules": [
-              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
-              "unlock_wall_run,$chest_keyblade|1263023020,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
+              "ability_air_slide,ability_doubleflight,ability_superjump,ability_wall_kick,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate",
+              "unlock_wall_run,$has_caribbean_safety_tool,$portal|kb_wheel_of_fate"
             ]
           }
         ],
@@ -3193,59 +2656,35 @@
         "sections": [
           {
             "name": "Ingredients+ - Toy Box - Pickup 004",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 005",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 008",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 011",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 012",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 013",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 014",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022890"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3301,16 +2740,16 @@
             "name": "Ingredients+ - Toy Box - Pickup 022",
             "item_count": 1,
             "access_rules": [
-              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
-              "unlock_wall_run,$chest_keyblade|1263022906,$portal|kb_favorite_deputy"
+              "ability_doubleflight,ability_high_jump,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 027",
             "item_count": 1,
             "access_rules": [
-              "ability_doubleflight,ability_high_jump,$chest_keyblade|1263022906,$portal|kb_favorite_deputy",
-              "unlock_wall_run,$chest_keyblade|1263022906,$portal|kb_favorite_deputy"
+              "ability_doubleflight,ability_high_jump,$portal|kb_favorite_deputy",
+              "unlock_wall_run,$portal|kb_favorite_deputy"
             ]
           }
         ],
@@ -3334,8 +2773,8 @@
             "name": "Ingredients+ - Toy Box - Pickup 023",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022909,$has_any|ability_air_slide|unlock_wall_run,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022909,$portal|kb_favorite_deputy"
+              "$has_any|ability_air_slide|unlock_wall_run,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$portal|kb_favorite_deputy"
             ]
           }
         ],
@@ -3359,31 +2798,19 @@
         "sections": [
           {
             "name": "Ingredients+ - Toy Box - Pickup 015",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022891"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 016",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022891"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 017",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022891"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 018",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022891"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3400,17 +2827,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Toy Box - Pickup 025",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022916"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 026",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022916"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3427,10 +2848,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Toy Box - Pickup 019",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022917"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3449,54 +2867,54 @@
             "name": "Ingredients+ - Toy Box - Pickup 001",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896,$portal|kb_favorite_deputy"
+              "$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 002",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896,$portal|kb_favorite_deputy"
+              "$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 003",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896,$portal|kb_favorite_deputy"
+              "$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 006",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896,$portal|kb_favorite_deputy"
+              "$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 009",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896,$portal|kb_favorite_deputy"
+              "$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$portal|kb_favorite_deputy"
             ]
           },
           {
             "name": "Ingredients+ - Toy Box - Pickup 010",
             "item_count": 1,
             "access_rules": [
-              "$chest_keyblade|1263022896,$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
-              "ability_air_slide,ability_superjump,ability_wall_kick,$chest_keyblade|1263022896,$portal|kb_favorite_deputy",
-              "ability_superjump,aero,unlock_magic,$chest_keyblade|1263022896,$portal|kb_favorite_deputy"
+              "$has_any|ability_doubleflight|unlock_wall_run,$portal|kb_favorite_deputy",
+              "ability_air_slide,ability_superjump,ability_wall_kick,$portal|kb_favorite_deputy",
+              "ability_superjump,aero,unlock_magic,$portal|kb_favorite_deputy"
             ]
           }
         ],
@@ -3520,10 +2938,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Toy Box - Pickup 028",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022892"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3540,10 +2955,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Toy Box - Pickup 029",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022898"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3560,10 +2972,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Toy Box - Pickup 020",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022901"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3591,24 +3000,15 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 002",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022880"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 003",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022880"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 011",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022880"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3625,10 +3025,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 018",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022889"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3645,24 +3042,15 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 004",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022881"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 006",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022881"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 007",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022881"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3679,10 +3067,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 001",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022882"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3699,31 +3084,19 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 008",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022883"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 009",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022883"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 010",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022883"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 013",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022883"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3740,17 +3113,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 005",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022884"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 012",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022884"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3767,10 +3134,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 015",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022886"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3787,10 +3151,7 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 014",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022887"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -3807,17 +3168,11 @@
         "sections": [
           {
             "name": "Ingredients+ - Twilight Town - Pickup 016",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022888"
-            ]
+            "item_count": 1
           },
           {
             "name": "Ingredients+ - Twilight Town - Pickup 017",
-            "item_count": 1,
-            "access_rules": [
-              "$chest_keyblade|1263022888"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
