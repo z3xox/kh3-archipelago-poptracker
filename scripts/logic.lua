@@ -257,7 +257,7 @@ function photo_mission_shown(...)
     return 1
 end
 
--- Melody of Memory: song id -> code of the music chest it opens, from slot_data.
+-- Melody of Memory: song id -> codes of the music chests left to open, from slot_data.
 MOM_SONG_CHEST = {}
 
 -- ^$mom_song_open|<song id>: same color as the best music chest it still opens.
