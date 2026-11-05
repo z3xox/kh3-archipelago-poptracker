@@ -2205,9 +2205,11 @@ function autoFill(slot_data)
         setToggle(code, chest_active[placement_id] == true)
     end
 
-    -- Goal (0 = 3 Proofs, 1 = 7 Heart Pieces)
-    local goal = slot_data["goal"] or 0
-    setStage("goal", goal)
+    -- Goal (0 = 3 Proofs, 1 = Heart Pieces); apworld 2.0 only has the second, with a set count
+    local heart_pieces = slot_data["heart_piece_count"]
+    setStage("goal", heart_pieces and 1 or slot_data["goal"] or 0)
+    setAmount("heart_piece_goal", heart_pieces or 7)
+    setAmount("worlds_required", slot_data["worlds_required"] or 0)
 
     -- Lucky Emblem milestone limit
     local le_limit = 50  -- the apworld default

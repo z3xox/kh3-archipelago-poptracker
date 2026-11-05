@@ -685,17 +685,37 @@ function can_complete_coliseum_worlds(...)
     return level
 end
 
--- $can_reach_final_boss: the goal items are collected
+-- Worlds Required counts the main worlds, plus Dark World once Anti-Aqua is in logic.
+local function goalWorldsLevel(required)
+    local normal, reachable = 0, 0
+    local function add(level)
+        if level >= LEVEL_NORMAL then normal = normal + 1 end
+        if level > LEVEL_NONE then reachable = reachable + 1 end
+    end
+    for world, _ in pairs(COLISEUM_WORLD_COMPLETION) do
+        add(coliseumWorldLevel(world))
+    end
+    if hasCode("active_dark_world") and portalOpen("kb_oblivion") and kh02_dark_world() == 1 then
+        add(combat("ability_block", "ability_air_slide", "ability_dodge_roll", "cure", "unlock_magic"))
+    end
+    if normal >= required then return LEVEL_NORMAL end
+    if reachable >= required then return LEVEL_SEQUENCE_BREAK end
+    return LEVEL_NONE
+end
+
+-- ^$can_reach_final_boss: the goal items are collected and enough worlds are completed
 function can_reach_final_boss()
     local goal_obj = Tracker:FindObjectForCode("goal")
     if goal_obj and goal_obj.CurrentStage == 1 then
-        if Tracker:ProviderCountForCode("heart_piece") >= 7 then return 1 end
-        return 0
+        if Tracker:ProviderCountForCode("heart_piece") < Tracker:ProviderCountForCode("heart_piece_goal") then
+            return LEVEL_NONE
+        end
+        return goalWorldsLevel(Tracker:ProviderCountForCode("worlds_required"))
     end
     if countCodes({"proof_of_fantasy", "proof_of_promises", "proof_of_times_past"}) >= 3 then
-        return 1
+        return LEVEL_NORMAL
     end
-    return 0
+    return LEVEL_NONE
 end
 
 -- ============================================================

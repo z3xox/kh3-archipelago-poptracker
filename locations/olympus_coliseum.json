@@ -33,21 +33,21 @@
             "name": "Olympus Coliseum - KH1 - Hades Cup Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
             "name": "Olympus Coliseum - KH1 - Gold Match Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
             "name": "Olympus Coliseum - KH1 - Platinum Match Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
@@ -82,7 +82,7 @@
             "name": "Olympus Coliseum - KH2 - Paradox Cup Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
@@ -110,7 +110,7 @@
             "name": "Olympus Coliseum - KH3 - Zeus Cup Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
@@ -131,28 +131,28 @@
             "name": "Olympus Coliseum - Apro - The Story So Far Cup Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
             "name": "Olympus Coliseum - Apro - Infernal Cup Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
             "name": "Olympus Coliseum - Apro - Limit Cut Cup Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {
             "name": "Olympus Coliseum - Apro - Vessels of Darkness Cup Clear",
             "item_count": 1,
             "access_rules": [
-              "$can_reach_final_boss"
+              "^$can_reach_final_boss"
             ]
           },
           {

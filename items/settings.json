@@ -15,9 +15,33 @@
         "img": "images/items/heart_piece.png",
         "codes": "goal, goal_is_heart_pieces",
         "inherit_codes": false,
-        "name": "Goal - Collect 7 Heart Pieces"
+        "name": "Goal - Collect Heart Pieces"
       }
-    ]
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Heart Pieces Required",
+    "img": "images/items/heart_piece.png",
+    "overlay_font_size": 21,
+    "codes": "heart_piece_goal",
+    "type": "consumable",
+    "min_quantity": 3,
+    "max_quantity": 30,
+    "increment": 1,
+    "initial_quantity": 7
+  },
+  {
+    "name": "Worlds Required",
+    "img": "images/items/heart_piece.png",
+    "img_mods": "@disabled",
+    "overlay_font_size": 21,
+    "codes": "worlds_required",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Portal Unlocks",
