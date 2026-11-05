@@ -1886,6 +1886,9 @@ LOCATION_MAPPING = {
     [1264202758] = { code = "@Toy Box - Melody Chest/Toy Box - Melody Chest - Song Bonus" },
     [1264202759] = { code = "@San Fransokyo - Melody Chest/San Fransokyo - Melody Chest - Song Bonus" },
     [1264202760] = { code = "@Arendelle - Melody Chest/Arendelle - Melody Chest - Song Bonus" },
+    [1263024064] = { code = "@Keyblade Graveyard - Battlegate 0/Keyblade Graveyard - Battlegate 0" },
+    [1263351296] = { code = "@Re Mind - Story Battles/Re Mind - Unlock Kairi" },
+    [1263351297] = { code = "@Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard: The Skein of Severance - Tower of Endings/Keyblade Graveyard - Unlock Roxas" },
     -- BEGIN generated: kh02 (scripts/tools/generate_kh02_locations.py)
     [1263350529] = { code = "@0.2 - Dark World - Objectives/0.2 - Objective 01: Defeat Shadows" },
     [1263350530] = { code = "@0.2 - Dark World - Objectives/0.2 - Objective 02: Defeat Flutterings" },
@@ -1986,5 +1989,6 @@ LOCATION_MAPPING = {
     [1263351046] = { code = "@0.2 - Forest of Thorns - Darkside II/0.2 - Forest of Thorns - Darkside II" },
     [1263351047] = { code = "@0.2 - Depths of Darkness - Demon Tower/0.2 - Depths of Darkness - Demon Tower" },
     [1263351048] = { code = "@0.2 - Destiny Islands - Bosses & Objectives/0.2 - Destiny Islands - Demon Tide" },
+    [1263351298] = { code = "@0.2 - Destiny Islands - Bosses & Objectives/0.2 - Unlock Aqua" },
     -- END generated: kh02
 }

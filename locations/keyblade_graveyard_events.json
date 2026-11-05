@@ -323,6 +323,13 @@
             "access_rules": [
               "unlock_wall_run,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow"
             ]
+          },
+          {
+            "name": "Keyblade Graveyard - Unlock Roxas",
+            "item_count": 1,
+            "access_rules": [
+              "unlock_wall_run,^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,unlock_attraction_flow"
+            ]
           }
         ],
         "map_locations": [

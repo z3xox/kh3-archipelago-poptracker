@@ -1348,7 +1348,7 @@
         "name": "0.2 - Objective 16: Magic Weakness",
         "item_count": 1,
         "access_rules": [
-          "active_kh02_challenges,kb_oblivion"
+          "active_kh02_challenges,kb_oblivion,unlock_magic"
         ],
         "visibility_rules": [
           "active_kh02_challenges"
@@ -1420,7 +1420,8 @@
     "name": "0.2 - Destiny Islands - Bosses & Objectives",
     "visibility_rules": [
       "active_kh02_bosses",
-      "active_kh02_challenges"
+      "active_kh02_challenges",
+      "active_kh02_chests"
     ],
     "sections": [
       {
@@ -1431,6 +1432,18 @@
         ],
         "visibility_rules": [
           "active_kh02_bosses"
+        ]
+      },
+      {
+        "name": "0.2 - Unlock Aqua",
+        "item_count": 1,
+        "access_rules": [
+          "kb_oblivion"
+        ],
+        "visibility_rules": [
+          "active_kh02_bosses",
+          "active_kh02_challenges",
+          "active_kh02_chests"
         ]
       },
       {

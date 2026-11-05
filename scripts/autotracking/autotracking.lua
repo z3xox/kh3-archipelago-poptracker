@@ -475,6 +475,9 @@ OVERWORLD_SECTION_MAP = {
     ["Twilight Town - The Woods Powerwilds - Reward 2"] = "@Twilight Town - All Checks/Twilight Town - The Woods Powerwilds - Reward 2",
     ["Twilight Town - The Woods Powerwilds - Reward 3"] = "@Twilight Town - All Checks/Twilight Town - The Woods Powerwilds - Reward 3",
     -- END generated: child checks
+    ["Keyblade Graveyard - Unlock Roxas"] = "@Keyblade Graveyard - All Checks/Keyblade Graveyard - Unlock Roxas",
+    ["Re Mind - Unlock Kairi"] = "@Re Mind - All Checks/Re Mind - Unlock Kairi",
+    ["Keyblade Graveyard - Battlegate 0"] = "@Battlegates - All Checks/Keyblade Graveyard - Battlegate 0",
     -- BEGIN generated: kh02 (scripts/tools/generate_kh02_locations.py)
     ["0.2 - Castle Town - Chest DW_BOX002"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Castle Town - Chest DW_BOX002",
     ["0.2 - Castle Town - Chest DW_BOX003"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Castle Town - Chest DW_BOX003",
@@ -574,6 +577,7 @@ OVERWORLD_SECTION_MAP = {
     ["0.2 - Objective 21: Spellweaver with Full Wardrobe"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Objective 21: Spellweaver with Full Wardrobe",
     ["0.2 - Objective 22: Equip a Wardrobe Piece"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Objective 22: Equip a Wardrobe Piece",
     ["0.2 - Destiny Islands - Demon Tide"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Destiny Islands - Demon Tide",
+    ["0.2 - Unlock Aqua"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Unlock Aqua",
     ["0.2 - Objective 51: Demon Tide on Critical"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Objective 51: Demon Tide on Critical",
     -- END generated: kh02
     -- BEGIN generated: gummi space (scripts/tools/generate_space_locations.py)

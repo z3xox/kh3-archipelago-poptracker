@@ -510,6 +510,26 @@
             "shape": "diamond"
           }
         ]
+      },
+      {
+        "name": "Keyblade Graveyard - Battlegate 0",
+        "sections": [
+          {
+            "name": "Keyblade Graveyard - Battlegate 0",
+            "item_count": 1,
+            "access_rules": [
+              "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic,$portal|kb_starlight,unlock_wall_run,unlock_attraction_flow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_keyblade_graveyard",
+            "x": 314,
+            "y": 557,
+            "shape": "diamond"
+          }
+        ]
       }
     ]
   }

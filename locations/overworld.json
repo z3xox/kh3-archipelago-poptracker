@@ -3416,6 +3416,10 @@
               {
                 "name": "After collecting 333 Soras in The Final World - Reward 3",
                 "ref": "Keyblade Graveyard - Events/Keyblade Graveyard - EVENT_KEYBLADE_011 - RandomizedItem/After collecting 333 Soras in The Final World - Reward 3"
+              },
+              {
+                "name": "Keyblade Graveyard - Unlock Roxas",
+                "ref": "Keyblade Graveyard - Events/Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard: The Skein of Severance - Tower of Endings/Keyblade Graveyard - Unlock Roxas"
               }
             ],
             "map_locations": [
@@ -3656,6 +3660,10 @@
               {
                 "name": "Re Mind - Chest 9 (Small Chest, Breezy Quarter) - Song Bonus",
                 "ref": "Re Mind/Checks/Re Mind - Chest 9 (Small Chest, Breezy Quarter)/Re Mind - Chest 9 (Small Chest, Breezy Quarter) - Song Bonus"
+              },
+              {
+                "name": "Re Mind - Unlock Kairi",
+                "ref": "Re Mind/Checks/Re Mind - Story Battles/Re Mind - Unlock Kairi"
               }
             ],
             "map_locations": [
@@ -4338,6 +4346,10 @@
               {
                 "name": "Keyblade Graveyard - Battlegate 14 - The Badlands - Reward",
                 "ref": "Battlegates/Keyblade Graveyard - Battlegate 14 - The Badlands - Reward/Keyblade Graveyard - Battlegate 14 - The Badlands - Reward"
+              },
+              {
+                "name": "Keyblade Graveyard - Battlegate 0",
+                "ref": "Battlegates/Keyblade Graveyard - Battlegate 0/Keyblade Graveyard - Battlegate 0"
               }
             ],
             "map_locations": [
@@ -9963,6 +9975,10 @@
           {
             "name": "0.2 - Destiny Islands - Demon Tide",
             "ref": "0.2 - Destiny Islands - Bosses & Objectives/0.2 - Destiny Islands - Demon Tide"
+          },
+          {
+            "name": "0.2 - Unlock Aqua",
+            "ref": "0.2 - Destiny Islands - Bosses & Objectives/0.2 - Unlock Aqua"
           },
           {
             "name": "0.2 - Objective 51: Demon Tide on Critical",
