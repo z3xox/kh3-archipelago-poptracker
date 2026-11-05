@@ -1822,9 +1822,11 @@ function LoadMusicChests(slot_data)
         local mapping = chest_id and LOCATION_MAPPING[chest_id]
         if mapping then
             song = math.floor(song)
-            MOM_SONG_CHEST[song] = mapping.code
+            -- A short song list makes a song open several chests (apworld 2.0).
+            MOM_SONG_CHEST[song] = MOM_SONG_CHEST[song] or {}
+            table.insert(MOM_SONG_CHEST[song], mapping.code)
             local bonus_id = chest_id + 0x100000
-            MOM_SONG_BY_CHECK[SONG_BONUS[bonus_id] and bonus_id or chest_id] = song
+            MOM_SONG_BY_CHECK[SONG_BONUS[bonus_id] and bonus_id or chest_id] = {song = song, chest = mapping.code}
             count = count + 1
         end
     end
@@ -1956,10 +1958,20 @@ function onLocation(location_id, location_name)
         ow_section.AvailableChestCount = 0
     end)
 
-    -- The Melody of Memory song whose music chest this check belongs to.
-    local song = MOM_SONG_BY_CHECK[location_id]
-    if song and LOCATION_MAPPING[MOM_SONG_LOCATION_BASE + song] then
-        onLocation(MOM_SONG_LOCATION_BASE + song, nil)
+    -- The Melody of Memory song clears with the last music chest it opens.
+    local entry = MOM_SONG_BY_CHECK[location_id]
+    if entry then
+        MOM_SONG_BY_CHECK[location_id] = nil
+        local chests = MOM_SONG_CHEST[entry.song]
+        for i, code in ipairs(chests) do
+            if code == entry.chest then
+                table.remove(chests, i)
+                break
+            end
+        end
+        if #chests == 0 and LOCATION_MAPPING[MOM_SONG_LOCATION_BASE + entry.song] then
+            onLocation(MOM_SONG_LOCATION_BASE + entry.song, nil)
+        end
     end
 end
 

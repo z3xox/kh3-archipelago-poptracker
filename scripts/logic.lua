@@ -260,14 +260,16 @@ end
 -- Melody of Memory: song id -> code of the music chest it opens, from slot_data.
 MOM_SONG_CHEST = {}
 
--- ^$mom_song_open|<song id>: same color as the music chest it opens.
+-- ^$mom_song_open|<song id>: same color as the best music chest it still opens.
 function mom_song_open(song_id)
-    local code = MOM_SONG_CHEST[tonumber(song_id)]
-    local chest = code and Tracker:FindObjectForCode(code)
-    local level = chest and chest.AccessibilityLevel or LEVEL_NONE
-    if level >= LEVEL_NORMAL then return LEVEL_NORMAL end
-    if level == LEVEL_SEQUENCE_BREAK then return LEVEL_SEQUENCE_BREAK end
-    return LEVEL_NONE
+    local best = LEVEL_NONE
+    for _, code in ipairs(MOM_SONG_CHEST[tonumber(song_id)] or {}) do
+        local chest = Tracker:FindObjectForCode(code)
+        local level = chest and chest.AccessibilityLevel or LEVEL_NONE
+        if level >= LEVEL_NORMAL then return LEVEL_NORMAL end
+        if level == LEVEL_SEQUENCE_BREAK then best = level end
+    end
+    return best
 end
 
 -- $any_mom_song (visibility): the seed has a Melody of Memory song (ids stay below 256).
