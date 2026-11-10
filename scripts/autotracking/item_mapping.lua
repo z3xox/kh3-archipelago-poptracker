@@ -132,6 +132,11 @@ ITEM_MAPPING_BY_NAME = {
     ["Party Member: Kairi"] = { code = "party_kairi", type = "toggle" },
     ["Party Member: Roxas"] = { code = "party_roxas", type = "toggle" },
     ["Party Member: Xion"] = { code = "party_xion", type = "toggle" },
+    -- Ally rewards; each also counts as Doubleflight and Air Slide (items.json).
+    ["Playable Character: Kairi"] = { code = "pc_kairi", type = "toggle" },
+    ["Playable Character: Roxas"] = { code = "pc_roxas", type = "toggle" },
+    ["Playable Character: Aqua"] = { code = "pc_aqua", type = "toggle" },
+    ["Playable Character: Riku"] = { code = "pc_riku", type = "toggle" },
     -- Stylesanity
     ["Unlock Style: Kingdom Key"] = { code = "style_kingdom_key", type = "toggle" },
     ["Unlock Style: Shooting Star"] = { code = "style_shooting_star", type = "toggle" },

@@ -1889,6 +1889,7 @@ LOCATION_MAPPING = {
     [1263024064] = { code = "@Keyblade Graveyard - Battlegate 0/Keyblade Graveyard - Battlegate 0" },
     [1263351296] = { code = "@Re Mind - Story Battles/Re Mind - Unlock Kairi" },
     [1263351297] = { code = "@Defeat Young Xehanort, Ansem, & Xemnas in The Keyblade Graveyard: The Skein of Severance - Tower of Endings/Keyblade Graveyard - Unlock Roxas" },
+    [1263351299] = { code = "@Data Battles - Unlock Riku/Data Battles - Unlock Riku" },
     -- BEGIN generated: kh02 (scripts/tools/generate_kh02_locations.py)
     [1263350529] = { code = "@0.2 - Dark World - Objectives/0.2 - Objective 01: Defeat Shadows" },
     [1263350530] = { code = "@0.2 - Dark World - Objectives/0.2 - Objective 02: Defeat Flutterings" },

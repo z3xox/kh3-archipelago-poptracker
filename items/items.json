@@ -902,5 +902,29 @@
     "max_quantity": 10,
     "initial_quantity": 0,
     "increment": 1
+  },
+  {
+    "name": "Playable Character: Kairi",
+    "type": "toggle",
+    "codes": "pc_kairi, ability_doubleflight, ability_air_slide",
+    "img": "images/items/party/NpcExKairi.png"
+  },
+  {
+    "name": "Playable Character: Roxas",
+    "type": "toggle",
+    "codes": "pc_roxas, ability_doubleflight, ability_air_slide",
+    "img": "images/items/party/NpcExRoxas.png"
+  },
+  {
+    "name": "Playable Character: Aqua",
+    "type": "toggle",
+    "codes": "pc_aqua, ability_doubleflight, ability_air_slide",
+    "img": "images/items/party/NpcExAqua.png"
+  },
+  {
+    "name": "Playable Character: Riku",
+    "type": "toggle",
+    "codes": "pc_riku, ability_doubleflight, ability_air_slide",
+    "img": "images/items/party/NpcEx3Riku.png"
   }
 ]

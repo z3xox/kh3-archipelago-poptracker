@@ -254,6 +254,29 @@
                 "y": 463
               }
             ]
+          },
+          {
+            "name": "Data Battles - Unlock Riku",
+            "sections": [
+              {
+                "name": "Data Battles - Unlock Riku",
+                "item_count": 1,
+                "access_rules": [
+                  "^$combat|ability_block|ability_air_slide|ability_dodge_roll|cure|unlock_magic|ability_second_chance|ability_withstand_combo|ability_glide|fire|blizzard,^$combat_any|ability_counter_kick|ability_counter_slash"
+                ],
+                "visibility_rules": [
+                  "active_ally_characters"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "map_data_battles",
+                "x": 306,
+                "y": 300,
+                "shape": "diamond"
+              }
+            ]
           }
         ]
       }

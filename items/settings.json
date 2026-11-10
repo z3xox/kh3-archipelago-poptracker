@@ -415,7 +415,7 @@
     ]
   },
   {
-    "name": "0.2 Chests",
+    "name": "0.2 Enabled",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -423,38 +423,18 @@
       {
         "img": "images/items/party/Aqua.png",
         "img_mods": "saturation|0",
-        "codes": "kh02_chests_setting",
+        "codes": "kh02_enabled_setting",
         "inherit_codes": false,
-        "name": "0.2 Chests Off"
+        "name": "0.2 Off"
       },
       {
         "img": "images/items/party/Aqua.png",
-        "codes": "kh02_chests_setting, active_kh02_chests",
+        "codes": "kh02_enabled_setting, active_kh02",
         "inherit_codes": false,
-        "name": "0.2 Chests On (the 40 chests of Kingdom Hearts 0.2)"
+        "name": "0.2 Enabled (the 40 chests and 8 bosses of Kingdom Hearts 0.2)"
       }
-    ]
-  },
-  {
-    "name": "0.2 Bosses",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/items/party/Aqua.png",
-        "img_mods": "saturation|0",
-        "codes": "kh02_bosses_setting",
-        "inherit_codes": false,
-        "name": "0.2 Bosses Off"
-      },
-      {
-        "img": "images/items/party/Aqua.png",
-        "codes": "kh02_bosses_setting, active_kh02_bosses",
-        "inherit_codes": false,
-        "name": "0.2 Bosses On (the 8 story bosses of Kingdom Hearts 0.2)"
-      }
-    ]
+    ],
+    "initial_stage_idx": 1
   },
   {
     "name": "0.2 Challenges",
@@ -473,9 +453,32 @@
         "img": "images/items/party/Aqua.png",
         "codes": "kh02_challenges_setting, active_kh02_challenges",
         "inherit_codes": false,
-        "name": "0.2 Challenges On (the 51 objectives of Kingdom Hearts 0.2)"
+        "name": "0.2 Challenges On (the 51 objectives of Kingdom Hearts 0.2, with 0.2 Enabled)"
       }
-    ]
+    ],
+    "initial_stage_idx": 1
+  },
+  {
+    "name": "Ally Characters",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/party/NpcExRoxas.png",
+        "img_mods": "saturation|0",
+        "codes": "ally_characters_setting",
+        "inherit_codes": false,
+        "name": "Ally Characters Off (no Unlock checks)"
+      },
+      {
+        "img": "images/items/party/NpcExRoxas.png",
+        "codes": "ally_characters_setting, active_ally_characters",
+        "inherit_codes": false,
+        "name": "Ally Characters On (Kairi, Roxas, Riku and Aqua unlock checks)"
+      }
+    ],
+    "initial_stage_idx": 1
   },
   {
     "name": "Music Chest Count",

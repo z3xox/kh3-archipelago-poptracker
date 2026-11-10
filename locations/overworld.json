@@ -3760,6 +3760,10 @@
               {
                 "name": "Data Battles - EVENT_DATAB_013 - RandomizedItem",
                 "ref": "Radiant Garden/Data Battles/Data Battles - EVENT_DATAB_013 - RandomizedItem/Data Battles - EVENT_DATAB_013 - RandomizedItem"
+              },
+              {
+                "name": "Data Battles - Unlock Riku",
+                "ref": "Radiant Garden/Data Battles/Data Battles - Unlock Riku/Data Battles - Unlock Riku"
               }
             ],
             "map_locations": [
@@ -9993,9 +9997,7 @@
           }
         ],
         "visibility_rules": [
-          "active_kh02_bosses",
-          "active_kh02_challenges",
-          "active_kh02_chests"
+          "active_kh02"
         ]
       }
     ]

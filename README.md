@@ -13,7 +13,9 @@ Access rules follow the KH3 apworld (2.0.0): world portals (keyblades, or party
 members with Portal Unlocks), the tier-one keyblade gate of Data Battles,
 Twilight Town and Caribbean combat gates, the movement and combat requirements
 of each check, Chestsanity keyblades, Gummi space ships, and the goal items for
-the final door, with the Worlds Required of the seed.
+the final door, with the Worlds Required of the seed. Allies unlocked as
+playable characters (Kairi, Roxas, Riku, Aqua) count as Doubleflight and Air
+Slide, as in the apworld.
 
 A check that only misses combat abilities shows yellow (sequence break) instead
 of red, once its world is open and any movement it needs is collected: Block,

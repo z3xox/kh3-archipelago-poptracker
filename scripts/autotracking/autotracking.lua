@@ -477,6 +477,7 @@ OVERWORLD_SECTION_MAP = {
     -- END generated: child checks
     ["Keyblade Graveyard - Unlock Roxas"] = "@Keyblade Graveyard - All Checks/Keyblade Graveyard - Unlock Roxas",
     ["Re Mind - Unlock Kairi"] = "@Re Mind - All Checks/Re Mind - Unlock Kairi",
+    ["Data Battles - Unlock Riku"] = "@Radiant Garden - All Checks/Data Battles - Unlock Riku",
     ["Keyblade Graveyard - Battlegate 0"] = "@Battlegates - All Checks/Keyblade Graveyard - Battlegate 0",
     -- BEGIN generated: kh02 (scripts/tools/generate_kh02_locations.py)
     ["0.2 - Castle Town - Chest DW_BOX002"] = "@Kingdom Hearts 0.2 - All Checks/0.2 - Castle Town - Chest DW_BOX002",
@@ -2152,9 +2153,10 @@ function autoFill(slot_data)
     setStage("adversaries_setting", (slot_data["adversary_checks"] or 0) ~= 0 and 1 or 0)
 
     -- Kingdom Hearts 0.2 checks
-    setStage("kh02_chests_setting", (slot_data["kh02_chests"] or 0) ~= 0 and 1 or 0)
-    setStage("kh02_bosses_setting", (slot_data["kh02_bosses"] or 0) ~= 0 and 1 or 0)
+    setStage("kh02_enabled_setting", (slot_data["kh02_enabled"] or 0) ~= 0 and 1 or 0)
     setStage("kh02_challenges_setting", (slot_data["kh02_challenges"] or 0) ~= 0 and 1 or 0)
+    -- Ally Characters (seeds before this option always had the unlock checks)
+    setStage("ally_characters_setting", (slot_data["ally_characters"] or 1) ~= 0 and 1 or 0)
 
 
     -- Minigame max AP rank (0 = junk, 1..4 = D..A)
