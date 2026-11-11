@@ -8,6 +8,17 @@ A PopTracker pack for Kingdom Hearts III Archipelago randomizer.
 2. Open PopTracker and select "Kingdom Hearts III Archipelago"
 3. Connect to your AP server for auto-tracking
 
+## Apworld compatibility
+The logic changes often between apworld versions: use the pack release made for yours.
+Apworld downloads: https://ap.aesais.net/games/kingdom-hearts-iii
+
+| Pack | Apworld |
+|---|---|
+| 1.1.0-beta.1 (pre-release) | 2.0.0 beta (build shared on 2026-11-10) |
+| 1.0.1 | 1.0.0 to 1.0.2 |
+| 1.0.0 | 1.0.0 to 1.0.2 |
+| 0.4.6 | 0.16.x (alpha) |
+
 ## Logic
 Access rules follow the KH3 apworld (2.0.0): world portals (keyblades, or party
 members with Portal Unlocks), the tier-one keyblade gate of Data Battles,
