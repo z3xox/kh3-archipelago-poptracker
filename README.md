@@ -23,7 +23,8 @@ Apworld downloads: https://ap.aesais.net/games/kingdom-hearts-iii
 Access rules follow the KH3 apworld (2.0.0): world portals (keyblades, or party
 members with Portal Unlocks), the tier-one keyblade gate of Data Battles,
 Twilight Town and Caribbean combat gates, the movement and combat requirements
-of each check, Chestsanity keyblades, Gummi space ships, and the goal items for
+of each check, Chestsanity keyblades (Roxas opening Oblivion and Oathkeeper chests
+with Roxas Chestsanity), Gummi space ships, and the goal items for
 the final door, with the Worlds Required of the seed. Allies unlocked as
 playable characters (Kairi, Roxas, Riku, Aqua) count as Doubleflight and Air
 Slide, as in the apworld.

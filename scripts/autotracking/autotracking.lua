@@ -1776,6 +1776,8 @@ LUCKY_EMBLEM_SPOT_COUNT = 90
 -- Chestsanity: the keyblade each chest needs, from location_catalog.entries
 function LoadChestKeyblades(slot_data)
     CHEST_KEYBLADE = {}
+    local roxas = type(slot_data) == "table" and slot_data["roxas_chestsanity"]
+    ROXAS_CHESTSANITY = roxas == true or roxas == 1
     local catalog = type(slot_data) == "table" and slot_data["location_catalog"]
     local entries = type(catalog) == "table" and catalog["entries"] or {}
     local count = 0

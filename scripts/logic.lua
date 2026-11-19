@@ -209,12 +209,6 @@ function portal(keyblade)
     return 0
 end
 
--- $kh02_dark_world: with 0.2 enabled, the Dark World portal also needs Oblivion itself.
-function kh02_dark_world()
-    if hasCode("kb_oblivion") or not hasCode("active_kh02") then return 1 end
-    return 0
-end
-
 -- $any_portal|<keyblade>|...
 function any_portal(...)
     for _, keyblade in ipairs({...}) do
@@ -225,11 +219,15 @@ end
 
 -- Chestsanity: AP location id -> keyblade code, from slot_data.
 CHEST_KEYBLADE = {}
+-- Roxas Chestsanity: playing as Roxas opens these chests without their keyblade.
+ROXAS_CHESTSANITY = false
+local ROXAS_CHEST_KEYBLADES = { kb_oblivion = true, kb_oathkeeper = true }
 
 -- $chest_keyblade|<AP location id>
 function chest_keyblade(location_id)
     local keyblade = CHEST_KEYBLADE[tonumber(location_id)]
     if keyblade == nil or hasCode(keyblade) then return 1 end
+    if ROXAS_CHESTSANITY and ROXAS_CHEST_KEYBLADES[keyblade] and hasCode("pc_roxas") then return 1 end
     return 0
 end
 
@@ -693,7 +691,7 @@ local function goalWorldsLevel(required)
     for world, _ in pairs(COLISEUM_WORLD_COMPLETION) do
         add(coliseumWorldLevel(world))
     end
-    if hasCode("active_dark_world") and portalOpen("kb_oblivion") and kh02_dark_world() == 1 then
+    if hasCode("active_dark_world") and portalOpen("kb_oblivion") then
         add(combat("ability_block", "ability_air_slide", "ability_dodge_roll", "cure", "unlock_magic"))
     end
     if normal >= required then return LEVEL_NORMAL end

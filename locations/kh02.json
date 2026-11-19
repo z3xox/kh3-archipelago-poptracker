@@ -2,7 +2,7 @@
   {
     "name": "0.2 - Castle Town - Chests",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -157,7 +157,7 @@
   {
     "name": "0.2 - Castle Town - Demon Tower",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -187,7 +187,7 @@
         "name": "0.2 - Objective 23: Strike Streetlamps",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -197,7 +197,7 @@
         "name": "0.2 - Objective 24: Castle Town Highest Point",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -207,7 +207,7 @@
         "name": "0.2 - Objective 25: Watch the Shooting Stars",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -217,7 +217,7 @@
         "name": "0.2 - Objective 36: Demon Tower Spellweaver Finish",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -227,7 +227,7 @@
         "name": "0.2 - Objective 37: Castle Town All Treasures",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -237,7 +237,7 @@
         "name": "0.2 - Objective 38: Castle Town Secret",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -256,7 +256,7 @@
   {
     "name": "0.2 - The World Within - Chests",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -475,7 +475,7 @@
   {
     "name": "0.2 - The World Within - Phantom Aqua I",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -498,7 +498,7 @@
   {
     "name": "0.2 - The World Within - Phantom Aqua II",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -521,7 +521,7 @@
   {
     "name": "0.2 - The World Within - Phantom Aqua III",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -551,7 +551,7 @@
         "name": "0.2 - Objective 26: Clear the Mirror Rooms",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -561,7 +561,7 @@
         "name": "0.2 - Objective 27: Dark Room Battle",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -571,7 +571,7 @@
         "name": "0.2 - Objective 28: Find the True Treasure",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -581,7 +581,7 @@
         "name": "0.2 - Objective 29: Collect the White Gems",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -591,7 +591,7 @@
         "name": "0.2 - Objective 30: Connect the Mirror Pattern",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -601,7 +601,7 @@
         "name": "0.2 - Objective 31: Phantom Aqua Spin",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -611,7 +611,7 @@
         "name": "0.2 - Objective 39: World Within All Treasures",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -621,7 +621,7 @@
         "name": "0.2 - Objective 40: World Within Secret",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -631,7 +631,7 @@
         "name": "0.2 - Objective 41: Phantom Aqua No Damage",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -641,7 +641,7 @@
         "name": "0.2 - Objective 42: Boss Rush",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -651,7 +651,7 @@
         "name": "0.2 - Objective 43: Collect All Zodiac Relics",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -670,7 +670,7 @@
   {
     "name": "0.2 - Forest of Thorns - Chests",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -879,7 +879,7 @@
   {
     "name": "0.2 - Forest of Thorns - Darkside I",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -902,7 +902,7 @@
   {
     "name": "0.2 - Forest of Thorns - Darkside II",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -932,7 +932,7 @@
         "name": "0.2 - Objective 32: Defeat the Darksides",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -942,7 +942,7 @@
         "name": "0.2 - Objective 33: Destroy Thorns",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -952,7 +952,7 @@
         "name": "0.2 - Objective 34: Find All Flowers",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -962,7 +962,7 @@
         "name": "0.2 - Objective 44: Forest of Thorns All Treasures",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion,unlock_magic"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion,unlock_magic"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -972,7 +972,7 @@
         "name": "0.2 - Objective 45: Forest of Thorns Secret",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -982,7 +982,7 @@
         "name": "0.2 - Objective 46: Forest Rail No Damage",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -992,7 +992,7 @@
         "name": "0.2 - Objective 47: Darkside No Damage",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1011,7 +1011,7 @@
   {
     "name": "0.2 - Depths of Darkness - Chests",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -1118,7 +1118,7 @@
   {
     "name": "0.2 - Depths of Darkness - Demon Tower",
     "access_rules": [
-      "active_kh02,kb_oblivion"
+      "active_kh02,$portal|kb_oblivion"
     ],
     "visibility_rules": [
       "active_kh02"
@@ -1148,7 +1148,7 @@
         "name": "0.2 - Objective 35: Fight Alongside Mickey",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1158,7 +1158,7 @@
         "name": "0.2 - Objective 48: Depths of Darkness All Treasures",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1168,7 +1168,7 @@
         "name": "0.2 - Objective 49: Depths of Darkness Secret",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1178,7 +1178,7 @@
         "name": "0.2 - Objective 50: Demon Tower Team Finish",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1204,7 +1204,7 @@
         "name": "0.2 - Objective 01: Defeat Shadows",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1214,7 +1214,7 @@
         "name": "0.2 - Objective 02: Defeat Flutterings",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1224,7 +1224,7 @@
         "name": "0.2 - Objective 03: Defeat Flame Cores",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1234,7 +1234,7 @@
         "name": "0.2 - Objective 04: Defeat Neoshadows",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1244,7 +1244,7 @@
         "name": "0.2 - Objective 05: Defeat Water Cores",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1254,7 +1254,7 @@
         "name": "0.2 - Objective 06: Defeat Earth Cores",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1264,7 +1264,7 @@
         "name": "0.2 - Objective 07: Reach Level 60",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1274,7 +1274,7 @@
         "name": "0.2 - Objective 08: Reach Level 70",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1284,7 +1284,7 @@
         "name": "0.2 - Objective 09: Reach Level 80",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1294,7 +1294,7 @@
         "name": "0.2 - Objective 10: Counter Blast Finish",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1304,7 +1304,7 @@
         "name": "0.2 - Objective 11: Firaga Finish",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1314,7 +1314,7 @@
         "name": "0.2 - Objective 12: Blizzaga Finish",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1324,7 +1324,7 @@
         "name": "0.2 - Objective 13: Thundaga Finish",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1334,7 +1334,7 @@
         "name": "0.2 - Objective 14: Ice Rail Slide",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1344,7 +1344,7 @@
         "name": "0.2 - Objective 15: Ice Breaker",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1354,7 +1354,7 @@
         "name": "0.2 - Objective 16: Magic Weakness",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion,unlock_magic"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion,unlock_magic"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1364,7 +1364,7 @@
         "name": "0.2 - Objective 17: Aerial Combat",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1374,7 +1374,7 @@
         "name": "0.2 - Objective 18: Excellent Shotlocks",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1384,7 +1384,7 @@
         "name": "0.2 - Objective 19: Style Change Kills",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1394,7 +1394,7 @@
         "name": "0.2 - Objective 20: Spellweaver Finish",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1404,7 +1404,7 @@
         "name": "0.2 - Objective 21: Spellweaver with Full Wardrobe",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1414,7 +1414,7 @@
         "name": "0.2 - Objective 22: Equip a Wardrobe Piece",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
@@ -1434,7 +1434,7 @@
         "name": "0.2 - Destiny Islands - Demon Tide",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,kb_oblivion"
+          "active_kh02,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02"
@@ -1444,7 +1444,7 @@
         "name": "0.2 - Unlock Aqua",
         "item_count": 1,
         "access_rules": [
-          "kb_oblivion"
+          "$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_ally_characters"
@@ -1454,7 +1454,7 @@
         "name": "0.2 - Objective 51: Demon Tide on Critical",
         "item_count": 1,
         "access_rules": [
-          "active_kh02,active_kh02_challenges,kb_oblivion"
+          "active_kh02,active_kh02_challenges,$portal|kb_oblivion"
         ],
         "visibility_rules": [
           "active_kh02,active_kh02_challenges"
