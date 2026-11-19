@@ -10,10 +10,11 @@ A PopTracker pack for Kingdom Hearts III Archipelago randomizer.
 
 ## Apworld compatibility
 The logic changes often between apworld versions: use the pack release made for yours.
-Apworld downloads: https://ap.aesais.net/games/kingdom-hearts-iii
+Apworld downloads: https://ap.aesais.net/games/kingdom-hearts-iii (betas: https://github.com/ashandarei/KH3APWorld/releases)
 
 | Pack | Apworld |
 |---|---|
+| 1.1.0-beta.2 (pre-release) | 2.0.0-beta.3 |
 | 1.1.0-beta.1 (pre-release) | 2.0.0 beta (build shared on 2026-11-10) |
 | 1.0.1 | 1.0.0 to 1.0.2 |
 | 1.0.0 | 1.0.0 to 1.0.2 |
